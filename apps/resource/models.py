@@ -20,11 +20,11 @@ class GwyjzwzzzyDb(models.Model):
     total_way = models.CharField(max_length=40, null=True, blank=True, verbose_name="总途径", db_column="总途径")
     import_way = models.CharField(max_length=40, null=True, blank=True, verbose_name="引入途径", db_column="引入途径")
     import_year = models.CharField(max_length=4, null=True, blank=True, verbose_name="引入年份", db_column="引入年份")
-    import_time = models.CharField(max_length=6, null=True, blank=True, verbose_name="引入时间", db_column="引入时间")
+    import_time = models.CharField(max_length=100, null=True, blank=True, verbose_name="引入时间", db_column="引入时间")
     distribution_unit = models.CharField(max_length=60, null=True, blank=True, verbose_name="分发单位", db_column="分发单位")
     feature = models.CharField(max_length=40, null=True, blank=True, verbose_name="特征特性", db_column="特征特性")
     Save_unit = models.CharField(max_length=40, null=True, blank=True, verbose_name="保存单位", db_column="保存单位")
-    comment = models.CharField(max_length=20, null=True, blank=True, verbose_name="备注", db_column="备注")
+    comment = models.CharField(max_length=100, null=True, blank=True, verbose_name="备注", db_column="备注")
 
     class Meta:
         db_table = "国外引进作物种质资源数据库"
@@ -1059,7 +1059,7 @@ class SdzzzzhxzzDb(models.Model):
     yaqinaihan = models.IntegerField(blank=True, null=True, db_column='芽期耐寒', verbose_name='芽期耐寒')
     miaoqinaihan = models.IntegerField(blank=True, null=True, db_column='苗期耐旱', verbose_name='苗期耐旱')
     naiyan = models.IntegerField(blank=True, null=True, db_column='耐盐', verbose_name='耐盐')
-    province = models.CharField(max_length=20, blank=True, null=True, db_column='路径', verbose_name='路径')
+    pathway = models.CharField(max_length=20, blank=True, null=True, db_column='路径', verbose_name='路径')
     daoqu = models.CharField(max_length=20, blank=True, null=True, db_column='稻区', verbose_name='稻区')
 
     class Meta:
