@@ -165,7 +165,7 @@ class ZgnytdkcDb(models.Model):
         return self.zhname
 
 
-class ZgnyyhswDb_tupian(models.Model):
+class ZgnyyhswDb_image(models.Model):
     """
     中国农业有害生物数据库_图片
     """
@@ -703,7 +703,6 @@ class ZgjjzwbdbhDb(models.Model):
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
-
     class Meta:
         db_table = '中国经济作物病毒病害数据库'
         verbose_name = db_table
@@ -765,7 +764,6 @@ class ZgjjzwxjbhDb(models.Model):
     english = models.CharField(max_length=80, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
-
 
     class Meta:
         db_table = '中国经济作物细菌病害数据库'
@@ -846,7 +844,7 @@ class ZgzynywhYc(models.Model):
         return self.title
 
 
-class Zgzynywhyc_tupian(models.Model):
+class Zgzynywhyc_image(models.Model):
     """
     中国重要农业文化遗产_图片
     """
@@ -995,7 +993,7 @@ class XmxcpzjqxpDb(models.Model):
     chimeikx = models.CharField(max_length=20, blank=True, null=True, db_column='赤霉病抗性', verbose_name='赤霉病抗性')
     gengfuyebj = models.CharField(max_length=20, blank=True, null=True, db_column='根腐叶病级', verbose_name='根腐叶病级')
     gengfuhuibj = models.CharField(max_length=20, blank=True, null=True, db_column='根腐穗病级', verbose_name='根腐穗病级')
-    wenkubingbj= models.CharField(max_length=20, blank=True, null=True, db_column='纹枯病病级', verbose_name='纹枯病病级')
+    wenkubingbj = models.CharField(max_length=20, blank=True, null=True, db_column='纹枯病病级', verbose_name='纹枯病病级')
     wenkubingpj = models.CharField(max_length=20, blank=True, null=True, db_column='纹枯病评价', verbose_name='纹枯病评价')
     changguanybj = models.CharField(max_length=20, blank=True, null=True, db_column='长管蚜病级', verbose_name='长管蚜病级')
     changguanypj = models.CharField(max_length=20, blank=True, null=True, db_column='长管蚜评价', verbose_name='长管蚜评价')
