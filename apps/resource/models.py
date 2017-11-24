@@ -27,6 +27,7 @@ class GwyjzwzzzyDb(models.Model):
     comment = models.CharField(max_length=100, null=True, blank=True, verbose_name="备注", db_column="备注")
 
     class Meta:
+        managed = False
         db_table = "国外引进作物种质资源数据库"
         verbose_name = "国外引进作物种质资源数据库"
         verbose_name_plural = verbose_name
@@ -49,6 +50,7 @@ class XzqhList(models.Model):
     alias = models.CharField(max_length=10, null=True, blank=True, verbose_name='别名', db_column="别名")
 
     class Meta:
+        managed = False
         db_table = "行政区划清单"
         verbose_name = "行政区划清单"
         verbose_name_plural = verbose_name
@@ -68,6 +70,7 @@ class NcpjgDb(models.Model):
     datetime = models.DateField(verbose_name='日期', null=False, db_column="日期")
 
     class Meta:
+        managed = False
         db_table = "农产品价格行情数据库"
         verbose_name = "农产品价格行情数据库"
         verbose_name_plural = verbose_name
@@ -86,6 +89,7 @@ class NcpjgHqzdcode(models.Model):
     category = models.CharField(max_length=40, null=False, blank=True, verbose_name='父级', db_column="父级")
 
     class Meta:
+        managed = False
         db_table = "农产品价格行情字段编码"
         verbose_name = "农产品价格行情字段编码"
         verbose_name_plural = verbose_name
@@ -104,6 +108,7 @@ class AgriIndex(models.Model):
     year = models.IntegerField(null=False, verbose_name='年份', db_column="年份")
 
     class Meta:
+        managed = False
         db_table = "农业统计指标"
         verbose_name = "农业统计指标"
         verbose_name_plural = verbose_name
@@ -129,6 +134,7 @@ class MytxDb(models.Model):
     get_day = models.CharField(max_length=10, null=True, blank=True, verbose_name="资源采集日", db_column="资源采集日")
 
     class Meta:
+        managed = False
         db_table = "农作物名、优、特新品种数据库"
         verbose_name = "农作物名、优、特新品种数据库"
         verbose_name_plural = verbose_name
@@ -157,6 +163,7 @@ class ZgnytdkcDb(models.Model):
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
 
     class Meta:
+        managed = False
         db_table = '中国农业天敌昆虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -174,6 +181,7 @@ class ZgnyyhswDb_image(models.Model):
     link = models.CharField(max_length=60, blank=True, null=True, db_column='链接', verbose_name="链接")
 
     class Meta:
+        managed = False
         db_table = '中国农业有害生物数据库_图片'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -201,6 +209,7 @@ class ZgnttdzzDb(models.Model):
     xuename = models.CharField(max_length=60, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
 
     class Meta:
+        managed = False
         db_table = '中国农田天敌蜘蛛数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -232,6 +241,7 @@ class ZgnthsDb(models.Model):
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
 
     class Meta:
+        managed = False
         db_table = '中国农田害鼠数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -260,6 +270,7 @@ class ZgyclschcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国叶菜类蔬菜害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -296,6 +307,7 @@ class ZgwlrqwswDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
 
     class Meta:
+        managed = False
         db_table = '中国外来入侵微生物数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -331,6 +343,7 @@ class ZgwlrqkcDb(models.Model):
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
 
     class Meta:
+        managed = False
         db_table = '中国外来入侵昆虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -365,6 +378,7 @@ class ZgwlrqzwDb(models.Model):
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
 
     class Meta:
+        managed = False
         db_table = '中国外来入侵植物数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -393,6 +407,7 @@ class ZghdzcDb(models.Model):
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
 
     class Meta:
+        managed = False
         db_table = '中国旱地杂草数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -421,6 +436,7 @@ class ZghlzwhcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国旱粮作物害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -449,6 +465,7 @@ class ZggslschcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国果菜类蔬菜害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -477,6 +494,7 @@ class ZggjhcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国柑桔害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -505,6 +523,7 @@ class ZgmhhcDb(models.Model):
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国棉花害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -533,6 +552,7 @@ class ZgstzcDb(models.Model):
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
 
     class Meta:
+        managed = False
         db_table = '中国水田杂草数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -561,6 +581,7 @@ class ZgsdhcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国水稻害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -582,6 +603,7 @@ class ZgtsNcp(models.Model):
     history = models.TextField(blank=True, null=True, db_column='历史', verbose_name='历史')
 
     class Meta:
+        managed = False
         db_table = '中国特色农产品'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -612,6 +634,7 @@ class ZglszwbdbhDb(models.Model):
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
     class Meta:
+        managed = False
         db_table = '中国粮食作物病毒病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -643,6 +666,7 @@ class ZglszwzjbhDb(models.Model):
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
 
     class Meta:
+        managed = False
         db_table = '中国粮食作物真菌病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -673,6 +697,7 @@ class ZglszwxjbhDb(models.Model):
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
     class Meta:
+        managed = False
         db_table = '中国粮食作物细菌病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -704,6 +729,7 @@ class ZgjjzwbdbhDb(models.Model):
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
     class Meta:
+        managed = False
         db_table = '中国经济作物病毒病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -735,6 +761,7 @@ class ZgjjzwzjbhDb(models.Model):
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
     class Meta:
+        managed = False
         db_table = '中国经济作物真菌病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -766,6 +793,7 @@ class ZgjjzwxjbhDb(models.Model):
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
     class Meta:
+        managed = False
         db_table = '中国经济作物细菌病害数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -794,6 +822,7 @@ class ZgpgtlhcDb(models.Model):
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
+        managed = False
         db_table = '中国苹果、桃、梨害虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -813,6 +842,7 @@ class ZgxzqhDb(models.Model):
     level = models.CharField(max_length=10, blank=True, null=True, db_column='位置级别', verbose_name='位置级别')
 
     class Meta:
+        managed = False
         managed = False
         db_table = '中国行政区划数据库'
         unique_together = (('name', 'adcode', 'center'),)
@@ -836,6 +866,7 @@ class ZgzynywhYc(models.Model):
     datetime = models.CharField(max_length=20, blank=True, null=True, db_column='日期', verbose_name='日期')
 
     class Meta:
+        managed = False
         db_table = '中国重要农业文化遗产'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -854,6 +885,7 @@ class Zgzynywhyc_image(models.Model):
     path = models.CharField(max_length=50, blank=True, null=True, db_column='路径', verbose_name='路径')
 
     class Meta:
+        managed = False
         db_table = '中国重要农业文化遗产_图片'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -871,6 +903,7 @@ class ZwwzfbDb(models.Model):
     path = models.CharField(max_length=80, blank=True, null=True, db_column='路径', verbose_name='路径')
 
     class Meta:
+        managed = False
         db_table = '作物物种分布数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -902,6 +935,7 @@ class XmzzzzhxzzDb(models.Model):
     province = models.CharField(max_length=30, blank=True, null=True, db_column='省份', verbose_name='省份')
 
     class Meta:
+        managed = False
         db_table = '小麦种质资源核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -928,6 +962,7 @@ class XmxpDb(models.Model):
     comment = models.CharField(max_length=40, null=True, blank=True, verbose_name="备注", db_column="备注")
 
     class Meta:
+        managed = False
         db_table = '小麦系谱数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1007,6 +1042,7 @@ class XmxcpzjqxpDb(models.Model):
     qu = models.CharField(max_length=20, blank=True, null=True, db_column='区', verbose_name='区')
 
     class Meta:
+        managed = False
         db_table = '小麦育成品种及其系谱数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1067,6 +1103,7 @@ class SdzzzzhxzzDb(models.Model):
     daoqu = models.CharField(max_length=20, blank=True, null=True, db_column='稻区', verbose_name='稻区')
 
     class Meta:
+        managed = False
         db_table = '水稻种质资源核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1125,6 +1162,7 @@ class SdycpzjqpxDb(models.Model):
     yp_type = models.CharField(max_length=10, blank=True, null=True, db_column='样品类型', verbose_name='样品类型')
 
     class Meta:
+        managed = False
         db_table = '水稻育成品种及其系谱数据库'
         unique_together = (('totalcode', 'name'),)
         verbose_name = db_table
@@ -1144,6 +1182,7 @@ class YmxpzbhDb(models.Model):
     source = models.CharField(max_length=120, blank=True, null=True,  db_column='来源', verbose_name='来源')
 
     class Meta:
+        managed = False
         db_table = '玉米新品种保护数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1193,6 +1232,7 @@ class YmzzzzhxzzDb(models.Model):
     lysine = models.CharField(max_length=20, blank=True, null=True, db_column='赖氨酸', verbose_name='赖氨酸')
 
     class Meta:
+        managed = False
         db_table = '玉米种质资源核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1209,6 +1249,7 @@ class Xdnysfq(models.Model):
     href = models.CharField(max_length=80, blank=True, null=True, db_column='链接', verbose_name='链接')
 
     class Meta:
+        managed = False
         db_table = '现代农业示范区'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1232,6 +1273,8 @@ class ZwyyzyzzDb(models.Model):
     unit = models.CharField(max_length=30, blank=True, null=True, db_column='联系单位', verbose_name='联系单位')
 
     class Meta:
+        managed = False
+
         db_table = '作物优异资源种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name

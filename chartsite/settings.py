@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.users.apps.UsersConfig',
     'apps.resource.apps.ResourceConfig',
+    'apps.special.apps.SpecialConfig',
     'DjangoUeditor',
     'crispy_forms',
     'xadmin',
