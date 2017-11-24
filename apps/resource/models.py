@@ -843,7 +843,6 @@ class ZgxzqhDb(models.Model):
 
     class Meta:
         managed = False
-        managed = False
         db_table = '中国行政区划数据库'
         unique_together = (('name', 'adcode', 'center'),)
         verbose_name = db_table
