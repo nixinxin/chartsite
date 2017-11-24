@@ -40,13 +40,13 @@ class XzqhList(models.Model):
     行政区划清单
     """
     id = models.IntegerField(auto_created=True, null=False, primary_key=True, default=1)
-    province = models.CharField(max_length=30, null=True, blank=True, verbose_name='省份', db_column="省份")
-    city = models.CharField(max_length=30, null=True, blank=True, verbose_name='城市', db_column="城市")
-    county = models.CharField(max_length=30, null=True, blank=True, verbose_name='区县', db_column="区县")
+    province = models.CharField(max_length=20, null=True, blank=True, verbose_name='省份', db_column="省份")
+    city = models.CharField(max_length=20, null=True, blank=True, verbose_name='城市', db_column="城市")
+    county = models.CharField(max_length=20, null=True, blank=True, verbose_name='区县', db_column="区县")
     provincecode = models.IntegerField(null=True, blank=True, verbose_name='省份编码', db_column="省份编码")
     citycode = models.IntegerField(null=True, blank=True, verbose_name='城市编码', db_column="城市编码")
     countycode = models.IntegerField(null=True, blank=True, verbose_name='区县编码', db_column="区县编码")
-    alias = models.CharField(max_length=20, null=True, blank=True, verbose_name='别名', db_column="别名")
+    alias = models.CharField(max_length=10, null=True, blank=True, verbose_name='别名', db_column="别名")
 
     class Meta:
         db_table = "行政区划清单"
