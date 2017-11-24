@@ -117,15 +117,15 @@ class MytxDb(models.Model):
     """
     农作物名、优、特新品种数据库
     """
-    category = models.CharField(max_length=20, null=True, blank=True, verbose_name="作物种类", db_column="作物种类")
+    category = models.CharField(max_length=20, null=True, blank=True, verbose_name="作物类别", db_column="作物类别")
     brands = models.CharField(max_length=20, null=True, blank=True, verbose_name="作物品种", db_column="作物品种")
-    name = models.CharField(max_length=40, primary_key=True, null=False, verbose_name="品种名称", db_column="品种名称")
+    name = models.CharField(max_length=40, primary_key=True, null=False, verbose_name="作物名称", db_column="作物名称")
     desc = models.TextField(verbose_name='基本情况', null=True, blank=True, db_column="基本情况")
     feature = models.TextField(verbose_name='特征特性', null=True, blank=True, db_column="特征特性")
     raiser = models.CharField(max_length=80,  null=True, blank=True, verbose_name="培育者", db_column="培育者")
     location_T = models.TextField(verbose_name='地区及技术', null=True, blank=True, db_column="地区及技术")
     brands_category = models.CharField(max_length=20, null=True, blank=True, verbose_name="品种类别", db_column="品种类别")
-    examine = models.CharField(max_length=20, null=True, blank=True, verbose_name="审定情况", db_column='审定情况')
+    examine = models.TextField(null=True, blank=True, verbose_name="审查情况", db_column='审查情况')
     get_day = models.CharField(max_length=10, null=True, blank=True, verbose_name="资源采集日", db_column="资源采集日")
 
     class Meta:
@@ -142,7 +142,7 @@ class ZgnytdkcDb(models.Model):
     中国农业天敌昆虫数据库
     """
     id = models.IntegerField(primary_key=True)
-    function_class = models.CharField(max_length=20, blank=True, null=True,  verbose_name="功能级别", db_column="功能级别")
+    function_class = models.CharField(max_length=20, blank=True, null=True,  verbose_name="功能类别", db_column="功能类别")
     jizhu_insect = models.TextField(blank=True, null=True, db_column='寄主昆虫', verbose_name="寄主昆虫")
     jizhu_hazard = models.CharField(max_length=40, blank=True, null=True, db_column='寄主危害作物', verbose_name="寄主危害作物")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
@@ -153,7 +153,7 @@ class ZgnytdkcDb(models.Model):
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
+    xuename = models.CharField(max_length=90, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
 
     class Meta:
@@ -187,7 +187,7 @@ class ZgnttdzzDb(models.Model):
     中国农田天敌蜘蛛数据库
     """
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
-    function_class = models.CharField(max_length=20, blank=True, null=True, db_column="功能级别", verbose_name="功能级别")
+    function_class = models.CharField(max_length=20, blank=True, null=True, db_column="功能类别", verbose_name="功能类别")
     jizhu_insect = models.TextField(blank=True, null=True, db_column='寄主昆虫', verbose_name="寄主昆虫")
     jizhu_hazard = models.CharField(max_length=40, blank=True, null=True, db_column='寄主危害作物', verbose_name="寄主危害作物")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
@@ -198,7 +198,7 @@ class ZgnttdzzDb(models.Model):
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
+    xuename = models.CharField(max_length=60, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
 
     class Meta:
         db_table = '中国农田天敌蜘蛛数据库'
@@ -217,7 +217,7 @@ class ZgnthsDb(models.Model):
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
-    alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
+    alias = models.CharField(max_length=40, blank=True, null=True, db_column='别名', verbose_name='别名')
     feature = models.TextField(blank=True, null=True, db_column='生物学特征', verbose_name="生物学特征")
     hazard_feature = models.TextField(blank=True, null=True, db_column='危害特点', verbose_name="危害特点")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
@@ -310,7 +310,7 @@ class ZgwlrqkcDb(models.Model):
     """
     id = models.IntegerField(primary_key=True)
     rqsjddd = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name="入侵时间及地点")
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
     hazard_feature = models.TextField(blank=True, null=True, db_column='危害特点', verbose_name="危害特点")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
@@ -343,13 +343,13 @@ class ZgwlrqzwDb(models.Model):
     """
     中国外来入侵植物数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(primary_key=True, db_column='编号', verbose_name='编号')
     ruqintl = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name='入侵时间及地点')
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     alias = models.CharField(max_length=40, blank=True, null=True, db_column='别名', verbose_name='别名')
     hazard_feature = models.TextField(blank=True, null=True, db_column='危害特点', verbose_name="危害特点")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特征及发生消长规律', verbose_name='生物学特征及发生消长规律')
     gang = models.CharField(max_length=20, blank=True, null=True, db_column='纲', verbose_name="纲")
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
@@ -385,7 +385,7 @@ class ZghdzcDb(models.Model):
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     shu = models.CharField(max_length=20, blank=True, null=True, db_column='属', verbose_name="属")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
-    govern_way = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    govern_way = models.TextField(blank=True, null=True, db_column='综合治理策略', verbose_name='综合治理策略')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.TextField(blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
@@ -414,7 +414,7 @@ class ZghlzwhcDb(models.Model):
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特性及发生消长规律', verbose_name='生物学特性及发生消长规律')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.TextField(blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
@@ -442,7 +442,7 @@ class ZggslschcDb(models.Model):
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特性及发生消长规律', verbose_name='生物学特性及发生消长规律')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=100, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
@@ -462,7 +462,7 @@ class ZggjhcDb(models.Model):
     中国柑桔害虫数据库
     """
     id = models.IntegerField(primary_key=True)
-    enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
+    enemy = models.TextField(blank=True, null=True, db_column='天敌', verbose_name='天敌')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
@@ -470,9 +470,9 @@ class ZggjhcDb(models.Model):
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特性及发生消长规律', verbose_name='生物学特性及发生消长规律')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
+    xuename = models.CharField(max_length=80, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
@@ -502,7 +502,7 @@ class ZgmhhcDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=80, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
     class Meta:
         db_table = '中国棉花害虫数据库'
@@ -554,7 +554,7 @@ class ZgsdhcDb(models.Model):
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特性及发生消长规律', verbose_name='生物学特性及发生消长规律')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=70, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
@@ -606,7 +606,7 @@ class ZglszwbdbhDb(models.Model):
     byfldw = models.CharField(max_length=60, blank=True, null=True, db_column='病原分类地位', verbose_name='病原分类地位')
     byxttz = models.TextField(blank=True, null=True, db_column='病原形态特征', verbose_name='病原形态特征')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
@@ -638,7 +638,7 @@ class ZglszwzjbhDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
 
@@ -661,14 +661,14 @@ class ZglszwxjbhDb(models.Model):
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
     disease_type = models.CharField(max_length=20, blank=True, null=True, db_column='病害类型', verbose_name='病害类型')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
-    by_zhname = models.TextField(max_length=60, blank=True, null=True, db_column='病原中文名', verbose_name='病原中文名')
-    by_xuename = models.TextField( blank=True, null=True, db_column='病原拉丁学名', verbose_name='病原拉丁学名')
+    by_zhname = models.CharField(max_length=60, blank=True, null=True, db_column='病原中文名', verbose_name='病原中文名')
+    by_xuename = models.TextField(blank=True, null=True, db_column='病原拉丁学名', verbose_name='病原拉丁学名')
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
     byfldw = models.CharField(max_length=60, blank=True, null=True, db_column='病原分类地位', verbose_name='病原分类地位')
     byxttz = models.TextField(blank=True, null=True, db_column='病原形态特征', verbose_name='病原形态特征')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     alias = models.CharField(max_length=40, blank=True, null=True, db_column='别名', verbose_name='别名')
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
 
@@ -691,14 +691,14 @@ class ZgjjzwbdbhDb(models.Model):
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
     disease_type = models.CharField(max_length=30, blank=True, null=True, db_column='病害类型', verbose_name='病害类型')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
-    by_zhname = models.TextField(max_length=60, blank=True, null=True, db_column='病原中文名', verbose_name='病原中文名')
+    by_zhname = models.CharField(max_length=60, blank=True, null=True, db_column='病原中文名', verbose_name='病原中文名')
     by_xuename = models.TextField(blank=True, null=True, db_column='病原拉丁学名', verbose_name='病原拉丁学名')
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
     byfldw = models.CharField(max_length=30, blank=True, null=True, db_column='病原分类地位', verbose_name='病原分类地位')
     byxttz = models.TextField(blank=True, null=True, db_column='病原形态特征', verbose_name='病原形态特征')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     english = models.CharField(max_length=60, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
@@ -730,7 +730,7 @@ class ZgjjzwzjbhDb(models.Model):
     byfldw = models.CharField(max_length=30, blank=True, null=True, db_column='病原分类地位', verbose_name='病原分类地位')
     byxttz = models.TextField(blank=True, null=True, db_column='病原形态特征', verbose_name='病原形态特征')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    control_way = models.TextField(blank=True, null=True, db_column='控制方法', verbose_name="控制方法")
+    control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     english = models.CharField(max_length=80, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
@@ -789,7 +789,7 @@ class ZgpgtlhcDb(models.Model):
     mu = models.CharField(max_length=20, blank=True, null=True, db_column='目', verbose_name="目")
     ke = models.CharField(max_length=20, blank=True, null=True, db_column='科', verbose_name="科")
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
-    desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    desc = models.TextField(blank=True, null=True, db_column='生物学特性及发生消长规律', verbose_name='生物学特性及发生消长规律')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=70, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
@@ -808,13 +808,14 @@ class ZgxzqhDb(models.Model):
     """
     中国行政区划数据库
     """
-    citycode = models.IntegerField(blank=True, null=True, verbose_name='城市编码')
-    adcode = models.CharField(max_length=6,  verbose_name='地址编码')
-    name = models.CharField(primary_key=True, max_length=20, verbose_name='位置名称')
-    center = models.CharField(max_length=30, verbose_name='中心坐标')
-    level = models.CharField(max_length=10, blank=True, null=True, verbose_name='位置级别')
+    citycode = models.IntegerField(blank=True, null=True, db_column='城市编码', verbose_name='城市编码')
+    adcode = models.CharField(primary_key=True, max_length=6, db_column='地址编码',  verbose_name='地址编码')
+    name = models.CharField(max_length=20, primary_key=True, db_column='位置名称', verbose_name='位置名称')
+    center = models.CharField(max_length=30, primary_key=True, db_column='中心坐标', verbose_name='中心坐标')
+    level = models.CharField(max_length=10, blank=True, null=True, db_column='位置级别', verbose_name='位置级别')
 
     class Meta:
+        managed = False
         db_table = '中国行政区划数据库'
         unique_together = (('name', 'adcode', 'center'),)
         verbose_name = db_table
@@ -833,11 +834,16 @@ class ZgzynywhYc(models.Model):
     content = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
     link = models.CharField(max_length=80, blank=True, null=True, db_column='链接', verbose_name='链接')
     source = models.CharField(max_length=40, blank=True, null=True, db_column='来源', verbose_name='来源')
-    dianjishu = models.CharField(max_length=10, blank=True, null=True, db_column='点击数', verbose_name='点击数')
+    clicks = models.CharField(max_length=10, blank=True, null=True, db_column='点击次数', verbose_name='点击次数')
     datetime = models.CharField(max_length=20, blank=True, null=True, db_column='日期', verbose_name='日期')
 
     class Meta:
         db_table = '中国重要农业文化遗产'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.title
 
 
 class Zgzynywhyc_tupian(models.Model):
@@ -996,7 +1002,7 @@ class XmxcpzjqxpDb(models.Model):
     erchayabj = models.CharField(max_length=20, blank=True, null=True, db_column='二叉蚜病级', verbose_name='二叉蚜病级')
     erchayapj = models.CharField(max_length=20, blank=True, null=True, db_column='二叉蚜评价', verbose_name='二叉蚜评价')
     other = models.CharField(max_length=20, blank=True, null=True, db_column='其它', verbose_name='其它')
-    province = models.CharField(max_length=20, blank=True, null=True, db_column='路径', verbose_name='路径')
+    province = models.CharField(max_length=20, blank=True, null=True, db_column='省份', verbose_name='省份')
     yptype = models.CharField(max_length=20, blank=True, null=True, db_column='样品类型', verbose_name='样品类型')
     yuanchan = models.CharField(max_length=20, blank=True, null=True, db_column='原产', verbose_name='原产')
     category = models.CharField(max_length=20, blank=True, null=True, db_column='种类', verbose_name='种类')
@@ -1076,11 +1082,11 @@ class SdycpzjqpxDb(models.Model):
     水稻育成品种及其系谱数据库
     """
     kucode = models.CharField(max_length=10, blank=True, null=True, db_column='库编号', verbose_name='库编号')
-    totalcode = models.CharField(primary_key=True, max_length=10)
+    totalcode = models.CharField(primary_key=True, max_length=10, db_column='统一编号', verbose_name='统一编号')
     name = models.CharField(max_length=40, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
-    translanted_name = models.CharField(max_length=40, blank=True, null=True, db_column='路径', verbose_name='路径')
+    translanted_name = models.CharField(max_length=40, blank=True, null=True, db_column='译名', verbose_name='译名')
     ke = models.CharField(max_length=30, blank=True, null=True, db_column='科', verbose_name='科')
-    shu = models.CharField(max_length=30, blank=True, null=True, db_column='属', verbose_name='属于')
+    shu = models.CharField(max_length=30, blank=True, null=True, db_column='属', verbose_name='属')
     xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     xuanyu_unit = models.CharField(max_length=40, blank=True, null=True, db_column='选育单位', verbose_name='选育单位')
     means_group = models.CharField(max_length=60, blank=True, null=True, db_column='方法及组合', verbose_name='方法及组合')
@@ -1135,9 +1141,9 @@ class YmxpzbhDb(models.Model):
     玉米新品种保护数据库
     """
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=20, blank=True, null=True, verbose_name='品种名称')
-    daibiao_breed = models.CharField(max_length=60, blank=True, null=True, verbose_name='代表品种')
-    source = models.CharField(max_length=120, blank=True, null=True, verbose_name='来源')
+    name = models.CharField(max_length=20, blank=True, null=True,  db_column='品种名称', verbose_name='品种名称')
+    daibiao_breed = models.CharField(max_length=60, blank=True, null=True,  db_column='代表品种', verbose_name='代表品种')
+    source = models.CharField(max_length=120, blank=True, null=True,  db_column='来源', verbose_name='来源')
 
     class Meta:
         db_table = '玉米新品种保护数据库'
@@ -1202,7 +1208,7 @@ class Xdnysfq(models.Model):
     现代农业示范区
     """
     title = models.CharField(max_length=30, blank=True, null=True, db_column='标题', verbose_name='标题')
-    href = models.CharField(max_length=80, blank=True, null=True, db_column='路径', verbose_name='路径')
+    href = models.CharField(max_length=80, blank=True, null=True, db_column='链接', verbose_name='链接')
 
     class Meta:
         db_table = '现代农业示范区'
@@ -1213,3 +1219,24 @@ class Xdnysfq(models.Model):
         return self.title
 
 
+class ZwyyzyzzDb(models.Model):
+    """
+    作物优异资源种质数据库
+    """
+    name = models.CharField(primary_key=True, max_length=40, db_column='种质名称', verbose_name='种质名称')
+    xiaolei = models.CharField(max_length=20, blank=True, null=True, db_column='种质小类', verbose_name='种质小类')
+    dalei = models.CharField(max_length=20, blank=True, null=True, db_column='种质大类', verbose_name='种质大类')
+    type = models.CharField(max_length=60, blank=True, null=True, db_column='种质类型', verbose_name='种质类型')
+    source = models.TextField(blank=True, null=True, db_column='种质来源', verbose_name='种质来源')
+    shape = models.TextField(blank=True, null=True, db_column='优异性状', verbose_name='优异性状')
+    values = models.TextField(blank=True, null=True, db_column='利用价值', verbose_name='利用价值')
+    evaluate_class = models.CharField(max_length=10, blank=True, null=True, db_column='评定等级', verbose_name='评定等级')
+    unit = models.CharField(max_length=30, blank=True, null=True, db_column='联系单位', verbose_name='联系单位')
+
+    class Meta:
+        db_table = '作物优异资源种质数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.name
