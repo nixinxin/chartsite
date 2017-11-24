@@ -125,7 +125,7 @@ class MytxDb(models.Model):
     raiser = models.CharField(max_length=80,  null=True, blank=True, verbose_name="培育者", db_column="培育者")
     location_T = models.TextField(verbose_name='地区及技术', null=True, blank=True, db_column="地区及技术")
     brands_category = models.CharField(max_length=20, null=True, blank=True, verbose_name="品种类别", db_column="品种类别")
-    examine = models.CharField(max_length=255, null=True, blank=True, verbose_name="审定情况", db_column='审定情况')
+    examine = models.CharField(max_length=20, null=True, blank=True, verbose_name="审定情况", db_column='审定情况')
     get_day = models.CharField(max_length=10, null=True, blank=True, verbose_name="资源采集日", db_column="资源采集日")
 
     class Meta:
@@ -433,8 +433,8 @@ class ZggslschcDb(models.Model):
     """
     中国果菜类蔬菜害虫数据库
     """
-    enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     id = models.IntegerField(primary_key=True)
+    enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
@@ -444,7 +444,7 @@ class ZggslschcDb(models.Model):
     major_hazard = models.TextField(blank=True, null=True, db_column='主要危害作物', verbose_name="主要危害作物")
     desc = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
-    xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
+    xuename = models.CharField(max_length=100, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
 
@@ -1175,18 +1175,18 @@ class YmzzzzhxzzDb(models.Model):
     huihangshu = models.CharField(max_length=20, blank=True, null=True, db_column='穗行数', verbose_name='穗行数')
     qianlizhong = models.CharField(max_length=6, blank=True, null=True, db_column='千粒重', verbose_name='千粒重')
     location = models.CharField(max_length=20, blank=True, null=True, db_column='地点', verbose_name='地点')
-    bozhongday = models.CharField(max_length=255, blank=True, null=True, db_column='播种日期', verbose_name='播种日期')
-    zhuxing = models.CharField(max_length=255, blank=True, null=True, db_column='株型', verbose_name='株型')
-    dzlz = models.CharField(max_length=255, blank=True, null=True, db_column='单株粒重', verbose_name='单株粒重')
-    chuzilv = models.CharField(max_length=255, blank=True, null=True, db_column='出籽率', verbose_name='出籽率')
-    dabanbing = models.CharField(max_length=255, blank=True, null=True, db_column='大斑病', verbose_name='大斑病')
-    xiaobanbing = models.CharField(max_length=255, blank=True, null=True, db_column='小斑病', verbose_name='小斑病')
-    heihuibing = models.CharField(max_length=255, blank=True, null=True, db_column='黑穗病', verbose_name='黑穗病')
-    huayebing = models.CharField(max_length=255, blank=True, null=True, db_column='花叶病', verbose_name='花叶病')
-    cudanbai = models.CharField(max_length=255, blank=True, null=True, db_column='粗蛋白', verbose_name='粗蛋白')
-    cuzhifang = models.CharField(max_length=255, blank=True, null=True, db_column='粗脂肪', verbose_name='粗脂肪')
-    starch = models.CharField(max_length=255, blank=True, null=True, db_column='总淀粉', verbose_name='总淀粉')
-    lysine = models.CharField(max_length=255, blank=True, null=True, db_column='赖氨酸', verbose_name='赖氨酸')
+    bozhongday = models.CharField(max_length=20, blank=True, null=True, db_column='播种日期', verbose_name='播种日期')
+    zhuxing = models.CharField(max_length=20, blank=True, null=True, db_column='株型', verbose_name='株型')
+    dzlz = models.CharField(max_length=20, blank=True, null=True, db_column='单株粒重', verbose_name='单株粒重')
+    chuzilv = models.CharField(max_length=20, blank=True, null=True, db_column='出籽率', verbose_name='出籽率')
+    dabanbing = models.CharField(max_length=20, blank=True, null=True, db_column='大斑病', verbose_name='大斑病')
+    xiaobanbing = models.CharField(max_length=20, blank=True, null=True, db_column='小斑病', verbose_name='小斑病')
+    heihuibing = models.CharField(max_length=20, blank=True, null=True, db_column='黑穗病', verbose_name='黑穗病')
+    huayebing = models.CharField(max_length=20, blank=True, null=True, db_column='花叶病', verbose_name='花叶病')
+    cudanbai = models.CharField(max_length=20, blank=True, null=True, db_column='粗蛋白', verbose_name='粗蛋白')
+    cuzhifang = models.CharField(max_length=20, blank=True, null=True, db_column='粗脂肪', verbose_name='粗脂肪')
+    starch = models.CharField(max_length=20, blank=True, null=True, db_column='总淀粉', verbose_name='总淀粉')
+    lysine = models.CharField(max_length=20, blank=True, null=True, db_column='赖氨酸', verbose_name='赖氨酸')
 
     class Meta:
         db_table = '玉米种质资源核心种质数据库'
