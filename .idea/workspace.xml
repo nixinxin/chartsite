@@ -1,14 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/apps/resource/models.py" line="371" />
     <bookmark url="file://$PROJECT_DIR$/data_dispose/test1.py" line="15" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_resource/chartsite.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/filters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0002_auto_20171127_1137.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0003_auto_20171127_1140.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0004_auto_20171127_2032.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0005_yearbooks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0006_auto_20171202_1629.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20171127_1137.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0003_auto_20171127_1140.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0004_auto_20171127_2032.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/signals.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/filters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171126_2235.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171206_1531.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20171205_2136.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20171205_2140.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20171206_1708.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/permissions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/weibo_login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/amazon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/angel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/aol.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/appsfuel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/arcgis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/asana.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/azuread.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/base.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/battlenet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/beats.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/behance.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/belgiumeid.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/bitbucket.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/box.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/changetip.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/classlink.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/clef.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coding.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coinbase.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coursera.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dailymotion.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/deezer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/digitalocean.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/disqus.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/docker.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/douban.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dribbble.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/drip.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dropbox.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/echosign.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/edmodo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/email.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/eveonline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/evernote.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/exacttarget.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/facebook.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fedora.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fitbit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/five_hundred_px.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/flickr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/foursquare.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gae.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github_enterprise.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gitlab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclio.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclioeu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google_openidconnect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/instagram.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/itembase.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/jawbone.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/justgiving.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/kakao.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/khanacademy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lastfm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/launchpad.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/legacy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/line.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/linkedin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/live.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/livejournal.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/loginradius.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lyft.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailchimp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailru.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mapmyfitness.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mediawiki.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/meetup.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mendeley.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mineid.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mixcloud.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/monzo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/moves.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nationbuilder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/naver.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ngpvan.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nk.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/oauth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/odnoklassniki.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id_connect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/openstreetmap.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orbi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orcid.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/patreon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/persona.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pinterest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pixelpin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pocket.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/podio.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/professionali.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pushbullet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qiita.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qq.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/quizlet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/rdio.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/readability.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/reddit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/runkeeper.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/salesforce.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/saml.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shimmering.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shopify.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/sketchfab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/skyrock.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/slack.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/soundcloud.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/spotify.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stackoverflow.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/steam.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stocktwits.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/strava.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stripe.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/suse.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/taobao.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/thisismyjam.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/trello.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tripit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tumblr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twilio.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/uber.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ubuntu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/udata.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/untappd.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/upwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/username.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vend.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vimeo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vk.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weibo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weixin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/withings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/wunderlist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/xing.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yahoo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yammer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yandex.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/zotero.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/exceptions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/debug.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/disconnect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/mail.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/partial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/social_auth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/user.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/storage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/store.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/strategy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/actions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_associate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_disconnect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/base.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/data/saml_response.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/legacy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/oauth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id_connect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_amazon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_angel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_arcgis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_asana.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_azuread.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_behance.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_bitbucket.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_box.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_broken.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_clef.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coinbase.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coursera.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dailymotion.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_deezer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_digitalocean.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_disqus.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dribbble.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_drip.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dropbox.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dummy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_edmodo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_email.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_evernote.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_facebook.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_fitbit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_five_hundred_px.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_flickr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_foursquare.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github_enterprise.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_gitlab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_google.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_instagram.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_itembase.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_kakao.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_khanacademy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_linkedin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_live.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_livejournal.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_lyft.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mapmyfitness.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mineid.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mixcloud.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_nationbuilder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_naver.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_ngpvan.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_orbi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_patreon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_pinterest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_podio.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_qiita.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_quizlet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_readability.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_reddit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_saml.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_sketchfab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_skyrock.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_slack.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_soundcloud.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_spotify.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stackoverflow.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_steam.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stocktwits.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_strava.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stripe.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_taobao.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_thisismyjam.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tripit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tumblr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_uber.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_udata.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_upwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_username.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_vk.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_wunderlist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_xing.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yahoo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yammer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yandex.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_zotero.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/pipeline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-base.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-pypy.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/strategy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_exceptions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_pipeline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_storage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/testkey.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/permissions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/weibo_login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/yunpian.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/chartsite.iml" afterPath="$PROJECT_DIR$/.idea/chartsite.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171124_0957.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171124_0957.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0004_auto_20171124_1003.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0005_auto_20171124_1004.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0006_auto_20171124_1011.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0007_auto_20171124_1012.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0008_auto_20171124_1017.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0009_auto_20171124_1019.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0010_auto_20171124_1021.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0011_auto_20171124_1025.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0012_auto_20171124_1025.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0013_delete_zgjjzwbdbhdb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0014_zgjjzwbdbhdb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0015_auto_20171124_1027.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0016_auto_20171124_1029.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0017_auto_20171124_1041.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0018_auto_20171124_1043.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0019_auto_20171124_1045.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0020_auto_20171124_1049.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0021_auto_20171124_1050.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0022_auto_20171124_1051.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0023_auto_20171124_1052.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0024_auto_20171124_1056.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0025_auto_20171124_1056.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0026_auto_20171124_1058.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0027_auto_20171124_1059.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0028_auto_20171124_1108.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0029_auto_20171124_1113.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0030_auto_20171124_1113.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0031_zwyyzyzzdb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0032_auto_20171124_1135.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0033_delete_zwyyzyzzdb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0034_zwyyzyzzdb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0035_auto_20171124_1420.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0036_auto_20171124_1422.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0037_auto_20171124_1604.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/tests.py" afterPath="$PROJECT_DIR$/apps/resource/tests.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
+      <change beforePath="$PROJECT_DIR$/apps/special/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/apps.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/special/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" afterPath="$PROJECT_DIR$/apps/users/tests.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,81 +386,22 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chartsite$models.coverage" NAME="models Coverage Results" MODIFIED="1511236457127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/resource" />
     <SUITE FILE_PATH="coverage/chartsite$test.coverage" NAME="test Coverage Results" MODIFIED="1511525291136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chartsite$tests.coverage" NAME="tests Coverage Results" MODIFIED="1511238860907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/users" />
+    <SUITE FILE_PATH="coverage/chartsite$settings.coverage" NAME="settings Coverage Results" MODIFIED="1512549287666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chartsite" />
     <SUITE FILE_PATH="coverage/chartsite$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1511513751084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/resource" />
     <SUITE FILE_PATH="coverage/chartsite$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1511528146068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chartsite$tests.coverage" NAME="tests Coverage Results" MODIFIED="1511238860907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/users" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/special/models.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/resource/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="217" column="26" lean-forward="true" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
-              <folding>
-                <element signature="e#97#2272#0" expanded="false" />
-                <element signature="e#2309#3323#0" expanded="false" />
-                <element signature="e#3359#4107#0" expanded="false" />
-                <element signature="e#4149#4689#0" expanded="false" />
-                <element signature="e#5403#6676#0" expanded="false" />
-                <element signature="e#6715#8327#0" expanded="false" />
-                <element signature="e#8372#8909#0" expanded="false" />
-                <element signature="e#8948#10512#0" expanded="false" />
-                <element signature="e#10549#12430#0" expanded="false" />
-                <element signature="e#12470#14070#0" expanded="false" />
-                <element signature="e#14110#16469#0" expanded="false" />
-                <element signature="e#16508#18778#0" expanded="false" />
-                <element signature="e#18817#21020#0" expanded="false" />
-                <element signature="e#21057#22625#0" expanded="false" />
-                <element signature="e#22664#24230#0" expanded="false" />
-                <element signature="e#24270#25870#0" expanded="false" />
-                <element signature="e#25907#27484#0" expanded="false" />
-                <element signature="e#27521#29111#0" expanded="false" />
-                <element signature="e#29148#30732#0" expanded="false" />
-                <element signature="e#30769#32346#0" expanded="false" />
-                <element signature="e#32382#33285#0" expanded="false" />
-                <element signature="e#33326#35151#0" expanded="false" />
-                <element signature="e#35192#37020#0" expanded="false" />
-                <element signature="e#37061#38888#0" expanded="false" />
-                <element signature="e#38929#40862#0" expanded="false" />
-                <element signature="e#40903#42834#0" expanded="false" />
-                <element signature="e#42875#44824#0" expanded="false" />
-                <element signature="e#44863#46448#0" expanded="false" />
-                <element signature="e#47310#48242#0" expanded="false" />
-                <element signature="e#48954#49484#0" expanded="false" />
-                <element signature="e#49525#51424#0" expanded="false" />
-                <element signature="e#51459#52868#0" expanded="false" />
-                <element signature="e#52909#60203#0" expanded="false" />
-                <element signature="e#60244#65018#0" expanded="false" />
-                <element signature="e#65059#69933#0" expanded="false" />
-                <element signature="e#69971#70567#0" expanded="false" />
-                <element signature="e#70608#74588#0" expanded="false" />
-                <element signature="e#74414#74539#0" expanded="false" />
-                <element signature="e#74624#75045#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +417,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unique_together = (('id', '统一编号'),)</find>
-      <find>unique</find>
-      <find>left</find>
-      <find>_fi</find>
       <find>支</find>
       <find>_f</find>
       <find>laansu</find>
@@ -140,6 +443,10 @@
       <find>, '统一编号'</find>
       <find>'品种名称</find>
       <find>, '品种名称'</find>
+      <find>行政</find>
+      <find>优异资源综合评价数据库_玉米</find>
+      <find>county</find>
+      <find>区县</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,21 +458,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/chartsite/urls.py" />
         <option value="$PROJECT_DIR$/apps/users/apps.py" />
         <option value="$PROJECT_DIR$/apps/resource/apps.py" />
         <option value="$PROJECT_DIR$/apps/users/tests.py" />
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/apps/resource/tests.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/one.py" />
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/two.py" />
-        <option value="$PROJECT_DIR$/chartsite/settings.py" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/apps/special/models.py" />
         <option value="$PROJECT_DIR$/apps/resource/models.py" />
+        <option value="$PROJECT_DIR$/apps/operation/models.py" />
+        <option value="$PROJECT_DIR$/apps/resource/adminx.py" />
+        <option value="$PROJECT_DIR$/chartsite/settings.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/users/models.py" />
       </list>
     </option>
   </component>
@@ -176,8 +485,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="651" />
-    <option name="width" value="1276" />
+    <option name="x" value="499" />
+    <option name="width" value="1428" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -217,6 +526,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,34 +538,33 @@
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="data_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="E:/envs/chartsite/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\users" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation\migrations" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart\migrations" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zero\Desktop\chartsite\apps" />
+      <recent name="C:\Users\zero\Desktop\chartsite" />
+      <recent name="C:\Users\zero\Desktop\extra_apps\chartsite" />
       <recent name="G:\pycharm\chartsite\data_dispose" />
       <recent name="G:\pycharm\chartsite\apps" />
-      <recent name="G:\pycharm\chartsite" />
-      <recent name="G:\pycharm\chartsite\extra_apps" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\pycharm\chartsite\data_resource" />
-      <recent name="G:\pycharm\chartsite\apps" />
-      <recent name="G:\pycharm\chartsite\extra_apps" />
-      <recent name="G:\pycharm\chartsite\apps\users" />
-      <recent name="G:\pycharm\chartsite\db_tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,47 +579,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1">
-    <configuration name="chartsite" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="chartsite.settings" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chartsite" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-    </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Django server.chartsite">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/resource" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chartsite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="chartsite" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/resource/models.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chartsite/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,6 +616,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,6 +635,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,6 +654,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -382,22 +673,46 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="chartsite" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="chartsite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\envs\chartsite\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chartsite" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/admin" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.chartsite" />
-      <item index="1" class="java.lang.String" itemvalue="Python.models" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tests (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tests (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="5" class="java.lang.String" itemvalue="Python.settings" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tests (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.models" />
+        <item index="0" class="java.lang.String" itemvalue="Python.settings" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tests (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -475,28 +790,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="651" y="0" width="1276" height="1047" extended-state="0" />
+    <frame x="499" y="0" width="1428" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03160271" sideWeight="0.50875276" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38324022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38261852" sideWeight="0.50438595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38261852" sideWeight="0.49561402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34457237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4503386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.49269006" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19298245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23351955" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38826185" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -546,11 +863,6 @@
           <line>15</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/apps/special/models.py</url>
-          <line>4622</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -564,229 +876,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#2272#0" expanded="false" />
-            <element signature="e#2309#3323#0" expanded="false" />
-            <element signature="e#3359#4107#0" expanded="false" />
-            <element signature="e#4149#4689#0" expanded="false" />
-            <element signature="e#5403#6676#0" expanded="false" />
-            <element signature="e#6715#8327#0" expanded="false" />
-            <element signature="e#8372#8909#0" expanded="false" />
-            <element signature="e#8948#10512#0" expanded="false" />
-            <element signature="e#10549#12430#0" expanded="false" />
-            <element signature="e#12470#14070#0" expanded="false" />
-            <element signature="e#14110#16469#0" expanded="false" />
-            <element signature="e#16508#18778#0" expanded="false" />
-            <element signature="e#18817#21020#0" expanded="false" />
-            <element signature="e#21057#22625#0" expanded="false" />
-            <element signature="e#22664#24230#0" expanded="false" />
-            <element signature="e#24270#25870#0" expanded="false" />
-            <element signature="e#25907#27484#0" expanded="false" />
-            <element signature="e#27521#29111#0" expanded="false" />
-            <element signature="e#29148#30732#0" expanded="false" />
-            <element signature="e#30769#32346#0" expanded="false" />
-            <element signature="e#32382#33285#0" expanded="false" />
-            <element signature="e#33326#35151#0" expanded="false" />
-            <element signature="e#35192#37020#0" expanded="false" />
-            <element signature="e#37061#38888#0" expanded="false" />
-            <element signature="e#38929#40862#0" expanded="false" />
-            <element signature="e#40903#42834#0" expanded="false" />
-            <element signature="e#42875#44824#0" expanded="false" />
-            <element signature="e#44863#46448#0" expanded="false" />
-            <element signature="e#47310#48242#0" expanded="false" />
-            <element signature="e#48954#49484#0" expanded="false" />
-            <element signature="e#49525#51424#0" expanded="false" />
-            <element signature="e#51459#52868#0" expanded="false" />
-            <element signature="e#52909#60203#0" expanded="false" />
-            <element signature="e#60244#65018#0" expanded="false" />
-            <element signature="e#65059#69933#0" expanded="false" />
-            <element signature="e#69971#70567#0" expanded="false" />
-            <element signature="e#70608#74588#0" expanded="false" />
-            <element signature="e#74414#74539#0" expanded="false" />
-            <element signature="e#74624#75045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#2272#0" expanded="false" />
-            <element signature="e#2309#3323#0" expanded="false" />
-            <element signature="e#3359#4107#0" expanded="false" />
-            <element signature="e#4149#4689#0" expanded="false" />
-            <element signature="e#5403#6676#0" expanded="false" />
-            <element signature="e#6715#8327#0" expanded="false" />
-            <element signature="e#8372#8909#0" expanded="false" />
-            <element signature="e#8948#10512#0" expanded="false" />
-            <element signature="e#10549#12430#0" expanded="false" />
-            <element signature="e#12470#14070#0" expanded="false" />
-            <element signature="e#14110#16469#0" expanded="false" />
-            <element signature="e#16508#18778#0" expanded="false" />
-            <element signature="e#18817#21020#0" expanded="false" />
-            <element signature="e#21057#22625#0" expanded="false" />
-            <element signature="e#22664#24230#0" expanded="false" />
-            <element signature="e#24270#25870#0" expanded="false" />
-            <element signature="e#25907#27484#0" expanded="false" />
-            <element signature="e#27521#29111#0" expanded="false" />
-            <element signature="e#29148#30732#0" expanded="false" />
-            <element signature="e#30769#32346#0" expanded="false" />
-            <element signature="e#32382#33285#0" expanded="false" />
-            <element signature="e#33326#35151#0" expanded="false" />
-            <element signature="e#35192#37020#0" expanded="false" />
-            <element signature="e#37061#38888#0" expanded="false" />
-            <element signature="e#38929#40862#0" expanded="false" />
-            <element signature="e#40903#42834#0" expanded="false" />
-            <element signature="e#42875#44824#0" expanded="false" />
-            <element signature="e#44863#46448#0" expanded="false" />
-            <element signature="e#47310#48242#0" expanded="false" />
-            <element signature="e#48954#49484#0" expanded="false" />
-            <element signature="e#49525#51424#0" expanded="false" />
-            <element signature="e#51459#52868#0" expanded="false" />
-            <element signature="e#52909#60203#0" expanded="false" />
-            <element signature="e#60244#65018#0" expanded="false" />
-            <element signature="e#65059#69933#0" expanded="false" />
-            <element signature="e#69971#70567#0" expanded="false" />
-            <element signature="e#70608#74588#0" expanded="false" />
-            <element signature="e#74414#74539#0" expanded="false" />
-            <element signature="e#74624#75045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#2272#0" expanded="false" />
-            <element signature="e#2309#3323#0" expanded="false" />
-            <element signature="e#3359#4107#0" expanded="false" />
-            <element signature="e#4149#4689#0" expanded="false" />
-            <element signature="e#5403#6676#0" expanded="false" />
-            <element signature="e#6715#8327#0" expanded="false" />
-            <element signature="e#8372#8909#0" expanded="false" />
-            <element signature="e#8948#10512#0" expanded="false" />
-            <element signature="e#10549#12430#0" expanded="false" />
-            <element signature="e#12470#14070#0" expanded="false" />
-            <element signature="e#14110#16469#0" expanded="false" />
-            <element signature="e#16508#18778#0" expanded="false" />
-            <element signature="e#18817#21020#0" expanded="false" />
-            <element signature="e#21057#22625#0" expanded="false" />
-            <element signature="e#22664#24230#0" expanded="false" />
-            <element signature="e#24270#25870#0" expanded="false" />
-            <element signature="e#25907#27484#0" expanded="false" />
-            <element signature="e#27521#29111#0" expanded="false" />
-            <element signature="e#29148#30732#0" expanded="false" />
-            <element signature="e#30769#32346#0" expanded="false" />
-            <element signature="e#32382#33285#0" expanded="false" />
-            <element signature="e#33326#35151#0" expanded="false" />
-            <element signature="e#35192#37020#0" expanded="false" />
-            <element signature="e#37061#38888#0" expanded="false" />
-            <element signature="e#38929#40862#0" expanded="false" />
-            <element signature="e#40903#42834#0" expanded="false" />
-            <element signature="e#42875#44824#0" expanded="false" />
-            <element signature="e#44863#46448#0" expanded="false" />
-            <element signature="e#47310#48242#0" expanded="false" />
-            <element signature="e#48954#49484#0" expanded="false" />
-            <element signature="e#49525#51424#0" expanded="false" />
-            <element signature="e#51459#52868#0" expanded="false" />
-            <element signature="e#52909#60203#0" expanded="false" />
-            <element signature="e#60244#65018#0" expanded="false" />
-            <element signature="e#65059#69933#0" expanded="false" />
-            <element signature="e#69971#70567#0" expanded="false" />
-            <element signature="e#70608#74588#0" expanded="false" />
-            <element signature="e#74414#74539#0" expanded="false" />
-            <element signature="e#74624#75045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#2272#0" expanded="false" />
-            <element signature="e#2309#3323#0" expanded="false" />
-            <element signature="e#3359#4107#0" expanded="false" />
-            <element signature="e#4149#4689#0" expanded="false" />
-            <element signature="e#5403#6676#0" expanded="false" />
-            <element signature="e#6715#8327#0" expanded="false" />
-            <element signature="e#8372#8909#0" expanded="false" />
-            <element signature="e#8948#10512#0" expanded="false" />
-            <element signature="e#10549#12430#0" expanded="false" />
-            <element signature="e#12470#14070#0" expanded="false" />
-            <element signature="e#14110#16469#0" expanded="false" />
-            <element signature="e#16508#18778#0" expanded="false" />
-            <element signature="e#18817#21020#0" expanded="false" />
-            <element signature="e#21057#22625#0" expanded="false" />
-            <element signature="e#22664#24230#0" expanded="false" />
-            <element signature="e#24270#25870#0" expanded="false" />
-            <element signature="e#25907#27484#0" expanded="false" />
-            <element signature="e#27521#29111#0" expanded="false" />
-            <element signature="e#29148#30732#0" expanded="false" />
-            <element signature="e#30769#32346#0" expanded="false" />
-            <element signature="e#32382#33285#0" expanded="false" />
-            <element signature="e#33326#35151#0" expanded="false" />
-            <element signature="e#35192#37020#0" expanded="false" />
-            <element signature="e#37061#38888#0" expanded="false" />
-            <element signature="e#38929#40862#0" expanded="false" />
-            <element signature="e#40903#42834#0" expanded="false" />
-            <element signature="e#42875#44824#0" expanded="false" />
-            <element signature="e#44863#46448#0" expanded="false" />
-            <element signature="e#47310#48242#0" expanded="false" />
-            <element signature="e#48954#49484#0" expanded="false" />
-            <element signature="e#49525#51424#0" expanded="false" />
-            <element signature="e#51459#52868#0" expanded="false" />
-            <element signature="e#52909#60203#0" expanded="false" />
-            <element signature="e#60244#65018#0" expanded="false" />
-            <element signature="e#65059#69933#0" expanded="false" />
-            <element signature="e#69971#70567#0" expanded="false" />
-            <element signature="e#70608#74588#0" expanded="false" />
-            <element signature="e#74414#74539#0" expanded="false" />
-            <element signature="e#74624#75045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/envs/chartsite/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -815,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -838,13 +920,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作物物种分布数据库.csv" />
-    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -867,19 +942,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171124_0954.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1026">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,9 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="4897" column="8" lean-forward="false" selection-start-line="4897" selection-start-column="8" selection-end-line="4897" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,10 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#212#1373#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,59 +996,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_dispose/two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="8364" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8370" selection-end-column="0" />
-          <folding>
-            <element signature="e#378#417#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one.py">
+    <entry file="file://$PROJECT_DIR$/data_dispose/two.py" />
+    <entry file="file://$PROJECT_DIR$/one.py" />
+    <entry file="file://$PROJECT_DIR$/data_dispose/models.py" />
+    <entry file="file://$PROJECT_DIR$/data_resource/chartsite.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_dispose/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158061">
-          <caret line="8370" column="0" lean-forward="false" selection-start-line="8370" selection-start-column="0" selection-end-line="8370" selection-end-column="0" />
-          <folding>
-            <element signature="e#378#417#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/special/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_resource/chartsite.sql">
+    <entry file="file://$PROJECT_DIR$/apps/chart/views.py" />
+    <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/special/models.py" />
+    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/chart/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/chart/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/chart/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/chart/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/pycharm/ChartSite - 副本/chartsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/chart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1000,49 +1165,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="217" column="26" lean-forward="true" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <caret line="31" column="95" lean-forward="false" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <caret line="32" column="96" lean-forward="false" selection-start-line="32" selection-start-column="96" selection-end-line="32" selection-end-column="96" />
+          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171206_1531.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#97#2272#0" expanded="false" />
-            <element signature="e#2309#3323#0" expanded="false" />
-            <element signature="e#3359#4107#0" expanded="false" />
-            <element signature="e#4149#4689#0" expanded="false" />
-            <element signature="e#5403#6676#0" expanded="false" />
-            <element signature="e#6715#8327#0" expanded="false" />
-            <element signature="e#8372#8909#0" expanded="false" />
-            <element signature="e#8948#10512#0" expanded="false" />
-            <element signature="e#10549#12430#0" expanded="false" />
-            <element signature="e#12470#14070#0" expanded="false" />
-            <element signature="e#14110#16469#0" expanded="false" />
-            <element signature="e#16508#18778#0" expanded="false" />
-            <element signature="e#18817#21020#0" expanded="false" />
-            <element signature="e#21057#22625#0" expanded="false" />
-            <element signature="e#22664#24230#0" expanded="false" />
-            <element signature="e#24270#25870#0" expanded="false" />
-            <element signature="e#25907#27484#0" expanded="false" />
-            <element signature="e#27521#29111#0" expanded="false" />
-            <element signature="e#29148#30732#0" expanded="false" />
-            <element signature="e#30769#32346#0" expanded="false" />
-            <element signature="e#32382#33285#0" expanded="false" />
-            <element signature="e#33326#35151#0" expanded="false" />
-            <element signature="e#35192#37020#0" expanded="false" />
-            <element signature="e#37061#38888#0" expanded="false" />
-            <element signature="e#38929#40862#0" expanded="false" />
-            <element signature="e#40903#42834#0" expanded="false" />
-            <element signature="e#42875#44824#0" expanded="false" />
-            <element signature="e#44863#46448#0" expanded="false" />
-            <element signature="e#47310#48242#0" expanded="false" />
-            <element signature="e#48954#49484#0" expanded="false" />
-            <element signature="e#49525#51424#0" expanded="false" />
-            <element signature="e#51459#52868#0" expanded="false" />
-            <element signature="e#52909#60203#0" expanded="false" />
-            <element signature="e#60244#65018#0" expanded="false" />
-            <element signature="e#65059#69933#0" expanded="false" />
-            <element signature="e#69971#70567#0" expanded="false" />
-            <element signature="e#70608#74588#0" expanded="false" />
-            <element signature="e#74414#74539#0" expanded="false" />
-            <element signature="e#74624#75045#0" expanded="false" />
+            <element signature="e#41#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
