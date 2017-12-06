@@ -4,377 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/data_dispose/test1.py" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/filters.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0002_auto_20171127_1137.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0003_auto_20171127_1140.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0004_auto_20171127_2032.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0005_yearbooks.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0006_auto_20171202_1629.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20171127_1137.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0003_auto_20171127_1140.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0004_auto_20171127_2032.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/signals.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/filters.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171126_2235.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171206_1531.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20171205_2136.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20171205_2140.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20171206_1708.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/permissions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/weibo_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/amazon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/angel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/aol.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/appsfuel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/arcgis.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/asana.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/azuread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/battlenet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/beats.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/behance.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/belgiumeid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/bitbucket.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/box.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/changetip.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/classlink.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/clef.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coding.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coinbase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coursera.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dailymotion.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/deezer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/digitalocean.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/disqus.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/docker.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/douban.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dribbble.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/drip.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dropbox.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/echosign.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/edmodo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/email.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/eveonline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/evernote.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/exacttarget.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/facebook.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fedora.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fitbit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/five_hundred_px.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/flickr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/foursquare.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gae.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github_enterprise.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gitlab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclioeu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google_openidconnect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/instagram.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/itembase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/jawbone.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/justgiving.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/kakao.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/khanacademy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lastfm.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/launchpad.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/legacy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/line.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/linkedin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/live.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/livejournal.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/loginradius.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lyft.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailchimp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailru.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mapmyfitness.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mediawiki.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/meetup.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mendeley.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mineid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mixcloud.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/monzo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/moves.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nationbuilder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/naver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ngpvan.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/oauth.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/odnoklassniki.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id_connect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/openstreetmap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orbi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orcid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/patreon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/persona.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pinterest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pixelpin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pocket.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/podio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/professionali.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pushbullet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qiita.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qq.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/quizlet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/rdio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/readability.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/reddit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/runkeeper.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/salesforce.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/saml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shimmering.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shopify.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/sketchfab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/skyrock.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/slack.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/soundcloud.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/spotify.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stackoverflow.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/steam.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stocktwits.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/strava.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stripe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/suse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/taobao.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/thisismyjam.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/trello.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tripit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tumblr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twilio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/uber.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ubuntu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/udata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/untappd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/upwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/username.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vend.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vimeo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weibo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weixin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/withings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/wunderlist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/xing.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yahoo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yammer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yandex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/zotero.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/exceptions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/debug.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/disconnect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/mail.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/partial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/social_auth.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/user.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/storage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/store.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/strategy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/actions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_associate.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_disconnect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/data/saml_response.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/legacy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/oauth.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id_connect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_amazon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_angel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_arcgis.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_asana.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_azuread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_behance.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_bitbucket.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_box.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_broken.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_clef.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coinbase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coursera.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dailymotion.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_deezer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_digitalocean.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_disqus.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dribbble.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_drip.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dropbox.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dummy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_edmodo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_email.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_evernote.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_facebook.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_fitbit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_five_hundred_px.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_flickr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_foursquare.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github_enterprise.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_gitlab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_google.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_instagram.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_itembase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_kakao.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_khanacademy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_linkedin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_live.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_livejournal.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_lyft.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mapmyfitness.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mineid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mixcloud.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_nationbuilder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_naver.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_ngpvan.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_orbi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_patreon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_pinterest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_podio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_qiita.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_quizlet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_readability.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_reddit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_saml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_sketchfab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_skyrock.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_slack.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_soundcloud.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_spotify.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stackoverflow.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_steam.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stocktwits.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_strava.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stripe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_taobao.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_thisismyjam.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tripit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tumblr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_uber.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_udata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_upwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_username.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_vk.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_wunderlist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_xing.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yahoo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yammer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yandex.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_zotero.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/pipeline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-base.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-pypy.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python3.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/strategy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_exceptions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_pipeline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_storage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/testkey.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/permissions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/weibo_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/yunpian.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/chartsite.iml" afterPath="$PROJECT_DIR$/.idea/chartsite.iml" />
+    <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="更改了后天管理页面语言显示问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171124_0957.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171124_0957.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0004_auto_20171124_1003.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0005_auto_20171124_1004.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0006_auto_20171124_1011.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0007_auto_20171124_1012.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0008_auto_20171124_1017.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0009_auto_20171124_1019.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0010_auto_20171124_1021.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0011_auto_20171124_1025.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0012_auto_20171124_1025.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0013_delete_zgjjzwbdbhdb.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0014_zgjjzwbdbhdb.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0015_auto_20171124_1027.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0016_auto_20171124_1029.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0017_auto_20171124_1041.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0018_auto_20171124_1043.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0019_auto_20171124_1045.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0020_auto_20171124_1049.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0021_auto_20171124_1050.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0022_auto_20171124_1051.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0023_auto_20171124_1052.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0024_auto_20171124_1056.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0025_auto_20171124_1056.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0026_auto_20171124_1058.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0027_auto_20171124_1059.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0028_auto_20171124_1108.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0029_auto_20171124_1113.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0030_auto_20171124_1113.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0031_zwyyzyzzdb.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0032_auto_20171124_1135.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0033_delete_zwyyzyzzdb.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0034_zwyyzyzzdb.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0035_auto_20171124_1420.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0036_auto_20171124_1422.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0037_auto_20171124_1604.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/tests.py" afterPath="$PROJECT_DIR$/apps/resource/tests.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
-      <change beforePath="$PROJECT_DIR$/apps/special/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/apps.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/migrations/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/migrations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/special/views.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" afterPath="$PROJECT_DIR$/apps/users/tests.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -786,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511533062898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更改了后天管理页面语言显示问题">
+      <created>1512552066686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512552066686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -853,7 +491,8 @@
     <MESSAGE value="change six" />
     <MESSAGE value="change seven" />
     <MESSAGE value="change eight" />
-    <option name="LAST_COMMIT_MESSAGE" value="change eight" />
+    <MESSAGE value="更改了后天管理页面语言显示问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了后天管理页面语言显示问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,6 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,6 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,6 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,6 +683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,6 +731,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,6 +739,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,6 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
