@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content='中华人民共和国农业部404错误页'>
+<meta http-equiv="refresh" content="10; url=http://www.moa.gov.cn">
+<title>中华人民共和国农业部</title>
+
+<link href="../../images/contstyle_gy_1.css" rel="stylesheet" type="text/css" />
+<script src="../../images/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="../../images/globle.js" type="text/javascript"></script>
+<link href="../../images/conn_gy_1.css" rel="stylesheet" type="text/css" />
+<style>
+
+.zong {min-height:0px;}
+.zong .zleft {min-height:0px;}
+.zong .zleft .zlcont {min-height:0px;}
+
+</style>
+</head>
+<body>
+<div id="comdiv">
+
+<!--头文件strat-->
+<div style="width:1002px;height:150px;margin:auto;">	 
+<iframe src="http://www.moa.gov.cn/iframes/xlytwjv06/" width="1002px" height="150px" frameborder="0" scrolling="no"></iframe>
+</div>
+<!--头文件end-->
+
+
+<div class="inculd" style="border:0;margin:auto;width:1002px;">
+	<div class="inleft">
+<span style="color:#343434">您现在的位置：<a href="http://www.moa.gov.cn/" >首页</a>
+		</span></div>
+</div>
+<div class="zong" >
+<div class="zleft" >
+<div class="zlcont" >
+<div id="TRS_AUTOADD"><style id="_Custom_V6_Style_" type="text/css">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p style="text-align: center">　　</p>
+<p style="text-align: center"><font style="font-size: 14pt">温馨提示：您所访问的信息已经不存在，页面将在5秒后跳转到网站首页</font></p>
+<p style="text-align: center"><font style="font-size: 16pt" color="#000e0d"><a href="http://www.moa.gov.cn">跳转到首页</a></font></p>
+<p align="center">　　</p>
+<p align="center">　　</p>
+</div>
+
+</div>
+<div style="clear:both"></div>
+</div>
+
+</div>
+<div style="width:1002px;height:160px;margin:auto;">
+<iframe src="http://www.moa.gov.cn/iframes/tywwj/" align="center" width="1002px" height="160px" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+</div>
+
+</body>
+</html>
