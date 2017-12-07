@@ -2,21 +2,28 @@ from django.contrib.auth import get_user_model
 from random import choice
 from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
+from django.shortcuts import render
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
-from chartsite.settings import API_KEY
-from users.models import VerifyCode
-from users.serializers import SmsSerialier, UserRegSerializer, UserDetailSerializer
+from chartsite.settings import YUN_KEY
+from apps.users.models import PhoneCode, EmailCode, ImageCode
+from users.serializers import PhoneSerialier, UserRegSerializer, UserDetailSerializer, EmailSerialier
 
 from rest_framework_jwt.serializers import jwt_encode_handler, jwt_payload_handler
 from rest_framework import mixins
 from rest_framework import permissions
 from rest_framework import authentication
-from utils.yunpian import YunPian
+
+from utils.code import SmsEmailCode, ImgEmailCode
+from utils.code import SmsPhoneCode
 from rest_framework.mixins import CreateModelMixin
 
+
+from rest_framework import status
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 User = get_user_model()
 
 
@@ -31,11 +38,11 @@ class CustomBBackend(ModelBackend):
             return None
 
 
-class SmsCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
+class PhoneCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
     """
-    发送验证码
+    发送手机验证码
     """
-    serializer_class = SmsSerialier
+    serializer_class = PhoneSerialier
 
     def generate_code(self):
         """
@@ -55,7 +62,7 @@ class SmsCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
 
         mobile = serializer.validated_data['mobile']
 
-        yun_pian = YunPian(API_KEY)
+        yun_pian = SmsPhoneCode(YUN_KEY)
 
         sms_status = yun_pian.send_msg(code=code, mobile=mobile)
         if sms_status['code'] != 0:
@@ -63,11 +70,84 @@ class SmsCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
                 "mobile": sms_status['msg']
             }, status=status.HTTP_400_BAD_REQUEST)
         else:
-            code_record = VerifyCode(code=code, mobile=mobile)
+            code_record = PhoneCode(code=code, mobile=mobile)
             code_record.save()
             return Response({
                 'mobile': mobile
             }, status=status.HTTP_201_CREATED)
+
+
+class EmailCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
+    """
+    发送邮箱验证码
+    """
+    serializer_class = EmailSerialier
+
+    def generate_code(self):
+        """
+        生成四位数字的验证码
+        :return:
+        """
+        seeds = '1234567890'
+        random_str = []
+        for i in range(4):
+            random_str.append(choice(seeds))
+        return "".join(random_str)
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)  # drf可以捕做捉异常返回400
+        code = self.generate_code()
+
+        email = serializer.validated_data['email']
+
+        sms_status = SmsEmailCode(code=code, email=email)
+        if sms_status['code'] != 0:
+            return Response({
+                "email": sms_status['msg']
+            }, status=status.HTTP_400_BAD_REQUEST)
+        else:
+            code_record = EmailCode(code=code, email=email)
+            code_record.save()
+            return Response({
+                'email': email
+            }, status=status.HTTP_201_CREATED)
+
+
+class ImageCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
+    """
+    发送图片验证码
+    """
+
+    def generate_code(self):
+        """
+        生成四位数字的验证码
+        :return:
+        """
+        seeds = '1234567890'
+        random_str = []
+        for i in range(4):
+            random_str.append(choice(seeds))
+        return "".join(random_str)
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)  # drf可以捕做捉异常返回400
+        code = self.generate_code()
+        print(request.data)
+        index = request.data['index']
+
+        img_code = ImgEmailCode(code=code)
+        code, image_path, image = img_code.made_code_img()
+
+        sms_status = ImageCode(code=code, index=index, image='/chartsite/captcha/{}'.format(image)).save()
+        if sms_status:
+            with open(image_path, 'rb') as f:
+                ret = f.read()
+            return Response(data=ret, content_type='',status=status.HTTP_201_CREATED)
+
+
+
 
 
 class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateModelMixin, viewsets.GenericViewSet):
@@ -117,3 +197,19 @@ class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateMode
         return serializer.save()
 
 
+
+
+
+
+@api_view(['GET', 'POST'])
+def UserAccess(request, type):
+    """
+    List all code snippets, or create a new snippet.
+    """
+    if request.method == 'GET':
+        rep = render(request, 'index.html')
+        if type == 'login':
+            rep = render(request, 'user/login.html')
+        elif type == 'register':
+            rep = render(request, 'user/register.html')
+        return rep

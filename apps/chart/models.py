@@ -47,7 +47,7 @@ class Chart(models.Model):
     brief = models.TextField(max_length=500, verbose_name="简述", db_column="简述")
     desc = UEditorField(verbose_name="内容", imagePath="chart/images/", width=1000, height=300,
                               filePath="chart/files/", default='', db_column="内容")
-    surface = models.ImageField(upload_to="goods/images/", null=True, blank=True, verbose_name="封面图", db_column="封面图")
+    surface = models.ImageField(upload_to="chart/images/", null=True, blank=True, verbose_name="封面图", db_column="封面图")
     is_new = models.BooleanField(default=False, verbose_name="是否新图", db_column="是否新图")
     is_hot = models.BooleanField(default=False, verbose_name="是否热搜", db_column="是否热搜")
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")

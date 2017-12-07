@@ -60,7 +60,7 @@ class EmailCode(models.Model):
     邮箱验证码
     """
     code = models.CharField(max_length=4, verbose_name="验证码")
-    email = models.CharField(max_length=11, verbose_name="邮箱")
+    email = models.CharField(max_length=20, verbose_name="邮箱")
     # 不要写datetime.now()，这是系统编译时间
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
@@ -72,3 +72,19 @@ class EmailCode(models.Model):
         return self.code
 
 
+class ImageCode(models.Model):
+    """
+    图片验证码
+    """
+    index = models.FloatField(verbose_name="索引", primary_key=True)
+    code = models.CharField(max_length=4, verbose_name="验证码")
+    image = models.ImageField(upload_to="chartsite/captcha", verbose_name="图片")
+    # 不要写datetime.now()，这是系统编译时间
+    add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
+
+    class Meta:
+        verbose_name = "图片验证码"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.code

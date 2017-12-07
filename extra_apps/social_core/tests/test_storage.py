@@ -179,7 +179,7 @@ class BrokenStrategyTests(unittest.TestCase):
 
     def test_render_html_with_none(self):
         with self.assertRaisesRegexp(ValueError,
-                                     'Missing template or html parameters'):
+                                     'Missing templates or html parameters'):
             self.strategy.render_html()
 
     def test_is_integrity_error(self):

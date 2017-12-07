@@ -96,6 +96,7 @@ class ZgnyyhswDbTpAdmin(object):
     list_display = ["name", 'species', 'link']
     search_fields = ["name", 'species', 'link']
     ordering = ['id']
+    list_editable = list_display
 
 
 xadmin.site.register(ZgnyyhswDbTp, ZgnyyhswDbTpAdmin)
@@ -354,6 +355,7 @@ class ZgzynywhycTpAdmin(object):
     search_fields = ['title', "image_num", "pici", 'path']
     list_filter = ['pici', ]
     ordering = ['title']
+    list_editable = list_display
 
 
 xadmin.site.register(ZgzynywhycTp, ZgzynywhycTpAdmin)

@@ -181,7 +181,7 @@ class ZgnyyhswDbTp(models.Model):
     """
     name = models.CharField(max_length=40, blank=True, null=True, db_column='名称', verbose_name="名称")
     species = models.CharField(max_length=40, blank=True, null=True, db_column='种类', verbose_name="种类")
-    link = models.ImageField(max_length=100, blank=True, null=True, db_column='链接', verbose_name="链接")
+    link = models.ImageField(upload_to='agridata/images', db_column='链接', verbose_name="链接")
 
     class Meta:
 
@@ -863,7 +863,7 @@ class ZgzynywhycTp(models.Model):
     title = models.CharField(max_length=40, blank=True, null=True, db_column='标题', verbose_name='标题')
     image_num = models.IntegerField(blank=True, null=True, db_column='图片号', verbose_name='图片号')
     pici = models.CharField(max_length=20, blank=True, null=True, db_column='批次', verbose_name='批次')
-    path = models.ImageField(max_length=200, blank=True, null=True, db_column='路径', verbose_name='路径')
+    path = models.ImageField(upload_to='agridata/culture', db_column='路径', verbose_name='路径')
 
     class Meta:
         db_table = '中国重要农业文化遗产_图片'

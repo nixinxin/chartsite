@@ -9670,7 +9670,7 @@ var filterNode = UE.filterNode = function () {
  * User: campaign
  * Date: 10/8/13
  * Time: 6:15 PM
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 UE.plugin = function(){
     var _plugins = {};
@@ -13795,7 +13795,7 @@ UE.plugin.register('anchor', function (){
  * User: taoqili
  * Date: 11-9-7
  * Time: 下午8:18
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 
 UE.plugins['wordcount'] = function(){
@@ -17736,7 +17736,7 @@ UE.plugins['video'] = function (){
  * User: taoqili
  * Date: 13-1-18
  * Time: 上午11:09
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 /**
  * UE表格操作类
@@ -18878,7 +18878,7 @@ UE.plugins['video'] = function (){
  * User: taoqili
  * Date: 13-2-20
  * Time: 下午6:25
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 ;
 (function () {
@@ -19816,7 +19816,7 @@ UE.plugins['video'] = function (){
  * User: taoqili
  * Date: 12-10-12
  * Time: 上午10:05
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 UE.plugins['table'] = function () {
     var me = this,
@@ -21694,7 +21694,7 @@ UE.plugins['table'] = function () {
  * User: Jinqn
  * Date: 13-10-12
  * Time: 上午10:20
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  */
 
 UE.UETable.prototype.sortTable = function (sortByCellIndex, compareFn) {
@@ -23545,14 +23545,14 @@ UE.plugin.register('webapp', function (){
     }
 });
 
-// plugins/template.js
+// plugins/templates.js
 ///import core
 ///import plugins\inserthtml.js
 ///import plugins\cleardoc.js
 ///commands 模板
-///commandsName  template
+///commandsName  templates
 ///commandsTitle  模板
-///commandsDialog  dialogs\template
+///commandsDialog  dialogs\templates
 UE.plugins['template'] = function () {
     UE.commands['template'] = {
         execCommand:function (cmd, obj) {
@@ -27682,7 +27682,7 @@ UE.ui = baidu.editor.ui = {};
         'snapscreen':'~/dialogs/snapscreen/snapscreen.html',
         'scrawl':'~/dialogs/scrawl/scrawl.html',
         'music':'~/dialogs/music/music.html',
-        'template':'~/dialogs/template/template.html',
+        'template':'~/dialogs/templates/templates.html',
         'background':'~/dialogs/background/background.html',
         'charts': '~/dialogs/charts/charts.html'
     };

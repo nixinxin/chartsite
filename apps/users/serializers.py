@@ -2,19 +2,19 @@
 # -*- coding:utf-8 -*-
 __author__ = "xin nix"
 
-from users.models import VerifyCode
+from apps.users.models import PhoneCode, EmailCode, ImageCode
 
 import re
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from datetime import datetime, timedelta
-from chartsite.settings import REGEX_MOBILE
+from chartsite.settings import REGEX_MOBILE, REGEX_EMAIL
 from rest_framework.validators import UniqueValidator
 
 User = get_user_model()
 
 
-class SmsSerialier(serializers.Serializer):
+class PhoneSerialier(serializers.Serializer):
     mobile = serializers.CharField(max_length=11, min_length=11)
 
     def validate_mobile(self, mobile):
@@ -33,9 +33,48 @@ class SmsSerialier(serializers.Serializer):
 
         # 验证发送频率
         one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=1, seconds=0)
-        if VerifyCode.objects.filter(add_time__gt=one_mintes_ago, mobile=mobile):
+        if PhoneCode.objects.filter(add_time__gt=one_mintes_ago, mobile=mobile):
             raise serializers.ValidationError("距离上一次发送未超过60s")
         return mobile
+
+
+class EmailSerialier(serializers.Serializer):
+    email = serializers.CharField(max_length=20, min_length=4)
+
+    def validate_email(self, email):
+        """
+        验证邮箱
+        :param email:
+        :return:
+        """
+        # 邮箱是否注册
+        if User.objects.filter(email=email).count():
+            raise serializers.ValidationError("用户已经存在")
+
+        # 验证邮箱是否合法
+        if not re.match(REGEX_EMAIL, email):
+            raise serializers.ValidationError("邮箱非法")
+
+        # 验证发送频率
+        one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
+        if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
+            raise serializers.ValidationError("距离上一次发送未超过10s")
+        return email
+
+
+# class ImageCodeSerialier(serializers.Serializer):
+#     code = serializers.FloatField()
+#
+#     def validate_code(self, code):
+#         """
+#         验证图片验证码
+#         :param email:
+#         :return:
+#         """
+#         # 验证图片验证码
+#         if not ImageCode.objects.filter(code=code).exists():
+#             raise serializers.ValidationError("Not Found")
+#         return code
 
 
 class UserDetailSerializer(serializers.ModelSerializer):
@@ -69,6 +108,7 @@ class UserRegSerializer(serializers.ModelSerializer):
                                      label="用户名",
                                      )
 
+
     # write_only：True只写不序列化返回
     password = serializers.CharField(style={"input_type": 'password'}, label="密码", write_only=True)  # 设置密文style
 
@@ -80,7 +120,7 @@ class UserRegSerializer(serializers.ModelSerializer):
         return user
 
     def validate_code(self, code):
-        verify_records = VerifyCode.objects.filter(mobile=self.initial_data['username']).order_by('add_time')
+        verify_records = PhoneCode.objects.filter(mobile=self.initial_data['username']).order_by('add_time')
         if verify_records:
             last_record = verify_records[0]
             five_mintes_ago = datetime.now() - timedelta(hours=0, minutes=100, seconds=0)
@@ -101,3 +141,5 @@ class UserRegSerializer(serializers.ModelSerializer):
         model = User
         # write_only：True只写不序列化返回
         fields = ("username", 'password', 'code', 'mobile', 'email')
+
+

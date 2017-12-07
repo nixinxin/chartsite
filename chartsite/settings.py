@@ -14,6 +14,8 @@ import os
 import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import datetime
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
@@ -28,7 +30,9 @@ SECRET_KEY = '3=j8cp5+a=ni!^3vpx1%n9v!#31&4hm1kyj^f&-$cnhfm+5)^a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+APPEND_SLASH = True
+
+ALLOWED_HOSTS = ["*", ]
 
 # 自定义用户model
 AUTH_USER_MODEL = 'users.UserProfile'
@@ -41,13 +45,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework.authtoken',
+    'social_django',
     'users.apps.UsersConfig',
     'resource.apps.ResourceConfig',
     'operation.apps.OperationConfig',
     'chart.apps.ChartConfig',
-    'DjangoUeditor',
+    'others.apps.OthersConfig',
     'crispy_forms',
     'xadmin',
+    'rest_framework',
+    'django_filters',
+    'coreapi',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -74,6 +84,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -135,4 +147,92 @@ USE_TZ = False   # 默认是Ture，时间是utc时间，由于我们要用本地
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+# 自定义认证
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBBackend',
+    'social_core.backends.weixin.WeixinOAuth2',
+    'social_core.backends.weibo.WeiboOAuth2',
+    'social_core.backends.qq.QQOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.11/howto/static-files/
+
 STATIC_URL = '/static/'
+
+MEDIA_URL = "/media/"
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+# 所有关于rest_framework的配置
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        # 'rest_framework.authentication.TokenAuthentication',  # 全局Token不能解决公共数据的问题
+        # 'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # 全局Token不能解决公共数据的问题
+    ),
+    # IP限速
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle'
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '60/minute',
+        'user': '60/minute'
+    }
+}
+
+# 认证设置0 .
+JWT_AUTH = {
+    " JWT_EXPIRATION_DELTA": datetime.timedelta(hours=1, minutes=100, seconds=0),
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',  # 对应里面的前缀 "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1N
+}
+
+# 云片网Key
+YUN_KEY = "672da4b47c4d7b77571b3bec872c1d88"
+
+# 手机号码正则表达式
+REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$"
+
+# 邮箱正则表达式
+REGEX_EMAIL = "^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$"
+
+# QQ
+SOCIAL_AUTH_QQ_KEY = 'foobar'
+SOCIAL_AUTH_QQ_SECRET = 'bazqux'
+
+# 微博
+SOCIAL_AUTH_WEIBO_KEY = "1960899492"
+SOCIAL_AUTH_WEIBO_SECRET = "c9dac9ef3b7b2c5226a4f3e84a02c0e1"
+
+# 微信
+SOCIAL_AUTH_WEIXIN_KEY = 'foobar'
+SOCIAL_AUTH_WEIXIN_SECRET = 'bazqux'
+
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'
+
+# 缓存时长设置
+REST_FRAMEWORK_EXTENSIONS = {
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 100
+}
+
+# 缓存
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://localhost:6379",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 应许跨域
+CORS_ORIGIN_ALLOW_ALL = True

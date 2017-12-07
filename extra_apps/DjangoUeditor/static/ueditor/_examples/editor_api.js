@@ -81,7 +81,7 @@
             'plugins/snapscreen.js',
             'plugins/insertparagraph.js',
             'plugins/webapp.js',
-            'plugins/template.js',
+            'plugins/templates.js',
             'plugins/music.js',
             'plugins/autoupload.js',
             'plugins/autosave.js',

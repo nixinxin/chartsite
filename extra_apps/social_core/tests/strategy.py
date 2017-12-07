@@ -39,7 +39,7 @@ class TestStrategy(BaseStrategy):
         return content
 
     def render_html(self, tpl=None, html=None, context=None):
-        """Render given template or raw html with given context"""
+        """Render given templates or raw html with given context"""
         return tpl or html
 
     def request_data(self, merge=True):

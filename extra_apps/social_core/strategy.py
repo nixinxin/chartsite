@@ -14,7 +14,7 @@ class BaseTemplateStrategy(object):
 
     def render(self, tpl=None, html=None, context=None):
         if not tpl and not html:
-            raise ValueError('Missing template or html parameters')
+            raise ValueError('Missing templates or html parameters')
         context = context or {}
         if tpl:
             return self.render_template(tpl, context)
@@ -146,7 +146,7 @@ class BaseStrategy(object):
             return True
 
     def render_html(self, tpl=None, html=None, context=None):
-        """Render given template or raw html with given context"""
+        """Render given templates or raw html with given context"""
         return self.tpl.render(tpl, html, context)
 
     def authenticate(self, backend, *args, **kwargs):

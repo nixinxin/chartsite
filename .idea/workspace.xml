@@ -2,7 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/chart/migrations/0002_auto_20171207_1445.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20171207_1411.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0003_auto_20171207_1445.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0004_auto_20171207_1454.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0005_feedback.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0006_auto_20171207_1457.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/others/migrations/0002_relatedsite.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/others/migrations/0003_auto_20171207_1416.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/others/migrations/0004_auto_20171207_1445.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171207_1131.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/utils/code.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/chartsite/icon/code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/heap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/hm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/chartsite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/hot.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!action.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!section6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!tool.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!true.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!true_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/index!user9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/logo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/img/weixincode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/index.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/index.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/login.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/login.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/personal.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/register.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/register.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/share.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/share_style0_16.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/index/v.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index_back.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/user/register.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/chartsite.iml" afterPath="$PROJECT_DIR$/.idea/chartsite.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/adminx.py" afterPath="$PROJECT_DIR$/apps/chart/adminx.py" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/chart/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0002_auto_20171127_1137.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0003_auto_20171127_1140.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0004_auto_20171127_2032.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0005_yearbooks.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/migrations/0006_auto_20171202_1629.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/chart/models.py" afterPath="$PROJECT_DIR$/apps/chart/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/adminx.py" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20171127_1137.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0003_auto_20171127_1140.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0004_auto_20171127_2032.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/models.py" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/adminx.py" afterPath="$PROJECT_DIR$/apps/resource/adminx.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/resource/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0002_auto_20171126_2235.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/migrations/0003_auto_20171206_1531.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20171205_2136.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20171207_1549.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20171205_2140.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20171206_1708.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" afterPath="$PROJECT_DIR$/apps/users/tests.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/yunpian.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
+      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
+      <change beforePath="$PROJECT_DIR$/data_dispose/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_dispose/test1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_resource/chartsite(data).sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_resource/chartsite.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/social_core/strategy.py" afterPath="$PROJECT_DIR$/extra_apps/social_core/strategy.py" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/social_core/tests/strategy.py" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/strategy.py" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/social_core/tests/test_storage.py" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_storage.py" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/layout.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/layout.py" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.js" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/permissions.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/weibo_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/yunpian.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +136,72 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+              <folding>
+                <element signature="e#65#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="136" column="26" lean-forward="false" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2515">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="83" column="44" lean-forward="true" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+              <folding>
+                <element signature="e#643#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +276,8 @@
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
       </list>
     </option>
   </component>
@@ -108,9 +288,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="46" />
-    <option name="width" value="1428" />
+    <option name="x" value="615" />
+    <option name="y" value="49" />
+    <option name="width" value="1002" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -150,7 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +342,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,19 +352,19 @@
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zero\Desktop\chartsite\apps\users" />
-      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation" />
-      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation\migrations" />
-      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart\migrations" />
-      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zero\Desktop\chartsite\apps" />
       <recent name="C:\Users\zero\Desktop\chartsite" />
       <recent name="C:\Users\zero\Desktop\extra_apps\chartsite" />
       <recent name="G:\pycharm\chartsite\data_dispose" />
       <recent name="G:\pycharm\chartsite\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\users" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\operation\migrations" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart\migrations" />
+      <recent name="C:\Users\zero\Desktop\chartsite\apps\chart" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,8 +479,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="chartsite.settings" />
+        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\envs\chartsite\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -309,10 +489,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="chartsite" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="port" value="80" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/admin" />
+      <option name="browserUrl" value="http://agridata.iask.in/index" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -448,25 +628,32 @@
       <option name="project" value="LOCAL" />
       <updated>1512552916905</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="20171207">
+      <created>1512657576582</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1512657576582</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="46" width="1428" height="1047" extended-state="0" />
+    <frame x="615" y="49" width="1002" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38261852" sideWeight="0.50438595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38261852" sideWeight="0.49561402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3821229" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19074492" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.49269006" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23351955" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23351955" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -518,15 +705,21 @@
     <MESSAGE value="change eight" />
     <MESSAGE value="更改了后台管理页面语言显示问题" />
     <MESSAGE value="更改了后台管理页面语言显示问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改了后台管理页面语言显示问题" />
+    <MESSAGE value="20171207" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171207" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_dispose/test1.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/apps/users/serializers.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/users/views.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -536,25 +729,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/.tx/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -578,13 +757,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作物物种分布数据库.csv" />
-    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -671,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -742,13 +906,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChartSite - 副本/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ChartSite - 副本/chartsite/settings.py" />
     <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -809,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -830,10 +981,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="-2515">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="83" column="44" lean-forward="true" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+          <folding>
+            <element signature="e#643#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+          <folding>
+            <element signature="e#65#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="136" column="26" lean-forward="false" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
           <folding />
         </state>
       </provider>

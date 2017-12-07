@@ -20,3 +20,11 @@ class FeedBackAdmin(object):
 
 
 xadmin.site.register(FeedBack, FeedBackAdmin)
+
+
+class DataShareAdmin(object):
+    list_display = ['id', 'title', "user", 'type', 'add_time']
+    search_fields = ['id', 'title', "title",  'add_time']
+
+
+xadmin.site.register(DataShare, DataShareAdmin)

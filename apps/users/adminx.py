@@ -14,7 +14,7 @@ class BaseSetting(object):
 class GlobalSettings(object):
     site_title = "农业统计数据可视化平台"
     site_footer = "chartsite"
-    menu_style = "accordion"
+    # menu_style = "accordion"
 
 
 class PhoneCodeAdmin(object):

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>农业统计数据可视化平台</title>
+    <!--极速模式-->
+    <meta name="renderer" content="webkit">
+    <!--支持IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--支持移动设备,禁用缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="农业统计数据可视化平台">
+    <meta name="Description" content="农业统计数据可视化平台是一个学习最前沿编程技术的平台，能让你迅速进入状态，快速完成课程学习。">
+    <meta name="baidu-site-verification" content="Ah8xwl3zVI" />
+{#    <meta property="qc:admins" content="215627021760527126375">#}
+{#    <meta property="wb:webmaster" content="d0e7e1ab724acbc8">#}
+
+    <!--jACKY 2016-3-25-->
+    {% load static %}
+    <link href="{% static 'index/img/icon.png' %}" rel="shortcut icon">
+    <link href="{% static 'index/index.min.css' %}" rel="stylesheet">
+    <!--jACKY end-->
+
+    <script src="{% static 'index/share.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}">
+    {% block cssjs %}
+
+    {% endblock %}
+</head>
+<body>
+{% csrf_token %}
+    <!--头部文件-->
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="http://agridata.iask.in/" class="navbar-brand">
+            <img src="{% static  "index/img/chartsite.png "%}" alt="农业统计数据可视化平台欢迎你" style="margin-top: -5px;">
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="http://agridata.iask.in/index">网站首页</a></li>
+            <li><a href="http://agridata.iask.in/index">数据资源<i class="gif-hot"></i></a> </li>
+            <li><a href="http://agridata.iask.in/index">可视分析</a></li>
+            <li><a href="http://agridata.iask.in/index">价格监测</a></li>
+            <li><a href="http://agridata.iask.in/index">新闻动态</a></li>
+            <li><a href="http://agridata.iask.in/index">服务支持</a></li>
+            <li>
+              <button id="labBtn" type="button" class="btn btn-fresh text-uppercase">
+                <i class="glyphicon glyphicon-cloud"></i> 数据共享
+              </button>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://agridata.iask.in/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>
+            <li><a href="http://agridata.iask.in/user/register"><i class="fa fa-pencil"></i> 注册</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--头部文件结束-->
+
+{% block content %}
+
+{% endblock %}
+
+
+{% block foot %}
+
+
+{% endblock %}
+    <footer>
+      <div class="bottom-content row">
+        <div class="website col-xs-12 col-sm-7 col-md-4 col-lg-4 col-md-offset-1">
+          <h5><img class="img-responsive" src="{% static 'index/img/chartsite.png' %}" alt=""></h5>
+          <p style="text-indent: 2em;">
+            农业统计数据可视化平台是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+          </p>
+          <ul class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1512287116041">
+            <!--<li><a data-cmd="qzone" class="weixin" title="微信" href="#"></a></li>-->
+            <li><a data-cmd="qzone" class="kongjian" title="QQ空间" href="http://agridata.iask.in/#"></a></li>
+            <li><a data-cmd="tsina" class="xinlang" title="新浪微博" href="http://agridata.iask.in/#"></a></li>
+            <li><a data-cmd="tqq" class="tengxun" title="腾讯微博" href="http://agridata.iask.in/#"></a></li>
+            <li><a data-cmd="renren" class="renren" title="人人网" href="http://agridata.iask.in/#"></a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
+          <h5>相关链接 <!--a class="pull-right" href="/friends" target="_blank">更多>>></a--></h5>
+          <ul>
+
+            <li><a href="http://data.cnki.net/" target="_blank">中国经济社会大数据研究平台</a></li>
+            <li><a href="http://www.agridata.cn/" target="_blank">农业科学数据共享中心</a></li>
+            <li><a href="http://stb.agridata.cn/" target="_blank">农业科技基础数据分中心</a></li>
+            <li><a href="http://www.cdad-is.org.cn/" target="_blank">家养动物种质资源平台</a></li>
+            <li><a href="http://www.cfsdc.org/" target="_blank">林业科学数据平台</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-2 col-lg-2 footer-services">
+          <h5>服务支持</h5>
+          <ul>
+            <li>
+              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1025464043&amp;site=qq&amp;menu=yes">
+                <i class="glyphicon glyphicon-comment"></i>
+                联系我们
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://cw.hubwiz.com/card/c">
+                <i class="glyphicon glyphicon-book"></i>
+                图表卡片</a>
+            </li>
+            <li>
+              <a target="_blank" href="http://agridata.iask.in/about">
+                <i class="glyphicon glyphicon-info-sign"></i>
+                关于我们
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://www.cnblogs.com/nixingguo/">
+                <i class="glyphicon glyphicon-file"></i>
+                技术博客
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="code col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <h5>微信号</h5>
+          <img class="img-responsive" src="{% static 'index/img/weixincode.png' %}" alt="">
+        </div>
+      </div>
+      <div class="copyright">
+        <!--&copy; 版权所有　Hubwiz,Inc. All Rights Reserved. 京ICP备13002042号-2-->
+        © statics.com  &nbsp; 京ICP备13002042号-2
+      </div>
+    </footer>
+    <script type="text/javascript" async="" src="{% static 'index/heap.min.js' %}"></script><script src="{% static 'index/hm.js' %}"></script><script>
+    //支持IE
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var style = document.createElement('style');
+        style.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'));
+        document.querySelector('head').appendChild(style)
+    }
+    //百度分析
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f1ba5b4a33d29d84db69f029b9ace483";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    //heap
+    window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="{% static 'index/heap.min.js' %}";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["identify","track"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};heap.load("1744309395");
+    //百度分享
+    window._bd_share_config = {
+        common:{
+            'text':'分享一个很棒的学习网站『农业统计数据可视化平台』(http://agridata.iask.in)，用互动的方式学习最前沿的IT知识，赶快加入吧！',
+            'desc':'农业统计数据可视化平台- 最前沿的在线互动编程学习平台',
+            'bdComment':'农业统计数据可视化平台 - 最前沿的在线互动编程学习平台',
+            'onBeforeClick':function(cmd,config){
+                if(cmd === 'qzone'||cmd === 'renren'){
+                    config.bdDesc = config.text;
+                    config.bdText = config.desc;
+                }else{
+                    config.bdDesc = config.desc;
+                    config.bdText = config.text;
+                }
+                return config;
+            }
+        },
+        share:[]
+    };
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+    //    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!--jACKY 2016-3-25-->
+
+    <script src="{% static 'index/index.min.js' %}"></script>
+
+<!--jACKY end-->
+
+    <div id="fixedTools" class="hidden-xs hidden-sm" style="display: block;"><i class="glyphicon glyphicon-circle-arrow-up"></i></div>
+</body>
+</html>
