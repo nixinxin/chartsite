@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
+from captcha.models import CaptchaStore
+
 __author__ = "xin nix"
 
 from apps.users.models import PhoneCode, EmailCode, ImageCode
@@ -39,7 +41,21 @@ class PhoneSerialier(serializers.Serializer):
 
 
 class EmailSerialier(serializers.Serializer):
-    email = serializers.CharField(max_length=20, min_length=4)
+    email = serializers.EmailField(label='邮箱',
+                                   required=True,
+                                   allow_blank=False,
+                                   error_messages={
+                                       'required': '邮箱不能为空！',
+                                       "blank": '邮箱不能为空！',
+                                       "invalid": "请输入合法的邮箱",
+                                   })
+    send_type = serializers.ChoiceField(label="验证类型",
+                                        allow_blank=False,
+                                        choices=(("register", "注册账号"),
+                                                 ("forget", "找回密码"),
+                                                 ("activate", "激活账号"),
+                                                 ("update_email", "修改邮箱")),
+                                        default='register')
 
     def validate_email(self, email):
         """
@@ -48,39 +64,66 @@ class EmailSerialier(serializers.Serializer):
         :return:
         """
         # 邮箱是否注册
-        if User.objects.filter(email=email).count():
-            raise serializers.ValidationError("用户已经存在")
+        # if self.initial_data['send_type'] == 'register':
+        #     if User.objects.filter(email=email).count():
+        #         raise serializers.ValidationError("用户已经存在")
 
         # 验证邮箱是否合法
         if not re.match(REGEX_EMAIL, email):
-            raise serializers.ValidationError("邮箱非法")
+            raise serializers.ValidationError("请输入合法的邮箱")
 
         # 验证发送频率
-        one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
-        if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
-            raise serializers.ValidationError("距离上一次发送未超过10s")
+        # one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
+        # if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
+        #     raise serializers.ValidationError("距离上一次发送未超过10s")
         return email
 
 
-# class ImageCodeSerialier(serializers.Serializer):
-#     code = serializers.FloatField()
-#
-#     def validate_code(self, code):
-#         """
-#         验证图片验证码
-#         :param email:
-#         :return:
-#         """
-#         # 验证图片验证码
-#         if not ImageCode.objects.filter(code=code).exists():
-#             raise serializers.ValidationError("Not Found")
-#         return code
+class ImageCodeSerialier(serializers.ModelSerializer):
+    image = serializers.ImageField()
+
+    class Meta:
+        model = ImageCode
+        fields = ('image',)
+
+
+class ImageCodeVerifySerialier(serializers.Serializer):
+    verify = serializers.CharField(max_length=4,
+                                   min_length=4,
+                                   required=True,
+                                   allow_blank=False,
+                                   write_only=True,
+                                   error_messages={
+                                       "blank": '请输入验证码',
+                                       "required": '请输入验证码',
+                                       "max_length": "验证码格式错误",
+                                       "min_length": "验证码格式错误"},
+                                   label="验证码", )
+    captcha_0 = serializers.CharField(required=True,
+                                      allow_blank=False,
+                                      write_only=True,
+                                      error_messages={
+                                          "blank": '请输入隐藏值',
+                                          "required": '请输入隐藏值'},
+                                      label="隐藏值", )
+
+    def validate(self, attrs):
+        attrs['response'] = attrs['verify']
+        attrs['hashkey'] = attrs['captcha_0']
+        del attrs['verify']
+        del attrs['captcha_0']
+        return attrs
+
+    class Meta:
+        model = CaptchaStore
+        fields = ('response', 'hashkey')
 
 
 class UserDetailSerializer(serializers.ModelSerializer):
     """
     用户详情序列化类
     """
+
     class Meta:
         model = User
         # write_only：True只写不序列化返回
@@ -88,26 +131,28 @@ class UserDetailSerializer(serializers.ModelSerializer):
 
 
 class UserRegSerializer(serializers.ModelSerializer):
-    code = serializers.CharField(max_length=4,
-                                 min_length=4,
-                                 required=True,
-                                 write_only=True,
-                                 error_messages={
-                                     "blank": '请输入验证码',
-                                     "required": '请输入验证码',
-                                     "max_length": "验证码格式错误",
-                                     "min_length": "验证码格式错误",
-                                 },
-                                 label="验证码",
-                                 )
+    verify = serializers.CharField(max_length=4,
+                                   min_length=4,
+                                   required=True,
+                                   write_only=True,
+                                   error_messages={
+                                       "blank": '请输入验证码',
+                                       "required": '请输入验证码',
+                                       "max_length": "验证码格式错误",
+                                       "min_length": "验证码格式错误",
+                                   },
+                                   label="验证码",
+                                   )
 
     # username = serializers.CharField(required=True, max_length=11, min_length=11, allow_blank=False, help_text="用户名)
     username = serializers.CharField(required=True,
-                                     allow_blank=False,
-                                     validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
-                                     label="用户名",
-                                     )
-
+                                  allow_blank=False,
+                                  validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
+                                  error_messages={
+                                      'required': '邮箱不能为空！',
+                                      "blank": '邮箱不能为空！',
+                                      "invalid": "请输入合法的邮箱"},
+                                  label="邮箱")
 
     # write_only：True只写不序列化返回
     password = serializers.CharField(style={"input_type": 'password'}, label="密码", write_only=True)  # 设置密文style
@@ -120,10 +165,10 @@ class UserRegSerializer(serializers.ModelSerializer):
         return user
 
     def validate_code(self, code):
-        verify_records = PhoneCode.objects.filter(mobile=self.initial_data['username']).order_by('add_time')
+        verify_records = EmailCode.objects.filter(email=self.initial_data['username']).order_by('-add_time')
         if verify_records:
             last_record = verify_records[0]
-            five_mintes_ago = datetime.now() - timedelta(hours=0, minutes=100, seconds=0)
+            five_mintes_ago = datetime.now() - timedelta(hours=0, minutes=10, seconds=0)
             if five_mintes_ago > last_record.add_time:
                 raise serializers.ValidationError("验证码过期")
             if last_record.code != code:
@@ -131,15 +176,26 @@ class UserRegSerializer(serializers.ModelSerializer):
         else:
             raise serializers.ValidationError("验证码错误")
 
+    # def validate_code(self, code):
+    #     verify_records = EmailCode.objects.filter(mobile=self.initial_data['email']).order_by('add_time')
+    #     if verify_records:
+    #         last_record = verify_records[0]
+    #         five_mintes_ago = datetime.now() - timedelta(hours=0, minutes=100, seconds=0)
+    #         if five_mintes_ago > last_record.add_time:
+    #             raise serializers.ValidationError("验证码过期")
+    #         if last_record.code != code:
+    #             raise serializers.ValidationError("验证码错误")
+    #     else:
+    #         raise serializers.ValidationError("验证码错误")
+
     # 作用于所有字段之上
     def validate(self, attrs):
-        attrs['mobile'] = attrs['username']
-        del attrs['code']
+        attrs['email'] = attrs['username']
+        attrs['code'] = attrs['verify']
+        del attrs['verify']
         return attrs
 
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("username", 'password', 'code', 'mobile', 'email')
-
-
+        fields = ("username", 'password', 'verify')

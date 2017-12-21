@@ -38,12 +38,10 @@ class UserFavViewset(mixins.ListModelMixin, mixins.CreateModelMixin, mixins.Dest
     def get_queryset(self):
         return UserFav.objects.filter(user=self.request.user)
 
-    # # 可用信号量
-    # def perform_create(self, serializer):
-    #     instance = serializer.save()
-    #     goods = instance.goods
-    #     goods.fav_num += 1
-    #     goods.save()
+    # 可用信号量
+    def perform_create(self, serializer):
+        instance = serializer.save()
+
 
     def get_serializer_class(self):
         if self.action == 'list':
@@ -71,5 +69,8 @@ class FeedBackViewset(mixins.ListModelMixin, mixins.DestroyModelMixin, mixins.Cr
 
     def get_queryset(self):
         return FeedBack.objects.filter(user=self.request.user)
+
+    def perform_create(self, serializer):
+        serializer.save()
 
 

@@ -45,22 +45,25 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'rest_framework.authtoken',
     'social_django',
+    'xadmin',
+    'DjangoUeditor',
     'users.apps.UsersConfig',
     'resource.apps.ResourceConfig',
     'operation.apps.OperationConfig',
     'chart.apps.ChartConfig',
     'others.apps.OthersConfig',
     'crispy_forms',
-    'xadmin',
-    'rest_framework',
     'django_filters',
     'coreapi',
     'corsheaders',
+    'captcha',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -161,6 +164,7 @@ AUTHENTICATION_BACKENDS = (
 
 STATIC_URL = '/static/'
 
+
 MEDIA_URL = "/media/"
 
 STATICFILES_DIRS = (
@@ -234,5 +238,21 @@ CACHES = {
     }
 }
 
+
+
 # 应许跨域
 CORS_ORIGIN_ALLOW_ALL = True
+
+
+EMAIL_HOST = "smtp.sina.com"
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "agristatics@sina.com"
+EMAIL_HOST_PASSWORD = "1993930ni"
+EMAIL_USE_TLS = False
+EMAIL_FROM = "agristatics@sina.com"
+
+HOST = 'http://agridata.iask.in'
+
+
+# 验证码
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'

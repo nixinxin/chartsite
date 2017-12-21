@@ -96,6 +96,7 @@ def do_complete(backend, login, user=None, redirect_name='next',
                         [backend.strategy.request_host()]
         url = sanitize_redirect(allowed_hosts, url) or \
               backend.setting('LOGIN_REDIRECT_URL')
+
     # 源码修改，解决第三方认证跳转后无法获取用户信息的问题
     payload = jwt_payload_handler(user)
     response = backend.strategy.redirect(url)

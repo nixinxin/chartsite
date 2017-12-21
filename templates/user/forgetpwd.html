@@ -1,0 +1,59 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link href="{% static 'index/findpwd.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}" >
+
+    <script charset="utf-8" src="{% static 'index/v.js' %}" ></script>
+    <script charset="utf-8" src="{% static 'index/heap.min.js' %}" ></script>
+    <script charset="utf-8" src="{% static 'index/hm.js' %}" ></script>
+    <script charset="utf-8" src="{% static 'index/share.js' %}" ></script>
+{#    <script charset="utf-8" src="{% static 'index/findpwd.min.js' %}" ></script>#}
+    <script charset="utf-8" src="{% static 'index/findpwd.js' %}" ></script>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container web-body">
+    <div class="row">
+        <div class="col-md-5 col-xs-10 col-xs-offset-1" style="margin:120px auto 70px auto;float: none;">
+            <div class="panel panel-default well">
+                <div class="panel-heading" style="height: 50px;">
+                    <div class="panel-title" style="text-align: left">忘记密码</div>
+                </div>
+                <div class="panel-body">
+                    <form action="http://www.hubwiz.com/findpwd#" class="form-horizontal" role="form" method="post">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input id="email" type="email" class="form-control" name="email" placeholder="邮箱">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-transfer"></i>
+                                </span>
+                                <input type="text" id="captcha" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify" minlength="4" maxlength="4">
+                                <img class='captcha' src="/static/index/img/code.png" alt='验证码'>
+                                <input id='id_captcha_0' name='captcha_0' type='hidden' >
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="submit" type="submit" class="btn btn-primary btn-block" value="发 送">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+     <script src="{% static 'index/captcha.js' %}"></script>
+{% endblock %}
+
+

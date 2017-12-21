@@ -2,6 +2,8 @@
 import os
 import sys
 
+from django.contrib.auth import get_user_model
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chartsite.settings")
     try:
@@ -20,3 +22,4 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
+

@@ -3,7 +3,7 @@
 
 import xadmin
 from xadmin import views
-from .models import PhoneCode, EmailCode
+from .models import PhoneCode, EmailCode, ImageCode
 
 
 class BaseSetting(object):
@@ -24,8 +24,12 @@ class PhoneCodeAdmin(object):
 class EmailCodeAdmin(object):
     list_display = ['code', 'email', "add_time"]
 
+class ImageCodeAdmin(object):
+    list_display = ['code', 'image', "add_time"]
+
 
 xadmin.site.register(PhoneCode, PhoneCodeAdmin)
 xadmin.site.register(EmailCode, EmailCodeAdmin)
+xadmin.site.register(ImageCode, ImageCodeAdmin)
 xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(views.CommAdminView, GlobalSettings)

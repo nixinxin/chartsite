@@ -2,15 +2,17 @@
 # -*- coding:utf-8 -*-
 __author__ = "xin nix"
 import re
+from random import Random
 from urllib import request
 import requests
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import json
 from django.shortcuts import render, HttpResponse
 import os
+from django.core.mail import send_mail
 
 from chartsite import settings
-from chartsite.settings import BASE_DIR
+from chartsite.settings import BASE_DIR, EMAIL_FROM, HOST
 from apps.users.models import EmailCode
 import smtplib
 import random
@@ -24,7 +26,7 @@ _letter_cases = "abcdefghjkmnpqrstuvwxy"  # 小写字母，去除可能干扰的
 _upper_cases = _letter_cases.upper()  # 大写字母
 _numbers = ''.join(map(str, range(3, 10)))  # 数字
 init_chars = ''.join((_letter_cases, _upper_cases, _numbers))
-TFF_PATH = os.path.join(BASE_DIR, 'static', 'font', 'Monaco.TTF')
+TFF_PATH = os.path.join(BASE_DIR, 'static', 'fonts', 'Monaco.TTF')
 
 
 class ImgEmailCode(object):
@@ -134,7 +136,7 @@ class ImgEmailCode(object):
         image = self.code + '.png'
         img_path = os.path.join(BASE_DIR, 'media', 'chartsite', 'captcha', image)
         self.img.save(img_path)
-        return self.code, img_path, image
+        return img_path, image
 
 
 def str_tool(length):
@@ -295,11 +297,7 @@ def sendactemail(host, username, emailaddr):
         data['status'] = True
     except Exception as e:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
         data['msg'] = e
-        data['status'] = 0
     return data
-
-
-
 
 
 class SmsPhoneCode(object):
@@ -317,4 +315,89 @@ class SmsPhoneCode(object):
         response = requests.post(self.single_send_url, data=parmas)
         re_dict = json.loads(response.text)
         return re_dict
+
+
+def random_str(randomlength=8):
+    str = ''
+    chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
+    length = len(chars) - 1
+    random = Random()
+    for i in range(randomlength):
+        str+=chars[random.randint(0, length)]
+    return str
+
+
+def send_email(email, code, send_type="register"):
+    email_record = EmailCode()
+    if send_type in ['register', 'update_email']:
+        code = code
+    else:
+        code = random_str(16)
+    email_record.code = code
+    email_record.email = email
+    email_record.send_type = send_type
+    email_record.save()
+
+    data = {'status': False, 'msg': 'false'}
+    title = "【农业统计数据】"
+    email_body = """<table width="500" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" 
+    align="center"><tbody> <td><table width="500" height="40" cellspacing="0" cellpadding="0" border="0" 
+    align="center"></table></td> <tr> <td> <table width="500" height="48" cellspacing="0" cellpadding="0" border="0" 
+    bgcolor="#10A64F" backgroud-color='transparent' align="center"> <tbody> <tr> <td border="0" 
+    style="padding-left:20px;" width="74" valign="middle" height="26" align="center"> <a href="{host}/index" 
+    target="_blank"><img src="{host}/static/index/img/chartsite.png" width="176" height="36" border="0"> </a> </td> 
+    <td colspan="2" style="color:#ffffff; padding-right:20px;"width="500" valign="middle" height="48" align="right"> 
+    <a href="{host}/index" target="_blank" style="color:#ffffff;text-decoration:none;font-size:16px"> 首页</a> </td> 
+    </tr> </tbody></table> </td> </tr> <tr> <td> <table style="border:1px solid 
+    #edecec;border-top:none;border-bottom:none;padding:0 20px;font-size:14px;color:#333333;" width="500" 
+    cellspacing="0" cellpadding="0" border="0" align="left"> <tbody> <tr> <td border="0" colspan="2" style=" 
+    font-size:16px;vertical-align:bottom;" width="500" height="56" align="left">尊敬的用户：</a></td> </tr> <tr> <td 
+    border="0" style="padding-left:40px;font-size:12px;"width="360" height="32">{email}, 您好</td></tr> <tr> <td 
+    border="0" style="padding-left:40px;font-size:12px;"width="360" height="32">欢迎加入农业统计数据，请妥善保管您的验证信息：</td> </tr> 
+    <tr> <td colspan="2" style="padding-left:40px;font-size:12px;" width="360" height="32">{notice}<br><a href="{url}" 
+    style="text-decoration:none" target="_blank">{url}</a> </td> </tr><tr><td colspan="2" style="line-height:30px; 
+    border-bottom:1px  dashed #e5e5e5;font-size:12px;text-align: left;padding-left: 320px;" width="360" height="14"> 
+    农业统计数据</td></tr><tr><td colspan="2" style="padding:8px0 28px;color:#999999; font-size:12px;text-align: right; 
+    padding-right: 40px;" width="360" height="14">此为系统邮件请勿回复</td></tr></tbody></table></td></tr><td><table 
+    width="500" height="40" cellspacing="0" cellpadding="0" border="0" align="center"></table></td></tbody></table> """
+
+    if send_type == "register":
+        email_title = "邮箱验证码"
+        email_body = title + "你的邮箱验证码为: {0}".format(code)
+        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email])
+        data['code'] = send_status
+        if send_status:
+            data['msg'] = 'success'
+        return data
+
+    elif send_type == "activate":
+        email_title = title + "账号激活链接"
+        url = '{host}//user/active/{code}'.format(host=HOST, code=code)
+
+        email_body = email_body.format(host=HOST, notice="请点击下面的链接激活你的账号(此链接有效期为24小时):", url=url, email=email)
+        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
+        data['code'] = send_status
+        if send_status:
+            data['msg'] = 'success'
+        return data
+
+    elif send_type == "forget":
+        email_title = title + "密码重置链接"
+        url = '{host}/user/forget/{code}'.format(host=HOST, code=code)
+        email_body = email_body.format(host=HOST, notice="请点击下面的链接重置密码(此链接有效期为24小时):", url=url, email=email)
+        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
+        data['code'] = send_status
+        if send_status:
+            data['msg'] = 'success'
+        return data
+
+    elif send_type == "update_email":
+        email_title = title + "邮箱验证码"
+        email_body = email_title + "你的邮箱验证码为: {0}".format(code)
+
+        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email])
+        data['code'] = send_status
+        if send_status:
+            data['msg'] = 'success'
+        return data
 

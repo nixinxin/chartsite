@@ -1,12 +1,14 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-     <link href="{% static 'index/login.min.css' %}" rel="stylesheet">
-    <script src="{% static 'index/login.min.js' %}"></script>
+    <link href="{% static 'index/login.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}" >
+
+    <script charset="utf-8" src="{% static 'index/v.js' %}" ></script>
 {% endblock %}
 
 {% block content %}
-  <div class="container web-body" style="padding:100px 0 100px 0;">
+    <div class="container web-body" style="padding:100px 0 100px 0;">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 col-xs-12">
                 <div class="row">
@@ -16,16 +18,17 @@
                                 <div class="panel-title">用户登录</div>
                             </div>
                             <div style="padding-top:30px" class="panel-body">
-                                <form id="loginForm" class="form-horizontal bv-form" role="form" method="post" novalidate="novalidate">
+                                <form id="loginForm" class="form-horizontal bv-form" role="form" method="post" novalidate="novalidate" data-toggle="validator">
+                                    {% csrf_token %}
                                     <div class="form-group has-feedback" style="">
                                         <div class="col-sm-12">
                                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="glyphicon glyphicon-user"></i>
                                 </span>
-                                            <input id="email" type="text" class="form-control" name="email" placeholder="邮箱" autocomplete="off" autofocus="true" data-bv-field="email">
-                                            </div><i class="form-control-feedback" data-bv-icon-for="email" style="display: none; top: 0px; z-index: 100;"></i>
-                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0px; margin-top: 10px;">请输入邮箱！</small><small class="help-block alert alert-danger" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0px; margin-top: 10px;">请输入正确的邮箱地址！</small></div>
+                                            <input id="email" type="email" class="form-control" name="username" placeholder="邮箱" autocomplete="off" autofocus="true" data-bv-field="email">
+                                            </div><i class="form-control-feedback" data-bv-icon-for="email" style="display: none; top: 0; z-index: 100;"></i>
+                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0; margin-top: 10px;">请输入邮箱！</small><small class="help-block alert alert-danger" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0; margin-top: 10px;">请输入正确的邮箱地址！</small></div>
                                     </div>
                                     <div class="form-group has-feedback">
                                         <div class="col-sm-12">
@@ -34,20 +37,23 @@
                                             <i class="glyphicon glyphicon-lock"></i>
                                         </span>
                                                 <input type="password" class="form-control" name="password" placeholder="密码" autocomplete="off" data-bv-field="password">
-                                            </div><i class="form-control-feedback" data-bv-icon-for="password" style="display: none; top: 0px; z-index: 100;"></i>
-                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="password" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0px; margin-top: 10px;">请输入密码！</small></div>
+                                            </div><i class="form-control-feedback" data-bv-icon-for="password" style="display: none; top: 0; z-index: 100;"></i>
+                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="password" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0; margin-top: 10px;">请输入密码！</small></div>
                                     </div>
                                     <div style="margin-bottom: 15px; width: auto;" class="form-group has-feedback">
                                         <div id="verify" class="col-sm-12 ">
                                             <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="glyphicon glyphicon-transfer"></i>
-                                        </span>
-                                                <input type="text" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify">
-                                                <img class="captcha" src="/captcha/login" alt="验证码">
-                                            </div><i class="form-control-feedback" data-bv-icon-for="verify" style="display: none; top: 0px; z-index: 100;"></i>
-
-                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="verify" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0px; margin-top: 10px;">请输入验证码！</small><small class="help-block alert alert-danger" data-bv-validator="callback" data-bv-for="verify" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0px; margin-top: 10px;">Please enter a valid value</small></div>
+                                                <span class="input-group-addon">
+                                                    <i class="glyphicon glyphicon-transfer"></i>
+                                                </span>
+                                                <input type="text" id="id_captcha_1" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify" minlength="4" maxlength="4">
+                                                <img class='captcha' src="/static/index/img/code.png" alt='验证码'>
+                                                <input id='id_captcha_0' name='captcha_0' type='hidden' >
+                                            </div>
+                                            <i class="form-control-feedback" data-bv-icon-for="verify" style="display: none; top: 0; z-index: 100;"></i>
+                                        <small class="help-block alert alert-danger" data-bv-validator="notEmpty" data-bv-for="verify" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0; margin-top: 10px;">请输入验证码！</small>
+                                            <small class="help-block alert alert-danger" data-bv-validator="callback" data-bv-for="verify" data-bv-result="NOT_VALIDATED" style="display: none; margin-bottom: 0; margin-top: 10px;">Please enter a valid value</small>
+                                        </div>
                                     </div>
                                     <div style="margin-top:30px" class="form-group">
                                         <div class="col-sm-12">
@@ -57,12 +63,12 @@
                                     </div>
                                     <div style="margin-top:10px" class="form-group">
                                         <div class="col-sm-6 col-xs-6"><!--jACKY 2016-3-29-->
-                                            <a href="/register" class="btn btn-default btn-block">
+                                            <a href="http://agridata.iask.in/register" class="btn btn-default btn-block">
                                                 <i class="glyphicon glyphicon-pencil"></i>
                                                 注册</a>
                                         </div>
                                         <div class="col-sm-6 col-xs-6"><!--jACKY 2016-3-29-->
-                                            <a href="/findpwd" class="btn btn-default btn-block">
+                                            <a href="http://agridata.iask.in/findpwd" class="btn btn-default btn-block">
                                                 <i class="glyphicon glyphicon-question-sign"></i>
                                                 忘记密码</a>
                                         </div>
@@ -73,7 +79,7 @@
                     </div>
                     <div id="oAuth" class="col-md-5">
                         <div class="page-header">
-                            <h3>欢迎来到农业统计数据可视化平台</h3>
+                            <h4>欢迎来到农业统计数据可视化平台</h4>
                             <p>在这里，你可以充实自己，认识更多的朋友！</p>
                         </div>
                         <div class="col-sm-12 social-buttons">
@@ -86,41 +92,17 @@
                             <button type="button" data-type="github" class="btn btn-block btn-social btn-github">
                                 <i class="fa fa-github"></i> GitHub 登录
                             </button>
-                            <div class="page-header">
-                                <p>加入交流群，与更多一线开发者互动。</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-xs-6"><!--jACKY 2016-3-29-->
-                                    <a href="http://jq.qq.com/?_wv=1027&amp;k=UjWG0x" class="btn btn-block btn-dropbox" disabled="disabled">
-                                        <i class="fa fa-qq fa-4"></i>
-
-                                        交流群①(已满)
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-xs-6"><!--jACKY 2016-3-29-->
-                                    <a href="http://jq.qq.com/?_wv=1027&amp;k=R5QuA4" class="btn btn-block btn-dropbox" disabled="disabled">
-                                        <i class="fa fa-qq fa-4"></i>
-                                        交流群②(已满)
-                                    </a>
-                                </div>
-                                <hr>
-                                <div class="col-md-6 col-xs-6"><!--jACKY 2016-6-20-->
-                                    <a href="http://jq.qq.com/?_wv=1027&amp;k=2BAYxe3" class="btn btn-block btn-dropbox">
-                                        <i class="fa fa-qq fa-4"></i>
-                                        交流群③
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-xs-6"><!--jACKY 2016-6-20-->
-                                    <a href="http://jq.qq.com/?_wv=1027&amp;k=28fEOaS" class="btn btn-block btn-dropbox">
-                                        <i class="fa fa-qq fa-4"></i>
-                                        交流群④
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="{% static 'index/captcha.js' %}"></script>
+{#    <script src="{% static 'index/login.min.js' %}"></script>#}
+    <script src="{% static 'index/login.js' %}"></script>
+
+{% endblock %}
+
+{% block foot %}
 {% endblock %}
