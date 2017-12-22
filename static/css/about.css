@@ -1,0 +1,61 @@
+.context{
+    padding:20px 0;
+    font-family: Consolas,'Microsoft Yahei';
+    font-size:14px;
+    }
+.summary{
+    min-height:200px;
+    }
+.summary p{
+/*text-indent:25px;*/
+    }
+.summary img{
+    max-width:100%;
+    }
+.summary h1{
+    margin:0;
+    margin-bottom:20px;
+    }
+.summary .text{
+    padding:0 15px;
+}
+.tile{
+    padding:0 10px;
+    }
+.tile .wrapper{
+    position:relative;
+    min-height:200px;
+    padding:0 15px;
+    background:#f0f0f0;
+    }
+a.wrapper{
+    display:block;
+    text-decoration:none;
+    }
+.wrapper h1{
+    font-size:30px;
+    margin:0;
+    padding:20px 0;
+    }
+.partners{
+    margin:20px 0;
+    }
+blockquote{
+}
+
+.wrapper.author{
+    background:#4caf50;
+    color:#fff;
+    }
+.wrapper.institute{
+    background:#607d8b;
+    color:#fff;
+    }
+.wrapper.school{
+    background:#9c27b0;
+    color:#fff;
+    }
+.wrapper.company{
+    background:#f44336;
+    color:#fff;
+    }

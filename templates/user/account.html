@@ -1,15 +1,13 @@
 {% extends 'base/base.html' %}
-{%  load static %}
-    {% block cssjs %}
-{#    <link href="{% static 'index/img/icon.png' %}" rel="shortcut icon">#}
-    <link href="{% static 'index/index.css' %}" rel="stylesheet">
-    <!--jACKY end-->
+{% block cssjs %}
+    {%  load static %}
+    <link href="{% static 'css/index.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+    <link rel="stylesheet" href="{% static 'css/account.min.css' %}">
 
-    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}">
-    <link rel="stylesheet" href="{% static 'index/account.min.css' %}">
-    <script src="{% static 'index/share.js' %}"></script>
+    <script src="{% static 'js/share.js' %}"></script>
 
-    {% endblock %}
+{% endblock %}
 
 {% block content %}
          <div class="container web-body">
@@ -113,7 +111,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="avatar">
-                                    <img class="thumbnail" src="/static/index/img/man.jpg">
+                                    <img class="thumbnail" src="/static/img/man.jpg">
                                     <input type="file" name="icon" id="icon" accept="image/*" style="display: none;">
                                     <button id="upAvatar" class="btn btn-default">
                                         <i class="glyphicon glyphicon-cloud-upload"></i> 上传头像
@@ -159,12 +157,14 @@
 
 
 {% block foot %}
-    <script src="{% static 'index/heap.min.js' %}"></script>
-    <script src="{% static 'index/hm.js' %}"></script>
-    <script src="{% static 'index/account.min.js' %}"></script>
+    <script src="{% static 'js/heap.min.js' %}"></script>
+    <script src="{% static 'js/hm.js' %}"></script>
+    <script src="{% static 'js/account.min.js' %}"></script>
 
-    <script src="{% static 'index/mi.min.js' %}"></script>
+    <script src="{% static 'js/mi.min.js' %}"></script>
 
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bootstrapValidator.js' %}"></script>
 {% endblock %}
 
 

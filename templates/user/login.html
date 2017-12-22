@@ -1,10 +1,11 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-    <link href="{% static 'index/login.min.css' %}" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}" >
 
-    <script charset="utf-8" src="{% static 'index/v.js' %}" ></script>
+    <link href="{% static 'css/login.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}" >
+
+    <script charset="utf-8" src="{% static 'js/v.js' %}" ></script>
 {% endblock %}
 
 {% block content %}
@@ -47,7 +48,7 @@
                                                     <i class="glyphicon glyphicon-transfer"></i>
                                                 </span>
                                                 <input type="text" id="id_captcha_1" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify" minlength="4" maxlength="4">
-                                                <img class='captcha' src="/static/index/img/code.png" alt='验证码'>
+                                                <img class='captcha' src="{% static 'img/code.png' %}" alt='验证码'>
                                                 <input id='id_captcha_0' name='captcha_0' type='hidden' >
                                             </div>
                                             <i class="form-control-feedback" data-bv-icon-for="verify" style="display: none; top: 0; z-index: 100;"></i>
@@ -98,11 +99,13 @@
             </div>
         </div>
     </div>
-    <script src="{% static 'index/captcha.js' %}"></script>
-{#    <script src="{% static 'index/login.min.js' %}"></script>#}
-    <script src="{% static 'index/login.js' %}"></script>
+    <script src="{% static 'js/captcha.js' %}"></script>
+    <script src="{% static 'js/login.min.js' %}"></script>
+    <script src="{% static 'js/login.js' %}"></script>
 
 {% endblock %}
 
 {% block foot %}
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/bootstrapValidator.js' %}"></script>
 {% endblock %}

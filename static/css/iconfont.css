@@ -1,0 +1,54 @@
+
+@font-face {font-family: "iconfont";
+  src: url('/static/fonts/iconfont.eot'); /* IE9*/
+  src: url('/static/fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/static/fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('/static/fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('/static/fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  /*-webkit-text-stroke-width: 0.2px;*/
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-async:before { content: "\e602"; }
+.icon-weibo:before { content: "\e600"; }
+.icon-ilabicon-angular:before { content: "\e616"; }
+.icon-meteor:before { content: "\e603"; }
+.icon-c:before { content: "\e604"; }
+.icon-search:before { content: "\e617"; }
+.icon-ionic:before { content: "\e606"; }
+.icon-mysql:before { content: "\e607"; }
+.icon-html5:before { content: "\e608"; }
+.icon-php:before { content: "\e618"; }
+.icon-java:before { content: "\e619"; }
+.icon-nodejs:before { content: "\e60a"; }
+.icon-bootstrap:before { content: "\e60b"; }
+.icon-jquery:before { content: "\e601"; }
+.icon-less:before { content: "\e61a"; }
+.icon-python:before { content: "\e60c"; }
+.icon-mongodb:before { content: "\e60d"; }
+.icon-redis:before { content: "\e61c"; }
+.icon-angular:before { content: "\e61e"; }
+.icon-css3:before { content: "\e60e"; }
+.icon-javascript:before { content: "\e610"; }
+.icon-socialnodejs:before { content: "\e611"; }
+.icon-sharp:before { content: "\e612"; }
+.icon-nginx:before { content: "\e614"; }
+.icon-uml:before { content: "\e620"; }
+.icon-zebra:before { content: "\e621"; }
+.icon-spark:before { content: "\e622"; }
+.icon-socketio:before { content: "\e623"; }
+.icon-material:before { content: "\e624"; }
+.icon-typescript:before { content: "\e625"; }
+.icon-git:before { content: "\e626"; }
+.icon-qqweibo:before { content: "\e62a"; }
+.icon-renren:before { content: "\e628"; }
+.icon-weixin:before { content: "\e629"; }
+.icon-qzone:before { content: "\e62b"; }
+.icon-phonegap:before { content: "\e62f"; }
+.icon-ruby:before { content: "\e62c"; } /*jACKY 2016-01-19*/

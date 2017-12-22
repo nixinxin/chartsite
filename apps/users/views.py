@@ -184,8 +184,8 @@ class ImageCodeVerifyViewset(mixins.ListModelMixin, viewsets.GenericViewSet):
         # data = dict(request.GET)
         # print(data)
         data = {
-            'verify': request.GET['verify'],
-            'captcha_0': request.GET['captcha_0'],
+            'response': request.GET['response'],
+            'hashkey': request.GET['hashkey'],
         }
         serializer = self.get_serializer(data=data)
         serializer.is_valid(raise_exception=True)  # drf可以捕做捉异常返回400
@@ -324,3 +324,21 @@ class AccountView(View):
 class ServiceView(View):
     def get(self, request):
         return render(request, "service.html")
+
+
+class ShareView(View):
+
+    def get(self, request):
+        return render(request, "share.html")
+
+
+class FaviconView(View):
+
+    def get(self, request):
+        favicon = open(os.path.join('static', 'img', 'favicon.ico'), 'rb').read()
+        header = {
+            'content_type': "image/png"
+        }
+        data = favicon
+        return HttpResponse(content=data, **header)
+

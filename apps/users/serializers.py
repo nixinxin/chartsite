@@ -88,7 +88,7 @@ class ImageCodeSerialier(serializers.ModelSerializer):
 
 
 class ImageCodeVerifySerialier(serializers.Serializer):
-    verify = serializers.CharField(max_length=4,
+    response = serializers.CharField(max_length=4,
                                    min_length=4,
                                    required=True,
                                    allow_blank=False,
@@ -99,20 +99,13 @@ class ImageCodeVerifySerialier(serializers.Serializer):
                                        "max_length": "验证码格式错误",
                                        "min_length": "验证码格式错误"},
                                    label="验证码", )
-    captcha_0 = serializers.CharField(required=True,
+    hashkey = serializers.CharField(required=True,
                                       allow_blank=False,
                                       write_only=True,
                                       error_messages={
                                           "blank": '请输入隐藏值',
                                           "required": '请输入隐藏值'},
                                       label="隐藏值", )
-
-    def validate(self, attrs):
-        attrs['response'] = attrs['verify']
-        attrs['hashkey'] = attrs['captcha_0']
-        del attrs['verify']
-        del attrs['captcha_0']
-        return attrs
 
     class Meta:
         model = CaptchaStore

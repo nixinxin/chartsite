@@ -1,20 +1,20 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-        <link rel="stylesheet" href="{% static 'index/bootstrap.min.css' %}">
-        <link rel="stylesheet" href="{% static 'index/font-awesome.min.css' %}">
-        <link rel="stylesheet" href="{% static 'index/custom.css' %}">
-        <link rel="stylesheet" href="{% static 'index/about.css' %}">
-        <link rel="stylesheet" href="{% static 'index/header.css' %}">
-        <script src="{% static 'index/share.js' %}"></script>
-        <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+        <link rel="stylesheet" href="{% static 'css/about.css' %}">
+        <link rel="stylesheet" href="{% static 'css/header.css' %}">
+        <script src="{% static 'js/share.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
 {% endblock %}
 
 {%  block content %}
     <div class="container context">
       <div class="row summary">
         <div class="col-md-4 col-xs-12">
-          <img src="{% static '/index/img/biz-summary.png' %}">
+          <img src="{% static 'img/biz-summary.png' %}">
         </div>
         <div class="col-md-8 col-xs-12">
           <div class="text">
@@ -84,7 +84,6 @@
 {% endblock %}
 
 {% block foot %}
-    <script src="{% static 'index/heap.min.js' %}"></script>
-    <script src="{% static 'index/hm.js' %}"></script>
-    <script src="{% static 'index/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bootstrapValidator.js' %}"></script>
 {% endblock %}

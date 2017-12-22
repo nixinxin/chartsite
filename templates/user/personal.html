@@ -1,14 +1,14 @@
 {% extends 'base/base.html' %}
 {% load static %}
 {% block cssjs %}
-    <link href="{% static 'index/img/icon.png' %}" rel="shortcut icon">
-    <link href="{% static 'index/index.css' %}" rel="stylesheet">
-    <link href="{% static 'index/personal.min.css' %}" rel="stylesheet">
+    <link href="{% static 'img/icon.png' %}" rel="shortcut icon">
+    <link href="{% static 'css/11.css' %}" rel="stylesheet">
+    <link href="{% static 'css/personal.min.css' %}" rel="stylesheet">
     <!--jACKY end-->
 
-    <script src="{% static 'index/share.js' %}"></script>
-    <script src="{% static 'index/v.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'index/share_style0_16.css' %}">
+    <script src="{% static 'js/share.js' %}"></script>
+    <script src="{% static 'js/v.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
 {% endblock %}
 
 
@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row main-user" style="height: 205px;">
                     <div class="col-md-2 col-md-offset-1 col-xs-3"><!--jACKY 2016-3-29-->
-                        <img class="img-circle avatar" src="{% static 'index/img/man.jpg' %}" >
+                        <img class="img-circle avatar" src="{% static 'img/man.jpg' %}" >
                     </div>
                     <div class="col-md-5 col-xs-9"><!--jACKY 2016-3-29-->
                         <div class="right-user">
@@ -265,8 +265,9 @@
 {% block foot %}
 
     <script>var token = '';</script>
-    <script src="{% static 'index/personal.min.js' %}"></script>
-
-    <script src="{% static 'index/mi.min.js' %}"></script>
+    <script src="{% static 'js/personal.min.js' %}"></script>
+    <script src="{% static 'js/mi.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bootstrapValidator.js' %}"></script>
 {% endblock %}
 
