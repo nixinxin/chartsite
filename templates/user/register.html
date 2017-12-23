@@ -60,13 +60,13 @@
                                         <i class="glyphicon glyphicon-transfer"></i>
                                     </span>
                                     <input type="text" id="id_captcha_1" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify" minlength="4" maxlength="4">
-                                    <input type="button" id="sendcode" class="btn btn-default label-danger" value="获取验证码">
+                                    <button id="sendcode" class="btn btn-default label-primary shuaxing">刷新验证</button>
 
                                 </div>
                                 <i class="form-control-feedback glyphicon"  data-bv-icon-for="verify"></i>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" style="margin-top: -10px;">
                             <div class="col-sm-12 ">
                                 <button type="submit" class="btn btn-primary btn-block">
                                     同意协议并注册</button>
@@ -94,7 +94,6 @@
 {% block foot %}
         <script src="{% static 'js/jquery.validate.js' %}"></script>
         <script src="{% static 'js/bootstrap.min.js' %}"></script>
-        <script src="{% static 'js/bootstrapValidator.js' %}"></script>
         <script src="{% static 'js/messages_zh.js' %}"></script>
         <script src="{% static 'js/register.js' %}"></script>
 

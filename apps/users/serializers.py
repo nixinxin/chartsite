@@ -150,7 +150,7 @@ class ImageCodeVerifySerialier(serializers.Serializer):
 
     class Meta:
         model = CaptchaStore
-        fields = ('response', 'hashkey')
+        fields = ('hashkey', 'response')
 
 
 class UserDetailSerializer(serializers.ModelSerializer):
@@ -161,11 +161,11 @@ class UserDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("name", 'gender', 'birthday', 'mobile', 'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
+        fields = (
+            "name", 'gender', 'birthday', 'mobile', 'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
 
 
 class UserRegSerializer(serializers.ModelSerializer):
-
     username = serializers.CharField(required=True,
                                      write_only=True,
                                      allow_blank=False,

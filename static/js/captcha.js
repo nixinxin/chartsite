@@ -14,3 +14,10 @@ $(".captcha").bind("click",function(){
             $('#id_captcha_0').attr("value",result.key);
         });
 });
+$("#shuaxing").bind("click",function(){
+    $.get("/captcha/refresh/?"+Math.random(), function(result){
+            $("#id_captcha_1").val('').focus();
+            $('.captcha').attr("src",result.image_url);
+            $('#id_captcha_0').attr("value",result.key);
+        });
+});

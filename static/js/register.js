@@ -1,7 +1,4 @@
 $(function() {
-    $(document).ajaxSend(function(xhr){
-        xhr.setRequestHeader('Authorization', 'token' + $.cookie('token'));
-    });
     $("#registerForm").validate({
         rules: {
             email: {
@@ -12,11 +9,11 @@ $(function() {
                 required: true,
                 rangelength: [8, 20],
             },
-            // confirmPassword: {
-            //     required: true,
-            //     minlength: 8,
-            //     equalTo: "#password"
-            // },
+            confirmPassword: {
+                required: true,
+                minlength: 8,
+                equalTo: "#password"
+            },
             verify: {
                 required: true,
                 minlength: 4,
@@ -81,9 +78,14 @@ $(function() {
                         path: '/',
                         expired: 1,
                     });
-                    $.get({
+                    $.ajax({
                         url:"/users/1/",
-                        function(data,status){
+                        type: 'get',
+                        beforeSend: function (xhr) {
+                            // //发送ajax请求之前向http的head里面加入验证信息
+                            xhr.setRequestHeader("token", $.cookie('token')); // 请求发起前在头部附加token
+                        },
+                        success: function(data,status){
                             $(".nav.navbar-nav.navbar-right").addClass("profile");
                             $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
                                 "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
@@ -119,7 +121,7 @@ $(function() {
                     })
                 },
                 error: function (data, status) {
-                    BootstrapDialog.alert("用户名已经存在！")
+                    alert("用户名已经存在！")
                 }
         });
         },
@@ -128,8 +130,10 @@ $(function() {
 
 
 $(function () {
+
     $("#sendcode").click(function(){
-        $.ajax({
+        if ($("#registerForm div:first").hasClass('has-success')){
+            $.ajax({
             url: "/emailcodes/",
             type: 'POST',
             data: {
@@ -137,52 +141,18 @@ $(function () {
                 'send_type':"register"
             },
             success: function(data, status){
-                BootstrapDialog.alert("验证码发送成功，请注意查收！")
+                alert("验证码发送成功，请注意查收！")
             },
             error: function (data, status) {
-                BootstrapDialog.alert("用户名已经存在！");
+                alert("用户名已经存在！");
             }
 
         })
+        }
+        else{
+            alert("请输入合法的邮箱！")
+        }
     })
 });
 
-$(function () {
-    $.get({
-        url:"/users/1/",
-        function(data,status){
-            $(".nav.navbar-nav.navbar-right").addClass("profile");
-            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
-                "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
-                "                        <img class='img-circle' src="+ data.image +">" + data.username +
-                "                        <b class='caret'></b>" +
-                "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
-                "                        <span class='navbar-unread count'>100</span></span>" +
-                "                    </a>" +
-                "                    <ul id='userMenu' class='dropdown-menu' style='display: none;'>" +
-                "                        <li>" +
-                "                            <a href='/personal'>个人中心" +
-                "                                <span class='fa fa-envelope pull-right'></span>" +
-                "                            </a>" +
-                "                        </li>" +
-                "                        <li class='divider'></li>" +
-                "                        <li><a href='/account'>账号设置" +
-                "                                <span class='glyphicon glyphicon-cog pull-right'></span></a>" +
-                "                        </li>" +
-                "                        <li class='divider'></li>" +
-                "                        <li>" +
-                "                            <a href='http://i.hubwiz.com/invite'>邀请朋友" +
-                "                                <span class='fa fa-users pull-right'></span>" +
-                "                            </a>" +
-                "                        </li>" +
-                "                        <li class='divider'></li>" +
-                "                        <li><a href='/logoff'>安全退出" +
-                "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
-                "                        </li>" +
-                "                    </ul>" +
-                "                </li>")
-
-        }
-    })
-})
 

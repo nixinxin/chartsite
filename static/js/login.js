@@ -1,98 +1,122 @@
 $(function() {
-    $("#loginForm").bootstrapValidator({
-		message: "此值无效！",
-		feedbackIcons: {
-			valid: "glyphicon glyphicon-ok",
-			invalid: "glyphicon glyphicon-remove",
-			validating: "glyphicon glyphicon-refresh"
-		},
-		fields: {
-			username: {
-				validators: {
-					notEmpty: {
-						message: "请输入邮箱！"
-					},
-					emailAddress: {
-						message: "请输入正确的邮箱地址！"
-					}
-				}
-			},
-			password: {
-				validators: {
-					notEmpty: {
-						message: "请输入密码！"
-					}
-				}
-			},
-			verify: {
-				validators: {
-					notEmpty: {
-						message: "请输入验证码！"
-					},
-					callback: {
-						callback: function(e, t) {
-							return 4 !== e.length ? {
-								valid: !1,
-								message: "请输入正确的验证码！"
-							}:($.ajax({
-								async: !1,
-								url: "/verify/?response=" + e + "&hashkey=" + $("#id_captcha_0").val(),
-								type: "Get",
-								success: function(t, a) {
-									e = t
-								},
-								error: function(t, a) {
-									e = a
-								}
-							}), "error" === e ? {
-								valid: !1,
-								message: "请输入正确的验证码！"
-							} : !0)
-						}
-					}
-				}
-			}
-		}
-	}).on("success.form.bv", function(e) {
-		e.preventDefault(), $.ajax({
-			url: "/login/",
-			type: "Post",
-			data: {
-			    "csrfmiddlewaretoken": $("[name=csrfmiddlewaretoken]").val(),
-			    "username": $("[name=username]").val(),
-			    "password": $("[name=password]").val()
+    $("#loginForm").validate({
+        rules: {
+            username: {
+                required: true,
+                email: true
             },
-			success: function(e, t) {
-                if (e.token){
-                     $.cookie('token',e.token, {"expired": 1});
-                     $.get(
-                         '/users/1/',
-                         function (data) {
-                             confirm(data)
-                         }
-                     )
-                }
+            password: {
+                required: true,
+                rangelength: [8, 20],
+            },
+            // response: {
+            //     required: true,
+            //     minlength: 4,
+            //     maxlength: 4,
+            //     remote: {
+            //         url: "/verify/",     //后台处理程序
+            //         type: "post", //数据发送方式
+            //         data:{
+            //             "hashkey": function(){
+            //                 return $("#id_captcha_0").val()
+            //             },
+            //         },
+            //         }
+            //     },
+            },
+        message: {
+            username: {
+                required: "请输入合法的邮箱",
+                email: "请输入合法的邮箱"
+            },
+            password: {
+                required: "请输入密码",
+                rangelength: "密码至少包一个大写字母、一个小写字母及一个符号，长度至少8位",
+            },
+            response: {
+                required: true,
+                minlength: '验证码不正确',
+                maxlength: "验证码不正确",
+                remote: "验证码不正确",
+            },
+        },
+        errorClass: 'has-error',
+        errorElement: "small",
+        focusCleanup: true,
+        keyup: true,
+        success: function (element) {
+            element.parent().parent().removeClass('has-error');
+            element.parent().parent().addClass('has-success');
+            element.parent().children("i").removeClass('glyphicon-remove');
+            element.parent().children("i").addClass('glyphicon-ok');
+            element.parent().children('small').remove()
+        },
+        errorPlacement: function (error, element) {
+            element.parent().parent().parent().removeClass('has-success');
+            element.parent().parent().children("i").removeClass('glyphicon-ok');
+            element.parent().parent().children("i").addClass('glyphicon-remove');
+            element.parent().parent().parent().addClass('has-error');
+            element.parent().parent().append(error);
+            element.parent().parent().children('small').addClass("alert alert-danger")
+        },
+        submitHandler:function (form) {
+            $.ajax({url:"/login/",
+                type:"Post",
+                data:$(form).serialize(),
+                success: function (data, status) {
+                    $.cookie('token', data.token, {
+                        path: '/',
+                        expired: 7,
+                    });
+                    if(data.token){
+                        $.ajax({
+                        url:"/users/1/",
+                        type: 'get',
+                        beforeSend: function (xhr) {
+                            // //发送ajax请求之前向http的head里面加入验证信息
+                            xhr.setRequestHeader("token", $.cookie('token')); // 请求发起前在头部附加token
+                        },
+                        success: function(data,status){
+                            $(".nav.navbar-nav.navbar-right").addClass("profile");
+                            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
+                                "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
+                                "                        <img class='img-circle' src="+ data.image +">" + data.username +
+                                "                        <b class='caret'></b>" +
+                                "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
+                                "                        <span class='navbar-unread count'>100</span></span>" +
+                                "                    </a>" +
+                                "                    <ul id='userMenu' class='dropdown-menu' style='display: none;'>" +
+                                "                        <li>" +
+                                "                            <a href='/personal'>个人中心" +
+                                "                                <span class='fa fa-envelope pull-right'></span>" +
+                                "                            </a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li><a href='/account'>账号设置" +
+                                "                                <span class='glyphicon glyphicon-cog pull-right'></span></a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li>" +
+                                "                            <a href='http://i.hubwiz.com/invite'>邀请朋友" +
+                                "                                <span class='fa fa-users pull-right'></span>" +
+                                "                            </a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li><a href='/logoff'>安全退出" +
+                                "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
+                                "                        </li>" +
+                                "                    </ul>" +
+                                "                </li>")
 
-			},
-			error: function(e) {
-				500 === e.status ? BootstrapDialog.alert("服务器繁忙，请稍后再试！") : BootstrapDialog.alert(e.responseText), $("#email").focus(), $(":password").val(""), $("#captcha").trigger("click")
-			}
-		})
-	}), $("button", "#oAuth").click(function() {
-		var e, t, a = $(this).attr("data-type");
-		switch (a) {
-		case "qq":
-			e = "https://graph.qq.com/oauth2.0/authorize?", t = ["response_type=code", "client_id=101161717", "redirect_uri=http://agridata.iask.in/complete/qq"];
-			break;
-		case "sina":
-			e = "https://api.weibo.com/oauth2/authorize?", t = ["client_id=1064902839", "scope=all", "redirect_uri=http://agridata.iask.in/complete/weibo", "state=" + Date.now()];
-			break;
-		case "github":
-			e = "https://github.com/login/oauth/authorize?", t = ["client_id=843129131eab9a3287a8", "redirect_uri=http://agridata.iask.in/complete/github", "state=" + Date.now()]
-		}
-		e && t && (location.href = e + t.join("&"))
-	}), $(".captcha").click(function() {
-		var e = $(this).attr("src").replace(/\?.*/, "");
-		$(this).attr("src", e + "?" + Math.random()), $('input[name="verify"]').val("").focus(), $("form").bootstrapValidator("resetField", "verify"), $(":submit").attr("disabled", !0)
-	})
+                        }
+                    })
+                    }
+                },
+                error: function (data, status) {
+                    alert("用户名或密码错误！")
+                }
+        });
+        },
+    });
 });
+

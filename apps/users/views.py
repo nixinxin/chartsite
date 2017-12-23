@@ -211,35 +211,26 @@ class ImageCodeViewset(mixins.ListModelMixin,  mixins.CreateModelMixin, viewsets
         return "".join(random_str)
 
 
-class ImageCodeVerifyViewset(mixins.ListModelMixin, viewsets.GenericViewSet):
+class ImageCodeVerifyViewset(mixins.CreateModelMixin, viewsets.GenericViewSet):
     """
     验证图片验证码
     """
     serializer_class = ImageCodeVerifySerialier
+    queryset = EmailCode.objects.all()
 
-    def list(self, request, *args, **kwargs):
-        # data = dict(request.GET)
-        # print(data)
-        data = {
-            'response': request.GET['response'],
-            'hashkey': request.GET['hashkey'],
-        }
-        serializer = self.get_serializer(data=data)
-        serializer.is_valid(raise_exception=True)  # drf可以捕做捉异常返回400
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
         response = serializer.validated_data['response']
         hashkey = serializer.validated_data['hashkey']
+        data = False
+        statuscode = status.HTTP_200_OK
+        exit = CaptchaStore.objects.filter(response=str(response).lower(), hashkey=hashkey)
+        if exit:
+            data = True
+        return Response(data, status=statuscode)
 
-        result = CaptchaStore.objects.filter(response=str(response).lower(), hashkey=hashkey)
-        header = {
-            "status": status.HTTP_200_OK,
-            'content_type': "text/plain"
-        }
-        if result:
-            data = "OK"
-        else:
-            data = "Not Found"
-            header['status'] = status.HTTP_404_NOT_FOUND
-        return HttpResponse(content=data, **header)
+
 
 
 class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateModelMixin, viewsets.GenericViewSet):

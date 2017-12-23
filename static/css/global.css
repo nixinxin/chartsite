@@ -26,3 +26,9 @@
         box-shadow: 0 1px 2px rgba(255,255,255,.1);
     }
 }
+
+small.has-error{
+    margin-bottom: 0;
+    display: block;
+    padding: 0 0 0 40px;
+}
