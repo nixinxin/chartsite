@@ -2,7 +2,7 @@ import os
 
 from captcha.models import CaptchaStore
 from django.contrib.auth import get_user_model, authenticate, login
-from random import choice
+from random import choice, Random
 from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.hashers import make_password
 from django.db.models import Q
@@ -19,7 +19,7 @@ from apps.users.models import PhoneCode, EmailCode, ImageCode, UserProfile
 from operation.models import UserMessage
 from users.forms import RegisterForm, LoginForm, CaptchaForm
 from users.serializers import PhoneSerialier, UserRegSerializer, UserDetailSerializer, EmailSerialier, \
-    ImageCodeSerialier, ImageCodeVerifySerialier
+    ImageCodeSerialier, ImageCodeVerifySerialier, EmailVerifySerialier
 
 from rest_framework_jwt.serializers import jwt_encode_handler, jwt_payload_handler
 from rest_framework import mixins
@@ -88,43 +88,80 @@ class PhoneCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
             }, status=status.HTTP_201_CREATED)
 
 
-class EmailCodeViewset(mixins.CreateModelMixin, viewsets.GenericViewSet):
+class EmailCodeViewset(mixins.RetrieveModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
     """
     发送邮箱验证码
     """
     serializer_class = EmailSerialier
 
-    def generate_code(self):
-        """
-        生成四位数字的验证码
-        :return:
-        """
-        seeds = '1234567890'
-        random_str = []
-        for i in range(4):
-            random_str.append(choice(seeds))
-        return "".join(random_str)
+    queryset = EmailCode.objects.filter()
+
+    def generate_code(self, ranglength=4):
+        str = ''
+        chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
+        length = len(chars) - 1
+        random = Random()
+        for i in range(ranglength):
+            str += chars[random.randint(0, length)]
+        return str
+
+    def retrieve(self, request, *args, **kwargs):
+        data = False
+        statuscode = status.HTTP_200_OK
+        try:
+            if request.GET['email'] and request.GET['send_type'] and request.GET['code']:
+                instance = EmailCode.objects.filter(email=request.GET['email'],
+                                                    send_type=request.GET['send_type'],
+                                                    code=str(request.GET['code']).lower())
+                if instance:
+                    data = True
+        except:
+            pass
+        return Response(data, status=statuscode)
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)  # drf可以捕做捉异常返回400
-        code = self.generate_code()
-
-        email = serializer.validated_data['email']
         send_type = serializer.validated_data['send_type']
+        if send_type in ['register', 'update_email']:
+            code = self.generate_code(4)
+        else:
+            code = self.generate_code(16)
+        email = serializer.validated_data['email']
+        sms_status = send_email(code=code.lower(), email=email, send_type=send_type)
 
-        sms_status = send_email(code=code, email=email, send_type=send_type)
-
-        if not sms_status['code']:
+        if not sms_status:
             return Response({
-                "status": sms_status['msg']
+                "status": 'error'
             }, status=status.HTTP_400_BAD_REQUEST)
         else:
-            code_record = EmailCode(code=code, email=email)
+            code_record = EmailCode(code=code.lower(), email=email, send_type=send_type)
             code_record.save()
             return Response({
-                'status': sms_status['msg']
+                'status': 'success'
             }, status=status.HTTP_201_CREATED)
+
+
+class EmailCodeVereifyViewset(mixins.CreateModelMixin, viewsets.GenericViewSet):
+    """
+    发送邮箱验证码
+    """
+    serializer_class = EmailVerifySerialier
+
+    queryset = EmailCode.objects.filter()
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        email = serializer.validated_data['email']
+        code = serializer.validated_data['verify']
+        send_type = serializer.validated_data['send_type']
+        data = False
+        statuscode = status.HTTP_200_OK
+        exit = EmailCode.objects.filter(code=str(code).lower(), email=email, send_type=send_type)
+        if exit:
+            data = True
+        return Response(data, status=statuscode)
 
 
 class ImageCodeViewset(mixins.ListModelMixin,  mixins.CreateModelMixin, viewsets.GenericViewSet):
@@ -240,9 +277,11 @@ class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateMode
         payload = jwt_payload_handler(user)
         re_dict['token'] = jwt_encode_handler(payload)
         re_dict['name'] = user.name if user.name else user.username
-
-        headers = self.get_success_headers(serializer.data)
-        return Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
+        headers = self.get_success_headers(re_dict)
+        response = Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
+        response.set_cookie(key='token', value=re_dict['token'], expires=1)
+        response.set_cookie(key='name', value=re_dict['name'], expires=1)
+        return response
 
     # 重载获取用户model的实例
     def get_object(self):
@@ -342,3 +381,7 @@ class FaviconView(View):
         data = favicon
         return HttpResponse(content=data, **header)
 
+
+class TemplateViews(View):
+    def get(self, request):
+        return render(request, "test.html")

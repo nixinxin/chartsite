@@ -64,18 +64,59 @@ class EmailSerialier(serializers.Serializer):
         :return:
         """
         # 邮箱是否注册
-        # if self.initial_data['send_type'] == 'register':
-        #     if User.objects.filter(email=email).count():
-        #         raise serializers.ValidationError("用户已经存在")
+        if self.initial_data['send_type'] == 'register':
+            if User.objects.filter(email=email).count():
+                raise serializers.ValidationError("用户已经存在")
 
         # 验证邮箱是否合法
         if not re.match(REGEX_EMAIL, email):
             raise serializers.ValidationError("请输入合法的邮箱")
 
         # 验证发送频率
-        # one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
-        # if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
-        #     raise serializers.ValidationError("距离上一次发送未超过10s")
+        one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
+        if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
+            raise serializers.ValidationError("距离上一次发送未超过10s")
+        return email
+
+
+class EmailVerifySerialier(serializers.Serializer):
+    email = serializers.EmailField(label='邮箱',
+                                   required=True,
+                                   allow_blank=False,
+                                   error_messages={
+                                       'required': '邮箱不能为空！',
+                                       "blank": '邮箱不能为空！',
+                                       "invalid": "请输入合法的邮箱",
+                                   })
+    send_type = serializers.ChoiceField(label="验证类型",
+                                        allow_blank=False,
+                                        choices=(("register", "注册账号"),
+                                                 ("forget", "找回密码"),
+                                                 ("activate", "激活账号"),
+                                                 ("update_email", "修改邮箱")),
+                                        default='register')
+    verify = serializers.CharField(max_length=4,
+                                   min_length=4,
+                                   required=True,
+                                   write_only=True,
+                                   error_messages={
+                                       "blank": '请输入验证码',
+                                       "required": '请输入验证码',
+                                       "max_length": "验证码格式错误",
+                                       "min_length": "验证码格式错误",
+                                   },
+                                   label="验证码",
+                                   )
+
+    def validate_email(self, email):
+        """
+        验证邮箱
+        :param email:
+        :return:
+        """
+        # 验证邮箱是否合法
+        if not re.match(REGEX_EMAIL, email):
+            raise serializers.ValidationError("请输入合法的邮箱")
         return email
 
 
@@ -89,23 +130,23 @@ class ImageCodeSerialier(serializers.ModelSerializer):
 
 class ImageCodeVerifySerialier(serializers.Serializer):
     response = serializers.CharField(max_length=4,
-                                   min_length=4,
-                                   required=True,
-                                   allow_blank=False,
-                                   write_only=True,
-                                   error_messages={
-                                       "blank": '请输入验证码',
-                                       "required": '请输入验证码',
-                                       "max_length": "验证码格式错误",
-                                       "min_length": "验证码格式错误"},
-                                   label="验证码", )
+                                     min_length=4,
+                                     required=True,
+                                     allow_blank=False,
+                                     write_only=True,
+                                     error_messages={
+                                         "blank": '请输入验证码',
+                                         "required": '请输入验证码',
+                                         "max_length": "验证码格式错误",
+                                         "min_length": "验证码格式错误"},
+                                     label="验证码", )
     hashkey = serializers.CharField(required=True,
-                                      allow_blank=False,
-                                      write_only=True,
-                                      error_messages={
-                                          "blank": '请输入隐藏值',
-                                          "required": '请输入隐藏值'},
-                                      label="隐藏值", )
+                                    allow_blank=False,
+                                    write_only=True,
+                                    error_messages={
+                                        "blank": '请输入隐藏值',
+                                        "required": '请输入隐藏值'},
+                                    label="隐藏值", )
 
     class Meta:
         model = CaptchaStore
@@ -120,32 +161,20 @@ class UserDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("name", 'gender', 'birthday', 'mobile', 'email')
+        fields = ("name", 'gender', 'birthday', 'mobile', 'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
 
 
 class UserRegSerializer(serializers.ModelSerializer):
-    verify = serializers.CharField(max_length=4,
-                                   min_length=4,
-                                   required=True,
-                                   write_only=True,
-                                   error_messages={
-                                       "blank": '请输入验证码',
-                                       "required": '请输入验证码',
-                                       "max_length": "验证码格式错误",
-                                       "min_length": "验证码格式错误",
-                                   },
-                                   label="验证码",
-                                   )
 
-    # username = serializers.CharField(required=True, max_length=11, min_length=11, allow_blank=False, help_text="用户名)
     username = serializers.CharField(required=True,
-                                  allow_blank=False,
-                                  validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
-                                  error_messages={
-                                      'required': '邮箱不能为空！',
-                                      "blank": '邮箱不能为空！',
-                                      "invalid": "请输入合法的邮箱"},
-                                  label="邮箱")
+                                     write_only=True,
+                                     allow_blank=False,
+                                     validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
+                                     error_messages={
+                                         'required': '邮箱不能为空！',
+                                         "blank": '邮箱不能为空！',
+                                         "invalid": "请输入合法的邮箱"},
+                                     label="邮箱")
 
     # write_only：True只写不序列化返回
     password = serializers.CharField(style={"input_type": 'password'}, label="密码", write_only=True)  # 设置密文style
@@ -157,7 +186,7 @@ class UserRegSerializer(serializers.ModelSerializer):
         user.save()
         return user
 
-    def validate_code(self, code):
+    def validate_verify(self, code):
         verify_records = EmailCode.objects.filter(email=self.initial_data['username']).order_by('-add_time')
         if verify_records:
             last_record = verify_records[0]
@@ -184,11 +213,9 @@ class UserRegSerializer(serializers.ModelSerializer):
     # 作用于所有字段之上
     def validate(self, attrs):
         attrs['email'] = attrs['username']
-        attrs['code'] = attrs['verify']
-        del attrs['verify']
         return attrs
 
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("username", 'password', 'verify')
+        fields = ("username", 'password')

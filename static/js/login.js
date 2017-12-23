@@ -1,5 +1,5 @@
 $(function() {
-	$("#loginForm").bootstrapValidator({
+    $("#loginForm").bootstrapValidator({
 		message: "此值无效！",
 		feedbackIcons: {
 			valid: "glyphicon glyphicon-ok",
@@ -31,17 +31,23 @@ $(function() {
 					},
 					callback: {
 						callback: function(e, t) {
-                            return 4 !== e.length ? {
+							return 4 !== e.length ? {
 								valid: !1,
 								message: "请输入正确的验证码！"
-							}: ($.ajax({
-								async:!1,
-								url:"/verify/?" + $("#id_captcha_1").serialize() + "&" + $("#id_captcha_0").serialize(),
-								// url:"/verify/?" + $("#id_captcha_1").serialize() + "&" + $("#id_captcha_0").serialize(),
-								type:"Get",
-								success:function(t,a){e=t, alter(this.url)},
-								error:function(t,a){e=a}}),
-								"error"===e?{valid:!1,message:"请输入正确的验证码！"}:!0)
+							}:($.ajax({
+								async: !1,
+								url: "/verify/?response=" + e + "&hashkey=" + $("#id_captcha_0").val(),
+								type: "Get",
+								success: function(t, a) {
+									e = t
+								},
+								error: function(t, a) {
+									e = a
+								}
+							}), "error" === e ? {
+								valid: !1,
+								message: "请输入正确的验证码！"
+							} : !0)
 						}
 					}
 				}
@@ -51,13 +57,25 @@ $(function() {
 		e.preventDefault(), $.ajax({
 			url: "/login/",
 			type: "Post",
-			data: $(this).serialize(),
-			success: function(e) {
-					$.cookie(e);
-					location.href = /index/;
+			data: {
+			    "csrfmiddlewaretoken": $("[name=csrfmiddlewaretoken]").val(),
+			    "username": $("[name=username]").val(),
+			    "password": $("[name=password]").val()
+            },
+			success: function(e, t) {
+                if (e.token){
+                     $.cookie('token',e.token, {"expired": 1});
+                     $.get(
+                         '/users/1/',
+                         function (data) {
+                             confirm(data)
+                         }
+                     )
+                }
+
 			},
 			error: function(e) {
-				500 === e.status ? BootstrapDialog.alert("用户未注册！") : BootstrapDialog.alert(e.responseText), $("#email").focus(), $(":password").val(""), $("#captcha").trigger("click")
+				500 === e.status ? BootstrapDialog.alert("服务器繁忙，请稍后再试！") : BootstrapDialog.alert(e.responseText), $("#email").focus(), $(":password").val(""), $("#captcha").trigger("click")
 			}
 		})
 	}), $("button", "#oAuth").click(function() {
@@ -67,7 +85,7 @@ $(function() {
 			e = "https://graph.qq.com/oauth2.0/authorize?", t = ["response_type=code", "client_id=101161717", "redirect_uri=http://agridata.iask.in/complete/qq"];
 			break;
 		case "sina":
-			e = "https://api.weibo.com/oauth2/authorize?", t = ["client_id=1960899492", "scope=all", "redirect_uri=http://agridata.iask.in/complete/weibo/", "state=" + Date.now()];
+			e = "https://api.weibo.com/oauth2/authorize?", t = ["client_id=1064902839", "scope=all", "redirect_uri=http://agridata.iask.in/complete/weibo", "state=" + Date.now()];
 			break;
 		case "github":
 			e = "https://github.com/login/oauth/authorize?", t = ["client_id=843129131eab9a3287a8", "redirect_uri=http://agridata.iask.in/complete/github", "state=" + Date.now()]
@@ -77,19 +95,4 @@ $(function() {
 		var e = $(this).attr("src").replace(/\?.*/, "");
 		$(this).attr("src", e + "?" + Math.random()), $('input[name="verify"]').val("").focus(), $("form").bootstrapValidator("resetField", "verify"), $(":submit").attr("disabled", !0)
 	})
-}); +
-function(o) {
-	o.fn.autoShadow = function(a) {
-		var s = {};
-		o.extend(s, a);
-		return this.each(function() {
-			var a = this;
-			o(window).scroll(function() {
-				var s = document.body.scrollTop;
-				0 >= s && o(a).hasClass("docs-nav-shadow") && o(a).removeClass("docs-nav-shadow"), s > 0 && !o(a).hasClass("docs-nav-shadow") && o(a).addClass("docs-nav-shadow")
-			})
-		})
-	}, o(function() {
-		o(".docs-nav").autoShadow()
-	})
-}(jQuery);
+});

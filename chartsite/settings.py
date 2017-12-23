@@ -195,8 +195,12 @@ REST_FRAMEWORK = {
 
 # 认证设置0 .
 JWT_AUTH = {
-    " JWT_EXPIRATION_DELTA": datetime.timedelta(hours=1, minutes=100, seconds=0),
-    'JWT_AUTH_HEADER_PREFIX': 'JWT',  # 对应里面的前缀 "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1N
+    " JWT_EXPIRATION_DELTA": datetime.timedelta(days=1),
+    'JWT_AUTH_HEADER_PREFIX': 'token',  # 对应里面的前缀 "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1N
+    "JWT_AUTH_COOKIE": 'token'
+    # 如果您希望除授权标头外还使用http cookie作为令牌的有效传输，则可以将其设置为字符串。
+    # 您在此处设置的字符串将用作请求令牌时将在响应标头中设置的cookie名称。令牌验证程序也将查看这个cookie，如果设置。
+    # 如果请求中存在标题和Cookie，则“授权”标题优先。
 }
 
 # 云片网Key
@@ -221,6 +225,19 @@ SOCIAL_AUTH_WEIXIN_KEY = 'foobar'
 SOCIAL_AUTH_WEIXIN_SECRET = 'bazqux'
 
 SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'
+
+SOCIAL_AUTH_PIPELINE = (
+    'social_core.pipeline.social_auth.social_details',
+    'social_core.pipeline.social_auth.social_uid',
+    'social_core.pipeline.social_auth.social_user',
+    'social_core.pipeline.user.get_username',
+    'social_core.pipeline.user.create_user',
+    'social_core.pipeline.social_auth.associate_user',
+    'social_core.pipeline.social_auth.load_extra_data',
+    'social_core.pipeline.user.user_details',
+    'social_core.pipeline.social_auth.associate_by_email',
+)
+
 
 # 缓存时长设置
 REST_FRAMEWORK_EXTENSIONS = {

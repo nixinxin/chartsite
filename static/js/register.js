@@ -1,118 +1,188 @@
 $(function() {
-    $("#registerForm").bootstrapValidator({
-        message: "此值无效！",
-        feedbackIcons: {
-            valid: "glyphicon glyphicon-ok",
-            invalid: "glyphicon glyphicon-remove",
-            validating: "glyphicon glyphicon-refresh"
-        },
-        fields: {
+    $(document).ajaxSend(function(xhr){
+        xhr.setRequestHeader('Authorization', 'token' + $.cookie('token'));
+    });
+    $("#registerForm").validate({
+        rules: {
             email: {
-                validators: {
-                    notEmpty: {
-                        message: "请输入邮箱！"
-                    },
-                    emailAddress: {
-                        message: "请输入正确的邮箱地址！"
-                    }
-                }
+                required: true,
+                email: true
             },
             password: {
-                validators: {
-                    notEmpty: {
-                        message: "请输入密码！"
-                    },
-                    callback: {
-                        callback: function (e, t) {
-                            return e.length < 6 ? {
-                                valid: !1,
-                                message: "密码长度小于6！"
-                            } : !0
-                        }
-                    }
-                }
+                required: true,
+                rangelength: [8, 20],
             },
-            confirmPassword: {
-                validators: {
-                    notEmpty: {
-                        message: "请输入确认密码！"
-                    },
-                    identical: {
-                        field: "password",
-                        message: "密码和确认密码是不一致！"
-                    }
-                }
-            },
+            // confirmPassword: {
+            //     required: true,
+            //     minlength: 8,
+            //     equalTo: "#password"
+            // },
             verify: {
-                validators: {
-                    notEmpty: {
-                        message: "请输入验证码！"
+                required: true,
+                minlength: 4,
+                maxlength: 4,
+                remote: {
+                    url: "/verifycode/",     //后台处理程序
+                    type: "post", //数据发送方式
+                    data:{
+                        "email": function(){if($("#registerForm div:first").hasClass('has-success')){
+                            return $("#email").val();
+                        }},
+                        "send_type": "register",
                     },
-                    callback: {
-                        callback: function (e, t) {
-                            return 4 !== e.length ? {
-                                valid: !1,
-                                message: "请输入正确的验证码！"
-                            } : ($.ajax({
-                                async: !1,
-								url: "/verify/?" + e,
-                                type: "Get",
-                                success: function (t, a) {
-									alert(a);
-									e = t;
-									$('.captcha').attr("src",t.image_url);
-									$('#id_captcha_0').attr("value",t.key);
-								},
-                                error: function (t, a) {
-                                    e = a
-                                }
-                            }), "error" === e ? {
-                                valid: !1,
-                                message: "请输入正确的验证码！"
-                            } : !0)
-                        }
                     }
-                }
-            }
-        }
-    }).on("success.form.bv", function (e) {
-        e.preventDefault();
-        var t = $(this).serializeJSON();
-        $.ajax({
-            url: "/users/",
-            type: "Post",
-            data: $(this).serialize(),
-            success: function (e) {
-                console.log(e, e.status);
-                heap.identify({
-                    type: "new",
-                    email: e.email
-                }), BootstrapDialog.alert("注册成功！", function () {
-                    var t = HZ.getParams();
-                    if (t.callback) location.href = /index/;
-                    else {
-                        var a = "/user/login/" + e.ticket + "?new=1";
-                        document.referrer && document.referrer !== document.location.origin + "/" && (a += "&ref=" + document.referrer), location.href = a
-                    }
-                })
+                },
             },
-            error: function (e) {
-                var a = $("#email"),
-                    r = 500 === e.status ? "服务器繁忙，请稍后再试！" : e.responseText;
-                BootstrapDialog.alert(r, function () {
-                    $("#captcha").trigger("click"), $("#registerForm").data("bootstrapValidator").resetForm(!0), a.val(t.email), setTimeout(function () {
-                        a.focus()
+        message: {
+            email: {
+                required: "请输入合法的邮箱",
+                email: "请输入合法的邮箱"
+            },
+            password: {
+                required: "请输入密码",
+                rangelength: "密码至少包一个大写字母、一个小写字母及一个符号，长度至少8位",
+            },
+            // confirmPassword: {
+            //     required: "请确认密码",
+            //     equalTo: "两次密码输入不一致"
+            // },
+            verify: {
+                required: true,
+                minlength: '验证码不正确',
+                maxlength: "验证码不正确",
+                remote: "验证码不正确",
+            },
+        },
+        errorClass: 'has-error',
+        errorElement: "small",
+        focusCleanup: true,
+        keyup: true,
+        success: function (element) {
+            element.parent().parent().removeClass('has-error');
+            element.parent().parent().addClass('has-success');
+            element.parent().children("i").removeClass('glyphicon-remove');
+            element.parent().children("i").addClass('glyphicon-ok');
+            element.parent().children('small').remove()
+        },
+        errorPlacement: function (error, element) {
+            element.parent().parent().parent().removeClass('has-success');
+            element.parent().parent().children("i").removeClass('glyphicon-ok');
+            element.parent().parent().children("i").addClass('glyphicon-remove');
+            element.parent().parent().parent().addClass('has-error');
+            element.parent().parent().append(error);
+            element.parent().parent().children('small').addClass("alert alert-danger")
+        },
+        submitHandler:function (form) {
+            $.ajax({url:"/users/",
+                type:"Post",
+                data:$(form).serialize(),
+                success: function (data, status) {
+                    $.cookie('token', data.token, {
+                        path: '/',
+                        expired: 1,
+                    });
+                    $.get({
+                        url:"/users/1/",
+                        function(data,status){
+                            $(".nav.navbar-nav.navbar-right").addClass("profile");
+                            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
+                                "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
+                                "                        <img class='img-circle' src="+ data.image +">" + data.username +
+                                "                        <b class='caret'></b>" +
+                                "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
+                                "                        <span class='navbar-unread count'>100</span></span>" +
+                                "                    </a>" +
+                                "                    <ul id='userMenu' class='dropdown-menu' style='display: none;'>" +
+                                "                        <li>" +
+                                "                            <a href='/personal'>个人中心" +
+                                "                                <span class='fa fa-envelope pull-right'></span>" +
+                                "                            </a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li><a href='/account'>账号设置" +
+                                "                                <span class='glyphicon glyphicon-cog pull-right'></span></a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li>" +
+                                "                            <a href='http://i.hubwiz.com/invite'>邀请朋友" +
+                                "                                <span class='fa fa-users pull-right'></span>" +
+                                "                            </a>" +
+                                "                        </li>" +
+                                "                        <li class='divider'></li>" +
+                                "                        <li><a href='/logoff'>安全退出" +
+                                "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
+                                "                        </li>" +
+                                "                    </ul>" +
+                                "                </li>")
+
+                        }
                     })
-                })
+                },
+                error: function (data, status) {
+                    BootstrapDialog.alert("用户名已经存在！")
+                }
+        });
+        },
+    });
+});
+
+
+$(function () {
+    $("#sendcode").click(function(){
+        $.ajax({
+            url: "/emailcodes/",
+            type: 'POST',
+            data: {
+                'email': $("[name=username]").val(),
+                'send_type':"register"
+            },
+            success: function(data, status){
+                BootstrapDialog.alert("验证码发送成功，请注意查收！")
+            },
+            error: function (data, status) {
+                BootstrapDialog.alert("用户名已经存在！");
             }
+
         })
-    }),
-        $(".captcha").click(function () {
-            var e = $(this).attr("src").replace(/\?.*/, "");
-            $(this).attr("src", e + "?" + Math.random()),
-                $('input[name="verify"]').val("").focus(),
-                $("form").bootstrapValidator("resetField", "verify"),
-                $(":submit").attr("disabled", !0)
-        })
-    }
-);
+    })
+});
+
+$(function () {
+    $.get({
+        url:"/users/1/",
+        function(data,status){
+            $(".nav.navbar-nav.navbar-right").addClass("profile");
+            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
+                "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
+                "                        <img class='img-circle' src="+ data.image +">" + data.username +
+                "                        <b class='caret'></b>" +
+                "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
+                "                        <span class='navbar-unread count'>100</span></span>" +
+                "                    </a>" +
+                "                    <ul id='userMenu' class='dropdown-menu' style='display: none;'>" +
+                "                        <li>" +
+                "                            <a href='/personal'>个人中心" +
+                "                                <span class='fa fa-envelope pull-right'></span>" +
+                "                            </a>" +
+                "                        </li>" +
+                "                        <li class='divider'></li>" +
+                "                        <li><a href='/account'>账号设置" +
+                "                                <span class='glyphicon glyphicon-cog pull-right'></span></a>" +
+                "                        </li>" +
+                "                        <li class='divider'></li>" +
+                "                        <li>" +
+                "                            <a href='http://i.hubwiz.com/invite'>邀请朋友" +
+                "                                <span class='fa fa-users pull-right'></span>" +
+                "                            </a>" +
+                "                        </li>" +
+                "                        <li class='divider'></li>" +
+                "                        <li><a href='/logoff'>安全退出" +
+                "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
+                "                        </li>" +
+                "                    </ul>" +
+                "                </li>")
+
+        }
+    })
+})
+

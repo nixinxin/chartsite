@@ -36,6 +36,10 @@ router.register(r"phonecodes", PhoneCodeViewset, base_name='phonecodes')
 router.register(r"emailcodes", EmailCodeViewset, base_name='emailcodes')
 
 
+# 配置验证邮箱验证码url
+router.register(r"verifycode", EmailCodeVereifyViewset, base_name='verifycode')
+
+
 # 配置图片验证码url
 router.register(r"imagecode", ImageCodeViewset, base_name='imagecode')
 
@@ -91,13 +95,14 @@ urlpatterns = [
     url('^user/register/$', RegisterView.as_view(), name="register"),
     url('^user/login/$', LoginView.as_view(), name="login"),
     url('^user/forget/$', ForgetView.as_view(), name="login"),
-    url(r'^user/personal/$', PersonalViewset.as_view(), name='personal'),
+    url(r'^personal/$', PersonalViewset.as_view(), name='personal'),
     url(r'^account/$', AccountView.as_view(), name='account'),
     url(r'^share/$', ShareView.as_view(), name='share'),
     url(r'^service/$', ServiceView.as_view(), name='service'),
 
     url(r'^captcha/', include('captcha.urls')),
     url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),
+    url(r'^test/$', TemplateViews.as_view(), name='test'),
 
 
 ]

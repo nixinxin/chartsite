@@ -2,439 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/index.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/share.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/global.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/register.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/additional-methods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/messages_zh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/validate-methods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/test.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ETL/data_dispose/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ETL/data_dispose/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ETL/data_dispose/test1.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ETL/data_dispose/two.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ETL/data_resource/chartsite.sql" afterPath="" />
       <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
       <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/code.py" afterPath="$PROJECT_DIR$/apps/utils/code.py" />
+      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
       <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/static/fonts/iconfont.eot" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/static/fonts/iconfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/static/fonts/iconfont.woff" />
-      <change beforePath="$PROJECT_DIR$/static/index/about.css" afterPath="$PROJECT_DIR$/static/css/about.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/account.min.css" afterPath="$PROJECT_DIR$/static/css/account.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/account.min.js" afterPath="$PROJECT_DIR$/static/js/account.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/api_base.js" afterPath="$PROJECT_DIR$/static/js/api_base.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrapValidator.css" afterPath="$PROJECT_DIR$/static/css/bootstrapValidator.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/bootstrapValidator.js" afterPath="$PROJECT_DIR$/static/js/bootstrapValidator.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/captcha.js" afterPath="$PROJECT_DIR$/static/js/captcha.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/findpwd.js" afterPath="$PROJECT_DIR$/static/js/findpwd.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/findpwd.min.css" afterPath="$PROJECT_DIR$/static/css/findpwd.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/findpwd.min.js" afterPath="$PROJECT_DIR$/static/js/findpwd.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/static/img/banner2.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/fonts/iconfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/header.css" afterPath="$PROJECT_DIR$/static/css/header.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/header.shadow.js" afterPath="$PROJECT_DIR$/static/js/header.shadow.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/heap.min.js" afterPath="$PROJECT_DIR$/static/js/heap.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/hm.js" afterPath="$PROJECT_DIR$/static/js/hm.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/iconfont.css" afterPath="$PROJECT_DIR$/static/css/iconfont.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/0025.png" afterPath="$PROJECT_DIR$/static/img/0025.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/arrows.png" afterPath="$PROJECT_DIR$/static/img/arrows.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/biz-summary.png" afterPath="$PROJECT_DIR$/static/img/biz-summary.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/browser.png" afterPath="$PROJECT_DIR$/static/img/browser.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/chartsite.png" afterPath="$PROJECT_DIR$/static/img/chartsite.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/code.png" afterPath="$PROJECT_DIR$/static/img/code.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/hot.gif" afterPath="$PROJECT_DIR$/static/img/hot.gif" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/icon.png" afterPath="$PROJECT_DIR$/static/img/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!action.png" afterPath="$PROJECT_DIR$/static/img/index!action.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!active_bg.jpg" afterPath="$PROJECT_DIR$/static/img/index!active_bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!banner.jpg" afterPath="$PROJECT_DIR$/static/img/banner1.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!banner2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!book.png" afterPath="$PROJECT_DIR$/static/img/index!book.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!icon.png" afterPath="$PROJECT_DIR$/static/img/index!icon.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section0.png" afterPath="$PROJECT_DIR$/static/img/index!section0.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section1.png" afterPath="$PROJECT_DIR$/static/img/index!section1.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section2.png" afterPath="$PROJECT_DIR$/static/img/index!section2.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section3.png" afterPath="$PROJECT_DIR$/static/img/index!section3.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section4.png" afterPath="$PROJECT_DIR$/static/img/index!section4.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section5.png" afterPath="$PROJECT_DIR$/static/img/index!section5.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!section6.png" afterPath="$PROJECT_DIR$/static/img/index!section6.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!tool.png" afterPath="$PROJECT_DIR$/static/img/index!tool.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!true.png" afterPath="$PROJECT_DIR$/static/img/index!true.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!true_icon.png" afterPath="$PROJECT_DIR$/static/img/index!true_icon.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user1.png" afterPath="$PROJECT_DIR$/static/img/index!user1.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user10.png" afterPath="$PROJECT_DIR$/static/img/index!user10.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user2.png" afterPath="$PROJECT_DIR$/static/img/index!user2.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user3.png" afterPath="$PROJECT_DIR$/static/img/index!user3.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user4.png" afterPath="$PROJECT_DIR$/static/img/index!user4.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user5.png" afterPath="$PROJECT_DIR$/static/img/index!user5.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user6.png" afterPath="$PROJECT_DIR$/static/img/index!user6.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user7.png" afterPath="$PROJECT_DIR$/static/img/index!user7.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user8.png" afterPath="$PROJECT_DIR$/static/img/index!user8.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/index!user9.png" afterPath="$PROJECT_DIR$/static/img/index!user9.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/indexicon.png" afterPath="$PROJECT_DIR$/static/img/indexicon.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/logo.png" afterPath="$PROJECT_DIR$/static/img/logo.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/logo_2.png" afterPath="$PROJECT_DIR$/static/img/logo_2.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/man.jpg" afterPath="$PROJECT_DIR$/static/img/man.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/section_b.png" afterPath="$PROJECT_DIR$/static/img/section_b.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/section_h.png" afterPath="$PROJECT_DIR$/static/img/section_h.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/section_j.png" afterPath="$PROJECT_DIR$/static/img/section_j.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/section_m.png" afterPath="$PROJECT_DIR$/static/img/section_m.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/user_bg.png" afterPath="$PROJECT_DIR$/static/img/user_bg.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/img/weixincode.png" afterPath="$PROJECT_DIR$/static/img/weixincode.png" />
-      <change beforePath="$PROJECT_DIR$/static/index/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/index/index.min.js" afterPath="$PROJECT_DIR$/static/js/index.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/static/js/jquery-3.1.1.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/jquery.cookie.js" afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/jquery.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/ar_MA.js" afterPath="$PROJECT_DIR$/static/js/language/ar_MA.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/be_FR.js" afterPath="$PROJECT_DIR$/static/js/language/be_FR.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/be_NL.js" afterPath="$PROJECT_DIR$/static/js/language/be_NL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/bg_BG.js" afterPath="$PROJECT_DIR$/static/js/language/bg_BG.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/cs_CZ.js" afterPath="$PROJECT_DIR$/static/js/language/cs_CZ.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/da_DK.js" afterPath="$PROJECT_DIR$/static/js/language/da_DK.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/de_DE.js" afterPath="$PROJECT_DIR$/static/js/language/de_DE.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/en_US.js" afterPath="$PROJECT_DIR$/static/js/language/en_US.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/es_CL.js" afterPath="$PROJECT_DIR$/static/js/language/es_CL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/es_ES.js" afterPath="$PROJECT_DIR$/static/js/language/es_ES.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/fa_IR.js" afterPath="$PROJECT_DIR$/static/js/language/fa_IR.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/fr_FR.js" afterPath="$PROJECT_DIR$/static/js/language/fr_FR.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/gr_EL.js" afterPath="$PROJECT_DIR$/static/js/language/gr_EL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/he_IL.js" afterPath="$PROJECT_DIR$/static/js/language/he_IL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/hu_HU.js" afterPath="$PROJECT_DIR$/static/js/language/hu_HU.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/id_ID.js" afterPath="$PROJECT_DIR$/static/js/language/id_ID.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/it_IT.js" afterPath="$PROJECT_DIR$/static/js/language/it_IT.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/ja_JP.js" afterPath="$PROJECT_DIR$/static/js/language/ja_JP.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/nl_NL.js" afterPath="$PROJECT_DIR$/static/js/language/nl_NL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/no_NO.js" afterPath="$PROJECT_DIR$/static/js/language/no_NO.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/pl_PL.js" afterPath="$PROJECT_DIR$/static/js/language/pl_PL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/pt_BR.js" afterPath="$PROJECT_DIR$/static/js/language/pt_BR.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/pt_PT.js" afterPath="$PROJECT_DIR$/static/js/language/pt_PT.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/ro_RO.js" afterPath="$PROJECT_DIR$/static/js/language/ro_RO.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/ru_RU.js" afterPath="$PROJECT_DIR$/static/js/language/ru_RU.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/sq_AL.js" afterPath="$PROJECT_DIR$/static/js/language/sq_AL.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/sr_RS.js" afterPath="$PROJECT_DIR$/static/js/language/sr_RS.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/sv_SE.js" afterPath="$PROJECT_DIR$/static/js/language/sv_SE.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/th_TH.js" afterPath="$PROJECT_DIR$/static/js/language/th_TH.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/tr_TR.js" afterPath="$PROJECT_DIR$/static/js/language/tr_TR.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/ua_UA.js" afterPath="$PROJECT_DIR$/static/js/language/ua_UA.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/vi_VN.js" afterPath="$PROJECT_DIR$/static/js/language/vi_VN.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/zh_CN.js" afterPath="$PROJECT_DIR$/static/js/language/zh_CN.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/language/zh_TW.js" afterPath="$PROJECT_DIR$/static/js/language/zh_TW.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/base64.js" afterPath="$PROJECT_DIR$/static/js/validator/base64.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/between.js" afterPath="$PROJECT_DIR$/static/js/validator/between.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/blank.js" afterPath="$PROJECT_DIR$/static/js/validator/blank.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/callback.js" afterPath="$PROJECT_DIR$/static/js/validator/callback.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/choice.js" afterPath="$PROJECT_DIR$/static/js/validator/choice.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/color.js" afterPath="$PROJECT_DIR$/static/js/validator/color.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/creditCard.js" afterPath="$PROJECT_DIR$/static/js/validator/creditCard.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/cusip.js" afterPath="$PROJECT_DIR$/static/js/validator/cusip.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/cvv.js" afterPath="$PROJECT_DIR$/static/js/validator/cvv.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/date.js" afterPath="$PROJECT_DIR$/static/js/validator/date.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/different.js" afterPath="$PROJECT_DIR$/static/js/validator/different.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/digits.js" afterPath="$PROJECT_DIR$/static/js/validator/digits.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/ean.js" afterPath="$PROJECT_DIR$/static/js/validator/ean.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/emailAddress.js" afterPath="$PROJECT_DIR$/static/js/validator/emailAddress.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/file.js" afterPath="$PROJECT_DIR$/static/js/validator/file.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/greaterThan.js" afterPath="$PROJECT_DIR$/static/js/validator/greaterThan.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/grid.js" afterPath="$PROJECT_DIR$/static/js/validator/grid.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/hex.js" afterPath="$PROJECT_DIR$/static/js/validator/hex.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/hexColor.js" afterPath="$PROJECT_DIR$/static/js/validator/hexColor.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/iban.js" afterPath="$PROJECT_DIR$/static/js/validator/iban.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/id.js" afterPath="$PROJECT_DIR$/static/js/validator/id.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/identical.js" afterPath="$PROJECT_DIR$/static/js/validator/identical.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/imei.js" afterPath="$PROJECT_DIR$/static/js/validator/imei.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/imo.js" afterPath="$PROJECT_DIR$/static/js/validator/imo.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/integer.js" afterPath="$PROJECT_DIR$/static/js/validator/integer.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/ip.js" afterPath="$PROJECT_DIR$/static/js/validator/ip.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/isbn.js" afterPath="$PROJECT_DIR$/static/js/validator/isbn.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/isin.js" afterPath="$PROJECT_DIR$/static/js/validator/isin.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/ismn.js" afterPath="$PROJECT_DIR$/static/js/validator/ismn.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/issn.js" afterPath="$PROJECT_DIR$/static/js/validator/issn.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/lessThan.js" afterPath="$PROJECT_DIR$/static/js/validator/lessThan.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/mac.js" afterPath="$PROJECT_DIR$/static/js/validator/mac.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/meid.js" afterPath="$PROJECT_DIR$/static/js/validator/meid.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/notEmpty.js" afterPath="$PROJECT_DIR$/static/js/validator/notEmpty.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/numeric.js" afterPath="$PROJECT_DIR$/static/js/validator/numeric.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/phone.js" afterPath="$PROJECT_DIR$/static/js/validator/phone.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/regexp.js" afterPath="$PROJECT_DIR$/static/js/validator/regexp.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/remote.js" afterPath="$PROJECT_DIR$/static/js/validator/remote.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/rtn.js" afterPath="$PROJECT_DIR$/static/js/validator/rtn.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/sedol.js" afterPath="$PROJECT_DIR$/static/js/validator/sedol.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/siren.js" afterPath="$PROJECT_DIR$/static/js/validator/siren.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/siret.js" afterPath="$PROJECT_DIR$/static/js/validator/siret.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/step.js" afterPath="$PROJECT_DIR$/static/js/validator/step.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/stringCase.js" afterPath="$PROJECT_DIR$/static/js/validator/stringCase.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/stringLength.js" afterPath="$PROJECT_DIR$/static/js/validator/stringLength.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/uri.js" afterPath="$PROJECT_DIR$/static/js/validator/uri.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/uuid.js" afterPath="$PROJECT_DIR$/static/js/validator/uuid.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/vat.js" afterPath="$PROJECT_DIR$/static/js/validator/vat.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/vin.js" afterPath="$PROJECT_DIR$/static/js/validator/vin.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/js/validator/zipCode.js" afterPath="$PROJECT_DIR$/static/js/validator/zipCode.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/logger.js" afterPath="$PROJECT_DIR$/static/js/logger.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/login.min.css" afterPath="$PROJECT_DIR$/static/css/login.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/login.min.js" afterPath="$PROJECT_DIR$/static/js/login.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/mi.min.js" afterPath="$PROJECT_DIR$/static/js/mi.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/personal.min.css" afterPath="$PROJECT_DIR$/static/css/personal.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/personal.min.js" afterPath="$PROJECT_DIR$/static/js/personal.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/register.js" afterPath="$PROJECT_DIR$/static/js/register.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/register.min.css" afterPath="$PROJECT_DIR$/static/css/register.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/register.min.js" afterPath="$PROJECT_DIR$/static/js/register.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/share.js" afterPath="$PROJECT_DIR$/static/js/share.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/share_api.js" afterPath="$PROJECT_DIR$/static/js/share_api.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/share_style0_16.css" afterPath="$PROJECT_DIR$/static/css/share_style0_16.css" />
-      <change beforePath="$PROJECT_DIR$/static/index/share_view.js" afterPath="$PROJECT_DIR$/static/js/share_view.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/tangram.js" afterPath="$PROJECT_DIR$/static/js/tangram.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/v.js" afterPath="$PROJECT_DIR$/static/js/v.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/validator.js" afterPath="$PROJECT_DIR$/static/js/validator.js" />
-      <change beforePath="$PROJECT_DIR$/static/index/view_base.js" afterPath="$PROJECT_DIR$/static/js/view_base.js" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/font-awesome-4.0.3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery-1.10.2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/jquery-1.12.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/component.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-xadmin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.form.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.page.dashboard.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.aggregation.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.formset.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.quickfilter.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugins.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.responsive.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.editable.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.select-transfer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.dashboard.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.batch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.bookmark.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.charts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.details.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.editable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.filters.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.formset.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.portal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quick-form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quickfilter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.refresh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.revision.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.sortablelist.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.themes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.responsive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.datetime.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.multiselect.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select-transfer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/autotype/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.colorhelpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.aggregate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.canvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.categories.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.crosshair.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.errorbars.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.navigate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.pie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.resize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.selection.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.stack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.symbol.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.threshold.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.time.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2-spinner.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-PT.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ua.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-hans.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2x2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.legacy.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/header.css" afterPath="$PROJECT_DIR$/static/css/header.css" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.min.css" afterPath="$PROJECT_DIR$/static/css/index.min.css" />
+      <change beforePath="$PROJECT_DIR$/static/css/personal.min.css" afterPath="$PROJECT_DIR$/static/css/personal.min.css" />
+      <change beforePath="$PROJECT_DIR$/static/css/register.min.css" afterPath="$PROJECT_DIR$/static/css/register.min.css" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.min.js" afterPath="$PROJECT_DIR$/static/js/index.min.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/login.min.js" afterPath="$PROJECT_DIR$/static/js/login.min.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/register.js" afterPath="$PROJECT_DIR$/static/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/register.min.js" afterPath="$PROJECT_DIR$/static/js/register.min.js" />
       <change beforePath="$PROJECT_DIR$/templates/base/base.html" afterPath="$PROJECT_DIR$/templates/base/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/service.html" afterPath="$PROJECT_DIR$/templates/service.html" />
       <change beforePath="$PROJECT_DIR$/templates/user/account.html" afterPath="$PROJECT_DIR$/templates/user/account.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/forgetpwd.html" afterPath="$PROJECT_DIR$/templates/user/forgetpwd.html" />
       <change beforePath="$PROJECT_DIR$/templates/user/login.html" afterPath="$PROJECT_DIR$/templates/user/login.html" />
       <change beforePath="$PROJECT_DIR$/templates/user/personal.html" afterPath="$PROJECT_DIR$/templates/user/personal.html" />
       <change beforePath="$PROJECT_DIR$/templates/user/register.html" afterPath="$PROJECT_DIR$/templates/user/register.html" />
+      <change beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -455,48 +53,70 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+              <folding>
+                <element signature="e#188#1129#0" expanded="false" />
+                <element signature="e#1148#1711#0" expanded="false" />
+                <element signature="e#1862#2201#0" expanded="false" />
+                <element signature="e#2253#2712#0" expanded="false" />
+                <element signature="e#2961#3055#0" expanded="false" />
+                <element signature="e#3172#5939#0" expanded="false" />
+                <element signature="e#6154#6642#0" expanded="false" />
+                <element signature="e#6672#9005#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../images/index</find>
-      <find>gif</find>
-      <find>img/indexbanner2.jpg</find>
-      <find>banner.</find>
-      <find>banner</find>
-      <find>0px</find>
-      <find>:0px</find>
-      <find>index/img</find>
       <find>../fonts/</find>
-      <find>static/index/fonts</find>
-      <find>favicon.ico</find>
-      <find>favicon</find>
-      <find>code.png</find>
+      <find>hot</find>
+      <find>api/mess</find>
+      <find>hot.gi</find>
+      <find>.profile.nav&gt;.dropdown&gt;.dropdown-menu</find>
+      <find>lab</find>
       <find>labBtn</find>
-      <find>fonts/</find>
-      <find>jcarousel</find>
-      <find>fonts</find>
-      <find>fonts/glyphicons-halflings-regular.woff</find>
-      <find>&quot;./汇智网 _ 云端练习工具_files/</find>
-      <find>.下载&quot;&gt;&lt;/script&gt;</find>
-      <find>tool.png</find>
-      <find>./汇智网 _ 云端练习工具_files/</find>
-      <find>==</find>
-      <find>login</find>
-      <find>.tt</find>
-      <find>verify/</find>
-      <find>Verify</find>
-      <find>has-error</find>
-      <find>captcha.js</find>
+      <find>:</find>
+      <find>test.hubwiz.com/oAuth</find>
+      <find>heap.identify</find>
+      <find>success</find>
+      <find>&lt;small</find>
+      <find>&lt;small.*&lt;/small&gt;</find>
+      <find>Length</find>
+      <find>confi</find>
+      <find>api/re</find>
+      <find>index</find>
+      <find>emailcode</find>
+      <find>../vendor/bootstrap/</find>
+      <find>js/</find>
+      <find>../dist/</find>
+      <find>emailcodes</find>
+      <find>register.min</find>
+      <find>nav navbar-nav navbar-right profile</find>
+      <find>\&quot;</find>
+      <find>\</find>
+      <find>\n</find>
+      <find>JWT_AUTH_HEADER_PREFIX</find>
       <find>nav navbar-nav navbar-right</find>
+      <find>http://agridata.iask.in</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -513,12 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/apps/resource/apps.py" />
-        <option value="$PROJECT_DIR$/apps/users/tests.py" />
-        <option value="$PROJECT_DIR$/apps/resource/tests.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/one.py" />
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/two.py" />
         <option value="$PROJECT_DIR$/models.py" />
@@ -526,36 +140,50 @@
         <option value="$PROJECT_DIR$/apps/resource/models.py" />
         <option value="$PROJECT_DIR$/apps/operation/models.py" />
         <option value="$PROJECT_DIR$/apps/resource/adminx.py" />
-        <option value="$PROJECT_DIR$/chartsite/settings.py" />
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/static/index/index.css" />
-        <option value="$PROJECT_DIR$/static/css/index.min.css" />
         <option value="$PROJECT_DIR$/static/css/about.css" />
         <option value="$PROJECT_DIR$/static/css/custom.css" />
         <option value="$PROJECT_DIR$/static/css/findpwd.min.css" />
         <option value="$PROJECT_DIR$/static/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/static/css/iconfont.css" />
-        <option value="$PROJECT_DIR$/templates/user/personal.html" />
         <option value="$PROJECT_DIR$/templates/user/forgetpwd.html" />
         <option value="$PROJECT_DIR$/templates/service.html" />
         <option value="$PROJECT_DIR$/static/css/account.min.css" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/templates/user/account.html" />
         <option value="H:/webstom/汇智网 _ 云端练习工具.html" />
-        <option value="$PROJECT_DIR$/chartsite/urls.py" />
-        <option value="$PROJECT_DIR$/templates/user/login.html" />
         <option value="$PROJECT_DIR$/templates/share.html" />
-        <option value="$PROJECT_DIR$/static/js/register.min.js" />
-        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/js/index.min.js" />
-        <option value="$PROJECT_DIR$/static/js/register.js" />
         <option value="$PROJECT_DIR$/static/js/captcha.js" />
+        <option value="$PROJECT_DIR$/static/js/index.min.js" />
+        <option value="$PROJECT_DIR$/static/css/index.min.css" />
+        <option value="$PROJECT_DIR$/templates/user/personal.html" />
+        <option value="$PROJECT_DIR$/templates/user/account.html" />
+        <option value="$PROJECT_DIR$/static/css/personal.min.css" />
+        <option value="$PROJECT_DIR$/static/css/header.css" />
+        <option value="$PROJECT_DIR$/static/css/login.min.css" />
+        <option value="$PROJECT_DIR$/static/css/buttom.css" />
+        <option value="$PROJECT_DIR$/static/css/global.css" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/static/js/global.js" />
+        <option value="$PROJECT_DIR$/static/js/login.min.js" />
+        <option value="$PROJECT_DIR$/static/js/indexs.js" />
+        <option value="$PROJECT_DIR$/static/js/login.js" />
+        <option value="$PROJECT_DIR$/templates/user/login.html" />
+        <option value="$PROJECT_DIR$/static/css/register.min.css" />
+        <option value="$PROJECT_DIR$/apps/utils/code.py" />
+        <option value="$PROJECT_DIR$/static/js/register.min.js" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/static/css/register.css" />
+        <option value="$PROJECT_DIR$/chartsite/urls.py" />
         <option value="$PROJECT_DIR$/templates/user/register.html" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/chartsite/settings.py" />
         <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/static/js/register.js" />
       </list>
     </option>
   </component>
@@ -566,8 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="width" value="1572" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -607,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -645,6 +274,20 @@
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.min.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="register.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -676,7 +319,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -685,21 +327,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\pycharm\chartsite\static\js" />
+      <recent name="H:\pycharm\chartsite\templates" />
+      <recent name="H:\pycharm\chartsite\static\css" />
+      <recent name="H:\pycharm\chartsite\static\fonts" />
+      <recent name="H:\pycharm\chartsite" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\pycharm\chartsite\static\css" />
       <recent name="H:\pycharm\chartsite\static\img" />
       <recent name="H:\pycharm\chartsite\static\js" />
       <recent name="H:\pycharm\chartsite\static" />
       <recent name="H:\pycharm\chartsite\static\fonts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\pycharm\chartsite\static\js" />
-      <recent name="H:\pycharm\chartsite\static\fonts" />
-      <recent name="H:\pycharm\chartsite" />
-      <recent name="H:\pycharm\chartsite\static" />
-      <recent name="H:\pycharm\chartsite\static\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -715,6 +358,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.chartsite">
+    <configuration name="test.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/templates/test.html" />
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/test.html" />
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -772,44 +417,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/resource" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chartsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/resource/tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chartsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/users/tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="chartsite" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -825,9 +432,9 @@
       <module name="chartsite" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="80" />
-      <option name="host" value="0.0.0.0" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://agridata.iask.in/index" />
+      <option name="browserUrl" value="http://127.0.0.1/index" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -835,19 +442,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.chartsite" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tests (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.settings" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tests (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tests" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.settings" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -984,25 +591,33 @@
       <option name="project" value="LOCAL" />
       <updated>1513853494027</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="资源更新">
+      <created>1513915158286</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1513915158286</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="0" width="1572" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3821229" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38148984" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35553047" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19106145" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.49269006" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24735449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30634573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39616254" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1018,22 +633,24 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03160271" sideWeight="0.50875276" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38148984" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38324022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10927505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19106145" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943566" sideWeight="0.49269006" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29711142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38826185" sideWeight="0.49707603" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32167044" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39616254" sideWeight="0.49124727" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1083,15 +700,21 @@
     <MESSAGE value="20171207" />
     <MESSAGE value="前段扩展" />
     <MESSAGE value="重载.idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="重载.idea" />
+    <MESSAGE value="资源更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="资源更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/users/views.py</url>
-          <line>175</line>
-          <option name="timeStamp" value="46" />
+          <line>111</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/users/views.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1101,131 +724,98 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/findpwd.js">
+    <entry file="file://$PROJECT_DIR$/templates/user/personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/header.shadow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/heap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/hm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrapValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/hot.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="422" column="6" lean-forward="false" selection-start-line="422" selection-start-column="6" selection-end-line="422" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/Monaco.TTF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/iconfont.woff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user/forgetpwd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="1064">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/account.min.js">
+    <entry file="file://$PROJECT_DIR$/static/js/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="2" column="20143" lean-forward="false" selection-start-line="2" selection-start-column="20143" selection-end-line="2" selection-end-column="20143" />
+        <state relative-caret-position="19">
+          <caret line="0" column="3784" lean-forward="true" selection-start-line="0" selection-start-column="3784" selection-end-line="0" selection-end-column="3784" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css.map">
+    <entry file="file://$PROJECT_DIR$/static/css/findpwd.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="0" column="83917" lean-forward="false" selection-start-line="0" selection-start-column="83917" selection-end-line="0" selection-end-column="83917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/login.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="11" column="1809" lean-forward="true" selection-start-line="11" selection-start-column="1809" selection-end-line="11" selection-end-column="1809" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/personal.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="14361" lean-forward="false" selection-start-line="13" selection-start-column="13739" selection-end-line="13" selection-end-column="14361" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4010">
+          <caret line="14" column="814" lean-forward="true" selection-start-line="14" selection-start-column="814" selection-end-line="14" selection-end-column="814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,170 +823,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <folding>
+            <element signature="n#block#1;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/account.html">
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/share_style0_16.css">
+    <entry file="file://H:/webstom/用户登录 - 汇智网_files/login.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/register.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/personal.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/account.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="3614" lean-forward="false" selection-start-line="4" selection-start-column="3614" selection-end-line="4" selection-end-column="3614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrapValidator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/findpwd.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="78" column="30" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="78" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2479">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/webstom/汇智网 _ 云端练习工具.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="447" column="42" lean-forward="true" selection-start-line="447" selection-start-column="42" selection-end-line="447" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1244">
-          <caret line="0" column="3784" lean-forward="true" selection-start-line="0" selection-start-column="3784" selection-end-line="0" selection-end-column="3784" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/share.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="339" column="29" lean-forward="true" selection-start-line="339" selection-start-column="29" selection-end-line="339" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="187" column="46" lean-forward="true" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,55 +848,328 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="436" column="41" lean-forward="false" selection-start-line="436" selection-start-column="41" selection-end-line="436" selection-end-column="41" />
+          <folding>
+            <element signature="n#block#1;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.min.js">
+    <entry file="file://$PROJECT_DIR$/static/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="19" column="717" lean-forward="false" selection-start-line="19" selection-start-column="717" selection-end-line="19" selection-end-column="717" />
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.min.css">
+    <entry file="file://$PROJECT_DIR$/static/js/login.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="4" column="22838" lean-forward="false" selection-start-line="4" selection-start-column="22838" selection-end-line="4" selection-end-column="22838" />
+        <state relative-caret-position="266">
+          <caret line="0" column="156031" lean-forward="true" selection-start-line="0" selection-start-column="156030" selection-end-line="0" selection-end-column="156036" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/register.js">
+    <entry file="file://$PROJECT_DIR$/static/js/heap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="115" column="10" lean-forward="true" selection-start-line="109" selection-start-column="8" selection-end-line="115" selection-end-column="10" />
+        <state relative-caret-position="95">
+          <caret line="0" column="1239" lean-forward="false" selection-start-line="0" selection-start-column="1226" selection-end-line="0" selection-end-column="1239" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/captcha.js">
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework_jwt/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="278">
+          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/register.html">
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework_jwt/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/indexs.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <marker date="1513929741169" expanded="true" signature="13:2915" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="54:1073" ph="{&quot;message&quot;: &quot;此值无效！&quot;...}" />
+            <marker date="1513929741169" expanded="false" signature="93:221" ph="{&quot;valid&quot;: &quot;glyphicon glyphicon-ok&quot;...}" />
+            <marker date="1513929741169" expanded="false" signature="233:1070" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="248:384" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="266:379" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="283:315" ph="{&quot;message&quot;: &quot;请输入邮箱！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="336:373" ph="{&quot;message&quot;: &quot;请输入正确的邮箱地址！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="399:477" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="417:472" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="434:466" ph="{&quot;message&quot;: &quot;请输入密码！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="490:1066" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="508:1061" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="525:558" ph="{&quot;message&quot;: &quot;请输入验证码！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="575:1055" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="608:1048" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="641:700" ph="{&quot;message&quot;: &quot;请输入正确的验证码！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="709:956" ph="{&quot;type&quot;: &quot;Get&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="863:889" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="921:947" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="975:1034" ph="{&quot;message&quot;: &quot;请输入正确的验证码！&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="1109:1930" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1140:1926" ph="{&quot;url&quot;: &quot;/login/&quot;...}" />
+            <marker date="1513929741169" expanded="true" signature="1187:1364" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1393:1714" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1423:1708" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1596:1667" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1738:1922" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="1972:2644" ph="{...}" />
+            <marker date="1513929741169" expanded="false" signature="2030:2595" ph="{...}" />
+            <marker date="1513929741169" expanded="true" signature="2044:2208" ph="..." />
+            <marker date="1513929741169" expanded="true" signature="2223:2404" ph="..." />
+            <marker date="1513929741169" expanded="true" signature="2421:2591" ph="..." />
+            <marker date="1513929741169" expanded="true" signature="2678:2912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/validate-methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="4" column="47401" lean-forward="false" selection-start-line="4" selection-start-column="47394" selection-end-line="4" selection-end-column="47401" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/core/mail/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrapValidator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="85" column="41" lean-forward="false" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+          <caret line="159" column="16" lean-forward="false" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="126" column="10" lean-forward="true" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
+        <state relative-caret-position="-912">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="322" column="4" lean-forward="false" selection-start-line="322" selection-start-column="4" selection-end-line="322" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/register.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9414">
-          <caret line="15" column="4422" lean-forward="false" selection-start-line="15" selection-start-column="4413" selection-end-line="15" selection-end-column="4422" />
+        <state relative-caret-position="218">
+          <caret line="19" column="2486" lean-forward="false" selection-start-line="19" selection-start-column="2425" selection-end-line="19" selection-end-column="2486" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1514005587295" expanded="true" signature="141425:141454" ph="..." />
+            <marker date="1514005587295" expanded="true" signature="141589:141596" ph="×" />
+            <marker date="1514005587295" expanded="true" signature="141886:141896" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/register.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="175" column="66" lean-forward="false" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="9411" column="4" lean-forward="false" selection-start-line="9411" selection-start-column="4" selection-end-line="9411" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#4864#5957#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="274" column="45" lean-forward="false" selection-start-line="274" selection-start-column="45" selection-end-line="274" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="73" column="34" lean-forward="true" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1733">
+          <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding>
+            <element signature="e#188#1129#0" expanded="false" />
+            <element signature="e#1148#1711#0" expanded="false" />
+            <element signature="e#1862#2201#0" expanded="false" />
+            <element signature="e#2253#2712#0" expanded="false" />
+            <element signature="e#2961#3055#0" expanded="false" />
+            <element signature="e#3172#5939#0" expanded="false" />
+            <element signature="e#6154#6642#0" expanded="false" />
+            <element signature="e#6672#9005#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
