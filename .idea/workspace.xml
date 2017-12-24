@@ -2,141 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/share.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/code.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/css/findpwd.min.css" afterPath="$PROJECT_DIR$/static/css/findpwd.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/global.css" afterPath="$PROJECT_DIR$/static/css/global.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" afterPath="$PROJECT_DIR$/static/css/login.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.min.css" afterPath="$PROJECT_DIR$/static/css/login.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/register.css" afterPath="$PROJECT_DIR$/static/css/register.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/register.min.css" afterPath="$PROJECT_DIR$/static/css/register.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/js/findpwd.js" afterPath="$PROJECT_DIR$/static/js/findpwd.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/global.js" afterPath="$PROJECT_DIR$/static/js/global.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/index.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/personal.min.js" afterPath="$PROJECT_DIR$/static/js/personal.min.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/register.js" afterPath="$PROJECT_DIR$/static/js/register.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/share.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/base/base.html" afterPath="$PROJECT_DIR$/templates/base/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/service.html" afterPath="$PROJECT_DIR$/templates/service.html" />
-      <change beforePath="$PROJECT_DIR$/templates/share.html" afterPath="$PROJECT_DIR$/templates/share.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/account.html" afterPath="$PROJECT_DIR$/templates/user/account.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/forgetpwd.html" afterPath="$PROJECT_DIR$/templates/user/forgetpwd.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/login.html" afterPath="$PROJECT_DIR$/templates/user/login.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/personal.html" afterPath="$PROJECT_DIR$/templates/user/personal.html" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register.html" afterPath="$PROJECT_DIR$/templates/user/register.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -777,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514039815475</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="资源更新">
+      <created>1514126268122</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1514126268123</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
