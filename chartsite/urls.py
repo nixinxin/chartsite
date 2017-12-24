@@ -94,7 +94,7 @@ urlpatterns = [
     # 用户登录注册页面
     url('^user/register/$', RegisterView.as_view(), name="register"),
     url('^user/login/$', LoginView.as_view(), name="login"),
-    url('^user/forget/$', ForgetView.as_view(), name="login"),
+    url('^user/forget/$', ForgetView.as_view(), name="forget"),
     url(r'^personal/$', PersonalViewset.as_view(), name='personal'),
     url(r'^account/$', AccountView.as_view(), name='account'),
     url(r'^share/$', ShareView.as_view(), name='share'),

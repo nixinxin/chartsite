@@ -3,11 +3,10 @@
 {% block cssjs %}
     <link href="{% static 'img/icon.png' %}" rel="shortcut icon">
     <link href="{% static 'css/personal.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+
     <!--jACKY end-->
 
-    <script src="{% static 'js/share.js' %}"></script>
-    <script src="{% static 'js/v.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
 {% endblock %}
 
 
@@ -262,11 +261,7 @@
 
 
 {% block foot %}
-
-    <script>var token = '';</script>
     <script src="{% static 'js/personal.min.js' %}"></script>
     <script src="{% static 'js/mi.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/bootstrapValidator.js' %}"></script>
 {% endblock %}
 

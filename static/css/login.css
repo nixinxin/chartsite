@@ -3,9 +3,10 @@
     margin-bottom: 5px;
 }
 
-#login #verify img {
-    margin-left: 21px;
+#id_captcha_1{
+    width: 50%;
 }
-.shuaxing{
-    margin-left: 21px;
+.captcha{
+    float: right;
+    width: 30%;
 }

@@ -162,7 +162,7 @@ class UserDetailSerializer(serializers.ModelSerializer):
         model = User
         # write_only：True只写不序列化返回
         fields = (
-            "name", 'gender', 'birthday', 'mobile', 'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
+            "name", "first_name", 'gender', 'birthday', 'mobile', 'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
 
 
 class UserRegSerializer(serializers.ModelSerializer):

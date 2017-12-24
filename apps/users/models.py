@@ -22,14 +22,14 @@ class UserProfile(AbstractUser):
     name = models.CharField(max_length=30, null=True, blank=True, verbose_name="姓名")
     birthday = models.DateField(null=True, blank=True, verbose_name="出生年月")
     gender = models.CharField(max_length=6, choices=(("male", "男"), ("female", "女")), default="male", verbose_name="性别")
-    image = models.ImageField(upload_to="users/image/%Y/%m", default="users/image/default.png", max_length=100)
+    image = models.ImageField(upload_to="users/image/%Y/%m", default="users/image/default.png", max_length=100, verbose_name="头像")
     desc = models.TextField(verbose_name='个人介绍', default="这个家伙很懒，什么也没有留下～～！")
     mobile = models.CharField(null=True, blank=True, max_length=11, verbose_name="电话")
     email = models.EmailField(max_length=100, null=True, blank=True, verbose_name="邮箱")
     work = models.CharField(max_length=60, null=True, blank=True, verbose_name='职位')
     city = models.CharField(max_length=30, verbose_name='所在城市', null=True, blank=True,)
     unit = models.CharField(max_length=50, verbose_name='单位名称', null=True, blank=True,)
-    unit_nature = models.CharField(max_length=60, null=True, blank=True, verbose_name='单位性质', choices=choice)
+    unit_nature = models.CharField(max_length=60, null=True, blank=True, verbose_name='单位性质', choices=choice, default='高校')
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:

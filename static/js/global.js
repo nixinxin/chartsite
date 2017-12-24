@@ -1,6 +1,5 @@
-
-$("#labBtn").click(function(){location.href="/share/"});
 $(function () {
+    var user = $("#user");
     if ($.cookie("token")){
         $.ajax({
         url:"/users/1/",
@@ -9,10 +8,17 @@ $(function () {
             xhr.setRequestHeader("token", $.cookie('token')); // 请求发起前在头部附加token
         },
         success: function(data,status){
-            $(".nav.navbar-nav.navbar-right").addClass("profile");
-            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
+            var name;
+            if (data.first_name){
+                name = data.first_name
+            }
+            else {
+                name = data.email
+            }
+            user.addClass("profile");
+            user.html("<li id='userInfo' class='dropdown'>" +
                 "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
-                "                        <img class='img-circle' src="+ data.image +">" + data.username +
+                "                        <img class='img-circle' src="+ data.image +">" + name +
                 "                        <b class='caret'></b>" +
                 "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
                 "                        <span class='navbar-unread count'>100</span></span>" +
@@ -38,9 +44,32 @@ $(function () {
                 "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
                 "                        </li>" +
                 "                    </ul>" +
-                "                </li>")
-
+                "                </li>");
         }
     })
     }
+    else {
+
+    }
 });
+
+
+$(function(){
+    $.get("/captcha/refresh/?"+Math.random(), function(result){
+            $("#id_captcha_1").val('');
+            $('.captcha').attr("src",result.image_url);
+            $('#id_captcha_0').attr("value",result.key);
+        });
+});
+
+//刷新验证码
+$(".captcha").bind("click",function(){
+    $.get("/captcha/refresh/?"+Math.random(), function(result){
+            $("#id_captcha_1").val('').focus();
+            $('.captcha').attr("src",result.image_url);
+            $('#id_captcha_0').attr("value",result.key);
+        });
+});
+$("#labBtn").click(function(){location.href="/share/"});
+
+

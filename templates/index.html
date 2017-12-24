@@ -2,9 +2,9 @@
 {% block cssjs %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
-    <script src="{% static 'js/share.js' %}"></script>
-
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+
+
     <!--jACKY end-->
 {% endblock %}
 {% block content %}
@@ -239,10 +239,7 @@
 {% endblock %}
 
 {% block foot %}
-    <script type="application/javascript">
-        $("#labBtn").click(function(){location.href="/share/"})
-    </script>
-    <script src="{% static 'js/heap.min.js' %}"></script>
-    <script src="{% static 'js/hm.js' %}"></script>
-    <script src="{% static 'js/index.min.js' %}"></script>
+
+    <script src="{% static 'js/global.js' %}"></script>
+
 {% endblock %}

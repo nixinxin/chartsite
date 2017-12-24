@@ -4,12 +4,7 @@
     <link href="{% static 'css/findpwd.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}" >
 
-    <script charset="utf-8" src="{% static 'js/v.js' %}" ></script>
-    <script charset="utf-8" src="{% static 'js/heap.min.js' %}" ></script>
-    <script charset="utf-8" src="{% static 'js/hm.js' %}" ></script>
-    <script charset="utf-8" src="{% static 'js/share.js' %}" ></script>
-{#    <script charset="utf-8" src="{% static 'index/findpwd.min.js' %}" ></script>#}
-    <script charset="utf-8" src="{% static 'js/findpwd.js' %}" ></script>
+
 {% endblock %}
 
 
@@ -53,9 +48,9 @@
 {% endblock %}
 
 {% block foot %}
-     <script src="{% static 'js/captcha.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/bootstrapValidator.js' %}"></script>
+    <script src="{% static 'js/captcha.js' %}"></script>
+    <script charset="utf-8" src="{% static 'js/findpwd.js' %}" ></script>
+
 {% endblock %}
 
 

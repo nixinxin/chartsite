@@ -32,3 +32,7 @@ small.has-error{
     display: block;
     padding: 0 0 0 40px;
 }
+.captcha{
+    float: right;
+    width: 20%;
+}

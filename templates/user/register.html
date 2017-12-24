@@ -5,7 +5,6 @@
     <link href="{% static 'css/register.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
 
-    <script src="{% static 'js/share.js' %}"></script>
 {% endblock %}
 
 {% block content %}
@@ -60,7 +59,7 @@
                                         <i class="glyphicon glyphicon-transfer"></i>
                                     </span>
                                     <input type="text" id="id_captcha_1" class="form-control" name="verify" placeholder="验证码" autocomplete="off" data-bv-field="verify" minlength="4" maxlength="4">
-                                    <button id="sendcode" class="btn btn-default label-primary shuaxing">刷新验证</button>
+                                    <button id="sendcode" class="btn btn-default label-primary" style="width: 40%;float: right;">获取验证码</button>
 
                                 </div>
                                 <i class="form-control-feedback glyphicon"  data-bv-icon-for="verify"></i>
@@ -87,14 +86,12 @@
         </div>
     </div>
 </div>
-         <script src="{% static 'js/captcha.js' %}"></script>
+
 
 {% endblock %}
 
 {% block foot %}
-        <script src="{% static 'js/jquery.validate.js' %}"></script>
-        <script src="{% static 'js/bootstrap.min.js' %}"></script>
-        <script src="{% static 'js/messages_zh.js' %}"></script>
-        <script src="{% static 'js/register.js' %}"></script>
+    <script src="{% static 'js/captcha.js' %}"></script>
+    <script src="{% static 'js/register.js' %}"></script>
 
 {% endblock %}

@@ -12,7 +12,7 @@ $(function() {
             confirmPassword: {
                 required: true,
                 minlength: 8,
-                equalTo: "#password"
+                equalTo: "[name='password']"
             },
             verify: {
                 required: true,

@@ -8,9 +8,7 @@ small.has-error{
     margin-bottom: 5px;
 }
 
-#login #verify img {
-    margin-left: 21px;
-}
-.shuaxing{
-    margin-left: 166px;
+.captcha{
+    float: right;
+    width: 30%;
 }

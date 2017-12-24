@@ -1,3 +1,10 @@
+$(function () {
+    $("button","#oAuth").click(
+        function(){
+            var e,a=$(this).attr("data-type");
+            e &&(location.href="/login/"+a)})
+});
+
 $(function() {
     $("#loginForm").validate({
         rules: {
@@ -9,20 +16,20 @@ $(function() {
                 required: true,
                 rangelength: [8, 20],
             },
-            // response: {
-            //     required: true,
-            //     minlength: 4,
-            //     maxlength: 4,
-            //     remote: {
-            //         url: "/verify/",     //后台处理程序
-            //         type: "post", //数据发送方式
-            //         data:{
-            //             "hashkey": function(){
-            //                 return $("#id_captcha_0").val()
-            //             },
-            //         },
-            //         }
-            //     },
+            response: {
+                required: true,
+                minlength: 4,
+                maxlength: 4,
+                remote: {
+                    url: "/verify/",     //后台处理程序
+                    type: "post", //数据发送方式
+                    data:{
+                        "hashkey": function(){
+                            return $("#id_captcha_0").val()
+                        },
+                    },
+                    }
+                },
             },
         message: {
             username: {
@@ -43,7 +50,7 @@ $(function() {
         errorClass: 'has-error',
         errorElement: "small",
         focusCleanup: true,
-        keyup: true,
+        onkeydown:true,
         success: function (element) {
             element.parent().parent().removeClass('has-error');
             element.parent().parent().addClass('has-success');
@@ -117,6 +124,6 @@ $(function() {
                 }
         });
         },
-    });
+    })
 });
 
