@@ -16,20 +16,20 @@ $(function() {
                 required: true,
                 rangelength: [8, 20],
             },
-            response: {
-                required: true,
-                minlength: 4,
-                maxlength: 4,
-                remote: {
-                    url: "/verify/",     //后台处理程序
-                    type: "post", //数据发送方式
-                    data:{
-                        "hashkey": function(){
-                            return $("#id_captcha_0").val()
-                        },
-                    },
-                    }
-                },
+            // response: {
+            //     required: true,
+            //     minlength: 4,
+            //     maxlength: 4,
+            //     remote: {
+            //         url: "/verify/",     //后台处理程序
+            //         type: "post", //数据发送方式
+            //         data:{
+            //             "hashkey": function(){
+            //                 return $("#id_captcha_0").val()
+            //             },
+            //         },
+            //         }
+            //     },
             },
         message: {
             username: {
@@ -67,7 +67,8 @@ $(function() {
             element.parent().parent().children('small').addClass("alert alert-danger")
         },
         submitHandler:function (form) {
-            $.ajax({url:"/login/",
+            if(1){
+                $.ajax({url:"/login/",
                 type:"Post",
                 data:$(form).serialize(),
                 success: function (data, status) {
@@ -84,45 +85,22 @@ $(function() {
                             xhr.setRequestHeader("token", $.cookie('token')); // 请求发起前在头部附加token
                         },
                         success: function(data,status){
-                            $(".nav.navbar-nav.navbar-right").addClass("profile");
-                            $(".nav.navbar-nav.navbar-right").html("<li id=userInfo class=dropdown>" +
-                                "                    <a href='/personal' class='dropdown-toggle' data-token="+ $.cookie("token") +">" +
-                                "                        <img class='img-circle' src="+ data.image +">" + data.username +
-                                "                        <b class='caret'></b>" +
-                                "                        <span class='fa fa-envelope pull-right message' style='font-size: 1.5em; display: none;'>" +
-                                "                        <span class='navbar-unread count'>100</span></span>" +
-                                "                    </a>" +
-                                "                    <ul id='userMenu' class='dropdown-menu' style='display: none;'>" +
-                                "                        <li>" +
-                                "                            <a href='/personal'>个人中心" +
-                                "                                <span class='fa fa-envelope pull-right'></span>" +
-                                "                            </a>" +
-                                "                        </li>" +
-                                "                        <li class='divider'></li>" +
-                                "                        <li><a href='/account'>账号设置" +
-                                "                                <span class='glyphicon glyphicon-cog pull-right'></span></a>" +
-                                "                        </li>" +
-                                "                        <li class='divider'></li>" +
-                                "                        <li>" +
-                                "                            <a href='http://i.hubwiz.com/invite'>邀请朋友" +
-                                "                                <span class='fa fa-users pull-right'></span>" +
-                                "                            </a>" +
-                                "                        </li>" +
-                                "                        <li class='divider'></li>" +
-                                "                        <li><a href='/logoff'>安全退出" +
-                                "                                <span class='glyphicon glyphicon-log-out pull-right'></span></a>" +
-                                "                        </li>" +
-                                "                    </ul>" +
-                                "                </li>")
-
+                             let name;
+                            if (data.first_name){name = data.first_name}
+                            else {name = data.email}
+                            $(".img-circle").attr("src", data.iamge).text(name);
                         }
                     })
                     }
                 },
                 error: function (data, status) {
-                    alert("用户名或密码错误！")
+                    user.removeClass('profile').empty().html(
+                        '<li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>' +
+                        '<li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>')
                 }
         });
+            }
+
         },
     })
 });

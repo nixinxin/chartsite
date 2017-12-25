@@ -16,7 +16,11 @@
 
     <!--jACKY 2016-3-25-->
     {% load static %}
-
+    <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'js/global.js' %}"></script>
     {% block cssjs %}
 
     {% endblock %}
@@ -54,7 +58,6 @@
                 <li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>
                 <li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>
             </ul>
-
         </nav>
       </div>
 
@@ -129,10 +132,9 @@
     © statics.com  &nbsp; 京ICP备13002042号-2
   </div>
 </footer>
-<script src="{% static 'js/jquery.js' %}"></script>
-        <script src="{% static 'js/jquery.cookie.js' %}"></script>
-        <script src="{% static 'js/jquery.validate.js' %}"></script>
-        <script src="{% static 'js/messages_zh.js' %}"></script>
+
+<script src="{% static 'js/jquery.validate.js' %}"></script>
+<script src="{% static 'js/messages_zh.js' %}"></script>
 <script>
     //支持IE
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
@@ -161,7 +163,7 @@
     };
 </script>
 {% block foot %}
-    <script src="{% static 'js/global.js' %}"></script>
+
 
 {% endblock %}
 

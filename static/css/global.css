@@ -32,7 +32,27 @@ small.has-error{
     display: block;
     padding: 0 0 0 40px;
 }
+
+.has-feedback{
+    height: 54px;
+    margin-bottom: 5px;
+}
+
+#id_captcha_1{
+    width: 50%;
+}
 .captcha{
     float: right;
-    width: 20%;
+    width: 35%;
+    cursor: pointer;
 }
+small.has-error{
+    margin-bottom: 0;
+    display: block;
+    padding: 0 0 0 40px;
+}
+@media (max-width:768px){.docs-nav{background:#455758;border:1px solid #455758;opacity:.98}.docs-nav .navbar-toggle{background:0 0;border:none}.docs-nav .navbar-toggle:hover{background:#455758}.docs-nav .navbar-collapse{border:1px solid #455758}#course-type{width:100%;margin-bottom:5px}#menuNav{padding-top:0}#menuNav .nav-tabs{display:none}.tag-map{min-width:250px!important;max-height:300px;overflow-y:scroll}.tag-map a{display:inline-block;width:90%}.tag-map p{color:#fff}.bb{width:40px;height:40px}.bb .iconfont{font-size:30px;margin:0 5px}.container-desc{padding:0}.container-desc .row div:nth-child(1),.container-desc .row div:nth-child(3){display:none}.container-desc .row>div{height:inherit!important}.container-desc .desc>p{height:inherit!important}.container-bg{height:250px}.hz-menu{float:none;position:relative;top:0;width:100%;background:#edeff0;border:none;text-align:center}.hz-menu li{display:inline-block;padding:5px 0}.hz-menu li>a{display:inline-block;line-height:35px;height:35px;padding:0 15px}.hz-menu li.active{box-shadow:none}.hz-menu li.active a{border-bottom:2px solid #009688;font-weight:700;color:#000}.hz-content{margin-top:10px}.hz-content .panel-heading{display:none}.user-info{margin-bottom:10px;border:none;padding:10px 0}.main-user{height:inherit!important}.avatar{left:0;top:0;padding:0;width:40px;height:40px;box-shadow:none}.right-user{padding:0}.right-user h2{font-size:18px;margin-bottom:5px}.right-user div{padding-top:0!important}.info{padding-top:10px!important}.info h5,.info p{display:inline-block}.info h5:before{content:" : "}.info>div{height:inherit!important}.user-main .nav-tabs{display:none}}#labBtn{margin:12px 4px;animation:myfirst 2s infinite linear;-webkit-animation:myfirst 2s infinite linear;-moz-animation:myfirst 2s infinite linear;-o-animation:myfirst 2s infinite linear}
+.btn-fresh{color:#fff;background-color:#51bf87;border-bottom:2px solid #41996c}
+.btn-fresh:focus,.btn-fresh:hover,.btn-sky.active:focus,.open>.dropdown-toggle.btn-fresh{color:#fff;background-color:#66c796;border-bottom:2px solid #529f78;outline:0}
+.btn-fresh.active,.btn-fresh:active{color:#fff;background-color:#47a877;border-top:2px solid #39865f;outline:0;margin-top:2px}
+#labBtn.active:focus,#labBtn:focus{outline:0;outline-offset:0}
