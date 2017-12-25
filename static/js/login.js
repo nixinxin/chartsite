@@ -67,69 +67,62 @@ $(function() {
             element.parent().parent().children('small').addClass("alert alert-danger")
         },
         submitHandler:function (form) {
-            // if(!$.cookie("token")){
-            if(1){
-                $.ajax({url:"/login/",
-                type:"Post",
-                data:$(form).serialize(),
-                success: function (data, status) {
-                    if(1){
-                        $.cookie('token', data.token);
-                        $.ajax({
-                            url:"/users/1/",
-                            type: 'get',
-                            beforeSend: function (xhr) {
-                                // //发送ajax请求之前向http的head里面加入验证信息
-                                xhr.setRequestHeader("Authorization", "token " + data.token); // 请求发起前在头部附加token
-                            },
-                            success: function (data, status) {
-                                let name;
-                                if (data.first_name) {
-                                    name = data.first_name
-                                }
-                                else {
-                                    name = data.email
-                                }
-                                $("#user").addClass("profile");
-                                $("#user").empty().append('<li id="userInfo" class="dropdown">' +
-                                    '                    <a href="/personal/" class="dropdown-toggle" >' +
-                                    '                        <img class="img-circle" src='+ data.image +'>' + name +
-                                    '                        <b class="caret"></b>' +
-                                    '                    <span class="fa fa-envelope pull-right message" style="font-size: 1.5em; display: none;"> <span class="navbar-unread count">100</span></span></a>' +
-                                    '                    <ul id="userMenu" class="dropdown-menu" style="display: none;">' +
-                                    '                        <li>' +
-                                    '                            <a href="/personal">我的消息' +
-                                    '                                <span class="fa fa-envelope pull-right"></span>' +
-                                    '                            </a>' +
-                                    '                        </li>' +
-                                    '                        <li class="divider"></li>' +
-                                    '                        <li><a href="/account">账号设置' +
-                                    '                                <span class="glyphicon glyphicon-cog pull-right"></span></a>' +
-                                    '                        </li>' +
-                                    '                        <li class="divider"></li>' +
-                                    '                        <li>' +
-                                    '                            <a href="http://i.hubwiz.com/invite">邀请朋友' +
-                                    '                                <span class="fa fa-users pull-right"></span>' +
-                                    '                            </a>' +
-                                    '                        </li>' +
-                                    '                        <li class="divider"></li>' +
-                                    '                        <li><a href="#" id="logout">安全退出' +
-                                    '                                <span class="glyphicon glyphicon-log-out pull-right"></span></a>' +
-                                    '                        </li>' +
-                                    '                    </ul>' +
-                                    '                </li>')
-                            },
-                        })
-                    }
-                },
-                error: function (data, status) {
-                    $("#user").removeClass('profile').empty().html(
-                        '<li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>' +
-                        '<li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>')
-                }
-        });
+            $.ajax({url:"/login/",
+            type:"Post",
+            data:$(form).serialize(),
+            success: function (data, status) {
+                $.ajax({
+                    url:"/users/1/",
+                    type: 'get',
+                    success: function (data, status) {
+                        let name;
+                        if (data.first_name) {
+                            name = data.first_name
+                        }
+                        else {
+                            name = data
+                        }
+                        if(!name){
+                            name= data.email.substring(0,4)
+                        }
+                        $.cookie('name', name, {expires:1, path: '/'});
+                        $("#user").addClass("profile");
+                        $("#user").empty().append('<li id="userInfo" class="dropdown">' +
+                            '                    <a href="/personal/" class="dropdown-toggle" >' +
+                            '                        <img class="img-circle" src='+ data.image +'>' + name +
+                            '                        <b class="caret"></b>' +
+                            '                    <span class="fa fa-envelope pull-right message" style="font-size: 1.5em; display: none;"> <span class="navbar-unread count">100</span></span></a>' +
+                            '                    <ul id="userMenu" class="dropdown-menu" style="display: none;">' +
+                            '                        <li>' +
+                            '                            <a href="/personal">我的消息' +
+                            '                                <span class="fa fa-envelope pull-right"></span>' +
+                            '                            </a>' +
+                            '                        </li>' +
+                            '                        <li class="divider"></li>' +
+                            '                        <li><a href="/account">账号设置' +
+                            '                                <span class="glyphicon glyphicon-cog pull-right"></span></a>' +
+                            '                        </li>' +
+                            '                        <li class="divider"></li>' +
+                            '                        <li>' +
+                            '                            <a href="http://i.hubwiz.com/invite">邀请朋友' +
+                            '                                <span class="fa fa-users pull-right"></span>' +
+                            '                            </a>' +
+                            '                        </li>' +
+                            '                        <li class="divider"></li>' +
+                            '                        <li><a href="#" id="logout">安全退出' +
+                            '                                <span class="glyphicon glyphicon-log-out pull-right"></span></a>' +
+                            '                        </li>' +
+                            '                    </ul>' +
+                            '                </li>')
+                    },
+                })
+            },
+            error: function (data, status) {
+                $("#user").removeClass('profile').empty().html(
+                    '<li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>' +
+                    '<li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>')
             }
-
+    });
         },
     })
 });

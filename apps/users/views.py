@@ -265,11 +265,8 @@ class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateMode
         re_dict = serializer.data
         payload = jwt_payload_handler(user)
         re_dict['token'] = jwt_encode_handler(payload)
-        re_dict['name'] = user.name if user.name else user.username
         headers = self.get_success_headers(re_dict)
         response = Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
-        response.set_cookie(key='token', value=re_dict['token'], expires=1)
-        response.set_cookie(key='name', value=re_dict['name'], expires=1)
         return response
 
     # 重载获取用户model的实例

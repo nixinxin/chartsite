@@ -180,7 +180,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         # 'rest_framework.authentication.TokenAuthentication',  # 全局Token不能解决公共数据的问题
-        # 'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # 全局Token不能解决公共数据的问题
+        # 'rest_framework_token.authentication.JSONWebTokenAuthentication',  # 全局Token不能解决公共数据的问题
     ),
     # IP限速
     'DEFAULT_THROTTLE_CLASSES': (
@@ -195,7 +195,7 @@ REST_FRAMEWORK = {
 
 # 认证设置0 .
 JWT_AUTH = {
-    " JWT_EXPIRATION_DELTA": datetime.timedelta(days=1),
+    "JWT_EXPIRATION_DELTA": datetime.timedelta(days=1),
     'JWT_AUTH_HEADER_PREFIX': 'token',  # 对应里面的前缀 "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1N
     "JWT_AUTH_COOKIE": 'token'
     # 如果您希望除授权标头外还使用http cookie作为令牌的有效传输，则可以将其设置为字符串。

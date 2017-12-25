@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="{% static 'css/global.css' %}">
     <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static 'js/jquery.cookie.js' %}"></script>
-    <script src="{% static 'js/global.js' %}"></script>
     {% block cssjs %}
 
     {% endblock %}
@@ -55,8 +54,8 @@
             </li>
             </ul>
             <ul class="nav navbar-nav navbar-right profile" id="user">
-                <li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>
-                <li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>
+{#                <li><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>#}
+{#                <li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>#}
             </ul>
         </nav>
       </div>
@@ -67,8 +66,6 @@
 {% block content %}
 
 {% endblock %}
-
-
 
 <footer>
   <div class="bottom-content row">
@@ -135,6 +132,7 @@
 
 <script src="{% static 'js/jquery.validate.js' %}"></script>
 <script src="{% static 'js/messages_zh.js' %}"></script>
+<script > const data = ''</script>
 <script>
     //支持IE
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
@@ -162,6 +160,8 @@
         share:[]
     };
 </script>
+<script src="{% static 'js/global.js' %}"></script>
+
 {% block foot %}
 
 

@@ -111,30 +111,24 @@
 }));
 
 $(function () {
-    if (!$.cookie('token')) {
-        let user = $("#user");
-        user.empty().append('<li><a href="/user/login"><i class="fa fa fa-sign-in"></i> 登录</a></li>');
-        if (user.hasClass("profile")){
-            user.removeClass("profile")
-        }
-        user.append('<li><a href="/user/register"><i class="fa fa-pencil"></i>  注册</a></li>');
-    }
-    else {
+    let user = $("#user");
+
+    if(document.cookie.indexOf('name')+1 && !document.getElementById("userInfo")){
         $.ajax({
             url: "/users/1/",
-            beforeSend: function (xhr) {
-                // //发送ajax请求之前向http的head里面加入验证信息
-                xhr.setRequestHeader("Authorization", "token " + $.cookie('token')); // 请求发起前在头部附加token
-            },
             success: function (data, status) {
                 let name;
-                let userinfo = $("#userInfo");
                 if (data.first_name) {
-                name = data.first_name
+                    name = data.first_name
                 }
-                else {name = data.email}
-                $("#user").addClass("profile");
-                $("#user").empty().append('<li id="userInfo" class="dropdown">' +
+                else {
+                    name = data
+                }
+                if(!name){
+                    name= data.email.substring(0,4)
+                }
+                user.addClass("profile");
+                user.empty().append('<li id="userInfo" class="dropdown">' +
                     '                    <a href="/personal/" class="dropdown-toggle" >' +
                     '                        <img class="img-circle" src='+ data.image +'>' + name +
                     '                        <b class="caret"></b>' +
@@ -164,9 +158,14 @@ $(function () {
             },
         })
     }
+    else{
+        user.empty().append('<li><a href="/user/login"><i class="fa fa fa-sign-in"></i> 登录</a></li>');
+        if (user.hasClass("profile")){
+            user.removeClass("profile")
+        }
+        user.append('<li><a href="/user/register"><i class="fa fa-pencil"></i>  注册</a></li>');
+    }
 });
-
-
 
 $(function(){
     //刷新验证码
@@ -183,6 +182,10 @@ $(function(){
     $("#labBtn").click(function(){location.href="/share/"});
 });
 
+document.getElementById("userInfo")&&($("#userInfo").hover(
+    function(){
+        $("#userMenu").stop().slideDown("fast")},
+    function(){$("#userMenu").slideUp("fast")}));
 
 
 

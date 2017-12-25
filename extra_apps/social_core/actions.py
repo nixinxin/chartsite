@@ -100,8 +100,8 @@ def do_complete(backend, login, user=None, redirect_name='next',
     # 源码修改，解决第三方认证跳转后无法获取用户信息的问题
     payload = jwt_payload_handler(user)
     response = backend.strategy.redirect(url)
-    response.set_cookie('name', user.name if user.name else user.username, max_age=24*3600)
-    response.set_cookie('token', jwt_encode_handler(payload), max_age=24*3600)
+    response.set_cookie('name', user.name if user.first_name else user.username, max_age=24*3600)
+    response.set_cookie('jwt', jwt_encode_handler(payload), max_age=24*3600)
     return response
 
 
