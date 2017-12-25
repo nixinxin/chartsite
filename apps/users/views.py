@@ -231,8 +231,6 @@ class ImageCodeVerifyViewset(mixins.CreateModelMixin, viewsets.GenericViewSet):
         return Response(data, status=statuscode)
 
 
-
-
 class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateModelMixin, viewsets.GenericViewSet):
     """
     用户
