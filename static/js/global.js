@@ -117,6 +117,7 @@ $(function () {
         $.ajax({
             url: "/users/1/",
             success: function (data, status) {
+                userinfo = data;
                 let name;
                 if (data.first_name) {
                     name = data.first_name
@@ -132,7 +133,7 @@ $(function () {
                     '                    <a href="/personal/" class="dropdown-toggle" >' +
                     '                        <img class="img-circle" src='+ data.image +'>' + name +
                     '                        <b class="caret"></b>' +
-                    '                    <span class="fa fa-envelope pull-right message" style="font-size: 1.5em; display: none;"> <span class="navbar-unread count">100</span></span></a>' +
+                    '                    <span class="fa fa-envelope pull-right message" style="font-size: 1.5em;"> <span class="navbar-unread count">1</span></span>' +
                     '                    <ul id="userMenu" class="dropdown-menu" style="display: none;">' +
                     '                        <li>' +
                     '                            <a href="/personal">我的消息' +

@@ -57,27 +57,27 @@
                                         已学课程 </a>
                                 </li>
                                 <li>
-                                    <a onclick="loadWrite();" href="#paneTwo" data-toggle="tab">
+{#                                    <a onclick="loadWrite();" href="#paneTwo" data-toggle="tab">#}
+                                    <a href="#paneTwo" data-toggle="tab">
                                         已写课程
                                     </a>
                                 </li>
                                 <li>
-                                    <a onclick="loadQuestion();" href="#paneThree" data-toggle="tab">
-
+{#                                    <a onclick="loadQuestion();" href="#paneThree" data-toggle="tab">#}
+                                    <a  href="#paneThree" data-toggle="tab">
                                             我的问答
-
                                     </a>
                                 </li>
-
                                 <li>
-                                    <a onclick="loadNote();" href="#paneFive" data-toggle="tab">
+{#                                    <a onclick="loadNote();" href="#paneFive" data-toggle="tab">#}
+                                    <a href="#paneFive" data-toggle="tab">
                                         课堂笔记
                                     </a>
                                 </li>
 
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane pane-content active" id="paneOne"><div class="hasnt-article">暂 无 任 何 已 学 课 程</div></div>
+                                <div class="tab-pane pane-content active" id="paneOne"><div class="hasnt-article">暂 无 任 何 收藏 图表</div></div>
                                 <div class="tab-pane pane-content" id="paneTwo"></div>
                                 <!-- 问答 -->
                                 <div class="tab-pane" id="paneThree">
@@ -161,7 +161,7 @@
                     <div class="panel panel-default">
                         <table class="table table-hover table-rank">
                             <thead>
-                                <tr><th>积分榜</th><th>昵称</th><th>积分</th></tr>
+                                <tr><th>图表排行</th><th>标题</th><th>浏览量</th></tr>
                             </thead>
                             <tbody>
 
@@ -261,8 +261,9 @@
 
 
 {% block foot %}
-    <script> var token = ''</script>
+
     <script src="{% static 'js/personal.min.js' %}"></script>
+    <script src="{% static 'js/personal.js' %}"></script>
     <script src="{% static 'js/mi.min.js' %}"></script>
 {% endblock %}
 
