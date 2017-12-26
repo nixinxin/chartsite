@@ -8,10 +8,7 @@ $(function() {
                     url: "/emailcodes/1/",     //后台处理程序
                     type: "get", //数据发送方式
                     data:{
-                        "csrfmiddlewaretoken": function(){
-                            return $("[name='csrfmiddlewaretoken']").val();
-                        },
-                        "send_type": "register",
+                        "send_type": "forget",
                     },
                     }
             },
@@ -35,10 +32,7 @@ $(function() {
                             "username": function(){if($("#registerForm div:first").hasClass('has-success')){
                                 return $("#email").val();
                             }},
-                            "csrfmiddlewaretoken": function(){
-                            return $("[name='csrfmiddlewaretoken']").val();
-                        },
-                            "send_type": "register",
+                            "send_type": "forget",
                         },
                     }
                 },
@@ -84,38 +78,24 @@ $(function() {
             element.parent().parent().children('small').addClass("alert alert-danger")
         },
         submitHandler:function (form) {
-            $.ajax({url:"/users/",
-                type:"Post",
+            $.ajax({url:"/users/1/",
+                type:"PUT",
                 data:$(form).serialize(),
                 success: function (data, status) {
-                    $.cookie('token', data.token, {
-                        path: '/',
-                        expired: 1,
-                    });
-                    $.ajax({
-                        url:"/users/1/",
-                        type: 'get',
-                        beforeSend: function (xhr) {
-                            // //发送ajax请求之前向http的head里面加入验证信息
-                            xhr.setRequestHeader("Authorization", "token " + $.cookie('token')); // 请求发起前在头部附加token
-                        },
-                        success: function(data,status){
-                            let name;
-                            if (data.first_name) {
-                                name = data.first_name
-                            }
-                            else {
-                                    name = data.username
-                                }
-                            if(!name){
-                                name= data.email.substring(0,4)
-                            }
-                            let user = $("#user");
-                            user.addClass("profile").empty();
-                            user.append('<li id="userInfo" class="dropdown"><a href="/personal" class="dropdown-toggle"><img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b> <span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span></a><ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="/index" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul></li>');
-                            alert("用户注册成功，已为您自动登录！")
+                    let name;
+                    if (data.first_name) {
+                        name = data.first_name
+                    }
+                    else {
+                            name = data.username
                         }
-                    })
+                    if(!name){
+                        name= data.email.substring(0,4)
+                    }
+                    let user = $("#user");
+                    user.addClass("profile").empty();
+                    user.append('<li id="userInfo" class="dropdown"><a href="/personal" class="dropdown-toggle"><img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b> <span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span></a><ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="/index" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul></li>');
+                    window.location.href = '/index/';
                 },
                 error: function (data, status) {
                     alert("服务器繁忙，请稍后重试！")
@@ -126,7 +106,6 @@ $(function() {
 });
 
 
-
 $(function () {
 
     $("#sendcode").click(function(){
@@ -135,8 +114,11 @@ $(function () {
             url: "/emailcodes/",
             type: 'POST',
             data: {
-                'email': $("[name=username]").val(),
-                'send_type':"register"
+                'email': $("[name='username']").val(),
+                'send_type':"forget",
+                // "csrfmiddlewaretoken": function(){
+                //             return $("[name='csrfmiddlewaretoken']").val();
+                //         },
             },
             success: function(data, status){
                 alert("验证码发送成功，请注意查收！")
@@ -144,13 +126,11 @@ $(function () {
             error: function (data, status) {
                 alert("用户名已经存在！");
             }
-
         })
         }
         else{
-            alert("请输入合法的邮箱！")
+            alert("用户没有注册！")
         }
     })
 });
-
 

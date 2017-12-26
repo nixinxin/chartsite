@@ -16,7 +16,6 @@
 
     <!--jACKY 2016-3-25-->
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/global.css' %}">
     <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static 'js/jquery.cookie.js' %}"></script>
@@ -157,10 +156,10 @@
         share:[]
     };
 </script>
-<script src="{% static 'js/index.min.js' %}"></script>
 {% block foot %}
 
 {% endblock %}
+<script src="{% static 'js/global.js' %}"></script>
 
 <div id="fixedTools" class="hidden-xs hidden-sm" style="display: block;"><i class="glyphicon glyphicon-circle-arrow-up"></i></div>
 </body>

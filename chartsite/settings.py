@@ -152,7 +152,7 @@ USE_TZ = False   # 默认是Ture，时间是utc时间，由于我们要用本地
 
 # 自定义认证
 AUTHENTICATION_BACKENDS = (
-    'users.views.CustomBBackend',
+    'users.views.CustomBackend',
     'social_core.backends.weixin.WeixinOAuth2',
     'social_core.backends.weibo.WeiboOAuth2',
     'social_core.backends.qq.QQOAuth2',
@@ -173,14 +173,13 @@ STATICFILES_DIRS = (
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
 # 所有关于rest_framework的配置
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         # 'rest_framework.authentication.TokenAuthentication',  # 全局Token不能解决公共数据的问题
-        # 'rest_framework_token.authentication.JSONWebTokenAuthentication',  # 全局Token不能解决公共数据的问题
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # 全局Token不能解决公共数据的问题
     ),
     # IP限速
     'DEFAULT_THROTTLE_CLASSES': (

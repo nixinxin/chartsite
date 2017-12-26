@@ -10,31 +10,39 @@ $(function() {
         rules: {
             username: {
                 required: true,
-                email: true
+                email: true,
+                remote: {
+                    url: "/emailcodes/1/",     //后台处理程序
+                    type: "get", //数据发送方式
+                    data:{
+                    "send_type": "login",
+                    },
+                }
             },
             password: {
                 required: true,
                 rangelength: [8, 20],
             },
-            // response: {
-            //     required: true,
-            //     minlength: 4,
-            //     maxlength: 4,
-            //     remote: {
-            //         url: "/verify/",     //后台处理程序
-            //         type: "post", //数据发送方式
-            //         data:{
-            //             "hashkey": function(){
-            //                 return $("#id_captcha_0").val()
-            //             },
-            //         },
-            //         }
-            //     },
+            response: {
+                required: true,
+                minlength: 4,
+                maxlength: 4,
+                remote: {
+                    url: "/verify/",     //后台处理程序
+                    type: "post", //数据发送方式
+                    data:{
+                        "hashkey": function(){
+                            return $("#id_captcha_0").val()
+                        },
+                    },
+                    }
+                },
             },
         message: {
             username: {
                 required: "请输入合法的邮箱",
-                email: "请输入合法的邮箱"
+                email: "请输入合法的邮箱",
+                remote:"用户没有注册"
             },
             password: {
                 required: "请输入密码",
@@ -68,12 +76,12 @@ $(function() {
         },
         submitHandler:function (form) {
             $.ajax({url:"/login/",
-            type:"Post",
+            type:"POST",
             data:$(form).serialize(),
             success: function (data, status) {
                 $.ajax({
                     url:"/users/1/",
-                    type: 'get',
+                    type: 'GET',
                     success: function (data, status) {
                         let name;
                         if (data.first_name) {
@@ -86,9 +94,10 @@ $(function() {
                             name= data.email.substring(0,4)
                         }
                         $.cookie('name', name, {expires:1, path: '/'});
-                        user.addClass("profile");
-                        $("#userInfo").empty().append('<a href="/personal" class="dropdown-toggle"><img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b> <span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span></a><ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="http://i.hubwiz.com/coupon">优惠券管理 <span class="fa fa-credit-card pull-right"></span></a></li><li class="divider"></li><li><a href="/index" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul>')
-                     },
+                        let user = $("#user");
+                        user.addClass("profile").empty();
+                        user.append('<li id="userInfo" class="dropdown"><a href="/personal" class="dropdown-toggle"><img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b> <span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span></a><ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="/index" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul></li>');
+                    },
                 })
             },
             error: function (data, status) {

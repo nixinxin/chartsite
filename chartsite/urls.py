@@ -36,10 +36,6 @@ router.register(r"phonecodes", PhoneCodeViewset, base_name='phonecodes')
 router.register(r"emailcodes", EmailCodeViewset, base_name='emailcodes')
 
 
-# 配置验证邮箱验证码url
-router.register(r"verifycode", EmailCodeVereifyViewset, base_name='verifycode')
-
-
 # 配置图片验证码url
 router.register(r"imagecode", ImageCodeViewset, base_name='imagecode')
 

@@ -134,7 +134,7 @@ class RelateObject(object):
         self.rel_name = '__'.join(parts[1:])
         self.is_m2m = bool(field.many_to_many)
 
-        to_qs = self.to_model._default_manager.get_queryset()
+        to_qs = self.to_model._default_manager.get_queryset
         self.to_objs = to_qs.filter(**{self.rel_name: value}).all()
 
         self.field = field

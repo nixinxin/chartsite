@@ -317,17 +317,7 @@ class SmsPhoneCode(object):
         return re_dict
 
 
-
-
-
 def send_email(email, code, send_type="register"):
-    email_record = EmailCode()
-
-    email_record.code = code
-    email_record.email = email
-    email_record.send_type = send_type
-    email_record.save()
-
     data = False
     title = "【农业统计数据】"
     email_body = """<table width="500" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" 
@@ -351,37 +341,17 @@ def send_email(email, code, send_type="register"):
     padding-right: 40px;" width="360" height="14">此为系统邮件请勿回复</td></tr></tbody></table></td></tr><td><table 
     width="500" height="40" cellspacing="0" cellpadding="0" border="0" align="center"></table></td></tbody></table> """
 
-    if send_type == "register":
-        email_title = "邮箱验证码"
-        email_body = title + "你的邮箱验证码为: {0}".format(code)
-        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email])
-        if send_status:
-            data = True
-        return data
-
-    elif send_type == "activate":
+    if send_type == "activate":
         email_title = title + "账号激活链接"
         url = '{host}//user/active/{code}'.format(host=HOST, code=code)
-
         email_body = email_body.format(host=HOST, notice="请点击下面的链接激活你的账号(此链接有效期为24小时):", url=url, email=email)
         send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
         if send_status:
             data = True
         return data
-
-    elif send_type == "forget":
-        email_title = title + "密码重置链接"
-        url = '{host}/user/forget/{code}'.format(host=HOST, code=code)
-        email_body = email_body.format(host=HOST, notice="请点击下面的链接重置密码(此链接有效期为24小时):", url=url, email=email)
-        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
-        if send_status:
-            data = True
-        return data
-
-    elif send_type == "update_email":
-        email_title = title + "邮箱验证码"
-        email_body = email_title + "你的邮箱验证码为: {0}".format(code)
-
+    else:
+        email_title = "邮箱验证码"
+        email_body = title + "你的邮箱验证码为: {0}".format(code)
         send_status = send_mail(email_title, email_body, EMAIL_FROM, [email])
         if send_status:
             data = True
