@@ -99,6 +99,7 @@ urlpatterns = [
     url(r'^account/$', AccountView.as_view(), name='account'),
     url(r'^share/$', ShareView.as_view(), name='share'),
     url(r'^service/$', ServiceView.as_view(), name='service'),
+    url(r'^invite/$', InviteView.as_view(), name='invite'),
 
     url(r'^captcha/', include('captcha.urls')),
     url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),

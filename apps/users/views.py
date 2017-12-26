@@ -368,6 +368,11 @@ class FaviconView(View):
         return HttpResponse(content=data, **header)
 
 
+class InviteView(View):
+    def get(self, request):
+        return render(request, "invite.html")
+
+
 class TemplateViews(View):
     def get(self, request):
         return render(request, "test.html")

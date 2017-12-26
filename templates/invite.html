@@ -1,0 +1,45 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/share.css' %}">
+    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+    <script src="{% static 'js/global.js' %}"></script>
+
+
+{% endblock %}
+{% block content %}
+     <div class="container invite-container  " id="app">
+    <div class="row">
+      <div class="col col-md-offset-2 col-md-8">
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <i class="fa fa-envelope"></i> 通过电子邮件邀请朋友加入
+          </div>
+          <div class="panel-body">
+            <form id="invite-via-email">
+              <div class="form-group">
+                <label for="emails">邮件地址</label>
+                <input type="text" class="form-control" id="emails" placeholder="多个邮件请用逗号分开">
+              </div>
+              <div class="form-group">
+                <label for="notes">个人留言</label>
+                <textarea class="form-control" id="notes" rows="5">我很喜欢汇智网，你也来试试吧。</textarea>
+              </div>
+              <button type="reset" class="btn btn-default pull-right">复位</button>
+              <button type="submit" class="btn btn-success"><i class="fa fa-paper-plane"></i> 发送邀请</button>
+              <span id="status"></span>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block foot %}
+    <script src="{% static 'js/invite.min.js' %}"></script>
+    <script src="{% static 'js/global.js' %}"></script>
+{% endblock %}
