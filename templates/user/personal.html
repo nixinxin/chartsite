@@ -54,24 +54,24 @@
                             <ul class="nav nav-tabs ">
                                 <li class="active">
                                     <a href="#paneOne" data-toggle="tab">
-                                        已学课程 </a>
+                                        收藏记录</a>
                                 </li>
                                 <li>
 {#                                    <a onclick="loadWrite();" href="#paneTwo" data-toggle="tab">#}
                                     <a href="#paneTwo" data-toggle="tab">
-                                        已写课程
+                                        共享记录
                                     </a>
                                 </li>
                                 <li>
 {#                                    <a onclick="loadQuestion();" href="#paneThree" data-toggle="tab">#}
                                     <a  href="#paneThree" data-toggle="tab">
-                                            我的问答
+                                        我的留言
                                     </a>
                                 </li>
                                 <li>
 {#                                    <a onclick="loadNote();" href="#paneFive" data-toggle="tab">#}
                                     <a href="#paneFive" data-toggle="tab">
-                                        课堂笔记
+                                        其他信息
                                     </a>
                                 </li>
 
@@ -84,7 +84,7 @@
                                     <div class="row">
                                         <div class="col-md-12 question-answer">
                                             <a onclick="loadQuestion();">
-                                                <span class="label btn-question">提问</span>
+                                                <span class="label btn-question">留言</span>
                                             </a>
                                             <a onclick="loadAnswer();">
                                                 <span class="label btn-answer">回复</span>
@@ -261,9 +261,9 @@
 
 
 {% block foot %}
-
     <script src="{% static 'js/personal.min.js' %}"></script>
     <script src="{% static 'js/personal.js' %}"></script>
+    <script src="{% static 'js/global.js' %}"></script>
     <script src="{% static 'js/mi.min.js' %}"></script>
 {% endblock %}
 
