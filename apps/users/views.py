@@ -139,7 +139,6 @@ class EmailCodeViewset(mixins.ListModelMixin, mixins.RetrieveModelMixin, mixins.
         else:
             code = self.generate_code(4)
         sms_status = send_email(code=code.lower(), email=email, send_type=send_type)
-
         if not sms_status:
             return Response({
                 "msg": '邮件发送失败，请重新发送！'

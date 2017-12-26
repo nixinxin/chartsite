@@ -85,7 +85,7 @@ $(function() {
         },
         submitHandler:function (form) {
             $.ajax({url:"/users/",
-                type:"Post",
+                type:"POST",
                 data:$(form).serialize(),
                 success: function (data, status) {
                     $.cookie('token', data.token, {
@@ -135,20 +135,17 @@ $(function () {
             url: "/emailcodes/",
             type: 'POST',
             data: {
-                'email': $("[name=username]").val(),
+                'username': $("[name=username]").val(),
                 'send_type':"register"
             },
             success: function(data, status){
-                alert("验证码发送成功，请注意查收！")
+                alert(data.msg)
             },
             error: function (data, status) {
-                alert("用户名已经存在！");
+                alert(data.msg);
             }
 
         })
-        }
-        else{
-            alert("请输入合法的邮箱！")
         }
     })
 });

@@ -80,6 +80,10 @@ class EmailSerialier(serializers.Serializer):
             raise serializers.ValidationError("距离上一次发送未超过10s")
         return email
 
+    def validate(self, attrs):
+        attrs['email'] = attrs['username']
+        return attrs
+
 
 class EmailVerifySerialier(serializers.Serializer):
     username = serializers.EmailField(label='邮箱',
@@ -202,6 +206,7 @@ class UserExitSerialier(serializers.Serializer):
         one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
         if EmailCode.objects.filter(add_time__gt=one_mintes_ago, email=email):
             return False
+
         return True
 
     # 作用于所有字段之上
@@ -313,4 +318,4 @@ class UserRegSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("email", 'password', 'verify')
+        fields = ("username", 'password', 'verify')
