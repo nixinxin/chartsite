@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/invite.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/js/account.js" afterPath="$PROJECT_DIR$/static/js/account.js" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/code.py" afterPath="$PROJECT_DIR$/apps/utils/code.py" />
+      <change beforePath="$PROJECT_DIR$/templates/invite.html" afterPath="$PROJECT_DIR$/templates/invite.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +31,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="23" column="74" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="76" />
+            <state relative-caret-position="0">
+              <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -50,32 +53,100 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/account.js">
+      <file leaf-file-name="invite.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/invite.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="0" column="4476" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="750" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/invite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="3855" column="0" lean-forward="false" selection-start-line="3855" selection-start-column="0" selection-end-line="3855" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invite.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/invite.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="422" column="60" lean-forward="false" selection-start-line="422" selection-start-column="60" selection-end-line="422" selection-end-column="60" />
               <folding>
-                <element signature="e#180244#180357#0" expanded="false" />
-                <element signature="e#180388#180421#0" expanded="false" />
-                <element signature="e#180441#180536#0" expanded="false" />
-                <marker date="1514381272484" expanded="true" signature="132011:132018" ph="×" />
-                <marker date="1514381272484" expanded="true" signature="141425:141454" ph="..." />
-                <marker date="1514381272484" expanded="true" signature="141589:141596" ph="×" />
-                <marker date="1514381272484" expanded="true" signature="141886:141896" ph="..." />
-                <marker date="1514381272484" expanded="true" signature="150091:150098" ph="×" />
-                <marker date="1514381272484" expanded="true" signature="150655:150671" ph="..." />
+                <element signature="e#4532#5377#0" expanded="false" />
+                <element signature="e#6682#7358#0" expanded="false" />
+                <element signature="e#7463#8784#0" expanded="false" />
+                <element signature="e#8871#9495#0" expanded="false" />
+                <element signature="e#9616#11393#0" expanded="false" />
+                <element signature="e#11426#12646#0" expanded="false" />
+                <element signature="e#12676#13580#0" expanded="false" />
+                <element signature="e#13616#13692#0" expanded="false" />
+                <element signature="e#13723#13800#0" expanded="false" />
+                <element signature="e#13939#14009#0" expanded="false" />
+                <element signature="e#14040#14108#0" expanded="false" />
+                <element signature="e#14141#14390#0" expanded="false" />
+                <element signature="e#14936#15007#0" expanded="false" />
+                <element signature="e#15042#15109#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/account.min.js">
+      <file leaf-file-name="code.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/utils/code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="38" column="2948" lean-forward="false" selection-start-line="38" selection-start-column="2923" selection-end-line="38" selection-end-column="2948" />
+            <state relative-caret-position="336">
+              <caret line="359" column="29" lean-forward="true" selection-start-line="359" selection-start-column="29" selection-end-line="359" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/views/generic/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/core/handlers/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <marker date="1514368556294" expanded="true" signature="835:850" ph="..." />
+                <marker date="1514368556294" expanded="true" signature="999:1011" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +158,8 @@
       <list>
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/css/buttom.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/static/js/login.min.js" />
         <option value="$PROJECT_DIR$/static/js/indexs.js" />
@@ -164,7 +234,6 @@
         <option value="$PROJECT_DIR$/static/css/global.css" />
         <option value="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
         <option value="$PROJECT_DIR$/static/css/personal.min.css" />
-        <option value="$PROJECT_DIR$/apps/utils/code.py" />
         <option value="$PROJECT_DIR$/chartsite/settings.py" />
         <option value="$PROJECT_DIR$/static/js/forget.js" />
         <option value="$PROJECT_DIR$/static/css/index.min.css" />
@@ -178,7 +247,6 @@
         <option value="$PROJECT_DIR$/static/js/personal.js" />
         <option value="$PROJECT_DIR$/static/js/courseMap.min.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/invite.html" />
         <option value="$PROJECT_DIR$/templates/resource.html" />
         <option value="$PROJECT_DIR$/static/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/templates/service.html" />
@@ -190,10 +258,13 @@
         <option value="$PROJECT_DIR$/static/js/login.js" />
         <option value="$PROJECT_DIR$/apps/users/serializers.py" />
         <option value="$PROJECT_DIR$/static/js/global.js" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/static/js/account.min.js" />
         <option value="$PROJECT_DIR$/templates/user/account.html" />
         <option value="$PROJECT_DIR$/static/js/account.js" />
+        <option value="$PROJECT_DIR$/templates/invite.html" />
+        <option value="$PROJECT_DIR$/static/js/invite.js" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/utils/code.py" />
       </list>
     </option>
   </component>
@@ -204,8 +275,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="209" />
-    <option name="width" value="1718" />
+    <option name="x" value="780" />
+    <option name="width" value="1147" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -274,11 +345,6 @@
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,30 +358,12 @@
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="account.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="layui" type="462c0819:PsiDirectoryNode" />
+              <item name="invite.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,6 +409,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.chartsite">
+    <configuration name="chartsite JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" uri="http://http:/127.0.0.1/index">
+      <mapping url="http://http:/127.0.0.1/index" local-file="$PROJECT_DIR$" />
+      <mapping url="http:///media" local-file="$PROJECT_DIR$/media" />
+    </configuration>
     <configuration name="test.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/templates/test.html" />
     <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/test.html" />
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -443,13 +495,14 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Django server.chartsite" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
       <item index="3" class="java.lang.String" itemvalue="Python.test" />
       <item index="4" class="java.lang.String" itemvalue="Python.test1" />
       <item index="5" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.chartsite JavaScript" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -727,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514376817042</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="account">
+      <created>1514381381960</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1514381381960</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -740,7 +800,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="0" width="1718" height="1047" extended-state="0" />
+    <frame x="780" y="0" width="1147" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1738149" sideWeight="0.23764458" order="7" side_tool="true" content_ui="tabs" />
@@ -748,14 +808,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24916202" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20868516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2704692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39164785" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18397291" sideWeight="0.7623554" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34988713" sideWeight="0.7623554" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,7 +900,8 @@
     <MESSAGE value="资源更新" />
     <MESSAGE value="完成登录逻辑" />
     <MESSAGE value="登录逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录逻辑" />
+    <MESSAGE value="account" />
+    <option name="LAST_COMMIT_MESSAGE" value="account" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,53 +929,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="147" />
+      <option name="time" value="148" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="154" column="28" lean-forward="false" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
-          <folding>
-            <element signature="e#313#322#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="197" column="8" lean-forward="false" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jcarousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="87" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/index.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -983,14 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/invite.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="0" column="1723" lean-forward="false" selection-start-line="0" selection-start-column="1723" selection-end-line="0" selection-end-column="1723" />
           <folding />
         </state>
       </provider>
@@ -1102,16 +1113,6 @@
         <state relative-caret-position="420">
           <caret line="489" column="0" lean-forward="false" selection-start-line="489" selection-start-column="0" selection-end-line="489" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/invite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,17 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <marker date="1514368556294" expanded="true" signature="835:850" ph="..." />
-            <marker date="1514368556294" expanded="true" signature="999:1011" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1297,49 +1287,6 @@
             <element signature="e#6000#6034#0" expanded="false" />
             <element signature="e#10575#10756#0" expanded="false" />
             <element signature="e#11199#11484#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="174" column="81" lean-forward="true" selection-start-line="174" selection-start-column="81" selection-end-line="174" selection-end-column="81" />
-          <folding>
-            <element signature="e#4532#5377#0" expanded="false" />
-            <element signature="e#6682#7358#0" expanded="false" />
-            <element signature="e#7463#8784#0" expanded="false" />
-            <element signature="e#8871#9495#0" expanded="false" />
-            <element signature="e#11426#12646#0" expanded="false" />
-            <element signature="e#12676#13580#0" expanded="false" />
-            <element signature="e#13616#13692#0" expanded="false" />
-            <element signature="e#13723#13800#0" expanded="false" />
-            <element signature="e#13939#14009#0" expanded="false" />
-            <element signature="e#14040#14108#0" expanded="false" />
-            <element signature="e#14141#14390#0" expanded="false" />
-            <element signature="e#14421#14490#0" expanded="false" />
-            <element signature="e#14629#14696#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="23" column="74" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1367,6 +1314,117 @@
             <marker date="1514381272484" expanded="true" signature="150091:150098" ph="×" />
             <marker date="1514381272484" expanded="true" signature="150655:150671" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <marker date="1514368556294" expanded="true" signature="835:850" ph="..." />
+            <marker date="1514368556294" expanded="true" signature="999:1011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/invite.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="0" column="4476" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="750" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="15037" column="12" lean-forward="false" selection-start-line="15037" selection-start-column="12" selection-end-line="15037" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/invite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="422" column="60" lean-forward="false" selection-start-line="422" selection-start-column="60" selection-end-line="422" selection-end-column="60" />
+          <folding>
+            <element signature="e#4532#5377#0" expanded="false" />
+            <element signature="e#6682#7358#0" expanded="false" />
+            <element signature="e#7463#8784#0" expanded="false" />
+            <element signature="e#8871#9495#0" expanded="false" />
+            <element signature="e#9616#11393#0" expanded="false" />
+            <element signature="e#11426#12646#0" expanded="false" />
+            <element signature="e#12676#13580#0" expanded="false" />
+            <element signature="e#13616#13692#0" expanded="false" />
+            <element signature="e#13723#13800#0" expanded="false" />
+            <element signature="e#13939#14009#0" expanded="false" />
+            <element signature="e#14040#14108#0" expanded="false" />
+            <element signature="e#14141#14390#0" expanded="false" />
+            <element signature="e#14936#15007#0" expanded="false" />
+            <element signature="e#15042#15109#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/invite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="3855" column="0" lean-forward="false" selection-start-line="3855" selection-start-column="0" selection-end-line="3855" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="359" column="29" lean-forward="true" selection-start-line="359" selection-start-column="29" selection-end-line="359" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

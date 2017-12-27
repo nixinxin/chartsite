@@ -413,6 +413,17 @@ class InviteView(View):
     def get(self, request):
         return render(request, "invite.html")
 
+    def post(self, request):
+        data = request.POST
+        emails = data['emails']
+        notes = data['notes']
+        for i in emails.split(","):
+            send = send_email(email=i, code=notes, send_type="invited")
+            if send:
+                return HttpResponse(True, status=status.HTTP_200_OK)
+            else:
+                return HttpResponse(False, status=status.HTTP_404_NOT_FOUND)
+
 
 class ResourceView(View):
     def get(self, request):

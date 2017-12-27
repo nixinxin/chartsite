@@ -349,6 +349,13 @@ def send_email(email, code, send_type="register"):
         if send_status:
             data = True
         return data
+    elif send_type == 'invited':
+        email_title = title + "账号激活链接"
+        email_body = email_body.format(host=HOST, notice=code, url=None, email=email)
+        send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
+        if send_status:
+            data = True
+        return data
     else:
         email_title = "邮箱验证码"
         email_body = title + "你的邮箱验证码为: {0}".format(code)
