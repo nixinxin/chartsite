@@ -58,20 +58,8 @@ function upInfo() {
 			})
 	}
 	function upAvatar(t) {
-		$.ajax({
-			url: "/users/1/",
-			type: "PUT",
-			data: {
-				avatar: t
-			},
-			success: function() {
-				$("#icon").val(""), $(".avatar img").attr("src", t), $(".profile img").attr("src", t)
-			},
-			error: function() {
-				BootstrapDialog.alert("上传失败，请稍后再试！")
-			}
-		})
-	}
+    if(t){$("#icon").val(""), $(".avatar img").attr("src", t), $(".profile img").attr("src", t)}
+    else{BootstrapDialog.alert("上传失败，请稍后再试！")}}
 	function changePass() {
 		var t, a = $("#passwordForm").serializeJSON();
 		return 0 == a.password.length ? t = "请输入新密码！" : a.password.length < 6 ? t = "密码长度小于6！" : a.password !== a.confirmPass && (t = "两次输入的密码不一致！"), t ? BootstrapDialog.alert(t) : void $.ajax({
@@ -92,9 +80,28 @@ function upInfo() {
 			setSelect: [(t - 100) / 2, (a - 100) / 2, (t - 100) / 2 + 100, (a - 100) / 2 + 100]
 		})
 	}
+	// Converts canvas to an image
+    function convertCanvasToImage(canvas) {
+        var blob = dataURLtoBlob(canvas);
+        //使用ajax发送
+        var fd = new FormData();
+        fd.append("image", blob, "image.png");
+        var xhr = new XMLHttpRequest();
+        xhr.open('PUT', '/users/1/', true);
+        xhr.send(fd);
+        return canvas;
+    }
+    function dataURLtoBlob(dataurl) {
+        var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+            bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+        while(n--){
+            u8arr[n] = bstr.charCodeAt(n);
+        }
+        return new Blob([u8arr], {type:mime});
+    }
 	$(function() {
 		var params = HZ.getParams();
-		params.type && "1" == params.type && $("li:eq(1) a", "#tabs").tab("show");
+		params.type && "1" === params.type && $("li:eq(1) a", "#tabs").tab("show");
 		var birthday = $("#birthday"),
 			myDate = new Date(birthday.attr("data-value")),
 			year = myDate.getFullYear(),
@@ -161,7 +168,7 @@ function upInfo() {
 										},
 											e = document.createElement("canvas"),
 											o = e.getContext("2d");
-										e.width = 100, e.height = 100, api && (a = api.tellSelect()), r.width <= 100 && (a.x = 0, a.w = r.width), r.height <= 100 && (a.y = 0, a.h = r.height), o.drawImage(r, a.x, a.y, a.w, a.h, 0, 0, 100, 100), upAvatar(e.toDataURL("image/jpeg")), t.close()
+										e.width = 100, e.height = 100, api && (a = api.tellSelect()), r.width <= 100 && (a.x = 0, a.w = r.width), r.height <= 100 && (a.y = 0, a.h = r.height), o.drawImage(r, a.x, a.y, a.w, a.h, 0, 0, 100, 100), upAvatar(convertCanvasToImage(e.toDataURL("image/png"))), t.close();
 									}
 								}]
 							})
