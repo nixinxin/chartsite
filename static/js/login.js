@@ -16,6 +16,7 @@ $(function() {
                     type: "get", //数据发送方式
                     data:{
                     "send_type": "login",
+
                     },
                 }
             },
@@ -78,7 +79,7 @@ $(function() {
             $.ajax({url:"/login/",
             type:"POST",
             data:$(form).serialize(),
-            success: function (data, status) {
+            success: function (token, status) {
                 $.ajax({
                     url:"/users/1/",
                     type: 'GET',
@@ -90,7 +91,7 @@ $(function() {
                         else {
                             name = data.username
                         }
-                        if(!name){
+                        if(name){
                             name= data.email.substring(0,4)
                         }
                         $.cookie('name', name, {expires:1, path: '/'});
@@ -104,6 +105,7 @@ $(function() {
                 $("#user").removeClass('profile').empty().html(
                     '<li class="dropdown" id="userInfo"><a href="/user/login"><i class="fa fa-sign-in"></i> 登录 </a></li>' +
                     '<li><a href="/user/register"><i class="fa fa-pencil"></i> 注册</a></li>')
+                alert("用户名或密码错误！")
             }
     });
         },

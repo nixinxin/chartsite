@@ -172,6 +172,7 @@ class EmailCodeViewset(mixins.ListModelMixin, mixins.RetrieveModelMixin, mixins.
                 response = Response(True, status=status.HTTP_200_OK, headers=headers)
                 expires = datetime.now() + timedelta(days=1)
                 response.set_cookie('token', re_dict['token'], expires=expires)
+                response.set_cookie('name', re_dict['username'], expires=expires)
 
         return response
 
@@ -301,7 +302,10 @@ class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateMode
         re_dict['token'] = jwt_encode_handler(payload)
         headers = self.get_success_headers(re_dict)
         headers['Authorization'] = "token " + re_dict['token']
+        re_dict['name'] = user.name if user.first_name else user.username
         response = Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
+        response.set_cookie("name", re_dict['name'], expires=datetime.now() + timedelta(days=1))
+        response.set_cookie("token", re_dict['token'], expires=datetime.now() + timedelta(days=1))
         return response
 
 
@@ -408,6 +412,12 @@ class FaviconView(View):
 class InviteView(View):
     def get(self, request):
         return render(request, "invite.html")
+
+
+class ResourceView(View):
+    def get(self, request):
+        return render(request, "resource.html")
+
 
 
 class TemplateViews(View):

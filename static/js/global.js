@@ -1,3 +1,4 @@
+
 function getCookie(cname) {
     let name = cname + "=";
     let ca = document.cookie.split(';');
@@ -11,20 +12,11 @@ function getCookie(cname) {
 $(function () {
     let user = $("#user");
     let userInfo = $("#userInfo");
-    if(getCookie("name") && !document.getElementById("userMenu")){
+    if((getCookie("name")) && !document.getElementById("userMenu")){
         $.ajax({
             url: "/users/1/",
             success: function (data, status) {
-                let name;
-                if (data.first_name) {
-                    name = data.first_name
-                }
-                else {
-                    name = data.username
-                }
-                if(!name){
-                    name= data.email.substring(0,4)
-                }
+                let name = data.first_name || data.username;
                 let user = $("#user");
                 user.addClass("profile");
                 user.find("li:first a").empty().append('<img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b> <span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span>');
@@ -49,19 +41,12 @@ $(function(){
                 $('#id_captcha_0').attr("value",result.key);
             });
     });
-    $("#logout").bind("click",function () {
+    $("#logout").click(function () {
         delete document.cookie;
-        window.open('/index/', '_self')
+        window.location.href = '/index/'
     });
     $("#labBtn").click(function(){location.href="/share/"});
 });
 
-$(function () {
-    document.getElementById("userInfo") && $("#userInfo").hover(function () {
-        $("#userMenu").stop().slideDown("fast")
-    }, function () {
-        $("#userMenu").slideUp("fast")
-    })
-});
-
 $(document.getElementById("userInfo")&&($("#userInfo").hover(function(){$("#userMenu").stop().slideDown("fast")},function(){$("#userMenu").slideUp("fast")})));
+$(function(){if(!/^\/(class)|(book)/.test(location.pathname)){var e=$("<div>").attr("id","fixedTools").addClass("hidden-xs hidden-sm").append($("<i>").addClass("glyphicon glyphicon-circle-arrow-up")).appendTo("body");$(window).scroll(function(){0!=$(this).scrollTop()?e.fadeIn():e.fadeOut()}),e.click(function(){return $("html, body").animate({scrollTop:0},300),!1})}$('a[href="'+document.location.pathname+'"]',"#hb-nav>li").parent().addClass("active"),document.getElementById("userInfo")&&($("#userInfo").hover(function(){$("#userMenu").stop().slideDown("fast")},function(){$("#userMenu").slideUp("fast")}))});

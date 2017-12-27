@@ -41,7 +41,7 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li><a href="{% url  'index' %}">网站首页</a></li>
-                <li><a href="{% url  'index' %}">数据资源<i class="gif-hot"></i></a> </li>
+                <li><a href="{% url  'resource' %}">数据资源<i class="gif-hot"></i></a> </li>
                 <li><a href="{% url  'index' %}">可视分析</a></li>
                 <li><a href="{% url  'index' %}">价格监测</a></li>
                 <li><a href="{% url  'index' %}">新闻动态</a></li>
@@ -156,11 +156,11 @@
         share:[]
     };
 </script>
+
+
 {% block foot %}
 
 {% endblock %}
-
-
-<div id="fixedTools" class="hidden-xs hidden-sm" style="display: block;"><i class="glyphicon glyphicon-circle-arrow-up"></i></div>
+    <script src="{% static 'js/global.js' %}"></script>
 </body>
 </html>

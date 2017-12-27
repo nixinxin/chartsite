@@ -2,6 +2,7 @@
 {% block cssjs %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
+    <script src="{% static 'js/share.js' %}"></script>
     <!--jACKY end-->
 {% endblock %}
 {% block content %}
@@ -233,7 +234,6 @@
       <p>农业统计数据可视化平台，爱生活，爱学习！</p>
       <div class="begin"><a class="btn btn-warning" href="/course">开始了解</a></div>
     </div>
-    <script src="{% static 'js/global.js' %}"></script>
 {% endblock %}
 
 {% block foot %}

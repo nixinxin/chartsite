@@ -9,8 +9,8 @@ function(a) {
 	var c = /^([+\-]=)?(.+)$/;
 	b.parseTarget = function(a) {
 		var b = !1,
-			d = "object" != typeof a ? c.exec(a) : null;
-		return d ? (a = parseInt(d[2], 10) || 0, d[1] && (b = !0, "-=" === d[1] && (a *= -1))) : "object" != typeof a && (a = parseInt(a, 10) || 0), {
+			d = "object" !== typeof a ? c.exec(a) : null;
+		return d ? (a = parseInt(d[2], 10) || 0, d[1] && (b = !0, "-=" === d[1] && (a *= -1))) : "object" !== typeof a && (a = parseInt(a, 10) || 0), {
 			target: a,
 			relative: b
 		}
@@ -45,8 +45,8 @@ function(a) {
 			},
 			options: function(b, c) {
 				if (0 === arguments.length) return a.extend({}, this._options);
-				if ("string" == typeof b) {
-					if ("undefined" == typeof c) return "undefined" == typeof this._options[b] ? null : this._options[b];
+				if ("string" === typeof b) {
+					if ("undefined" === typeof c) return "undefined" === typeof this._options[b] ? null : this._options[b];
 					this._options[b] = c
 				} else this._options = a.extend({}, this._options, b);
 				return this
@@ -68,13 +68,13 @@ function(a) {
 		return e.fn = e.prototype = a.extend({}, b.base(c), d), a.fn[c] = function(b) {
 			var d = Array.prototype.slice.call(arguments, 1),
 				f = this;
-			return this.each("string" == typeof b ?
+			return this.each("string" === typeof b ?
 			function() {
 				var e = a(this).data(c);
 				if (!e) return a.error("Cannot call methods on " + c + ' prior to initialization; attempted to call method "' + b + '"');
 				if (!a.isFunction(e[b]) || "_" === b.charAt(0)) return a.error('No such method "' + b + '" for ' + c + " instance");
 				var g = e[b].apply(e, d);
-				return g !== e && "undefined" != typeof g ? (f = g, !1) : void 0
+				return g !== e && "undefined" !== typeof g ? (f = g, !1) : void 0
 			} : function() {
 				var d = a(this).data(c);
 				d instanceof e ? d.reload(b) : new e(this, b)
@@ -133,7 +133,7 @@ function(a) {
 			a(b).off("resize.jcarousel", this.onWindowResize)
 		},
 		_reload: function() {
-			this.vertical = this.options("vertical"), null == this.vertical && (this.vertical = this.list().height() > this.list().width()), this.rtl = this.options("rtl"), null == this.rtl && (this.rtl = function(b) {
+			this.vertical = this.options("vertical"), null === this.vertical && (this.vertical = this.list().height() > this.list().width()), this.rtl = this.options("rtl"), null === this.rtl && (this.rtl = function(b) {
 				if ("rtl" === ("" + b.attr("dir")).toLowerCase()) return !0;
 				var c = !1;
 				return b.parents("[dir]").each(function() {
@@ -285,7 +285,7 @@ function(a) {
 		},
 		_scroll: function(b, c, d) {
 			if (this.animating) return a.isFunction(d) && d.call(this, !1), this;
-			if ("object" != typeof b ? b = this.items().eq(b) : "undefined" == typeof b.jquery && (b = a(b)), 0 === b.length) return a.isFunction(d) && d.call(this, !1), this;
+			if ("object" !== typeof b ? b = this.items().eq(b) : "undefined" === typeof b.jquery && (b = a(b)), 0 === b.length) return a.isFunction(d) && d.call(this, !1), this;
 			this.inTail = !1, this._prepare(b);
 			var e = this._position(b),
 				f = this.list().position()[this.lt];
@@ -312,11 +312,11 @@ function(a) {
 					var a = this.list().find("[data-jcarousel-clone]");
 					a.length > 0 && (a.remove(), this._reload()), this._trigger("animateend"), d.call(this, !0)
 				}, this),
-				g = "object" == typeof e ? a.extend({}, e) : {
+				g = "object" === typeof e ? a.extend({}, e) : {
 					duration: e
 				},
 				h = g.complete || a.noop;
-			return c === !1 ? g.duration = 0 : "undefined" != typeof a.fx.speeds[g.duration] && (g.duration = a.fx.speeds[g.duration]), g.complete = function() {
+			return c === !1 ? g.duration = 0 : "undefined" !== typeof a.fx.speeds[g.duration] && (g.duration = a.fx.speeds[g.duration]), g.complete = function() {
 				f(), h.call(this)
 			}, this.move(b, g), this
 		},
@@ -391,7 +391,7 @@ function(a) {
 		var e, f = a.jCarousel.parseTarget(b),
 			g = this.index(this._fullyvisible.first()),
 			h = this.index(this._fullyvisible.last());
-		if (e = f.relative ? f.target < 0 ? Math.max(0, g + f.target) : h + f.target : "object" != typeof f.target ? f.target : this.index(f.target), g > e) return this.scroll(e, c, d);
+		if (e = f.relative ? f.target < 0 ? Math.max(0, g + f.target) : h + f.target : "object" !== typeof f.target ? f.target : this.index(f.target), g > e) return this.scroll(e, c, d);
 		if (e >= g && h >= e) return a.isFunction(d) && d.call(this, !1), this;
 		for (var i, j = this.items(), k = this.clipping(), l = this.vertical ? "bottom" : this.rtl ? "left" : "right", m = 0;;) {
 			if (i = j.eq(e), 0 === i.length) break;
@@ -434,7 +434,7 @@ function(a) {
 				d = this.carousel();
 			if (c.relative) b = d.jcarousel(c.target > 0 ? "hasNext" : "hasPrev");
 			else {
-				var e = "object" != typeof c.target ? d.jcarousel("items").eq(c.target) : c.target;
+				var e = "object" !== typeof c.target ? d.jcarousel("items").eq(c.target) : c.target;
 				b = d.jcarousel("target").index(e) >= 0
 			}
 			return this._active !== b && (this._trigger(b ? "active" : "inactive"), this._active = b), this
@@ -468,7 +468,7 @@ function(a) {
 		},
 		_reload: function() {
 			var b = this.options("perPage");
-			if (this._pages = {}, this._items = {}, a.isFunction(b) && (b = b.call(this)), null == b) this._pages = this._calculatePages();
+			if (this._pages = {}, this._items = {}, a.isFunction(b) && (b = b.call(this)), null === b) this._pages = this._calculatePages();
 			else for (var c, d = parseInt(b, 10) || 0, e = this._getCarouselItems(), f = 1, g = 0;;) {
 				if (c = e.eq(g++), 0 === c.length) break;
 				this._pages[f] = this._pages[f] ? this._pages[f].add(c) : c, g % d === 0 && f++
@@ -529,7 +529,7 @@ function(a) {
 		webkitHidden: "webkitvisibilitychange"
 	};
 	a.each(e, function(a, e) {
-		return "undefined" != typeof b[a] ? (c = a, d = e, !1) : void 0
+		return "undefined" !== typeof b[a] ? (c = a, d = e, !1) : void 0
 	}), a.jCarousel.plugin("jcarouselAutoscroll", {
 		_options: {
 			target: "+=1",

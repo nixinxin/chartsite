@@ -260,9 +260,8 @@ class UserDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # write_only：True只写不序列化返回
-        fields = ("name", "first_name", 'gender', 'birthday', 'mobile',
+        fields = ("first_name", 'gender', 'birthday', 'mobile',
                   'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
-
 
 class UserRegSerializer(serializers.ModelSerializer):
     username = serializers.CharField(required=True,
