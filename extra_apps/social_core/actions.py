@@ -1,10 +1,13 @@
-from urllib.request import urlretrieve
+from datetime import datetime, timedelta
 
 import os
+from urllib.request import urlretrieve
+
 from rest_framework_jwt.serializers import jwt_payload_handler, jwt_encode_handler
 from six.moves.urllib_parse import quote
 from social_django.models import UserSocialAuth
 
+from chartsite import settings
 from chartsite.settings import BASE_DIR
 from .utils import sanitize_redirect, user_is_authenticated, \
                    user_is_active, partial_pipeline_data, setting_url
@@ -105,14 +108,20 @@ def do_complete(backend, login, user=None, redirect_name='next',
     # 源码修改，解决第三方认证跳转后无法获取用户信息的问题
     payload = jwt_payload_handler(user)
     response = backend.strategy.redirect(url)
-    if not user.username:
+
+    if user.username == "-":
         user.username = user.first_name
         image_url = UserSocialAuth.objects.get(user_id=user.id).extra_data['profile_image_url']
-        image_name = image_url.split("/")[-1]
-        urlretrieve(image_url, os.path.join(BASE_DIR, 'media', 'image', image_name))
-        user.image = os.path.join('image', image_name)
-    response.set_cookie('name', user.username, max_age=24*3600)
-    response.set_cookie('token', jwt_encode_handler(payload), max_age=24*3600)
+        image_name = user.username + "." + image_url.split(".")[-1]
+        urlretrieve(image_url,
+                    os.path.join(BASE_DIR, 'media', 'users', 'image', user.username + "." + image_url.split(".")[-1]))
+        user.image = os.path.join('users', 'image', image_name)
+        user.save()
+    expiration = (datetime.utcnow() + timedelta(days=1),)
+    if settings.JWT_AUTH["JWT_AUTH_COOKIE"]:
+        expiration = (datetime.utcnow() + settings.JWT_AUTH["JWT_EXPIRATION_DELTA"])
+    response.set_cookie('name', user.username, expires=expiration)
+    response.set_cookie('token', jwt_encode_handler(payload), expires=expiration)
     return response
 
 
