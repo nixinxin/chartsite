@@ -26,6 +26,13 @@ class ChartdataPagination(PageNumberPagination):
     max_page_size = 100
 
 
+class Pagination(PageNumberPagination):
+    page_size = 10
+    page_size_query_param = 'page_size'
+    page_query_param = 'page'
+    max_page_size = 10
+
+
 class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
@@ -46,3 +53,24 @@ class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.
         serializer = self.get_serializer(instance)
         return Response(serializer.data)
 
+
+class ResourceListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+        商品列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = ResourceList.objects.all().order_by('id')
+    pagination_class = Pagination
+    serializer_class = Resourceserializer
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+    search_fields = ('title',)
+    ordering_fields = ('id', )
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        instance.click_num += 1
+        instance.save()
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)

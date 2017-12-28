@@ -26,6 +26,7 @@ from chart.views import BannerViewset
 from chartsite.settings import MEDIA_ROOT
 from operation.views import UserFavViewset, FeedBackViewset
 from users.views import *
+from apps.resource.views import *
 
 router = DefaultRouter()
 
@@ -55,10 +56,8 @@ router.register(r'messages', FeedBackViewset, base_name='messages')
 router.register(r'personal', PersonalViewset, base_name='personal')
 
 
-# 验证图片验证码
-router.register(r'verify', ImageCodeVerifyViewset, base_name='verify')
-
-
+# 数据资源列表
+router.register(r'resourceList', ResourceListViewSet, base_name='resourceList')
 
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),

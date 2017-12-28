@@ -1,7 +1,42 @@
+from datetime import datetime
+
 from django.db import models
 
 
 # Create your models here.
+
+class ResourceList(models.Model):
+    """
+    数据资源列表
+    """
+    title = models.CharField(max_length=30, blank=False, null=True, db_column='标题', verbose_name='标题')
+    CATEGORY_TYPE = (
+                        (1, "农业"),
+                        (2, "林业"),
+                        (3, "牧业"),
+                        (4, "渔业"),
+                        (5, "农村"),
+                        (6, "农民"),
+                        (7, "植物"),
+                        (7, "动物"),
+                    )
+    type = models.IntegerField(blank=False, null=False, choices=CATEGORY_TYPE, db_column='类别', verbose_name='类别')
+    desc = models.TextField(default="", verbose_name="数据描述", help_text="数据描述")
+    image = models.ImageField(upload_to='chartsite/resource', blank=False, null=False, verbose_name="数据封面", db_column="数据封面")
+    click_num = models.IntegerField(default=0, verbose_name="点击数")
+    fav_num = models.IntegerField(default=0, verbose_name="收藏数")
+    is_tab = models.BooleanField(default=False, verbose_name="是否导航", db_column="是否导航")
+    is_new = models.BooleanField(default=False, verbose_name="是否最新", db_column="是否最新")
+    is_hot = models.BooleanField(default=False, verbose_name="是否热门", db_column="是否热门")
+    add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间", db_column="添加时间")
+
+    class Meta:
+        db_table = "数据资源列表"
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.title
 
 
 class GwyjzwzzzyDb(models.Model):

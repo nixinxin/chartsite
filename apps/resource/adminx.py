@@ -453,3 +453,13 @@ class ZwyyzyzzDbAdmin(object):
 
 xadmin.site.register(ZwyyzyzzDb, ZwyyzyzzDbAdmin)
 
+
+# 数据资源列表
+class ResourceListAdmin(object):
+    list_display = ['title', 'type', "image", 'click_num', 'fav_num', 'is_tab', 'is_hot', 'is_new']
+    search_fields = ['title', ]
+    list_filter = ['type', 'is_tab', 'is_hot', 'is_new']
+    ordering = ['id', ]
+
+
+xadmin.site.register(ResourceList, ResourceListAdmin)
