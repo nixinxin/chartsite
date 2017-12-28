@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 __author__ = "xin nix"
-redirect_url = "http://127.0.0.1:8000/complete/weibo"
-client_id = "3084778121"
-client_secret = "6ddb49464400f59872169e2c917ddc33"
+from chartsite.settings import SOCIAL_AUTH_WEIBO_KEY, SOCIAL_AUTH_WEIBO_SECRET
+redirect_url = "http://127.0.0.1/complete/weibo/"
+client_id = SOCIAL_AUTH_WEIBO_KEY
+client_secret = SOCIAL_AUTH_WEIBO_SECRET
 import requests
 
 
@@ -29,11 +30,12 @@ def get_access_token(code):
 def get_user_info(access_token, uid):
     user_url = "https://api.weibo.com/2/users/show.json" + "?access_token={token}&uid={uid}".format(token=access_token,
                                                                                                     uid=uid)
+    print(user_url)
     result = requests.get(user_url)
     print(result)
 
 
 if __name__ == "__main__":
-    # get_auth_url()
-    # get_access_token(code="aa04fbf1a2b1d8150d3cb5492a040879")
-    get_user_info(access_token="2.00rP55yFph6l3De79e5958c20vv2jt", uid="5473057431")
+    get_auth_url()
+    get_access_token(code="b4977fde99c44a245daf6ffd47ca1c02")
+    get_user_info(access_token="2.00rP55yFKXjhICa07adbfc2cioI6mB", uid="5473057431")

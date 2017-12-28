@@ -1,6 +1,11 @@
+from urllib.request import urlretrieve
+
+import os
 from rest_framework_jwt.serializers import jwt_payload_handler, jwt_encode_handler
 from six.moves.urllib_parse import quote
+from social_django.models import UserSocialAuth
 
+from chartsite.settings import BASE_DIR
 from .utils import sanitize_redirect, user_is_authenticated, \
                    user_is_active, partial_pipeline_data, setting_url
 
@@ -100,8 +105,14 @@ def do_complete(backend, login, user=None, redirect_name='next',
     # 源码修改，解决第三方认证跳转后无法获取用户信息的问题
     payload = jwt_payload_handler(user)
     response = backend.strategy.redirect(url)
-    response.set_cookie('name', user.name if user.first_name else user.username, max_age=24*3600)
-    response.set_cookie('jwt', jwt_encode_handler(payload), max_age=24*3600)
+    if not user.username:
+        user.username = user.first_name
+        image_url = UserSocialAuth.objects.get(user_id=user.id).extra_data['profile_image_url']
+        image_name = image_url.split("/")[-1]
+        urlretrieve(image_url, os.path.join(BASE_DIR, 'media', 'image', image_name))
+        user.image = os.path.join('image', image_name)
+    response.set_cookie('name', user.username, max_age=24*3600)
+    response.set_cookie('token', jwt_encode_handler(payload), max_age=24*3600)
     return response
 
 

@@ -325,7 +325,7 @@ def send_email(email, code, send_type="register"):
     align="center"></table></td> <tr> <td> <table width="500" height="48" cellspacing="0" cellpadding="0" border="0" 
     bgcolor="#10A64F" backgroud-color='transparent' align="center"> <tbody> <tr> <td border="0" 
     style="padding-left:20px;" width="74" valign="middle" height="26" align="center"> <a href="{host}/index" 
-    target="_blank"><img src="{host}/static/index/img/chartsite.png" width="176" height="36" border="0"> </a> </td> 
+    target="_blank"><img src="{host}/static/img/chartsite.png" width="176" height="36" border="0"> </a> </td> 
     <td colspan="2" style="color:#ffffff; padding-right:20px;"width="500" valign="middle" height="48" align="right"> 
     <a href="{host}/index" target="_blank" style="color:#ffffff;text-decoration:none;font-size:16px"> 首页</a> </td> 
     </tr> </tbody></table> </td> </tr> <tr> <td> <table style="border:1px solid 
@@ -350,8 +350,11 @@ def send_email(email, code, send_type="register"):
             data = True
         return data
     elif send_type == 'invited':
-        email_title = title + "账号激活链接"
-        email_body = email_body.format(host=HOST, notice=code, url=None, email=email)
+        email_title = title + "邀请邮件"
+        email_body = email_body.format(host=HOST,
+                                       notice=code,
+                                       url='快来加入吧！',
+                                       email=email).replace("欢迎加入农业统计数据，请妥善保管您的验证信息：", '您的好友通过农业统计数据可视化平台向你发出邀请：')
         send_status = send_mail(email_title, email_body, EMAIL_FROM, [email], html_message=email_body)
         if send_status:
             data = True
