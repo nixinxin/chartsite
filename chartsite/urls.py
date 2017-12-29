@@ -55,6 +55,9 @@ router.register(r'messages', FeedBackViewset, base_name='messages')
 # 个人中心
 router.register(r'personal', PersonalViewset, base_name='personal')
 
+# 验证图片验证码
+router.register(r'verify', ImageCodeVerifyViewset, base_name='verify')
+
 
 # 数据资源列表
 router.register(r'resourceList', ResourceListViewSet, base_name='resourceList')
@@ -96,6 +99,8 @@ urlpatterns = [
     url(r'^service/$', ServiceView.as_view(), name='service'),
     url(r'^invite/$', InviteView.as_view(), name='invite'),
     url(r'^resource/$', ResourceView.as_view(), name='resource'),
+    url(r'^visual/$', VisualView.as_view(), name='visual'),
+    url(r'^chart/$', ChartView.as_view(), name='chart'),
 
     url(r'^captcha/', include('captcha.urls')),
     url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),

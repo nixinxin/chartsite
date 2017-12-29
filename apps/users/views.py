@@ -430,6 +430,15 @@ class ResourceView(View):
         return render(request, "resource.html")
 
 
+class VisualView(View):
+    def get(self, request):
+        return render(request, "visual.html")
+
+
+class ChartView(View):
+    def get(self, request):
+        return render(request, "chart.html")
+
 
 class TemplateViews(View):
     def get(self, request):

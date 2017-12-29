@@ -17,7 +17,7 @@
     <!--jACKY 2016-3-25-->
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/global.css' %}">
-    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/jquery.cookie.js' %}"></script>
     {% block cssjs %}
 
@@ -42,8 +42,8 @@
             <ul class="nav navbar-nav">
                 <li><a href="{% url  'index' %}">网站首页</a></li>
                 <li><a href="{% url  'resource' %}">数据资源<i class="gif-hot"></i></a> </li>
-                <li><a href="{% url  'index' %}">可视分析</a></li>
-                <li><a href="{% url  'index' %}">价格监测</a></li>
+                <li><a href="{% url  'visual' %}">可视分析</a></li>
+                <li><a href="{% url  'chart' %}">价格监测</a></li>
                 <li><a href="{% url  'index' %}">新闻动态</a></li>
                 <li><a href="{% url  'service' %}">服务支持</a></li>
                 <li>
