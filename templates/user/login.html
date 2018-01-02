@@ -3,15 +3,17 @@
     {% load static %}
     <link href="{% static 'css/login.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}" >
+    <style>
 
+    </style>
 
 
 {% endblock %}
 
 {% block content %}
-    <div class="container web-body" style="padding:100px 0 100px 0;">
+    <div class="container web-body" style="padding-top: 70px">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-xs-12">
+            <div class="col-lg-5 col-xs-12 box">
                 <div class="row">
                     <div id="login" class="col-md-6">
                         <div class="panel panel-default well">
@@ -76,23 +78,6 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                    </div>
-                    <div id="oAuth" class="col-md-5">
-                        <div class="page-header">
-                            <h4>欢迎来到农业统计数据可视化平台</h4>
-                            <p>在这里，你可以充实自己，认识更多的朋友！</p>
-                        </div>
-                        <div class="col-sm-12 social-buttons">
-                            <a type="button" data-type="qq" class="btn btn-block btn-social btn-twitter" href="/login/qq">
-                                <i class="fa fa-qq fa-4"></i> QQ 登录
-                            </a>
-                            <a type="button" data-type="weibo" class="btn btn-block btn-social btn-google-plus" href="/login/weibo">
-                                <i class="iconfont icon-weibo"></i> 微博登录
-                            </a>
-                            <a type="button" data-type="github" class="btn btn-block btn-social btn-github" href="/login/github">
-                                <i class="fa fa-github"></i> GitHub 登录
-                            </a>
                         </div>
                     </div>
                 </div>
