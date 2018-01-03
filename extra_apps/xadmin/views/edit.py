@@ -1,4 +1,5 @@
 from __future__ import absolute_import
+
 import copy
 
 from crispy_forms.utils import TEMPLATE_PACK
@@ -8,20 +9,19 @@ from django.core.exceptions import PermissionDenied, FieldError
 from django.db import models, transaction
 from django.forms.models import modelform_factory, modelform_defines_fields
 from django.http import Http404, HttpResponseRedirect
+from django.template import loader
 from django.template.response import TemplateResponse
 from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.html import escape
-from django.utils.text import capfirst, get_text_list
-from django.template import loader
+from django.utils.text import get_text_list
 from django.utils.translation import ugettext as _
+
 from xadmin import widgets
 from xadmin.layout import FormHelper, Layout, Fieldset, TabHolder, Container, Column, Col, Field
 from xadmin.util import unquote
 from xadmin.views.detail import DetailAdminUtil
-
 from .base import ModelAdminView, filter_hook, csrf_protect_m
-
 
 FORMFIELD_FOR_DBFIELD_DEFAULTS = {
     models.DateTimeField: {

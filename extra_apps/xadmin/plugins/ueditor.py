@@ -2,11 +2,12 @@
 
 __author__ = 'bobby'
 
+from django.conf import settings
+
 import xadmin
-from xadmin.views import BaseAdminPlugin, CreateAdminView, ModelFormAdminView, UpdateAdminView
 from DjangoUeditor.models import UEditorField
 from DjangoUeditor.widgets import UEditorWidget
-from django.conf import settings
+from xadmin.views import BaseAdminPlugin, CreateAdminView, UpdateAdminView
 
 
 class XadminUEditorWidget(UEditorWidget):

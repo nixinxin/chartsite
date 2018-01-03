@@ -64,7 +64,7 @@
 		diameter = dialRadius * 2,
 		duration = transitionSupported ? 350 : 1;
 
-	// Popover templates
+	// Popover template
 	var tpl = [
 		'<div class="popover clockpicker-popover">',
 			'<div class="arrow"></div>',

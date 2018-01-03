@@ -3,12 +3,12 @@ Created on Mar 26, 2014
 
 @author: LAB_ADM
 '''
-from future.utils import iteritems
-from django.utils import six
 from django.utils.translation import ugettext_lazy as _
-from xadmin.filters import manager,MultiSelectFieldListFilter
+
+from xadmin.filters import manager, MultiSelectFieldListFilter
 from xadmin.plugins.filters import *
 from xadmin.util import is_related_field
+
 
 @manager.register
 class QuickFilterMultiSelectFieldListFilter(MultiSelectFieldListFilter):

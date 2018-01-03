@@ -1,7 +1,6 @@
 # coding:utf-8
 from itertools import chain
 
-import xadmin
 from django import forms
 from django.db.models import ManyToManyField
 from django.forms.utils import flatatt
@@ -9,6 +8,8 @@ from django.template import loader
 from django.utils.encoding import force_text
 from django.utils.html import escape, conditional_escape
 from django.utils.safestring import mark_safe
+
+import xadmin
 from xadmin.util import vendor, DJANGO_11
 from xadmin.views import BaseAdminPlugin, ModelFormAdminView
 

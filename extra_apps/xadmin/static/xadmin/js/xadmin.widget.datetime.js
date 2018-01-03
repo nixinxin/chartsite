@@ -28,6 +28,18 @@
         return result;
     }
 
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
+    // noinspection Annotator
     $.date_local = {
       days: gettext("Sunday Monday Tuesday Wednesday Thursday Friday Saturday Sunday").split(' '),
       daysShort: gettext("Sun Mon Tue Wed Thu Fri Sat Sun").split(' '),

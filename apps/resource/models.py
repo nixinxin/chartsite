@@ -915,7 +915,7 @@ class ZwwzfbDb(models.Model):
     """
     title = models.CharField(max_length=50, blank=True, null=True, db_column='标题', verbose_name='标题')
     category = models.CharField(max_length=30, blank=True, null=True, db_column='种类', verbose_name='种类')
-    path = models.CharField(max_length=80, blank=True, null=True, db_column='路径', verbose_name='路径')
+    path = models.ImageField(max_length=80, blank=True, null=True, db_column='路径', verbose_name='路径')
 
     class Meta:
         db_table = '作物物种分布数据库'

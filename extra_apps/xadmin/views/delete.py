@@ -60,7 +60,7 @@ class DeleteAdminView(ModelAdminView):
     @filter_hook
     def delete_model(self):
         """
-        Given a model instance delete it from the database.
+        Given a model instance delete it from the ETL.
         """
         self.log('delete', '', self.obj)
         self.obj.delete()
