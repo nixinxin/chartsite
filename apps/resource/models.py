@@ -9650,3 +9650,14 @@ class longshelanma(models.Model):
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
+
+class ZwyczytxpjjdDbList(models.Model):
+
+    title = models.CharField(max_length=20, blank=False, null=False, db_column='标题', verbose_name='标题')
+    table = models.CharField(max_length=60, blank=False, null=False, db_column='表名', verbose_name='表名')
+    model = models.CharField(max_length=60, blank=False, null=False, db_column='模型', verbose_name='模型')
+
+    class Meta:
+        db_table = '作物遗传资源特性评价鉴定数据库列表'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name

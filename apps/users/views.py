@@ -308,8 +308,6 @@ class UserViewset(CreateModelMixin, mixins.RetrieveModelMixin, mixins.UpdateMode
         response.set_cookie("token", re_dict['token'], expires=datetime.now() + timedelta(days=1))
         return response
 
-
-
     # 重载获取用户model的实例
     def get_object(self):
         return self.request.user

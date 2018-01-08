@@ -1,0 +1,19 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+
+
+{% endblock %}
+{% block content %}
+    <div class="container web-body" style="width: 100%; height: 95%;margin-top: 60px">
+        <iframe src="" width="100%" height="100%"  frameborder="0"></iframe>
+    </div>
+
+{% endblock %}
+{% block foot %}
+    <script>
+        let title = window.location.search.split("=")[1];
+        $("iframe").attr("src", "/media/html/"+ title +".html")
+    </script>
+{% endblock %}

@@ -402,6 +402,22 @@ class YouYuMiserializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class ZwyczytxpjjdDbserializer(serializers.ModelSerializer):
+    """
+    作物遗传资源特性评价鉴定数据库_**
+    """
+    title = serializers.CharField(max_length=20, min_length=1, allow_blank=False, required=True)
+
+    def validate_title(self, title):
+        exists = ZwyczytxpjjdDbList.objects.filter(title=title)
+        if not exists:
+            return serializers.ValidationError("查询内容不存在")
+        return title
+
+    class Meta:
+        model = ZwyczytxpjjdDbList
+        fields = ("title", )
+
 
 
 

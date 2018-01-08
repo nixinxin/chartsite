@@ -188,6 +188,9 @@ router.register(r'Youdamai', YoudamaiViewSet, base_name='Youdamai')
 # 优异资源综合评价数据库_玉米
 router.register(r'YouYuMi', YouYuMiViewSet, base_name='YouYuMi')
 
+# 优异资源综合评价数据库列表
+router.register(r'ZwyczytxpjjdDbList', ZwyczytxpjjdDbListViewSet, base_name='ZwyczytxpjjdDbList')
+
 
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
@@ -228,7 +231,7 @@ urlpatterns = [
     url(r'^resource/$', ResourceView.as_view(), name='resource'),
     url(r'^visual/$', VisualView.as_view(), name='visual'),
     url(r'^chart/$', ChartView.as_view(), name='chart'),
-    url(r'^chart/$', ChartView.as_view(), name='chart'),
+    url(r'^csvhtml/$', CsvHtmlView.as_view(), name='csvhtml'),
 
     url(r'^captcha/', include('captcha.urls')),
     url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),
