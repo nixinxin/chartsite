@@ -148,7 +148,6 @@ class ZgnyyhswDbTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
 
-
 class ZgnttdzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:

@@ -1172,7 +1172,7 @@ class SdycpzjqpxDb(models.Model):
 
     class Meta:
         db_table = '水稻育成品种及其系谱数据库'
-        unique_together = (('totalcode', 'name'),)
+        unique_together = (('total_id', 'name'),)
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
