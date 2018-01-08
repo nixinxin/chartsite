@@ -1,570 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/apps/resource/models.py" description="class MytxDb(models.Model):&#10;    &quot;&quot;&quot;&#10;    农作物名优特新品种数..." line="159" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0007_auto_20180102_1314.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/主要农作物/中国主要农作物种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/主要农作物/中国主要农作物种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/亚洲棉/中国亚洲棉种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/亚洲棉/中国亚洲棉种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/亚麻/中国亚麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/亚麻/中国亚麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/冬小麦/中国冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/冬小麦/中国冬小麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/冬瓜/中国冬瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/冬瓜/中国冬瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/利马豆/中国利马豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/利马豆/中国利马豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/半野生大麦/中国半野生大麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/半野生大麦/中国半野生大麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/半马齿玉米/中国半马齿玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/半马齿玉米/中国半马齿玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/南瓜/中国南瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/南瓜/中国南瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/叶用芥菜/中国叶用芥菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/叶用芥菜/中国叶用芥菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/叶用莴苣/中国叶用莴苣种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/叶用莴苣/中国叶用莴苣种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/向日葵/中国向日葵种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/向日葵/中国向日葵种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/夏大豆/中国夏大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/夏大豆/中国夏大豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/多花菜豆/中国多花菜豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/多花菜豆/中国多花菜豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大白菜/中国大白菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大白菜/中国大白菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大葱/中国大葱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大葱/中国大葱种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大豆/中国大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大豆/中国大豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大麻/中国大麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/大麻/中国大麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小扁豆/中国小扁豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小扁豆/中国小扁豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小豆/中国小豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小豆/中国小豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小麦/中国小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小麦/中国小麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小麦稀有/中国小麦稀有种种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/小麦稀有/中国小麦稀有种种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/山楂/中国山楂种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/山楂/中国山楂种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/工艺用高粱/中国工艺用高粱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/工艺用高粱/中国工艺用高粱种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/弱冬小麦/中国弱冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/弱冬小麦/中国弱冬小麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/强冬小麦/中国强冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/强冬小麦/中国强冬小麦种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/扁豆/中国扁豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/扁豆/中国扁豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/春大豆/中国春大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/春大豆/中国春大豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/春小麦/中国春小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/春小麦/中国春小麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通白菜/中国普通白菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通白菜/中国普通白菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通菜豆/中国普通菜豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通菜豆/中国普通菜豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通野生稻/中国普通野生稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/普通野生稻/中国普通野生稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/杏/中国杏种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/杏/中国杏种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/果树/中国果树种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/果树/中国果树种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/枣/中国枣种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/枣/中国枣种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/柑桔/中国柑桔种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/柑桔/中国柑桔种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/柿/中国柿种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/柿/中国柿种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/根用芥菜/中国根用芥菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/根用芥菜/中国根用芥菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/桃/中国桃种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/桃/中国桃种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/桑/中国桑种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/桑/中国桑种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/梨/中国梨种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/梨/中国梨种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/棉花/中国棉花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/棉花/中国棉花种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/水稻/中国水稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/水稻/中国水稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/水稻地方/中国水稻地方种种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/水稻地方/中国水稻地方种种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/油料作物/中国油料作物种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/油料作物/中国油料作物种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/油菜/中国油菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/油菜/中国油菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/海岛棉/中国海岛棉种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/海岛棉/中国海岛棉种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/满江红/中国满江红种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/满江红/中国满江红种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/烟草/中国烟草种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/烟草/中国烟草种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/燕麦/中国燕麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/燕麦/中国燕麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/牧草/中国牧草种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/牧草/中国牧草种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/玉米/中国玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/玉米/中国玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甘蓝型油菜/中国甘蓝型油菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甘蓝型油菜/中国甘蓝型油菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜瓜/中国甜瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜瓜/中国甜瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜荞/中国甜荞种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜荞/中国甜荞种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜菜/中国甜菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/甜菜/中国甜菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/疣粒野生稻/中国疣粒野生稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/疣粒野生稻/中国疣粒野生稻种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白玉米/中国白玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白玉米/中国白玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白菜/中国白菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白菜/中国白菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白菜型油菜/中国白菜型油菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白菜型油菜/中国白菜型油菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白谷子/中国白谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/白谷子/中国白谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/皮大麦/中国皮大麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/皮大麦/中国皮大麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/硬粒玉米/中国硬粒玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/硬粒玉米/中国硬粒玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/秋大豆/中国秋大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/秋大豆/中国秋大豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/笋瓜/中国笋瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/笋瓜/中国笋瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/籼稻/中国籼稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/籼稻/中国籼稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粮食作物/中国粮食作物种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粮食作物/中国粮食作物种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粳性谷子/中国粳性谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粳性谷子/中国粳性谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粳稻/中国粳稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/粳稻/中国粳稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糖用高粱/中国糖用高粱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糖用高粱/中国糖用高粱种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糯性谷子/中国糯性谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糯性谷子/中国糯性谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糯稻/中国糯稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/糯稻/中国糯稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红玉米/中国红玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红玉米/中国红玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红花/中国红花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红花/中国红花种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红谷子/中国红谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红谷子/中国红谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红麻/中国红麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/红麻/中国红麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/纤维作物/中国纤维作物种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/纤维作物/中国纤维作物种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/绿肥/中国绿肥种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/绿肥/中国绿肥种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/绿豆/中国绿豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/绿豆/中国绿豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/胡萝卜/中国胡萝卜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/胡萝卜/中国胡萝卜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芝麻/中国芝麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芝麻/中国芝麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芥菜/中国芥菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芥菜/中国芥菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芥菜型油菜/中国芥菜型油菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/芥菜型油菜/中国芥菜型油菜种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/花生/中国花生种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/花生/中国花生种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苎麻/中国苎麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苎麻/中国苎麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苏子/中国苏子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苏子/中国苏子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苦荞/中国苦荞种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苦荞/中国苦荞种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苹果/中国苹果种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/苹果/中国苹果种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茄子/中国茄子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茄子/中国茄子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茎用芥菜/中国茎用芥菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茎用芥菜/中国茎用芥菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茎用莴苣/中国茎用莴苣种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茎用莴苣/中国茎用莴苣种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茶/中国茶种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/茶/中国茶种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/荔枝/中国荔枝种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/荔枝/中国荔枝种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/荞麦/中国荞麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/荞麦/中国荞麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/药用野生稻/中国药用野生稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/药用野生稻/中国药用野生稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/莴苣/中国莴苣种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/莴苣/中国莴苣种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/菜薹/中国菜薹种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/菜薹/中国菜薹种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/菜豆/中国菜豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/菜豆/中国菜豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/萝卜/中国萝卜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/萝卜/中国萝卜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/蔬菜/中国蔬菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/蔬菜/中国蔬菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/薹菜/中国薹菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/薹菜/中国薹菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/蚕豆/中国蚕豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/蚕豆/中国蚕豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/裸大麦/中国裸大麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/裸大麦/中国裸大麦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/西瓜/中国西瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/西瓜/中国西瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/西葫芦/中国西葫芦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/西葫芦/中国西葫芦种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/谷子/中国谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/谷子/中国谷子种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/豇豆/中国豇豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/豇豆/中国豇豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/豌豆/中国豌豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/豌豆/中国豌豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/辣椒/中国辣椒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/辣椒/中国辣椒种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/野生大豆/中国野生大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/野生大豆/中国野生大豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/野生稻/中国野生稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/野生稻/中国野生稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/长豇豆/中国长豇豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/长豇豆/中国长豇豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/陆地棉/中国陆地棉种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/陆地棉/中国陆地棉种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/陆稻/中国陆稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/陆稻/中国陆稻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/韭菜/中国韭菜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/韭菜/中国韭菜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/食用高粱/中国食用高粱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/食用高粱/中国食用高粱种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/饭豆/中国饭豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/饭豆/中国饭豆种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/香蕉/中国香蕉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/香蕉/中国香蕉种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/马铃薯/中国马铃薯种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/马铃薯/中国马铃薯种质资源密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/马齿玉米/中国马齿玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/马齿玉米/中国马齿玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/高粱/中国高粱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/高粱/中国高粱种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/鹰嘴豆/中国鹰嘴豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/鹰嘴豆/中国鹰嘴豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄玉米/中国黄玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄玉米/中国黄玉米种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄瓜/中国黄瓜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄瓜/中国黄瓜种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄谷子/中国黄谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄谷子/中国黄谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄麻/中国黄麻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黄麻/中国黄麻种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黍稷/中国黍稷种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黍稷/中国黍稷种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黎豆/中国黎豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黎豆/中国黎豆种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黑谷子/中国黑谷子种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物分布图/黑谷子/中国黑谷子种质资源密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/亚有限大豆/中国亚有限大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/亚油酸/中国大豆亚油酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/半直立/中国半直立大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/半蔓生/中国半蔓生大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/双色大豆/中国双色大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/夏大豆/中国夏大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/大粒/中国大豆大粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/大豆/中国大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/孢囊线虫病1号小种/中国大豆孢囊线虫病1号小种密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/孢囊线虫病3号小种/中国大豆孢囊线虫病3号小种密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/孢囊线虫病4号小种/中国大豆孢囊线虫病4号小种密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/小粒/中国大豆小粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/抗孢囊线虫病1号小种/中国大豆抗孢囊线虫病1号小种种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/抗孢囊线虫病3号小种/中国大豆抗孢囊线虫病3号小种种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/抗旱/中国大豆抗旱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/抗病毒病/中国大豆抗病毒病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/抗盐/中国大豆抗盐种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/无限大豆/中国无限大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/早熟/中国大豆早熟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/春大豆/中国春大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/有限大豆/中国有限大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/株高/中国大豆株高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/棕茸毛/中国大豆棕茸毛种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/油酸/中国大豆油酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/灰茸毛/中国大豆灰茸毛种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/生育期/中国大豆生育期密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/白花/中国大豆白花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/百粒重/中国大豆百粒重密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/直立/中国直立大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/矮秆/中国大豆矮秆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/硬脂酸/中国大豆硬脂酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/秋大豆/中国秋大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/紫花/中国大豆紫花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/绿大豆/中国绿大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/绿子叶/中国大豆绿子叶种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/脂肪/中国大豆脂肪密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/蔓生/中国蔓生大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/蛋白质/中国大豆蛋白质密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/褐大豆/中国褐大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/软脂酸/中国大豆软脂酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/选育单位/中国大豆选育单位地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高亚油酸/中国大豆高亚油酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高油酸/中国大豆高油酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高硬脂酸/中国大豆高硬脂酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高脂肪/中国大豆高脂肪种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高蛋白/中国大豆高蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/高软脂酸/中国大豆高软脂酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/黄大豆/中国黄大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/大豆/黑大豆/中国黑大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/全生育日数/中国小豆全生育日数密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/分枝数/中国小豆分枝数密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/半蔓生/中国小豆半蔓生种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/单株产量/中国小豆单株产量密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/单株荚数/中国小豆单株荚数密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/单荚粒数/中国小豆单荚粒数密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/多分枝/中国小豆多分枝种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/多粒/中国小豆多粒种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/多荚/中国小豆多荚种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/大粒/中国小豆大粒种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/小粒/中国小豆小粒种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/小豆/中国小豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/总淀粉/中国小豆总淀粉密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/早熟/中国小豆早熟种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/有限结荚习性/中国小豆有限结荚习性种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/株高/中国小豆株高密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/白小豆/中国白小豆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/百粒重/中国小豆百粒重密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/直立/中国小豆直立种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/直链淀粉/中国小豆直链淀粉密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/矮秆/中国小豆矮秆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/红小豆/中国红小豆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/绿小豆/中国绿小豆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/脂肪/中国小豆脂肪密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/花斑(纹)/中国花斑(纹)小豆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/荚长/中国小豆荚长密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/蔓生/中国小豆蔓生种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/蛋白质/中国小豆蛋白质密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/近球形/中国小豆近球形种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/长圆柱形/中国小豆长圆柱形种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/长荚/中国小豆长荚种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/高产/中国小豆高产种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/高淀粉/中国小豆高淀粉种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/高脂肪/中国小豆高脂肪种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/高蛋白/中国小豆高蛋白种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小豆/黄小豆/中国黄小豆种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/冬小麦/中国冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/千粒重/中国小麦千粒重密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/多粒/中国小麦多粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/大粒/中国小麦大粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/小麦/中国小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/弱冬小麦/中国弱冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/强冬小麦/中国强冬小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感叶锈病/中国小麦感叶锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感条锈病/中国小麦感条锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感白粉病/中国小麦感白粉病种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感秆锈病/中国小麦感秆锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感赤霉病/中国小麦感赤霉病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/感黄矮病/中国小麦感黄矮病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗叶锈病/中国小麦抗叶锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗旱/中国小麦抗旱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗条锈病/中国小麦抗条锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗白粉病/中国小麦抗白粉病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗秆锈病/中国小麦抗秆锈病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗赤霉病/中国小麦抗赤霉病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/抗黄矮病/中国小麦抗黄矮病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/早熟/中国小麦早熟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/春小麦/中国春小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/株高/中国小麦株高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/白粒/中国白粒小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/矮秆/中国小麦矮秆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/穗粒数/中国小麦穗粒数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/穗长/中国小麦穗长密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/粗蛋白/中国小麦粗蛋白密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/红粒/中国红粒小麦种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/赖氨酸/中国小麦赖氨酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/选育单位/中国小麦选育单位地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/长穗/中国小麦长穗种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/高蛋白/中国小麦高蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/小麦/高赖氨酸/中国小麦高赖氨酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/亚洲棉/中国亚洲棉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/单株铃数/中国棉花单株铃数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/多果枝/中国棉花多果枝种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/大铃/中国棉花大铃种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/子指/中国棉花子指密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/抗枯萎病/中国棉花抗枯萎病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/抗棉铃虫/中国棉花抗棉铃虫种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/抗黄矮病/中国棉花抗黄矮病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/早熟/中国棉花早熟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/有色棉/中国有色棉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/果枝数/中国棉花果枝数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/株高/中国棉花株高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/棉花/中国棉花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/比强度/中国棉花比强度密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/海岛棉/中国海岛棉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/生育期/中国棉花生育期密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/矮秆/中国棉花矮秆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/种仁脂肪/中国棉花种仁脂肪密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/种仁蛋白/中国棉花种仁蛋白密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/耐旱/中国棉花耐旱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/耐盐/中国棉花耐盐种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/衣分/中国棉花衣分密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/跨长/中国棉花跨长密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/选育单位/中国棉花选育单位地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/铃重/中国棉花铃重密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/长跨长/中国棉花长跨长种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/陆地棉/中国陆地棉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高子指/中国棉花高子指种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高比强度/中国棉花高比强度种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高种仁脂肪/中国棉花高种仁脂肪种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高种仁蛋白/中国棉花高种仁蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高衣分/中国棉花高衣分种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/高麦克隆值/中国棉花高麦克隆值种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/棉花/麦克隆值/中国棉花麦克隆值密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/低直链淀粉/中国水稻低直链淀粉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/低糊化温度/中国水稻低糊化温度种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/总淀粉/中国水稻总淀粉密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/抗白叶枯病/中国水稻抗白叶枯病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/抗白背飞虱/中国水稻抗白背飞虱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/抗苗瘟/中国水稻抗苗瘟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/抗褐稻虱/中国水稻抗褐稻虱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/株高/中国水稻株高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/水稻/中国水稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/水稻地方种/中国水稻地方种资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/特长粒/中国特长粒水稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/直链淀粉/中国水稻直链淀粉密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/短粒/中国短粒水稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/矮秆/中国水稻矮秆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/籼稻/中国籼稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/粗蛋白/中国水稻粗蛋白密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/粘稻/中国粘稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/粳稻/中国粳稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/精米率/中国水稻精米率密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/糊化温度/中国水稻糊化温度密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/糙米率/中国水稻糙米率密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/糯稻/中国糯稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/紫米/中国水稻紫米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/红米/中国水稻红米种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/胶稠度/中国水稻胶稠度密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/苗期耐旱/中国水稻苗期耐旱种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/赖氨酸/中国水稻赖氨酸密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/长粒/中国长粒水稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/陆稻/中国陆稻种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高直链淀粉/中国水稻高直链淀粉种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高精米率/中国水稻高精米率种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高糊化温度/中国水稻高糊化温度种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高糙米率/中国水稻高糙米率种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高蛋白/中国水稻高蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/水稻/高赖氨酸/中国水稻高赖氨酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/千粒重/中国玉米千粒重密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/半马齿玉米/中国半马齿玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/叶片数/中国玉米叶片数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/多穗/中国玉米多穗种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/多穗行/中国玉米多穗行种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/大粒/中国玉米大粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/少叶片/中国玉米少叶片种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/抗丝黑穗病/中国玉米抗丝黑穗病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/抗大斑病/中国玉米抗大斑病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/抗小斑病/中国玉米抗小斑病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/抗矮花叶病/中国玉米抗矮花叶病种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/早熟/中国玉米早熟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/株高/中国玉米株高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/爆粒玉米/中国爆粒玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/玉米/中国玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/甜玉米/中国甜玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/生育日数/中国玉米生育日数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/白玉米/中国白玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/矮秆/中国玉米矮秆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/硬粒玉米/中国硬粒玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/穗位高/中国玉米穗位高密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/穗粗/中国玉米穗粗密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/穗行数/中国玉米穗行数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/穗长/中国玉米穗长密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/粗总淀粉/中国玉米粗总淀粉密度分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/粗脂肪/中国玉米粗脂肪密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/粗蛋白/中国玉米粗蛋白密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/糯玉米/中国糯玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/紫玉米/中国紫玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/红玉米/中国红玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/自交系/中国玉米自交系资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/长穗/中国玉米长穗种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/马齿玉米/中国马齿玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/高总淀粉/中国玉米高总淀粉种质资源地理分布图.gif.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/高脂肪/中国玉米高脂肪种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/高蛋白/中国玉米高蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/高赖氨酸/中国玉米高赖氨酸种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/黄玉米/中国黄玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/玉米/黑玉米/中国黑玉米种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/中粒/中国野生大豆中粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/大粒/中国野生大豆大粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/小粒/中国野生大豆小粒种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/无泥膜/中国野生大豆无泥膜种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/早熟/中国野生大豆早熟种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/灰茸毛/中国野生大豆灰茸毛种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/生育日数/中国野生大豆生育日数密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/白花/中国野生大豆白花种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/百粒重/中国野生大豆百粒重密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/脂肪/中国野生大豆脂肪密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/蛋白质/中国野生大豆蛋白质密度分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/野生大豆/中国野生大豆种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/高脂肪/中国野生大豆高脂肪种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/agridata/images/作物物种分布数据库/作物特性分布图/野生大豆/高蛋白/中国野生大豆高蛋白种质资源地理分布图.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/chart/chart1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/resource/data1.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/adminx.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/apps.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/apps.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/en/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/eu/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/ja/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/lt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/lt/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/pl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/comments.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/comments.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/layout.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/layout.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickfilter.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/quickfilter.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relate.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/relate.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/css/xadmin.form.css" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/css/xadmin.form.css" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.formset.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.formset.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.responsive.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.responsive.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.widget.datetime.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.widget.datetime.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.js" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.js" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/form.html" afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/form.html" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/invalid_setup.html" afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/invalid_setup.html" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_form.html" afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_form.html" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_history.html" afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_history.html" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/delete.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/delete.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" />
-      <change beforePath="$PROJECT_DIR$/migrations/chart/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/chart/0002_auto_20171207_1445.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/chart/0003_auto_20171218_1449.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/operations/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/operations/0002_auto_20171208_1158.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/operations/0003_auto_20171208_1438.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/operations/0004_chartcomments_usermessage.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/operations/0005_auto_20171218_1506.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/others/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/others/0002_relatedsite.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/others/0003_auto_20171207_1416.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/others/0004_auto_20171208_1005.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/resource/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/resource/0002_auto_20171206_2209.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/resource/0003_auto_20171207_1131.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0002_emailcode_imagecode_phonecode.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0003_auto_20171218_1449.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0004_userprofile_desc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0005_auto_20171218_1522.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/migrations/users/0006_auto_20171218_1707.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/chart.html" afterPath="$PROJECT_DIR$/templates/chart.html" />
-      <change beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/serializers.py" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" afterPath="$PROJECT_DIR$/templates/test.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -583,11 +31,39 @@
     <SUITE FILE_PATH="coverage/chartsite$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1511528146068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chartsite$.coverage" NAME="作物物种分布数据库 Coverage Results" MODIFIED="1514870147249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data_to_mysql/insert_into" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="632" column="0" lean-forward="false" selection-start-line="632" selection-start-column="0" selection-end-line="632" selection-end-column="0" />
+              <folding>
+                <element signature="e#1305#1892#0" expanded="false" />
+                <element signature="e#2025#2517#0" expanded="false" />
+                <element signature="e#2645#3040#0" expanded="false" />
+                <element signature="e#3166#3534#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -651,9 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/js/register.js" />
-        <option value="H:/webstom/课程中心 - 汇智网.html" />
-        <option value="$PROJECT_DIR$/static/js/index.js" />
         <option value="$PROJECT_DIR$/static/js/personal.js" />
         <option value="$PROJECT_DIR$/static/js/courseMap.min.js" />
         <option value="$PROJECT_DIR$/templates/resource.html" />
@@ -683,8 +156,6 @@
         <option value="$PROJECT_DIR$/apps/resource/apps.py" />
         <option value="$PROJECT_DIR$/chartsite/settings.py" />
         <option value="$PROJECT_DIR$/apps/resource/filter.py" />
-        <option value="$PROJECT_DIR$/apps/resource/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/resource/views.py" />
         <option value="$PROJECT_DIR$/apps/users/tests.py" />
         <option value="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -692,16 +163,21 @@
         <option value="$PROJECT_DIR$/templates/service.html" />
         <option value="$PROJECT_DIR$/templates/share.html" />
         <option value="$PROJECT_DIR$/templates/visual.html" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
-        <option value="$PROJECT_DIR$/chartsite/urls.py" />
         <option value="$PROJECT_DIR$/static/js/custom/chart1.js" />
         <option value="$PROJECT_DIR$/templates/base/base.html" />
         <option value="$PROJECT_DIR$/apps/resource/adminx.py" />
         <option value="C:/Program Files/Python35/Lib/gettext.py" />
         <option value="$PROJECT_DIR$/static/chart/chart1.js" />
         <option value="$PROJECT_DIR$/templates/chart.html" />
-        <option value="$PROJECT_DIR$/apps/resource/models.py" />
         <option value="$PROJECT_DIR$/../data_to_mysql/insert_into/作物物种分布数据库.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/templates/resource/visual.html" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/templates/resource/data1.html" />
+        <option value="$PROJECT_DIR$/chartsite/urls.py" />
+        <option value="$PROJECT_DIR$/apps/resource/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/resource/models.py" />
+        <option value="$PROJECT_DIR$/apps/resource/views.py" />
       </list>
     </option>
   </component>
@@ -711,11 +187,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="321" />
-    <option name="y" value="101" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1041" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -776,12 +251,53 @@
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="cover" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -800,19 +316,19 @@
     <property name="SearchEverywhereHistoryKey" value="JSONWebTokenAuthentication&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\pycharm\chartsite\media\agridata\images\作物物种分布数据库" />
-      <recent name="H:\pycharm\chartsite\extra_apps" />
-      <recent name="H:\pycharm\chartsite\static\js" />
-      <recent name="H:\pycharm\chartsite\templates" />
-      <recent name="H:\pycharm\chartsite\static\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\pycharm\chartsite\apps" />
       <recent name="H:\pycharm\chartsite" />
       <recent name="H:\pycharm\chartsite\apps\resource" />
       <recent name="H:\pycharm\chartsite\apps\users\migback" />
       <recent name="H:\pycharm\chartsite\static\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\pycharm\chartsite\templates\resource" />
+      <recent name="H:\pycharm\chartsite\media\agridata\images\作物物种分布数据库" />
+      <recent name="H:\pycharm\chartsite\extra_apps" />
+      <recent name="H:\pycharm\chartsite\static\js" />
+      <recent name="H:\pycharm\chartsite\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -827,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.作物物种分布数据库">
+  <component name="RunManager" selected="Django server.chartsite">
     <configuration name="chartsite JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" uri="http://http:/127.0.0.1/index">
       <mapping url="http://http:/127.0.0.1/index" local-file="$PROJECT_DIR$" />
       <mapping url="http:///media" local-file="$PROJECT_DIR$/media" />
@@ -1255,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514868643287</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="echart">
+      <created>1514979068240</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1514979068240</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1268,29 +791,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="101" width="974" height="1041" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182845" sideWeight="0.24919923" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59956235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4604966" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59808105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4650113" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2054176" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35448578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58435756" sideWeight="0.7508008" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27709496" sideWeight="0.7508008" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939052" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1403,6 +926,11 @@
           <line>38</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/resource/data1.html</url>
+          <line>1</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1414,32 +942,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="179" />
+      <option name="time" value="183" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/others/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/chart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chartsite/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1472,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chartsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3648">
@@ -1486,11 +986,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/005YoofRjw8eo5wg9denjg302s02swef.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/005YoofRjw8eo5wg9denjg302s02swef.gif" />
     <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework_jwt/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
@@ -1568,20 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/loadIframeScripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1600,20 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1680,20 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/visual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="104" lean-forward="false" selection-start-line="35" selection-start-column="104" selection-end-line="35" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/share.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1719,17 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="488" column="29" lean-forward="true" selection-start-line="488" selection-start-column="29" selection-end-line="488" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#436#485#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1747,11 +1190,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="100" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="165" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/visual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="2985" column="8" lean-forward="false" selection-start-line="2985" selection-start-column="8" selection-end-line="2985" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="449" column="44" lean-forward="false" selection-start-line="449" selection-start-column="44" selection-end-line="449" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/resource/data1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework_extensions/cache/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="e#2315#3941#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="920" column="30" lean-forward="true" selection-start-line="920" selection-start-column="30" selection-end-line="920" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="-156362">
+          <caret line="1347" column="10" lean-forward="false" selection-start-line="1347" selection-start-column="4" selection-end-line="1347" selection-end-column="18" />
+          <folding>
+            <element signature="e#128#1556#0" expanded="false" />
+            <element signature="e#1597#3748#0" expanded="false" />
+            <element signature="e#3785#5005#0" expanded="false" />
+            <element signature="e#5041#5765#0" expanded="false" />
+            <element signature="e#5807#6963#0" expanded="false" />
+            <element signature="e#7001#7618#0" expanded="false" />
+            <element signature="e#91319#96083#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
+          <folding>
+            <element signature="e#826#917#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="632" column="0" lean-forward="false" selection-start-line="632" selection-start-column="0" selection-end-line="632" selection-end-column="0" />
+          <folding>
+            <element signature="e#1305#1892#0" expanded="false" />
+            <element signature="e#2025#2517#0" expanded="false" />
+            <element signature="e#2645#3040#0" expanded="false" />
+            <element signature="e#3166#3534#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

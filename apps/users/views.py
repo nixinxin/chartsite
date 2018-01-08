@@ -443,3 +443,8 @@ class ChartView(View):
 class TemplateViews(View):
     def get(self, request):
         return render(request, "test.html")
+
+
+class Data1Views(View):
+    def get(self, request):
+        return render(request, "resource/data1.html")

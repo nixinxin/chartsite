@@ -882,7 +882,6 @@ class ZgzynywhYc(models.Model):
     datetime = models.CharField(max_length=20, blank=True, null=True, db_column='日期', verbose_name='日期')
 
     class Meta:
-
         db_table = '中国重要农业文化遗产'
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1127,7 +1126,7 @@ class SdycpzjqpxDb(models.Model):
     水稻育成品种及其系谱数据库
     """
     kucode = models.CharField(max_length=10, blank=True, null=True, db_column='库编号', verbose_name='库编号')
-    totalcode = models.CharField(primary_key=True, max_length=10, db_column='统一编号', verbose_name='统一编号')
+    total_id = models.CharField(primary_key=True, max_length=10, db_column='统一编号', verbose_name='统一编号')
     name = models.CharField(max_length=40, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     translanted_name = models.CharField(max_length=40, blank=True, null=True, db_column='译名', verbose_name='译名')
     ke = models.CharField(max_length=30, blank=True, null=True, db_column='科', verbose_name='科')
@@ -1289,6 +1288,9 @@ class ZwyyzyzzDb(models.Model):
 
 
 class Youdamai(models.Model):
+    """
+    优异资源综合评价数据库_大麦
+    """
     id = models.IntegerField(primary_key=True)
     hdhlz = models.CharField(max_length=30, blank=True, null=True, db_column='邯郸穗粒重', verbose_name='邯郸穗粒重')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1342,6 +1344,9 @@ class Youdamai(models.Model):
 
 
 class YouYuMi(models.Model):
+    """
+    优异资源综合评价数据库_玉米
+    """
     id = models.IntegerField(primary_key=True)
     chdusuwega = models.CharField(max_length=30, blank=True, null=True, db_column='成都穗位高', verbose_name='成都穗位高')
     nifetusish = models.CharField(max_length=30, blank=True, null=True, db_column='年份吐丝数', verbose_name='年份吐丝数')

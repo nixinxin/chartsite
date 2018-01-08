@@ -62,6 +62,21 @@ router.register(r'verify', ImageCodeVerifyViewset, base_name='verify')
 # 数据资源列表
 router.register(r'resourceList', ResourceListViewSet, base_name='resourceList')
 
+# 国外引进作物种质资源数据库
+router.register(r'GwyjzwzzzyDb', GwyjzwzzzyDbListViewSet, base_name='GwyjzwzzzyDb')
+
+# 农产品价格行情数据库
+router.register(r'NcpjgDb', NcpjgDbListViewSet, base_name='NcpjgDb')
+
+# 农业统计指标
+router.register(r'AgriIndex', AgriIndexViewSet, base_name='AgriIndex')
+
+
+
+
+
+
+
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
@@ -100,6 +115,7 @@ urlpatterns = [
     url(r'^invite/$', InviteView.as_view(), name='invite'),
     url(r'^resource/$', ResourceView.as_view(), name='resource'),
     url(r'^visual/$', VisualView.as_view(), name='visual'),
+    url(r'^chart/$', ChartView.as_view(), name='chart'),
     url(r'^chart/$', ChartView.as_view(), name='chart'),
 
     url(r'^captcha/', include('captcha.urls')),
