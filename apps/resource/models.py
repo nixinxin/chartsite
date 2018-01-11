@@ -3044,7 +3044,7 @@ class xiaomai(models.Model):
     fenili = models.CharField(max_length=30, blank=True, null=True, db_column='分蘖力', verbose_name='分蘖力')
     miwe = models.CharField(max_length=30, blank=True, null=True, db_column='苗瘟', verbose_name='苗瘟')
     yomiqise = models.CharField(max_length=30, blank=True, null=True, db_column='幼苗鞘色', verbose_name='幼苗鞘色')
-    layudi = models.CharField(max_length=255, blank=True, null=True, db_column='来源地', verbose_name='来源地')
+    layudi = models.CharField(max_length=256, blank=True, null=True, db_column='来源地', verbose_name='来源地')
     balilv = models.CharField(max_length=30, blank=True, null=True, db_column='爆裂率', verbose_name='爆裂率')
     balizh = models.CharField(max_length=30, blank=True, null=True, db_column='百粒重', verbose_name='百粒重')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -9659,5 +9659,258 @@ class ZwyczytxpjjdDbList(models.Model):
 
     class Meta:
         db_table = '作物遗传资源特性评价鉴定数据库列表'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class GjnykyhzxmDb(models.Model):
+    """
+    国际农业科研项目数据库
+    """
+    title = models.CharField(max_length=256, blank=False, null=False, db_column='项目名称', verbose_name='项目名称')
+    desc = models.TextField(db_column='项目简介', verbose_name='项目简介')
+    unit = models.CharField(max_length=256, blank=False, null=False, db_column='承担机构', verbose_name='承担机构')
+    keywords = models.CharField(max_length=128, db_column='关键词', verbose_name='关键词')
+    advance = models.TextField(db_column='研究进展', verbose_name='研究进展')
+    resource = models.CharField(max_length=64, db_column='项目来源', verbose_name='项目来源')
+    organization = models.CharField(max_length=	128, db_column='资助机构', verbose_name='资助机构')
+    member = models.TextField(db_column='项目成员', verbose_name='项目成员')
+    period = models.CharField(max_length=32, db_column='起止时间', verbose_name='起止时间')
+    category = models.CharField(max_length=256, db_column='专业分类', verbose_name='专业分类')
+
+    class Meta:
+        db_table = '国际农业科研项目数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class GnnykyhzxmDb(models.Model):
+    """
+    国内农业科技项目数据库
+    """
+    title = models.CharField(max_length=256, blank=False, null=False, db_column='项目名称', verbose_name='项目名称')
+    desc = models.TextField(db_column='项目简介', verbose_name='项目简介')
+    unit = models.CharField(max_length=256, blank=False, null=False, db_column='承担单位', verbose_name='承担单位')
+    member = models.CharField(max_length=64, db_column='研究人员', verbose_name='研究人员')
+    resource = models.CharField(max_length=128, db_column='项目来源', verbose_name='项目来源')
+    category = models.CharField(max_length=64, db_column='项目类型', verbose_name='项目类型')
+    fund = models.CharField(max_length=32, db_column='项目经费', verbose_name='项目经费')
+    start = models.CharField(max_length=10, db_column='开始时间', verbose_name='开始时间')
+    end = models.CharField(max_length=10, db_column='结束时间', verbose_name='结束时间')
+
+    class Meta:
+        db_table = '国内农业科技项目数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NyhjkjcgDb(models.Model):
+    """
+    农业获奖科技成果数据库
+    """
+    title = models.CharField(max_length=256, blank=False, null=False, db_column='成果名称', verbose_name='成果名称')
+    realizer = models.TextField(db_column='完成人', verbose_name='完成人')
+    unit = models.TextField(db_column='完成单位', verbose_name='完成单位')
+    keywords = models.CharField(max_length=128, db_column='关键词', verbose_name='关键词')
+    desc = models.TextField(db_column='简要技术说明', verbose_name='简要技术说明')
+    catergory = models.CharField(max_length=32, db_column='成果类别', verbose_name='成果类别')
+    reference = models.TextField(db_column='推荐单位', verbose_name='推荐单位')
+    location = models.CharField(max_length=32, db_column='奖励地区', verbose_name='奖励地区')
+    year = models.CharField(max_length=16, db_column='奖励年度', verbose_name='奖励年度')
+    name = models.CharField(max_length=32, db_column='奖励名称', verbose_name='奖励名称')
+    grade = models.CharField(max_length=32, db_column='奖励等级', verbose_name='奖励等级')
+    register = models.CharField(max_length=32, db_column='成果登记时间', verbose_name='成果登记时间')
+    setime = models.CharField(max_length=32, db_column='研究起止时间', verbose_name='研究起止时间')
+    cgtxxs = models.CharField(max_length=16, db_column='成果体现形式', verbose_name='成果体现形式')
+    cgscjd = models.CharField(max_length=16, db_column='成果所处阶段', verbose_name='成果所处阶段')
+    cgsx = models.CharField(max_length=16, db_column='成果属性', verbose_name='成果属性')
+    cgsp = models.CharField(max_length=16, db_column='成果水平', verbose_name='成果水平')
+    yjxs = models.CharField(max_length=16, db_column='研究形式', verbose_name='研究形式')
+    ztfl = models.CharField(max_length=32, db_column='中图分类', verbose_name='中图分类')
+    ktly = models.CharField(max_length=16, db_column='课题来源', verbose_name='课题来源')
+    ktlxmc = models.CharField(max_length=128, db_column='课题立项名称', verbose_name='课题立项名称')
+    ktlxbh = models.CharField(max_length=32, db_column='课题立项编号', verbose_name='课题立项编号')
+    jftr = models.CharField(max_length=16, db_column='经费实际投入额（万元）', verbose_name='经费实际投入额')
+    pjfs = models.CharField(max_length=16, db_column='评价方式', verbose_name='评价方式')
+    pjdw = models.CharField(max_length=64, db_column='评价单位', verbose_name='评价单位')
+    pjrq = models.CharField(max_length=32, db_column='评价日期', verbose_name='评价日期')
+    zscqxs = models.CharField(max_length=16, db_column='知识产权形式', verbose_name='研究形式')
+    yyzt = models.CharField(max_length=16, db_column='应用状态', verbose_name='应用状态')
+    zrfw = models.CharField(max_length=16, db_column='转让范围', verbose_name='转让范围')
+    tgyys = models.CharField(max_length=16, db_column='推广形式', verbose_name='推广形式')
+    lxr = models.CharField(max_length=32, db_column='联系人', verbose_name='联系人')
+    phone = models.CharField(max_length=64, db_column='联系人电话', verbose_name='联系人电话')
+    email = models.CharField(max_length=256, db_column='联系人email', verbose_name='联系人email')
+    address = models.CharField(max_length=512, db_column='单位通讯地址', verbose_name='单位通讯地址')
+    postcode = models.CharField(max_length=6, db_column='邮政编码', verbose_name='邮政编码')
+    unitphone = models.CharField(max_length=64, db_column='单位电话', verbose_name='单位电话')
+    unitfax = models.CharField(max_length=64, db_column='单位传真', verbose_name='单位传真')
+    unitnet = models.URLField(max_length=128, db_column='单位网址', verbose_name='单位网址')
+    cooperator = models.TextField(db_column='合作完成单位', verbose_name='合作完成单位')
+
+    class Meta:
+        db_table = '农业获奖科技成果数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NykjrcDb(models.Model):
+    """
+    农业科技人才数据库
+    """
+    name = models.CharField(max_length=32, blank=False, null=False, db_column='姓名', verbose_name='姓名')
+    gender = models.CharField(max_length=2, db_column='性别', verbose_name='性别')
+    birthday = models.CharField(max_length=32, db_column='出生日期', verbose_name='出生日期')
+    education = models.CharField(max_length=32, db_column='学历', verbose_name='学历')
+    jobtitle = models.CharField(max_length=32, db_column='职称', verbose_name='职称')
+    duty = models.CharField(max_length=256, db_column='职务', verbose_name='职务')
+    eduback = models.TextField(db_column='教育背景', verbose_name='教育背景')
+    direction = models.CharField(max_length=256, db_column='研究方向', verbose_name='研究方向')
+    field = models.CharField(max_length=256, db_column='专业领域', verbose_name='专业领域')
+    subject = models.CharField(max_length=64, db_column='学科分类', verbose_name='学科分类')
+    unit = models.CharField(max_length=256, db_column='工作单位', verbose_name='工作单位')
+    desc = models.TextField(db_column='本人简介', verbose_name='本人简介')
+    contri = models.TextField(db_column='主要成就', verbose_name='主要成就')
+    location = models.CharField(max_length=32, db_column='所在地区', verbose_name='所在地区')
+    unit_type = models.CharField(max_length=32, db_column='单位属性', verbose_name='单位属性')
+    unitaddress = models.CharField(max_length=256, db_column='单位地址', verbose_name='单位地址')
+    postcode = models.CharField(max_length=6, db_column='单位邮编', verbose_name='单位邮编')
+
+    class Meta:
+        db_table = '农业科技人才数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NykjjgDb(models.Model):
+    """
+    农业科技机构数据库
+    """
+    unitid = models.CharField(max_length=64, db_column='机构编号', verbose_name='机构编号')
+    gfmc = models.CharField(max_length=256, db_column='规范名称', verbose_name='规范名称')
+    ywmc = models.CharField(max_length=256, db_column='英文名称', verbose_name='英文名称')
+    qtmc = models.CharField(max_length=512, db_column='其他名称', verbose_name='其他名称')
+    clnf = models.CharField(max_length=32, db_column='成立年份', verbose_name='成立年份')
+    jglx = models.CharField(max_length=32, db_column='机构类型', verbose_name='机构类型')
+    szdq = models.CharField(max_length=256, db_column='所在地区', verbose_name='所在地区')
+    sjdw = models.CharField(max_length=256, db_column='上级单位', verbose_name='上级单位')
+    desc = models.TextField(db_column='机构简介', verbose_name='机构简介')
+    ywjs = models.TextField(db_column='英文简介', verbose_name='英文简介')
+    field = models.CharField(max_length=512, db_column='研究领域', verbose_name='研究领域')
+
+    xkfl = models.CharField(max_length=512, db_column='学科分类', verbose_name='学科分类')
+    rcdw = models.TextField(db_column='人才队伍', verbose_name='人才队伍')
+    jgsz = models.TextField(db_column='机构设置', verbose_name='机构设置')
+    kjpt = models.TextField(db_column='科技平台', verbose_name='科技平台')
+    zycg = models.TextField(db_column='主要成果', verbose_name='主要成果')
+    zbqk = models.TextField(db_column='主办期刊', verbose_name='主办期刊')
+    address = models.CharField(max_length=256, db_column='通讯地址', verbose_name='通讯地址')
+    postcode = models.CharField(max_length=6, db_column='邮政编码', verbose_name='邮政编码')
+    phone = models.CharField(max_length=256, db_column='联系电话', verbose_name='联系电话')
+    email = models.CharField(max_length=256, db_column='电子邮箱', verbose_name='电子邮箱')
+    fax = models.CharField(max_length=64, db_column='传真', verbose_name='传真')
+    net = models.CharField(max_length=256, db_column='网址', verbose_name='网址')
+
+    class Meta:
+        db_table = '农业科技机构数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class ZwkjwxDb(models.Model):
+    """
+    中文农业科技文摘数据库
+    """
+    title = models.CharField(max_length=256, db_column='题名', verbose_name='题名')
+    author = models.CharField(max_length=512, db_column='作者', verbose_name='作者')
+    unit = models.CharField(max_length=512, db_column='作者单位', verbose_name='作者单位')
+    qkname = models.CharField(max_length=128, db_column='期刊名称', verbose_name='期刊名称')
+    year = models.CharField(max_length=16, db_column='年份', verbose_name='年份')
+    juan = models.CharField(max_length=16, db_column='卷', verbose_name='卷')
+    qi = models.CharField(max_length=16, db_column='期', verbose_name='期')
+    page = models.CharField(max_length=16, db_column='页码', verbose_name='页码')
+    num = models.CharField(max_length=16, db_column='页数', verbose_name='页数')
+    keywords = models.CharField(max_length=512, db_column='关键词', verbose_name='关键词')
+    gntykh = models.CharField(max_length=32, db_column='国内统一刊号', verbose_name='国内统一刊号')
+    issn = models.CharField(max_length=32, db_column='ISSN', verbose_name='ISSN')
+    zwflh = models.CharField(max_length=32, db_column='中图分类号', verbose_name='中图分类号')
+    abstract = models.TextField(db_column='摘要', verbose_name='摘要')
+    ywname = models.CharField(max_length=512, db_column='英文题名', verbose_name='英文题名')
+    ywauthor = models.CharField(max_length=1024, db_column='英文作者', verbose_name='英文作者')
+    ywgjc = models.CharField(max_length=1024, db_column='英文关键词', verbose_name='英文关键词')
+    ywzy = models.TextField(db_column='英文摘要', verbose_name='英文摘要')
+    qkywname = models.CharField(max_length=512, db_column='期刊英文名称', verbose_name='期刊英文名称')
+    xmjjname = models.CharField(max_length=512, db_column='项目基金名称', verbose_name='项目基金名称')
+
+    class Meta:
+        db_table = '中文农业科技文摘数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+class YjnyDb(models.Model):
+    """
+    有机农业数据库
+    """
+    reportid = models.CharField(max_length=32, db_column='记录号', verbose_name='记录号')
+    title = models.CharField(max_length=256, db_column='题名', verbose_name='题名')
+    author = models.CharField(max_length=64, db_column='作者', verbose_name='作者')
+    keywords = models.CharField(max_length=256, db_column='关键词', verbose_name='关键词')
+    category = models.CharField(max_length=64, db_column='分类', verbose_name='分类')
+    infotype = models.CharField(max_length=16, db_column='信息类型', verbose_name='信息类型')
+    resource = models.CharField(max_length=128, db_column='信息来源', verbose_name='信息来源')
+    datetimes = models.CharField(max_length=32, db_column='出版日期', verbose_name='出版日期')
+    gslb = models.CharField(max_length=64, db_column='归属类别', verbose_name='归属类别')
+    zwflh = models.CharField(max_length=64, db_column='中图分类号', verbose_name='中图分类号')
+    szzdw = models.CharField(max_length=128, db_column='首作者单位', verbose_name='首作者单位')
+    content = models.TextField(db_column='正文', verbose_name='正文')
+
+    class Meta:
+        db_table = '有机农业数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NygjDb(models.Model):
+    """
+    农业古籍数据库
+    """
+    reportid = models.CharField(max_length=64, db_column='记录号', verbose_name='记录号')
+    category = models.CharField(max_length=64, db_column='分类', verbose_name='分类')
+    title = models.CharField(max_length=128, db_column='标题书名', verbose_name='标题书名')
+    author = models.CharField(max_length=64, db_column='作者', verbose_name='作者')
+    infotype = models.CharField(max_length=64, db_column='信息类型', verbose_name='信息类型')
+    resource = models.CharField(max_length=64, db_column='信息来源', verbose_name='信息来源')
+    datetimes = models.CharField(max_length=32, db_column='出版日期', verbose_name='出版日期')
+    publish = models.CharField(max_length=128, db_column='出版者', verbose_name='出版者')
+    cbd = models.CharField(max_length=64, db_column='出版地', verbose_name='出版地')
+    ztxt = models.CharField(max_length=64, db_column='载体形态', verbose_name='载体形态')
+    dlh = models.CharField(max_length=64, db_column='登录号', verbose_name='登录号')
+    keywords = models.CharField(max_length=128, db_column='关键词', verbose_name='关键词')
+    content = models.TextField(db_column='正文文摘', verbose_name='正文文摘')
+    fujian = models.CharField(max_length=256, db_column='附件', verbose_name='附件')
+
+    class Meta:
+        db_table = '农业古籍数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NybzhczgfDb(models.Model):
+    """
+    农业标准和操作规范数据库
+    """
+    bzid = models.CharField(max_length=32, db_column='标准编号', verbose_name='标准编号')
+    bzname = models.CharField(max_length=128, db_column='标准名称', verbose_name='标准名称')
+    fbrq = models.CharField(max_length=10, db_column='发布日期', verbose_name='发布日期')
+    ssrq = models.CharField(max_length=10, db_column='实施日期', verbose_name='实施日期')
+    bzlx = models.CharField(max_length=32, db_column='标准类型', verbose_name='标准类型')
+    fbdw = models.CharField(max_length=128, db_column='发布单位', verbose_name='发布单位')
+    qcdw = models.CharField(max_length=128, db_column='起草单位', verbose_name='起草单位')
+    qcr = models.CharField(max_length=128, db_column='起草人', verbose_name='起草人')
+    bzgs = models.TextField(db_column='标准概述（300字以内）', verbose_name='标准概述（300字以内）')
+    content = models.TextField(db_column='全文', verbose_name='全文')
+
+    class Meta:
+        db_table = '农业标准和操作规范数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name

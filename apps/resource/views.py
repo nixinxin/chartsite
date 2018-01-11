@@ -27,6 +27,11 @@ from rest_framework_extensions.cache.mixins import CacheResponseMixin
 # Create your views here.
 
 
+class CsvHtmlView(View):
+    def get(self, request):
+        return render(request, "csvhtml.html")
+
+
 class ChartdataPagination(PageNumberPagination):
     page_size = 1
     page_size_query_param = 'page_size'
@@ -114,7 +119,7 @@ class AgriIndexViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     list:
        农业统计指标列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = AgriIndex.objects.all().order_by('year')
+    queryset = AgriIndex.objects.all().order_by('id')
     serializer_class = AgriIndexserializer
     pagination_class = TwoPagination
 
@@ -157,7 +162,7 @@ class ZgnyyhswDbTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     list:
        中国农业有害生物图片数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgnyyhswDbTp.objects.all().order_by('name')
+    queryset = ZgnyyhswDbTp.objects.all().order_by('id')
     serializer_class = ZgnyyhswDbTpserializer
     pagination_class = TwoPagination
 
@@ -646,10 +651,10 @@ class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
 
-class ZwyczytxpjjdDbListViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
+class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
     """
     list:
-       优异资源综合评价数据库列表——列表数据,该注释直接会在docs文档中生成相关说明
+       优异资源综合评价数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
     queryset = ZwyczytxpjjdDbList.objects.all()
     serializer_class = ZwyczytxpjjdDbserializer
@@ -671,7 +676,109 @@ class ZwyczytxpjjdDbListViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet
         return HttpResponse(content=data, **header)
 
 
-class CsvHtmlView(View):
-    def get(self, request):
-        return render(request, "csvhtml.html")
+class GjnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       国际农业科研项目数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = GjnykyhzxmDb.objects.all().order_by('id')
+    serializer_class = GjnykyhzxmDbserializer
+    pagination_class = ChartdataPagination
 
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       国内农业科技项目数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = GnnykyhzxmDb.objects.all().order_by('id')
+    serializer_class = GnnykyhzxmDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NyhjkjcgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业获奖科技成果数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NyhjkjcgDb.objects.all().order_by('id')
+    serializer_class = NyhjkjcgDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NykjrcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业科技人才数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NykjrcDb.objects.all().order_by('id')
+    serializer_class = NykjrcDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NykjjgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业科技机构数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NykjjgDb.objects.all().order_by('id')
+    serializer_class = NykjjgDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class ZwkjwxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       中文农业科技文摘数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = ZwkjwxDb.objects.all().order_by('id')
+    serializer_class = ZwkjwxDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       有机农业数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = YjnyDb.objects.all().order_by('id')
+    serializer_class = YjnyDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业古籍数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NygjDb.objects.all().order_by('id')
+    serializer_class = NygjDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NybzhczgfDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业标准和操作规范数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NybzhczgfDb.objects.all().order_by('id')
+    serializer_class = NybzhczgfDbserializer
+    pagination_class = ChartdataPagination
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)

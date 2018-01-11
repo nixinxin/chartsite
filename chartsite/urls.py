@@ -192,6 +192,33 @@ router.register(r'YouYuMi', YouYuMiViewSet, base_name='YouYuMi')
 router.register(r'ZwyczytxpjjdDbList', ZwyczytxpjjdDbListViewSet, base_name='ZwyczytxpjjdDbList')
 
 
+# 国际农业科研项目数据库
+router.register(r'GjnykyhzxmDb', GjnykyhzxmDbViewSet, base_name='GjnykyhzxmDb')
+
+# 国内农业科技项目数据库
+router.register(r'GnnykyhzxmDb', GnnykyhzxmDbViewSet, base_name='GnnykyhzxmDb')
+
+# 农业获奖科技成果数据库
+router.register(r'NyhjkjcgDb', NyhjkjcgDbViewSet, base_name='NyhjkjcgDb')
+
+# 农业科技人才数据库
+router.register(r'NykjrcDb', NykjrcDbViewSet, base_name='NykjrcDb')
+
+# 农业科技机构数据库
+router.register(r'NykjjgDb', NykjjgDbViewSet, base_name='NykjjgDb')
+
+# 中文农业科技文摘数据库
+router.register(r'ZwkjwxDb', ZwkjwxDbViewSet, base_name='ZwkjwxDb')
+
+# 有机农业数据库
+router.register(r'YjnyDb', YjnyDbViewSet, base_name='YjnyDb')
+
+# 农业古籍数据库
+router.register(r'NygjDb', NygjDbViewSet, base_name='NygjDb')
+
+# 农业标准和操作规范数据库
+router.register(r'NybzhczgfDb', NybzhczgfDbViewSet, base_name='NybzhczgfDb')
+
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),

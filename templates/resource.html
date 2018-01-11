@@ -3,491 +3,243 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/courseMap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Site.css' %}">
+    <link rel="stylesheet" href="{% static 'css/SiteHome.css' %}">
     <script src="{% static 'js/share.js' %}" type="text/javascript"></script>
 
 
 {% endblock %}
 {% block content %}
-    <section id="menuNav">
-    <div class="container">
-        <div class="col-md-12">
-            <ul class="nav nav-tabs" role="tablist" style="display:none">
-                <li role="presentation" class="active">
-                    <a href="http://www.hubwiz.com/course/?type=all&amp;sort=1#course-list" role="tab" data-toggle="tab">
-                        <span class="glyphicon glyphicon-th"></span> 课程目录
-                    </a>
+    <div class="Box10 ClearFloat">
+
+        <div class="Box72 FloatLeft">
+        <h1 class="TitleContent">数据目录</h1>
+        <div class="LeftList">
+            <h2>
+                <span>农业科技统计数据库</span>
+            </h2>
+            <ul>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=0f00d72a-74f8-49f5-8e74-5ef43fc20724" target="_blank">国际农业科研项目数据库</a>
+                    <b id="b0f00d72a-74f8-49f5-8e74-5ef43fc20724"></b>
+                    <span id="span0f00d72a-74f8-49f5-8e74-5ef43fc20724">
+                        <a href="javascript:;" onclick="ADataCategory_Click('0f00d72a-74f8-49f5-8e74-5ef43fc20724')">收藏</a>
+                    </span>
                 </li>
-                <li role="presentation">
-                    <a id="navMap" href="http://www.hubwiz.com/course/?type=all&amp;sort=1#mapTab" role="tab" data-toggle="tab">
-                        <span class="glyphicon glyphicon-map-marker"></span> 知识体系
-                    </a>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=923053d9-1381-4c63-ae27-dd7b6c9e3181" target="_blank">国内农业科技项目数据库</a>
+                    <b id="b923053d9-1381-4c63-ae27-dd7b6c9e3181"></b>
+                    <span id="span923053d9-1381-4c63-ae27-dd7b6c9e3181">
+                        <a href="javascript:;" onclick="ADataCategory_Click('923053d9-1381-4c63-ae27-dd7b6c9e3181')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=c687c428-227e-48e4-9912-10962665c6b9" target="_blank">农业获奖科技成果数据库</a>
+                    <b id="bc687c428-227e-48e4-9912-10962665c6b9"></b>
+                    <span id="spanc687c428-227e-48e4-9912-10962665c6b9">
+                        <a href="javascript:;" onclick="ADataCategory_Click('c687c428-227e-48e4-9912-10962665c6b9')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a>
+                    <b id="be9bbd9ac-4ade-49d3-99bf-d4acd6566045"></b>
+                    <span id="spane9bbd9ac-4ade-49d3-99bf-d4acd6566045">
+                        <a href="javascript:;" onclick="ADataCategory_Click('e9bbd9ac-4ade-49d3-99bf-d4acd6566045')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a>
+                    <b id="b3d8af79e-d8ab-40ff-8f55-a1f11afad890"></b>
+                    <span id="span3d8af79e-d8ab-40ff-8f55-a1f11afad890">
+                        <a href="javascript:;" onclick="ADataCategory_Click('3d8af79e-d8ab-40ff-8f55-a1f11afad890')">收藏</a>
+                    </span>
                 </li>
             </ul>
+            <h2>
+                <span>农业科技信息资源库</span>
+            </h2>
+            <ul>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee" target="_blank">中文农业科技文摘数据库</a>
+                    <b id="bfbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee"></b>
+                    <span id="spanfbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee">
+                        <a href="javascript:;" onclick="ADataCategory_Click('fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=923d3242-2a3d-451f-88af-c4bd2c118651" target="_blank">外文农业科技文摘数据库</a>
+                    <b id="b923d3242-2a3d-451f-88af-c4bd2c118651"></b>
+                    <span id="span923d3242-2a3d-451f-88af-c4bd2c118651">
+                        <a href="javascript:;" onclick="ADataCategory_Click('923d3242-2a3d-451f-88af-c4bd2c118651')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=d8451520-be21-44f6-9675-42382c5b48c7" target="_blank">中国农业专利数据库</a>
+                    <b id="bd8451520-be21-44f6-9675-42382c5b48c7"></b>
+                    <span id="spand8451520-be21-44f6-9675-42382c5b48c7">
+                        <a href="javascript:;" onclick="ADataCategory_Click('d8451520-be21-44f6-9675-42382c5b48c7')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=cd2d1884-0e1c-4cde-9c7e-014f3ea7b790" target="_blank">中国农业科学院学位论文数据库</a>
+                    <b id="bcd2d1884-0e1c-4cde-9c7e-014f3ea7b790"></b>
+                    <span id="spancd2d1884-0e1c-4cde-9c7e-014f3ea7b790">
+                        <a href="javascript:;" onclick="ADataCategory_Click('cd2d1884-0e1c-4cde-9c7e-014f3ea7b790')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=c8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e" target="_blank">农业古籍数据库</a>
+                    <b id="bc8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e"></b>
+                    <span id="spanc8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e">
+                        <a href="javascript:;" onclick="ADataCategory_Click('c8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e')">收藏</a>
+                    </span>
+                </li>
+            </ul>
+            <h2>
+                <span>农业科技管理数据库</span>
+            </h2>
+            <ul>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a>
+                    <b id="b3ba796b1-a338-45c8-bd6e-7534a2942765"></b>
+                    <span id="span3ba796b1-a338-45c8-bd6e-7534a2942765">
+                        <a href="javascript:;" onclick="ADataCategory_Click('3ba796b1-a338-45c8-bd6e-7534a2942765')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1" target="_blank">农业科技政策法规数据库</a>
+                    <b id="b1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1"></b>
+                    <span id="span1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1">
+                        <a href="javascript:;" onclick="ADataCategory_Click('1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1')">收藏</a>
+                    </span>
+                </li>
+            </ul>
+            <h2>
+                <span>农业科技专题数据库</span>
+            </h2>
+            <ul>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=85ba2842-dd71-4956-9764-d28b40254932" target="_blank">有机农业数据库</a>
+                    <b id="b85ba2842-dd71-4956-9764-d28b40254932"></b>
+                    <span id="span85ba2842-dd71-4956-9764-d28b40254932">
+                        <a href="javascript:;" onclick="ADataCategory_Click('85ba2842-dd71-4956-9764-d28b40254932')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a>
+                    <b id="b0180539b-98ab-43af-a76c-83362df4c25d"></b>
+                    <span id="span0180539b-98ab-43af-a76c-83362df4c25d">
+                        <a href="javascript:;" onclick="ADataCategory_Click('0180539b-98ab-43af-a76c-83362df4c25d')">收藏</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="../DataTable/List.aspx?DataCategoryGId=29ecb014-cd89-40f5-8054-df3917347e2b" target="_blank">畜禽常见疾病及防治方法数据库</a>
+                    <b id="b29ecb014-cd89-40f5-8054-df3917347e2b"></b>
+                    <span id="span29ecb014-cd89-40f5-8054-df3917347e2b">
+                        <a href="javascript:;" onclick="ADataCategory_Click('29ecb014-cd89-40f5-8054-df3917347e2b')">收藏</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
 
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade subjects" id="mapTab">
-                    <div class="row courses-map">
-                        <div id="mapRow" class="col-md-12">
-                            <svg id="map"></svg>
-                            <div style="position: absolute;z-index: 10;top:150px;" class="btn-group-vertical">
-                                <button id="refreshMap" type="button" class="btn btn-default btn-lg">
-                                    <span class="glyphicon glyphicon-refresh"></span>
-                                    刷新
-                                </button>
-                                <button id="backToNav" class="btn btn-default btn-lg">
-                                    <span class="glyphicon glyphicon-circle-arrow-left"></span>
-                                    返回
-                                </button>
-                            </div>
-                            <div id="course-card" class="panel panel-default hide">
-                                <div class="panel-body" style="padding: 5px;">
-                                    <div class="course-detail">
-                                        <h3 class="course-name text-center"></h3>
-                                        <a target="_blank" class="course-author"></a>
-                                        <div class="course-desc"></div>
-                                        <div class="btn-group btn-group-justified">
-                                            <a id="goMore" type="button" class="btn btn-success">
-                                                <i class="glyphicon glyphicon-eye-open"></i>
-                                                查看课程
-                                            </a>
-                                            <a id="goClass" type="button" class="btn btn-success">
-                                                <i class="glyphicon glyphicon-play"></i>
-                                                进入课堂
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="view-subject" class="row courses-list"></div>
-                </div>
-                <div role="tabpanel" class="tab-pane fade in active" id="course-list">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="panel-title">
-                                <div id="course-type" class="btn-group" role="group">
-                                    <a href="http://www.hubwiz.com/course/?type=all" class="btn btn-primary">
-                                        全部
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=free" class="btn btn-default">
-                                        农业
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=vip" class="btn btn-default">
-                                        林业
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=web" class="btn btn-default">
-                                        牧业
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=mobile" class="btn btn-default">
-                                        渔业
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=desktop" class="btn btn-default">
-                                        植物
-                                    </a>
-                                    <a href="http://www.hubwiz.com/course/?type=database" class="btn btn-default">
-                                        动物
-                                    </a>
-                                </div>
-                                <!--jACKY 2016-3-21-->
-                                <style>
-  .tag-map{
-    min-width:500px;
-    padding:10px;
-    color: #eee;
-  }
-  .tag-map h4{
-    color:black;
-    margin:0px;
-    margin-bottom:5px;
-    padding: 5px 0px;
-    border-bottom:1px solid #ccc;
-    font-size:14px;
-    font-weight:bold;
-  }
-  .tag-map a{
-    text-decoration:none;
-    color: black;
-    padding: 5px;
-  }
-  .tag-map a:hover{
-    color: white;
-    background: #447ab7;
-    /*background:black;*/
-    border-radius:3px;
-  }
-</style>
-<div class="btn-group">
-  <a class="btn btn-default">
-    更多...
-  </a>
-  <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span>
-  </a>
-  <div class="dropdown-menu tag-map">
-    <div class="list-group">
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">前端库 / 框架</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=jQuery">jQuery</a> |
-          <a href="http://www.hubwiz.com/course/?type=Bootstrap">Bootstrap</a> |
-          <a href="http://www.hubwiz.com/course/?type=jQuery%20Mobile">jQuery Mobile</a> |
-          <a href="http://www.hubwiz.com/course/?type=EasyUI">EasyUI</a> |
-          <a href="http://www.hubwiz.com/course/?type=AngularJS">AngularJS</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Ionic">Ionic</a>  |
-          <a href="http://www.hubwiz.com/course/?type=React">React</a> |
-          <a href="http://www.hubwiz.com/course/?type=React%20Router">React Router</a> |
-          <a href="http://www.hubwiz.com/course/?type=Redux">Redux</a> |
-          <a href="http://www.hubwiz.com/course/?type=Knockout">Knockout</a> |
-          <a href="http://www.hubwiz.com/course/?type=Vue.js">Vue.js</a> |
-          <a href="http://www.hubwiz.com/course/?type=MDL">MDL</a> |
-          <a href="http://www.hubwiz.com/course/?type=Zebra">Zebra</a> |
-          <a href="http://www.hubwiz.com/course/?type=d3.js">d3.js</a> |
-          <a href="http://www.hubwiz.com/course/?type=RxJS">RxJS</a> |
-          <a href="http://www.hubwiz.com/course/?type=Mootools">Mootools</a> |
-          <a href="http://www.hubwiz.com/course/?type=Underscore">Underscore</a>
-        </p>
-      </div>
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">JS后端 / 全栈 / 工具链</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=Node.js">Node.js</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Express">Express</a>  |
-          <a href="http://www.hubwiz.com/course/?type=express-sessions">express-sessions</a>  |
-          <a href="http://www.hubwiz.com/course/?type=socket.io">socket.io</a> |
-          <a href="http://www.hubwiz.com/course/?type=Mongoose">Mongoose</a> |
-          <a href="http://www.hubwiz.com/course/?type=Async">Async</a> |
-          <a href="http://www.hubwiz.com/course/?type=cheerio">cheerio</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Hogan.js">Hogan.js</a> |
-          <a href="http://www.hubwiz.com/course/?type=node-firebird">node-firebird</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Meteor">Meteor</a> |
-          <a href="http://www.hubwiz.com/course/?type=Git">Git</a>  |
-          <a href="http://www.hubwiz.com/course/?type=webpack">webpack</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Gulp">Gulp</a> |
-          <a href="http://www.hubwiz.com/course/?type=Sass">Sass</a> |
-          <a href="http://www.hubwiz.com/course/?type=Less">Less</a> |
-          <a href="http://www.hubwiz.com/course/?type=Mocha">Mocha</a> |
-          <a href="http://www.hubwiz.com/course/?type=Chai">Chai</a> |
-          <a href="http://www.hubwiz.com/course/?type=Phonegap">Phonegap</a>
-        </p>
-      </div>
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">云端API</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7">微信公众号</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Yahoo%E5%A4%A9%E6%B0%94">Yahoo天气</a>  |
-          <a href="http://www.hubwiz.com/course/?type=%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE">百度地图</a>  |
-          <a href="http://www.hubwiz.com/course/?type=%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98">微信支付</a>
-        </p>
-      </div>
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">开发语言</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=JavaScript">JavaScript</a> |
-          <a href="http://www.hubwiz.com/course/?type=TypeScript">TypeScript</a> |
-          <a href="http://www.hubwiz.com/course/?type=Java">Java</a> |
-          <a href="http://www.hubwiz.com/course/?type=PHP">PHP</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Python">Python</a> |
-          <a href="http://www.hubwiz.com/course/?type=CSharp">C#</a> |
-          <a href="http://www.hubwiz.com/course/?type=C">C</a> |
-          <a href="http://www.hubwiz.com/course/?type=CPP">C++</a> |
-          <a href="http://www.hubwiz.com/course/?type=Ruby">Ruby</a> |
-          <a href="http://www.hubwiz.com/course/?type=HTML">HTML</a> |
-          <a href="http://www.hubwiz.com/course/?type=CSS">CSS</a> |
-          <a href="http://www.hubwiz.com/course/?type=SVG">SVG</a> |
-          <a href="http://www.hubwiz.com/course/?type=YAML">YAML</a> |
-          <a href="http://www.hubwiz.com/course/?type=UML">UML</a> |
-          <a href="http://www.hubwiz.com/course/?type=Shell%20Script">Shell Script</a>
-        </p>
-      </div>
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">数据处理 / WEB平台</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=MongoDB">MongoDB</a>  |
-          <a href="http://www.hubwiz.com/course/?type=Redis">Redis</a> |
-          <a href="http://www.hubwiz.com/course/?type=MySQL">MySQL</a> |
-          <a href="http://www.hubwiz.com/course/?type=SQLite">SQLite</a> |
-          <a href="http://www.hubwiz.com/course/?type=FireBird">FireBird</a> |
-          <a href="http://www.hubwiz.com/course/?type=ElasticSearch">ElasticSearch</a> |
-          <a href="http://www.hubwiz.com/course/?type=Spark">Spark</a> |
-          <a href="http://www.hubwiz.com/course/?type=Nginx">Nginx</a> |
-          <a href="http://www.hubwiz.com/course/?type=scikit-learn">scikit-learn</a>
-        </p>
-      </div>
-      <div class="listgroup-item">
-        <h4 class="listgroup-item-heading">学习阶段</h4>
-        <p>
-          <a href="http://www.hubwiz.com/course/?type=%E5%85%A5%E9%97%A8">入门</a>  |
-          <a href="http://www.hubwiz.com/course/?type=%E8%BF%9B%E9%98%B6">进阶</a> |
-          <a href="http://www.hubwiz.com/course/?type=%E5%AE%9E%E6%88%98">实战</a> |
-          <a href="http://www.hubwiz.com/course/?type=%E7%AE%97%E6%B3%95">算法</a> |
-          <a href="http://www.hubwiz.com/course/?type=%E6%80%9D%E6%83%B3">思想</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-                                <!--jACKY 2017-9-10-->
-                                <form method="GET" class="search">
-                                  <i class="glyphicon glyphicon-search"></i><input name="type" placeholder="搜索数据">
-                                </form>
-                            </div>
-                            <ul id="course-sort" class="sort">
-                                <li class="active">
-                                    <a href="http://www.hubwiz.com/course?type=all&amp;sort=1">最新</a>
-                                </li>
-                                <li class="false">
-                                    <a href="http://www.hubwiz.com/course?type=all&amp;sort=2">热门</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="panel-body">
+        <div class="LeftList02">
+        <div class="LeftList02A">
+        <h2 class="org"><span>下载排行</span></h2>
+        <table class="EllipsisTable">
+            <tbody><tr><th class="c1">1、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a></td></tr><tr><th class="c2">2、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a></td></tr><tr><th class="c3">3、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=c687c428-227e-48e4-9912-10962665c6b9" target="_blank">农业获奖科技成果数据库</a></td></tr><tr><th>4、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a></td></tr><tr><th>5、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=d8451520-be21-44f6-9675-42382c5b48c7" target="_blank">中国农业专利数据库</a></td></tr><tr><th>6、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a></td></tr>
+        </tbody></table>
+        </div>
+        <div class="LeftList02B">
+        <h2 class="green"><span>收藏排行</span></h2>
+        <table class="EllipsisTable">
+            <tbody><tr><th class="c1">1、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a></td></tr><tr><th class="c2">2、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a></td></tr><tr><th class="c3">3、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee" target="_blank">中文农业科技文摘数据库</a></td></tr><tr><th>4、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a></td></tr><tr><th>5、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=923053d9-1381-4c63-ae27-dd7b6c9e3181" target="_blank">国内农业科技项目数据库</a></td></tr><tr><th>6、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a></td></tr>
+        </tbody></table>
+        </div>
+        </div>
+        </div>
+        <div class="Box270 FloatLeft MarginLeft10">
 
+        <div class="RightList">
+        <h2>
+            <span>科技资讯</span>
+            <a href="../InfoNews/List.aspx?MenuId=78&amp;Category=2" target="_blank">更多...</a>
+        </h2>
+        <ul>
+            <li>
+                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=234d156b-52db-4a14-bb3b-f137d8633dc6" target="_blank">“一带一路”生态环保大数据服务平台网站启动</a>
+            </li>
+            <li>
+                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=8fabc38e-5a22-4836-8c73-18e889d8bf3a" target="_blank">“APEC粮食安全与农业技术合作网及数据库”正式开通</a>
+            </li>
+            <li>
+                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=e3e45aba-947b-4772-a3a5-56d46e518a9f" target="_blank">联合国：欢迎美国签署新法案以改善全球粮食安全</a>
+            </li>
+        </ul>
+        </div>
 
-                            <div class="row">
+        <div class="RightList ClearFloat">
+        <h2><span>最新文献</span><a href="../InfoLiterature/List.aspx?MenuId=-1" target="_blank">更多...</a></h2>
+        <ul><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=00f21780-a5ec-4c9d-85e5-84fac25a6b8c" target="_blank">作物育种相关数据及大数据技术育种利用</a></li><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=c50c7f54-3ffe-4650-860d-288d5d7298ed" target="_blank">转型时期杂交水稻的困境与出路</a></li><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=32e93ee5-ea16-4fd0-b083-cb2da9bc0287" target="_blank">正确认识粮食安全和农业劳动力成本问题</a></li></ul>
+        </div>
 
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/59de66862d4f22811dc6b2f7">
+        <div class="RightList ClearFloat">
+        <h2><span>推荐报告</span><a href="../InfoReport/List.aspx?MenuId=-1" target="_blank">更多...</a></h2>
+        <ul><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101911016" target="_blank">驱动农业转型的新力量-大数据应用(2015中国农业展望大会)</a></li><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101813858" target="_blank">中国农业展望的技术支撑(2015中国农业展望大会)</a></li><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101709274" target="_blank">我国耕地质量现状与保护提升对策(2015中国农业展望大会)</a></li></ul>
+        </div>
 
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!59de66862d4f22811dc6b2f7.png' %}" alt="Angular 5入门与提高">
-                                        <div class="caption">
-                                            <h3>Angular 5入门与提高</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                本课程全面系统地讲解了最新版的Angular5，内容不仅涵盖组件模板语法、指令和管道运用、表单运用、指令开发等基础内容，还包括依赖注入原理与应用、变化检测机制原理及应用、模块和组件的编译过程解析、视图结构等进阶技能。教程内容深入浅出、循序渐进，即适合有一定Angular基础的工程师提高学习，也适合没有接触过Angular的工程师从零学起。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
+        <div class="RightList2 ClearFloat">
+        <h2><span>更新动态</span><a href="../DataUpdateRecord/List.aspx">更多...</a></h2>
+        <ul><li><a href="../DataTable/List.aspx?DataCategoryGId=29ecb014-cd89-40f5-8054-df3917347e2b" target="_blank">畜禽常见疾病及防治方法数据库</a><b>2016-11-08</b></li><li><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">[修改]农作物名、优、特新品种数据库</a><b>2016-11-08</b></li><li><a href="../DataTable/List.aspx?DataCategoryGId=882d05ba-1118-4cee-b954-31125acfacb3" target="_blank">[修改]FAO统计数据库</a><b>2016-11-08</b></li></ul>
+        </div>
+        <div class="DataTotal">
+            <a href="/share/" class="UserForm">数据共享</a>
+            <a href="../FeedBack/AddAndUpdate.aspx" class="UserFeedback">用户反馈</a>
+        </div>
 
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/59b1c2fcc7fd1d494539802c">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!59b1c2fcc7fd1d494539802c.png' %}" alt="Phaser入门">
-                                        <div class="caption">
-                                            <h3>Phaser入门</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                Phaser是流行的2D游戏框架，本教程涵盖Phaser的核心概念、游戏对象、对象组管理、动态纹理使用、视频与音频、数据补间、物理系统、瓦片地图等重要内容，适合有一定前端开发基础的工程师学习。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/599fc282c7fd1d4945397f3e">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!599fc282c7fd1d4945397f3e.png' %}" alt="TensorFlow编程实战">
-                                        <div class="caption">
-                                            <h3>TensorFlow编程实战</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                TensorFlow是目前最流行的深度学习框架，由Google Brain Team开发。本课程主要讲解的是Tensorflow的基础知识和编程方法，通过结合经典的机器学习算法与当下流行的数据集，本课程将带领大家完成多个基于Tensorflow的机器学习项目实战。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/598bad66c7fd1d49453979c9">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!598bad66c7fd1d49453979c9.png' %}" alt="Vue.js 2 工程化实践">
-                                        <div class="caption">
-                                            <h3>Vue.js 2 工程化实践</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                课程从Vue.js单文件组件入手，梳理了前端工程化实践的基本概念与原理、构建工具、测试工具、质量管理、工作流程等重要知识点，适合具备一定node.js基础和Vue.js基础的工程师深入学习
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/5983d3aeff52d0da7e3e3d50">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!5983d3aeff52d0da7e3e3d50.png' %}" alt="VueRouter 2入门与提高">
-                                        <div class="caption">
-                                            <h3>VueRouter 2入门与提高</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                本课程全面系统地讲解最新的Vue.js前端路由管理库VueRouter 2.x，内容涵盖核心概念、工作原理、实践应用等诸多方面，教程深入浅出，即适合没有使用过前端路由管理库的前端开发人员学习，也适合具备一定VueRouter基础的工程师深入学习提高。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/597d463fff52d0da7e3e397a">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!597d463fff52d0da7e3e397a.png' %}" alt="Vuex 2入门与提高">
-                                        <div class="caption">
-                                            <h3>Vuex 2入门与提高</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                本课程全面系统地讲解最新的前端框架Vuex 2.x，内容涵盖state/mutation等核心概念、状态管理的工作原理、Vuex实践应用等诸多方面，教程深入浅出，即适合没有使用过状态管理库的前端开发人员学习，也适合具备一定Vuex基础的工程师深入学习提高。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/5978951fff52d0da7e3e36d5">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!5978951fff52d0da7e3e36d5.png' %}" alt="Java项目管理">
-                                        <div class="caption">
-                                            <h3>Java项目管理</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                Maven是一款开源的构建工具、依赖管理工具以及项目信息管理工具，本课程将从Maven的基础使用到核心概念等方面进行系统的教学。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/592ee9b2b343f27b0ae1ba99">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!592ee9b2b343f27b0ae1ba99.png' %}" alt="Vue.js 2 入门与提高">
-                                        <div class="caption">
-                                            <h3>Vue.js 2 入门与提高</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                本课程全面系统地讲解最新的前端框架Vue.js 2.x，内容涵盖响应式计算机制、指令和组件、动画效果等诸多方面，教程深入浅出，即适合没有Vue.js开发基础的前端初学者学习，也适合具备一定基础的工程师深入学习提高。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/5912b748b343f27b0ae1b8c8">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!5912b748b343f27b0ae1b8c8.png' %}" alt="jQuery开发手册">
-                                        <div class="caption">
-                                            <h3>jQuery开发手册</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                jQuery是一套跨浏览器的JavaScript库，简化HTML与JavaScript之间的操作。由John Resig在2006年1月的BarCamp NYC上发布第一个版本。目前是由 Dave Methvin 领导的开发团队进行开发。全球前10000个访问最高的网站中，有59%使用了jQuery，是目前最受欢迎的JavaScript库。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/5911d52ab343f27b0ae1b895">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!5911d52ab343f27b0ae1b895.png' %}" alt="TDD-测试驱动开发">
-                                        <div class="caption">
-                                            <h3>TDD-测试驱动开发</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                TDD是测试（Test）驱动（Driven）开发（Development）的首字母缩写，它是一种开发实践而非测试实践。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/586b30c17761bbf02c7553c6">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!586b30c17761bbf02c7553c6.png' %}" alt="Git个人管理手册">
-                                        <div class="caption">
-                                            <h3>Git个人管理手册</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                Git是一款优秀的分布式管理系统，合理使用它将会大大的提升我们的工作效率。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                                <div class="col-md-3">
-									<a href="http://www.hubwiz.com/course/586259687761bbf02c755228">
-
-                                    <div class="thumbnail vip">
-                                        <img src="{% static 'img/logo!586259687761bbf02c755228.png' %}" alt="Linux C 一步到位">
-                                        <div class="caption">
-                                            <h3>Linux C 一步到位</h3>
-                                        </div>
-                                        <div class="desc">
-                                            <p style="text-indent: 2em;">
-                                                本课程讲解Linux C的基本语法、编译过程、进程通信、文件操作、网络通信编程等。
-                                            </p>
-                                        </div>
-                                    </div>
-									</a>
-                                </div>
-
-                            </div>
-
-                            <nav>
-                                <ul class="pager">
-                                    <li class="disabled">
-
-                                        <a href="javascript:void(0);">上一页</a>
-
-                                    </li>
-                                    <li> 1 / 10 </li>
-                                    <li class="false">
-
-                                        <a href="http://www.hubwiz.com/course/?page=2&amp;type=all&amp;sort=1">下一页</a>
-
-
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="DataTotal">
+        <p><span>数据库总量：</span><b class="Red">42</b>&nbsp;个</p>
+        <p><span>数据总量：</span><b class="Blue">2,059,327</b>&nbsp;条</p>
+        <p><span>总访总量：</span><b>15,154</b>&nbsp;人次</p>
+        </div>
         </div>
     </div>
-</section>
-    <section id="courses" class="hide">
-
-    </section>
-    <script src="{% static 'js/courseMap.min.js' %}"></script>
 {% endblock %}
 
 {% block foot %}
+    <script type="text/javascript">
+        //数据收藏
+        function ADataCategory_Click(dataCategoryId) {
+        var userId = '';
+        if (userId == "") {
+        if (confirm("请登录后点击收藏！") === true) {
+            location.href = "/user/login/";
+        }
+        }
+        else {
+        if (dataCategoryId === "") {
+            alert("请点击收藏按钮！");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: "Default.aspx/AddDataCategory",
+                data: "{dataCategoryId:'" + dataCategoryId + "',userId:'" + userId + "'}",
+                contentType: "application/json; charset=utf-8",
+                success: function (returnMessage) {
+                    if (returnMessage.d !== "") {
+                        $("#b" + dataCategoryId).addClass("CollectedIcon");
+                        $("#span" + dataCategoryId).hide();
+                    }
+                    else {
+                        alert("收藏失败，请联系系统管理人员！");
+                    }
+                },
+                error: function (result, returnMessage, status) {
+                    alert(returnMessage);
+                }
+            });     // end $.ajax()
+        }
+        }
+        }
+        </script>
 {% endblock %}

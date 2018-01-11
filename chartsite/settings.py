@@ -244,21 +244,20 @@ REST_FRAMEWORK_EXTENSIONS = {
 }
 
 # 缓存
-# CACHES = {
-#     "default": {
-#         "BACKEND": "django_redis.cache.RedisCache",
-#         "LOCATION": "redis://localhost:6379",
-#         "OPTIONS": {
-#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
-#         }
-#     }
-# }
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://localhost:6379",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
 
 
 
 # 应许跨域
 CORS_ORIGIN_ALLOW_ALL = True
-
 
 EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25

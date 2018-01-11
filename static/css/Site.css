@@ -1,0 +1,122 @@
+﻿*{ margin:0px; padding:0px; font-family:"Microsoft Yahei";}
+
+body{ min-width:900px; overflow:scroll; font-size:12px; background:#fafafa;}
+
+ul,li,p,h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.a1{text-decoration:none;color:#0000FF;}
+.a1:hover{text-decoration:underline;color:#0000FF;}
+ul,li{ list-style:none;}
+select,input,textarea{ font-size:12px;}
+input {outline:none; display:inline-block;}
+
+.font12{ font-size:12px;}
+.font14{ font-size:14px;}
+.font16{ font-size:16px;}
+.font18{ font-size:18px;}
+.font22{ font-size:22px;}
+.font24{ font-size:24px;}
+.font26{ font-size:26px;}
+
+.ButtonBg_2Font
+{
+    outline: none;
+    background-color:#2c80e9;
+    width: 64px;
+    height: 23px;
+    border: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.FloatLeft{ float:left;}
+.FloatRight{ float:right;}
+
+.PadingLeft10{padding-left:10px;}
+.PadingTop10{padding-top:10px;}
+.PadingRight10{padding-right:10px;}
+.PadingBottom5{padding-bottom:5px;}
+.MarginTop10{ margin-top:10px;}
+.MarginLeft10{ margin-left:10px;}
+
+.BGWhite{background-color:#FFFFFF}
+.TableBorder0{border-collapse:collapse; border:0px; margin-bottom:15px;}
+
+.ClearFloat{zoom:1} 
+.ClearFloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.Box10{width:60%; margin:0 auto 20px;}
+.Box72{ width:70%;}
+.Box77{ width:770px;}
+.Box270{ width:29%;}
+.Box210{ width:210px;}
+
+.MinHeight315{height:315px;}
+.MinHeight480{height:480px;}
+.MinHeight620{height:620px;}
+.TextTop{vertical-align:top;}
+.TextRight{text-align:right;}
+.TextLeft{text-align:left;}
+.TextCenter{text-align:center;}
+
+.PositionA{ position:absolute;}
+.PositionR{ position:relative;}
+
+.ErrorMessage{color: #ff0000;}/*错误信息样式*/
+.ErrorBgMessage{background-color: #ff0000;}/*错误信息背景样式*/
+
+/*表格内容太长,超出部分用省略号替代...*/
+.EllipsisTable{table-layout: fixed;} /* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+.EllipsisTd{
+    width: 100%; word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+/* 多行文本换行 */
+.MultilineTextEllipsis {
+    overflow: hidden;
+    height: 160px;    
+    line-height: 28px;
+}
+
+.MultilineTextEllipsis:before {
+    content:"";
+    float: left;
+    width: 5px; height: 160px; 
+ }
+
+.MultilineTextEllipsis > *:first-child {
+    float: right;
+    width: 100%;    
+    margin-left: -15px;}        
+
+.MultilineTextEllipsis:after {
+    content: "\02026\02026"; 
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    float: right; 
+    position: relative;
+    top: -35px; 
+    left: 100%; 
+    width: 27px; 
+    margin-left: -27px;
+    padding-right: 15px;
+    text-align: right;
+    background-color:#FFFFFF;
+ }
+
+
+/* 头部样式 */
+.Header{}
+.Header .topNav{ height:34px;}
+.Header .TopNav span.LoginInfo{ display:inline-block; float:right;}
+.Header .TopNav span.LoginInfo a{ padding-left:8px; padding-right:8px; color:#333; line-height:34px;}
+
+/* 底部样式 */
+/*-----footer style-----*/
+.Footer{ width:100%; padding-top:10px; padding-bottom:10px; background:#373737;}
+.Footer p{ display:inline-block; width:100%; line-height:28px; color:#fff; text-align:center;}
+.Footer p a{ padding-left:10px; padding-right:10px;color:#fff;} 

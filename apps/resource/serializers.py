@@ -419,5 +419,82 @@ class ZwyczytxpjjdDbserializer(serializers.ModelSerializer):
         fields = ("title", )
 
 
+class GjnykyhzxmDbserializer(serializers.ModelSerializer):
+    """
+    国际农业科研项目数据库
+    """
+    class Meta:
+        model = GjnykyhzxmDb
+        fields = "__all__"
 
 
+class GnnykyhzxmDbserializer(serializers.ModelSerializer):
+    """
+    国内农业科技项目数据库
+    """
+    class Meta:
+        model = GnnykyhzxmDb
+        fields = "__all__"
+
+
+class NyhjkjcgDbserializer(serializers.ModelSerializer):
+    """
+    农业获奖科技成果数据库
+    """
+    class Meta:
+        model = NyhjkjcgDb
+        fields = "__all__"
+
+
+class NykjrcDbserializer(serializers.ModelSerializer):
+    """
+    农业科技人才数据库
+    """
+    class Meta:
+        model = NykjrcDb
+        fields = "__all__"
+
+
+class NykjjgDbserializer(serializers.ModelSerializer):
+    """
+    农业科技机构数据库
+    """
+    class Meta:
+        model = NykjjgDb
+        fields = "__all__"
+
+
+class ZwkjwxDbserializer(serializers.ModelSerializer):
+    """
+    中文农业科技文摘数据库
+    """
+    class Meta:
+        model = ZwkjwxDb
+        fields = "__all__"
+
+
+class YjnyDbserializer(serializers.ModelSerializer):
+    """
+    有机农业数据库
+    """
+    class Meta:
+        model = YjnyDb
+        fields = "__all__"
+
+
+class NygjDbserializer(serializers.ModelSerializer):
+    """
+    有机农业数据库
+    """
+    class Meta:
+        model = NygjDb
+        fields = "__all__"
+
+
+class NybzhczgfDbserializer(serializers.ModelSerializer):
+    """
+    农业标准和操作规范数据库
+    """
+    class Meta:
+        model = NybzhczgfDb
+        fields = "__all__"
