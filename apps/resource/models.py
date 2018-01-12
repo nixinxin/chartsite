@@ -161,16 +161,16 @@ class MytxDb(models.Model):
     """
     农作物名优特新品种数据库
     """
-    id = models.IntegerField(auto_created=True, null=False, primary_key=True, default=1)
-    category = models.CharField(max_length=20, null=True, blank=True, verbose_name="作物类别", db_column="作物类别")
-    brands = models.CharField(max_length=20, null=True, blank=True, verbose_name="作物品种", db_column="作物品种")
-    name = models.CharField(max_length=40, null=True, blank=True, verbose_name="作物名称", db_column="作物名称")
+    id = models.IntegerField(auto_created=True, primary_key=True, null=False, blank=False, default=1)
+    category = models.CharField(max_length=128, null=True, blank=True, verbose_name="作物种类", db_column="作物种类")
+    brands = models.CharField(max_length=128, null=True, blank=True, verbose_name="作物品种", db_column="作物品种")
+    name = models.CharField(max_length=128, null=True, blank=True, verbose_name="品种名称", db_column="品种名称")
     desc = models.TextField(verbose_name='基本情况', null=True, blank=True, db_column="基本情况")
     feature = models.TextField(verbose_name='特征特性', null=True, blank=True, db_column="特征特性")
-    raiser = models.CharField(max_length=80,  null=True, blank=True, verbose_name="培育者", db_column="培育者")
+    raiser = models.CharField(max_length=256,  null=True, blank=True, verbose_name="培育者", db_column="培育者")
     location_T = models.TextField(verbose_name='地区及技术', null=True, blank=True, db_column="地区及技术")
-    brands_category = models.CharField(max_length=20, null=True, blank=True, verbose_name="品种类别", db_column="品种类别")
-    examine = models.TextField(null=True, blank=True, verbose_name="审查情况", db_column='审查情况')
+    brands_category = models.CharField(max_length=128, null=True, blank=True, verbose_name="品种类别", db_column="品种类别")
+    examine = models.TextField(null=True, blank=True, verbose_name="审定情况", db_column='审定情况')
     get_day = models.CharField(max_length=10, null=True, blank=True, verbose_name="资源采集日", db_column="资源采集日")
 
     class Meta:

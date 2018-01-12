@@ -5,179 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0011_gjnykyhzxmdblist_gnnykyhzxmdblist_nyhjkjcgdblist_nykjjgdblist_nykjrcdblist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0012_auto_20180109_1956.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0013_auto_20180109_2004.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0014_nykjjgdblist_unitid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0015_auto_20180109_2048.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0016_zwkjwxdb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0017_yjnydb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0018_nygjdb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0019_nybzhczgfdb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0020_auto_20180110_2205.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/Site.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/SiteHome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/courseMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0021_auto_20180111_1921.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0022_auto_20180111_1935.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/serializers.py" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
-      <change beforePath="$PROJECT_DIR$/media/html/丝瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/亚麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/其它瓜类.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/其它绿叶菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/其它豆类.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/冬寒菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/冬瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/刀豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/分葱.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/利马豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/南瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/叶用莴苣.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/叶芥菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/向日葵.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/咖啡.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/四棱豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/地肤.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/多花菜豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/大白菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/大葱.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/大豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/大麦.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/大麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/嫩茎花椰菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/子芥菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/小扁豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/小豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/小麦.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/小麦稀有种.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/山楂.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/扁豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/普通菜豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/木薯.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/木豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/李子.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/杏.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/枇杷.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/枣.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/枸杞.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/柑桔.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/柿.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/栗.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/核桃.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/根甜菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/根芥菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/桃.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/桑.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/梨.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/棉花.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/椰子.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/橡胶.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/毛豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/水稻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/油梨.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/油菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/洋葱.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/满江红.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/烟草.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/燕麦.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/牛蒡.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/牧草.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/玉米.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/球茎甘蓝.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/瓠瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/甘蔗.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/甘薯.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/甜瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/甜菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/番茄.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/白菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/石刁柏.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/笋瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/籽粒苋.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/紫苏.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/红花.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/红麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/结球甘蓝.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/绿肥.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/绿豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/罗勒.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/胡椒.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/胡萝卜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/腰果.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/节瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芒果.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芜菁.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芜菁甘蓝.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芝麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芥蓝.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芫荽.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/花椰菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/花生.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/芹菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/苋菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/苎麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/苏子.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/苦瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/苹果.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茄子.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茎用莴苣.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茎芥菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茴香.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茶.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/茼蒿.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/草莓.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/荔枝.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/荞麦.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/莱豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/菜瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/菜薹.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/菜豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/菠菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/萝卜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/落葵.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/葡萄.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/蓖麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/蕹菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/薏苡.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/薹芥菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/薹菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/藜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/蚕豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/蛇瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/西瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/西葫芦.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/谷子.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/豆薯.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/豇豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/豌豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/越瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/辣椒.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/酸浆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/金花菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/长豇豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/青麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/韭菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/韭葱.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/饭豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/香蕉.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/马铃薯.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/高粱.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/鹰嘴豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黄瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黄花菜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黄麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黍稷.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黎豆.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/黑子南瓜.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/龙眼.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/html/龙舌兰麻.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/chart.html" afterPath="$PROJECT_DIR$/templates/chart.html" />
-      <change beforePath="$PROJECT_DIR$/templates/csvhtml.html" afterPath="$PROJECT_DIR$/templates/csvhtml.html" />
-      <change beforePath="$PROJECT_DIR$/templates/resource.html" afterPath="$PROJECT_DIR$/templates/resource.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -213,7 +44,76 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4978">
+              <caret line="762" column="41" lean-forward="false" selection-start-line="762" selection-start-column="40" selection-end-line="762" selection-end-column="41" />
+              <folding>
+                <element signature="e#942#1012#0" expanded="false" />
+                <element signature="e#1225#1332#0" expanded="false" />
+                <element signature="e#1382#1489#0" expanded="false" />
+                <element signature="e#1548#1655#0" expanded="false" />
+                <element signature="e#1784#2380#0" expanded="false" />
+                <element signature="e#2513#3026#0" expanded="false" />
+                <element signature="e#3154#3549#0" expanded="false" />
+                <element signature="e#3675#4054#0" expanded="false" />
+                <element signature="e#4177#4494#0" expanded="false" />
+                <element signature="e#4621#4945#0" expanded="false" />
+                <element signature="e#5074#5372#0" expanded="false" />
+                <element signature="e#5499#5837#0" expanded="false" />
+                <element signature="e#5962#6280#0" expanded="false" />
+                <element signature="e#6408#6735#0" expanded="false" />
+                <element signature="e#6863#7190#0" expanded="false" />
+                <element signature="e#7317#7641#0" expanded="false" />
+                <element signature="e#7768#8092#0" expanded="false" />
+                <element signature="e#8217#8535#0" expanded="false" />
+                <element signature="e#8662#8986#0" expanded="false" />
+                <element signature="e#9114#9441#0" expanded="false" />
+                <element signature="e#9566#9884#0" expanded="false" />
+                <element signature="e#10009#10327#0" expanded="false" />
+                <element signature="e#10452#10770#0" expanded="false" />
+                <element signature="e#10895#11213#0" expanded="false" />
+                <element signature="e#11337#11651#0" expanded="false" />
+                <element signature="e#11780#12110#0" expanded="false" />
+                <element signature="e#12239#12569#0" expanded="false" />
+                <element signature="e#12698#13028#0" expanded="false" />
+                <element signature="e#13157#13487#0" expanded="false" />
+                <element signature="e#13616#13946#0" expanded="false" />
+                <element signature="e#14075#14405#0" expanded="false" />
+                <element signature="e#14532#14856#0" expanded="false" />
+                <element signature="e#14981#15311#0" expanded="false" />
+                <element signature="e#15438#15732#0" expanded="false" />
+                <element signature="e#15861#16162#0" expanded="false" />
+                <element signature="e#16287#16576#0" expanded="false" />
+                <element signature="e#16705#17003#0" expanded="false" />
+                <element signature="e#17126#17437#0" expanded="false" />
+                <element signature="e#17566#17907#0" expanded="false" />
+                <element signature="e#18036#18377#0" expanded="false" />
+                <element signature="e#18506#18847#0" expanded="false" />
+                <element signature="e#18973#19293#0" expanded="false" />
+                <element signature="e#19422#19763#0" expanded="false" />
+                <element signature="e#19887#20172#0" expanded="false" />
+                <element signature="e#20299#20591#0" expanded="false" />
+                <element signature="e#20716#21007#0" expanded="false" />
+                <element signature="e#21131#21420#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -324,10 +224,10 @@
         <option value="$PROJECT_DIR$/static/css/SiteHome.css" />
         <option value="$PROJECT_DIR$/static/css/Site.css" />
         <option value="$PROJECT_DIR$/templates/resource.html" />
-        <option value="$PROJECT_DIR$/apps/resource/models.py" />
         <option value="$PROJECT_DIR$/apps/resource/serializers.py" />
         <option value="$PROJECT_DIR$/apps/resource/views.py" />
         <option value="$PROJECT_DIR$/chartsite/urls.py" />
+        <option value="$PROJECT_DIR$/apps/resource/models.py" />
       </list>
     </option>
   </component>
@@ -339,9 +239,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="y" value="14" />
-    <option name="width" value="1178" />
-    <option name="height" value="1026" />
+    <option name="width" value="1266" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -386,8 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,9 +437,9 @@
       <module name="chartsite" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="80" />
-      <option name="host" value="0.0.0.0" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://agridata.iask.in:80/" />
+      <option name="browserUrl" value="http://127.0.0.1/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -915,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515410890008</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="农业科技数据库">
+      <created>1515660508808</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1515660508808</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -932,14 +838,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182845" sideWeight="0.24919923" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.181987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40111732" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28784648" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40111732" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20446928" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12899786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37988827" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -950,6 +855,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792325" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1036,7 +942,8 @@
     <MESSAGE value="resource serializer" />
     <MESSAGE value="resource serializer viewset" />
     <MESSAGE value="csvhtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="csvhtml" />
+    <MESSAGE value="农业科技数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="农业科技数据库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1218,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="131" column="6" lean-forward="false" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="70" column="16" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="487" column="0" lean-forward="false" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22344">
           <caret line="1233" column="0" lean-forward="false" selection-start-line="1225" selection-start-column="0" selection-end-line="1238" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="249" column="45" lean-forward="true" selection-start-line="249" selection-start-column="45" selection-end-line="249" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,33 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
           <caret line="444" column="0" lean-forward="true" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-          <folding>
-            <element signature="e#1687#1979#0" expanded="false" />
-            <element signature="e#2053#3118#0" expanded="false" />
-            <element signature="e#3249#6594#0" expanded="false" />
-            <element signature="e#3310#3593#0" expanded="false" />
-            <element signature="e#3646#3900#0" expanded="false" />
-            <element signature="e#3946#4190#0" expanded="false" />
-            <element signature="e#4265#4474#0" expanded="false" />
-            <element signature="e#4532#5377#0" expanded="false" />
-            <element signature="e#6682#7358#0" expanded="false" />
-            <element signature="e#7463#8784#0" expanded="false" />
-            <element signature="e#8871#9495#0" expanded="false" />
-            <element signature="e#9616#11391#0" expanded="false" />
-            <element signature="e#11424#12644#0" expanded="false" />
-            <element signature="e#12674#13578#0" expanded="false" />
-            <element signature="e#13614#13690#0" expanded="false" />
-            <element signature="e#13721#13798#0" expanded="false" />
-            <element signature="e#13830#13905#0" expanded="false" />
-            <element signature="e#13937#14007#0" expanded="false" />
-            <element signature="e#14038#14106#0" expanded="false" />
-            <element signature="e#14139#14388#0" expanded="false" />
-            <element signature="e#14419#14901#0" expanded="false" />
-            <element signature="e#14934#15005#0" expanded="false" />
-            <element signature="e#15036#15105#0" expanded="false" />
-            <element signature="e#15135#15203#0" expanded="false" />
-            <element signature="e#15237#15304#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1440,10 +1313,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="499" column="26" lean-forward="true" selection-start-line="499" selection-start-column="26" selection-end-line="499" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="218" column="8" lean-forward="false" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2044">
-          <caret line="774" column="12" lean-forward="false" selection-start-line="774" selection-start-column="6" selection-end-line="774" selection-end-column="24" />
+        <state relative-caret-position="4978">
+          <caret line="762" column="41" lean-forward="false" selection-start-line="762" selection-start-column="40" selection-end-line="762" selection-end-column="41" />
           <folding>
             <element signature="e#942#1012#0" expanded="false" />
             <element signature="e#1225#1332#0" expanded="false" />
@@ -1496,28 +1384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="499" column="26" lean-forward="true" selection-start-line="499" selection-start-column="26" selection-end-line="499" selection-end-column="26" />
-          <folding>
-            <element signature="e#826#917#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
-          <caret line="218" column="8" lean-forward="false" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="9913" column="25" lean-forward="true" selection-start-line="9913" selection-start-column="20" selection-end-line="9913" selection-end-column="32" />
+        <state relative-caret-position="385">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
       </provider>
