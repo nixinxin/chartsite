@@ -763,7 +763,7 @@ class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
 class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
-       农业古籍数据库列表数据,该注释直接会在docs文档中生成相关说明
+       农业古籍数据库列表数据,该注释直接会在docs文档中生成相关说明, ?reportid=GJ00001
     """
     queryset = NygjDb.objects.all().order_by('reportid')
     serializer_class = NygjDbserializer
@@ -772,15 +772,13 @@ class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
 
-class NygjtpDbViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class NygjtpDbViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
     """
     list:
-       农业古籍图片数据库列表数据,该注释直接会在docs文档中生成相关说明
+       农业古籍图片数据库列表数据,该注释直接会在docs文档中生成相关说明,
     """
     queryset = NygjtpDb.objects.all()
     serializer_class = NygjtpDbserializer
-
-    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     def list(self, request, *args, **kwargs):
         queryset = NygjtpDb.objects.all()
