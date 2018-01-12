@@ -200,6 +200,7 @@ class ZgnytdkcDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=90, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国农业天敌昆虫数据库'
@@ -245,6 +246,7 @@ class ZgnttdzzDb(models.Model):
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=60, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国农田天敌蜘蛛数据库'
@@ -276,6 +278,7 @@ class ZgnthsDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=40, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国农田害鼠数据库'
@@ -304,6 +307,7 @@ class ZgyclschcDb(models.Model):
     xuename = models.CharField(max_length=100, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国叶菜类蔬菜害虫数据库'
@@ -375,6 +379,8 @@ class ZgwlrqkcDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.CharField(max_length=60, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
+
 
     class Meta:
         db_table = '中国外来入侵昆虫数据库'
@@ -409,6 +415,7 @@ class ZgwlrqzwDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
     xuename = models.TextField(blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国外来入侵植物数据库'
@@ -437,6 +444,7 @@ class ZghdzcDb(models.Model):
     xuename = models.TextField(blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国旱地杂草数据库'
@@ -465,6 +473,7 @@ class ZghlzwhcDb(models.Model):
     xuename = models.TextField(blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国旱粮作物害虫数据库'
@@ -493,6 +502,8 @@ class ZggslschcDb(models.Model):
     xuename = models.CharField(max_length=100, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
+
 
     class Meta:
         db_table = '中国果菜类蔬菜害虫数据库'
@@ -521,6 +532,7 @@ class ZggjhcDb(models.Model):
     xuename = models.CharField(max_length=80, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国柑桔害虫数据库'
@@ -549,6 +561,7 @@ class ZgmhhcDb(models.Model):
     xuename = models.CharField(max_length=80, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国棉花害虫数据库'
@@ -577,6 +590,7 @@ class ZgstzcDb(models.Model):
     xuename = models.CharField(max_length=110, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国水田杂草数据库'
@@ -605,6 +619,8 @@ class ZgsdhcDb(models.Model):
     xuename = models.CharField(max_length=70, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
+
 
     class Meta:
         db_table = '中国水稻害虫数据库'
@@ -657,6 +673,7 @@ class ZglszwbdbhDb(models.Model):
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国粮食作物病毒病害数据库'
@@ -688,6 +705,7 @@ class ZglszwzjbhDb(models.Model):
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国粮食作物真菌病害数据库'
@@ -718,6 +736,7 @@ class ZglszwxjbhDb(models.Model):
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国粮食作物细菌病害数据库'
@@ -749,6 +768,7 @@ class ZgjjzwbdbhDb(models.Model):
     english = models.CharField(max_length=60, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国经济作物病毒病害数据库'
@@ -780,6 +800,7 @@ class ZgjjzwzjbhDb(models.Model):
     english = models.CharField(max_length=80, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国经济作物真菌病害数据库'
@@ -811,6 +832,7 @@ class ZgjjzwxjbhDb(models.Model):
     english = models.CharField(max_length=80, blank=True, null=True, db_column='英文名', verbose_name="英文名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     pathway_fbtj = models.TextField(blank=True, null=True, db_column='传播途径和发病条件', verbose_name='传播途径和发病条件')
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国经济作物细菌病害数据库'
@@ -839,6 +861,7 @@ class ZgpgtlhcDb(models.Model):
     xuename = models.CharField(max_length=70, blank=True, null=True, db_column='拉丁学名', verbose_name="拉丁学名")
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     control_method = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
+    image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
         db_table = '中国苹果桃梨害虫数据库'
@@ -892,15 +915,15 @@ class ZgzynywhYc(models.Model):
 
 class ZgzynywhycTp(models.Model):
     """
-    中国重要农业文化遗产_图片
+    中国重要农业文化遗产图片
     """
-    title = models.CharField(max_length=40, blank=True, null=True, db_column='标题', verbose_name='标题')
+    title = models.ForeignKey(ZgzynywhYc, blank=True, null=True, db_column='标题', verbose_name='标题', related_name="image")
     image_num = models.IntegerField(blank=True, null=True, db_column='图片号', verbose_name='图片号')
     pici = models.CharField(max_length=20, blank=True, null=True, db_column='批次', verbose_name='批次')
-    path = models.ImageField(upload_to='agridata/culture', db_column='路径', verbose_name='路径')
+    image = models.ImageField(upload_to='agridata/culture', db_column='路径', verbose_name='路径')
 
     class Meta:
-        db_table = '中国重要农业文化遗产_图片'
+        db_table = '中国重要农业文化遗产图片'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -9901,7 +9924,7 @@ class NygjtpDb(models.Model):
     """
     reportid = models.ForeignKey(NygjDb, db_column='记录号', verbose_name='记录号', null=True, blank=True)
     page = models.IntegerField(verbose_name="页码", db_column="页码", null=True, blank=True)
-    link = models.ImageField(upload_to='agridata/images', db_column='链接', verbose_name="链接", null=True, blank=True)
+    image = models.ImageField(upload_to='agridata/images', db_column='链接', verbose_name="链接", null=True, blank=True)
 
     class Meta:
         db_table = '农业古籍图片数据库'

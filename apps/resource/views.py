@@ -32,25 +32,19 @@ class CsvHtmlView(View):
         return render(request, "csvhtml.html")
 
 
-class ChartdataPagination(PageNumberPagination):
+class CustomPagination(PageNumberPagination):
     page_size = 1
     page_size_query_param = 'page_size'
     page_query_param = 'page'
-    max_page_size = 100
-
-
-class OnePagination(PageNumberPagination):
-    page_size = 10
-    page_size_query_param = 'page_size'
-    page_query_param = 'page'
-    max_page_size = 10
-
-
-class TwoPagination(PageNumberPagination):
-    page_size = 20
-    page_size_query_param = 'page_size'
-    page_query_param = 'page'
     max_page_size = 20
+
+
+class TpPagination(PageNumberPagination):
+    page_size = 1
+    page_size_query_param = 'page_size'
+    page_query_param = 'page'
+    max_page_size = 300
+
 
 
 class ResourceListPagination(PageNumberPagination):
@@ -90,7 +84,7 @@ class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.
 
     queryset = GwyjzwzzzyDb.objects.all().order_by('id')
     serializer_class = GwyjzwzzzyDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -106,7 +100,7 @@ class NcpjgDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     """
     queryset = NcpjgDb.objects.all().order_by('datetime')
     serializer_class = NcpjgDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -121,7 +115,7 @@ class AgriIndexViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     """
     queryset = AgriIndex.objects.all().order_by('id')
     serializer_class = AgriIndexserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -136,7 +130,7 @@ class MytxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     """
     queryset = MytxDb.objects.all().order_by('id')
     serializer_class = MytxDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -150,10 +144,10 @@ class ZgnytdkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZgnytdkcDb.objects.all().order_by('id')
     serializer_class = ZgnytdkcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-
+    search_fields = ("zhname",)
     ordering_fields = ('id', )
 
 
@@ -164,7 +158,7 @@ class ZgnyyhswDbTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZgnyyhswDbTp.objects.all().order_by('id')
     serializer_class = ZgnyyhswDbTpserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -176,7 +170,7 @@ class ZgnttdzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZgnttdzzDb.objects.all().order_by('report_id')
     serializer_class = ZgnttdzzDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -190,7 +184,7 @@ class ZgnthsDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZgnthsDb.objects.all().order_by('id')
     serializer_class = ZgnthsDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -204,7 +198,7 @@ class ZgyclschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     """
     queryset = ZgyclschcDb.objects.all().order_by('id')
     serializer_class = ZgyclschcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -218,7 +212,7 @@ class ZgwlrqwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     """
     queryset = ZgwlrqwswDb.objects.all().order_by('id')
     serializer_class = ZgwlrqwswDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -232,7 +226,7 @@ class ZgwlrqkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZgwlrqkcDb.objects.all().order_by('id')
     serializer_class = ZgwlrqkcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -246,7 +240,7 @@ class ZgwlrqzwDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZgwlrqzwDb.objects.all().order_by('id')
     serializer_class = ZgwlrqzwDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -260,7 +254,7 @@ class ZghdzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZghdzcDb.objects.all().order_by('id')
     serializer_class = ZghdzcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -274,7 +268,7 @@ class ZghlzwhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZghlzwhcDb.objects.all().order_by('id')
     serializer_class = ZghlzwhcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -288,7 +282,7 @@ class ZggslschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     """
     queryset = ZggslschcDb.objects.all().order_by('id')
     serializer_class = ZggslschcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -302,7 +296,7 @@ class ZggjhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZggjhcDb.objects.all().order_by('id')
     serializer_class = ZggjhcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -316,7 +310,7 @@ class ZgmhhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZgmhhcDb.objects.all().order_by('id')
     serializer_class = ZgmhhcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -330,7 +324,7 @@ class ZgstzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZgstzcDb.objects.all().order_by('id')
     serializer_class = ZgstzcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -344,7 +338,7 @@ class ZgsdhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZgsdhcDb.objects.all().order_by('id')
     serializer_class = ZgsdhcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -358,7 +352,7 @@ class ZgtsNcpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
     """
     queryset = ZgtsNcp.objects.all().order_by('id')
     serializer_class = ZgtsNcpserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -372,7 +366,7 @@ class ZglszwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZglszwbdbhDb.objects.all().order_by('id')
     serializer_class = ZglszwbdbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -386,7 +380,7 @@ class ZglszwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZglszwzjbhDb.objects.all().order_by('id')
     serializer_class = ZglszwzjbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -400,7 +394,7 @@ class ZglszwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZglszwxjbhDb.objects.all().order_by('id')
     serializer_class = ZglszwxjbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -414,7 +408,7 @@ class ZgjjzwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZgjjzwbdbhDb.objects.all().order_by('id')
     serializer_class = ZgjjzwbdbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -428,7 +422,7 @@ class ZgjjzwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZgjjzwzjbhDb.objects.all().order_by('id')
     serializer_class = ZgjjzwzjbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -442,7 +436,7 @@ class ZgjjzwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = ZgjjzwxjbhDb.objects.all().order_by('id')
     serializer_class = ZgjjzwxjbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -456,7 +450,7 @@ class ZgpgtlhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZgpgtlhcDb.objects.all().order_by('id')
     serializer_class = ZgpgtlhcDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -470,7 +464,7 @@ class ZgxzqhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZgxzqhDb.objects.all().order_by('citycode')
     serializer_class = ZgxzqhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -482,9 +476,9 @@ class ZgzynywhYcViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     list:
        中国重要农业文化遗产列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgzynywhYc.objects.all().order_by('title')
+    queryset = ZgzynywhYc.objects.all().order_by('id')
     serializer_class = ZgzynywhYcserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -492,11 +486,11 @@ class ZgzynywhYcViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 class ZgzynywhycTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
-       中国重要农业文化遗产_图片列表数据,该注释直接会在docs文档中生成相关说明
+       中国重要农业文化遗产图片列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgzynywhycTp.objects.all().order_by('title')
+    queryset = ZgzynywhycTp.objects.all().order_by('id')
     serializer_class = ZgzynywhycTpserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -508,7 +502,7 @@ class ZwwzfbDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZwwzfbDb.objects.all().order_by('title')
     serializer_class = ZwwzfbDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -520,7 +514,7 @@ class XmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = XmzzzzhxzzDb.objects.all().order_by('id')
     serializer_class = XmzzzzhxzzDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -532,7 +526,7 @@ class XmxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     """
     queryset = XmxpDb.objects.all().order_by('id')
     serializer_class = XmxpDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('id', )
@@ -545,7 +539,7 @@ class XmxcpzjqxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = XmxcpzjqxpDb.objects.all().order_by('total_id')
     serializer_class = XmxcpzjqxpDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('total_id', )
@@ -558,7 +552,7 @@ class SdzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = SdzzzzhxzzDb.objects.all().order_by('total_id')
     serializer_class = SdzzzzhxzzDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('total_id', )
@@ -571,7 +565,7 @@ class SdycpzjqpxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = SdycpzjqpxDb.objects.all().order_by('total_id')
     serializer_class = SdycpzjqpxDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('total_id', )
@@ -584,7 +578,7 @@ class YmxpzbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     """
     queryset = YmxpzbhDb.objects.all().order_by('id')
     serializer_class = YmxpzbhDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('id', )
@@ -597,7 +591,7 @@ class YmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = YmzzzzhxzzDb.objects.all().order_by('total_id')
     serializer_class = YmzzzzhxzzDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     ordering_fields = ('total_id', )
@@ -610,7 +604,7 @@ class XdnysfqViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
     """
     queryset = Xdnysfq.objects.all().order_by('title')
     serializer_class = Xdnysfqserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -622,7 +616,7 @@ class ZwyyzyzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = ZwyyzyzzDb.objects.all().order_by('id')
     serializer_class = ZwyyzyzzDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -634,9 +628,10 @@ class YoudamaiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = Youdamai.objects.all().order_by('id')
     serializer_class = Youdamaiserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    ordering_fields = ('id', )
 
 
 class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -646,9 +641,10 @@ class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
     """
     queryset = YouYuMi.objects.all().order_by('id')
     serializer_class = YouYuMiserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    ordering_fields = ('id', )
 
 
 class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
@@ -658,7 +654,8 @@ class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixin
     """
     queryset = ZwyczytxpjjdDbList.objects.all()
     serializer_class = ZwyczytxpjjdDbserializer
-    pagination_class = TwoPagination
+    pagination_class = CustomPagination
+    ordering_fields = ('id', )
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -683,9 +680,10 @@ class GjnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = GjnykyhzxmDb.objects.all().order_by('id')
     serializer_class = GjnykyhzxmDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    ordering_fields = ('id', )
 
 
 class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -695,9 +693,10 @@ class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     """
     queryset = GnnykyhzxmDb.objects.all().order_by('id')
     serializer_class = GnnykyhzxmDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    ordering_fields = ('id', )
 
 
 class NyhjkjcgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -707,9 +706,11 @@ class NyhjkjcgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     """
     queryset = NyhjkjcgDb.objects.all().order_by('id')
     serializer_class = NyhjkjcgDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    search_fields = ('title', )
+    ordering_fields = ('id', )
 
 
 class NykjrcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -719,9 +720,11 @@ class NykjrcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = NykjrcDb.objects.all().order_by('id')
     serializer_class = NykjrcDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    search_fields = ('name', )
+    ordering_fields = ('id', )
 
 
 class NykjjgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -731,9 +734,11 @@ class NykjjgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = NykjjgDb.objects.all().order_by('id')
     serializer_class = NykjjgDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    search_fields = ("unitid", 'gfmc')
+    ordering_fields = ('id', )
 
 
 class ZwkjwxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -743,9 +748,12 @@ class ZwkjwxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     """
     queryset = ZwkjwxDb.objects.all().order_by('id')
     serializer_class = ZwkjwxDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+    search_fields = ('title', )
+    ordering_fields = ('id', )
 
 
 class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -755,9 +763,12 @@ class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     """
     queryset = YjnyDb.objects.all().order_by('id')
     serializer_class = YjnyDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+    search_fields = ("reportid", 'title')
+    ordering_fields = ('id', )
 
 
 class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -767,37 +778,25 @@ class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     """
     queryset = NygjDb.objects.all().order_by('reportid')
     serializer_class = NygjDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
+    search_fields = ("reportid", 'title')
+    ordering_fields = ('id', )
 
-class NygjtpDbViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
+
+class NygjtpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
        农业古籍图片数据库列表数据,该注释直接会在docs文档中生成相关说明,
     """
-    queryset = NygjtpDb.objects.all()
+    queryset = NygjtpDb.objects.all().order_by('id')
     serializer_class = NygjtpDbserializer
-
-    def list(self, request, *args, **kwargs):
-        queryset = NygjtpDb.objects.all()
-        parses = request.query_params
-        if parses:
-            try:
-                if parses['reportid']:
-                    queryset = NygjtpDb.objects.filter(reportid__reportid=parses['reportid']).order_by("page")
-            except:
-                queryset = NygjtpDb.objects.all().filter(id=0)
-        else:
-            queryset = NygjtpDb.objects.all().filter(id=0)
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            return self.get_paginated_response(serializer.data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
+    search_fields = ("reportid__reportid",)
+    ordering_fields = ('id', )
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    pagination_class = TpPagination
 
 
 class NybzhczgfDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -807,6 +806,9 @@ class NybzhczgfDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     """
     queryset = NybzhczgfDb.objects.all().order_by('id')
     serializer_class = NybzhczgfDbserializer
-    pagination_class = ChartdataPagination
+    pagination_class = CustomPagination
+
+    search_fields = ("bzname", )
+    ordering_fields = ('id', )
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)

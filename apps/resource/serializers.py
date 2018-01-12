@@ -60,21 +60,22 @@ class MytxDbserializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ZgnytdkcDbserializer(serializers.ModelSerializer):
-    """
-    中国农业天敌昆虫数据库
-    """
-    class Meta:
-        model = ZgnytdkcDb
-        fields = "__all__"
-
-
 class ZgnyyhswDbTpserializer(serializers.ModelSerializer):
     """
     中国农业有害生物图片数据库
     """
     class Meta:
         model = ZgnyyhswDbTp
+        fields = "__all__"
+
+
+class ZgnytdkcDbserializer(serializers.ModelSerializer):
+    """
+    中国农业天敌昆虫数据库
+    """
+
+    class Meta:
+        model = ZgnytdkcDb
         fields = "__all__"
 
 
@@ -276,21 +277,23 @@ class ZgxzqhDbserializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class ZgzynywhycTpserializer(serializers.ModelSerializer):
+    """
+    中国重要农业文化遗产图片
+    """
+    class Meta:
+        model = ZgzynywhycTp
+        fields = ("image", )
+
+
 class ZgzynywhYcserializer(serializers.ModelSerializer):
     """
     中国重要农业文化遗产
     """
+    image = ZgzynywhycTpserializer(many=True)
+
     class Meta:
         model = ZgzynywhYc
-        fields = "__all__"
-
-
-class ZgzynywhycTpserializer(serializers.ModelSerializer):
-    """
-    中国重要农业文化遗产_图片
-    """
-    class Meta:
-        model = ZgzynywhycTp
         fields = "__all__"
 
 
@@ -507,3 +510,5 @@ class NygjtpDbserializer(serializers.ModelSerializer):
     class Meta:
         model = NygjtpDb
         fields = "__all__"
+
+
