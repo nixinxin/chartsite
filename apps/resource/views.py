@@ -765,11 +765,41 @@ class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     list:
        农业古籍数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = NygjDb.objects.all().order_by('id')
+    queryset = NygjDb.objects.all().order_by('reportid')
     serializer_class = NygjDbserializer
     pagination_class = ChartdataPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class NygjtpDbViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       农业古籍图片数据库列表数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = NygjtpDb.objects.all()
+    serializer_class = NygjtpDbserializer
+
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+    def list(self, request, *args, **kwargs):
+        queryset = NygjtpDb.objects.all()
+        parses = request.query_params
+        if parses:
+            try:
+                if parses['reportid']:
+                    queryset = NygjtpDb.objects.filter(reportid__reportid=parses['reportid']).order_by("page")
+            except:
+                queryset = NygjtpDb.objects.all().filter(id=0)
+        else:
+            queryset = NygjtpDb.objects.all().filter(id=0)
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
 
 
 class NybzhczgfDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):

@@ -498,3 +498,12 @@ class NybzhczgfDbserializer(serializers.ModelSerializer):
     class Meta:
         model = NybzhczgfDb
         fields = "__all__"
+
+
+class NygjtpDbserializer(serializers.ModelSerializer):
+    """
+    农业古籍图片数据库
+    """
+    class Meta:
+        model = NygjtpDb
+        fields = "__all__"

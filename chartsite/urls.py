@@ -216,6 +216,9 @@ router.register(r'YjnyDb', YjnyDbViewSet, base_name='YjnyDb')
 # 农业古籍数据库
 router.register(r'NygjDb', NygjDbViewSet, base_name='NygjDb')
 
+# 农业古籍图片数据库
+router.register(r'NygjtpDb', NygjtpDbViewSet, base_name='NygjtpDb')
+
 # 农业标准和操作规范数据库
 router.register(r'NybzhczgfDb', NybzhczgfDbViewSet, base_name='NybzhczgfDb')
 
@@ -245,6 +248,7 @@ urlpatterns = [
 
     # 第三方登陆
     url('', include('social_django.urls', namespace='social')),
+
 
     # 用户登录注册页面
     url('^user/register/$', RegisterView.as_view(), name="register"),

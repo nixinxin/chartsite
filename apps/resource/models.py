@@ -9874,7 +9874,7 @@ class NygjDb(models.Model):
     """
     农业古籍数据库
     """
-    reportid = models.CharField(max_length=64, db_column='记录号', verbose_name='记录号')
+    reportid = models.CharField(max_length=64, primary_key=True, db_column='记录号', verbose_name='记录号')
     category = models.CharField(max_length=64, db_column='分类', verbose_name='分类')
     title = models.CharField(max_length=128, db_column='标题书名', verbose_name='标题书名')
     author = models.CharField(max_length=64, db_column='作者', verbose_name='作者')
@@ -9891,6 +9891,20 @@ class NygjDb(models.Model):
 
     class Meta:
         db_table = '农业古籍数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class NygjtpDb(models.Model):
+    """
+    农业古籍图片数据库
+    """
+    reportid = models.ForeignKey(NygjDb, db_column='记录号', verbose_name='记录号', null=True, blank=True)
+    page = models.IntegerField(verbose_name="页码", db_column="页码", null=True, blank=True)
+    link = models.ImageField(upload_to='agridata/images', db_column='链接', verbose_name="链接", null=True, blank=True)
+
+    class Meta:
+        db_table = '农业古籍图片数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
