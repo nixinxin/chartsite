@@ -4,80 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/apps/resource/models.py" description="class MytxDb(models.Model):&#10;    &quot;&quot;&quot;&#10;    农作物名优特新品种数..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="古籍图片url">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0030_auto_20180112_1933.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0031_auto_20180112_2050.py" />
+    <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/chartsite.iml" afterPath="$PROJECT_DIR$/.idea/chartsite.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/serializers.py" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/中国绿刺蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/八点广翅蜡蝉.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/大蓑蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/天幕毛虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/小青花金龟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/山楂叶螨.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/扁刺蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/旋纹潜蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/日本蜡蚧.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/朝鲜球坚蚧.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/李小食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/杏白带麦蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/果苔螨.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/核桃小吉丁.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃一点叶蝉.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃剑纹夜蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃天蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃小食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃潜叶蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃粉蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃红颈天牛.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桃蛀螟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桑天牛.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/桑褐刺蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨二叉蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨云翅斑螟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨冠网蝽.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨叶斑蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨叶肿瘿螨.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨圆蚧.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨大食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨实蜂.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨小食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨星毛虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨木虱.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨桃小食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨瘿蚊.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨眼天牛.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨网蝽.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨茎蜂.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨虎象.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨蝽.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨金缘吉丁.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/梨黄粉蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/棉褐带卷蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/棉铃实夜蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/白星花金龟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/盗毒蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/绣线菊蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/绿尾大蚕蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹小食心虫.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹果全爪螨.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹果小吉丁.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹果枝天牛.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹果绵蚜.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹果雕蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/苹眼天牛.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/草履硕蚧.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/褐边绿刺蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/金纹细蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/铜绿丽金龟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/麻皮蝽.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/黄刺蛾.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/黑绒鳃金龟.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/黑蚱蝉.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/agridata/images/中国农业有害生物数据库/中国苹果、桃、梨害虫数据库/龟形小刺蛾.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,7 +42,146 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="510" column="22" lean-forward="false" selection-start-line="510" selection-start-column="22" selection-end-line="510" selection-end-column="22" />
+              <folding>
+                <element signature="e#826#917#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="9920" column="10" lean-forward="false" selection-start-line="9920" selection-start-column="10" selection-end-line="9920" selection-end-column="10" />
+              <folding>
+                <element signature="e#128#1556#0" expanded="false" />
+                <element signature="e#1597#3748#0" expanded="false" />
+                <element signature="e#3785#5005#0" expanded="false" />
+                <element signature="e#5041#5765#0" expanded="false" />
+                <element signature="e#5807#6963#0" expanded="false" />
+                <element signature="e#7001#7618#0" expanded="false" />
+                <element signature="e#7653#8996#0" expanded="false" />
+                <element signature="e#50644#51352#0" expanded="false" />
+                <element signature="e#52996#53503#0" expanded="false" />
+                <element signature="e#53544#55419#0" expanded="false" />
+                <element signature="e#55454#56837#0" expanded="false" />
+                <element signature="e#56878#64148#0" expanded="false" />
+                <element signature="e#64189#68939#0" expanded="false" />
+                <element signature="e#68980#73828#0" expanded="false" />
+                <element signature="e#73866#74438#0" expanded="false" />
+                <element signature="e#74479#78435#0" expanded="false" />
+                <element signature="e#78471#78868#0" expanded="false" />
+                <element signature="e#78907#80081#0" expanded="false" />
+                <element signature="e#80118#85086#0" expanded="false" />
+                <element signature="e#85122#90127#0" expanded="false" />
+                <element signature="e#90161#93665#0" expanded="false" />
+                <element signature="e#93698#98462#0" expanded="false" />
+                <element signature="e#98501#101684#0" expanded="false" />
+                <element signature="e#101724#105163#0" expanded="false" />
+                <element signature="e#105202#108680#0" expanded="false" />
+                <element signature="e#108719#111320#0" expanded="false" />
+                <element signature="e#111356#114957#0" expanded="false" />
+                <element signature="e#114992#118230#0" expanded="false" />
+                <element signature="e#118266#120878#0" expanded="false" />
+                <element signature="e#120914#126691#0" expanded="false" />
+                <element signature="e#126726#130218#0" expanded="false" />
+                <element signature="e#130257#132871#0" expanded="false" />
+                <element signature="e#132908#138857#0" expanded="false" />
+                <element signature="e#138896#142365#0" expanded="false" />
+                <element signature="e#142399#152860#0" expanded="false" />
+                <element signature="e#152898#156242#0" expanded="false" />
+                <element signature="e#156275#159073#0" expanded="false" />
+                <element signature="e#159114#164995#0" expanded="false" />
+                <element signature="e#165032#170193#0" expanded="false" />
+                <element signature="e#170228#173373#0" expanded="false" />
+                <element signature="e#173407#180210#0" expanded="false" />
+                <element signature="e#180247#201676#0" expanded="false" />
+                <element signature="e#201709#205532#0" expanded="false" />
+                <element signature="e#205576#209782#0" expanded="false" />
+                <element signature="e#209819#214738#0" expanded="false" />
+                <element signature="e#214778#220556#0" expanded="false" />
+                <element signature="e#220592#231870#0" expanded="false" />
+                <element signature="e#231906#250180#0" expanded="false" />
+                <element signature="e#250226#256169#0" expanded="false" />
+                <element signature="e#256205#259495#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="798" column="35" lean-forward="false" selection-start-line="798" selection-start-column="35" selection-end-line="798" selection-end-column="35" />
+              <folding>
+                <element signature="e#942#1012#0" expanded="false" />
+                <element signature="e#1387#1494#0" expanded="false" />
+                <element signature="e#1623#2219#0" expanded="false" />
+                <element signature="e#2352#2862#0" expanded="false" />
+                <element signature="e#2990#3388#0" expanded="false" />
+                <element signature="e#3514#3896#0" expanded="false" />
+                <element signature="e#4019#4339#0" expanded="false" />
+                <element signature="e#4953#5254#0" expanded="false" />
+                <element signature="e#5381#5722#0" expanded="false" />
+                <element signature="e#5847#6168#0" expanded="false" />
+                <element signature="e#6296#6626#0" expanded="false" />
+                <element signature="e#6754#7084#0" expanded="false" />
+                <element signature="e#7211#7538#0" expanded="false" />
+                <element signature="e#7665#7992#0" expanded="false" />
+                <element signature="e#8117#8438#0" expanded="false" />
+                <element signature="e#8565#8892#0" expanded="false" />
+                <element signature="e#9020#9350#0" expanded="false" />
+                <element signature="e#9475#9796#0" expanded="false" />
+                <element signature="e#9921#10242#0" expanded="false" />
+                <element signature="e#10367#10688#0" expanded="false" />
+                <element signature="e#10813#11134#0" expanded="false" />
+                <element signature="e#11258#11575#0" expanded="false" />
+                <element signature="e#11704#12037#0" expanded="false" />
+                <element signature="e#12166#12499#0" expanded="false" />
+                <element signature="e#12628#12961#0" expanded="false" />
+                <element signature="e#13090#13423#0" expanded="false" />
+                <element signature="e#13552#13885#0" expanded="false" />
+                <element signature="e#14014#14347#0" expanded="false" />
+                <element signature="e#14474#14801#0" expanded="false" />
+                <element signature="e#14926#15259#0" expanded="false" />
+                <element signature="e#15809#16109#0" expanded="false" />
+                <element signature="e#16234#16526#0" expanded="false" />
+                <element signature="e#16655#16956#0" expanded="false" />
+                <element signature="e#17079#17393#0" expanded="false" />
+                <element signature="e#17522#17866#0" expanded="false" />
+                <element signature="e#17995#18339#0" expanded="false" />
+                <element signature="e#18468#18812#0" expanded="false" />
+                <element signature="e#18938#19261#0" expanded="false" />
+                <element signature="e#19390#19734#0" expanded="false" />
+                <element signature="e#19858#20146#0" expanded="false" />
+                <element signature="e#20273#20568#0" expanded="false" />
+                <element signature="e#20693#21018#0" expanded="false" />
+                <element signature="e#21142#21465#0" expanded="false" />
+                <element signature="e#21598#22406#0" expanded="false" />
+                <element signature="e#21888#22406#0" expanded="false" />
+                <element signature="e#22535#22865#0" expanded="false" />
+                <element signature="e#22994#23324#0" expanded="false" />
+                <element signature="e#23451#23809#0" expanded="false" />
+                <element signature="e#23934#24285#0" expanded="false" />
+                <element signature="e#24410#24769#0" expanded="false" />
+                <element signature="e#24894#25249#0" expanded="false" />
+                <element signature="e#25372#25729#0" expanded="false" />
+                <element signature="e#25852#26234#0" expanded="false" />
+                <element signature="e#26847#27210#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,9 +222,9 @@
       <find>ChartdataPagination</find>
       <find>中国农业有害生物</find>
       <find>有害生物</find>
-      <find>NygjtpDb</find>
       <find>图片</find>
       <find>中国农田天敌蜘蛛数据库</find>
+      <find>NygjtpDb</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -238,8 +306,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="995" />
-    <option name="width" value="932" />
+    <option name="x" value="780" />
+    <option name="width" value="1147" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -294,6 +362,17 @@
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -308,6 +387,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="JSONWebTokenAuthentication&#9;null&#9;null" />
+    <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -456,13 +536,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511163997774</updated>
-    </task>
-    <task id="LOCAL-00004" summary="change four">
-      <created>1511484213143</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1511484213143</updated>
     </task>
     <task id="LOCAL-00005" summary="change five">
       <created>1511494782386</created>
@@ -800,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515746907322</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="害虫图片url">
+      <created>1515763895257</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1515763895258</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -813,26 +893,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="995" y="0" width="932" height="1047" extended-state="0" />
+    <frame x="780" y="0" width="1147" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182845" sideWeight="0.24919923" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2877493" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35214448" sideWeight="0.23135756" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26523703" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20446928" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41169724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43974242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31828442" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35214448" sideWeight="0.7508008" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35214448" sideWeight="0.7686424" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2877493" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
@@ -899,7 +979,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="change one" />
     <MESSAGE value="change two" />
     <MESSAGE value="change three" />
     <MESSAGE value="change four" />
@@ -924,7 +1003,8 @@
     <MESSAGE value="csvhtml" />
     <MESSAGE value="农业科技数据库" />
     <MESSAGE value="古籍图片url" />
-    <option name="LAST_COMMIT_MESSAGE" value="古籍图片url" />
+    <MESSAGE value="害虫图片url" />
+    <option name="LAST_COMMIT_MESSAGE" value="害虫图片url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,10 +1400,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="510" column="22" lean-forward="false" selection-start-line="510" selection-start-column="22" selection-end-line="510" selection-end-column="22" />
+          <folding>
+            <element signature="e#826#917#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="145" column="29" lean-forward="false" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+        <state relative-caret-position="308">
+          <caret line="798" column="35" lean-forward="false" selection-start-line="798" selection-start-column="35" selection-end-line="798" selection-end-column="35" />
           <folding>
             <element signature="e#942#1012#0" expanded="false" />
             <element signature="e#1387#1494#0" expanded="false" />
@@ -1383,20 +1473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="e#826#917#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="847" column="12" lean-forward="false" selection-start-line="847" selection-start-column="4" selection-end-line="847" selection-end-column="15" />
+        <state relative-caret-position="182">
+          <caret line="9920" column="10" lean-forward="false" selection-start-line="9920" selection-start-column="10" selection-end-line="9920" selection-end-column="10" />
           <folding>
             <element signature="e#128#1556#0" expanded="false" />
             <element signature="e#1597#3748#0" expanded="false" />
@@ -1448,7 +1528,6 @@
             <element signature="e#231906#250180#0" expanded="false" />
             <element signature="e#250226#256169#0" expanded="false" />
             <element signature="e#256205#259495#0" expanded="false" />
-            <element signature="e#855025#855480#0" expanded="false" />
           </folding>
         </state>
       </provider>
