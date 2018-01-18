@@ -423,9 +423,6 @@ class InviteView(View):
                 return HttpResponse(False, status=status.HTTP_404_NOT_FOUND)
 
 
-class ResourceView(View):
-    def get(self, request):
-        return render(request, "resource.html")
 
 
 class VisualView(View):
