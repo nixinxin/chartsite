@@ -656,19 +656,17 @@ class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
 class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
     """
     list:
-       优异资源综合评价数据库列表数据,该注释直接会在docs文档中生成相关说明
+       作物遗传资源特性评价鉴定数据库列表 列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZwyczytxpjjdDbList.objects.all().order_by("title")
+    queryset = ZwyczytxpjjdDbList.objects.all().order_by("id")
     serializer_class = ZwyczytxpjjdDbserializer
     pagination_class = CustomPagination
-    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('title', )
     ordering_fields = ('id', )
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        title = serializer.validated_data['title']
+        title = serializer.validated_data['table']
         try:
             with open(os.path.join(BASE_DIR, "media", 'html', "{}.html".format(title)), 'r', encoding='utf-8') as f:
                 data = f.read()

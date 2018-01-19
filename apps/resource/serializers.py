@@ -409,17 +409,17 @@ class ZwyczytxpjjdDbserializer(serializers.ModelSerializer):
     """
     作物遗传资源特性评价鉴定数据库_**
     """
-    title = serializers.CharField(max_length=20, min_length=1, allow_blank=False, required=True)
+    table = serializers.CharField(max_length=20, min_length=1, allow_blank=False, required=True, label="标题")
 
-    def validate_title(self, title):
-        exists = ZwyczytxpjjdDbList.objects.filter(title=title)
+    def validate_title(self, table):
+        exists = ZwyczytxpjjdDbList.objects.filter(table=table)
         if not exists:
             return serializers.ValidationError("查询内容不存在")
-        return title
+        return table
 
     class Meta:
         model = ZwyczytxpjjdDbList
-        fields = ("title", )
+        fields = ("table", )
 
 
 class GjnykyhzxmDbserializer(serializers.ModelSerializer):
