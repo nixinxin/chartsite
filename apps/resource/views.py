@@ -658,9 +658,11 @@ class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixin
     list:
        优异资源综合评价数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZwyczytxpjjdDbList.objects.all()
+    queryset = ZwyczytxpjjdDbList.objects.all().order_by("title")
     serializer_class = ZwyczytxpjjdDbserializer
     pagination_class = CustomPagination
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+    search_fields = ('title', )
     ordering_fields = ('id', )
 
     def create(self, request, *args, **kwargs):

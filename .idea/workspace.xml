@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/adminx.py" afterPath="$PROJECT_DIR$/apps/resource/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/apps/resource/serializers.py" afterPath="$PROJECT_DIR$/apps/resource/serializers.py" />
       <change beforePath="$PROJECT_DIR$/apps/resource/views.py" afterPath="$PROJECT_DIR$/apps/resource/views.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,124 +43,40 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43195266">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="222" column="39" lean-forward="false" selection-start-line="222" selection-start-column="39" selection-end-line="222" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="515">
-                  <caret line="141" column="26" lean-forward="false" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#0#16#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/apps/resource/adminx.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="468" column="10" lean-forward="false" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="499" column="7" lean-forward="true" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#65#103#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="166" column="6" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#128#1556#0" expanded="false" />
-                    <element signature="e#1597#3748#0" expanded="false" />
-                    <element signature="e#3785#5005#0" expanded="false" />
-                    <element signature="e#5041#5765#0" expanded="false" />
-                    <element signature="e#5807#6963#0" expanded="false" />
-                    <element signature="e#7001#7618#0" expanded="false" />
-                    <element signature="e#9041#10746#0" expanded="false" />
-                    <element signature="e#10787#11291#0" expanded="false" />
-                    <element signature="e#50650#51358#0" expanded="false" />
-                    <element signature="e#52347#52964#0" expanded="false" />
-                    <element signature="e#53001#53508#0" expanded="false" />
-                    <element signature="e#53549#55424#0" expanded="false" />
-                    <element signature="e#55459#56842#0" expanded="false" />
-                    <element signature="e#56883#64153#0" expanded="false" />
-                    <element signature="e#64194#68944#0" expanded="false" />
-                    <element signature="e#68985#73833#0" expanded="false" />
-                    <element signature="e#73871#74443#0" expanded="false" />
-                    <element signature="e#74484#78440#0" expanded="false" />
-                    <element signature="e#78476#78873#0" expanded="false" />
-                    <element signature="e#78912#80086#0" expanded="false" />
-                    <element signature="e#80123#85091#0" expanded="false" />
-                    <element signature="e#85127#90132#0" expanded="false" />
-                    <element signature="e#90166#93670#0" expanded="false" />
-                    <element signature="e#93703#98467#0" expanded="false" />
-                    <element signature="e#98506#101689#0" expanded="false" />
-                    <element signature="e#101729#105168#0" expanded="false" />
-                    <element signature="e#105207#108685#0" expanded="false" />
-                    <element signature="e#108724#111325#0" expanded="false" />
-                    <element signature="e#111361#114962#0" expanded="false" />
-                    <element signature="e#114997#118235#0" expanded="false" />
-                    <element signature="e#118271#120883#0" expanded="false" />
-                    <element signature="e#120919#126696#0" expanded="false" />
-                    <element signature="e#126731#130223#0" expanded="false" />
-                    <element signature="e#130262#132876#0" expanded="false" />
-                    <element signature="e#132913#138862#0" expanded="false" />
-                    <element signature="e#138901#142370#0" expanded="false" />
-                    <element signature="e#142404#152865#0" expanded="false" />
-                    <element signature="e#152903#156247#0" expanded="false" />
-                    <element signature="e#156280#159078#0" expanded="false" />
-                    <element signature="e#159119#165000#0" expanded="false" />
-                    <element signature="e#165037#170198#0" expanded="false" />
-                    <element signature="e#170233#173378#0" expanded="false" />
-                    <element signature="e#173412#180215#0" expanded="false" />
-                    <element signature="e#180252#201681#0" expanded="false" />
-                    <element signature="e#201714#205537#0" expanded="false" />
-                    <element signature="e#205581#209787#0" expanded="false" />
-                    <element signature="e#209824#214743#0" expanded="false" />
-                    <element signature="e#214783#220561#0" expanded="false" />
-                    <element signature="e#220597#231875#0" expanded="false" />
-                    <element signature="e#231911#250185#0" expanded="false" />
-                    <element signature="e#250231#256174#0" expanded="false" />
-                    <element signature="e#256210#259500#0" expanded="false" />
-                    <element signature="e#841638#843451#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chartsite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="222" column="39" lean-forward="false" selection-start-line="222" selection-start-column="39" selection-end-line="222" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="634" column="20" lean-forward="true" selection-start-line="634" selection-start-column="20" selection-end-line="634" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/resource/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="468" column="10" lean-forward="false" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -177,8 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>agridata/images</find>
-      <find>order</find>
       <find>reportid=&quot;GJ00001&quot;).order_by(&quot;page&quot;)id</find>
       <find>sear</find>
       <find>search_fields</find>
@@ -207,6 +118,8 @@
       <find>新品种</find>
       <find>特新品种</find>
       <find>名</find>
+      <find>名优</find>
+      <find>ZwyczytxpjjdDbList</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -570,13 +483,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511163997774</updated>
     </task>
-    <task id="LOCAL-00007" summary="change seven">
-      <created>1511509758289</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1511509758289</updated>
-    </task>
     <task id="LOCAL-00008" summary="change eight">
       <created>1511533062898</created>
       <option name="number" value="00008" />
@@ -913,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516286093284</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="更新resource 资源接口">
+      <created>1516323202541</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1516323202541</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -934,7 +847,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20428894" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1012,7 +925,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="change three" />
     <MESSAGE value="change four" />
     <MESSAGE value="change five" />
     <MESSAGE value="change six" />
@@ -1037,7 +949,8 @@
     <MESSAGE value="古籍图片url" />
     <MESSAGE value="害虫图片url" />
     <MESSAGE value="resource更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="resource更新" />
+    <MESSAGE value="更新resource 资源接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新resource 资源接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,20 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="499" column="7" lean-forward="true" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
-          <folding>
-            <element signature="e#65#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="166" column="6" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="8" />
+        <state relative-caret-position="-17">
+          <caret line="1312" column="6" lean-forward="false" selection-start-line="1312" selection-start-column="6" selection-end-line="1312" selection-end-column="6" />
           <folding>
             <element signature="e#128#1556#0" expanded="false" />
             <element signature="e#1597#3748#0" expanded="false" />
@@ -1245,7 +1148,6 @@
             <element signature="e#74484#78440#0" expanded="false" />
             <element signature="e#78476#78873#0" expanded="false" />
             <element signature="e#78912#80086#0" expanded="false" />
-            <element signature="e#80123#85091#0" expanded="false" />
             <element signature="e#85127#90132#0" expanded="false" />
             <element signature="e#90166#93670#0" expanded="false" />
             <element signature="e#93703#98467#0" expanded="false" />
@@ -1282,10 +1184,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/resource/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="499" column="7" lean-forward="true" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+          <folding>
+            <element signature="e#65#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="141" column="26" lean-forward="false" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+        <state relative-caret-position="154">
+          <caret line="634" column="20" lean-forward="true" selection-start-line="634" selection-start-column="20" selection-end-line="634" selection-end-column="20" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
