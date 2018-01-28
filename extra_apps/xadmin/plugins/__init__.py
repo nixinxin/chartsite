@@ -20,7 +20,7 @@ PLUGINS = (
     'images', 
     'auth', 
     'multiselect', 
-    # 'themes',
+    'themes',
     'aggregation', 
     'mobile', 
     'passwords',

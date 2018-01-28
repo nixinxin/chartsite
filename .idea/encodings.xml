@@ -3,5 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/media/users/image/2016" charset="GBK" />
     <file url="file://$PROJECT_DIR$/media/users/image/default.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/css/animate.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/css/reset.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/css/style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/img/pic404.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/templates/404.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/templates/500.html" charset="GBK" />
   </component>
 </project>

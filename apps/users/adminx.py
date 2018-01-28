@@ -24,6 +24,7 @@ class PhoneCodeAdmin(object):
 class EmailCodeAdmin(object):
     list_display = ['code', 'email', "add_time"]
 
+
 class ImageCodeAdmin(object):
     list_display = ['code', 'image', "add_time"]
 

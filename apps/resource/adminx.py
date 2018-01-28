@@ -329,21 +329,23 @@ class ZgxzqhDbAdmin(object):
 xadmin.site.register(ZgxzqhDb, ZgxzqhDbAdmin)
 
 
+class ZgzynywhycTpInline(object):
+    model = ZgzynywhycTp
+    extra = 0
+
+
 # 中国重要农业文化遗产
 class ZgzynywhYcAdmin(object):
     list_display = ['title', "pici", 'source', 'datetime']
     search_fields = ['title', "pici", "link", 'source', 'clicks', 'datetime', 'content']
     list_filter = ['pici', ]
     ordering = ['title']
+    style_fields = {"content": "ueditor"}
+    inlines = [ZgzynywhycTpInline]
 
-    # class ImagesInline(object):
-    #     model = ZgzynywhycTp
-    #     # exclude = ["image_num", 'pici',]
-    #     extra = 1
-    #     style = 'tab'
-    #
-    # inlines = [ImagesInline]
-    #
+    def queryset(self):
+        qs = super(ZgzynywhYcAdmin, self).queryset()
+        return qs
 
 
 xadmin.site.register(ZgzynywhYc, ZgzynywhYcAdmin)

@@ -4,6 +4,9 @@ from django.db import models
 
 
 # Create your models here.
+from DjangoUeditor.models import UEditorField
+
+
 
 class ResourceList(models.Model):
     """
@@ -21,7 +24,8 @@ class ResourceList(models.Model):
                         (7, "动物"),
                     )
     type = models.IntegerField(blank=False, null=False, choices=CATEGORY_TYPE, db_column='类别', verbose_name='类别')
-    desc = models.TextField(default="", verbose_name="数据描述", help_text="数据描述")
+    desc = UEditorField(verbose_name="数据描述", db_column="数据描述", imagePath="resource/images/",
+                        width=800, height=300, filePath="resource/files/", default='')
     image = models.ImageField(upload_to='chartsite/resource', blank=False, null=False, verbose_name="数据封面", db_column="数据封面")
     click_num = models.IntegerField(default=0, verbose_name="点击数")
     fav_num = models.IntegerField(default=0, verbose_name="收藏数")
@@ -898,7 +902,8 @@ class ZgzynywhYc(models.Model):
     """
     title = models.CharField(max_length=100, blank=True, null=True, db_column='标题', verbose_name='标题')
     pici = models.CharField(max_length=10, blank=True, null=True, db_column='批次', verbose_name='批次')
-    content = models.TextField(blank=True, null=True, db_column='内容', verbose_name='内容')
+    content = UEditorField(verbose_name="内容", db_column="内容", width=800, height=300, default="",
+                           toolbars="full", imagePath="resource/images", filePath="resource/file")
     link = models.CharField(max_length=80, blank=True, null=True, db_column='链接', verbose_name='链接')
     source = models.CharField(max_length=60, blank=True, null=True, db_column='来源', verbose_name='来源')
     clicks = models.CharField(max_length=10, blank=True, null=True, db_column='点击次数', verbose_name='点击次数')
@@ -9690,7 +9695,6 @@ class ZwkjwxDb(models.Model):
     """
     中文农业科技文摘数据库
     """
-    code = models.CharField(max_length=40, blank=True, null=True, db_column='索引', verbose_name='索引', default="")
     author = models.CharField(max_length=512, db_column='作者', verbose_name='作者')
     unit = models.CharField(max_length=512, db_column='作者单位', verbose_name='作者单位')
     qkname = models.CharField(max_length=128, db_column='期刊名称', verbose_name='期刊名称')
@@ -9710,6 +9714,7 @@ class ZwkjwxDb(models.Model):
     ywzy = models.TextField(db_column='英文摘要', verbose_name='英文摘要')
     qkywname = models.CharField(max_length=512, db_column='期刊英文名称', verbose_name='期刊英文名称')
     xmjjname = models.CharField(max_length=512, db_column='项目基金名称', verbose_name='项目基金名称')
+    code = models.CharField(max_length=40, blank=True, null=True, db_column='索引', verbose_name='索引', default="")
 
     class Meta:
         db_table = '中文农业科技文摘数据库'

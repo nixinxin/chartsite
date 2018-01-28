@@ -45,7 +45,7 @@ class Chart(models.Model):
     click_nums = models.IntegerField(default=0, verbose_name="点击数", db_column="点击数")
     fav_nums = models.IntegerField(default=0, verbose_name="收藏数", db_column="收藏数")
     brief = models.TextField(max_length=500, verbose_name="简述", db_column="简述")
-    desc = UEditorField(verbose_name="内容", imagePath="chart/images/", width=1000, height=300,
+    desc = UEditorField(verbose_name="内容", imagePath="chart/images/", width=800, height=300,
                               filePath="chart/files/", default='', db_column="内容")
     is_banner = models.BooleanField(default=False, verbose_name="是否轮播")
     surface = models.ImageField(upload_to="chart/images/", null=True, blank=True, verbose_name="封面图", db_column="封面图")

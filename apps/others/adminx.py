@@ -9,6 +9,7 @@ from .models import News, SiteInfo, RelatedSite
 class NewsAdmin(object):
     list_display = ['id', 'title', "resource", 'display', 'is_hot', 'add_time']
     list_editable = ['title', "resource", 'display', 'is_hot', 'add_time']
+    style_fields = {"content": "ueditor"}
 
 
 xadmin.site.register(News, NewsAdmin)

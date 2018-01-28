@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from django.db import models
+from DjangoUeditor.models import UEditorField
 
 # Create your models here.
 
@@ -11,7 +12,8 @@ class News(models.Model):
     """
     id = models.IntegerField(auto_created=True, primary_key=True, default=1)
     title = models.CharField(max_length=100, verbose_name='标题', db_column="标题")
-    content = models.TextField(null=True, blank=True, verbose_name='内容', db_column="内容")
+    content = UEditorField(verbose_name="内容", db_column="内容", width=800, height=300, default="",
+                           toolbars="full", imagePath="new/images", filePath="new/file")
     resource = models.CharField(max_length=100, null=True, blank=True, verbose_name='来源', db_column="来源")
     display = models.BooleanField(default=False, verbose_name="是否展示", db_column="是否展示")
     is_hot = models.BooleanField(default=False, verbose_name="是否热点", db_column="是否热点")

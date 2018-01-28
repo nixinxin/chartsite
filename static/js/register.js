@@ -133,7 +133,7 @@ $(function () {
             data: {
                 'username': $("[name=username]").val(),
                 'send_type':"register",
-                "csrftoken": function () {
+                "csrfmiddlewaretoken": function () {
                    return $.cookie('csrftoken')
                 }
 

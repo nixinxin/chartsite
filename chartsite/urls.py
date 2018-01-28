@@ -24,6 +24,7 @@ from rest_framework_jwt.views import obtain_jwt_token
 import xadmin
 from chart.views import BannerViewset
 from chartsite.settings import MEDIA_ROOT
+# from chartsite.settings import STATIC_ROOT
 from operation.views import UserFavViewset, FeedBackViewset
 from users.views import *
 from apps.resource.views import *
@@ -232,6 +233,9 @@ urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 
+    # url(r'^static/(?P<path>.*)$',  serve, {"document_root": STATIC_ROOT}),
+
+    # 富文本相关url
     url(r'^ueditor/', include('DjangoUeditor.urls')),
 
     # # 数据列表页
@@ -276,3 +280,8 @@ urlpatterns = [
 
 
 ]
+
+
+# 全局404页面配置
+handler404 = 'users.views.page_not_found'
+handler500 = 'users.views.page_error'
