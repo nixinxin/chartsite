@@ -82,7 +82,7 @@ xadmin.site.register(MytxDb, MytxDbAdmin)
 
 # 中国农业天敌昆虫数据库
 class ZgnytdkcDbAdmin(object):
-    list_display = ["id", "zhname", 'function_class', "gang", 'mu', 'ke']
+    list_display = ["zhname", 'function_class', "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", 'function_class', "gang", 'mu', 'ke', 'jizhu_insect', 'feature']
     list_filter = ["zhname", 'function_class', 'mu']
     ordering = ['id']
@@ -104,7 +104,7 @@ xadmin.site.register(ZgnyyhswDbTp, ZgnyyhswDbTpAdmin)
 
 # 中国农田天敌蜘蛛数据库
 class ZgnttdzzDbAdmin(object):
-    list_display = ["id", 'zhname', 'function_class', 'gang', 'mu', 'ke']
+    list_display = ['zhname', 'function_class', 'gang', 'mu', 'ke']
     search_fields = ["id", 'zhname', 'function_class', 'gang', 'mu', 'ke', 'jizhu_insect', 'jizhu_hazard', 'feature']
     list_filter = ['function_class', 'mu', 'ke']
     ordering = ['id']
@@ -115,7 +115,7 @@ xadmin.site.register(ZgnttdzzDb, ZgnttdzzDbAdmin)
 
 # 中国农田害鼠数据库
 class ZgnthsDbAdmin(object):
-    list_display = ["id", "zhname", 'alias', 'enemy', 'gang', 'mu', 'ke']
+    list_display = ["zhname", 'alias', 'enemy', 'gang', 'mu', 'ke']
     search_fields = ["id", "zhname", 'alias', 'enemy', 'gang', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'feature', 'xuename']
     list_filter = ['mu', 'ke']
     ordering = ['id']
@@ -126,7 +126,7 @@ xadmin.site.register(ZgnthsDb, ZgnthsDbAdmin)
 
 # 中国叶菜类蔬菜害虫数据库
 class ZgyclschcDbAdmin(object):
-    list_display = ["id", "zhname", 'gang', 'mu', 'ke']
+    list_display = ["zhname", 'gang', 'mu', 'ke']
     search_fields = ["id", "zhname", 'enemy', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'feature', 'xuename']
     list_filter = ['mu']
     ordering = ['id']
@@ -137,7 +137,7 @@ xadmin.site.register(ZgyclschcDb, ZgyclschcDbAdmin)
 
 # 中国外来入侵微生物数据库
 class ZgwlrqwswDbAdmin(object):
-    list_display = ["id", "zhname", 'source', 'mu', 'ke', 'shu']
+    list_display = ["zhname", 'source', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'ke', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'xuename']
     list_filter = ['mu', ]
     ordering = ['id']
@@ -148,7 +148,7 @@ xadmin.site.register(ZgwlrqwswDb, ZgwlrqwswDbAdmin)
 
 # 中国外来入侵昆虫数据库
 class ZgwlrqkcDbAdmin(object):
-    list_display = ["id", "zhname", 'source', 'mu', 'ke', 'shu']
+    list_display = ["zhname", 'source', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'ke', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'xuename']
     list_filter = ['mu', ]
     ordering = ['id']
@@ -159,7 +159,7 @@ xadmin.site.register(ZgwlrqkcDb, ZgwlrqkcDbAdmin)
 
 # 中国外来入侵植物数据库
 class ZgwlrqzwDbAdmin(object):
-    list_display = ["id", "zhname", 'source', 'men', 'mu', 'ke', 'shu']
+    list_display = ["zhname", 'source', 'men', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'men', 'ke', 'mu', 'ke', 'hazard_feature', 'xuename']
     ordering = ['id']
 
@@ -169,7 +169,7 @@ xadmin.site.register(ZgwlrqzwDb, ZgwlrqzwDbAdmin)
 
 # 中国旱地杂草数据库
 class ZghdzcDbAdmin(object):
-    list_display = ["id", "zhname",  'mu', 'ke', 'shu']
+    list_display = ["zhname",  'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -179,7 +179,7 @@ xadmin.site.register(ZghdzcDb, ZghdzcDbAdmin)
 
 # 中国旱粮作物害虫数据库
 class ZghlzwhcDbAdmin(object):
-    list_display = ["id", "zhname", 'mu', 'ke']
+    list_display = ["zhname", 'mu', 'ke']
     search_fields = ["id", "zhname", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -189,7 +189,7 @@ xadmin.site.register(ZghlzwhcDb, ZghlzwhcDbAdmin)
 
 # 中国果菜类蔬菜害虫数据库
 class ZggslschcDbAdmin(object):
-    list_display = ["id", "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", "gang", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -199,7 +199,7 @@ xadmin.site.register(ZggslschcDb, ZggslschcDbAdmin)
 
 # 中国柑桔害虫数据库
 class ZggjhcDbAdmin(object):
-    list_display = ["id", "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", "gang", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -209,7 +209,7 @@ xadmin.site.register(ZggjhcDb, ZggjhcDbAdmin)
 
 # 中国棉花害虫数据库
 class ZgmhhcDbAdmin(object):
-    list_display = ["id", "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", "gang", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -219,7 +219,7 @@ xadmin.site.register(ZgmhhcDb, ZgmhhcDbAdmin)
 
 # 中国水田杂草数据库
 class ZgstzcDbAdmin(object):
-    list_display = ["id", "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", "gang", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -229,7 +229,7 @@ xadmin.site.register(ZgstzcDb, ZgstzcDbAdmin)
 
 # 中国水稻害虫数据库
 class ZgsdhcDbAdmin(object):
-    list_display = ["id", "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ["id", "zhname", "gang", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
 
@@ -239,8 +239,8 @@ xadmin.site.register(ZgsdhcDb, ZgsdhcDbAdmin)
 
 # 中国特色农产品
 class ZgtsNcpAdmin(object):
-    list_display = ['id', "title", "location", "feature", 'brands']
-    search_fields = ['id', "title", "location", "feature", 'brands']
+    list_display = ["title", "location", "feature", 'brands']
+    search_fields = ["title", "location", "feature", 'brands']
     list_filter = ["title", 'location', "feature", 'brands']
     ordering = ['id']
 
@@ -250,7 +250,7 @@ xadmin.site.register(ZgtsNcp, ZgtsNcpAdmin)
 
 # 中国粮食作物病毒病害数据库
 class ZglszwbdbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'symptom', 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -260,7 +260,7 @@ xadmin.site.register(ZglszwbdbhDb, ZglszwbdbhDbAdmin)
 
 # 中国粮食作物真菌病害数据库
 class ZglszwzjbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -270,7 +270,7 @@ xadmin.site.register(ZglszwzjbhDb, ZglszwzjbhDbAdmin)
 
 # 中国粮食作物细菌病害数据库
 class ZglszwxjbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -280,7 +280,7 @@ xadmin.site.register(ZglszwxjbhDb, ZglszwxjbhDbAdmin)
 
 # 中国经济作物病毒病害数据库
 class ZgjjzwbdbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -290,7 +290,7 @@ xadmin.site.register(ZgjjzwbdbhDb, ZgjjzwbdbhDbAdmin)
 
 # 中国经济作物真菌病害数据库
 class ZgjjzwzjbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -300,7 +300,7 @@ xadmin.site.register(ZgjjzwzjbhDb, ZgjjzwzjbhDbAdmin)
 
 # 中国经济作物细菌病害数据库
 class ZgjjzwxjbhDbAdmin(object):
-    list_display = ['id', "zhname", "byzhname", "major_hazard", 'disease_type']
+    list_display = ["zhname", "byzhname", "major_hazard", 'disease_type']
     search_fields = ['id', "zhname", "byzhname", "byxuename", 'disease_type', "major_hazard", "hazard_buwei"]
     ordering = ['id']
 
@@ -310,7 +310,7 @@ xadmin.site.register(ZgjjzwxjbhDb, ZgjjzwxjbhDbAdmin)
 
 # 中国苹果桃梨害虫数据库
 class ZgpgtlhcDbAdmin(object):
-    list_display = ['id', "zhname", "gang", 'mu', 'ke']
+    list_display = ["zhname", "gang", 'mu', 'ke']
     search_fields = ['id', "zhname", "enemy", "gang", 'mu', 'ke']
     ordering = ['id']
 
@@ -343,9 +343,7 @@ class ZgzynywhYcAdmin(object):
     style_fields = {"content": "ueditor"}
     inlines = [ZgzynywhycTpInline]
 
-    def queryset(self):
-        qs = super(ZgzynywhYcAdmin, self).queryset()
-        return qs
+
 
 
 xadmin.site.register(ZgzynywhYc, ZgzynywhYcAdmin)

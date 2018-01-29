@@ -5,517 +5,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8cdb65e-76b6-41bd-b480-be7d44514255" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/others/migrations/0002_auto_20180128_2118.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/resource/migrations/0006_auto_20180128_2209.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/pic404.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/UEditorSnapscreen.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeButton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeCombox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeDialog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/charts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/completeDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customPluginDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customToolbarDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customizeDialogPage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customizeToolbarUIDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/editor_api.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/filterRuleDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/highlightDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/jqueryCompleteDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/jqueryValidation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/multiDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/multiEditorWithOneInstance.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/renderInTable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/resetDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/sectiondemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.ashx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.asp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/setWidthHeightDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/simpleDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/sortableDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/submitFormDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/textareaDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/uparsedemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/anchor/anchor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/alignicon.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/alignicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/file-icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/file-icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/success.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/images/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/chart.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/bface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/cface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/fface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/jxface2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/tface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/wface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/yface.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/gmap/gmap.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/alignicon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/success.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/insertframe/insertframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/internal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/link/link.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map/map.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map/show.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/preview/preview.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/addimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/brush.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/delimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/delimgH.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/empty.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/emptyH.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/eraser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/redo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/redoH.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/scale.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/scaleH.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/size.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/undo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/undoH.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/searchreplace/searchreplace.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/searchreplace/searchreplace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/snapscreen/snapscreen.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/dragicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittip.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/center_focus.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/file-icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/file-icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/left_focus.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/none_focus.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/right_focus.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/success.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/webapp/webapp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/imageUploader.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/tangram.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/wordimage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/wordimage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/addimage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/alldeletebtnupskin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/copy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/deletedisable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/deleteenable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/listbackground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/localimage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/music.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotateleftdisable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotateleftenable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotaterightdisable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotaterightenable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/upload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/copy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/localimage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/music.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/upload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/zh-cn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/Uploader.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_crawler.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_upload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/config.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/controller.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css/ueditor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css/ueditor.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/dialogbase.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/anchor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_up.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/button-bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cancelbutton.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/charts.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/dialog-title-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/fileScan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/highlighted.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons-all.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/loaderror.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/lock.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/neweditor-tab-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/pagebreak.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/scale.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/sortable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/spacer.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/sparator_v.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/table-cell-align.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/tangram-colorpicker.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/toolbar_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/unhighlighted.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/upload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/videologo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/word.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/wordpaste.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/iframe.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/annotations.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/canvas-tools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/drilldown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/funnel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/heatmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/map.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video.dev.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/Uploader.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.custom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.custom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.flashonly.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.html5only.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.all.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.parse.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-xadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.form.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.page.dashboard.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.aggregation.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.formset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.quickfilter.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugins.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.responsive.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.editable.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.select-transfer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.dashboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.batch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.bookmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.charts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.details.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.editable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.filters.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.formset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.portal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quick-form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quickfilter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.refresh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.revision.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.sortablelist.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.themes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.responsive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.datetime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.multiselect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select-transfer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/autotype/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.colorhelpers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.aggregate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.categories.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.crosshair.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.errorbars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.navigate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.resize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.selection.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.stack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.symbol.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.threshold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2-spinner.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_eu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-PT.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-hans.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2x2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.default.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.legacy.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/chart/models.py" afterPath="$PROJECT_DIR$/apps/chart/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/others/adminx.py" afterPath="$PROJECT_DIR$/apps/others/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/apps/others/models.py" afterPath="$PROJECT_DIR$/apps/others/models.py" />
       <change beforePath="$PROJECT_DIR$/apps/resource/adminx.py" afterPath="$PROJECT_DIR$/apps/resource/adminx.py" />
       <change beforePath="$PROJECT_DIR$/apps/resource/models.py" afterPath="$PROJECT_DIR$/apps/resource/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/settings.py" afterPath="$PROJECT_DIR$/chartsite/settings.py" />
-      <change beforePath="$PROJECT_DIR$/chartsite/urls.py" afterPath="$PROJECT_DIR$/chartsite/urls.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" />
-      <change beforePath="$PROJECT_DIR$/static/js/register.js" afterPath="$PROJECT_DIR$/static/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南剑川稻麦复种系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南剑川稻麦复种系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南双江勐库古茶园与茶文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南双江勐库古茶园与茶文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南广南八宝稻作生态系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南广南八宝稻作生态系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南普洱古茶园与茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南普洱古茶园与茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南漾濞核桃-作物复合系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南漾濞核桃-作物复合系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/云南红河哈尼稻作梯田系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/云南红河哈尼稻作梯田系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古敖汉旱作农业系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古敖汉旱作农业系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古敖汉旱作农业系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古敖汉旱作农业系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古阿鲁科尔沁草原游牧系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/内蒙古阿鲁科尔沁草原游牧系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/北京京西稻作文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/北京京西稻作文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/北京京西稻作文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/北京京西稻作文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/北京平谷四座楼麻核桃生产系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/北京平谷四座楼麻核桃生产系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/北京平谷四座楼麻核桃生产系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/北京平谷四座楼麻核桃生产系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/吉林延边苹果梨栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/吉林延边苹果梨栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/吉林延边苹果梨栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/吉林延边苹果梨栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/四川江油辛夷花传统栽培体系.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/四川江油辛夷花传统栽培体系.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/四川美姑苦荞栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/四川美姑苦荞栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/四川美姑苦荞栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/四川美姑苦荞栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/四川苍溪雪梨栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/四川苍溪雪梨栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/四川苍溪雪梨栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/四川苍溪雪梨栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/天津滨海崔庄古冬枣园.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/天津滨海崔庄古冬枣园.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/宁夏中宁枸杞种植系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/宁夏中宁枸杞种植系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/宁夏灵武长枣种植系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/宁夏灵武长枣种植系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/安徽休宁山泉流水养鱼系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/安徽休宁山泉流水养鱼系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/安徽休宁山泉流水养鱼系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/安徽休宁山泉流水养鱼系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/安徽寿县芍陂（安丰塘）及灌区农业系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/安徽寿县芍陂（安丰塘）及灌区农业系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/安徽寿县芍陂（安丰塘）及灌区农业系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/安徽寿县芍陂（安丰塘）及灌区农业系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/山东乐陵枣林复合系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/山东乐陵枣林复合系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/山东乐陵枣林复合系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/山东乐陵枣林复合系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/山东夏津黄河故道古桑树群.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/山东夏津黄河故道古桑树群.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/山东枣庄古枣林(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/山东枣庄古枣林(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/山东枣庄古枣林.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/山东枣庄古枣林.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/广东潮安凤凰单丛茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/广东潮安凤凰单丛茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/广西隆安壮族“那文化”稻作文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/广西隆安壮族“那文化”稻作文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/广西隆安壮族“那文化”稻作文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/广西隆安壮族“那文化”稻作文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/广西龙胜龙脊梯田系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/广西龙胜龙脊梯田系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/新疆吐鲁番坎儿井农业系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/新疆吐鲁番坎儿井农业系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/新疆哈密市哈密瓜栽培与贡瓜文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/新疆哈密市哈密瓜栽培与贡瓜文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/新疆奇台旱作农业系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/新疆奇台旱作农业系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江苏兴化垛田传统农业系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江苏兴化垛田传统农业系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江苏兴化垛田传统农业系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江苏兴化垛田传统农业系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江苏泰兴银杏栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江苏泰兴银杏栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江苏泰兴银杏栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江苏泰兴银杏栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江西万年稻作文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江西万年稻作文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/江西崇义客家梯田系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/江西崇义客家梯田系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河北宣化传统葡萄园(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河北宣化传统葡萄园(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河北宣化传统葡萄园.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河北宣化传统葡萄园.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河北宽城传统板栗栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河北宽城传统板栗栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河北涉县旱作梯田系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河北涉县旱作梯田系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河南灵宝川塬古枣林(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河南灵宝川塬古枣林(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/河南灵宝川塬古枣林.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/河南灵宝川塬古枣林.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江云和梯田农业系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江云和梯田农业系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江云和梯田农业系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江云和梯田农业系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江仙居杨梅栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江仙居杨梅栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江仙居杨梅栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江仙居杨梅栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江庆元香菇文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江庆元香菇文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江杭州西湖龙井茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江杭州西湖龙井茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江湖州桑基鱼塘系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江湖州桑基鱼塘系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江绍兴会稽山古香榧群.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江绍兴会稽山古香榧群.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/浙江青田稻鱼共生系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/浙江青田稻鱼共生系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/湖北恩施玉露茶文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/湖北恩施玉露茶文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/湖北恩施玉露茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/湖北恩施玉露茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/湖北赤壁羊楼洞砖茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/湖北赤壁羊楼洞砖茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/湖南新化紫鹊界梯田.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/湖南新化紫鹊界梯田.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/湖南新晃侗藏红米种植系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/湖南新晃侗藏红米种植系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/甘肃岷县当归种植系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/甘肃岷县当归种植系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/甘肃永登苦水玫瑰农作系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/甘肃永登苦水玫瑰农作系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/甘肃皋兰什川古梨园.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/甘肃皋兰什川古梨园.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/甘肃迭部扎尕那农林牧复合系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/甘肃迭部扎尕那农林牧复合系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/福建安溪铁观音茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/福建安溪铁观音茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/福建尤溪联合梯田.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/福建尤溪联合梯田.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/福建福州茉莉花种植与茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/福建福州茉莉花种植与茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/贵州从江侗乡稻鱼鸭复合系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/贵州从江侗乡稻鱼鸭复合系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/贵州花溪古茶树与茶文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/贵州花溪古茶树与茶文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/贵州花溪古茶树与茶文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/贵州花溪古茶树与茶文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/辽宁宽甸柱参传统栽培体系.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/辽宁宽甸柱参传统栽培体系.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/辽宁桓仁京租稻栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/辽宁桓仁京租稻栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/辽宁桓仁京租稻栽培系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/辽宁桓仁京租稻栽培系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/辽宁鞍山南果梨栽培系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/辽宁鞍山南果梨栽培系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/陕西佳县古枣园.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/陕西佳县古枣园.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江宁安响水稻作文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江宁安响水稻作文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江宁安响水稻作文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江宁安响水稻作文化系统.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江托远赫哲族鱼文化系统(1).jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江托远赫哲族鱼文化系统(1).jpg" />
+      <change beforePath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江托远赫哲族鱼文化系统.jpg" afterPath="$PROJECT_DIR$/media/agridata/images/culture/黑龙江托远赫哲族鱼文化系统.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -535,6 +111,7 @@
     <SUITE FILE_PATH="coverage/chartsite$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1511528146068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chartsite$.coverage" NAME="作物物种分布数据库 Coverage Results" MODIFIED="1514870147249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data_to_mysql/insert_into" />
     <SUITE FILE_PATH="coverage/chartsite$views.coverage" NAME="views Coverage Results" MODIFIED="1515738508628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/resource" />
+    <SUITE FILE_PATH="coverage/chartsite$spider.coverage" NAME="spider Coverage Results" MODIFIED="1517205621671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/statics/中国重要农业文化遗产" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -556,8 +133,31 @@
       <file leaf-file-name="adminx.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/resource/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="346" column="48" lean-forward="false" selection-start-line="346" selection-start-column="48" selection-end-line="346" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="221" column="49" lean-forward="true" selection-start-line="221" selection-start-column="49" selection-end-line="221" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/statics/中国重要农业文化遗产/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding>
+                <element signature="e#1854#1889#0" expanded="false" />
+                <element signature="e#2490#2509#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encoding.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/utils/encoding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -566,10 +166,9 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="920" column="6" lean-forward="false" selection-start-line="920" selection-start-column="6" selection-end-line="920" selection-end-column="6" />
+            <state relative-caret-position="9234">
+              <caret line="637" column="11" lean-forward="false" selection-start-line="637" selection-start-column="6" selection-end-line="637" selection-end-column="13" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
                 <element signature="e#1746#3897#0" expanded="false" />
                 <element signature="e#5190#5914#0" expanded="false" />
                 <element signature="e#5956#7112#0" expanded="false" />
@@ -578,46 +177,47 @@
                 <element signature="e#9190#10895#0" expanded="false" />
                 <element signature="e#10936#11440#0" expanded="false" />
                 <element signature="e#50799#51507#0" expanded="false" />
-                <element signature="e#53257#53764#0" expanded="false" />
-                <element signature="e#53805#55680#0" expanded="false" />
-                <element signature="e#55715#57098#0" expanded="false" />
-                <element signature="e#57139#64409#0" expanded="false" />
-                <element signature="e#64450#69200#0" expanded="false" />
-                <element signature="e#69241#74089#0" expanded="false" />
-                <element signature="e#74127#74699#0" expanded="false" />
-                <element signature="e#74740#78696#0" expanded="false" />
-                <element signature="e#78732#79129#0" expanded="false" />
-                <element signature="e#79168#80342#0" expanded="false" />
-                <element signature="e#90422#93926#0" expanded="false" />
-                <element signature="e#93959#98723#0" expanded="false" />
-                <element signature="e#98762#101945#0" expanded="false" />
-                <element signature="e#101985#105424#0" expanded="false" />
-                <element signature="e#105463#108941#0" expanded="false" />
-                <element signature="e#108980#111581#0" expanded="false" />
-                <element signature="e#111617#115218#0" expanded="false" />
-                <element signature="e#115253#118491#0" expanded="false" />
-                <element signature="e#118527#121139#0" expanded="false" />
-                <element signature="e#121175#126952#0" expanded="false" />
-                <element signature="e#126987#130479#0" expanded="false" />
-                <element signature="e#130518#133132#0" expanded="false" />
-                <element signature="e#133169#139118#0" expanded="false" />
-                <element signature="e#139157#142626#0" expanded="false" />
-                <element signature="e#142660#153121#0" expanded="false" />
-                <element signature="e#153159#156503#0" expanded="false" />
-                <element signature="e#156536#159334#0" expanded="false" />
-                <element signature="e#159375#165256#0" expanded="false" />
-                <element signature="e#165293#170454#0" expanded="false" />
-                <element signature="e#170489#173634#0" expanded="false" />
-                <element signature="e#173668#180471#0" expanded="false" />
-                <element signature="e#180508#201937#0" expanded="false" />
-                <element signature="e#201970#205793#0" expanded="false" />
-                <element signature="e#205837#210043#0" expanded="false" />
-                <element signature="e#210080#214999#0" expanded="false" />
-                <element signature="e#215039#220817#0" expanded="false" />
-                <element signature="e#220853#232131#0" expanded="false" />
-                <element signature="e#232167#250441#0" expanded="false" />
-                <element signature="e#250487#256430#0" expanded="false" />
-                <element signature="e#256466#259756#0" expanded="false" />
+                <element signature="e#52603#53226#0" expanded="false" />
+                <element signature="e#53263#53770#0" expanded="false" />
+                <element signature="e#53811#55686#0" expanded="false" />
+                <element signature="e#55721#57104#0" expanded="false" />
+                <element signature="e#57145#64415#0" expanded="false" />
+                <element signature="e#64456#69206#0" expanded="false" />
+                <element signature="e#69247#74095#0" expanded="false" />
+                <element signature="e#74133#74705#0" expanded="false" />
+                <element signature="e#74746#78702#0" expanded="false" />
+                <element signature="e#78738#79135#0" expanded="false" />
+                <element signature="e#79174#80348#0" expanded="false" />
+                <element signature="e#90428#93932#0" expanded="false" />
+                <element signature="e#93965#98729#0" expanded="false" />
+                <element signature="e#98768#101951#0" expanded="false" />
+                <element signature="e#101991#105430#0" expanded="false" />
+                <element signature="e#105469#108947#0" expanded="false" />
+                <element signature="e#108986#111587#0" expanded="false" />
+                <element signature="e#111623#115224#0" expanded="false" />
+                <element signature="e#115259#118497#0" expanded="false" />
+                <element signature="e#118533#121145#0" expanded="false" />
+                <element signature="e#121181#126958#0" expanded="false" />
+                <element signature="e#126993#130485#0" expanded="false" />
+                <element signature="e#130524#133138#0" expanded="false" />
+                <element signature="e#133175#139124#0" expanded="false" />
+                <element signature="e#139163#142632#0" expanded="false" />
+                <element signature="e#142666#153127#0" expanded="false" />
+                <element signature="e#153165#156509#0" expanded="false" />
+                <element signature="e#156542#159340#0" expanded="false" />
+                <element signature="e#159381#165262#0" expanded="false" />
+                <element signature="e#165299#170460#0" expanded="false" />
+                <element signature="e#170495#173640#0" expanded="false" />
+                <element signature="e#173674#180477#0" expanded="false" />
+                <element signature="e#180514#201943#0" expanded="false" />
+                <element signature="e#201976#205799#0" expanded="false" />
+                <element signature="e#205843#210049#0" expanded="false" />
+                <element signature="e#210086#215005#0" expanded="false" />
+                <element signature="e#215045#220823#0" expanded="false" />
+                <element signature="e#220859#232137#0" expanded="false" />
+                <element signature="e#232173#250447#0" expanded="false" />
+                <element signature="e#250493#256436#0" expanded="false" />
+                <element signature="e#256472#259762#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -646,8 +246,8 @@
       <file leaf-file-name="multiselect.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+            <state relative-caret-position="1672">
+              <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -667,7 +267,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>中国农田天敌蜘蛛数据库</find>
       <find>NygjtpDb</find>
       <find>resource</find>
       <find>作</find>
@@ -695,8 +294,9 @@
       <find>ZgzynywhYc</find>
       <find>m2m_transfe</find>
       <find>遗产</find>
-      <find>content</find>
       <find>m2m</find>
+      <find>content</find>
+      <find>特色</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -717,7 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/utils/code.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/forms.py" />
         <option value="$PROJECT_DIR$/apps/chart/adminx.py" />
         <option value="$PROJECT_DIR$/apps/resources/__init__.py" />
@@ -767,6 +366,7 @@
         <option value="$PROJECT_DIR$/apps/chart/models.py" />
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/resource/models.py" />
+        <option value="F:/statics/中国重要农业文化遗产/spider.py" />
         <option value="$PROJECT_DIR$/apps/resource/adminx.py" />
       </list>
     </option>
@@ -778,8 +378,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1153" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -825,6 +425,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -835,47 +436,29 @@
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chartsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chartsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../culture" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="JSONWebTokenAuthentication&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="ZgtsNcp&#9;null&#9;null&#10;JSONWebTokenAuthentication&#9;null&#9;null" />
     <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
@@ -887,11 +470,11 @@
       <recent name="H:\pycharm\chartsite\apps\resource" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\pycharm\chartsite\media\agridata\images\culture" />
       <recent name="H:\pycharm\chartsite\static" />
       <recent name="H:\pycharm\chartsite\extra_apps" />
       <recent name="H:\pycharm\chartsite\static\css" />
       <recent name="H:\pycharm\chartsite\static\img" />
-      <recent name="H:\pycharm\chartsite\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -913,25 +496,6 @@
     </configuration>
     <configuration name="csvhtml.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/templates/csvhtml.html" />
     <configuration name="test.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chartsite/templates/test.html" />
-    <configuration name="作物物种分布数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../data_to_mysql/insert_into" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chartsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../data_to_mysql/insert_into/作物物种分布数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="0032_nykjzcfgdb_wwkjwxdb_xqfzffdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -946,6 +510,25 @@
       <module name="chartsite" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/resource/migrations/0032_nykjzcfgdb_wwkjwxdb_xqfzffdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/statics/中国重要农业文化遗产" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chartsite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/statics/中国重要农业文化遗产/spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -998,17 +581,17 @@
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.chartsite JavaScript" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.csvhtml.html" />
-      <item index="4" class="java.lang.String" itemvalue="Python.作物物种分布数据库" />
-      <item index="5" class="java.lang.String" itemvalue="Python.views" />
-      <item index="6" class="java.lang.String" itemvalue="Python.0032_nykjzcfgdb_wwkjwxdb_xqfzffdb" />
+      <item index="4" class="java.lang.String" itemvalue="Python.views" />
+      <item index="5" class="java.lang.String" itemvalue="Python.0032_nykjzcfgdb_wwkjwxdb_xqfzffdb" />
+      <item index="6" class="java.lang.String" itemvalue="Python.spider" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.0032_nykjzcfgdb_wwkjwxdb_xqfzffdb" />
-        <item index="1" class="java.lang.String" itemvalue="Python.views" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.csvhtml.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.作物物种分布数据库" />
+        <item index="0" class="java.lang.String" itemvalue="Python.spider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.0032_nykjzcfgdb_wwkjwxdb_xqfzffdb" />
+        <item index="2" class="java.lang.String" itemvalue="Python.views" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.csvhtml.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,13 +608,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511163997774</updated>
-    </task>
-    <task id="LOCAL-00010" summary="更改了后台管理页面语言显示问题">
-      <created>1512552286314</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1512552286314</updated>
     </task>
     <task id="LOCAL-00011" summary="更改了后台管理页面语言显示问题">
       <created>1512552485059</created>
@@ -1369,7 +945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516325585852</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="更新resource 资源接口">
+      <created>1517149900050</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1517149900051</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1382,17 +965,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1153" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35214448" sideWeight="0.23135756" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261851" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32054177" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20428894" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3302836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6291028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939052" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1404,6 +986,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2877493" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939052" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1413,23 +996,23 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182845" sideWeight="0.24919923" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2877493" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35214448" sideWeight="0.23135756" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2877493" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26523703" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49571183" sideWeight="0.6499652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20446928" sideWeight="0.4904051" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31244636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20428894" sideWeight="0.4904051" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2730711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27088037" sideWeight="0.49707603" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@chartsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939052" sideWeight="0.49707603" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069977" sideWeight="0.49574468" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16591422" sideWeight="0.7508008" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35214448" sideWeight="0.7686424" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -1554,8 +1137,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0017_yjnydb.py" />
-    <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0016_zwkjwxdb.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0032_nykjzcfgdb_wwkjwxdb_xqfzffdb.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0040_auto_20180118_1444.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0036_wwkjwxdb.py" />
@@ -1672,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9405">
           <caret line="495" column="0" lean-forward="false" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,9 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#436#522#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1690,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,7 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="451" column="6" lean-forward="false" selection-start-line="451" selection-start-column="6" selection-end-line="451" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1714,7 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,7 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1730,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1746,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1104">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1762,14 +1331,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="1672">
+          <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1790,12 +1358,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/django/utils/encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="920" column="6" lean-forward="false" selection-start-line="920" selection-start-column="6" selection-end-line="920" selection-end-column="6" />
+        <state relative-caret-position="9234">
+          <caret line="637" column="11" lean-forward="false" selection-start-line="637" selection-start-column="6" selection-end-line="637" selection-end-column="13" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
             <element signature="e#1746#3897#0" expanded="false" />
             <element signature="e#5190#5914#0" expanded="false" />
             <element signature="e#5956#7112#0" expanded="false" />
@@ -1804,54 +1379,66 @@
             <element signature="e#9190#10895#0" expanded="false" />
             <element signature="e#10936#11440#0" expanded="false" />
             <element signature="e#50799#51507#0" expanded="false" />
-            <element signature="e#53257#53764#0" expanded="false" />
-            <element signature="e#53805#55680#0" expanded="false" />
-            <element signature="e#55715#57098#0" expanded="false" />
-            <element signature="e#57139#64409#0" expanded="false" />
-            <element signature="e#64450#69200#0" expanded="false" />
-            <element signature="e#69241#74089#0" expanded="false" />
-            <element signature="e#74127#74699#0" expanded="false" />
-            <element signature="e#74740#78696#0" expanded="false" />
-            <element signature="e#78732#79129#0" expanded="false" />
-            <element signature="e#79168#80342#0" expanded="false" />
-            <element signature="e#90422#93926#0" expanded="false" />
-            <element signature="e#93959#98723#0" expanded="false" />
-            <element signature="e#98762#101945#0" expanded="false" />
-            <element signature="e#101985#105424#0" expanded="false" />
-            <element signature="e#105463#108941#0" expanded="false" />
-            <element signature="e#108980#111581#0" expanded="false" />
-            <element signature="e#111617#115218#0" expanded="false" />
-            <element signature="e#115253#118491#0" expanded="false" />
-            <element signature="e#118527#121139#0" expanded="false" />
-            <element signature="e#121175#126952#0" expanded="false" />
-            <element signature="e#126987#130479#0" expanded="false" />
-            <element signature="e#130518#133132#0" expanded="false" />
-            <element signature="e#133169#139118#0" expanded="false" />
-            <element signature="e#139157#142626#0" expanded="false" />
-            <element signature="e#142660#153121#0" expanded="false" />
-            <element signature="e#153159#156503#0" expanded="false" />
-            <element signature="e#156536#159334#0" expanded="false" />
-            <element signature="e#159375#165256#0" expanded="false" />
-            <element signature="e#165293#170454#0" expanded="false" />
-            <element signature="e#170489#173634#0" expanded="false" />
-            <element signature="e#173668#180471#0" expanded="false" />
-            <element signature="e#180508#201937#0" expanded="false" />
-            <element signature="e#201970#205793#0" expanded="false" />
-            <element signature="e#205837#210043#0" expanded="false" />
-            <element signature="e#210080#214999#0" expanded="false" />
-            <element signature="e#215039#220817#0" expanded="false" />
-            <element signature="e#220853#232131#0" expanded="false" />
-            <element signature="e#232167#250441#0" expanded="false" />
-            <element signature="e#250487#256430#0" expanded="false" />
-            <element signature="e#256466#259756#0" expanded="false" />
+            <element signature="e#52603#53226#0" expanded="false" />
+            <element signature="e#53263#53770#0" expanded="false" />
+            <element signature="e#53811#55686#0" expanded="false" />
+            <element signature="e#55721#57104#0" expanded="false" />
+            <element signature="e#57145#64415#0" expanded="false" />
+            <element signature="e#64456#69206#0" expanded="false" />
+            <element signature="e#69247#74095#0" expanded="false" />
+            <element signature="e#74133#74705#0" expanded="false" />
+            <element signature="e#74746#78702#0" expanded="false" />
+            <element signature="e#78738#79135#0" expanded="false" />
+            <element signature="e#79174#80348#0" expanded="false" />
+            <element signature="e#90428#93932#0" expanded="false" />
+            <element signature="e#93965#98729#0" expanded="false" />
+            <element signature="e#98768#101951#0" expanded="false" />
+            <element signature="e#101991#105430#0" expanded="false" />
+            <element signature="e#105469#108947#0" expanded="false" />
+            <element signature="e#108986#111587#0" expanded="false" />
+            <element signature="e#111623#115224#0" expanded="false" />
+            <element signature="e#115259#118497#0" expanded="false" />
+            <element signature="e#118533#121145#0" expanded="false" />
+            <element signature="e#121181#126958#0" expanded="false" />
+            <element signature="e#126993#130485#0" expanded="false" />
+            <element signature="e#130524#133138#0" expanded="false" />
+            <element signature="e#133175#139124#0" expanded="false" />
+            <element signature="e#139163#142632#0" expanded="false" />
+            <element signature="e#142666#153127#0" expanded="false" />
+            <element signature="e#153165#156509#0" expanded="false" />
+            <element signature="e#156542#159340#0" expanded="false" />
+            <element signature="e#159381#165262#0" expanded="false" />
+            <element signature="e#165299#170460#0" expanded="false" />
+            <element signature="e#170495#173640#0" expanded="false" />
+            <element signature="e#173674#180477#0" expanded="false" />
+            <element signature="e#180514#201943#0" expanded="false" />
+            <element signature="e#201976#205799#0" expanded="false" />
+            <element signature="e#205843#210049#0" expanded="false" />
+            <element signature="e#210086#215005#0" expanded="false" />
+            <element signature="e#215045#220823#0" expanded="false" />
+            <element signature="e#220859#232137#0" expanded="false" />
+            <element signature="e#232173#250447#0" expanded="false" />
+            <element signature="e#250493#256436#0" expanded="false" />
+            <element signature="e#256472#259762#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/statics/中国重要农业文化遗产/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="e#1854#1889#0" expanded="false" />
+            <element signature="e#2490#2509#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/resource/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="346" column="48" lean-forward="false" selection-start-line="346" selection-start-column="48" selection-end-line="346" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="221" column="49" lean-forward="true" selection-start-line="221" selection-start-column="49" selection-end-line="221" selection-end-column="49" />
           <folding />
         </state>
       </provider>
