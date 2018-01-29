@@ -35,6 +35,9 @@ $(function() {
                         "hashkey": function(){
                             return $("#id_captcha_0").val()
                         },
+                        "csrfmiddlewaretoken": function(){
+                            return $("input[name=csrfmiddlewaretoken]").val()
+                        }
                     },
                     }
                 },

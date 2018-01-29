@@ -465,7 +465,7 @@ class ResourceListAdmin(object):
 xadmin.site.register(ResourceList, ResourceListAdmin)
 
 
-# 数据资源列表
+# 农业古籍图片数据库
 class NygjtpDbAdmin(object):
     list_display = ['id', 'reportid', "image", 'page']
     ordering = ['id', ]

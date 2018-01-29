@@ -7,12 +7,11 @@ from django.db import models
 from DjangoUeditor.models import UEditorField
 
 
-
 class ResourceList(models.Model):
     """
     数据资源列表
     """
-    title = models.CharField(max_length=30, blank=False, null=True, db_column='标题', verbose_name='标题')
+    title = models.CharField(max_length=30, blank=False, null=False, db_column='标题', verbose_name='标题')
     CATEGORY_TYPE = (
                         (1, "农业"),
                         (2, "林业"),
@@ -26,7 +25,7 @@ class ResourceList(models.Model):
     type = models.IntegerField(blank=False, null=False, choices=CATEGORY_TYPE, db_column='类别', verbose_name='类别')
     desc = UEditorField(verbose_name="数据描述", db_column="数据描述", imagePath="resource/images/",
                         width=800, height=300, filePath="resource/files/", default='')
-    image = models.ImageField(upload_to='chartsite/resource', blank=False, null=False, verbose_name="数据封面", db_column="数据封面")
+    image = models.ImageField(upload_to='resource/images', blank=True, null=True, verbose_name="数据封面", db_column="数据封面")
     click_num = models.IntegerField(default=0, verbose_name="点击数")
     fav_num = models.IntegerField(default=0, verbose_name="收藏数")
     is_tab = models.BooleanField(default=False, verbose_name="是否导航", db_column="是否导航")

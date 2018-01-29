@@ -1,7 +1,7 @@
 import os
 from datetime import datetime, timedelta
 from captcha.models import CaptchaStore
-from django.contrib.auth import get_user_model, authenticate, login
+from django.contrib.auth import get_user_model, authenticate, login, logout
 from random import choice, Random
 from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.hashers import make_password
@@ -370,6 +370,18 @@ class LoginView(View):
             return render(request, "user/login.html", {"login_form": login_form})
 
 
+class LogoutView(View):
+    """
+    用户登出
+    """
+    def get(self, request):
+        logout(request)
+        response = HttpResponseRedirect(reverse("index"))
+        response.set_cookie(key="name", expires=datetime.now() - timedelta(days=1))
+        response.set_cookie(key="token", expires=datetime.now() - timedelta(days=1))
+        return response
+
+
 class PersonalViewset(View):
     def get(self, request):
         return render(request, "user/personal.html")
@@ -421,8 +433,6 @@ class InviteView(View):
                 return HttpResponse(True, status=status.HTTP_200_OK)
             else:
                 return HttpResponse(False, status=status.HTTP_404_NOT_FOUND)
-
-
 
 
 class VisualView(View):

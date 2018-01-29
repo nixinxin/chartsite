@@ -21,6 +21,7 @@ from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 from rest_framework_jwt.views import obtain_jwt_token
 
+import resource
 import xadmin
 from chart.views import BannerViewset
 from chartsite.settings import MEDIA_ROOT
@@ -36,7 +37,6 @@ router.register(r"phonecodes", PhoneCodeViewset, base_name='phonecodes')
 
 # 配置邮箱验证码url
 router.register(r"emailcodes", EmailCodeViewset, base_name='emailcodes')
-
 
 # 配置图片验证码url
 router.register(r"imagecode", ImageCodeViewset, base_name='imagecode')
@@ -58,6 +58,8 @@ router.register(r'personal', PersonalViewset, base_name='personal')
 
 # 验证图片验证码
 router.register(r'verify', ImageCodeVerifyViewset, base_name='verify')
+
+
 
 
 # 数据资源列表
@@ -229,6 +231,8 @@ router.register(r'NykjzcfgDb', NykjzcfgDbViewSet, base_name='NykjzcfgDb')
 # 畜禽常见疾病及防治方法数据库
 router.register(r'XqfzffDb', XqfzffDbViewSet, base_name='XqfzffDb')
 
+
+
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
@@ -238,8 +242,9 @@ urlpatterns = [
     # 富文本相关url
     url(r'^ueditor/', include('DjangoUeditor.urls')),
 
-    # # 数据列表页
+    #  数据列表页
     url(r'^', include(router.urls)),
+
 
     # 登陆url
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
@@ -258,6 +263,8 @@ urlpatterns = [
 
     # 第三方登陆
     url('', include('social_django.urls', namespace='social')),
+
+    url('^logout/$', LogoutView.as_view(), name="logout"),
 
 
     # 用户登录注册页面
