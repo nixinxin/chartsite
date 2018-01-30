@@ -1,6 +1,8 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home-2.css' %}">
+
     <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
     <script src="{% static 'js/share.js' %}"></script>
     <!--jACKY end-->
@@ -176,68 +178,139 @@
             <!-- Pagination -->
             <p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1">1</a><a href="#2" class="active">2</a><a href="#3">3</a><a href="#4">4</a><a href="#5">5</a><a href="#6">6</a><a href="#7">7</a></p>
         </div>
+    <div class="container-wrap clearfix" id="particles-js">
 
-    <section class="true-environment">
-      <div class="title">
-        <h2>真实的学习环境</h2>
-        <span>Real learning environment</span>
-        <hr>
-      </div>
-      <div class="row content container">
-        <div class="col-md-4 col-lg-4 true_img">
-          <img class="img-responsive" src="{% static 'img/index!true.png' %}" alt="练习环境"></div>
-        <div class="col-md-8 col-lg-8 true-content">
-          <h2>不用搭建学习环境</h2><p></p>
-          <p>搭建学习环境的繁琐过程，足以熄灭你刚刚燃起的学习兴趣。终于，以后再也不用烦恼了。</p>
-          <p>每个课程都有内置的学习环境，即到即学，心无旁骛，学习起来自然事半功倍。</p>
-          <img class="img-responsive" src="{% static 'img/index!true_icon.png' %}" alt="course">
-          <a class="enter btn btn-warning" href="/user/login">立即体验</a>
-        </div>
-      </div>
-    </section>
-    <section class="cloud-tools">
-      <div class="title">
-        <h2>云端练习工具</h2>
-        <span>The cloud practice tools</span>
-        <hr>
-      </div>
-      <div class="row content container">
-        <div class="col-md-8 col-lg-8 tool-content">
-          <h2>随处可用的云端练习工具</h2><p></p>
-          <p>当你在阅读技术博客时，是不是希望把里面的代码跑起来？</p>
-          <p>云端练习工具可以在任何一个网站上使用，看到代码，就运行它！</p>
-          <img class="img-responsive left" src="{% static 'img/index!action.png' %}" alt="云端练习工具">
-          <a target="_blank" class="enter right btn btn-warning" href="/index">如何使用</a>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tool_img">
-          <img class="img-responsive" src="{% static 'img/index!tool.png' %}" alt="云端练习工具">
-        </div>
-      </div>
-    </section>
-    <section class="interactive-books">
-      <div class="title">
-        <h2>互动图书</h2>
-        <span>The interactive books</span>
-        <hr>
-      </div>
-      <div class="content container vertical">
-        <h2>图书也可以互动！</h2><p></p><p></p>
-        <p>还嫌厚重的技术图书增加你的负担？不用怕，新一代的互动图书来了！</p>
-        <p>这不仅仅是出版社授权的正版电子书，还有配套的在线练习工具和示例代码！随学随练，阅读与实践同步，
-          事半功倍的学习，还怕自己学不会吗？</p>
+        <!--section-group-->
+        <div class="section-group pi-section-group clearfix">
+            <div class="section-group-inner">
 
-        <a class="btn btn-warning enter" href="/index">开始读书</a>
-        <img class="img-responsive" src="{% static 'img/index!book.png' %}" alt="互动图书">
-      </div>
-    </section>
-    <div class="study">
-      <p>农业统计数据可视化平台，爱生活，爱学习！</p>
-      <div class="begin"><a class="btn btn-warning" href="/course">开始了解</a></div>
+                <!--section-titlebar-->
+                <div class="section-titlebar">
+                    <h3>农业统计数据资源</h3>
+                    <p>只为让你快速了解农业发展现状+</p>
+                </div>
+                <!--/section-titlebar-->
+                <!--section-container-->
+                <div class="section-container">
+
+                    <ul class="pi-list">
+                        <li class="pi-list-item">
+                            <div class="pi-list-box">
+                                <img alt="PC/手机/微信站三合一" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img">
+                                <h4 class="pi-list-title">PC/手机/微信站三合一</h4>
+                                <p class="pi-list-int">简单易用，零技术上手，精美网页30分钟轻松拥有，做企业站、个人站、网店商城、手机微信站，样样行</p>
+                            </div>
+                        </li>
+                        <li class="pi-list-item">
+                            <div class="pi-list-box">
+                                <img alt="搜索引擎主动推送" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img">
+                                <h4 class="pi-list-title">搜索引擎主动推送</h4>
+                                <p class="pi-list-int">提供快捷的SEO功能，有效提升网站的收录和排名支持全局SEO，单独页面，单独文章或产品的SEO设定</p>
+                            </div>
+                        </li>
+                        <li class="pi-list-item">
+                            <div class="pi-list-box">
+                                <img alt="高效灵活的设计器" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img">
+                                <h4 class="pi-list-title">高效灵活的设计器</h4>
+                                <p class="pi-list-int">模板随心换，任意拖拽布局，各种模块插件，随意安装，自由设置；按照自己的想法构建任何风格网站</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--/section-container-->
+
+            </div>
+        </div>
+        <!--/section-group-->
+        <div class="section-group template-section-group clearfix">
+                <div class="section-group-inner">
+
+                    <!--section-titlebar-->
+                    <div class="section-titlebar">
+                        <h3>可视分析图表</h3>
+                        <p>交互体验 加载动画 只需轻点 即刻享有 </p>
+                    </div>
+                    <!--/section-titlebar-->
+                    <!--section-container-->
+                    <div class="section-container">
+
+                        <div class="template-group">
+                            <a href="javascript:void(0);" class="template-page prev"></a>
+                            <a href="javascript:void(0);" class="template-page next"></a>
+                            <div class="template-list">
+                                <div class="tempWrap" style="overflow:hidden; position:relative; width:3480px"><div class="template-list-inner" style="width: 8120px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -3480px;"><ul class="template-list-group clone" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=30&amp;isMobile=False&amp;productId=0" title="康达农业科技" target="_blank"><img alt="康达农业科技" src="http://cdn.wemorefun.com/content/statics/images/template/b-13.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=29&amp;isMobile=False&amp;productId=0" title="威箭集团" target="_blank"><img alt="威箭集团" src="http://cdn.wemorefun.com/content/statics/images/template/b-14.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=27&amp;isMobile=False&amp;productId=0" title="WMF肌肤护理专家" target="_blank"><img alt="WMF肌肤护理专家" src="http://cdn.wemorefun.com/content/statics/images/template/b-15.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=26&amp;isMobile=False&amp;productId=0" title="顺为广告传媒" target="_blank"><img alt="顺为广告传媒" src="http://cdn.wemorefun.com/content/statics/images/template/b-16.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=20&amp;isMobile=False&amp;productId=0" title="聚友家私" target="_blank"><img alt="聚友家私" src="http://cdn.wemorefun.com/content/statics/images/template/b-17.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=16&amp;isMobile=False&amp;productId=0" title="百味美食" target="_blank"><img alt="百味美食" src="http://cdn.wemorefun.com/content/statics/images/template/b-18.jpg"></a></li>
+                                    </ul>
+                                    <ul class="template-list-group" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=62&amp;isMobile=False&amp;productId=0" title="艾迪尔珠宝" target="_blank"><img alt="艾迪尔珠宝" src="http://cdn.wemorefun.com/content/statics/images/template/b-1.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=56&amp;isMobile=False&amp;productId=0" title="竹茗茶业" target="_blank"><img alt="竹茗茶业" src="http://cdn.wemorefun.com/content/statics/images/template/b-2.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=54&amp;isMobile=False&amp;productId=0" title="汝伊服装设计" target="_blank"><img alt="汝伊服装设计" src="http://cdn.wemorefun.com/content/statics/images/template/b-3.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=53&amp;isMobile=False&amp;productId=0" title="瑞德维纳红酒" target="_blank"><img alt="瑞德维纳红酒" src="http://cdn.wemorefun.com/content/statics/images/template/b-4.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=51&amp;isMobile=False&amp;productId=0" title="优创文化传媒" target="_blank"><img alt="优创文化传媒" src="http://cdn.wemorefun.com/content/statics/images/template/b-5.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=49&amp;isMobile=False&amp;productId=0" title="贝斯健身" target="_blank"><img alt="贝斯健身" src="http://cdn.wemorefun.com/content/statics/images/template/b-6.jpg"></a></li>
+                                    </ul>
+                                    <ul class="template-list-group" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=48&amp;isMobile=False&amp;productId=0" title="薇魔法婚纱摄影" target="_blank"><img alt="薇魔法婚纱摄影" src="http://cdn.wemorefun.com/content/statics/images/template/b-7.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=47&amp;isMobile=False&amp;productId=0" title="万向机械" target="_blank"><img alt="万向机械" src="http://cdn.wemorefun.com/content/statics/images/template/b-8.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=43&amp;isMobile=False&amp;productId=0" title="学优教育" target="_blank"><img alt="学优教育" src="http://cdn.wemorefun.com/content/statics/images/template/b-9.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=41&amp;isMobile=False&amp;productId=0" title="万华家装" target="_blank"><img alt="万华家装" src="http://cdn.wemorefun.com/content/statics/images/template/b-10.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=35&amp;isMobile=False&amp;productId=0" title="贝贝ABC" target="_blank"><img alt="贝贝ABC" src="http://cdn.wemorefun.com/content/statics/images/template/b-11.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=34&amp;isMobile=False&amp;productId=0" title="SMART LIGHT智能照明设备" target="_blank"><img alt="SMART LIGHT智能照明设备" src="http://cdn.wemorefun.com/content/statics/images/template/b-12.jpg"></a></li>
+                                    </ul>
+                                    <ul class="template-list-group" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=30&amp;isMobile=False&amp;productId=0" title="康达农业科技" target="_blank"><img alt="康达农业科技" src="http://cdn.wemorefun.com/content/statics/images/template/b-13.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=29&amp;isMobile=False&amp;productId=0" title="威箭集团" target="_blank"><img alt="威箭集团" src="http://cdn.wemorefun.com/content/statics/images/template/b-14.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=27&amp;isMobile=False&amp;productId=0" title="WMF肌肤护理专家" target="_blank"><img alt="WMF肌肤护理专家" src="http://cdn.wemorefun.com/content/statics/images/template/b-15.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=26&amp;isMobile=False&amp;productId=0" title="顺为广告传媒" target="_blank"><img alt="顺为广告传媒" src="http://cdn.wemorefun.com/content/statics/images/template/b-16.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=20&amp;isMobile=False&amp;productId=0" title="聚友家私" target="_blank"><img alt="聚友家私" src="http://cdn.wemorefun.com/content/statics/images/template/b-17.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=16&amp;isMobile=False&amp;productId=0" title="百味美食" target="_blank"><img alt="百味美食" src="http://cdn.wemorefun.com/content/statics/images/template/b-18.jpg"></a></li>
+                                    </ul>
+                                <ul class="template-list-group clone" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=62&amp;isMobile=False&amp;productId=0" title="艾迪尔珠宝" target="_blank"><img alt="艾迪尔珠宝" src="http://cdn.wemorefun.com/content/statics/images/template/b-1.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=56&amp;isMobile=False&amp;productId=0" title="竹茗茶业" target="_blank"><img alt="竹茗茶业" src="http://cdn.wemorefun.com/content/statics/images/template/b-2.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=54&amp;isMobile=False&amp;productId=0" title="汝伊服装设计" target="_blank"><img alt="汝伊服装设计" src="http://cdn.wemorefun.com/content/statics/images/template/b-3.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=53&amp;isMobile=False&amp;productId=0" title="瑞德维纳红酒" target="_blank"><img alt="瑞德维纳红酒" src="http://cdn.wemorefun.com/content/statics/images/template/b-4.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=51&amp;isMobile=False&amp;productId=0" title="优创文化传媒" target="_blank"><img alt="优创文化传媒" src="http://cdn.wemorefun.com/content/statics/images/template/b-5.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=49&amp;isMobile=False&amp;productId=0" title="贝斯健身" target="_blank"><img alt="贝斯健身" src="http://cdn.wemorefun.com/content/statics/images/template/b-6.jpg"></a></li>
+                                    </ul><ul class="template-list-group clone" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=48&amp;isMobile=False&amp;productId=0" title="薇魔法婚纱摄影" target="_blank"><img alt="薇魔法婚纱摄影" src="http://cdn.wemorefun.com/content/statics/images/template/b-7.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=47&amp;isMobile=False&amp;productId=0" title="万向机械" target="_blank"><img alt="万向机械" src="http://cdn.wemorefun.com/content/statics/images/template/b-8.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=43&amp;isMobile=False&amp;productId=0" title="学优教育" target="_blank"><img alt="学优教育" src="http://cdn.wemorefun.com/content/statics/images/template/b-9.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=41&amp;isMobile=False&amp;productId=0" title="万华家装" target="_blank"><img alt="万华家装" src="http://cdn.wemorefun.com/content/statics/images/template/b-10.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=35&amp;isMobile=False&amp;productId=0" title="贝贝ABC" target="_blank"><img alt="贝贝ABC" src="http://cdn.wemorefun.com/content/statics/images/template/b-11.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=34&amp;isMobile=False&amp;productId=0" title="SMART LIGHT智能照明设备" target="_blank"><img alt="SMART LIGHT智能照明设备" src="http://cdn.wemorefun.com/content/statics/images/template/b-12.jpg"></a></li>
+                                    </ul><ul class="template-list-group clone" style="float: left; width: 1160px;">
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=30&amp;isMobile=False&amp;productId=0" title="康达农业科技" target="_blank"><img alt="康达农业科技" src="http://cdn.wemorefun.com/content/statics/images/template/b-13.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=29&amp;isMobile=False&amp;productId=0" title="威箭集团" target="_blank"><img alt="威箭集团" src="http://cdn.wemorefun.com/content/statics/images/template/b-14.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=27&amp;isMobile=False&amp;productId=0" title="WMF肌肤护理专家" target="_blank"><img alt="WMF肌肤护理专家" src="http://cdn.wemorefun.com/content/statics/images/template/b-15.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=26&amp;isMobile=False&amp;productId=0" title="顺为广告传媒" target="_blank"><img alt="顺为广告传媒" src="http://cdn.wemorefun.com/content/statics/images/template/b-16.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=20&amp;isMobile=False&amp;productId=0" title="聚友家私" target="_blank"><img alt="聚友家私" src="http://cdn.wemorefun.com/content/statics/images/template/b-17.jpg"></a></li>
+                                        <li class="template-list-item"><a href="http://www.wemorefun.com/viewTemplate?templateId=16&amp;isMobile=False&amp;productId=0" title="百味美食" target="_blank"><img alt="百味美食" src="http://cdn.wemorefun.com/content/statics/images/template/b-18.jpg"></a></li>
+                                    </ul></div></div>
+                            </div>
+                        </div>
+
+                        <a href="/visual" class="template-btn" target="_blank">查看更多分析图</a>
+
+                    </div>
+                    <!--/section-container-->
+
+                </div>
+            </div>
     </div>
+
+
 {% endblock %}
 
 {% block foot %}
     <script src="{% static 'js/index.js' %}"></script>
-
+    <script src="{% static 'js/jquery.slider.min.js' %}"></script>
+    <script src="{% static 'js/jquery.fixed.js' %}"></script>
 
 {% endblock %}

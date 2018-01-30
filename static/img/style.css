@@ -1,0 +1,361 @@
+*{ margin:0; padding:0; }
+body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, fieldset, legend, button,input, textarea,th, td,img{border:medium none;margin: 0;padding: 0;}
+body,button, input, select, textarea {font: 14px/1.5 "微软雅黑", "宋体",tahoma, Srial, helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+em{font-style:normal;}
+ul, ol,li { list-style: none; }
+a { text-decoration: none; color:#3e3e3e;}
+a:hover { color:#fac400;}
+img{ border:0px;}
+table { border-collapse: collapse; border-spacing: 0; }
+html,body{-webkit-text-size-adjust:none; height:100%; color:#3e3e3e;background:#f1f1f1; }
+.hide{ display:none;}
+.clear{ clear:both;}
+.animate{-webkit-transition-duration:.5s;transition-duration:.5s; -moz-transition-duration:.5s;}
+
+#container{ width:100%; height:auto;}
+#header{ width:100%; height:120px; background:url(../images/top_bg.jpg) repeat-x;}
+.header{ width:1280px; height:120px; margin:0 auto;}
+.top{ width:100%; height:50px; background:#2b2b2b; position:relative;}
+.top .logo{ width:300px; height:50px; float:left;}
+.top .weibo{ width:300px; height:25px; position:absolute; right:0px; }
+.top .slogan{ width:500px; height:50px; text-align:right;line-height:50px; position:absolute; right:0px; bottom:0px; font-size:12px; color: #CCCCCC;}
+.nav{ width:100%; height:60px;}
+.nav ul{ width:100%;}
+.nav ul li{ float:left; line-height:60px; font-size:12px; width:12.5%;}
+.nav ul li a{ width:100%;display:block; height:60px; text-align:center; position:relative;-webkit-perspective:500px; overflow:hidden;}
+.nav ul li a.cur{ background:#fac400; color:#3e3e3e;}
+.nav ul li a .navBox{-webkit-transition: all .2s ease;-webkit-transform-origin: 50% 50% -35px; position:absolute; width:100%; height:60px;}
+.nav ul li a .navBox.box1{-webkit-transform: rotateX(90deg); background:#ffa700; color:#fff;}
+.nav ul li a .navBox.box2{-webkit-transform: rotateX(0deg); background:#f7f9f8;}
+.nav ul li a:hover .navBox.box1,.nav ul li a.navCur .navBox.box1{-webkit-transform: rotateX(0deg);}
+.nav ul li a:hover .navBox.box2,.nav ul li a.navCur .navBox.box2{-webkit-transform: rotateX(-90deg);}
+.tips{ width:550px; height:50px; background:#fff url(../images/icon.jpg) left no-repeat; line-height:50px; float: right;}
+.tips_list{ width:450px; height:50px; float:left; margin-left:45px; font-size:12px; position:relative; overflow:hidden;}
+.tips_list ul{ width:400px; height:500px; position:absolute; left:0px; top:0px;}
+.tips_list ul li{ width:400px; height:50px;}
+.tips_list .tipsBtn{ width:40px; height:50px; position:absolute; right:0px; top:0px;}
+.tips_list .tipsBtn .btns{ width:12px; height:11px; background:url(../images/tipsIcon.jpg) no-repeat; margin-top:20px; cursor:pointer;}
+.tips_list .tipsBtn .btns.btnPrev{ float:left;}
+.tips_list .tipsBtn .btns.btnPrev:hover{ background-position:-12px 0px;}
+.tips_list .tipsBtn .btns.btnNext{ float:right; background-position:-24px 0px;}
+.tips_list .tipsBtn .btns.btnNext:hover{ background-position:-36px 0px;}
+.search{ width:600px; height:50px; float:right;}
+.searchWords{ width:auto; float:right; font-size:12px; margin-right:10px; overflow: hidden; margin-top: 15px; color: #CCCCCC;}
+.searchWords a{ padding:0px 5px; color: #CCCCCC;}
+.searchWords a:hover{ color: #FFFFFF;}
+.searchInput{ width:250px; float:right; background:#434649; height:30px; margin:9px 9px 9px 0px; border:1px solid #434649;-webkit-transition-duration:0.3s; -moz-transition-duration:0.3s;transition-duration:0.3s;}
+.searchInput .searchText{ width:215px; height:30px; float:left; border:none; background:none; padding-left:5px; color:#999;font-size:12px; outline:none;}
+.searchInput .searchBtn{ width:30px; height:30px; float:left; background:url(../images/search_bg.jpg) no-repeat; cursor:pointer;}
+.searchInput.blur{ border-color:#ffa700;}
+#banner{ width:1280px; height:300px; margin:0 auto; margin-top:25px;}
+.banner,.hot_news{ width:950px; height:300px; float:left; position:relative;}
+
+.hot_news ul li{
+	width: 300px;
+	height: 300px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-right: 25px;
+	position: relative;
+}
+.hot_news ul li .thum{
+	width: 100%;
+	height: 165px;
+	position: relative;
+	background: #CCCCCC;
+}
+.hot_news ul li .title{
+	width: 280px;
+	height: 20px;
+	overflow: hidden;
+	line-height: 20px;
+	font-size: 14px;
+	padding: 10px;
+	padding-top: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.hot_news ul li .detail{
+	width: 280px;
+	height: 60px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	opacity: .7;
+	padding: 0px 10px;
+}
+.hot_news ul li:last-child{
+	margin-right: 0px;
+}
+
+.hot_news ul li .code{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	background: #FAC400;
+	-webkit-transition-duration: 0.3s;
+}
+
+.hot_news ul li .code img{
+	width: 150px;
+	position: absolute;
+	left: 75px;
+	top: 75px;
+	display: block;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+.hot_news ul li:hover .code{
+	top: 0px;
+}
+
+.banner ul li{ position:absolute; left:0px; top:0px; display:none;}
+.banner .bannerIcon{ width:49px; height:49px; background:url(../images/arrows.png) no-repeat; position:absolute; top:120px; cursor:pointer; opacity:0;-webkit-transition-duration:0.3s; -moz-transition-duration:0.3s;transition-duration:0.3s;}
+.banner ul li a{ position:relative; width:950px; height:300px; display:block;}
+.banner ul li a span{ display:block; width:940px; height:35px; background:url(../images/blank.png); line-height:35px; color:#fff; padding-left:10px; position:absolute; left:0px; bottom:0px;}
+.banner .bannerIcon.bannerPrev{ left:0px;}
+.banner .bannerIcon.bannerNext{ right:0px; background-position:-49px 0px;}
+.banner:hover .bannerIcon{ opacity:1;}
+.menu{ width:300px; height:300px; float:right; background:#fff;}
+.menuTitle{ width:100%; height:40px; line-height:40px;font-size:20px; border-bottom:1px solid #e5e5e5; font-weight: bold;}
+.menuTitle h2{ border-left:4px solid #fac400; padding-left:8px; width: auto; float: left; line-height: 30px; height: 30px; margin-top: 5px;}
+.menu ul{ width:300px; height:auto; margin-top:10px; overflow: hidden;}
+.menu ul li{ width:87px; height:35px; float:left; margin-left:10px; font-size:12px; line-height:35px;  background: #f4f5f7; text-align: center; margin-bottom: 10px;}
+.menu ul li a{ display: block; width: 100%; height: 35px;}
+.menu ul li a:hover{ background: #ffa700; color: #FFFFFF;}
+.homeAd{ width: 280px; height:105px; margin-left: 10px; position: relative;}
+.content{ width:1280px; height:auto; margin:20px auto;}
+.contentTop{width:1280px; height:50px; line-height:50px; margin: 15px 0px; border-bottom: 1px solid #e5e5e5;}
+.contentTop a{ float:right; width: 150px; height: 40px; border: 1px solid #fac400; line-height: 40px; text-align: center; display: block; margin-top: 9px; color: #fac400; display: none;}
+.contentTop a:hover{ background: #fac400; color: #FFFFFF;}
+.contentTop h2{ font-size:20px; float:left; border-left: 4px solid #fac400; height: 30px; line-height: 30px; float: left; margin-top: 10px; padding-left: 10px;}
+.caseList{ width:100%; height:auto; position:relative; overflow:hidden;}
+.caseList ul{ width:1350px; height:auto; margin: auto;}
+.caseList li{ width:300px; height:235px; float:left; background:#fff; margin:0px 26px 35px 0px; position:relative; overflow:hidden;}
+.caseList li .caseThum{ width:300px; height:180px; position:relative; overflow:hidden;}
+.caseList li .caseThum img{ position:absolute; left:0px; top:0px;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s;}
+.caseList li .caseName{ width:290px; padding-left:10px; height:50px; line-height:50px;  font-size:16px; color:#3e3e3e; border-bottom:1px solid #f2f2f2; overflow: hidden;}
+.caseList li .caseBottom{ width:100%; height:105px; position:absolute; left:0px; bottom:-55px; -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s; background:#fff;}
+.caseList li .caseInfo{ width:300px; height:55px; color:#d1d1d1;}
+.caseList li .caseInfo .caseIcon{ width:35px; padding-left:25px; height:15px; float:left; font-size:8px; line-height:15px; margin-top:20px; margin-left:10px;}
+.caseList li .caseInfo .caseIcon.ll{ background:url(../images/icons.png) -20px 0px no-repeat;}
+.caseList li .caseInfo .caseIcon.pl{ display: none;}
+.caseList li .caseInfo .caseTime{ width:100px; height:15px; float:right; margin-top:20px; font-size:8px; line-height:15px; text-align:right; margin-right:10px;}
+.caseList li:hover .caseBottom{ bottom:0px; background: #ffa700; color: #FFFFFF;}
+.caseList li:hover .caseBottom .caseName,.caseList li:hover .caseInfo{ color: #FFFFFF;}
+.caseList li:hover .caseBottom .caseName{ border-bottom: 1px solid #ffba38;}
+.caseList li:hover .caseThum img{ -webkit-transform:scale(1.1,1.1); -moz-transform:scale(1.1,1.1);transform:scale(1.1,1.1);}
+.caseList li:hover .caseInfo .caseIcon.ll{ background-position: -20px 0px;}
+.footer{ width:100%; height:auto; background:#222324; overflow: hidden;}
+.copyright{ width:1280px; height:80px; margin:0 auto; padding-top:20px; position:relative;}
+.footerNav{ width:auto; height:35px; font-size:12px; line-height:35px;}
+.footerNav a{ display:block; float:left; padding:0px 10px; color:#CCC;}
+.cp{ width:100%; line-height:20px; font-size:12px;}
+.contactLine{ width:80px; height:25px; float:right; position:absolute; right:0px; bottom:20px;}
+.contactLine ul li{ width:30px; height:25px; background:url(../images/icon.png) no-repeat; float:left; margin-left:10px;}
+.contactLine ul li a{ width:30px; height:25px; display:block;}
+.friendLink{ max-width: 1280px; height: auto; overflow: hidden; margin: auto; padding-top: 25px;}
+.friendLink .link{ width: 60px; height: auto; float: left; line-height: 15px; color: #ccc; font-size: 12px;}
+.friendLink .links{ width: 1220px; height: auto; float: right;}
+.friendLink .links a{ float: left; padding: 0px 20px; border-right: 1px solid #3e3e3e; height: 15px; line-height: 15px; color: #CCC; font-size: 12px;}
+.friendLink .links a:hover{ color:#ffffff;}
+.subTips{ width:1280px; height:auto; background:#fff; margin:0 auto; margin-top:20px; overflow: hidden; margin-bottom: 15px;}
+.subTitle{ width:100%; height:auto; line-height:40px;  border-bottom:1px solid #e5e5e5; position: relative; overflow: hidden;}
+.subTitle .s{ margin-left: 25px;}
+.subTitle strong{ font-size:24px; font-weight:normal; line-height: 50px; margin-left:25px;  color:#3e3e3e; float: left;}
+.subTitle span.span{ float: left; margin-left: 15px; line-height: 50px;}
+.subTips strong{ font-size: 24px; text-indent: 20px; display: block; width: auto; float: left; line-height: 50px;}
+.subTips .subChoise{ width:100%; height:30px; line-height:30px; font-size:12px; }
+.subTips .subChoise span{ display:block; float:left; margin-left:25px;}
+.subTips .subChoise a{ display:block; float:left; padding:0px 10px; }
+.subTips .subChoise a.sucCur{ color:#ffa700; font-weight:bold;}
+.page{ width:100%; height:35px;}
+.page a{ display:block; width:35px; height:35px; background:#fff; float:left; margin-right:10px; line-height:35px; color:#cccccc; text-align:center;}
+.page a.prev{ background:#fff url(../images/newsPage.png) -35px 0px no-repeat;}
+.page a.next{ background:#fff url(../images/newsPage.png) 0px 0px no-repeat;}
+.page a:hover,.page a.pageCur{ background:#fac400; color:#fff;}
+.page a.prev:hover{ background:#fac400 url(../images/newsPage.png) -35px -35px no-repeat;}
+.page a.next:hover{ background:#fac400 url(../images/newsPage.png) 0px -35px no-repeat;}
+.caseL{ width:980px; height:auto; float:left; border-right:1px solid #e5e5e5;}
+.caseL .caseImg{ width:600px; height:360px; background:#ccc; float:left; margin-left:190px; margin-top:25px;}
+.caseL .mobile{ width: 780px; height: auto; float: left;  margin-top: 25px; margin-left: 100px; overflow: hidden;}
+.caseL .mobile .mobileImg{ width: 322px; height: 639px; float: left; background: url(../images/mobieBg.png) no-repeat; display: none;}
+.caseL .mobile .mobileImg .images{ width: 322px; height: 546px; background: #00CCCC; margin-top: 48px;}
+.caseL .mobile .mobileRight{ width: 100%; height: auto; text-align: center;}
+.caseL .mobile .mobileEwm{ width: 280px; height: 280px; background: #00CCCC; color: #3E3E3E; display: inline-block;}
+.caseL .mobile .mobileTitle{ width: 100%; height: 50px; line-height:50px; text-align: center; float: left;}
+.caseL .mobile .mobilePassword{ width: 100%; float: left; height: auto; line-height: 28px;font-size: 14px;}
+.caseL .mobile .mobilePassword .h3{ font-weight: bold; font-size: 18px; border-bottom: 3px solid #CCCCCC; height: 45px; line-height: 50px; margin-bottom: 5px;}
+.caseL .mobile .mobilePassword .details{ width: 100%; height: auto; line-height: 28px;}
+.caseL .caseInfos{ width:600px; height:auto; float:left; margin-left:190px; line-height:26px; padding:15px 0px; font-weight: bold; font-size: 24px; color: #ff0000; font-family: georgia;}
+.caseL .caseInfos span{ font-family: georgia; color: #FC0006;}
+.caseL .caseBtn{ width:600px; height:50px; float:left; margin-left:190px; margin-top:20px;}
+.caseL .caseBtn a{ width:170px; height:50px; display:block; float:left; background:url(../images/downloadicon.png) no-repeat; line-height:50px; text-align:center; color:#fff; margin-right:5px;}
+.caseL .caseJR{ width:779px; padding: 15px 0px;  height:auto; float:left; margin-left:100px; margin-top:15px;border-top:5px solid #e5e5e5; overflow:hidden; line-height: 28px;}
+.caseL .caseJR .h3{ display: block; width: 100%; height: 30px; line-height: 30px; color: #3E3E3E; font-size: 16px; font-weight: bold;}
+.caseL .caseP{ width: 779px; float: left; margin-left: 100px; border-top:5px solid #e5e5e5; margin-top: 25px; overflow: hidden;}
+.subAd{ width: 780px; float: left; margin-left: 100px; margin-top: 25px; overflow: hidden; height: 100px;}
+.caseL .caseP .div{ width: 100%; height: 50px; line-height:50px; font-size: 18px; border-bottom: 5px solid #e5e5e5; margin-top: 25px;}
+.caseL .caseP ul{ width: 100%; height: auto; padding-bottom: 50px; overflow: hidden;}
+.caseL .caseP ul li{ width: 245px; height: 195px; float: left; background: #00CCCC; margin-top: 25px; margin-right: 20px;}
+.caseL .caseP ul li img{ width: 245px; height: 145px; display: block;}
+.caseL .caseP ul li div{ width: 100%; height: 50px; line-height: 50px; text-align: center;font-size: 12px; background: #f1f1f1; overflow: hidden;}
+.llq{ width:777px; height:50px;}
+.llq ul li{ width:110px; height:50px; float:left; border-right:1px solid #e5e5e5;}
+.message{ width:770px; height:auto; margin-top:35px; border-top:1px solid #e5e5e5; float:left; margin-bottom:35px; margin-left:100px;}
+.messageList{ width:770px; height:auto;}
+.messageList li{ width:770px; height:auto; border-bottom:1px solid #e5e5e5; padding:10px 0px; overflow:hidden;}
+.messageList li .messLogo{ width:50px; height:50px; float:left; }
+.messageList li .messName{ width:700px; height:25px; float:right; font-size:12px; line-height:25px;}
+.messageList li .messName span{ color:#ffa700;}
+.messageList li .messContent{width:700px; height:25px; float:right; font-size:12px; line-height:25px;}
+.messageList li .reback{ width:700px; height:auto; line-height:25px; background:#f7f7f7; font-size:12px; float:right; padding:5px 0px 5px 10px; display:none;}
+.messageList li .reback span{ display:block; color:#ffa700;}
+.messageTable{ width:770px; height:auto; margin-top:25px; background:#0cc;}
+.messageTable h2{ width:100%; height:35px; font-size:16px; display:block; line-height:35px; margin-bottom:10px;}
+.messDiv{ width:100%; height:auto;float:left; margin-bottom:10px; }
+.messDiv .messName{ width:60px; height:35px; float:left; line-height:35px;}
+.messDiv .messInput{ width:350px; height:33px; float:left; border:1px solid #e5e5e5; line-height:33px; padding-left:5px;outline:none;}
+.messDiv textarea{ width:630px; height:80px; float:left; border:1px solid #e5e5e5; padding:10px; outline:none;}
+.messDiv .submit{ width:100px; height:35px; background:#505152; color:#fff; border:none; cursor:pointer; float:left; margin-left:60px; line-height:35px; text-align:center;}
+.messDiv .submit:hover{ background:#fac400; color:#3e3e3e;}
+.caseR{ width:260px; height:auto; float:right; margin-right:20px;}
+.hotTitle{ width:246px; height:40px; line-height:40px; border-left:4px solid #fac400; font-size:16px; border-bottom:1px solid #e5e5e5; padding-left:10px;}
+.hotTitle h2{ font-weight:normal; font-size: 20px; font-weight: bold;}
+.hotList{ width:260px; height:auto; margin-top:15px; position:relative; overflow:hidden;}
+.hotList ul{ width:270px; height:auto;}
+.hotList ul li{ width:125px; height:75px; float:left; margin-right:10px; margin-bottom:10px;}
+.hotWeb{ width:260px; height:auto; margin-top:15px;}
+.hotWeb ul li{ width:260px; height:50px; margin-bottom:10px; }
+.hotWeb ul li .webThum{ width:85px; height:50px; float:left;}
+.hotWeb ul li .webName,.hotWeb ul li .webXzq{ width:165px; height:30px; line-height:30px; float:right;}
+.hotWeb ul li .webXzq{ height: auto; line-height: 18px; padding: 5px 0px;}
+
+.hotWeb ul li .webTime{ width:165px; height:20px; line-height:20px; float:right; font-size:12px;}
+.hotTags{ width:260px; height:auto; margin-top:15px;}
+.hotTags a{ display:block; width:auto; padding:0px 10px; float:left; height:25px; line-height:25px; background:#e7e7e7; margin:0px 10px 10px 0px;}
+
+.subCool{ width:1260; height:auto; overflow:hidden; padding-left:20px; padding-top:10px;}
+.subCool a{display:block; width:auto; padding:0px 10px; float:left; height:25px; line-height:25px; background:#e7e7e7; margin:0px 10px 10px 0px;}
+.subCool a:hover,.subCool a.sucCur{ background:#fac400; color:#3e3e3e;}
+.share{ width:1240px; height:auto; padding:20px; line-height:30px; padding-bottom:85px;}
+.caseDetails{ width:1280px; height:auto; background:#fff; overflow:hidden; padding-bottom:55px; margin:20px auto;}
+.caseDetails h2{ width:1265px; height:30px; line-height:30px; font-size:16px; margin-left:15px; color:#3e3e3e; position:relative; padding-top:20px;}
+.caseDetails h2 span{ position:absolute; right:10px; top:15px; font-weight:normal; color:#707173;}
+.caseDetails .cat{ width:1265px; height:25px; line-height:25px; padding-left:15px; clear:both; font-size:12px;}
+.caseDetails .cat span{ margin-left:15px;}
+.thumList{ width:800px; height:auto; float:left; margin-left:240px; margin-top:35px; position:relative;}
+#tm{ width:100%; height:auto; overflow:hidden;}
+.tmL{ width:980px; height:auto; float:left; border-right:1px solid #e5e5e5; background:#0cc;}
+.tmR{ width:260px; height:auto; float:right;}
+.webDiv{ width:100%; height:auto; float:left;}
+.webUrl{ width:120px; height:50px;background:#fac400; color:#3e3e3e; float:left; line-height:50px; text-align:center; display:block; margin:35px 0px 35px 580px;}
+.webUrl:hover{ color:#fff;}
+.tuijian{ width:1250px; height:auto; float:left; margin:25px 0px 25px 15px; border-bottom:1px dotted #ccc;border-top:1px dotted #ccc; line-height:25px; padding:10px 0px;}
+.tuijian strong{ color:#3e3e3e;}
+.cssList,.Tutorials{ width:940px; height:auto; padding:20px;}
+.cssList ul li{ width:940px; height:150px; margin-bottom:25px;}
+.cssList ul li .cssThum{ width:250px; height:150px; float:left; background:#fff;}
+.cssList ul li .cssTitle{ width:670px; height:auto; padding: 5px 0px; float:right; line-height:25px; position:relative; text-align:left; border-bottom:1px dotted #ccc; font-size: 20px; font-weight: bold;}
+.cssList ul li .cssTime{ width:670px; height:25px; float:right; line-height:25px; font-size:12px; opacity: .5;}
+.cssList ul li .cssDes{ width:670px; height:auto; float:right; line-height:25px;margin-top:14px; overflow:hidden; font-family: "microsoft yahei";}
+.Tutorials{ min-height:700px;}
+.tutorTop{ width:940px; height:auto;text-align:center; overflow:hidden;}
+.tutorTop h2{ text-align:center; width:100%; color:#3e3e3e; height:auto; line-height:30px; color:#3e3e3e; float:left; font-size: 28px; padding: 10px 0px;}
+.tutorTop div{ width:100%; height:20px; line-height:20px; text-align:center; font-size:12px; float:left; color:#999;}
+.tutorDetails{ width:940px; height:auto; line-height:26px;  margin-top:35px; color:#3e3e3e; font-family: "microsoft yahei";}
+.tutorDetails img{ text-indent:inherit; text-align:center;}
+.tutorDetails ul li{ list-style: decimal; list-style-position: inside;}
+.nextNews{ width:940px; height:auto; padding:25px 0px;}
+.nextNews ul li{ width: 215px; height: auto; float: left; border: 1px solid #f0f0f0; margin-right: 21px; margin-bottom: 15px;}
+.nextNews ul li .name{ width: 195px; height: auto; padding: 10px; font-size: 16px; line-height: 24px;}
+.nextNews ul li a:hover{ color: #3E3E3E;}
+.nextNews ul li:hover {box-shadow:0 5px 8px rgba(45,50,55,.2);}
+.nextNews ul li:nth-child(4),.nextNews ul li:nth-child(8){ margin-right: 0px;}
+.yzm{ width:150px; height:33px; float:left; border:1px solid #e5e5e5; line-height:33px; padding-left:5px;outline:none;}
+.searchResult{ width:1240px; height:auto; padding:20px; background:#fff;}
+#sls{ width:800px; height:600px; margin:0 auto; background:url(../images/404.jpg) no-repeat #fff;}
+#sls a{ display:block; width:100px; height:35px; background:#494949; line-height:35px; text-align:center; color:#fff; margin-left:350px; margin-top:400px; float:left;}
+#sls a:hover{ background:#fac400; color:#3e3e3e;}
+
+
+/****************************************************************************************/
+.loadMore{ width: 100%; height: 50px;}
+.loadMore a{ display: block; width: 300px; height: 50px; line-height: 50px; margin: auto; text-align: center; background: #999999; color: #FFFFFF; cursor: pointer;}
+.loadMore a:hover{ background-color: #ffa700; color: #FFFFFF;}
+.navBar{ width: 50px; height: 100%; background: #222324; position: fixed; top: 0px; right: 0px;}
+.backTop{ width: 80px; height: 80px; position: fixed; right: 50px; bottom: -100px; background:#FFFFFF url(../images/backTop.png) 0px 0px no-repeat; cursor: pointer; z-index: 500; border: 1px solid #E5E5E5;}
+.backTop:hover{ background:#ffa700 url(../images/backTop.png) 0px -80px no-repeat;}
+.backTop.active{ bottom: 50px;}
+
+pre{ padding: 10px; line-height: 28px; background: #f7f7f7; border-radius: 3px; display: block; word-break:break-all; word-wrap:break-word; border: 1px dotted #DADADA; margin-bottom: 10px;}
+
+
+/***********************************GIT lOAD*****************************************************/
+.gitUp{ width: 100%; height: auto; overflow: hidden;}
+.gitLogo{ width: 200px; height: 200px; float: left;}
+.gitContent{ width: 720px; height:auto; float: left; margin-left: 80px;}
+.gitContent .title{ width: 100%; line-height: 50px; font-size: 28px; border-bottom: 1px solid #dadada; font-weight: bold;}
+.gitUl{ width: 100%; height: auto; font-size: 16px; margin-top: 15px;}
+.gitUl li{ width: 100%; height: 50px; line-height: 50px; background: #DDDDDD; margin-bottom: 5px;}
+.gitUl li .text{ font-weight: bold; float: left; text-indent: 5px;}
+.gitUl li .download{ font-weight: bold; float: right; margin-right: 5px; text-align: center; height: 40px; color: #3E3E3E; background: #FFA700; width: 200px; line-height: 40px; display: block; margin-top: 5px;}
+.gitUl li .download:hover{ background: #f34f29; color: #FFFFFF;}
+.gitMac{ width: 100%; height: 50px; line-height: 50px; margin: 5px 0px;}
+.gitMac img{ display: block; width: 30px; float: left; margin-top: 10px;}
+.gitMac b{ float: left; margin-left: 10px; font-size: 16px;}
+.gitMac b span{ margin-left: 10px; font-size: 12px; opacity: .8;}
+.sameArticle{ width: 940px; line-height: 35px; padding: 5px 0px; position: relative;}
+.sameArticle strong{ font-size: 24px;}
+.sameArticle strong:before{ position: absolute; left: 0px; bottom: 0px; width: 100px; height: 4px; background: #fac400; content: '';}
+
+
+.gzh{
+	width: 106px;
+	height: auto;
+	position: fixed;
+	right: 0px;
+	top: 45%;
+}
+.gzh img{
+	display: block;
+	width: 100px;
+	border: 3px solid #FFFFFF;
+	display: block;
+	
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+.gzh p{
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 0px;
+	line-height: 16px;
+}
+.hanhong{
+	float: left;
+	width: 300px;
+	height: 235px;
+}
+.home_ad{
+	width: 1280px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.home_ad .l{
+	width: 728px;
+	height: 90px;
+	float: left;
+}
+.home_ad .r{
+	width: calc(100% - 728px);
+	float: right;
+}

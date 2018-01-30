@@ -1,0 +1,52 @@
+
+/* add 2015-8-20  author:caojh*/
+.jstree-default .jstree-clicked {
+  border-radius: 0px;
+background: none;
+box-shadow:none ;
+color:#0053FB;
+}
+.jstree-default .jstree-disabled.jstree-hovered {
+background: none;
+box-shadow: none;
+color:#00c582;
+}
+.jstree-default .jstree-themeicon {
+    background-position: -261px -4px;
+}
+.jstree-default .jstree-hovered {
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  color:#00c582;
+}
+
+.jstree-default .jstree-closed > .jstree-ocl{
+    width:24px;
+    background-position: -94px -4px;
+}
+.jstree-default .jstree-node{
+    background-position: -286px -4px;
+}
+.jstree-default .jstree-leaf > .jstree-ocl {
+    background-position: -62px -4px;
+}
+.jstree-default .jstree-open > .jstree-ocl {
+    background-position: -126px -4px;
+}
+
+.jstree-default  .jstree-clicked  .jstree-themeicon {
+      background-position: -261px  -74px;
+}
+.jstree-default .jstree-anchor {
+    line-height: 28px;
+    height: 28px;
+}
+.jstree-anchor{
+    width:192px;
+        overflow:hidden;
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}

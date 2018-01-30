@@ -1,0 +1,21 @@
+*{font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;}
+html,body{margin: 0;padding: 0;font-size: 14px;color: #333;}
+ul,ol{padding-left: 0;margin: 0;}
+p,h1,h2,h3,h4,h5,h6{margin: 0;}
+b,i,s,label{font-weight: normal;font-style: normal;text-decoration: none;}
+li{list-style: none;}
+a.btn{border: none;padding: 0;}
+a{text-decoration: none !important;outline: 0 !important;}
+img{width: 100%;}
+input:focus,
+input:active,
+button:active,
+button:visited,
+button{outline: none;}
+input::-webkit-input-placeholder, 
+input:-moz-placeholder, 
+input::-moz-placeholder, 
+input:-ms-input-placeholder{font-size:12px !important;color: #999 !important;}
+.container{padding: 0;width: 1170px !important;max-width: 1170px !important;min-width: 1170px !important;}
+.row{margin: 0;}
+.col-lg-4.col-md-4{padding: 0;}

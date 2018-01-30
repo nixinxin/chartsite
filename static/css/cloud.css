@@ -1,0 +1,760 @@
+
+
+/*主容器*/
+.main {
+    width: 100%;
+    height: auto; /*min-height: 758px; */
+    float: left;
+    display: inline;
+    margin: 30px auto;
+}
+
+/*内容器*/
+.main_center, .two_center {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_fg {
+    width: 100%;
+    height: 2px;
+    float: left;
+    display: inline;
+    margin: 25px auto;
+    background: url(/static/img/fg_01.jpg) repeat-x;
+}
+
+.special_fg {
+    width: 1002px;
+    height: 0;
+    float: left;
+    padding: 25px 0 0 0;
+}
+
+.left {
+    width: 900px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.right {
+    width: 280px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+
+
+/*瀑布流 肖何 修改添加 开始*/
+#picList {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+#picList li {
+    width: 278px;
+    height: auto;
+    position: absolute;
+    background: #ffffff;
+    border: 2px solid #EEF1F7;
+}
+
+#picList li:hover {
+    border: 2px solid #66cc00;
+}
+
+#picList .pic_img {
+    width: 268px;
+    height: 175px;
+    float: left;
+    display: inline;
+    margin: 6px 6px 22px 6px;
+}
+
+#picList .pic_img a {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+#picList .pic_img img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: inline;
+}
+
+#picList .pic_wen {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin: 0px 0px 22px 0px;
+}
+
+.pic_wen .pic_wen_title {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: bottom;
+    float: left;
+    display: inline;
+}
+
+.pic_wen .pic_wen_title a {
+    width: auto;
+    height: 100%;
+    float: left;
+    display: block;
+    color: #2f364a;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    margin: 0px 0px 0px 12px;
+}
+
+.pic_wen .pic_wen_title span {
+    width: 16px;
+    height: 10px;
+    float: right;
+    cursor: pointer;
+    background: url(/static/img/pic_wen_title_span.png) no-repeat;
+    margin: 8px 0px 0px 0px;
+}
+
+.pic_wen .pic_wen_title span {
+    width: 50px;
+    height: 20px;
+    float: right;
+    cursor: pointer; /*background:url(/static/img/pic_wen_title_span.png) no-repeat;*/
+    margin: 0px -2px 0px 0px;
+}
+
+.pic_wen .pic_wen_title .buy {
+    background: url("/static/img/pay_dialog_button.png") no-repeat 1px -264px;
+}
+
+.pic_wen .pic_wen_title .not_buy {
+    background: url("/static/img/pay_dialog_button.png") no-repeat 1px -325px;;
+}
+
+.pic_wen .pic_wen_content {
+    width: 95%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin: 14px 0px 0px 12px;
+    cursor: default;
+    line-height: 20px;
+    border-bottom: 1px solid #eef1f7;
+    padding: 0px 0px 10px 0px;
+}
+
+.pic_wen .pic_wen_content p {
+    text-indent: 1em;
+    color: #666666;
+}
+
+.pic_wen .pic_wen_content span {
+    width: auto;
+    height: 14px;
+    float: left;
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 2px 25px 0px 0px
+}
+
+#picList .pic_list {
+    width: 242px;
+    height: auto;
+    float: left;
+    display: inline;
+    margin: 0px 20px 18px 20px;
+}
+
+.pic_list dl {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.pic_list dl dt {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: bottom;
+    float: left;
+    display: inline;
+    background: url(/static/img/subcont_li_dian.png) no-repeat 0px 10px;
+    padding: 0px 0px 0px 8px;
+    margin: 1px auto;
+}
+
+/*首页文字重叠，改为超过一行引号显示*/
+.pic_list dl dt a {
+    width: 100%;
+    float: left;
+    display: block;
+    color: #6c6c6c;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    -icab-text-overflow: ellipsis;
+    /*首页文字重叠，改为超过一行引号显示*/
+    -khtml-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+
+/*瀑布流 肖何 修改添加 结束*/
+
+/*add dialog*/
+.dialog_box {
+    width: 100%;
+    height: 100%;
+    background: url(/static/img/black_bg.png) repeat;
+    position: fixed;
+    z-index: 999999;
+    display: none;
+    overflow: auto;
+}
+
+/*这里的是肖何添加的       大神的代码我hold不住，只能自己写了*/
+
+/*.login_title{ width: 100%; height: 30px; line-height: 30px; float: left; display: inline;}*/
+
+/*唐志峰做的 弹出框*/
+.tip {
+    background: url("/static/img/black_bg.png") repeat scroll 0 0 transparent;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.deta_up {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: auto;
+    left: 50%;
+    margin-left: -362px;
+    position: absolute;
+    margin-top: 173px;
+    width: 725px;
+    overflow: hidden;
+}
+
+.deta_up_tittle {
+    background: none repeat scroll 0 0 #7BC909;
+    border-bottom: 1px solid #48A702;
+    float: left;
+    /*height: 27px;*/
+    height: 40px;
+    line-height: 40px;
+    vertical-align: bottom;
+    text-align: right;
+    width: 725px;
+    font-size: 14px;;
+    color: #fff;
+}
+
+.deta_up_tittle a {
+    /*padding-right: 10px;*/
+    width: 30px;
+    height: 30px;
+    float: right;;
+    display: block;
+    margin: 6px 8px 0px 0px;;
+}
+
+.deta_up_main {
+    /*background: none repeat scroll 0 0 #F8F8F8;*/
+    /*border: 1px solid #CCCCCC;*/
+    display: inline;
+    float: left;
+    height: auto;
+    margin: 0px 5% 10px 5%;
+    /*padding: 0px 10px ;*/
+    /*width: 100%;*/
+    width: 90%;
+}
+
+/*.deta_up_main_s {*/
+/*background: none repeat scroll 0 0 #F8F8F8;*/
+/*border: 1px solid #CCCCCC;*/
+/*display: inline;*/
+/*float: left;*/
+/*height: auto;*/
+/*margin: 10px;*/
+/*padding: 5px 10px;*/
+/*width: 663px;*/
+/*}*/
+/*.deta_up_main_s span{margin: 5px auto;}*/
+
+.deta_up_main_title {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    /*margin: 0px 5%;*/
+}
+
+.deta_up_main_title h2 {
+    font-weight: bold;
+    cursor: default;
+    float: left;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: bottom
+}
+
+.deta_up_main_text {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    /*margin: 0px 5%;*/
+    line-height: 24px;
+    padding: 0px 0px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    cursor: default;
+    border-top: 1px solid #dbdbdb;
+    text-align: center;
+}
+.Mbean{width: 100%;height: auto;float: left;display: inline;margin: 10% 0px;}
+
+.deta_up_main_text strong {
+    font-weight: bold;
+    cursor: default;
+    padding: 0px 3px;
+    color: #407434;
+    font-family: arial;
+}
+
+.deta_up_main_button {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    border-top: 1px solid #dbdbdb;
+}
+
+.deta_up_main_button .share_download {
+    margin: 13px 0px 5px 165px;
+    float: left;
+    display: inline;
+}
+
+/*这里用作购买弹窗的通用css*/
+.deta_up_main_title .pay_card_title{
+    width: 100%;
+    height: 44px;
+    float: left;
+    display: block;
+}
+.deta_up_main_title .pay_card_title span{
+    width: 50%;height: 42px;float: left;;display: block;
+    line-height:54px;vertical-align: bottom;font-size: 14px;cursor: pointer; text-align: center;font-weight: bold;user-select:none;-moz-user-select:none;-webkit-user-select:none;
+}
+.deta_up_main_title .pay_card_title span.normal{border-bottom: 2px solid #ffffff;}
+.deta_up_main_title .pay_card_title span.click{border-bottom: 2px solid #48a702;color: #48a702;}
+.deta_up_main_title .pay_record_title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    display: block;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.deta_up_main_title .pay_record_title strong {
+    font-weight: normal;
+}
+
+.deta_up_main_title .pay_record_title .color {
+    color: #5e7968;
+}
+
+.deta_up_main_text  .pay_record_main {
+    width: 100%;
+    height: 116px;
+    float: left;
+    display: inline;
+}
+
+.pay_record_main .record_main_title {
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    vertical-align: bottom;
+    float: left;
+    display: inline;
+    text-align: left;
+    font-family: "微软雅黑";
+}
+
+.pay_record_main .record_main_select {
+    width: 100%;
+    height: 30px;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+.record_main_select .record_main_select_left {
+    width: auto;
+    height: 100%;
+    float: left;
+    display: inline;
+    text-indent: 10px;
+    font-size: 12px;
+}
+
+.record_main_select .record_main_select_left strong {
+    color: #5e7968;
+    font-weight: normal;
+}
+
+.record_main_select .record_main_select_right {
+    min-width: 160px;
+    height: 100%;
+    float: right;
+    display: inline;
+}
+
+.record_main_select .record_main_select_right .weidu_div {
+    width: auto;
+    height: auto;
+    float: left;
+    display: inline;
+    position: relative;
+    margin: 5px 10px 0px 0px;
+}
+
+.record_main_select .record_main_select_right .weidu_title {
+    height: 20px;
+    min-width: 140px;
+    border: 1px solid #979aa1;
+    padding: 0px;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: bottom;
+    text-indent: 15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.record_main_select .record_main_select_right .weidu_content {
+    height: auto;
+    min-width: 140px;
+    border: 1px solid #979aa1;
+    border-top: none;
+    padding: 0px;
+    top: 22px;
+    background: #fff;
+}
+
+.record_main_select .record_main_select_right .weidu_content ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+.record_main_select .record_main_select_right .weidu_content ul li {
+    width: 100%;
+    height: 24px;
+    color: #2F364A;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+    float: left;
+    display: inline;
+    text-align: left;
+    text-indent: 15px;
+    font-size: 12px;
+}
+
+.record_main_select .record_main_select_right .weidu_content ul li:hover {
+    background: #f8f8f8;
+}
+
+/*单选框*/
+.record_main_radio {
+    width: 100%;
+    height: 35px;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+.record_main_radio .record_main_select_left {
+    width: auto;
+    height: 100%;
+    float: left;
+    display: inline;
+    text-indent: 0px;
+    font-size: 12px;
+}
+
+.record_main_radio .record_main_select_left span {
+    width: 17px;
+    height: 17px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    margin: 8px 2px 0px 0px;
+}
+
+.record_main_radio .record_main_select_left span.click {
+    background: url("/static/img/pay_dialog_button.png") no-repeat 0px -123px;
+}
+
+.record_main_radio .record_main_select_left span.normal {
+    background: url("/static/img/pay_dialog_button.png") no-repeat 0px -157px;
+}
+
+.record_main_radio .record_main_select_left p {
+    width: auto;
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+.record_main_radio .record_main_select_left strong {
+    color: #5e7968;
+    font-weight: normal;
+}
+
+.record_main_radio .record_main_select_right {
+    min-width: 160px;
+    height: 100%;
+    float: right;
+    display: inline;
+}
+
+.record_main_radio .record_main_select_right .weidu_div {
+    width: auto;
+    height: auto;
+    float: left;
+    display: inline;
+    position: relative;
+    margin: 5px 10px 0px 0px;
+}
+
+.record_main_radio .record_main_select_right .weidu_title {
+    height: 20px;
+    min-width: 140px;
+    width: auto;
+    border: 1px solid #979aa1;
+    padding: 0px;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: bottom;
+    text-indent: 15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.record_main_radio .record_main_select_right .weidu_content {
+    height: auto;
+    min-width: 140px;
+    width: auto;
+    border: 1px solid #979aa1;
+    border-top: none;
+    padding: 0px;
+    top: 22px;
+    background: #fff;
+}
+
+.record_main_radio .record_main_select_right .weidu_content ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+.record_main_radio .record_main_select_right .weidu_content ul li {
+    width: 100%;
+    height: 24px;
+    color: #2F364A;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+    float: left;
+    display: inline;
+    text-align: left;
+    text-indent: 15px;
+    font-size: 12px;
+}
+
+.record_main_radio .record_main_select_right .weidu_content ul li:hover {
+    background: #f8f8f8;
+}
+
+.record_success {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: inline;
+    line-height: 110px;
+    font-size: 18px;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    border-bottom: 1px solid #e1e1e1;
+    color: #061b26;
+    cursor: pointer;
+}
+
+.keep_shopping {
+    width: 120px;
+    height: 35px;
+    float: left;
+    display: inline;
+    background: url("/static/img/pay_dialog_button.png") no-repeat 0px -363px;
+    margin: 30px 0px 30px 130px;
+}
+
+.go_settle {
+    width: 120px;
+    height: 35px;
+    float: left;
+    display: inline;
+    background: url("/static/img/pay_dialog_button.png") no-repeat 0px -419px;
+    margin: 30px 0px 30px 45px;
+    cursor: pointer;
+}
+
+.deta_up_main_button .pay_record_button {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+/*快速购买*/
+.deta_up_main_button .pay_record_button .button_1 {
+    width: 72px;
+    height: 35px;
+    float: left;
+    display: inline;
+    background: url("/static/img/pay_dialog_button.png") no-repeat 0px 0px;
+    cursor: pointer;
+    margin: 18px 180px 0px 100px;
+}
+
+
+.type_1 {
+    width: 22px;
+    height: 100%;
+    float: left;
+    display: inline;
+    background: url("/static/img/type_icon.png") no-repeat 0px -95px;
+    margin-left: 2px;
+}
+
+.type_3 {
+    width: 22px;
+    height: 100%;
+    float: left;
+    display: inline;
+    background: url("/static/img/type_icon.png") no-repeat 0px -35px;
+    margin-left: 2px;
+}
+
+.type_301 {
+    background: url("/static//static/img/data_gxsj_left_img.png") no-repeat 16px -2px;
+    border-bottom: none;
+}
+
+.type_302 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -32px;
+    border-bottom: none;
+}
+
+.type_303 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -216px;
+    border-bottom: none;
+}
+
+.type_304 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -62px;
+    border-bottom: none;
+}
+
+.type_305 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -154px;
+    border-bottom: none;
+}
+
+.type_306 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -93px;
+    border-bottom: none;
+}
+
+.type_307 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -185px;
+    border-bottom: none;
+}
+
+.type_308 {
+    background: url("/static/img/data_gxsj_left_img.png") no-repeat 16px -124px;
+    border-bottom: none;
+}
+
+.share_download {
+    width: 70px;
+    height: 30px;
+    float: right;
+    display: block;
+    cursor: pointer;
+    margin: 0px 15px 0px 0px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background: url("/static/img/cash_next.png");
+}
+
+/*
+                   _ooOoo_
+                  o8888888o
+                  88" . "88
+                  (| -_- |)
+                  O\  =  /O
+               ____/`---'\____
+             .'  \\|     |//  `.
+            /  \\|||  :  |||//  \
+           /  _||||| -:- |||||-  \
+           |   | \\\  -  /// |   |
+           | \_|  ''\---/''  |   |
+           \  .-\__  `-`  ___/-. /
+         ___`. .'  /--.--\  `. . __
+      ."" '<  `.___\_<|>_/___.'  >'"".
+     | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+     \  \ `-.   \_ __\ /__ _/   .-` /  /
+======`-.____`-.___\_____/___.-`____.-'======
+                   `=---='
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         佛祖保佑       永无BUG
+*/

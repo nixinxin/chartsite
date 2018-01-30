@@ -1,0 +1,40 @@
+.content h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+.content em{font-style:normal;}
+.content ul, ol,li { list-style: none; }
+.content a { text-decoration: none; color:#3e3e3e;}
+.content a:hover { color:#fac400;}
+.content img{ border:0px;}
+.content table { border-collapse: collapse; border-spacing: 0; }
+
+.content #container{ width:100%; height:auto;}
+
+
+.content{ width:1280px; height:auto; margin:80px auto;}
+.contentTop{width:1280px; height:50px; line-height:50px; margin: 15px 0px; border-bottom: 1px solid #e5e5e5;}
+.contentTop a{ float:right; width: 150px; height: 40px; border: 1px solid #fac400; line-height: 40px; text-align: center; display: block; margin-top: 9px; color: #fac400; display: none;}
+.contentTop a:hover{ background: #fac400; color: #FFFFFF;}
+.contentTop h2{ font-size:20px; float:left; border-left: 4px solid #fac400; height: 30px; line-height: 30px; float: left; margin-top: 10px; padding-left: 10px;}
+.caseList{ width:100%; height:auto; position:relative; overflow:hidden;}
+.caseList ul{ width:1350px; height:auto; margin: auto;}
+.caseList li{ width:300px; height:235px; float:left; background:#fff; margin:0px 26px 35px 0px; position:relative; overflow:hidden;}
+.caseList li .caseThum{ width:300px; height:180px; position:relative; overflow:hidden;}
+.caseList li .caseThum img{ position:absolute; left:0px; top:0px;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s;}
+.caseList li .caseName{ width:290px; padding-left:10px; height:50px; line-height:50px;  font-size:16px; color:#3e3e3e; border-bottom:1px solid #f2f2f2; overflow: hidden;}
+.caseList li .caseBottom{ width:100%; height:105px; position:absolute; left:0px; bottom:-55px; -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s; background:#fff;}
+.caseList li .caseInfo{ width:300px; height:55px; color:#d1d1d1;}
+.caseList li .caseInfo .caseIcon{ width:35px; padding-left:25px; height:15px; float:left; font-size:8px; line-height:15px; margin-top:20px; margin-left:10px;}
+.caseList li .caseInfo .caseIcon.ll{ background:url(/static/img/icons.png) -20px 0px no-repeat;}
+.caseList li .caseInfo .caseIcon.pl{ display: none;}
+.caseList li .caseInfo .caseTime{ width:100px; height:15px; float:right; margin-top:20px; font-size:8px; line-height:15px; text-align:right; margin-right:10px;}
+.caseList li:hover .caseBottom{ bottom:0px; background: #ffa700; color: #FFFFFF;}
+.caseList li:hover .caseBottom .caseName,.caseList li:hover .caseInfo{ color: #FFFFFF;}
+.caseList li:hover .caseBottom .caseName{ border-bottom: 1px solid #ffba38;}
+.caseList li:hover .caseThum img{ -webkit-transform:scale(1.1,1.1); -moz-transform:scale(1.1,1.1);transform:scale(1.1,1.1);}
+.caseList li:hover .caseInfo .caseIcon.ll{ background-position: -20px 0px;}
+
+
+/****************************************************************************************/
+.loadMore{ width: 100%; height: 50px;}
+.loadMore a{ display: block; width: 300px; height: 50px; line-height: 50px; margin: auto; text-align: center; background: #999999; color: #FFFFFF; cursor: pointer;}
+.loadMore a:hover{ background-color: #ffa700; color: #FFFFFF;}
+

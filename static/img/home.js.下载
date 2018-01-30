@@ -1,0 +1,38 @@
+$(function(){
+	var m_no = 0;
+	var m_total = $(".tips_list ul>li").length;
+	var htTime = setInterval(moveRight,5000);
+	
+	$(".tips_list").hover(function(){
+		clearInterval(htTime);
+	},function(){
+		htTime = setInterval(moveRight,5000);
+	})
+	$(".btnNext").click(function(){
+		moveRight();
+	})
+	$(".btnPrev").click(function(){
+		moveLeft();
+	})		
+	function moveRight(){
+		m_no=++m_no>m_total-1?0:m_no;
+		$(".tips_list ul>li:first").stop().animate({marginTop:"-50px"},'slow',function(){$(this).detach().appendTo($(".tips_list ul")).css("margin-top","0px")});
+	}
+	function moveLeft(){
+		m_no=--m_no<0?m_total-1:m_no;
+		$(".tips_list ul li:last").stop().css("margin-top","-50px").detach().prependTo($(".tips_list ul")).animate({marginTop:"0px"})
+	}
+	$(".searchText").focus(function(){
+		if($(this).val()==this.defaultValue){
+			$(this).val("")
+			$(".searchInput").addClass("blur");
+		}
+	})
+	$(".searchText").blur(function(){
+		if($(this).val()==""){
+			$(this).val("搜索特效");
+			$(".searchInput").removeClass("blur");
+		}
+		
+	});		
+})

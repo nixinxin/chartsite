@@ -851,3 +851,8 @@ class XqfzffDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
+
+class BookViews(View):
+
+    def get(self, request):
+        return render(request, "gujibook.html")

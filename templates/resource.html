@@ -1,245 +1,705 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/courseMap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/resource.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/home-2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book/public.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book/nivo-slider.css' %}">
+
+
+
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Site.css' %}">
-    <link rel="stylesheet" href="{% static 'css/SiteHome.css' %}">
+
+
+
+    <script src="{% static 'js/share.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/book/handlebars.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/book/public.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/share.js' %}" type="text/javascript"></script>
 
 
 {% endblock %}
 {% block content %}
-    <div class="Box10 ClearFloat">
+    <div class="navbox clearfix" style="margin-top: 80px">
+                <div class="w">
+                    <ul id="J_sideNav" class="sideNav fl">
+                        <!-- sideNav start -->
+                        <li class="item item0 ">
+                            <a href="javascript:;">农业统计年鉴数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017100312">中国统计年鉴</a>
 
-        <div class="Box72 FloatLeft">
-        <h1 class="TitleContent">数据目录</h1>
-        <div class="LeftList">
-            <h2>
-                <span>农业科技统计数据库</span>
-            </h2>
-            <ul>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=0f00d72a-74f8-49f5-8e74-5ef43fc20724" target="_blank">国际农业科研项目数据库</a>
-                    <b id="b0f00d72a-74f8-49f5-8e74-5ef43fc20724"></b>
-                    <span id="span0f00d72a-74f8-49f5-8e74-5ef43fc20724">
-                        <a href="javascript:;" onclick="ADataCategory_Click('0f00d72a-74f8-49f5-8e74-5ef43fc20724')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=923053d9-1381-4c63-ae27-dd7b6c9e3181" target="_blank">国内农业科技项目数据库</a>
-                    <b id="b923053d9-1381-4c63-ae27-dd7b6c9e3181"></b>
-                    <span id="span923053d9-1381-4c63-ae27-dd7b6c9e3181">
-                        <a href="javascript:;" onclick="ADataCategory_Click('923053d9-1381-4c63-ae27-dd7b6c9e3181')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=c687c428-227e-48e4-9912-10962665c6b9" target="_blank">农业获奖科技成果数据库</a>
-                    <b id="bc687c428-227e-48e4-9912-10962665c6b9"></b>
-                    <span id="spanc687c428-227e-48e4-9912-10962665c6b9">
-                        <a href="javascript:;" onclick="ADataCategory_Click('c687c428-227e-48e4-9912-10962665c6b9')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a>
-                    <b id="be9bbd9ac-4ade-49d3-99bf-d4acd6566045"></b>
-                    <span id="spane9bbd9ac-4ade-49d3-99bf-d4acd6566045">
-                        <a href="javascript:;" onclick="ADataCategory_Click('e9bbd9ac-4ade-49d3-99bf-d4acd6566045')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a>
-                    <b id="b3d8af79e-d8ab-40ff-8f55-a1f11afad890"></b>
-                    <span id="span3d8af79e-d8ab-40ff-8f55-a1f11afad890">
-                        <a href="javascript:;" onclick="ADataCategory_Click('3d8af79e-d8ab-40ff-8f55-a1f11afad890')">收藏</a>
-                    </span>
-                </li>
-            </ul>
-            <h2>
-                <span>农业科技信息资源库</span>
-            </h2>
-            <ul>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee" target="_blank">中文农业科技文摘数据库</a>
-                    <b id="bfbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee"></b>
-                    <span id="spanfbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee">
-                        <a href="javascript:;" onclick="ADataCategory_Click('fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=923d3242-2a3d-451f-88af-c4bd2c118651" target="_blank">外文农业科技文摘数据库</a>
-                    <b id="b923d3242-2a3d-451f-88af-c4bd2c118651"></b>
-                    <span id="span923d3242-2a3d-451f-88af-c4bd2c118651">
-                        <a href="javascript:;" onclick="ADataCategory_Click('923d3242-2a3d-451f-88af-c4bd2c118651')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=d8451520-be21-44f6-9675-42382c5b48c7" target="_blank">中国农业专利数据库</a>
-                    <b id="bd8451520-be21-44f6-9675-42382c5b48c7"></b>
-                    <span id="spand8451520-be21-44f6-9675-42382c5b48c7">
-                        <a href="javascript:;" onclick="ADataCategory_Click('d8451520-be21-44f6-9675-42382c5b48c7')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=cd2d1884-0e1c-4cde-9c7e-014f3ea7b790" target="_blank">中国农业科学院学位论文数据库</a>
-                    <b id="bcd2d1884-0e1c-4cde-9c7e-014f3ea7b790"></b>
-                    <span id="spancd2d1884-0e1c-4cde-9c7e-014f3ea7b790">
-                        <a href="javascript:;" onclick="ADataCategory_Click('cd2d1884-0e1c-4cde-9c7e-014f3ea7b790')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=c8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e" target="_blank">农业古籍数据库</a>
-                    <b id="bc8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e"></b>
-                    <span id="spanc8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e">
-                        <a href="javascript:;" onclick="ADataCategory_Click('c8b33d01-9fc8-4b0c-b036-ee4e8ee1eb5e')">收藏</a>
-                    </span>
-                </li>
-            </ul>
-            <h2>
-                <span>农业科技管理数据库</span>
-            </h2>
-            <ul>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a>
-                    <b id="b3ba796b1-a338-45c8-bd6e-7534a2942765"></b>
-                    <span id="span3ba796b1-a338-45c8-bd6e-7534a2942765">
-                        <a href="javascript:;" onclick="ADataCategory_Click('3ba796b1-a338-45c8-bd6e-7534a2942765')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1" target="_blank">农业科技政策法规数据库</a>
-                    <b id="b1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1"></b>
-                    <span id="span1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1">
-                        <a href="javascript:;" onclick="ADataCategory_Click('1d7b4ca0-3d05-4cc0-a1c8-54cba03fb6e1')">收藏</a>
-                    </span>
-                </li>
-            </ul>
-            <h2>
-                <span>农业科技专题数据库</span>
-            </h2>
-            <ul>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=85ba2842-dd71-4956-9764-d28b40254932" target="_blank">有机农业数据库</a>
-                    <b id="b85ba2842-dd71-4956-9764-d28b40254932"></b>
-                    <span id="span85ba2842-dd71-4956-9764-d28b40254932">
-                        <a href="javascript:;" onclick="ADataCategory_Click('85ba2842-dd71-4956-9764-d28b40254932')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a>
-                    <b id="b0180539b-98ab-43af-a76c-83362df4c25d"></b>
-                    <span id="span0180539b-98ab-43af-a76c-83362df4c25d">
-                        <a href="javascript:;" onclick="ADataCategory_Click('0180539b-98ab-43af-a76c-83362df4c25d')">收藏</a>
-                    </span>
-                </li>
-                <li>
-                    <a href="../DataTable/List.aspx?DataCategoryGId=29ecb014-cd89-40f5-8054-df3917347e2b" target="_blank">畜禽常见疾病及防治方法数据库</a>
-                    <b id="b29ecb014-cd89-40f5-8054-df3917347e2b"></b>
-                    <span id="span29ecb014-cd89-40f5-8054-df3917347e2b">
-                        <a href="javascript:;" onclick="ADataCategory_Click('29ecb014-cd89-40f5-8054-df3917347e2b')">收藏</a>
-                    </span>
-                </li>
-            </ul>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120225">中国卫生和计划生育统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120292">中国工业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017040045">中国金融年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030254">中国保险年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060032">中国劳动统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060038">中国城市统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120226">中国房地产统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120283">中国农村统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060070">中国经济运行风险研究报告</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050135">中国固定资产投资统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017010039">中国文化文物统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120266">中国价格统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020334">工业企业科技活动统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030067">中国发展报告</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050133">中国县域统计年鉴</a>
+
+                                    </dt>
+
+                                <dd class="more">
+                                    <a href="/yearbook/navi?type=cls4&amp;code=a"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="item item1">
+                            <a class="monthdatapublish" href="/datapublish/month">农业有害生物数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('1',this)" href="javascript:;">银行间同业拆借市场交易</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('2',this)" href="javascript:;">银行间市场债券质押式回购交易</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('3',this)" href="javascript:;">黄金和外汇储备</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('4',this)" href="javascript:;">国家财政预算收入</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('5',this)" href="javascript:;">商品进出口</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('6',this)" href="javascript:;">外商投资额</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('7',this)" href="javascript:;">其他存款性公司资产负债表</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('8',this)" href="javascript:;">汇率</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('9',this)" href="javascript:;">国家财政预算支出</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('10',this)" href="javascript:;">居民消费价格指数</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('11',this)" href="javascript:;">期货交易成交量</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('12',this)" href="javascript:;">期货交易成交额</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('13',this)" href="javascript:;">制造业PMI</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('14',this)" href="javascript:;">非制造业PMI</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('15',this)" href="javascript:;">PMI</a>
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('16',this)" href="javascript:;">存款性公司概览</a>
+                                    </dt>
+
+
+                                <dd class="more">
+                                    <input type=hidden id="sid" value="qro0onyudgu1zlhz54q4u4ga">
+                                    <a href="/datapublish/month"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="item item2">
+                            <a href="javascript:;">作物遗传资源数据</a><s>&gt;</s>
+                            <b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017100312">中国统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120292">中国工业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120231">中华人民共和国乡镇行政区划简册</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017010039">中国文化文物统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050135">中国固定资产投资统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110104">中国统计摘要</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017040045">中国金融年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2015070209">中国科学技术协会统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030067">中国发展报告</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120266">中国价格统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020306">全国农产品成本收益资料汇编</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120225">中国卫生和计划生育统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030058">中国文化及相关产业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120287">中国商品交易市场统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020334">工业企业科技活动统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030069">中国残疾人事业统计年鉴</a>
+
+                                    </dt>
+                                <dd class="more">
+                                    <a href="/yearbook/navi?type=cls4&amp;code=b"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="item item3">
+                            <a href="javascript:;">农业科技资源数据</a><s>&gt;</s>
+                            <b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120245">安徽统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110038">重庆统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020297">甘肃发展年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120314">广东统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120264">贵州统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060030">黑龙江统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020284">湖南统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060028">河南统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110012">海南统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110026">江苏统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120252">江西统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016010082">辽宁统计调查年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120295">广西统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020220">宁夏统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016010098">北京统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110017">福建统计年鉴</a>
+
+                                    </dt>
+                                <dd class="more">
+                                    <a href="/yearbook/navi?type=cls4&amp;code=c"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="item item4">
+                            <a href="javascript:;">作物品种品质数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060058">安庆统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120334">保定经济统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020294">常州统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020255">成都统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120340">丹阳统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110020">东莞统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020240">福州统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020282">哈尔滨统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120324">海口统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120260">邯郸统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120282">杭州统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016110115">菏泽统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020361">呼和浩特经济统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020354">淮安统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020351">惠州统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120299">嘉兴统计年鉴</a>
+
+                                    </dt>
+                                <dd class="more">
+                                    <a href="/yearbook/navi?type=cls4&amp;code=d"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="item item5">
+                            <a href="javascript:;">农产品资源数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <dl class="subnav clearfix">
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2015070209">中国科学技术协会统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020334">工业企业科技活动统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060040">中国环境统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120309">中国火炬统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050135">中国固定资产投资统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120256">大中型批发零售和住宿餐饮企业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030077">中国零售和餐饮连锁企业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120283">中国农村统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017010039">中国文化文物统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120243">中国基本单位统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120226">中国房地产统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120225">中国卫生和计划生育统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050277">天津科技统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120312">文化发展统计分析报告</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120292">中国工业统计年鉴</a>
+
+                                    </dt>
+                                    <dt>
+                                        <span class="icon-pic fl"></span>
+                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017040045">中国金融年鉴</a>
+
+                                    </dt>
+                                <dd class="more">
+                                    <a href="/yearbook/navi?type=cls4&amp;code=e"><span class="icon-more"></span>查看全部</a>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul><!-- sideNav end -->
+                    <div class="bannerbox fl ">
+                        <!-- bannerbox start -->
+                        <div id="J_nivoSlider" class="nivoSlider">
+                            <a class="nivo-imageLink" href="/Yearbook/index" target="_blank"><img src="/static/img/book/banner-01.jpg" alt=""></a>
+                            <a class="nivo-imageLink" href="/YearData/Analysis" target="_blank"><img src="/static/img/book/banner-02.jpg" alt=""></a>
+                                <a class="nivo-imageLink" href="http://tongji.cnki.net/datamap/index.html?a=RegionVersion&amp;z=D04" target="_blank"><img src="/static/img/book/banner-03.jpg" alt=""></a>
+                            <a class="nivo-imageLink" href="/datapublish/month" target="_blank"><img src="/static/img/book/banner-04.jpg" alt=""></a>
+                            <a class="nivo-imageLink" href="/Decision/Methods/ExponentialSmoothingPredict?type=year&amp;id=" target="_blank"><img src="/static/img/book/banner-05.jpg" alt=""></a>
+                        </div>
+                    </div><!-- bannerbox end -->
+                    <ul class="linklist fl">
+                        <li class="item0 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=A" target="_blank">统计年鉴</a></li>
+                        <li class="item1"><b></b><a href="/Yearbook/Navi?type=type&amp;code=E" target="_blank">科技文献</a></li>
+                        <li class="item2 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=D" target="_blank">文化遗产</a></li>
+                        <li class="item3"><b></b><a href="/Yearbook/Navi?type=type&amp;code=C" target="_blank">特色产品</a></li>
+                        <li class="item4 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=B" target="_blank">统计指标</a></li>
+                        <li class="item5"><b></b><a href="/Yearbook/Navi?type=type&amp;code=F" target="_blank">价格行情</a></li>
+                    </ul>
+                </div>
+        </div>
+            <!-- navbox end -->
+     <div class="container-wrap clearfix" id="particles-js">
+
+            <!--section-group-->
+            <div class="section-group pi-section-group clearfix">
+                <div class="section-group-inner">
+
+                    <!--section-titlebar-->
+                    <div ><h3><p class="cnTit">数据资源</p><span class="enTit">Data Resource</span></h3>
+                    </div>
+                    <!--/section-titlebar-->
+                    <!--section-container-->
+                    <div class="section-container">
+
+                        <ul class="pi-list">
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                    <a href=""><img alt="PC/手机/微信站三合一" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">农业统计年鉴数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                     <a href=""><img alt="搜索引擎主动推送" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">农业有害生物数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                 <a href=""><img alt="高效灵活的设计器" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">作物遗传资源数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="pi-list">
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                    <a href=""><img alt="PC/手机/微信站三合一" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">农业科技资源数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                     <a href=""><img alt="搜索引擎主动推送" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">作物品种品质数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                            <li class="pi-list-item">
+                                <div class="pi-list-box">
+                                 <a href=""><img alt="高效灵活的设计器" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
+                                    <h4 class="pi-list-title">农产品资源数据</h4>
+                                    <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
+                                    <p class="desnum-l">数据集：<span>187</span></p>
+                                    <p class="desnum-r">浏览量：<span>187</span></p>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <!--/section-container-->
+
+                </div>
+            </div>
+            <!--/section-group-->
         </div>
 
-        <div class="LeftList02">
-        <div class="LeftList02A">
-        <h2 class="org"><span>下载排行</span></h2>
-        <table class="EllipsisTable">
-            <tbody><tr><th class="c1">1、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a></td></tr><tr><th class="c2">2、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a></td></tr><tr><th class="c3">3、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=c687c428-227e-48e4-9912-10962665c6b9" target="_blank">农业获奖科技成果数据库</a></td></tr><tr><th>4、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a></td></tr><tr><th>5、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=d8451520-be21-44f6-9675-42382c5b48c7" target="_blank">中国农业专利数据库</a></td></tr><tr><th>6、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a></td></tr>
-        </tbody></table>
-        </div>
-        <div class="LeftList02B">
-        <h2 class="green"><span>收藏排行</span></h2>
-        <table class="EllipsisTable">
-            <tbody><tr><th class="c1">1、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">农作物名、优、特新品种数据库</a></td></tr><tr><th class="c2">2、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3d8af79e-d8ab-40ff-8f55-a1f11afad890" target="_blank">农业科技机构数据库</a></td></tr><tr><th class="c3">3、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=fbe0b5b0-b4c7-4a7d-8556-b31f1aa000ee" target="_blank">中文农业科技文摘数据库</a></td></tr><tr><th>4、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=e9bbd9ac-4ade-49d3-99bf-d4acd6566045" target="_blank">农业科技人才数据库</a></td></tr><tr><th>5、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=923053d9-1381-4c63-ae27-dd7b6c9e3181" target="_blank">国内农业科技项目数据库</a></td></tr><tr><th>6、</th><td class="EllipsisTd"><a href="../DataTable/List.aspx?DataCategoryGId=3ba796b1-a338-45c8-bd6e-7534a2942765" target="_blank">农业标准和操作规范数据库</a></td></tr>
-        </tbody></table>
-        </div>
-        </div>
-        </div>
-        <div class="Box270 FloatLeft MarginLeft10">
-
-        <div class="RightList">
-        <h2>
-            <span>科技资讯</span>
-            <a href="../InfoNews/List.aspx?MenuId=78&amp;Category=2" target="_blank">更多...</a>
-        </h2>
-        <ul>
-            <li>
-                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=234d156b-52db-4a14-bb3b-f137d8633dc6" target="_blank">“一带一路”生态环保大数据服务平台网站启动</a>
-            </li>
-            <li>
-                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=8fabc38e-5a22-4836-8c73-18e889d8bf3a" target="_blank">“APEC粮食安全与农业技术合作网及数据库”正式开通</a>
-            </li>
-            <li>
-                <a href="../InfoNews/Detail.aspx?MenuId=-1&amp;Id=e3e45aba-947b-4772-a3a5-56d46e518a9f" target="_blank">联合国：欢迎美国签署新法案以改善全球粮食安全</a>
-            </li>
-        </ul>
-        </div>
-
-        <div class="RightList ClearFloat">
-        <h2><span>最新文献</span><a href="../InfoLiterature/List.aspx?MenuId=-1" target="_blank">更多...</a></h2>
-        <ul><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=00f21780-a5ec-4c9d-85e5-84fac25a6b8c" target="_blank">作物育种相关数据及大数据技术育种利用</a></li><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=c50c7f54-3ffe-4650-860d-288d5d7298ed" target="_blank">转型时期杂交水稻的困境与出路</a></li><li><a href="../InfoLiterature/Detail.aspx?MenuId=-1&amp;Id=32e93ee5-ea16-4fd0-b083-cb2da9bc0287" target="_blank">正确认识粮食安全和农业劳动力成本问题</a></li></ul>
-        </div>
-
-        <div class="RightList ClearFloat">
-        <h2><span>推荐报告</span><a href="../InfoReport/List.aspx?MenuId=-1" target="_blank">更多...</a></h2>
-        <ul><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101911016" target="_blank">驱动农业转型的新力量-大数据应用(2015中国农业展望大会)</a></li><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101813858" target="_blank">中国农业展望的技术支撑(2015中国农业展望大会)</a></li><li><a href="../../Scripts/PDF/Viewer.aspx?FilePath=InfoReport/20160311/20160311101709274" target="_blank">我国耕地质量现状与保护提升对策(2015中国农业展望大会)</a></li></ul>
-        </div>
-
-        <div class="RightList2 ClearFloat">
-        <h2><span>更新动态</span><a href="../DataUpdateRecord/List.aspx">更多...</a></h2>
-        <ul><li><a href="../DataTable/List.aspx?DataCategoryGId=29ecb014-cd89-40f5-8054-df3917347e2b" target="_blank">畜禽常见疾病及防治方法数据库</a><b>2016-11-08</b></li><li><a href="../DataTable/List.aspx?DataCategoryGId=0180539b-98ab-43af-a76c-83362df4c25d" target="_blank">[修改]农作物名、优、特新品种数据库</a><b>2016-11-08</b></li><li><a href="../DataTable/List.aspx?DataCategoryGId=882d05ba-1118-4cee-b954-31125acfacb3" target="_blank">[修改]FAO统计数据库</a><b>2016-11-08</b></li></ul>
-        </div>
-        <div class="DataTotal">
-            <a href="/share/" class="UserForm">数据共享</a>
-            <a href="../FeedBack/AddAndUpdate.aspx" class="UserFeedback">用户反馈</a>
-        </div>
-
-        <div class="DataTotal">
-        <p><span>数据库总量：</span><b class="Red">42</b>&nbsp;个</p>
-        <p><span>数据总量：</span><b class="Blue">2,059,327</b>&nbsp;条</p>
-        <p><span>总访总量：</span><b>15,154</b>&nbsp;人次</p>
-        </div>
-        </div>
-    </div>
 {% endblock %}
 
 {% block foot %}
+
+    <script src="{% static 'js/book/jquery.nivo.slider.pack.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/book/jquery.nstSlider.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/book/ui.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/book/index.js' %}" type="text/javascript"></script>
     <script type="text/javascript">
-        //数据收藏
-        function ADataCategory_Click(dataCategoryId) {
-        var userId = '';
-        if (userId == "") {
-        if (confirm("请登录后点击收藏！") === true) {
-            location.href = "/user/login/";
-        }
-        }
-        else {
-        if (dataCategoryId === "") {
-            alert("请点击收藏按钮！");
-        }
-        else {
-            $.ajax({
-                type: "POST",
-                url: "Default.aspx/AddDataCategory",
-                data: "{dataCategoryId:'" + dataCategoryId + "',userId:'" + userId + "'}",
-                contentType: "application/json; charset=utf-8",
-                success: function (returnMessage) {
-                    if (returnMessage.d !== "") {
-                        $("#b" + dataCategoryId).addClass("CollectedIcon");
-                        $("#span" + dataCategoryId).hide();
-                    }
-                    else {
-                        alert("收藏失败，请联系系统管理人员！");
-                    }
-                },
-                error: function (result, returnMessage, status) {
-                    alert(returnMessage);
+
+    $(document).ready(function () {
+        SetNavActive();
+
+        // --点击事件:回车
+        $("#J_searchTxt").focus(function () {
+            $(window).unbind().bind("keydown", function (event) {
+                if (event.which == 13 && $("#myForm").valid()) {
+                    var keyword = $("#J_searchTxt").val();
+                    window.location.href = "/Search/ItemSearch" + "?keyword=" + encodeURIComponent(keyword) + "&f=" + encodeURIComponent("条目检索");
                 }
-            });     // end $.ajax()
+            });
+        });
+    });
+
+    // --初始化数值检索button的url
+    function SetValueSearchHref() {
+        if ($("#myForm").valid()) {
+            var keyword = $("#J_searchTxt").val();
+            $("#ValueSearch").attr("href",  "/Search/ValueSearch"+"?keyword=" + encodeURIComponent(keyword));
         }
+    }
+
+    // --初始化条目检索button的url
+    function SetItemSearchHref() {
+        if ($("#myForm").valid()) {
+            var keyword = $("#J_searchTxt").val();
+            $("#ItemSearch").attr("href", "/Search/ItemSearch" + "?keyword=" + encodeURIComponent(keyword) + "&f=" + encodeURIComponent("条目检索"));
         }
+    }
+
+    // --设置导航选择效果
+    function SetNavActive() {
+        var url = window.location.href.split('?');
+        if (url != null) { url = url[0].toLocaleLowerCase(); };
+
+        if (url.indexOf('/') < 0 || url.indexOf('/') == (url.length - 1)) {
+            $("li[module$='home']").addClass('cur').siblings('li').removeClass('cur');
         }
-        </script>
+        else if (url.indexOf('/yearbook') > 0) {
+            $("li[module$='yearbook']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/seasonormonth') > 0) {
+            $("li[module$='monthdata']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/yeardata') > 0) {
+            $("li[module$='yeardata']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/sectordata') > 0) {
+            $("li[module$='sectordata']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/internationaldata') > 0) {
+            $("li[module$='internationaldata']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/decision/methods/') > 0) {
+            $("li[module$='decision']").addClass('cur').siblings('li').removeClass('cur');
+        }
+        else if (url.indexOf('/mydata/mydatafavoriate') > 0) {
+            $("li[module$='mydata']").addClass('cur').siblings('li').removeClass('cur');
+        }
+    }
+</script>
 {% endblock %}

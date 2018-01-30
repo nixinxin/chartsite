@@ -1,88 +1,234 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/index.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/share.css' %}">
-    <script src="{% static 'js/common.js' %}" type="text/javascript"></script>
+        <link rel="stylesheet" href="{% static 'css/resource.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/common_pager.css' %}">
 
-    <!--jACKY end-->
-    <script>
-        $(function(){
-            var $next = $('.btn-next').click(function(){
-                var self = $(this),
-                    step = self.attr('data-step');
-                if(step1){
-                    $('.content').hide();
-                    $('.content2').fadeIn();
-                    self.attr('data-step',2);
-                }else if(step2){
-                    $('.hz-close').click();
-                }
-                $(this).text('我知道了');
-            });
-            $('.hz-close').click(function(){
-                $('.install').fadeOut('slow',function(){
-                    $('.content').show();
-                    $('.content2').hide();
-                    $next.attr('data-step',1).text('下一步 ')
-                            .append('<span class="glyphicon glyphicon-arrow-right"></span>');
-                });
-            });
-            var tour = $('.teach').click(function(){
-                $('.install').fadeIn();
-            });
-            if(!common.cookie('tour')){
-                tour.click();
-                common.cookie('tour',true);
-            }
-        });
-    </script>
+        <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+        <link rel="stylesheet" href="{% static 'css/cloud.css' %}">
+        <link rel="stylesheet" href="{% static 'css/nongye_index.css' %}">
+
 {% endblock %}
-{% block content %}
-    <div class="container web-body" style="width: 100%">
-        <div class="row section" style="color: #ffffff; background-color: #343c3f;">
-            <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-xs-6">
-                <div class="stepDes">
-                    <h2 class="slide-title">全民编程时代 - 云端练习工具</h2>
-                    <p class="slide-content">
-                        智能手机、平板电脑、互联网、智能家居、无人驾驶汽车....，科技改变了我们的生活，而编程也不再那么遥远，它已经来到了我们的身边，全民编程时代已经来临。临渊羡鱼，不如退而结网，少年，是时候coding改变世界了。
-                    </p>
-                    <p class="slide-content">
-                        古人云，工欲善其事必先利其器，无论是学习还是工作，你都有理由拥有一个方便快捷的云端练习工具，汇智网全新打造的云端练习工具，让你coding无忧。
-                    </p>
-                    <button class="btn btn-lg btn-info teach">
-                    <span class="glyphicon glyphicon-question-sign"></span>
-                   共享数据资源
-                    </button>
+
+{%  block content %}
+    <div class="container" style="margin-top: 60px">
+        <div class="main" >
+            <div class="main_center">
+            <div class="sjzy_detail_left">
+                <div class="left_2">
+                    <div class="title">
+                        <ul style="width: 400px">
+                            <span>排序：</span>
+                            <li onclick="ExchangeMore.order('date',
+                            true)"><a>时间</a>
+                            </li>
+                            <li onclick="ExchangeMore.order('size',
+                            false)"><a>大小</a>
+                            </li>
+                            <li onclick="ExchangeMore.order('down',
+                            false)"><a>下载量</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content">
+                            <ul style="text-align: center">
+                                    <li>
+                                        <div class="content_title filetype_302">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=3d74433a-0d90-440f-b6ce-88820a2db59b" target="_blank">2014年我国农产品进口企业百强名单</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>数据统计了农产品出口企业top100名单 ，包括企业名称、所属地区、行业、企业年龄等字段。</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>5M豆</li>
+                                                <li>28次下载</li>
+                                                <li>39.50K</li>
+                                                <li>2015-09-10</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=f8b500e4e80e4783948012e62c7aab64">翘翘小猫咪</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="海关信息网和工商总局">海关信息网和工商总局</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content_title filetype_304">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=e3bf946c-1f6f-4968-9a15-0bebc5d7015a" target="_blank">COMEX期货交易行情2014年10月</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>纽约商品交易所黄金每日的开盘价、收盘价、最高价等行情数据。</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>免费</li>
+                                                <li>9次下载</li>
+                                                <li>312.87K</li>
+                                                <li>2015-08-06</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=24c94340b24241a396b9120898328c47">金银钛铼镁</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="巨灵财经">巨灵财经</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content_title filetype_308">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=ed2bfba1-4e30-4fe3-97f7-5bd4408915fc" target="_blank">山东省涉农企业软件著作权申请情况分布（一公里网格）</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>数据概况：该数据为涉农计算机软件著作权的公里网格shp图层；数据源涵盖了软件全称、软件简称、版本号、首次发表时间、登记时间、著作权人、软件分类、行业分类、gis坐标；可以从行业分类、软件分类、时间等维度统计企业的计算机软件著作权申请数量，展现各省市软著分布情况。
+            数据参数：时间范围：1992年至今；更新频率：月度；数据总量：93万软著信息
+            数据样例：山东省涉农企业软著申请情况分布（2014年）</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>2000农业币</li>
+                                                <li>1次下载</li>
+                                                <li>1.30M</li>
+                                                <li>2015-04-01</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=c6fa5bdc0bcd460d971428350ca92b19">showing</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="量子数聚">量子数聚</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content_title filetype_308">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=ed2bfba1-4e30-4fe3-97f7-5bd4408915fc" target="_blank">山东省涉农企业软件著作权申请情况分布（一公里网格）</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>数据概况：该数据为涉农计算机软件著作权的公里网格shp图层；数据源涵盖了软件全称、软件简称、版本号、首次发表时间、登记时间、著作权人、软件分类、行业分类、gis坐标；可以从行业分类、软件分类、时间等维度统计企业的计算机软件著作权申请数量，展现各省市软著分布情况。
+            数据参数：时间范围：1992年至今；更新频率：月度；数据总量：93万软著信息
+            数据样例：山东省涉农企业软著申请情况分布（2014年）</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>2000农业币</li>
+                                                <li>1次下载</li>
+                                                <li>1.30M</li>
+                                                <li>2015-04-01</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=c6fa5bdc0bcd460d971428350ca92b19">showing</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="量子数聚">量子数聚</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content_title filetype_308">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=ed2bfba1-4e30-4fe3-97f7-5bd4408915fc" target="_blank">山东省涉农企业软件著作权申请情况分布（一公里网格）</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>数据概况：该数据为涉农计算机软件著作权的公里网格shp图层；数据源涵盖了软件全称、软件简称、版本号、首次发表时间、登记时间、著作权人、软件分类、行业分类、gis坐标；可以从行业分类、软件分类、时间等维度统计企业的计算机软件著作权申请数量，展现各省市软著分布情况。
+            数据参数：时间范围：1992年至今；更新频率：月度；数据总量：93万软著信息
+            数据样例：山东省涉农企业软著申请情况分布（2014年）</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>2000农业币</li>
+                                                <li>1次下载</li>
+                                                <li>1.30M</li>
+                                                <li>2015-04-01</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=c6fa5bdc0bcd460d971428350ca92b19">showing</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="量子数聚">量子数聚</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content_title filetype_308">
+                                            <a href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=ed2bfba1-4e30-4fe3-97f7-5bd4408915fc" target="_blank">山东省涉农企业软件著作权申请情况分布（一公里网格）</a>
+                                            <div class="type_1"></div>
+                                        </div>
+                                        <div class="content_wen"><p>数据概况：该数据为涉农计算机软件著作权的公里网格shp图层；数据源涵盖了软件全称、软件简称、版本号、首次发表时间、登记时间、著作权人、软件分类、行业分类、gis坐标；可以从行业分类、软件分类、时间等维度统计企业的计算机软件著作权申请数量，展现各省市软著分布情况。
+            数据参数：时间范围：1992年至今；更新频率：月度；数据总量：93万软著信息
+            数据样例：山东省涉农企业软著申请情况分布（2014年）</p></div>
+                                        <div class="content_tag">
+                                            <ul>
+                                                <li>2000农业币</li>
+                                                <li>1次下载</li>
+                                                <li>1.30M</li>
+                                                <li>2015-04-01</li>
+                                                <li>发布者:<a href="http://www.dataagri.com/agriculture/user/mhj.action?uuid=c6fa5bdc0bcd460d971428350ca92b19">showing</a>
+                                                </li>
+                                                <li style="border: none;width:300px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-spacing: normal;">数据来源:
+                                                    <a href="javascript:void(0)" title="量子数聚">量子数聚</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                            </ul>
+
+                        <div style="margin-left: 200px;">
+                 <div class="pagination">
+                    <ul>
+                        <a href="javascript:;"><span>首页</span></a>
+                        <a href="javascript:;"><span><p class="prepage"></p>上一页</span></a>
+                        <a href="javascript:;" class="btn-focus"><span>1</span></a>
+                        <a href="javascript:;" onclick="Pager.GoTo(2)"><span>2</span></a>
+                        <a href="javascript:;" onclick="Pager.GoTo(3)"><span>3</span></a>
+                        <a href="javascript:;" onclick="Pager.GoTo(4)"><span>4</span></a>
+                        <a href="javascript:;" onclick="Pager.GoTo(2)" style="_width:80px;"><span><p
+                        class="nextpage"></p>下一页</span></a>
+                        <a href="javascript:;" onclick="Pager.GoTo(4)"><span>尾页</span></a>
+                    </ul>
+                    <input type="hidden" value="10" id="pager_rows">
+                </div></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-6">
-                <div class="thumbnail" style="padding:10px;background-color: transparent;">
-                    <img class="img_free" src="{% static 'img/tool.png' %}">
+            <div class="sjzy_detail_right">
+                <div class="right_1">
+                    <div class="title">发布数据</div>
+                    <div class="content">
+                        <div class="book">
+                            <span>247</span>
+                            组
+                        </div>
+
+                            <input type="button" class="right_1_btn" onclick="openLoginDialog();">
+
+                    </div>
+                </div>
+                <div class="right_2">
+                    <div class="title">热点下载</div>
+                    <div class="content">
+                        <ul>
+
+                            <li><a class="top1" title="2015年全国名特优新农产品（茶叶类）" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=f4c59bbc-f020-496c-83d4-a48637626b86">2015年全国名特优新农产品（茶叶类）</a><span>146次</span>
+
+                            </li><li><a class="top2" title="截至2014年10月全国各省份涉农企业数量统计" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=0e421c48-9956-4066-afd7-72c6144528b7">截至2014年10月全国各省份涉农企业数量统计</a><span>117次</span>
+                            </li><li><a class="top3" title="截至2014年10月全国各省份涉农企业数量统计" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=0e421c48-9956-4066-afd7-72c6144528b7">截至2014年10月全国各省份涉农企业数量统计</a><span>117次</span>
+                            </li><li><a class="top4" title="截至2014年10月全国各省份涉农企业数量统计" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=0e421c48-9956-4066-afd7-72c6144528b7">截至2014年10月全国各省份涉农企业数量统计</a><span>117次</span>
+                        </li></ul>
+                    </div>
+
+                </div>
+                <div class="right_3">
+                    <div class="title">热点收藏</div>
+                    <div class="content">
+                        <ul>
+
+                            <li><a class="top1" title="农业产业化国家重点龙头第六次监测合格及递补企业点图层" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=f84a656a-8331-4292-8e74-7f78cb647e2a">农业产业化国家重点龙头第六次监测合格及递补企业点图层</a><span>2次</span>
+
+
+                            </li><li><a class="top2" title="近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=36496ca0-afd6-4790-a132-1bf0ef2cd72c">近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息</a><span>2次</span>
+                            </li><li><a class="top3" title="近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=36496ca0-afd6-4790-a132-1bf0ef2cd72c">近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息</a><span>2次</span>
+                            </li><li><a class="top4" title="近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息" href="http://www.dataagri.com/agriculture/exchange/sdd.action?uuid=36496ca0-afd6-4790-a132-1bf0ef2cd72c">近三年小原皮、大原皮、皮革、毛皮的化学处理相关实用新型专利信息</a><span>2次</span>
+
+
+                        </li></ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row tt">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="col-md-4">
-                    <span class="glyphicon glyphicon-globe"></span>
-                    <h2>随处可得</h2>
-                    <p>当需要编写代码时，在任何网站你都可以方便、快捷的使用云端练习工具来进行编程。</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="glyphicon glyphicon-thumbs-up"></span>
-                    <h2>功能强大</h2>
-                    <p>云端练习工具功能强大，支持大多数主流语言，而且我们还将持续添加更多语言的支持。</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="glyphicon glyphicon-tree-deciduous"></span>
-                    <h2>免费使用</h2>
-                    <p>我们将云端练习工具免费提供使用给大家使用，好东西马上分享给小伙伴吧。</p>
-                </div>
+
+
             </div>
-        </div>
+            </div>
+
     </div>
 {% endblock %}
 
