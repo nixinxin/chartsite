@@ -285,6 +285,7 @@ urlpatterns = [
     url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),
     url(r'^test/$', TemplateViews.as_view(), name='test'),
     url(r'^books/$', BookViews.as_view(), name='books'),
+    url(r'^years/$', YearsViews.as_view(), name='years'),
 
 
 ]

@@ -856,3 +856,9 @@ class BookViews(View):
 
     def get(self, request):
         return render(request, "gujibook.html")
+
+
+class YearsViews(View):
+
+    def get(self, request):
+        return render(request, "years.html")

@@ -152,7 +152,7 @@ class AgriIndex(models.Model):
 
     class Meta:
         db_table = "农业统计指标"
-        verbose_name = "农业统计指标"
+        verbose_name = db_table
         verbose_name_plural = verbose_name
         unique_together = (("index", 'values', 'location', 'year'), )
 
@@ -10032,5 +10032,22 @@ class XqfzffDb(models.Model):
 
     class Meta:
         db_table = '畜禽常见疾病及防治方法数据库'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class YearBooks(models.Model):
+    id = models.IntegerField(db_column='id', verbose_name='id', blank=True, null=True)
+    title = models.CharField(max_length=60, db_column='标题', verbose_name='标题')
+    category = models.CharField(max_length=60, db_column='类别', verbose_name='类别')
+    page = models.CharField(max_length=20, db_column='年鉴页码', verbose_name='年鉴页码')
+    identify = models.CharField(primary_key=True, max_length=20, db_column='唯一编号', verbose_name='唯一编号')
+    year = models.CharField(max_length=4, db_column='年份', verbose_name='年份')
+    caj = models.IntegerField(default=0, db_column='CAJ', verbose_name='CAJ', blank=True, null=True)
+    pdf = models.IntegerField(default=0, db_column='PDF', verbose_name='PDF', blank=True, null=True)
+    excel = models.IntegerField(default=0, db_column='EXCEL', verbose_name='EXCEL', blank=True, null=True)
+
+    class Meta:
+        db_table = '农业统计年鉴'
         verbose_name = db_table
         verbose_name_plural = verbose_name
