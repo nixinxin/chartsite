@@ -231,6 +231,8 @@ router.register(r'NykjzcfgDb', NykjzcfgDbViewSet, base_name='NykjzcfgDb')
 # 畜禽常见疾病及防治方法数据库
 router.register(r'XqfzffDb', XqfzffDbViewSet, base_name='XqfzffDb')
 
+# 统计年鉴下载接口
+router.register(r'bookdown', YearsDownViewSet, base_name='bookdown')
 
 
 urlpatterns = [

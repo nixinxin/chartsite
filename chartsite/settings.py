@@ -261,6 +261,9 @@ CACHES = {
 # 应许跨域
 CORS_ORIGIN_ALLOW_ALL = True
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+DEFAULT_FROM_EMAIL = "agristatics@sina.com"
+
 EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25
 EMAIL_HOST_USER = "agristatics@sina.com"
@@ -270,6 +273,6 @@ EMAIL_FROM = "agristatics@sina.com"
 
 HOST = 'http://agridata.iask.in'
 
-
 # 验证码
 CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
+

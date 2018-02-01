@@ -10043,9 +10043,9 @@ class YearBooks(models.Model):
     page = models.CharField(max_length=20, db_column='年鉴页码', verbose_name='年鉴页码')
     identify = models.CharField(primary_key=True, max_length=20, db_column='唯一编号', verbose_name='唯一编号')
     year = models.CharField(max_length=4, db_column='年份', verbose_name='年份')
-    caj = models.IntegerField(default=0, db_column='CAJ', verbose_name='CAJ', blank=True, null=True)
-    pdf = models.IntegerField(default=0, db_column='PDF', verbose_name='PDF', blank=True, null=True)
-    excel = models.IntegerField(default=0, db_column='EXCEL', verbose_name='EXCEL', blank=True, null=True)
+    caj = models.FilePathField(db_column='CAJ', verbose_name='CAJ', blank=True, null=True)
+    pdf = models.FilePathField(db_column='PDF', verbose_name='PDF', blank=True, null=True)
+    excel = models.FilePathField(db_column='EXCEL', verbose_name='EXCEL', blank=True, null=True)
 
     class Meta:
         db_table = '农业统计年鉴'

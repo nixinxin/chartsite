@@ -3,7 +3,7 @@ import json
 
 import os
 from django.core import serializers as json_serializers
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
 from rest_framework.pagination import PageNumberPagination
@@ -17,7 +17,7 @@ from rest_framework.throttling import UserRateThrottle, AnonRateThrottle
 
 from django_filters.rest_framework import DjangoFilterBackend
 
-from chartsite.settings import BASE_DIR
+from chartsite.settings import BASE_DIR, MEDIA_URL
 from .models import *
 from rest_framework.authentication import TokenAuthentication
 from resource.filters import *
@@ -850,6 +850,25 @@ class XqfzffDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     ordering_fields = ('code', )
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
+
+
+class YearsDownViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
+    """
+    list:
+       统计年鉴下载接口 数据,该注释直接会在docs文档中生成相关说明
+    """
+    queryset = YearBooks.objects.all().order_by("identify")
+    serializer_class = YearBooksserializer
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        index = serializer.validated_data['index']
+        file_type = serializer.validated_data['type']
+        queryset = YearBooks.objects.get(identify=index)
+        file_url = getattr(queryset, file_type)
+        filepath = os.path.join(MEDIA_URL, file_url)
+        return HttpResponseRedirect(redirect_to=filepath)
 
 
 class BookViews(View):
