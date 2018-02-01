@@ -4,7 +4,7 @@ import json
 import os
 from django.core import serializers as json_serializers
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.views import View
 from rest_framework.pagination import PageNumberPagination
 # from rest_framework.views import APIView
@@ -23,6 +23,9 @@ from rest_framework.authentication import TokenAuthentication
 from resource.filters import *
 from .serializers import *
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
+
+from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
+
 
 # Create your views here.
 
@@ -52,7 +55,6 @@ class TpPagination(PageNumberPagination):
     max_page_size = 300
 
 
-
 class ResourceListPagination(PageNumberPagination):
     page_size = 12
     page_size_query_param = 'page_size'
@@ -60,7 +62,8 @@ class ResourceListPagination(PageNumberPagination):
     max_page_size = 12
 
 
-class ResourceListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ResourceListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
         数据资源列表列表数据,该注释直接会在docs文档中生成相关说明
@@ -72,7 +75,7 @@ class ResourceListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ('title',)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
     def retrieve(self, request, *args, **kwargs):
         instance = self.get_object()
@@ -82,7 +85,8 @@ class ResourceListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
         return Response(serializer.data)
 
 
-class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                              viewsets.GenericViewSet):
     """
     list:
         国外引进作物种质资源数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -95,7 +99,7 @@ class GwyjzwzzzyDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ('id', "total_id", "name", "copes_category", 'copes_type', "category_name", "source",
-                     "distribution_unit", 'import_time', )
+                     "distribution_unit", 'import_time',)
     ordering_fields = ('id', 'total_id')
 
 
@@ -111,7 +115,7 @@ class NcpjgDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ("category", 'product', 'market', 'datetime')
-    ordering_fields = ('datetime', )
+    ordering_fields = ('datetime',)
 
 
 class AgriIndexViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -126,7 +130,7 @@ class AgriIndexViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ("index", 'values', 'location', 'year')
-    ordering_fields = ('year', )
+    ordering_fields = ('year',)
 
 
 class MytxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -139,8 +143,8 @@ class MytxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('name', )
-    ordering_fields = ('code', )
+    search_fields = ('name',)
+    ordering_fields = ('code',)
 
 
 class ZgnytdkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -154,10 +158,11 @@ class ZgnytdkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     search_fields = ("zhname",)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZgnyyhswDbTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZgnyyhswDbTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国农业有害生物图片数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -180,7 +185,7 @@ class ZgnttdzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('report_id', )
+    ordering_fields = ('report_id',)
 
 
 class ZgnthsDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -194,7 +199,7 @@ class ZgnthsDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgyclschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -208,7 +213,7 @@ class ZgyclschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgwlrqwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -222,7 +227,7 @@ class ZgwlrqwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgwlrqkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -236,7 +241,7 @@ class ZgwlrqkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgwlrqzwDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -250,7 +255,7 @@ class ZgwlrqzwDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZghdzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -264,7 +269,7 @@ class ZghdzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZghlzwhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -278,7 +283,7 @@ class ZghlzwhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZggslschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -292,7 +297,7 @@ class ZggslschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZggjhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -306,7 +311,7 @@ class ZggjhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgmhhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -320,7 +325,7 @@ class ZgmhhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgstzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -334,7 +339,7 @@ class ZgstzcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgsdhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -348,7 +353,7 @@ class ZgsdhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgtsNcpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -362,10 +367,11 @@ class ZgtsNcpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZglszwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZglszwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国粮食作物病毒病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -376,10 +382,11 @@ class ZglszwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZglszwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZglszwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国粮食作物真菌病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -390,10 +397,11 @@ class ZglszwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZglszwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZglszwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国粮食作物细菌病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -404,10 +412,11 @@ class ZglszwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZgjjzwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZgjjzwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国经济作物病毒病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -418,10 +427,11 @@ class ZgjjzwbdbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZgjjzwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZgjjzwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国经济作物真菌病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -432,10 +442,11 @@ class ZgjjzwzjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZgjjzwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZgjjzwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国经济作物细菌病害数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -446,7 +457,7 @@ class ZgjjzwxjbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgpgtlhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -460,7 +471,7 @@ class ZgpgtlhcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class ZgxzqhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -474,7 +485,7 @@ class ZgxzqhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    ordering_fields = ('citycode', )
+    ordering_fields = ('citycode',)
 
 
 class ZgzynywhYcViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -489,7 +500,8 @@ class ZgzynywhYcViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
 
-class ZgzynywhycTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ZgzynywhycTpViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        中国重要农业文化遗产图片列表数据,该注释直接会在docs文档中生成相关说明
@@ -513,7 +525,8 @@ class ZwwzfbDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
 
-class XmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class XmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        小麦种质资源核心种质数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -535,10 +548,11 @@ class XmxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class XmxcpzjqxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class XmxcpzjqxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        小麦育成品种及其系谱数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -548,10 +562,11 @@ class XmxcpzjqxpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('total_id', )
+    ordering_fields = ('total_id',)
 
 
-class SdzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class SdzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        水稻种质资源核心种质数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -561,10 +576,11 @@ class SdzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('total_id', )
+    ordering_fields = ('total_id',)
 
 
-class SdycpzjqpxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class SdycpzjqpxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        水稻育成品种及其系谱数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -574,7 +590,7 @@ class SdycpzjqpxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('total_id', )
+    ordering_fields = ('total_id',)
 
 
 class YmxpzbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -587,10 +603,11 @@ class YmxpzbhDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class YmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class YmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        玉米种质资源核心种质数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -600,7 +617,7 @@ class YmzzzzhxzzDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('total_id', )
+    ordering_fields = ('total_id',)
 
 
 class XdnysfqViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -637,7 +654,7 @@ class YoudamaiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -650,10 +667,11 @@ class YouYuMiViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveM
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
-class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
+class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin,
+                                viewsets.GenericViewSet):
     """
     list:
        作物遗传资源特性评价鉴定数据库列表 列表数据,该注释直接会在docs文档中生成相关说明
@@ -661,7 +679,7 @@ class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixin
     queryset = ZwyczytxpjjdDbList.objects.all().order_by("id")
     serializer_class = ZwyczytxpjjdDbserializer
     pagination_class = CustomPagination
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -679,7 +697,8 @@ class ZwyczytxpjjdDbListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixin
         return HttpResponse(content=data, **header)
 
 
-class GjnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class GjnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        国际农业科研项目数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -689,11 +708,12 @@ class GjnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('title', )
-    ordering_fields = ('code', )
+    search_fields = ('title',)
+    ordering_fields = ('code',)
 
 
-class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
+                          viewsets.GenericViewSet):
     """
     list:
        国内农业科技项目数据库列表数据,该注释直接会在docs文档中生成相关说明
@@ -703,8 +723,8 @@ class GnnykyhzxmDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retr
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('title', )
-    ordering_fields = ('code', )
+    search_fields = ('title',)
+    ordering_fields = ('code',)
 
 
 class NyhjkjcgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -717,8 +737,8 @@ class NyhjkjcgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('title', )
-    ordering_fields = ('code', )
+    search_fields = ('title',)
+    ordering_fields = ('code',)
 
 
 class NykjrcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -731,8 +751,8 @@ class NykjrcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('name', )
-    ordering_fields = ('code', )
+    search_fields = ('name',)
+    ordering_fields = ('code',)
 
 
 class NykjjgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -746,7 +766,7 @@ class NykjjgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     search_fields = ("unitid", 'gfmc')
-    ordering_fields = ('unitid', )
+    ordering_fields = ('unitid',)
 
 
 class ZwkjwxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -760,8 +780,8 @@ class ZwkjwxDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
-    search_fields = ('title', )
-    ordering_fields = ('code', )
+    search_fields = ('title',)
+    ordering_fields = ('code',)
 
 
 class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -776,7 +796,7 @@ class YjnyDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ("reportid", 'title')
-    ordering_fields = ('reportid', )
+    ordering_fields = ('reportid',)
 
 
 class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -791,7 +811,7 @@ class NygjDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveMo
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ("reportid", 'title')
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
 
 
 class NygjtpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -802,7 +822,7 @@ class NygjtpDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     queryset = NygjtpDb.objects.all().order_by('id')
     serializer_class = NygjtpDbserializer
     search_fields = ("reportid__reportid",)
-    ordering_fields = ('id', )
+    ordering_fields = ('id',)
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     pagination_class = TpPagination
 
@@ -816,8 +836,8 @@ class NybzhczgfDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     serializer_class = NybzhczgfDbserializer
     pagination_class = CustomPagination
 
-    search_fields = ("bzname", )
-    ordering_fields = ('bzid', )
+    search_fields = ("bzname",)
+    ordering_fields = ('bzid',)
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -831,8 +851,8 @@ class NykjzcfgDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     serializer_class = NykjzcfgDbserializer
     pagination_class = CustomPagination
 
-    search_fields = ("zcfgmc", )
-    ordering_fields = ('code', )
+    search_fields = ("zcfgmc",)
+    ordering_fields = ('code',)
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -846,8 +866,8 @@ class XqfzffDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrieve
     serializer_class = XqfzffDbserializer
     pagination_class = CustomPagination
 
-    search_fields = ("jbmc", )
-    ordering_fields = ('code', )
+    search_fields = ("jbmc",)
+    ordering_fields = ('code',)
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
@@ -874,10 +894,34 @@ class YearsDownViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
 class BookViews(View):
 
     def get(self, request):
-        return render(request, "gujibook.html")
+        return render(request, "books.html")
 
 
 class YearsViews(View):
 
     def get(self, request):
-        return render(request, "years.html")
+        year = request.GET.get('year', "2016")
+        yearlist = YearBooksDes.objects.all().order_by('-year')
+        yearsinfo = yearlist.get(year=year)
+
+        sunxu = request.GET.get('sunxu', 0)
+
+        page = request.GET.get('page', 0)
+        content = YearBooksContent.objects.filter(year=year)
+        if sunxu:
+            mulu = YearBooksContent.objects.get(year=year, index=sunxu).content
+            items = YearBooks.objects.filter(year=year, category=mulu).order_by("id")
+        else:
+            items = YearBooks.objects.filter(year=year).order_by("id")
+
+        counts = items.count()
+        items = Paginator(items, 20, request=request)
+        items = items.page(page)
+        return render_to_response("years.html",
+                                  context={
+                                      "yearsinfo": yearsinfo,
+                                      "content": content,
+                                      "items": items,
+                                      "yearlist": yearlist,
+                                      "counts": counts,
+                                  })

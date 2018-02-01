@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'coreapi',
     'corsheaders',
     'captcha',
+    'pure_pagination',
 ]
 
 MIDDLEWARE = [
@@ -89,6 +90,8 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'social_django.context_processors.backends',
                 'social_django.context_processors.login_redirect',
+                "django.template.context_processors.media"
+
             ],
         },
     },
@@ -173,8 +176,8 @@ STATICFILES_DIRS = (
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 # 所有关于rest_framework的配置
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -276,3 +279,10 @@ HOST = 'http://agridata.iask.in'
 # 验证码
 CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
 
+# html渲染分页
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 10,
+    'MARGIN_PAGES_DISPLAYED': 2,
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}

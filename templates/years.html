@@ -1,118 +1,52 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/book/public.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/book/newStyle.css' %}">
     <link rel="stylesheet" href="{% static 'css/book/single.css' %}">
-        <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
-
 {% endblock %}
 {% block content %}
     <div class="main w Ynavigation" style="margin-top: 60px">
     <!-- main start -->
     <div class="single_l fl">
         <!-----单本年鉴 左边 start --------->
-        <img onerror="javascript: this.src = '/static/img/NJDefaultPic.jpg';" src="http://c61.cnki.net/cyfd/N2017030076.jpg" width="209" height="300">
+        <img src="{{ MEDIA_URL }}{{ yearsinfo.image.url }}" width="209" height="300">
         <div class="single_tab">
             <span id="tit_ml" class="current" onclick="Switch('ml')">目录</span>
-            <span id="tit_jj" onclick="Switch('jj')">&gt;简介</span>
+            <span id="tit_jj" onclick="Switch('jj')">&gt;>简介</span>
             <div class="clear"></div>
-            <div id="div_ml" class="s_list">
+            <div id="div_ml" class="s_list" style="font-size: 12px">
                 <!------目录 start---->
                 <ul>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '001');ChangeCatalogCSS(this)">《中国农村统计年鉴—2016》编辑委员会</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '002');ChangeCatalogCSS(this)">编者说明</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '003');ChangeCatalogCSS(this)">1 发展综述</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '004');ChangeCatalogCSS(this)">2 综合与概要</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '005');ChangeCatalogCSS(this)">3 农村基本情况与农业生产条件</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '006');ChangeCatalogCSS(this)">4 农业生态与环境</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '007');ChangeCatalogCSS(this)">5 农村投资</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '008');ChangeCatalogCSS(this)">6 农林牧渔业总产值、中间消耗及增加值</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '009');ChangeCatalogCSS(this)">7 主要农产品种植(养殖)面积与产量</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '010');ChangeCatalogCSS(this)">8 农村市场与物价</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '011');ChangeCatalogCSS(this)">9 农产品进出口</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '012');ChangeCatalogCSS(this)">10 农产品成本与收益</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '013');ChangeCatalogCSS(this)">11 收入与消费</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '014');ChangeCatalogCSS(this)">12 农村文化、教育、卫生及社会服务</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '015');ChangeCatalogCSS(this)">13 国有农场</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '016');ChangeCatalogCSS(this)">14 西部大开发12省(区、市)农村经济情况</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '017');ChangeCatalogCSS(this)">15 各地区主要农村经济指标排序</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '018');ChangeCatalogCSS(this)">16 国外主要农业指标</a></li>
-                        <li><a href="javascript:;" onclick="GetCatalogResult('N2017030076', '019');ChangeCatalogCSS(this)">17 如何使用《中国农村统计年鉴》</a></li>
+                    {% for i in content %}
+                        <li><a href="?sunxu={{ forloop.counter }}">{{ i.content }}</a></li>
+                    {% endfor %}
                 </ul>
-            </div><!------目录 end----->
-            <div id="div_jj" class="s_about hide">
-                <!------简介 start------>
-                <p><strong>年鉴中文名：</strong>  中国农村统计年鉴</p>
-                <p><strong>年鉴英文名：</strong>  CHINA RURAL STATISTICAL YEARBOOK</p>
-                <p><strong>年鉴年份：</strong>  2016</p>
-                <p><strong>责任说明：</strong>  张淑英 主编</p>
-                <p><strong>主编单位：</strong>  国家统计局农村社会经济调查司</p>
-                <p><strong>出版日期：</strong>  2016.11</p>
-                <p><strong>页数：</strong> 435</p>
-                <p><strong>人民币定价（元）：</strong>  248.00</p>
-                <p style=" word-wrap: break-word; ">
-                    <strong>内容简介：</strong>
-
-《中国农村统计年鉴—2016》由17部分组成:一、发展综述;二、综合与概要;三、农村基本情况与农业生产条件;四、农业生态与环境;五、农村投资;六、农林牧渔业总产值、中间消耗及增加值;七、主要农产品种植(养殖)面积与产量;八、农村市场与物价;九、农产品进出口;十、农产品成本与收益;十一、收入与消费;十二、农村文化、教育、卫生及社会服务;十三、国有农场;十四、西部大开发12省(区、市)农村经济情况;十                        ...
-
-                </p>
-  <span><a id="a_abstract" href="javascript:;" data-setting="{&quot;dialogID&quot;:&quot;J_m-abstractBox&quot;}">&lt;查看全部&gt;</a></span>
-            </div><!------简介 end------>
+            </div>
+            <!------目录 end----->
+            <!------简介 start------>
+            <div id="div_jj" class="s_about hide"style="font-size: 12px">
+                <p><strong>年鉴中文名:</strong>  {{ yearsinfo.chinese }}</p>
+                <p><strong>年鉴年份:</strong>  {{ yearsinfo.year }}</p>
+                <p><strong>责任说明:</strong>  {{ yearsinfo.author }}</p>
+                <p><strong>主编单位:</strong>{{ yearsinfo.unit }}</p>
+                <p><strong>出版日期:</strong>  {{ yearsinfo.pubtime }}</p>
+                <p><strong>页数:</strong>  {{ yearsinfo.page }}</p>
+                <p><strong>人民币定价:</strong>  {{ yearsinfo.money }}</p>
+            </div>
+            <!------简介 end------>
         </div>
-    </div><!-----单本年鉴 左边 end --------->
+    </div>
+        <!-----单本年鉴 左边 end --------->
     <div id="div_single_r" class="single_r fl">
         <!-----单本年鉴 右边 start --------->
 
-
         <div class="s_year clearfix">
-
-                    <a href="/Yearbook/Single/N2017120283">2017年</a>
-                    <a href="/Yearbook/Single/N2017030076" class="current">2016年</a>
-                    <a href="/Yearbook/Single/N2016010146">2015年</a>
-                    <a href="/Yearbook/Single/N2014120439">2014年</a>
-                    <a href="/Yearbook/Single/N2013120095">2013年</a>
-                    <a href="/Yearbook/Single/N2012120246">2012年</a>
-                    <a href="/Yearbook/Single/N2011110092">2011年</a>
-                    <a href="/Yearbook/Single/N2010120027">2010年</a>
-                    <a href="/Yearbook/Single/N2010080069">2009年</a>
-                    <a href="/Yearbook/Single/N2009060213">2008年</a>
-                    <a href="/Yearbook/Single/N2008070092">2007年</a>
-                    <a href="/Yearbook/Single/N2007080308">2006年</a>
-                    <a href="/Yearbook/Single/N2006090470">2005年</a>
-                    <a href="/Yearbook/Single/N2006010436">2004年</a>
-                    <a href="/Yearbook/Single/N2006010435">2003年</a>
-                    <a href="/Yearbook/Single/N2006010434">2002年</a>
-                    <a href="/Yearbook/Single/N2006042767">2001年</a>
-                    <a href="/Yearbook/Single/N2005120905">2000年</a>
-                    <a href="/Yearbook/Single/N2005120904">1999年</a>
-                    <a href="/Yearbook/Single/N2006010437">1998年</a>
-                    <a href="/Yearbook/Single/N2005120903">1997年</a>
-                    <a href="/Yearbook/Single/N2005120906">1996年</a>
-                    <a href="/Yearbook/Single/N2006060082">1995年</a>
-                    <a href="/Yearbook/Single/N2006010438">1994年</a>
-                    <a href="/Yearbook/Single/N2005120998">1993年</a>
-                    <a href="/Yearbook/Single/N2006010259">1992年</a>
-                    <a href="/Yearbook/Single/N2006010211">1991年</a>
-                    <a href="/Yearbook/Single/N2006010260">1990年</a>
-                    <a href="/Yearbook/Single/N2005121004">1989年</a>
-                    <a href="/Yearbook/Single/N2005120872">1988年</a>
-                    <a href="/Yearbook/Single/N2005120871">1987年</a>
-                    <a href="/Yearbook/Single/N2005121003">1986年</a>
-                    <a href="/Yearbook/Single/N2005121002">1985年</a>
-
-        </div>
-        <div class="s_read clearfix" style=" display:none">
-            <img src="/static/img/img_sc.png"><img src="/static/img/img_read.png">
-            <div style="text-align: right;">
-                <label>
-                    <input type="radio" value="radiobutton">
-                </label>
-                简约版
-                <label>
-                    <input type="radio" value="radiobutton">
-                </label>
-                快照版
-            </div>
+                    {% for year in yearlist %}
+                        <a href="?year={{ year.year }}" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
+                    {%  endfor %}
         </div>
 
 
@@ -122,279 +56,85 @@
         color: #00c582;
     }
 </style>
-<div id="ResultPage" class="s_page">
+<div id="ResultPage" class="s_page" style="font-size: 14px;">
     <span class="s_p_listl">
-        &nbsp;共有记录261条&nbsp;&nbsp;共14页&nbsp;&nbsp;
-
-                <a class="a04" href="javascript:;">1</a>
-                <a href="javascript:;" onclick="Pagination('14','1','2','number')">2</a>
-                <a href="javascript:;" onclick="Pagination('14','1','3','number')">3</a>
-                <a href="javascript:;" onclick="Pagination('14','1','4','number')">4</a>
-                <a href="javascript:;" onclick="Pagination('14','1','5','number')">5</a>
-                <a href="javascript:;" onclick="Pagination('14','1','6','number')">6</a>
-                <a href="javascript:;" onclick="Pagination('14','1','7','number')">7</a>
-                <a href="javascript:;" onclick="Pagination('14','1','8','number')">8</a>
-                <a href="javascript:;" onclick="Pagination('14','1','9','number')">9</a>
-                <a href="javascript:;" onclick="Pagination('14','1','10','number')">10</a>
+        &nbsp;共有记录{{ counts }}条&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {% for page in items.pages %}
+            {% if page %}
+                {% ifequal page items.number %}
+                    <span class="current page">{{ page }}</span>
+                {% else %}
+                    <a href="?{{ page.querystring }}" class="a04">{{ page }}</a>
+                {% endifequal %}
+            {% else %}
+                ...
+            {% endif %}
+        {% endfor %}
     </span>
 </div>
 <div id="ResultList_jy" class="s_table">
     <!----- 简约版 start------>
     <table>
-        <tbody><tr class="s_tab">
-            <td class="s_tab_title">条目题名</td>
-            <td style="width:10%;">页码</td>
-            <td style="width:10%;">下载</td>
-        </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000001" style="cursor: pointer">
-《中国农村统计年鉴—2016》编辑委员会
+        <tbody>
+            <tr class="s_tab">
+                <td class="s_tab_title" style="width:75%;">条目题名</td>
+                <td style="width:10%;">页码</td>
+                <td style="width:15%;">下载</td>
+            </tr>
+            {% for item in items.object_list %}
+            <tr style="font-size: 12px">
+                <td>{% if item.title not in item.category %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}&nbsp;&nbsp;<a class="model_a" href="/media/{{ item.pdf }}" data-filename="{{ item.identify }}.pdf" style="cursor: pointer">{{ item.title }}</a></td>
+                <td class="s_tab_page">{{ item.page }}</td>
+                <td>
+                    {% if item.caj %}
+                        <a target="_blank" href="/media/{{ item.caj }}" data-filename="{{ item.identify }}.caj"><img src="{% static 'img/nS_down1.png'%}"></a>
+                    {% endif %}
+                    {% if item.pdf %}
+                        <a target="_blank" href="/media/{{ item.pdf }}" data-filename="{{ item.identify }}.pdf"><img src="{% static 'img/nS_down3.png'%}"></a>
+                    {% endif %}
+                    {% if item.excel %}
+                        <a target="_blank" href="/media/{{ item.excel }}" data-filename="{{ item.identify }}.excel"><img src="{% static 'img/nS_down2.png'%}"></a>
+                    {% endif %}
+                </td>
 
-                            </a>
-                        </td>
-                        <td class="s_tab_page">4</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000001" pg="4" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000002" style="cursor: pointer">
-编者说明                            </a>
-                        </td>
-                        <td class="s_tab_page">5</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000002" pg="5" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000003" style="cursor: pointer">
-1 发展综述
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">1+3-11</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000003" pg="13+15-23" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000004" style="cursor: pointer">
-<span>2015年农业生产发展情况综述</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">3-11</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000004" pg="15-23" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000005" style="cursor: pointer">
-2 综合与概要
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">13+15-29</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000005" pg="25+27-41" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000006" style="cursor: pointer">
-<span>2-1 农村经济主要指标</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">15</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000006" pg="27" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000006"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000007" style="cursor: pointer">
-<span>2-2 按人口平均的主要农产品产量</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">16-17</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000007" pg="28-29" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000007"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000008" style="cursor: pointer">
-<span>2-3 农村经济在国民经济中的地位</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">18-21</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000008" pg="30-33" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000008"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000009" style="cursor: pointer">
-<span>2-4 各地区农村经济在国民经济中的地位</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">22</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000009" pg="34" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000009"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000010" style="cursor: pointer">
-<span>2-5 各地区社会消费品零售额(按当年价计算)</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">23</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000010" pg="35" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000010"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000011" style="cursor: pointer">
-<span>2-6 2015年各地区城乡居民收入水平</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">24</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000011" pg="36" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000011"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000012" style="cursor: pointer">
-<span>2-7 各地区城乡居民消费水平</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">25</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000012" pg="37" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000012"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000013" style="cursor: pointer">
-<span>2-8 主要农产品供需情况</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">26-29</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000013" pg="38-41" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000013"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000014" style="cursor: pointer">
-3 农村基本情况与农业生产条件                            </a>
-                        </td>
-                        <td class="s_tab_page">31+33-53</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000014" pg="43+45-65" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                    </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000015" style="cursor: pointer">
-<span>3-1 全国乡村人口和乡村就业人员情况</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">33</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000015" pg="45" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000015"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000016" style="cursor: pointer">
-<span>3-2 各地区乡村人口和乡村就业人员</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">34</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000016" pg="46" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000016"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000017" style="cursor: pointer">
-<span>3-3 农村居民家庭劳动力文化状况</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">35</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000017" pg="47" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000017"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000018" style="cursor: pointer">
-<span>3-4 主要农业机械年末拥有量</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">36</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000018" pg="48" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000018"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000019" style="cursor: pointer">
-<span>3-5 主要农业机械年末拥有量及增长情况</span>
-
-                            </a>
-                        </td>
-                        <td class="s_tab_page">37</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000019" pg="49" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000019"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-                    <tr class="s_tab_bg">
-                        <td>
-                            <a class="model_a" data-setting="{&quot;dialogID&quot;:&quot;Model&quot;}" data-filename="N2017030076000020" style="cursor: pointer">
-<span>3-6 各地区主要农业机械年末拥有量</span>                            </a>
-                        </td>
-                        <td class="s_tab_page">38-43</td>
-                        <td>
-                                <a target="_blank" href="javascript:;" onclick="directDown(this)" fn="N2017030076000020" pg="50-55" disk="CYFDJ1701"> <img src="/static/img/nS_down1.png"></a>
-                                                            <a target="_blank" href="/download/excel?filecode=N2017030076000020"><img src="/static/img/nS_down2.png"></a>
-                        </td>
-                    </tr>
-
-
-
-
+            </tr>
+            {%  endfor %}
     </tbody></table>
 
 </div><!----- 简约版 end------>
 <div id="ResultList_kz" class="s_table s_table_j hide">
     <!----- 快照版 start----->
 
-</div><!----- 快照版 end-----></div><!-----单本年鉴 右边 end --------->
+</div><!----- 快照版 end-----></div>
+        <!-----单本年鉴 右边 end --------->
+    <script type="text/javascript">
+        //左侧目录与简介切换
+        function Switch(code) {
+            if (code === 'ml') {
+                $("#tit_jj").removeClass("current");
+                $("#tit_ml").addClass("current");
+
+                $("#div_jj").addClass("hide");
+                $("#div_ml").removeClass("hide");
+
+            } else {
+                $("#tit_ml").removeClass("current");
+                $("#tit_jj").addClass("current");
+
+                $("#div_ml").addClass("hide");
+                $("#div_jj").removeClass("hide");
+            }
+        }
+</script>
+
 </div>
+</div>
+
 
 {% endblock %}
 
 {% block foot %}
+
+
 {% endblock %}
 
