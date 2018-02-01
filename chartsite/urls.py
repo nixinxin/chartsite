@@ -23,7 +23,7 @@ from rest_framework_jwt.views import obtain_jwt_token
 
 import resource
 import xadmin
-from chart.views import BannerViewset
+from chart.views import BannerViewset, VisualView
 from chartsite.settings import MEDIA_ROOT
 # from chartsite.settings import STATIC_ROOT
 from operation.views import UserFavViewset, FeedBackViewset

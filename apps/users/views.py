@@ -435,11 +435,6 @@ class InviteView(View):
                 return HttpResponse(False, status=status.HTTP_404_NOT_FOUND)
 
 
-class VisualView(View):
-    def get(self, request):
-        return render(request, "visual.html")
-
-
 class ChartView(View):
     def get(self, request):
         return render(request, "chart.html")

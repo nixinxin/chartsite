@@ -35,10 +35,7 @@ class CsvHtmlView(View):
         return render(request, "csvhtml.html")
 
 
-class ResourceView(View):
 
-    def get(self, request):
-        return render(request, "resource.html")
 
 
 class CustomPagination(PageNumberPagination):
@@ -924,4 +921,14 @@ class YearsViews(View):
                                       "items": items,
                                       "yearlist": yearlist,
                                       "counts": counts,
+                                  })
+
+
+class ResourceView(View):
+
+    def get(self, request):
+        yearlist = YearBooksDes.objects.all().order_by('-year')
+        return render_to_response("resource.html",
+                                  context={
+                                      "yearlist": yearlist,
                                   })

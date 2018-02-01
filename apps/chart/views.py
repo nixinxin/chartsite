@@ -1,4 +1,6 @@
 # from django.shortcuts import render
+from django.shortcuts import render_to_response
+from django.views import View
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import mixins
 from rest_framework import filters
@@ -9,6 +11,8 @@ from .models import Chart, ChartCategory, Banner, HotSearch
 
 from .serializers import ChartSerializer, CategorySerializer, BannerSerializer, HotWordsSerializer
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
+from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
+
 
 # Create your views here.
 
@@ -18,8 +22,6 @@ class ChartPagination(PageNumberPagination):
     page_size_query_param = 'page_size'
     page_query_param = 'page'
     max_page_size = 100
-
-
 
 
 class ChartListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -35,7 +37,7 @@ class ChartListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
 
     search_fields = ('name', 'brief', 'desc',)
-    ordering_fields = ('add_time', )
+    ordering_fields = ('add_time',)
 
 
 class GategoryViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -66,3 +68,19 @@ class BannerViewset(CacheResponseMixin, mixins.ListModelMixin, viewsets.GenericV
     serializer_class = BannerSerializer
 
 
+class VisualView(View):
+    def get(self, request):
+        try:
+            page = request.GET.get('page', 1)
+        except PageNotAnInteger:
+            page = 1
+
+        chart = Chart.objects.all()
+        chart_page = Paginator(chart, 8, request=request)
+        result = chart_page.page(page)
+
+        return render_to_response("visual.html",
+                                  context={
+                                      'chart': result
+                                  }
+                                  )
