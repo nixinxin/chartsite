@@ -19,17 +19,20 @@
         <div class="caseList">
         	<ul id="caseList">
                 {% for i in chart.object_list %}
-                    <li><a href="/chart" target="_blank">
-                <div class="caseThum"><img original="{% static i.surface %}" width="300" height="180" align="{{ i.name }}" class="lazy" src="{% static i.surface %}" style="display: block;"></div>
-                <div class="caseBottom">
-                <div class="caseName">{{ i.name }}</div>
-                <div class="caseInfo"><div class="caseIcon ll">{{ i.click_num }}</div><div class="caseTime">{{ i.add_time }}</div></div>
-                </div>
-                </a></li>
+                    <li>
+                        <a href="/chart" target="_blank">
+                            <div class="caseThum"><img original="{% static i.surface %}" width="300" height="180" align="{{ i.name }}" class="lazy" src="{% static i.surface %}" style="display: block;"></div>
+                            <div class="caseBottom">
+                                <div class="caseName">{{ i.name }}</div>
+                                <div class="caseInfo">
+                                    <div class="caseIcon ll">{{ i.click_num }}</div><div class="caseTime">{{ i.add_time }}</div></div>
+                            </div>
+                        </a>
+                    </li>
                 {% endfor %}
           </ul>
         </div>
-        <div class="loadMore"><a>加载更多 →</a></div>
+        <div class="loadMore"><a href="?nums=8">加载更多 →</a></div>
     </div>
 {% endblock %}
 

@@ -9,13 +9,13 @@
 .content #container{ width:100%; height:auto;}
 
 
-.content{ width:1280px; height:auto; margin:80px auto;}
+.content{ width:75%; height:auto; margin:80px auto;}
 .contentTop{width:1280px; height:50px; line-height:50px; margin: 15px 0px; border-bottom: 1px solid #e5e5e5;}
 .contentTop a{ float:right; width: 150px; height: 40px; border: 1px solid #fac400; line-height: 40px; text-align: center; display: block; margin-top: 9px; color: #fac400; display: none;}
 .contentTop a:hover{ background: #fac400; color: #FFFFFF;}
 .contentTop h2{ font-size:20px; float:left; border-left: 4px solid #fac400; height: 30px; line-height: 30px; float: left; margin-top: 10px; padding-left: 10px;}
 .caseList{ width:100%; height:auto; position:relative; overflow:hidden;}
-.caseList ul{ width:1350px; height:auto; margin: auto;}
+.caseList ul{ width:1350px; height:auto; margin: auto;margin-left: -40px}
 .caseList li{ width:300px; height:235px; float:left; background:#fff; margin:0px 26px 35px 0px; position:relative; overflow:hidden;}
 .caseList li .caseThum{ width:300px; height:180px; position:relative; overflow:hidden;}
 .caseList li .caseThum img{ position:absolute; left:0px; top:0px;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s;}

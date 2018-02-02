@@ -13,6 +13,7 @@ from .serializers import ChartSerializer, CategorySerializer, BannerSerializer, 
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 
+from chartsite.settings import VISUAL_CONTENT_NUM
 
 # Create your views here.
 
@@ -69,14 +70,18 @@ class BannerViewset(CacheResponseMixin, mixins.ListModelMixin, viewsets.GenericV
 
 
 class VisualView(View):
-    def get(self, request):
+    def get(self, request, content_num=VISUAL_CONTENT_NUM):
         try:
             page = request.GET.get('page', 1)
         except PageNotAnInteger:
             page = 1
-
+        try:
+            nums = request.GET.get('nums', 0)
+        except PageNotAnInteger:
+            nums = 0
+        content_num += int(nums)
         chart = Chart.objects.all()
-        chart_page = Paginator(chart, 8, request=request)
+        chart_page = Paginator(chart, content_num, request=request)
         result = chart_page.page(page)
 
         return render_to_response("visual.html",
