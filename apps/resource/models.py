@@ -164,7 +164,7 @@ class MytxDb(models.Model):
     """
     农作物名优特新品种数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     category = models.CharField(max_length=128, null=True, blank=True, verbose_name="作物种类", db_column="作物种类")
     brands = models.CharField(max_length=128, null=True, blank=True, verbose_name="作物品种", db_column="作物品种")
     pzname = models.CharField(max_length=128, null=True, blank=True, verbose_name="品种名称", db_column="品种名称")
@@ -9694,6 +9694,7 @@ class ZwkjwxDb(models.Model):
     """
     中文农业科技文摘数据库
     """
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     title = models.CharField(max_length=256, db_column='题名', verbose_name='题名')
     author = models.CharField(max_length=512, db_column='作者', verbose_name='作者')
     unit = models.CharField(max_length=512, db_column='作者单位', verbose_name='作者单位')
@@ -9714,7 +9715,6 @@ class ZwkjwxDb(models.Model):
     ywzy = models.TextField(db_column='英文摘要', verbose_name='英文摘要')
     qkywname = models.CharField(max_length=512, db_column='期刊英文名称', verbose_name='期刊英文名称')
     xmjjname = models.CharField(max_length=512, db_column='项目基金名称', verbose_name='项目基金名称')
-    code = models.CharField(max_length=40, blank=True, null=True, db_column='索引', verbose_name='索引', default="")
 
     class Meta:
         db_table = '中文农业科技文摘数据库'
@@ -9726,7 +9726,7 @@ class NygjDb(models.Model):
     """
     农业古籍数据库
     """
-    code = models.CharField(max_length=40, blank=True, null=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     reportid = models.CharField(max_length=64, primary_key=True, db_column='记录号', verbose_name='记录号')
     category = models.CharField(max_length=64, db_column='分类', verbose_name='分类')
     title = models.CharField(max_length=128, db_column='标题书名', verbose_name='标题书名')
@@ -9766,7 +9766,7 @@ class GjnykyhzxmDb(models.Model):
     """
     国际农业科研项目数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     title = models.CharField(max_length=256, blank=False, null=False, db_column='项目名称', verbose_name='项目名称')
     desc = models.TextField(db_column='项目简介', verbose_name='项目简介')
     unit = models.CharField(max_length=256, blank=False, null=False, db_column='承担机构', verbose_name='承担机构')
@@ -9788,7 +9788,7 @@ class GnnykyhzxmDb(models.Model):
     """
     国内农业科研项目数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     title = models.CharField(max_length=256, blank=False, null=False, db_column='项目名称', verbose_name='项目名称')
     desc = models.TextField(db_column='项目简介', verbose_name='项目简介')
     unit = models.CharField(max_length=256, blank=False, null=False, db_column='承担单位', verbose_name='承担单位')
@@ -9809,7 +9809,7 @@ class NyhjkjcgDb(models.Model):
     """
     农业获奖科技成果数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     title = models.CharField(max_length=256, blank=False, null=False, db_column='成果名称', verbose_name='成果名称')
     realizer = models.TextField(db_column='完成人', verbose_name='完成人')
     unit = models.TextField(db_column='完成单位', verbose_name='完成单位')
@@ -9860,7 +9860,7 @@ class NykjrcDb(models.Model):
     """
     农业科技人才数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     name = models.CharField(max_length=32, blank=False, null=False, db_column='姓名', verbose_name='姓名')
     gender = models.CharField(max_length=2, db_column='性别', verbose_name='性别')
     birthday = models.CharField(max_length=32, db_column='出生日期', verbose_name='出生日期')
@@ -9889,7 +9889,7 @@ class NykjjgDb(models.Model):
     """
     农业科技机构数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     unitid = models.CharField(max_length=64, db_column='机构编号', verbose_name='机构编号')
     gfmc = models.CharField(max_length=256, db_column='规范名称', verbose_name='规范名称')
     ywmc = models.CharField(max_length=256, db_column='英文名称', verbose_name='英文名称')
@@ -9924,7 +9924,7 @@ class WwkjwxDb(models.Model):
     """
     外文农业科技文摘数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     title = models.CharField(max_length=1000, db_column='题名', verbose_name='题名')
     author = models.CharField(max_length=1000, db_column='作者', verbose_name='作者')
     keywords = models.CharField(max_length=1000, db_column='关键词', verbose_name='关键词')
@@ -9947,7 +9947,7 @@ class YjnyDb(models.Model):
     """
     有机农业数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     reportid = models.CharField(max_length=32, db_column='记录号', verbose_name='记录号')
     title = models.CharField(max_length=256, db_column='题名', verbose_name='题名')
     author = models.CharField(max_length=64, db_column='作者', verbose_name='作者')
@@ -9971,7 +9971,7 @@ class NybzhczgfDb(models.Model):
     """
     农业标准和操作规范数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bzid = models.CharField(max_length=32, db_column='标准编号', verbose_name='标准编号')
     bzname = models.CharField(max_length=128, db_column='标准名称', verbose_name='标准名称')
     fbrq = models.CharField(max_length=10, db_column='发布日期', verbose_name='发布日期')
@@ -9993,7 +9993,7 @@ class NykjzcfgDb(models.Model):
     """
     农业科技政策法规数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zcfgmc = models.CharField(max_length=128, db_column='政策法规名称', verbose_name='政策法规名称')
     fbdw = models.CharField(max_length=128, db_column='发布单位', verbose_name='发布单位')
     content = models.TextField(db_column='全文', verbose_name='全文')
@@ -10012,7 +10012,7 @@ class XqfzffDb(models.Model):
     """
     畜禽常见疾病及防治方法数据库
     """
-    code = models.CharField(max_length=40, primary_key=True, db_column='索引', verbose_name='索引', default="")
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     sjhm = models.CharField(max_length=5, db_column='数据号码', verbose_name='数据号码')
     jbmc = models.CharField(max_length=128, db_column='疾病名称', verbose_name='疾病名称')
     xqmc = models.CharField(max_length=	32, db_column='畜禽名称', verbose_name='畜禽名称')

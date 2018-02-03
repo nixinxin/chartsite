@@ -1,0 +1,46 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Site.css' %}">
+    <link rel="stylesheet" href="{% static 'css/SiteMenu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/SiteData.css' %}">
+    <link rel="stylesheet" href="{% static 'layui/layui.css' %}">
+
+{% endblock %}
+{% block content %}
+    <div class="content" style="margin-top: 120px;margin-bottom: 120px">
+        <div class="Box10 ClearFloat">
+            <div class="Box210 FloatLeft MarginLeft10">
+                <div class="ListMenu">
+                    <h2><span>&nbsp;&nbsp;&nbsp;&nbsp;农业科技机构数据库</span></h2>
+                    <ul>
+                        {% for db in databases %}
+                            <li><a href="?id={{ db.id }}" class="{% ifequal selectid db.id %}Selected{% endifequal %}">{{ db.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        <div class="Box77 FloatLeft MarginLeft10">
+            <div class="List">
+                <h1 class="ListTitle">浏览全部数据<a href="?type=agritech&selectid={{ selectid }}">批量下载数据</a></h1>
+                <table cellspacing="0" cellpadding="0" border="0" class="ListContent EllipsisTable">
+                    <tbody>
+                        {% for item in detail %}
+                                <tr>
+                                    <th style="width:80px">{{ item.key }}</th>
+                                    <td style="word-break: keep-all;line-height:25px;">{{ item.value }}</td>
+                                </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
+
+{% block foot %}
+{% endblock %}
+

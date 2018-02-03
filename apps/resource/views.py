@@ -897,33 +897,50 @@ class BookViews(View):
 class ResourceView(View):
 
     def get(self, request):
+        dbbict = {
+            "中文农业科技文摘数据库": ZwkjwxDb,
+            "农业古籍数据库": NygjDb,
+            "农业标准和操作规范数据库": NybzhczgfDb,
+            "农业科技人才数据库": NykjrcDb,
+            "农业科技政策法规数据库": NykjzcfgDb,
+            "农业科技机构数据库": NykjjgDb,
+            "农业获奖科技成果数据库": NyhjkjcgDb,
+            "农作物名优特新品种数据库": MytxDb,
+            "国内农业科研项目数据库": GnnykyhzxmDb,
+            "国际农业科研项目数据库": GjnykyhzxmDb,
+            "外文农业科技文摘数据库": WwkjwxDb,
+            "有机农业数据库": YjnyDb,
+            "畜禽常见疾病及防治方法数据库": XqfzffDb,
+        }
         response_type = request.GET.get("type", '')
         if response_type == 'agritech':
             selectid = request.GET.get('id', "A030401")
-            page = request.GET.get('page', 1)
             databases = AgriTechDes.objects.all().order_by('index')
             database = AgriTechDes.objects.get(id=selectid).title
+
+            page = request.GET.get('page', 1)
+
+            index = request.GET.get('index', "")
             display_fields = AgriTechContent.objects.filter(title=database, display=1).order_by("index")
+            detail_fields = AgriTechContent.objects.filter(title=database).order_by("index")
+            detailkey = []
+            for key in detail_fields:
+                detailkey.append(key.content)
+            if index:
+                items = dbbict[database].objects.filter(id=index).values_list()
+                detail = []
+                for num in range(0, len(detailkey)):
+                    detail.append({"key": detailkey[num], 'value': items[0][num]})
+                return render_to_response('techdetail.html', {
+                    "items": items,
+                    "selectid": selectid,
+                    "databases": databases,
+                    "detail": detail,
+                })
             content_fields = display_fields.values_list('english')
-            contents = []
+            contents = ['id', ]
             for i in content_fields:
                 contents.append(i[0])
-            dbbict = {
-                "中文农业科技文摘数据库": ZwkjwxDb,
-                "农业古籍数据库": NygjDb,
-                "农业标准和操作规范数据库": NybzhczgfDb,
-                "农业科技人才数据库": NykjrcDb,
-                "农业科技政策法规数据库": NykjzcfgDb,
-                "农业科技机构数据库": NykjjgDb,
-                "农业获奖科技成果数据库": NyhjkjcgDb,
-                "农作物名优特新品种数据库": MytxDb,
-                "国内农业科研项目数据库": GnnykyhzxmDb,
-                "国际农业科研项目数据库": GjnykyhzxmDb,
-                "外文农业科技文摘数据库": WwkjwxDb,
-                "有机农业数据库": YjnyDb,
-                "畜禽常见疾病及防治方法数据库": XqfzffDb,
-            }
-
             items = dbbict[database].objects.all().values_list(*contents)
             items_num = items.count()
             items = Paginator(items, 20, request=request)
