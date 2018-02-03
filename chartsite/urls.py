@@ -20,12 +20,8 @@ from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 from rest_framework_jwt.views import obtain_jwt_token
-
-import resource
 import xadmin
 from chart.views import BannerViewset, VisualView
-from chartsite.settings import MEDIA_ROOT, STATIC_ROOT
-# from chartsite.settings import STATIC_ROOT
 from operation.views import UserFavViewset, FeedBackViewset
 from users.views import *
 from apps.resource.views import *
@@ -238,7 +234,7 @@ router.register(r'bookdown', YearsDownViewSet, base_name='bookdown')
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
 
-    url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),
+    # url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),
 
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 
@@ -290,6 +286,7 @@ urlpatterns = [
     url(r'^test/$', TemplateViews.as_view(), name='test'),
     url(r'^books/$', BookViews.as_view(), name='books'),
     url(r'^years/$', YearsViews.as_view(), name='years'),
+    url(r'^agritech/$', AgritechViews.as_view(), name='agritech'),
 
 
 ]

@@ -18,7 +18,7 @@ from .models import *
 # 国外引进作物种质资源数据库
 class GwyjzwzzzyDbAdmin(object):
 
-    list_display = ['id', "name", "copes_category", 'copes_type', "category_name", "source", "distribution_unit", 'import_time']
+    list_display = ["name", "copes_category", 'copes_type', "category_name", "source", "distribution_unit", 'import_time']
     search_fields = ['id', "name", "copes_category", 'copes_type', "category_name", "distribution_unit", ]
     list_filter = ['id', "name", "copes_category", 'copes_type', "category_name", "distribution_unit", ]
     ordering = ['id']
@@ -29,7 +29,7 @@ xadmin.site.register(GwyjzwzzzyDb, GwyjzwzzzyDbAdmin)
 
 # 行政区划清单
 class XzqhListAdmin(object):
-    list_display = ["id", 'province', "city", 'district', "provincecode", "citycode", "districtcode", 'alias']
+    list_display = ['province', "city", 'district', "provincecode", "citycode", "districtcode", 'alias']
     search_fields = ["id", 'province', "city", 'district', "provincecode", "citycode", "districtcode", 'alias']
     list_filter = ["id", "provincecode", "citycode", "districtcode", ]
     ordering = ['id']
@@ -373,7 +373,7 @@ xadmin.site.register(ZwwzfbDb, ZwwzfbDbAdmin)
 
 # 小麦种质资源核心种质数据库
 class XmzzzzhxzzDbAdmin(object):
-    list_display = ['id', "name", 'xipu', 'source', 'unit', 'province']
+    list_display = ["name", 'xipu', 'source', 'unit', 'province']
     search_fields = ['id', "name", 'xipu', 'source', 'unit', 'province']
     list_filter = ['province', ]
     ordering = ['id', ]
@@ -384,7 +384,7 @@ xadmin.site.register(XmzzzzhxzzDb, XmzzzzhxzzDbAdmin)
 
 # 小麦育成品种及其系谱数据库
 class XmxcpzjqxpDbAdmin(object):
-    list_display = ['id', "name", 'translated_name', 'source', 'unit', "ke", 'shu']
+    list_display = ["name", 'translated_name', 'source', 'unit', "ke", 'shu']
     search_fields = ['id', "name", 'translated_name', 'source', 'unit', "ke", 'shu']
     ordering = ['id', ]
 
@@ -415,7 +415,7 @@ xadmin.site.register(SdycpzjqpxDb, SdycpzjqpxDbAdmin)
 
 # 玉米新品种保护数据库
 class YmxpzbhDbAdmin(object):
-    list_display = ['id', "name", 'daibiao_breed', 'source']
+    list_display = ["name", 'daibiao_breed', 'source']
     search_fields = ['id', "name", 'daibiao_breed', 'source']
     ordering = ['id', ]
 
@@ -445,7 +445,7 @@ xadmin.site.register(Xdnysfq, XdnysfqAdmin)
 
 # 作物优异资源种质数据库
 class ZwyyzyzzDbAdmin(object):
-    list_display = ['id', 'name', "xiaolei", 'dalei', 'type', 'unit']
+    list_display = [ 'name', "xiaolei", 'dalei', 'type', 'unit']
     search_fields = ['id', 'name', "xiaolei", 'dalei', 'type', 'unit']
     list_filter = ['dalei', 'type']
     ordering = ['id', ]
@@ -467,8 +467,35 @@ xadmin.site.register(ResourceList, ResourceListAdmin)
 
 # 农业古籍图片数据库
 class NygjtpDbAdmin(object):
-    list_display = ['id', 'reportid', "image", 'page']
+    list_display = ['reportid', "image", 'page']
     ordering = ['id', ]
 
 
 xadmin.site.register(NygjtpDb, NygjtpDbAdmin)
+
+
+class YearBooksAdmin(object):
+    list_display = ['title', "category", 'identify', 'page', 'year']
+    list_fileds = ['year']
+    list_editable = list_display
+
+
+xadmin.site.register(YearBooks, YearBooksAdmin)
+
+
+class YearBooksContentAdmin(object):
+    list_display = ['title', "category", 'identify', 'page', 'year']
+    list_fileds = ['year']
+    list_editable = list_display
+
+
+xadmin.site.register(YearBooksContent, YearBooksContentAdmin)
+
+
+class YearBooksDesAdmin(object):
+    list_display = ['year', "index", 'chinese', 'author', 'unit', 'pubtime', 'page', 'year']
+    list_fileds = ['year']
+    list_editable = list_display
+
+
+xadmin.site.register(YearBooksDes, YearBooksDesAdmin)

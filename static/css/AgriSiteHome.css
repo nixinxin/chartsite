@@ -1,0 +1,101 @@
+﻿/*--banner style--*/
+.Banner{ width:100%; height:194px; background:#d2f2ff;}
+.BannerArea{ width:100%; height:194px; background:url(../../Images/Site/Pages/Home/Banner.png) left center no-repeat; }
+.BannerArea .SearchArea{ float:left; width:680px; height:48px; margin-top:120px; margin-left:40px;}
+.BannerArea .SearchArea .Left{ display:inline-block; position:relative; float:left; width:100px; height:44px; line-height:44px; margin-left:10px; background:#fff url(../../Images/Site/Pages/Home/SearchArrow.png) 80px 18px no-repeat; cursor:pointer;}
+.BannerArea .SearchArea .Left ul{ display:inline-block; width:100%; position:absolute; line-height:30px; background:#fff; color:#666; left:0px; top:40px; font-size:14px; border-bottom:1px solid #ddd;}
+.BannerArea .SearchArea .Left ul li{ display:inline-block; width:100%;  text-indent:10px;}
+.BannerArea .SearchArea .Left ul li:hover{ background:#fafafa;color:#2c80e9; }
+.BannerArea .SearchArea .Left a{ display:inline-block; width:100%;text-align:left; text-indent:10px; color:#666; font-size:14px; }
+
+.BannerArea .SearchArea .Center{ display:inline-block; position:relative; float:left; width:400px; height:44px; line-height:44px; margin-left:10px; background:#fff;}
+.BannerArea .SearchArea .Center input{ width:100%; height:42px; border:0px solid red; text-indent:10px; background:none; }
+.BannerArea .SearchArea .Center a{ display:inline-block; position:absolute; right:0px; top:0px; border:0px solid red; width:100px; height:44px; background:#ee7f4d url(../../Images/Site/Pages/Home/SearchIcon.png) 20px 12px no-repeat; text-indent:40px; font-weight:bold; font-size:14px; line-height:40px; color:#fff;}
+
+.BannerArea .SearchArea .Right{ display:inline-block; float:left; width:100px; height:44px; line-height:44px; color:#fff; text-align:center; margin-left:10px; background:#2c80e9;}
+.BannerArea .SearchArea .Right a{ display:inline-block; color:#fff; width:100%; height:40px; }
+
+.BannerArea .TextArea{ width:270px; height:194px; background:#fff; float:right;}
+.BannerArea .TextArea h2{ display:inline-block; line-height:36px; height:36px; text-indent:5px; width:100%; font-size:14px; color:#333;}
+.BannerArea .TextArea h2 a{ display:inline-block; position:absolute; right:8px; font-size:12px; color:#666;}
+.BannerArea .TextArea p{ line-height:26px; font-size:12px; display:inline-block; width:96%; margin-left:2%; }
+
+/*---indexLeft--*/
+h1.TitleContent{ display:inline-block; width:100%; text-indent:40px; line-height:40px; background:#fff url(../../Images/Site/Pages/Home/TitleContent.png) 10px 10px no-repeat; font-size:14px; color:#2c80e9; border-bottom:1px solid #7e98f2; margin-top:10px;}
+.LeftList{ width:100%; margin-top:2px; background:#fff;height:480px;}
+.LeftList h2{ display:inline-block; width:100%; line-height:32px; position:relative; background:#f5f5f5; font-size:12px; color:#333; margin-bottom:4px;}
+.LeftList h2 span{ display:inline-block; padding-left:10px; padding-right:10px; line-height:32px; border-bottom:2px solid #faa37d;}
+.LeftList h2 a{ display:inline-block; position:absolute; right:10px; color:#666;}
+.LeftList ul{ display:inline-block; width:100%;}
+.LeftList ul li{ display: inline-block; position:relative; width:49%;background:url(../../Images/Site/Pages/Home/ListIcon.png) 5px 14px no-repeat; float:left;}
+.LeftList ul li a{ display:inline-block; text-indent:15px; line-height:32px; color:#666;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;  float:left; max-width:80%;}
+/*.LeftList ul li b{ display:inline-block; width:53px; height:32px; float:left; line-height:32px; margin-left:2px; color:#999; font-size:12px; font-weight:normal; background:url(../../Images/Site/Pages/Home/CollectedIcon.png) center no-repeat;}*/
+.LeftList ul li .CollectedIcon{ display:inline-block; width:53px; height:32px; float:left; line-height:32px; margin-left:2px; color:#999; font-size:12px; font-weight:normal; background:url(../../Images/Site/Pages/Home/CollectedIcon.png) center no-repeat;}
+.LeftList ul li:hover{ background:#f5f5f5 url(../../Images/Site/Pages/Home/ListIconHover.png) 5px 14px no-repeat; cursor:pointer; }
+.LeftList ul li span{ display:inline-block; position:absolute; right:0px; line-height:32px; color:#fff; background:#5ba1f8; text-align:center; width:60px;}
+.LeftList ul li span a{ display:none; font-weight:bold; color:#fff; text-indent:10px; text-align:center; width:60px;}
+.LeftList ul li:hover span a{ display:block;}
+
+.LeftList02{ margin-top:10px;}
+.LeftList02 ul{ width:100%;}
+.LeftList02 ul li{display: inline-block; position:relative; width:100%;background:url(../../Images/Site/Pages/Home/ListIcon.png) 5px 14px no-repeat; }
+.LeftList02 ul li a{ display:inline-block; width:95%; text-indent:15px; line-height:32px; color:#666;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+
+.LeftList02 table{border-collapse:collapse; margin-bottom:15px;width:350px;line-height:32px;}
+.LeftList02 table th{width:30px;color:#2c80e9;font-size:20px;line-height:30px;font-style:italic;font-weight:bold;font-family: Georgia; vertical-align:top; padding-left:5px;}
+.LeftList02 table td{color:#ee7f4d;font-size:13px;border:0px solid blue;}
+.LeftList02 table a{color:#000000;font-size:13px;}
+
+.LeftList02A{ width:355px;height:238px; float:left; background:#fff; padding:0px;}
+.LeftList02A h2.org{ width:100%; margin-left:0px; border-bottom:1px solid #ee7f4d; margin-top:0px;line-height:40px; padding-top:0px;}
+.LeftList02A h2.org span{ background:#ee7f4d;border-bottom:0px; color:#fff; line-height:43px; display:inline-block; padding-left:10px; padding-right:10px; font-size:14px;}
+.LeftList02A h2.org a{ right:4px; }
+
+.LeftList02A table .c1{color:#ee7f4d;}
+.LeftList02A table .c2{color:#75dcb2;}
+.LeftList02A table .c3{color:#ff0000;}
+
+.LeftList02B{ width:355px;height:238px; margin-left:10px; float:left; background:#fff; padding:0px;}
+.LeftList02B h2.green{ width:100%; margin-left:0px; border-bottom:1px solid #75dcb2; margin-top:0px;line-height:40px; padding-top:0px;}
+.LeftList02B h2.green span{ background:#75dcb2;border-bottom:0px; color:#fff; line-height:43px; display:inline-block; padding-left:10px; padding-right:10px; font-size:14px;}
+h2.green a{ right:4px; }
+
+.LeftList02B table .c1{color:#75dcb2;}
+.LeftList02B table .c2{color:#ee7f4d;}
+.LeftList02B table .c3{color:#ff0000;}
+
+.RightList, .RightList2{height:140px; padding-left:5px; padding-right:5px; margin-top:10px; background:#FFFFFF;}
+.RightList h2, .RightList2 h2{ display:inline-block; width:100%;  line-height:32px; position:relative; background:#fff; font-size:12px; color:#333; margin-bottom:4px;border-bottom:1px solid #ddd;}
+.RightList h2 span, .RightList2 h2 span{ display:inline-block; margin-left:2%; padding-left:10px; padding-right:10px; line-height:32px; border-bottom:2px solid #2c80e9; color:#2c80e9;}
+.RightList h2 a, .RightList2 h2 a{ display:inline-block; position:absolute; right:10px; color:#999;}
+.RightList ul, .RightList2 ul{ display:inline-block; width:100%; min-height:100px;}
+.RightList ul li, .RightList2 ul li{ display: inline-block; position:relative; width:100%;background:url(../../Images/Site/Pages/Home/ListIcon.png) 5px 14px no-repeat; }
+.RightList ul li a{ display:inline-block; width:95%; text-indent:15px; line-height:32px; color:#666;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+.RightList ul li:hover, .RightList2 ul li:hover{ background:url(../../Images/Site/Pages/Home/ListIconHover.png) 5px 14px no-repeat; cursor:pointer; }
+.RightList ul li b{ display:inline-block; float:left; font-weight:normal; color:#999; line-height:32px;}
+
+.RightList2 ul li a{ display:inline-block; width:190px; text-indent:15px; line-height:32px; color:#666;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+.RightList2 ul li b{ display:inline-block; float:left; font-weight:normal; color:#999; line-height:32px;}
+
+a.UserForm{ display:inline-block; width:95%; line-height:46px; height:46px; margin-left:2%; background:#71aefa url(../../Images/Site/Pages/Home/UserDataForm.png) 76px 10px no-repeat; color:#fff; font-size:16px; font-weight:bold; text-align:center; text-indent:20px;-moz-border-radius: 3px; /* Gecko browsers */  -webkit-border-radius: 3px; /* Webkit browsers */border-radius:3px;/* W3C syntax*/ margin-bottom:5px;}
+a.UserForm:hover{ background:#5697e9 url(../../Images/Site/Pages/Home/UserDataForm.png) 76px 10px no-repeat;}
+
+a.UserFeedback{ display:inline-block; width:95%; line-height:46px; height:46px; margin-left:2%; background:#75dcb2 url(../../Images/Site/Pages/Home/UserFeedback.png) 76px 10px no-repeat; color:#fff; font-size:16px; font-weight:bold; text-align:center; text-indent:20px;-moz-border-radius: 3px; /* Gecko browsers */  -webkit-border-radius: 3px; /* Webkit browsers */border-radius:3px;/* W3C syntax*/ margin-bottom:5px;}
+a.UserFeedback:hover{ background:#54c798 url(../../Images/Site/Pages/Home/UserFeedback.png) 76px 10px no-repeat;}
+
+.DataTotal{ width:98%; padding-left:2%; background:#FFFFFF;}
+.DataTotal p{ line-height:26px;}
+.DataTotal p span{ display:inline-block; width:90px;  color:#333; text-align:right;}
+.DataTotal p b{ color:#666; font-size:12px;}
+.DataTotal p b.Red{ color:red;}
+.DataTotal p b.Blue{ color:#71aefa;}
+
+.Link{ width:100%; background:#fff; margin-top:10px;line-height:42px;}
+.Link span{ display:inline-block; width:175px; height:42px;  text-align:center; background:url(../../Images/Site/Pages/Home/LinkBackground.png) left center no-repeat; color:#fff; font-size:14px; float:left;}
+.Link a{ display:inline-block; float:left; color:#666; width:115px; text-align:center;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.ShareLink{ width:100%; background:#414141; height:170px; margin-top:10px;}
+.ShareLink h2{ display:inline-block; width:100%; line-height:40px; border-bottom:1px solid #606060; font-size:14px; font-weight:normal; color:#fff;}
+.ShareLink .LinkURL{ width:100%;}
+.ShareLink .LinkURL li{ display:inline-block; float:left;}
+.ShareLink .LinkURL li a{ display:inline-block; color:#dddddd; line-height:24px; width:200px;white-space:nowrap;}

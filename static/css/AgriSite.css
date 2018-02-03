@@ -46,11 +46,11 @@ input {outline:none; display:inline-block;}
 
 .ClearFloat{zoom:1} 
 .ClearFloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
-.Box10{width:60%; margin:0 auto 20px;}
-.Box72{ width:60%;}
-.Box77{ width:76%;}
-.Box270{ width:29%;}
-.Box210{ width:22%;}
+.Box10{width:1000px; margin:0 auto;}
+.Box72{ width:720px;}
+.Box77{ width:770px;}
+.Box270{ width:270px;}
+.Box210{ width:210px;}
 
 .MinHeight315{height:315px;}
 .MinHeight480{height:480px;}
@@ -112,6 +112,7 @@ input {outline:none; display:inline-block;}
 /* 头部样式 */
 .Header{}
 .Header .topNav{ height:34px;}
+.Header .TopNav span.NSTILogo{ display:inline-block; width:230px; height:34px; float:left; background:url(../../Images/Site/Common/NSTILogo.png) right center no-repeat;}
 .Header .TopNav span.LoginInfo{ display:inline-block; float:right;}
 .Header .TopNav span.LoginInfo a{ padding-left:8px; padding-right:8px; color:#333; line-height:34px;}
 

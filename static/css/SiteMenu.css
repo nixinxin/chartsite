@@ -1,0 +1,11 @@
+﻿.MenuArea{ background:#2c80e9; height:70px;}
+.MenuArea ul{ float:right; display:inline-block;}
+.MenuArea ul li{display:inline-block; position:relative; float:left;}
+.MenuArea ul li:hover > ul {display: block;}
+.MenuArea ul li a{ display:inline-block; width:90px; height:70px; float:left; text-align:center; color:#fff; line-height:70px; font-size:16px; margin-left:2px;}
+.MenuArea ul li a.Selected, .MenuArea ul li:hover a{ background:#0c3083; text-decoration:none;}
+
+.MenuArea ul li ul{display:none; position:absolute; width:120px; left:2px; top:70px; background:#0c3083; z-index:999;}
+.MenuArea ul li ul li{ display:inline-block; width:100%; line-height:36px; height:36px;}
+.MenuArea ul li ul li a{display:inline-block; width:100%; margin-left:0px; text-align:left; color:#fff; line-height:36px; text-indent:10px; height:36px; font-size:14px;}
+.MenuArea ul li ul li a.Selected, .MenuArea ul li ul li:hover a{ background:#2853b5;}

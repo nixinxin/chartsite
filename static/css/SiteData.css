@@ -1,0 +1,33 @@
+﻿
+/*--list style--*/
+.ListMenu{width:100%;margin-top:10px; background:#FFFFFF; min-height:530px;}
+.ListMenu h2{ display:inline-block; width:100%; line-height:44px; position:relative; background:#5ba1f8; font-size:12px; color:#FFFFFF;border-bottom:1px solid #ddd; text-indent:10px; font-size:14px; margin-bottom:10px;}
+.ListMenu ul{ display:inline-block; width:92%; margin-left:4%;}
+.ListMenu ul li{ display:inline-block; width:100%;}
+.ListMenu ul li a{ display:inline-block; width:100%; line-height:36px;  font-weight:bold;color:#333; border-bottom:1px solid #DDDDDD; background:url(/static/img/ListMenuIcon2.png) 5px 12px no-repeat; text-indent:26px;}
+.ListMenu ul li a.Selected, .ListMenu ul li:hover a{ color:#2c80e9;background:#f5f5f5 url(/static/img/ListMenuIcon1.png) 5px 12px no-repeat; }
+
+.ListTitle{ display:inline-block; position:relative; width:96%; margin-left:10px; line-height:40px; border-bottom:2px solid #DDDDDD; font-size:14px; color:#666;}
+.ListTitle input{ position:absolute; right:2px; line-height:30px; border:1px solid #ddd; text-indent:2px; width:150px;-moz-border-radius: 3px; /* Gecko browsers */  -webkit-border-radius: 3px; /* Webkit browsers */border-radius:3px;/* W3C syntax*/}
+.ListTitle span{ display:inline-block; position:absolute; right:2px; text-align:right; line-height:40px; font-size:14px; color:#666;}
+.ListTitle a{ display:inline-block; position:absolute; right:2px; top:0px; height:30px; color:#2c80e9; z-index:99999}
+.List{ width:100%; background:#fff; margin-top:10px; min-height:530px;}
+
+.ListContent, .ListContent1, .ListContent2{ border-collapse:collapse; width:96%; margin-left:10px; margin-top:10px;}
+.ListContent th{ text-align:right; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; padding-right:5px; color:#333333; font-weight:normal; height:30px;}
+.ListContent1 th{ text-align:center; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; padding-right:5px; color:#333333; font-weight:normal; height:30px;}
+.ListContent2 th{ text-align:center; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; color:#333333; font-weight:normal; height:30px;}
+.ListContent td, .ListContent1 td{ text-align:left; font-size:12px; border-collapse:collapse; padding-left:5px;border:1px solid #dddddd; color:#666; height:25px;}
+.ListContent2 td{ text-align:center; font-size:12px; border-collapse:collapse; border:1px solid #dddddd; color:#666; height:25px;}
+.ListContent tr:hover, .ListContent1 tr:hover, .ListContent2 tr:hover{ background:#EAF7FF;}
+.ListContent .Buttontd{text-align:right; height:40px; padding-right:5px;}
+
+
+.ListImage{width:98%; margin-left:10px; padding-top:10px;}
+.ListImage td{text-align:center;}
+.ListImageNormal{border:1px solid #FFFFFF;}
+.ListImageOver{border:1px solid #2c80e9;}
+.ListImageDown{border:1px solid #2c80e9;}
+
+/*----------  button style --------------*/
+.Button{border:0px solid red; width:100px; height:30px; background:#EE7f4D; font-weight:bold; font-size:14px; line-height:30px; color:#FFFFFF; cursor:pointer;}

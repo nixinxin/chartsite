@@ -37,11 +37,12 @@ class ChartCategory(models.Model):
 
 class Chart(models.Model):
     """
-    图表
+    图表资源
     """
     category = models.ForeignKey(ChartCategory, verbose_name="图表类别", db_column="图表类别")
     chart_sn = models.CharField(max_length=50, default="", verbose_name="图表编号", db_column="图表编号")
     name = models.CharField(max_length=100, verbose_name="图表名", db_column="图表名")
+    link = models.CharField(max_length=100, verbose_name="链接", db_column="链接", default='img/2017092711174396.jpg')
     click_nums = models.IntegerField(default=0, verbose_name="点击数", db_column="点击数")
     fav_nums = models.IntegerField(default=0, verbose_name="收藏数", db_column="收藏数")
     brief = models.TextField(max_length=500, verbose_name="简述", db_column="简述")
@@ -54,12 +55,12 @@ class Chart(models.Model):
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:
-        db_table = "图表"
+        db_table = "图表资源"
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
     def get_click_nums(self):
-        return self.click_nums
+        return str(self.click_nums)
 
     def __str__(self):
         return self.name
@@ -119,24 +120,6 @@ class HotSearch(models.Model):
         return self.keywords
 
 
-class YearBooks(models.Model):
-    """
-    统计年鉴目录
-    """
-    id = models.IntegerField(verbose_name="同级顺序")
-    title = models.CharField(max_length=60, verbose_name="标题")
-    category = models.CharField(max_length=60, verbose_name="父类")
-    page = models.CharField(max_length=20, verbose_name="页码")
-    identify = models.CharField(max_length=20, primary_key=True, verbose_name="唯一编号")
-    year = models.CharField(max_length=4, verbose_name="唯一编号")
-
-    class Meta:
-        db_table = "统计年鉴目录"
-        verbose_name = db_table
-        verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return self.title
 
 
 class DataResource(models.Model):

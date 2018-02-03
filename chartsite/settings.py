@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))
 SECRET_KEY = '3=j8cp5+a=ni!^3vpx1%n9v!#31&4hm1kyj^f&-$cnhfm+5)^a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 APPEND_SLASH = True
 
@@ -50,11 +50,11 @@ INSTALLED_APPS = [
     'social_django',
     'xadmin',
     'DjangoUeditor',
-    'users.apps.UsersConfig',
-    'resource.apps.ResourceConfig',
-    'operation.apps.OperationConfig',
-    'chart.apps.ChartConfig',
     'others.apps.OthersConfig',
+    'chart.apps.ChartConfig',
+    'operation.apps.OperationConfig',
+    'resource.apps.ResourceConfig',
+    'users.apps.UsersConfig',
     'crispy_forms',
     'django_filters',
     'coreapi',
@@ -169,12 +169,12 @@ STATIC_URL = '/static/'
 
 
 MEDIA_URL = "/media/"
-#
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, "static"),
-# )
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
@@ -281,9 +281,8 @@ CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
 
 # html渲染分页
 PAGINATION_SETTINGS = {
-    'PAGE_RANGE_DISPLAYED': 10,
-    'MARGIN_PAGES_DISPLAYED': 2,
-
+    'PAGE_RANGE_DISPLAYED': 3,
+    'MARGIN_PAGES_DISPLAYED': 1,
     'SHOW_FIRST_PAGE_WHEN_INVALID': True,
 }
 

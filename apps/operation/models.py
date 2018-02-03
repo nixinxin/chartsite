@@ -70,9 +70,14 @@ class DataShare(models.Model):
     id = models.IntegerField(auto_created=True, primary_key=True, default=1)
     user = models.ForeignKey(User, verbose_name="用户", db_column="用户", null=True, blank=True)
     title = models.CharField(max_length=100, verbose_name='标题', db_column="标题", null=False, blank=False)
-    desc = models.TextField(verbose_name='文件描述', db_column="文件描述", null=False, blank=False)
-    type = models.BooleanField(max_length=20, choices=CHOICES, verbose_name="文件类型", db_column="文件类型")
+    desc = models.TextField(verbose_name='文件描述', db_column="文件描述", null=True, blank=True)
+    type = models.IntegerField(choices=CHOICES, verbose_name="文件类型", db_column="文件类型")
+    click_nums = models.IntegerField(default=0, verbose_name="点击数", db_column="点击数")
+    fav_nums = models.IntegerField(default=0, verbose_name="收藏数", db_column="收藏数")
+    down_nums = models.IntegerField(default=0, verbose_name="下载数", db_column="下载数")
     file = models.FileField(upload_to="datashare/file", verbose_name="上传文件", db_column="上传文件")
+    resource = models.CharField(max_length=50, verbose_name='数据来源', db_column="数据来源", null=True, blank=True)
+    size = models.CharField(max_length=50, verbose_name='文件大小', db_column="文件大小", null=True, blank=True)
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:

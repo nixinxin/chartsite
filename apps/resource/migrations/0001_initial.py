@@ -9925,6 +9925,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('code', models.CharField(blank=True, db_column='索引', default='', max_length=40, null=True, verbose_name='索引')),
+                ('title', models.CharField(db_column='题名', max_length=256, verbose_name='题名')),
                 ('author', models.CharField(db_column='作者', max_length=512, verbose_name='作者')),
                 ('unit', models.CharField(db_column='作者单位', max_length=512, verbose_name='作者单位')),
                 ('qkname', models.CharField(db_column='期刊名称', max_length=128, verbose_name='期刊名称')),

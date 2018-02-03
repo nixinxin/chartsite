@@ -20,12 +20,13 @@ class ChartCategoryAdmin(object):
     list_display = ['name', 'desc', "is_tab", "add_time"]
     list_editable = list_display
 
+
 xadmin.site.register(ChartCategory, ChartCategoryAdmin)
 
 
 class ChartAdmin(object):
-    list_display = ['name', 'category', "surface", "is_new", "is_hot", "add_time"]
-    list_filter = ["category", 'is_hot', 'is_new']
+    list_display = ['name', "surface", "is_new", "is_hot", "add_time"]
+    list_filter = ['is_hot', 'is_new']
     list_editable = list_display
 
 
@@ -56,10 +57,3 @@ class HotSearchAdmin(object):
 xadmin.site.register(HotSearch, HotSearchAdmin)
 
 
-class YearBooksAdmin(object):
-    list_display = ['id', 'title', "category", 'identify', 'page', 'year']
-    list_fileds = ['year']
-    list_editable = list_display
-
-
-xadmin.site.register(YearBooks, YearBooksAdmin)

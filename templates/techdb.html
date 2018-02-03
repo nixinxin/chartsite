@@ -1,0 +1,114 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Site.css' %}">
+    <link rel="stylesheet" href="{% static 'css/SiteMenu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/SiteData.css' %}">
+    <link rel="stylesheet" href="{% static 'layui/layui.css' %}">
+
+{% endblock %}
+{% block content %}
+    <div class="content" style="margin-top: 70px">
+        <div class="Box10 ClearFloat">
+            <div class="Box210 FloatLeft MarginLeft10">
+                <div class="ListMenu">
+                    <h2><span>&nbsp;&nbsp;&nbsp;&nbsp;农业科技机构数据库</span></h2>
+                    <ul>
+                        <li><a href="?id=A030401" class="{% ifequal selectid 'A030401' %}Selected{% endifequal %}">有机农业数据库</a></li>
+                        <li><a href="?id=A030205" class="{% ifequal selectid 'A030205' %}Selected{% endifequal %}">农业古籍数据库</a></li>
+                        <li><a href="?id=A030104" class="{% ifequal selectid 'A030104' %}Selected{% endifequal %}">农业科技人才数据库</a></li>
+                        <li><a href="?id=A030105" class="{% ifequal selectid 'A030105' %}Selected{% endifequal %}">农业科技机构数据库</a></li>
+                        <li><a href="?id=A030103" class="{% ifequal selectid 'A030103' %}Selected{% endifequal %}">农业获奖科技成果数据库</a></li>
+                        <li><a href="?id=A030102" class="{% ifequal selectid 'A030102' %}Selected{% endifequal %}">国内农业科研项目数据库</a></li>
+                        <li><a href="?id=A030101" class="{% ifequal selectid 'A030101' %}Selected{% endifequal %}">国际农业科研项目数据库</a></li>
+                        <li><a href="?id=A030201" class="{% ifequal selectid 'A030201' %}Selected{% endifequal %}">中文农业科技文摘数据库</a></li>
+                        <li><a href="?id=A030202" class="{% ifequal selectid 'A030202' %}Selected{% endifequal %}">外文农业科技文摘数据库</a></li>
+                        <li><a href="?id=A030403" class="{% ifequal selectid 'A030403' %}Selected{% endifequal %}">畜禽疾病防治方法数据库</a></li>
+                        <li><a href="?id=A030302" class="{% ifequal selectid 'A030302' %}Selected{% endifequal %}">农业科技政策法规数据库</a></li>
+                        <li><a href="?id=A030420" class="{% ifequal selectid 'A030420' %}Selected{% endifequal %}">农作物名优特新品种数据库</a></li>
+                        <li><a href="?id=A030301" class="{% ifequal selectid 'A030301' %}Selected{% endifequal %}">农业标准和操作规范数据库</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="Box77 FloatLeft MarginLeft10">
+            <div class="List">
+                <h1 class="ListTitle">浏览全部数据<a href="javascript:;" onclick="ADataForm_Click();" target="_blank">批量下载数据</a></h1>
+                <table class="TableBorder0">
+                    <tbody>
+                        <tr>
+                            <td style="height:305px;vertical-align:top">
+                                <table class="ListContent1 EllipsisTable">
+                                        <tbody>
+                                        <tr>
+                                            <th style="width:30px;">序号</th>
+                                            {%  for field in display_fields %}
+                                                <th>{{ field.content }}</th>
+                                            {% endfor %}
+                                        </tr>
+                                        {% for item in items.object_list %}
+                                        <tr>
+                                            <td class="TextCenter">{{ forloop.counter }}</td>
+                                            {% for content in item %}
+                                                {% ifequal forloop.counter 1 %}
+                                                    <td class="Pad_Left5 EllipsisTd">
+                                                        <a href="javascript:;" title="{{ content }}">{{ content }} </a>
+                                                    </td>
+                                                {% else %}
+                                                    <td class="Pad_Left5 EllipsisTd" title="{{ content }}">{{ content }}</td>
+                                                {% endifequal %}
+                                            {% endfor %}
+                                        </tr>
+
+                                    {% endfor %}
+
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="demo7">
+                <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-10">
+                    <span class="layui-laypage-count">共{{ items_num }}条</span>
+                    {% if items.has_previous %}
+                        <a href="?{{ items.previous_page_number.querystring }}" class="prev layui-laypage-prev ">&lsaquo;&lsaquo; 上一页</a>
+                    {% else %}
+                        <span class="layui-disabled prev layui-laypage-prev">&lsaquo;&lsaquo; 上一页</span>
+                    {% endif %}
+                    {% for page in items.pages %}
+                        {% if page %}
+                            {% ifequal page items.number %}
+                                <span class="layui-laypage-curr"><em class="layui-laypage-em"></em><em>{{ page }}</em></span>
+                            {% else %}
+                                <a href="?{{ page.querystring }}" class="page" data-page="{{ page }}">{{ page }}</a>
+                            {% endifequal %}
+                        {% else %}
+                            <span class="layui-laypage-spr">…</span>
+                        {% endif %}
+                    {% endfor %}
+                    {% if items.has_next %}
+                        <a href="?{{ items.next_page_number.querystring }}" class="next layui-laypage-next" data-page="{{ items.next_page_number }}">下一页 &rsaquo;&rsaquo;</a>
+                    {% else %}
+                        <span class="disabled next">下一页 &rsaquo;&rsaquo;</span>
+                    {% endif %}
+                    <span class="layui-laypage-skip">到第<input id='inputpage' type="text" min="1" value="1" class="layui-input">页<button type="button" class="layui-laypage-btn">确定</button></span>
+                    <script>
+                        $("#demo7 .layui-laypage-btn").on("click", function () {
+                            location.href = "?page=" + $("#inputpage").val()
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
+
+{% block foot %}
+{% endblock %}
+
