@@ -15,9 +15,9 @@
 
 .ListContent, .ListContent1, .ListContent2{ border-collapse:collapse; width:96%; margin-left:10px; margin-top:10px;}
 .ListContent th{ text-align:right; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; padding-right:5px; color:#333333; font-weight:normal; height:30px;}
-.ListContent1 th{ text-align:center; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; padding-right:5px; color:#333333; font-weight:normal; height:30px;}
+.ListContent1 th{ text-align:center; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; color:#333333; font-weight:normal; height:30px;}
 .ListContent2 th{ text-align:center; font-size:12px;border:1px solid #dddddd;  background:#EAF7FF; color:#333333; font-weight:normal; height:30px;}
-.ListContent td, .ListContent1 td{ text-align:left; font-size:12px; border-collapse:collapse; padding-left:5px;border:1px solid #dddddd; color:#666; height:25px;}
+.ListContent td, .ListContent1 td{ text-align:left; font-size:12px; border-collapse:collapse; padding-left:5px;border:1px solid #dddddd; color:#666; height:30px;}
 .ListContent2 td{ text-align:center; font-size:12px; border-collapse:collapse; border:1px solid #dddddd; color:#666; height:25px;}
 .ListContent tr:hover, .ListContent1 tr:hover, .ListContent2 tr:hover{ background:#EAF7FF;}
 .ListContent .Buttontd{text-align:right; height:40px; padding-right:5px;}
@@ -31,3 +31,6 @@
 
 /*----------  button style --------------*/
 .Button{border:0px solid red; width:100px; height:30px; background:#EE7f4D; font-weight:bold; font-size:14px; line-height:30px; color:#FFFFFF; cursor:pointer;}
+a:hover {
+    text-decoration: none;
+}

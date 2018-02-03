@@ -22,435 +22,97 @@
 
 {% endblock %}
 {% block content %}
-    <div class="navbox clearfix" style="margin-top: 80px">
+    <div class="navbox clearfix" style="margin-top: 100px">
                 <div class="w">
                     <ul id="J_sideNav" class="sideNav fl">
                         <!-- sideNav start -->
                         <li class="item item0 ">
-                            <a href="javascript:;">农业统计年鉴数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <a href="?type=years" >农业统计年鉴数据</a><s>&gt;</s><b class="icon-cur"></b>
                             <dl class="subnav clearfix">
-                                    {% for year in yearlist %}
+                                    {% for item in yearlist %}
                                          <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/years?year={{ year.year }}">{{ year.year }}年农业统计年鉴</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=years&selectid={{ item.year }}">{{ item.year }}年农业统计年鉴</a>
 
                                     </dt>
                                     {%  endfor %}
                                 <dd class="more">
-                                    <a href="/years?year=2016"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=years"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
                         <li class="item item1">
-                            <a class="monthdatapublish" href="/datapublish/month">农业有害生物数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <a class="monthdatapublish" href="?type=pest">农业有害生物数据</a><s>&gt;</s><b class="icon-cur"></b>
                             <dl class="subnav clearfix">
+                                {% for item in pest %}
                                     <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('1',this)" href="javascript:;">银行间同业拆借市场交易</a>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" href="?type=pest&selectid={{ item.index }}">{{ item.title }}</a>
                                     </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('2',this)" href="javascript:;">银行间市场债券质押式回购交易</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('3',this)" href="javascript:;">黄金和外汇储备</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('4',this)" href="javascript:;">国家财政预算收入</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('5',this)" href="javascript:;">商品进出口</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('6',this)" href="javascript:;">外商投资额</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('7',this)" href="javascript:;">其他存款性公司资产负债表</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('8',this)" href="javascript:;">汇率</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('9',this)" href="javascript:;">国家财政预算支出</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('10',this)" href="javascript:;">居民消费价格指数</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('11',this)" href="javascript:;">期货交易成交量</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('12',this)" href="javascript:;">期货交易成交额</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('13',this)" href="javascript:;">制造业PMI</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('14',this)" href="javascript:;">非制造业PMI</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('15',this)" href="javascript:;">PMI</a>
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" onclick="NewMonthDataResult('16',this)" href="javascript:;">存款性公司概览</a>
-                                    </dt>
-
+                                {% endfor %}
 
                                 <dd class="more">
                                     <input type=hidden id="sid" value="qro0onyudgu1zlhz54q4u4ga">
-                                    <a href="/datapublish/month"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=pest"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
                         <li class="item item2">
-                            <a href="javascript:;">作物遗传资源数据</a><s>&gt;</s>
+                            <a href="?type=genetic">作物遗传资源数据</a><s>&gt;</s>
                             <b class="icon-cur"></b>
                             <dl class="subnav clearfix">
+                                {% for item in genetic %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017100312">中国统计年鉴</a>
-
+                                        <a class="itemTxt fl" target="_blank" href="?type=genetic&selectid={{ item.index }}">{{ item.title }}</a>
                                     </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120292">中国工业统计年鉴</a>
+                                {% endfor %}
 
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120231">中华人民共和国乡镇行政区划简册</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017010039">中国文化文物统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050135">中国固定资产投资统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110104">中国统计摘要</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017040045">中国金融年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2015070209">中国科学技术协会统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030067">中国发展报告</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120266">中国价格统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020306">全国农产品成本收益资料汇编</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120225">中国卫生和计划生育统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030058">中国文化及相关产业统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120287">中国商品交易市场统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020334">工业企业科技活动统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030069">中国残疾人事业统计年鉴</a>
-
-                                    </dt>
                                 <dd class="more">
-                                    <a href="/yearbook/navi?type=cls4&amp;code=b"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=genetic"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
                         <li class="item item3">
-                            <a href="javascript:;">农业科技资源数据</a><s>&gt;</s>
+                            <a href="?type=agritech">农业科技资源数据</a><s>&gt;</s>
                             <b class="icon-cur"></b>
                             <dl class="subnav clearfix">
+                                {% for item in agritech %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120245">安徽统计年鉴</a>
-
+                                        <a class="itemTxt fl" target="_blank" href="?type=agritech&id={{ item.id }}">{{ item.title }}</a>
                                     </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110038">重庆统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020297">甘肃发展年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120314">广东统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120264">贵州统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060030">黑龙江统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020284">湖南统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060028">河南统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110012">海南统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110026">江苏统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120252">江西统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016010082">辽宁统计调查年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120295">广西统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020220">宁夏统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016010098">北京统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110017">福建统计年鉴</a>
-
-                                    </dt>
+                                {% endfor %}
                                 <dd class="more">
-                                    <a href="/yearbook/navi?type=cls4&amp;code=c"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=agritech"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
                         <li class="item item4">
-                            <a href="javascript:;">作物品种品质数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <a href="?type=crop">作物品种品质数据</a><s>&gt;</s><b class="icon-cur"></b>
                             <dl class="subnav clearfix">
+                                {% for item in crop %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060058">安庆统计年鉴</a>
-
+                                        <a class="itemTxt fl" target="_blank" href="?type=crop&selectid={{ item.index }}">{{ item.title }}</a>
                                     </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120334">保定经济统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020294">常州统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020255">成都统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120340">丹阳统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017110020">东莞统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020240">福州统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020282">哈尔滨统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120324">海口统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120260">邯郸统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120282">杭州统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2016110115">菏泽统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020361">呼和浩特经济统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020354">淮安统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020351">惠州统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120299">嘉兴统计年鉴</a>
-
-                                    </dt>
+                                {% endfor %}
+                                </dt>
                                 <dd class="more">
-                                    <a href="/yearbook/navi?type=cls4&amp;code=d"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=crop"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
                         <li class="item item5">
-                            <a href="javascript:;">农产品资源数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <a href="?type=product">农产品资源数据</a><s>&gt;</s><b class="icon-cur"></b>
                             <dl class="subnav clearfix">
+                                 {% for item in product %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2015070209">中国科学技术协会统计年鉴</a>
-
+                                        <a class="itemTxt fl" target="_blank" href="?type=product&selectid={{ item.index }}">{{ item.title }}</a>
                                     </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017020334">工业企业科技活动统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017060040">中国环境统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120309">中国火炬统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050135">中国固定资产投资统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120256">大中型批发零售和住宿餐饮企业统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017030077">中国零售和餐饮连锁企业统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120283">中国农村统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017010039">中国文化文物统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120243">中国基本单位统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120226">中国房地产统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120225">中国卫生和计划生育统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017050277">天津科技统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120312">文化发展统计分析报告</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017120292">中国工业统计年鉴</a>
-
-                                    </dt>
-                                    <dt>
-                                        <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="/Yearbook/Single/ N2017040045">中国金融年鉴</a>
-
-                                    </dt>
+                                {% endfor %}
                                 <dd class="more">
-                                    <a href="/yearbook/navi?type=cls4&amp;code=e"><span class="icon-more"></span>查看全部</a>
+                                    <a href="?type=product"><span class="icon-more"></span>查看全部</a>
                                 </dd>
                             </dl>
                         </li>
@@ -466,12 +128,12 @@
                         </div>
                     </div><!-- bannerbox end -->
                     <ul class="linklist fl">
-                        <li class="item0 mr9"><b></b><a href="/years?year=2016" target="_blank">统计年鉴</a></li>
-                        <li class="item1"><b></b><a href="/Yearbook/Navi?type=type&amp;code=E" target="_blank">科技文献</a></li>
-                        <li class="item2 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=D" target="_blank">文化遗产</a></li>
-                        <li class="item3"><b></b><a href="/Yearbook/Navi?type=type&amp;code=C" target="_blank">特色产品</a></li>
-                        <li class="item4 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=B" target="_blank">统计指标</a></li>
-                        <li class="item5"><b></b><a href="/Yearbook/Navi?type=type&amp;code=F" target="_blank">价格行情</a></li>
+                        <li class="item0 mr9"><b></b><a href="?type=years" >统计年鉴</a></li>
+                        <li class="item1"><b></b><a href="?type=agritech&id=A030201" >科技文献</a></li>
+                        <li class="item2 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=D" >文化遗产</a></li>
+                        <li class="item3"><b></b><a href="/Yearbook/Navi?type=type&amp;code=C" >特色产品</a></li>
+                        <li class="item4 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=B" >统计指标</a></li>
+                        <li class="item5"><b></b><a href="/Yearbook/Navi?type=type&amp;code=F" >价格行情</a></li>
                     </ul>
                 </div>
         </div>
@@ -492,7 +154,7 @@
                         <ul class="pi-list">
                             <li class="pi-list-item">
                                 <div class="pi-list-box">
-                                    <a href="/years?year=2016"><img alt="农业统计年鉴数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
+                                    <a href="?type=years&year=2016"><img alt="农业统计年鉴数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">农业统计年鉴数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
                                     <p class="desnum-l">数据集：<span>187</span></p>

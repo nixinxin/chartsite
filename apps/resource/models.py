@@ -44,7 +44,7 @@ class ResourceList(models.Model):
 
 class GwyjzwzzzyDb(models.Model):
     """
-    国外引进作物种质资源数据库
+    国外引进作物资源数据库
     """
     id = models.IntegerField(auto_created=True, null=False, primary_key=True, default=1)
     total_id = models.IntegerField(null=True, blank=True, verbose_name="总编号", db_column="总编号")
@@ -66,8 +66,8 @@ class GwyjzwzzzyDb(models.Model):
     comment = models.CharField(max_length=100, null=True, blank=True, verbose_name="备注", db_column="备注")
 
     class Meta:
-        db_table = "国外引进作物种质资源数据库"
-        verbose_name = "国外引进作物种质资源数据库"
+        db_table = "国外引进作物资源数据库"
+        verbose_name = "国外引进作物资源数据库"
         verbose_name_plural = verbose_name
 
     def __str__(self):
@@ -234,7 +234,7 @@ class ZgnyyhswDbTp(models.Model):
 
 class ZgnttdzzDb(models.Model):
     """
-    中国农田天敌蜘蛛数据库
+    中国农业天敌蜘蛛数据库
     """
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     function_class = models.CharField(max_length=20, blank=True, null=True, db_column="功能类别", verbose_name="功能类别")
@@ -252,7 +252,7 @@ class ZgnttdzzDb(models.Model):
     image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
-        db_table = '中国农田天敌蜘蛛数据库'
+        db_table = '中国农业天敌蜘蛛数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -262,7 +262,7 @@ class ZgnttdzzDb(models.Model):
 
 class ZgnthsDb(models.Model):
     """
-    中国农田害鼠数据库
+    中国农业害鼠数据库
     """
     id = models.IntegerField(primary_key=True)
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
@@ -284,7 +284,7 @@ class ZgnthsDb(models.Model):
     image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
-        db_table = '中国农田害鼠数据库'
+        db_table = '中国农业害鼠数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -323,7 +323,7 @@ class ZgyclschcDb(models.Model):
 
 class ZgwlrqwswDb(models.Model):
     """
-    中国外来入侵微生物数据库
+    外来有害微生物数据库
     """
     id = models.IntegerField(primary_key=True)
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
@@ -349,7 +349,7 @@ class ZgwlrqwswDb(models.Model):
     related_articles = models.TextField(blank=True, null=True, db_column='相关文献', verbose_name="相关文献")
 
     class Meta:
-        db_table = '中国外来入侵微生物数据库'
+        db_table = '外来有害微生物数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -359,7 +359,7 @@ class ZgwlrqwswDb(models.Model):
 
 class ZgwlrqkcDb(models.Model):
     """
-    中国外来入侵昆虫数据库
+    外来有害昆虫数据库
     """
     id = models.IntegerField(primary_key=True)
     rqsjddd = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name="入侵时间及地点")
@@ -386,7 +386,7 @@ class ZgwlrqkcDb(models.Model):
 
 
     class Meta:
-        db_table = '中国外来入侵昆虫数据库'
+        db_table = '外来有害昆虫数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -396,7 +396,7 @@ class ZgwlrqkcDb(models.Model):
 
 class ZgwlrqzwDb(models.Model):
     """
-    中国外来入侵植物数据库
+    外来有害植物数据库
     """
     id = models.IntegerField(primary_key=True, db_column='编号', verbose_name='编号')
     ruqintl = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name='入侵时间及地点')
@@ -421,7 +421,7 @@ class ZgwlrqzwDb(models.Model):
     image = models.ImageField(upload_to='agridata/images', blank=True, null=True, db_column='图片', verbose_name="图片")
 
     class Meta:
-        db_table = '中国外来入侵植物数据库'
+        db_table = '外来有害植物数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -954,7 +954,7 @@ class ZwwzfbDb(models.Model):
 
 class XmzzzzhxzzDb(models.Model):
     """
-    小麦种质资源核心种质数据库
+    小麦作物核心种质数据库
     """
     id = models.AutoField(primary_key=True)
     total_id = models.CharField(max_length=10, blank=True, null=True, db_column='统一编号', verbose_name='统一编号')
@@ -975,7 +975,7 @@ class XmzzzzhxzzDb(models.Model):
     province = models.CharField(max_length=30, blank=True, null=True, db_column='省份', verbose_name='省份')
 
     class Meta:
-        db_table = '小麦种质资源核心种质数据库'
+        db_table = '小麦作物核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -1090,7 +1090,7 @@ class XmxcpzjqxpDb(models.Model):
 
 class SdzzzzhxzzDb(models.Model):
     """
-    水稻种质资源核心种质数据库
+    水稻作物核心种质数据库
     """
     total_id = models.CharField(max_length=10, blank=True, null=True, db_column='统一编号', verbose_name='统一编号')
     name = models.CharField(max_length=40, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1140,7 +1140,7 @@ class SdzzzzhxzzDb(models.Model):
     daoqu = models.CharField(max_length=20, blank=True, null=True, db_column='稻区', verbose_name='稻区')
 
     class Meta:
-        db_table = '水稻种质资源核心种质数据库'
+        db_table = '水稻作物核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -1227,7 +1227,7 @@ class YmxpzbhDb(models.Model):
 
 class YmzzzzhxzzDb(models.Model):
     """
-    玉米种质资源核心种质数据库
+    玉米作物核心种质数据库
     """
     total_id = models.CharField(max_length=10, blank=True, null=True, db_column='统一编号', verbose_name='统一编号')
     name = models.CharField(max_length=40, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1266,7 +1266,7 @@ class YmzzzzhxzzDb(models.Model):
     lysine = models.CharField(max_length=20, blank=True, null=True, db_column='赖氨酸', verbose_name='赖氨酸')
 
     class Meta:
-        db_table = '玉米种质资源核心种质数据库'
+        db_table = '玉米作物核心种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -1292,7 +1292,7 @@ class Xdnysfq(models.Model):
 
 class ZwyyzyzzDb(models.Model):
     """
-    作物优异资源种质数据库
+    作物优异种质数据库
     """
     id = models.IntegerField(auto_created=True, primary_key=True, default=1)
     name = models.CharField(max_length=40, db_column='种质名称', verbose_name='种质名称')
@@ -1306,7 +1306,7 @@ class ZwyyzyzzDb(models.Model):
     unit = models.CharField(max_length=30, blank=True, null=True, db_column='联系单位', verbose_name='联系单位')
 
     class Meta:
-        db_table = '作物优异资源种质数据库'
+        db_table = '作物优异种质数据库'
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
@@ -1316,7 +1316,7 @@ class ZwyyzyzzDb(models.Model):
 
 class Youdamai(models.Model):
     """
-    优异资源综合评价数据库_大麦
+    大麦作物优异资源综合评价数据库
     """
     id = models.IntegerField(primary_key=True)
     hdhlz = models.CharField(max_length=30, blank=True, null=True, db_column='邯郸穗粒重', verbose_name='邯郸穗粒重')
@@ -1364,7 +1364,7 @@ class Youdamai(models.Model):
     hazhzhlizh = models.CharField(max_length=30, blank=True, null=True, db_column='杭州株粒重', verbose_name='杭州株粒重')
 
     class Meta:
-        db_table = '优异资源综合评价数据库_大麦'
+        db_table = '大麦作物优异资源综合评价数据库'
         unique_together = (('id', 'toyibiha'),)
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -1372,7 +1372,7 @@ class Youdamai(models.Model):
 
 class YouYuMi(models.Model):
     """
-    优异资源综合评价数据库_玉米
+    玉米作物优异资源综合评价数据库
     """
     id = models.IntegerField(primary_key=True)
     chdusuwega = models.CharField(max_length=30, blank=True, null=True, db_column='成都穗位高', verbose_name='成都穗位高')
@@ -1420,7 +1420,7 @@ class YouYuMi(models.Model):
     chdusucu = models.CharField(max_length=30, blank=True, null=True, db_column='成都穗粗', verbose_name='成都穗粗')
 
     class Meta:
-        db_table = '优异资源综合评价数据库_玉米'
+        db_table = '玉米作物优异资源综合评价数据库'
         unique_together = (('id', 'pzname'),)
         verbose_name = db_table
         verbose_name_plural = verbose_name
@@ -10085,6 +10085,7 @@ class YearBooks(models.Model):
 
 
 class AgriTechDes(models.Model):
+    index = models.IntegerField(db_column='显示顺序', verbose_name='显示顺序', blank=True, null=True)
     selectid = models.CharField(max_length=40, db_column='查询号码', verbose_name='查询号码', blank=True, null=True)
     id = models.CharField(max_length=40, db_column='元数据标识符', verbose_name='元数据标识符', blank=True, null=True)
     title = models.CharField(primary_key=True, max_length=60, db_column='数据集名称', verbose_name='数据集名称')
@@ -10111,6 +10112,8 @@ class AgriTechDes(models.Model):
     email = models.CharField(max_length=40, db_column='电子邮件地址', verbose_name='电子邮件地址', blank=True, null=True)
     phone = models.CharField(max_length=40, db_column='电话', verbose_name='电话', blank=True, null=True)
     fax = models.CharField(max_length=40, db_column='传真', verbose_name='传真', blank=True, null=True)
+    click_num = models.IntegerField(default=0, verbose_name="点击数", db_column='点击数')
+    fav_num = models.IntegerField(default=0, verbose_name="收藏数", db_column='收藏数')
 
     class Meta:
         db_table = '农业科技数据概述'
@@ -10132,3 +10135,20 @@ class AgriTechContent(models.Model):
         verbose_name = db_table
         verbose_name_plural = verbose_name
 
+
+class GjnydbDes(models.Model):
+
+    title = models.CharField(primary_key=True, max_length=60, db_column='数据集名称', verbose_name='数据集名称')
+    category = models.CharField(max_length=10, db_column='类别', verbose_name='类别', blank=True, null=True)
+    index = models.IntegerField(db_column='显示顺序', verbose_name='显示顺序', default=0, blank=True, null=True)
+    click_num = models.IntegerField(default=0, verbose_name="点击数", db_column='点击数', blank=True, null=True)
+    fav_num = models.IntegerField(default=0, verbose_name="收藏数", db_column='收藏数', blank=True, null=True)
+    resource = models.CharField(max_length=100, db_column='来源', verbose_name='来源', blank=True, null=True)
+    down_num = models.CharField(max_length=20, db_column='下载次数', verbose_name='下载次数', blank=True, null=True)
+    pubtime = models.CharField(max_length=20, db_column='发布时间', verbose_name='发布时间', blank=True, null=True)
+    desc = models.CharField(max_length=200, db_column='简介', verbose_name='简介', blank=True, null=True)
+
+    class Meta:
+        db_table = '国家农业数据集概述'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name

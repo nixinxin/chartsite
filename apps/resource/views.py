@@ -894,82 +894,88 @@ class BookViews(View):
         return render(request, "books.html")
 
 
-class YearsViews(View):
-
-    def get(self, request):
-        year = request.GET.get('year', "2016")
-        yearlist = YearBooksDes.objects.all().order_by('-year')
-        yearsinfo = yearlist.get(year=year)
-
-        sunxu = request.GET.get('sunxu', 0)
-
-        page = request.GET.get('page', 0)
-        content = YearBooksContent.objects.filter(year=year)
-        if sunxu:
-            mulu = YearBooksContent.objects.get(year=year, index=sunxu).content
-            items = YearBooks.objects.filter(year=year, category=mulu).order_by("id")
-        else:
-            items = YearBooks.objects.filter(year=year).order_by("id")
-
-        counts = items.count()
-        items = Paginator(items, 20, request=request)
-        items = items.page(page)
-        return render_to_response("years.html",
-                                  context={
-                                      "yearsinfo": yearsinfo,
-                                      "content": content,
-                                      "items": items,
-                                      "yearlist": yearlist,
-                                      "counts": counts,
-                                  })
-
-
 class ResourceView(View):
 
     def get(self, request):
-        yearlist = YearBooksDes.objects.all().order_by('-year')
-        return render_to_response("resource.html",
-                                  context={
-                                      "yearlist": yearlist,
-                                  })
+        response_type = request.GET.get("type", '')
+        if response_type == 'agritech':
+            selectid = request.GET.get('id', "A030401")
+            page = request.GET.get('page', 1)
+            databases = AgriTechDes.objects.all().order_by('index')
+            database = AgriTechDes.objects.get(id=selectid).title
+            display_fields = AgriTechContent.objects.filter(title=database, display=1).order_by("index")
+            content_fields = display_fields.values_list('english')
+            contents = []
+            for i in content_fields:
+                contents.append(i[0])
+            dbbict = {
+                "中文农业科技文摘数据库": ZwkjwxDb,
+                "农业古籍数据库": NygjDb,
+                "农业标准和操作规范数据库": NybzhczgfDb,
+                "农业科技人才数据库": NykjrcDb,
+                "农业科技政策法规数据库": NykjzcfgDb,
+                "农业科技机构数据库": NykjjgDb,
+                "农业获奖科技成果数据库": NyhjkjcgDb,
+                "农作物名优特新品种数据库": MytxDb,
+                "国内农业科研项目数据库": GnnykyhzxmDb,
+                "国际农业科研项目数据库": GjnykyhzxmDb,
+                "外文农业科技文摘数据库": WwkjwxDb,
+                "有机农业数据库": YjnyDb,
+                "畜禽常见疾病及防治方法数据库": XqfzffDb,
+            }
 
-class AgritechViews(View):
+            items = dbbict[database].objects.all().values_list(*contents)
+            items_num = items.count()
+            items = Paginator(items, 20, request=request)
 
-    def get(self, request):
-        selectid = request.GET.get('id', "A030401")
-        page = request.GET.get('page', 1)
-        display_html = request.GET.get('display', 0)
-        database = AgriTechDes.objects.get(id=selectid).title
-        display_fields = AgriTechContent.objects.filter(title=database, display=1).order_by("index")
-        content_fields = display_fields.values_list('english')
-        contents = []
-        for i in content_fields:
-            contents.append(i[0])
-        dbbict = {
-            "中文农业科技文摘数据库": ZwkjwxDb,
-            "农业古籍数据库": NygjDb,
-            "农业标准和操作规范数据库": NybzhczgfDb,
-            "农业科技人才数据库": NykjrcDb,
-            "农业科技政策法规数据库": NykjzcfgDb,
-            "农业科技机构数据库": NykjjgDb,
-            "农业获奖科技成果数据库": NyhjkjcgDb,
-            "农作物名优特新品种数据库": MytxDb,
-            "国内农业科研项目数据库": GnnykyhzxmDb,
-            "国际农业科研项目数据库": GjnykyhzxmDb,
-            "外文农业科技文摘数据库": WwkjwxDb,
-            "有机农业数据库": YjnyDb,
-            "畜禽常见疾病及防治方法数据库": XqfzffDb,
-        }
+            items = items.page(page)
+            return render_to_response('techdb.html', {
+                "display_fields": display_fields,
+                "items": items,
+                "items_num": items_num,
+                "selectid": selectid,
+                "databases": databases,
+            })
+        elif response_type == 'years':
 
-        items = dbbict[database].objects.all().values_list(*contents)
-        items_num = items.count()
-        items = Paginator(items, 20, request=request)
+            year = request.GET.get('selectid', "2016")
+            yearlist = YearBooksDes.objects.all().order_by('-year')
+            yearsinfo = yearlist.get(year=year)
 
-        items = items.page(page)
-        return render_to_response('techdb.html', {
-            "display_fields": display_fields,
-            "items": items,
-            "items_num": items_num,
-            "selectid": selectid,
-        })
+            sunxu = request.GET.get('shunxu', 0)
 
+            page = request.GET.get('page', 0)
+            content = YearBooksContent.objects.filter(year=year)
+            if sunxu:
+                mulu = YearBooksContent.objects.get(year=year, index=sunxu).content
+                items = YearBooks.objects.filter(year=year, category=mulu).order_by("id")
+            else:
+                items = YearBooks.objects.filter(year=year).order_by("id")
+
+            counts = items.count()
+            items = Paginator(items, 20, request=request)
+            items = items.page(page)
+            return render_to_response("years.html",
+                                      context={
+                                          "yearsinfo": yearsinfo,
+                                          "content": content,
+                                          "items": items,
+                                          "yearlist": yearlist,
+                                          "counts": counts,
+                                      })
+        else:
+            yearlist = YearBooksDes.objects.all().order_by('-year')
+            agritech = AgriTechDes.objects.all().order_by('index')
+            crop = GjnydbDes.objects.filter(category='作物遗传资源数据').order_by('index')
+            pest = GjnydbDes.objects.filter(category='农业有害生物数据').order_by('index')
+            product = GjnydbDes.objects.filter(category='农产品资源数据').order_by('index')
+            genetic = GjnydbDes.objects.filter(category='作物遗传资源数据').order_by('index')
+            return render_to_response("resource.html",
+                                      context={
+                                          "yearlist": yearlist,
+                                          "agritech": agritech,
+                                          "pest": pest,
+                                          "crop": crop,
+                                          "product": product,
+                                          "genetic": genetic,
+                                      })

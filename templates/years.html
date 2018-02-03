@@ -1,6 +1,7 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
+    <link rel="stylesheet" href="{% static 'layui/layui.css' %}">
     <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/bookpublic.css' %}">
     <link rel="stylesheet" href="{% static 'css/bookstyle.css' %}">
@@ -21,7 +22,7 @@
                 <!------目录 start---->
                 <ul>
                     {% for i in content %}
-                        <li><a href="?sunxu={{ forloop.counter }}">{{ i.content }}</a></li>
+                        <li><a href="?type=years&year={{ yearsinfo.year }}&shunxu={{ forloop.counter }}">{{ i.content }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -45,7 +46,7 @@
 
         <div class="s_year clearfix">
                     {% for year in yearlist %}
-                        <a href="?year={{ year.year }}" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
+                        <a href="?type=years&selectid={{ year.year }}" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
                     {%  endfor %}
         </div>
 
@@ -57,20 +58,25 @@
     }
 </style>
 <div id="ResultPage" class="s_page" style="font-size: 14px;">
-    <span class="s_p_listl">
-        &nbsp;共有记录{{ counts }}条&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-10" style="margin: 0 auto 0 20px">
+        <span class="layui-laypage-count" >共{{ counts }}条</span>
         {% for page in items.pages %}
             {% if page %}
                 {% ifequal page items.number %}
-                    <span class="current page">{{ page }}</span>
+                    <span class="layui-laypage-curr" ><em class="layui-laypage-em"></em><em>{{ page }}</em></span>
                 {% else %}
-                    <a href="?{{ page.querystring }}" class="a04">{{ page }}</a>
+                    <a href="?{{ page.querystring }}" class="page" data-page="{{ page }}" >{{ page }}</a>
                 {% endifequal %}
             {% else %}
-                ...
+                <span class="layui-laypage-spr" >…</span>
             {% endif %}
         {% endfor %}
-    </span>
+        <script>
+            $("#demo7 .layui-laypage-btn").on("click", function () {
+                location.href += "&page=" + $("#inputpage").val()
+            })
+        </script>
+    </div>
 </div>
 <div id="ResultList_jy" class="s_table">
     <!----- 简约版 start------>
