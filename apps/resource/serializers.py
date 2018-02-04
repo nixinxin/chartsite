@@ -118,33 +118,33 @@ class ZgyclschcDbserializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ZgwlrqwswDbserializer(serializers.ModelSerializer):
+class WlyhwswDbserializer(serializers.ModelSerializer):
     """
-    中国外来入侵微生物数据库
+    外来有害微生物数据库
     """
 
     class Meta:
-        model = ZgwlrqwswDb
+        model = WlyhwswDb
         fields = "__all__"
 
 
-class ZgwlrqkcDbserializer(serializers.ModelSerializer):
+class WlyhkcDbserializer(serializers.ModelSerializer):
     """
-    中国外来入侵昆虫数据库
+    外来有害昆虫数据库
     """
 
     class Meta:
-        model = ZgwlrqkcDb
+        model = WlyhkcDb
         fields = "__all__"
 
 
-class ZgwlrqzwDbserializer(serializers.ModelSerializer):
+class WlyhzwDbserializer(serializers.ModelSerializer):
     """
-    中国外来入侵植物数据库
+    外来有害植物数据库
     """
 
     class Meta:
-        model = ZgwlrqzwDb
+        model = WlyhzwDb
         fields = "__all__"
 
 

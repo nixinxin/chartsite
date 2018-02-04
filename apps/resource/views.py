@@ -213,13 +213,13 @@ class ZgyclschcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     ordering_fields = ('id',)
 
 
-class ZgwlrqwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class WlyhwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
        中国外来入侵微生物数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgwlrqwswDb.objects.all().order_by('id')
-    serializer_class = ZgwlrqwswDbserializer
+    queryset = WlyhwswDb.objects.all().order_by('id')
+    serializer_class = WlyhwswDbserializer
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
@@ -227,13 +227,13 @@ class ZgwlrqwswDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retri
     ordering_fields = ('id',)
 
 
-class ZgwlrqkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class WlyhkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
        中国外来入侵昆虫数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgwlrqkcDb.objects.all().order_by('id')
-    serializer_class = ZgwlrqkcDbserializer
+    queryset = WlyhkcDb.objects.all().order_by('id')
+    serializer_class = WlyhkcDbserializer
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
@@ -241,13 +241,13 @@ class ZgwlrqkcDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retrie
     ordering_fields = ('id',)
 
 
-class ZgwlrqzwDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class WlyhzwDbViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     list:
        中国外来入侵植物数据库列表数据,该注释直接会在docs文档中生成相关说明
     """
-    queryset = ZgwlrqzwDb.objects.all().order_by('id')
-    serializer_class = ZgwlrqzwDbserializer
+    queryset = WlyhzwDb.objects.all().order_by('id')
+    serializer_class = WlyhzwDbserializer
     pagination_class = CustomPagination
 
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
@@ -897,43 +897,45 @@ class BookViews(View):
 class ResourceView(View):
 
     def get(self, request):
-        dbbict = {
-            "中文农业科技文摘数据库": ZwkjwxDb,
-            "农业古籍数据库": NygjDb,
-            "农业标准和操作规范数据库": NybzhczgfDb,
-            "农业科技人才数据库": NykjrcDb,
-            "农业科技政策法规数据库": NykjzcfgDb,
-            "农业科技机构数据库": NykjjgDb,
-            "农业获奖科技成果数据库": NyhjkjcgDb,
-            "农作物名优特新品种数据库": MytxDb,
-            "国内农业科研项目数据库": GnnykyhzxmDb,
-            "国际农业科研项目数据库": GjnykyhzxmDb,
-            "外文农业科技文摘数据库": WwkjwxDb,
-            "有机农业数据库": YjnyDb,
-            "畜禽常见疾病及防治方法数据库": XqfzffDb,
-        }
         response_type = request.GET.get("type", '')
         if response_type == 'agritech':
-            selectid = request.GET.get('id', "A030401")
-            databases = AgriTechDes.objects.all().order_by('index')
-            database = AgriTechDes.objects.get(id=selectid).title
+            dbbict = {
+                "中文农业科技文摘数据库": ZwkjwxDb,
+                "农业古籍数据库": NygjDb,
+                "农业标准和操作规范数据库": NybzhczgfDb,
+                "农业科技人才数据库": NykjrcDb,
+                "农业科技政策法规数据库": NykjzcfgDb,
+                "农业科技机构数据库": NykjjgDb,
+                "农业获奖科技成果数据库": NyhjkjcgDb,
+                "农作物名优特新品种数据库": MytxDb,
+                "国内农业科研项目数据库": GnnykyhzxmDb,
+                "国际农业科研项目数据库": GjnykyhzxmDb,
+                "外文农业科技文摘数据库": WwkjwxDb,
+                "有机农业数据库": YjnyDb,
+                "畜禽常见疾病及防治方法数据库": XqfzffDb,
+            }
+
+            select = request.GET.get('select', 45)
+            select = int(select)
+            databases = GjnydbDes.objects.filter(category="农业科技资源数据").order_by('index')
+            database = GjnydbDes.objects.get(id=select).title
 
             page = request.GET.get('page', 1)
 
             index = request.GET.get('index', "")
             display_fields = AgriTechContent.objects.filter(title=database, display=1).order_by("index")
-            detail_fields = AgriTechContent.objects.filter(title=database).order_by("index")
-            detailkey = []
-            for key in detail_fields:
-                detailkey.append(key.content)
             if index:
+                detail_fields = AgriTechContent.objects.filter(title=database).order_by("index")
+                detailkey = ["id"]
+                for key in detail_fields:
+                    detailkey.append(key.content)
                 items = dbbict[database].objects.filter(id=index).values_list()
                 detail = []
                 for num in range(0, len(detailkey)):
                     detail.append({"key": detailkey[num], 'value': items[0][num]})
                 return render_to_response('techdetail.html', {
                     "items": items,
-                    "selectid": selectid,
+                    "select": select,
                     "databases": databases,
                     "detail": detail,
                 })
@@ -950,12 +952,75 @@ class ResourceView(View):
                 "display_fields": display_fields,
                 "items": items,
                 "items_num": items_num,
-                "selectid": selectid,
+                "select": select,
+                "databases": databases,
+            })
+        elif response_type == 'pest':
+            dbbict = {
+                "中国农业害鼠数据库": ZgnthsDb,
+                "中国旱地杂草数据库": ZghdzcDb,
+                "中国柑桔害虫数据库": ZggjhcDb,
+                "中国棉花害虫数据库": ZgmhhcDb,
+                "中国水田杂草数据库": ZgstzcDb,
+                "中国水稻害虫数据库": ZgsdhcDb,
+                "外来有害昆虫数据库": WlyhkcDb,
+                "外来有害植物数据库": WlyhzwDb,
+                "外来有害微生物数据库": WlyhwswDb,
+                "中国农业天敌昆虫数据库": ZgnytdkcDb,
+                "中国农业天敌蜘蛛数据库": ZgnttdzzDb,
+                "中国旱粮作物害虫数据库": ZghlzwhcDb,
+                "中国苹果桃梨害虫数据库": ZgpgtlhcDb,
+                "中国叶菜类蔬菜害虫数据库": ZgyclschcDb,
+                "中国果菜类蔬菜害虫数据库": ZggslschcDb,
+                "中国粮食作物病毒病害数据库": ZglszwbdbhDb,
+                "中国粮食作物真菌病害数据库": ZglszwzjbhDb,
+                "中国粮食作物细菌病害数据库": ZglszwxjbhDb,
+                "中国经济作物病毒病害数据库": ZgjjzwbdbhDb,
+                "中国经济作物真菌病害数据库": ZgjjzwzjbhDb,
+                "中国经济作物细菌病害数据库": ZgjjzwxjbhDb,
+            }
+            select = request.GET.get('select', 3)
+            select = int(select)
+            databases = GjnydbDes.objects.filter(category="农业有害生物数据").order_by('index')
+            database = GjnydbDes.objects.get(id=select).title
+
+            page = request.GET.get('page', 1)
+
+            index = request.GET.get('index', "")
+            display_fields = FieldContent.objects.filter(title=database, display=1).order_by("index")
+            if index:
+                detail_fields = FieldContent.objects.filter(title=database).order_by("index")
+                detailkey = ["id"]
+                for key in detail_fields:
+                    detailkey.append(key.content)
+                items = dbbict[database].objects.filter(id=index).values_list()
+                detail = []
+                for num in range(0, len(detailkey)):
+                    detail.append({"key": detailkey[num], 'value': items[0][num]})
+                return render_to_response('pestdetail.html', {
+                    "items": items,
+                    "select": select,
+                    "databases": databases,
+                    "detail": detail,
+                })
+            content_fields = display_fields.values_list('english')
+            contents = ['id', ]
+            for i in content_fields:
+                contents.append(i[0])
+            items = dbbict[database].objects.all().values_list(*contents)
+            items_num = items.count()
+            items = Paginator(items, 20, request=request)
+            items = items.page(page)
+            return render_to_response('pest.html', {
+                "display_fields": display_fields,
+                "items": items,
+                "items_num": items_num,
+                "select": select,
                 "databases": databases,
             })
         elif response_type == 'years':
 
-            year = request.GET.get('selectid', "2016")
+            year = request.GET.get('select', "2016")
             yearlist = YearBooksDes.objects.all().order_by('-year')
             yearsinfo = yearlist.get(year=year)
 
@@ -982,7 +1047,7 @@ class ResourceView(View):
                                       })
         else:
             yearlist = YearBooksDes.objects.all().order_by('-year')
-            agritech = AgriTechDes.objects.all().order_by('index')
+            agritech = GjnydbDes.objects.filter(category='农业科技资源数据').order_by('index')
             crop = GjnydbDes.objects.filter(category='作物遗传资源数据').order_by('index')
             pest = GjnydbDes.objects.filter(category='农业有害生物数据').order_by('index')
             product = GjnydbDes.objects.filter(category='农产品资源数据').order_by('index')

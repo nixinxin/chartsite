@@ -46,7 +46,7 @@ input {outline:none; display:inline-block;}
 
 .ClearFloat{zoom:1} 
 .ClearFloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
-.Box10{width:60%; margin:0 auto 20px;}
+.Box10{width:1150px; margin:0 auto 20px;}
 .Box72{ width:60%;}
 .Box77{ width:76%;}
 .Box270{ width:29%;}

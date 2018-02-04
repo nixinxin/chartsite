@@ -89,13 +89,13 @@ router.register(r'ZgnthsDb', ZgnthsDbViewSet, base_name='ZgnthsDb')
 router.register(r'ZgyclschcDb', ZgyclschcDbViewSet, base_name='ZgyclschcDb')
 
 # 中国外来入侵微生物数据库
-router.register(r'ZgwlrqwswDb', ZgwlrqwswDbViewSet, base_name='ZgwlrqwswDb')
+router.register(r'WlyhwswDb', WlyhwswDbViewSet, base_name='WlyhwswDb')
 
 # 中国外来入侵昆虫数据库
-router.register(r'ZgwlrqkcDb', ZgwlrqkcDbViewSet, base_name='ZgwlrqkcDb')
+router.register(r'WlyhkcDb', WlyhkcDbViewSet, base_name='WlyhkcDb')
 
 # 中国外来入侵植物数据库
-router.register(r'ZgwlrqzwDb', ZgwlrqzwDbViewSet, base_name='ZgwlrqzwDb')
+router.register(r'WlyhzwDb', WlyhzwDbViewSet, base_name='WlyhzwDb')
 
 # 中国旱地杂草数据库
 router.register(r'ZghdzcDb', ZghdzcDbViewSet, base_name='ZghdzcDb')

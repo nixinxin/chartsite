@@ -13,12 +13,11 @@
         <div class="Box10 ClearFloat">
             <div class="Box210 FloatLeft MarginLeft10">
                 <div class="ListMenu">
-                    <h2><span>&nbsp;&nbsp;&nbsp;&nbsp;农业科技机构数据库</span></h2>
+                    <h2><span>&nbsp;&nbsp;&nbsp;&nbsp;农业有害生物数据库</span></h2>
                     <ul>
                         {% for db in databases %}
-                            <li><a href="?type=agritech&select={{ db.id }}"  {% ifequal db.id  select %}class="Selected"{% endifequal %}>{{ db.title }}</a></li>
+                            <li><a href="?type=pest&select={{ db.id }}" class="{% ifequal select db.id %}Selected{% endifequal %}">{{ db.title }}</a></li>
                         {% endfor %}
-
                     </ul>
                 </div>
             </div>
@@ -43,7 +42,7 @@
                                             {% for content in item %}
                                                 {% ifequal forloop.counter 2 %}
                                                     <td class="Pad_Left5 EllipsisTd" style="text-align: center;">
-                                                        <a href="?type=agritech&select={{ select }}&index={{ item.0 }}"  style="padding-left: 10px;color: rgb(0, 0, 238)" title="{{ content }}">{{ content }} </a>
+                                                        <a href="?type=pest&select={{ select }}&index={{ item.0 }}"  style="padding-left: 10px;color: rgb(0, 0, 238)" title="{{ content }}">{{ content }} </a>
                                                     </td>
                                                 {% else %}
                                                     {% ifnotequal forloop.counter 1 %}

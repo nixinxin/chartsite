@@ -32,7 +32,7 @@
                                     {% for item in yearlist %}
                                          <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=years&selectid={{ item.year }}">{{ item.year }}年农业统计年鉴</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=years&select={{ item.year }}">{{ item.year }}年农业统计年鉴</a>
 
                                     </dt>
                                     {%  endfor %}
@@ -46,7 +46,7 @@
                             <dl class="subnav clearfix">
                                 {% for item in pest %}
                                     <dt>
-                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" href="?type=pest&selectid={{ item.index }}">{{ item.title }}</a>
+                                        <span class="icon-pic fl"></span><a class="itemTxt fl" target="_blank" href="?type=pest&select={{ item.id }}">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
 
@@ -63,7 +63,7 @@
                                 {% for item in genetic %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=genetic&selectid={{ item.index }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=genetic&select={{ item.id }}">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
 
@@ -79,7 +79,7 @@
                                 {% for item in agritech %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=agritech&id={{ item.id }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=agritech&select={{ item.id }}">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
                                 <dd class="more">
@@ -93,7 +93,7 @@
                                 {% for item in crop %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=crop&selectid={{ item.index }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=crop&select={{ item.index }}">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
                                 </dt>
@@ -108,7 +108,7 @@
                                  {% for item in product %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=product&selectid={{ item.index }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="?type=product&select={{ item.index }}">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
                                 <dd class="more">

@@ -182,14 +182,14 @@ class MytxDb(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.name
+        return self.pzname
 
 
 class ZgnytdkcDb(models.Model):
     """
     中国农业天敌昆虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     function_class = models.CharField(max_length=20, blank=True, null=True,  verbose_name="功能类别", db_column="功能类别")
     jizhu_insect = models.TextField(blank=True, null=True, db_column='寄主昆虫', verbose_name="寄主昆虫")
     jizhu_hazard = models.CharField(max_length=40, blank=True, null=True, db_column='寄主危害作物', verbose_name="寄主危害作物")
@@ -236,6 +236,7 @@ class ZgnttdzzDb(models.Model):
     """
     中国农业天敌蜘蛛数据库
     """
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     report_id = models.CharField(max_length=10, blank=True, null=True, db_column='记录号', verbose_name="记录号")
     function_class = models.CharField(max_length=20, blank=True, null=True, db_column="功能类别", verbose_name="功能类别")
     jizhu_insect = models.TextField(blank=True, null=True, db_column='寄主昆虫', verbose_name="寄主昆虫")
@@ -264,7 +265,7 @@ class ZgnthsDb(models.Model):
     """
     中国农业害鼠数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
@@ -296,7 +297,7 @@ class ZgyclschcDb(models.Model):
     """
     中国叶菜类蔬菜害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -321,11 +322,11 @@ class ZgyclschcDb(models.Model):
         return self.zhname
 
 
-class ZgwlrqwswDb(models.Model):
+class WlyhwswDb(models.Model):
     """
     外来有害微生物数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     hazard_feature = models.TextField(blank=True, null=True, db_column='危害特点', verbose_name="危害特点")
     desc = models.TextField(blank=True, null=True, db_column='生物学特征及发生消长规律', verbose_name="生物学特征及发生消长规律")
@@ -357,11 +358,11 @@ class ZgwlrqwswDb(models.Model):
         return self.zhname
 
 
-class ZgwlrqkcDb(models.Model):
+class WlyhkcDb(models.Model):
     """
     外来有害昆虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     rqsjddd = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name="入侵时间及地点")
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     alias = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
@@ -394,11 +395,11 @@ class ZgwlrqkcDb(models.Model):
         return self.zhname
 
 
-class ZgwlrqzwDb(models.Model):
+class WlyhzwDb(models.Model):
     """
     外来有害植物数据库
     """
-    id = models.IntegerField(primary_key=True, db_column='编号', verbose_name='编号')
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     ruqintl = models.TextField(blank=True, null=True, db_column='入侵时间及地点', verbose_name='入侵时间及地点')
     control_way = models.TextField(blank=True, null=True, db_column='防治方法', verbose_name="防治方法")
     alias = models.CharField(max_length=40, blank=True, null=True, db_column='别名', verbose_name='别名')
@@ -433,7 +434,7 @@ class ZghdzcDb(models.Model):
     """
     中国旱地杂草数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     happen_hazard = models.TextField(blank=True, null=True, db_column='发生与危害', verbose_name='发生与危害')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     gang = models.CharField(max_length=20, blank=True, null=True, db_column='纲', verbose_name="纲")
@@ -462,7 +463,7 @@ class ZghlzwhcDb(models.Model):
     """
     中国旱粮作物害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.TextField(blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -491,7 +492,7 @@ class ZggslschcDb(models.Model):
     """
     中国果菜类蔬菜害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -521,7 +522,7 @@ class ZggjhcDb(models.Model):
     """
     中国柑桔害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.TextField(blank=True, null=True, db_column='天敌', verbose_name='天敌')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -550,7 +551,7 @@ class ZgmhhcDb(models.Model):
     """
     中国棉花害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.CharField(max_length=100, blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -579,7 +580,7 @@ class ZgstzcDb(models.Model):
     """
     中国水田杂草数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     happen_hazard = models.TextField(blank=True, null=True, db_column='发生与危害', verbose_name='发生与危害')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     gang = models.CharField(max_length=20, blank=True, null=True, db_column='纲', verbose_name="纲")
@@ -608,7 +609,7 @@ class ZgsdhcDb(models.Model):
     """
     中国水稻害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.TextField(blank=True, null=True, db_column='天敌', verbose_name='天敌')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -660,7 +661,7 @@ class ZglszwbdbhDb(models.Model):
     """
     中国粮食作物病毒病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -691,7 +692,7 @@ class ZglszwzjbhDb(models.Model):
     """
     中国粮食作物真菌病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -723,7 +724,7 @@ class ZglszwxjbhDb(models.Model):
     """
     中国粮食作物细菌病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -754,7 +755,7 @@ class ZgjjzwbdbhDb(models.Model):
     """
     中国经济作物病毒病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -786,7 +787,7 @@ class ZgjjzwzjbhDb(models.Model):
     """
     中国经济作物真菌病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -818,7 +819,7 @@ class ZgjjzwxjbhDb(models.Model):
     """
     中国经济作物细菌病害数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hazard_buwei = models.TextField(blank=True, null=True, db_column='主要危害部位', verbose_name='主要危害部位')
     distribution = models.TextField(blank=True, null=True, db_column='地理分布', verbose_name='地理分布')
     symptom = models.TextField(blank=True, null=True, db_column='为害症状', verbose_name='为害症状')
@@ -850,7 +851,7 @@ class ZgpgtlhcDb(models.Model):
     """
     中国苹果桃梨害虫数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     enemy = models.TextField(blank=True, null=True, db_column='天敌', verbose_name='天敌')
     zhname = models.CharField(max_length=60, blank=True, null=True, db_column='中文名', verbose_name="中文名")
     type_feature = models.TextField(blank=True, null=True, db_column='形态特征', verbose_name="形态特征")
@@ -987,7 +988,7 @@ class XmxpDb(models.Model):
     """
     小麦系谱数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     unit_id = models.IntegerField(blank=True, null=True, db_column='品资所编号', verbose_name='品资所编号')
     name = models.CharField(max_length=40, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     xipu = models.CharField(max_length=100, blank=True, null=True, db_column='系谱', verbose_name='系谱')
@@ -1211,7 +1212,7 @@ class YmxpzbhDb(models.Model):
     """
     玉米新品种保护数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     name = models.CharField(max_length=20, blank=True, null=True,  db_column='品种名称', verbose_name='品种名称')
     daibiao_breed = models.CharField(max_length=60, blank=True, null=True,  db_column='代表品种', verbose_name='代表品种')
     source = models.CharField(max_length=120, blank=True, null=True,  db_column='来源', verbose_name='来源')
@@ -1318,7 +1319,7 @@ class Youdamai(models.Model):
     """
     大麦作物优异资源综合评价数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hdhlz = models.CharField(max_length=30, blank=True, null=True, db_column='邯郸穗粒重', verbose_name='邯郸穗粒重')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     hadasulish = models.CharField(max_length=30, blank=True, null=True, db_column='邯郸穗粒数', verbose_name='邯郸穗粒数')
@@ -1374,7 +1375,7 @@ class YouYuMi(models.Model):
     """
     玉米作物优异资源综合评价数据库
     """
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chdusuwega = models.CharField(max_length=30, blank=True, null=True, db_column='成都穗位高', verbose_name='成都穗位高')
     nifetusish = models.CharField(max_length=30, blank=True, null=True, db_column='年份吐丝数', verbose_name='年份吐丝数')
     bejiquchli = models.CharField(max_length=30, blank=True, null=True, db_column='北京区产量', verbose_name='北京区产量')
@@ -1427,7 +1428,7 @@ class YouYuMi(models.Model):
 
 
 class sigua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1468,7 +1469,7 @@ class sigua(models.Model):
 
 
 class yama(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1521,7 +1522,7 @@ class yama(models.Model):
 
 
 class qitagualei(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1559,7 +1560,7 @@ class qitagualei(models.Model):
 
 
 class qitalvyecai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yeroma = models.CharField(max_length=30, blank=True, null=True, db_column='叶茸毛', verbose_name='叶茸毛')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1600,7 +1601,7 @@ class qitalvyecai(models.Model):
 
 
 class qitadoulei(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zhpicise = models.CharField(max_length=30, blank=True, null=True, db_column='种皮次色', verbose_name='种皮次色')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1641,7 +1642,7 @@ class qitadoulei(models.Model):
 
 
 class donghancai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1674,7 +1675,7 @@ class donghancai(models.Model):
 
 
 class donggua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1716,7 +1717,7 @@ class donggua(models.Model):
 
 
 class daodou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -1755,7 +1756,7 @@ class daodou(models.Model):
 
 
 class fencong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jijise = models.CharField(max_length=30, blank=True, null=True, db_column='假茎色', verbose_name='假茎色')
     yelafe = models.CharField(max_length=30, blank=True, null=True, db_column='叶蜡粉', verbose_name='叶蜡粉')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -1788,7 +1789,7 @@ class fencong(models.Model):
 
 
 class limadou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -1851,7 +1852,7 @@ class limadou(models.Model):
 
 
 class nangua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1892,7 +1893,7 @@ class nangua(models.Model):
 
 
 class yeyongwoju(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jiqiyufo = models.CharField(max_length=30, blank=True, null=True, db_column='结球与否', verbose_name='结球与否')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -1925,7 +1926,7 @@ class yeyongwoju(models.Model):
 
 
 class yegaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pizh = models.CharField(max_length=30, blank=True, null=True, db_column='品质', verbose_name='品质')
@@ -1990,7 +1991,7 @@ class yegaicai(models.Model):
 
 
 class xiangrikui(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     pezhse = models.CharField(max_length=30, blank=True, null=True, db_column='胚轴色', verbose_name='胚轴色')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     kubiha = models.CharField(max_length=30, blank=True, null=True, db_column='库编号', verbose_name='库编号')
@@ -2031,7 +2032,7 @@ class xiangrikui(models.Model):
 
 
 class kafei(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shgacudu = models.CharField(max_length=30, blank=True, null=True, db_column='树干粗度', verbose_name='树干粗度')
     neyeyase = models.CharField(max_length=30, blank=True, null=True, db_column='嫩叶颜色', verbose_name='嫩叶颜色')
     yifezhcudu = models.CharField(max_length=30, blank=True, null=True, db_column='一分枝粗度', verbose_name='一分枝粗度')
@@ -2136,7 +2137,7 @@ class kafei(models.Model):
 
 
 class silengdou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     dabazh = models.CharField(max_length=30, blank=True, null=True, db_column='蛋白质', verbose_name='蛋白质')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -2176,7 +2177,7 @@ class silengdou(models.Model):
 
 
 class difu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     zhhuxuchdu = models.CharField(max_length=30, blank=True, null=True, db_column='主花序长度', verbose_name='主花序长度')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -2211,7 +2212,7 @@ class difu(models.Model):
 
 
 class duohuacaidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -2275,7 +2276,7 @@ class duohuacaidou(models.Model):
 
 
 class dabaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     yebise = models.CharField(max_length=30, blank=True, null=True, db_column='叶柄色', verbose_name='叶柄色')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -2332,7 +2333,7 @@ class dabaicai(models.Model):
 
 
 class dacong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jijise = models.CharField(max_length=30, blank=True, null=True, db_column='假茎色', verbose_name='假茎色')
     yelafe = models.CharField(max_length=30, blank=True, null=True, db_column='叶蜡粉', verbose_name='叶蜡粉')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -2370,7 +2371,7 @@ class dacong(models.Model):
 
 
 class dadou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     banadeji3 = models.CharField(max_length=30, blank=True, null=True, db_column='孢囊等级3', verbose_name='孢囊等级3')
@@ -2442,7 +2443,7 @@ class dadou(models.Model):
 
 
 class Zuodamai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     sulish = models.CharField(max_length=30, blank=True, null=True, db_column='穗粒数', verbose_name='穗粒数')
     pzname = models.CharField(max_length=60, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -2650,7 +2651,7 @@ class Zuodamai(models.Model):
 
 
 class dama(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     zhzihayolv = models.CharField(max_length=30, blank=True, null=True, db_column='种子含油率', verbose_name='种子含油率')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -2694,7 +2695,7 @@ class dama(models.Model):
 
 
 class nenjinghuayecai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     huqiheji = models.CharField(max_length=30, blank=True, null=True, db_column='花球横径', verbose_name='花球横径')
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -2742,7 +2743,7 @@ class nenjinghuayecai(models.Model):
 
 
 class zigaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     geyotu = models.CharField(max_length=30, blank=True, null=True, db_column='根用途', verbose_name='根用途')
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -2797,7 +2798,7 @@ class zigaicai(models.Model):
 
 
 class xiaobiandou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -2860,7 +2861,7 @@ class xiaobiandou(models.Model):
 
 
 class xiaodou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -2974,7 +2975,7 @@ class xiaodou(models.Model):
 
 
 class xiaomai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     chmebibizh = models.CharField(max_length=50, blank=True, null=True, db_column='赤霉病病指', verbose_name='赤霉病病指')
     sulish = models.CharField(max_length=40, blank=True, null=True, db_column='穗粒数', verbose_name='穗粒数')
@@ -3153,7 +3154,7 @@ class xiaomai(models.Model):
 
 
 class xiaomaixiyouzhong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     zhzilayu = models.CharField(max_length=30, blank=True, null=True, db_column='种子来源', verbose_name='种子来源')
     shmi = models.CharField(max_length=40, blank=True, null=True, db_column='属名', verbose_name='属名')
@@ -3217,7 +3218,7 @@ class xiaomaixiyouzhong(models.Model):
 
 
 class shanzha(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     shyuqipiji = models.CharField(max_length=30, blank=True, null=True, db_column='生育期评价', verbose_name='生育期评价')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3256,7 +3257,7 @@ class shanzha(models.Model):
 
 
 class biandou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -3295,7 +3296,7 @@ class biandou(models.Model):
 
 
 class putongcaidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     jibabizhsh = models.CharField(max_length=30, blank=True, null=True, db_column='角斑病指数', verbose_name='角斑病指数')
@@ -3374,7 +3375,7 @@ class putongcaidou(models.Model):
 
 
 class mushu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kahaxipiji = models.CharField(max_length=30, blank=True, null=True, db_column='抗寒性评价', verbose_name='抗寒性评价')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     wezhkayese = models.CharField(max_length=30, blank=True, null=True, db_column='未展开叶色', verbose_name='未展开叶色')
@@ -3425,7 +3426,7 @@ class mushu(models.Model):
 
 
 class mudou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -3465,7 +3466,7 @@ class mudou(models.Model):
 
 
 class Xiaolizi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     keroguxiwu = models.CharField(max_length=30, blank=True, null=True, db_column='可溶固形物', verbose_name='可溶固形物')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3502,7 +3503,7 @@ class Xiaolizi(models.Model):
 
 
 class xing(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     keroguxiwu = models.CharField(max_length=30, blank=True, null=True, db_column='可溶固形物', verbose_name='可溶固形物')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3540,7 +3541,7 @@ class xing(models.Model):
 
 
 class pipa(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     xizh = models.CharField(max_length=30, blank=True, null=True, db_column='形状', verbose_name='形状')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -3576,7 +3577,7 @@ class pipa(models.Model):
 
 
 class zao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     shyuqipiji = models.CharField(max_length=30, blank=True, null=True, db_column='生育期评价', verbose_name='生育期评价')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3615,7 +3616,7 @@ class zao(models.Model):
 
 
 class gouqi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     kabichxi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病虫性', verbose_name='抗病虫性')
@@ -3644,7 +3645,7 @@ class gouqi(models.Model):
 
 
 class ganju(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     keroguxiwu = models.CharField(max_length=30, blank=True, null=True, db_column='可溶固形物', verbose_name='可溶固形物')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3680,7 +3681,7 @@ class ganju(models.Model):
 
 
 class shi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     cashqipiji = models.CharField(max_length=30, blank=True, null=True, db_column='采收期评价', verbose_name='采收期评价')
     shyuqipiji = models.CharField(max_length=30, blank=True, null=True, db_column='生育期评价', verbose_name='生育期评价')
@@ -3721,7 +3722,7 @@ class shi(models.Model):
 
 
 class LiZi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     jinu = models.CharField(max_length=30, blank=True, null=True, db_column='粳糯', verbose_name='粳糯')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -3759,7 +3760,7 @@ class LiZi(models.Model):
 
 
 class hetao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     rezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='仁质评价', verbose_name='仁质评价')
@@ -3793,7 +3794,7 @@ class hetao(models.Model):
 
 
 class gentiancai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     rozhgexi = models.CharField(max_length=30, blank=True, null=True, db_column='肉质根形', verbose_name='肉质根形')
@@ -3848,7 +3849,7 @@ class gentiancai(models.Model):
 
 
 class gengaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     rozhgexi = models.CharField(max_length=30, blank=True, null=True, db_column='肉质根形', verbose_name='肉质根形')
@@ -3907,7 +3908,7 @@ class gengaicai(models.Model):
 
 
 class tao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     case = models.CharField(max_length=30, blank=True, null=True, db_column='彩色', verbose_name='彩色')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     keroxisu = models.CharField(max_length=30, blank=True, null=True, db_column='可溶性酸', verbose_name='可溶性酸')
@@ -3946,7 +3947,7 @@ class tao(models.Model):
 
 
 class Sang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     neyeyase = models.CharField(max_length=30, blank=True, null=True, db_column='嫩叶颜色', verbose_name='嫩叶颜色')
     yazhshzhta = models.CharField(max_length=30, blank=True, null=True, db_column='芽着生状态', verbose_name='芽着生状态')
     yema = models.CharField(max_length=30, blank=True, null=True, db_column='叶脉', verbose_name='叶脉')
@@ -4047,7 +4048,7 @@ class Sang(models.Model):
 
 
 class Dali(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     shyuqipiji = models.CharField(max_length=30, blank=True, null=True, db_column='生育期评价', verbose_name='生育期评价')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -4085,7 +4086,7 @@ class Dali(models.Model):
 
 
 class mianhua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     milich = models.CharField(max_length=30, blank=True, null=True, db_column='棉铃虫', verbose_name='棉铃虫')
     mife = models.CharField(max_length=30, blank=True, null=True, db_column='棉酚', verbose_name='棉酚')
     shzhsh = models.CharField(max_length=30, blank=True, null=True, db_column='生长势', verbose_name='生长势')
@@ -4181,7 +4182,7 @@ class mianhua(models.Model):
 
 
 class yezi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yepiyase = models.CharField(max_length=30, blank=True, null=True, db_column='叶片颜色', verbose_name='叶片颜色')
     zhch = models.CharField(max_length=30, blank=True, null=True, db_column='中产', verbose_name='中产')
     bimi = models.CharField(max_length=30, blank=True, null=True, db_column='别名', verbose_name='别名')
@@ -4287,7 +4288,7 @@ class yezi(models.Model):
 
 
 class xiangjiao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jiruyase = models.CharField(max_length=30, blank=True, null=True, db_column='胶乳颜色', verbose_name='胶乳颜色')
     saxiyejiju = models.CharField(max_length=30, blank=True, null=True, db_column='三小叶间距', verbose_name='三小叶间距')
     shzhkuma = models.CharField(max_length=30, blank=True, null=True, db_column='生长快慢', verbose_name='生长快慢')
@@ -4323,7 +4324,7 @@ class xiangjiao(models.Model):
 
 
 class maodou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     zhpicise = models.CharField(max_length=30, blank=True, null=True, db_column='种皮次色', verbose_name='种皮次色')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -4365,7 +4366,7 @@ class maodou(models.Model):
 
 
 class shuidao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jimilv = models.CharField(max_length=30, blank=True, null=True, db_column='精米率', verbose_name='精米率')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     huyichdu = models.CharField(max_length=30, blank=True, null=True, db_column='护颖长短', verbose_name='护颖长短')
@@ -4496,7 +4497,7 @@ class shuidao(models.Model):
 
 
 class youli(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     dabazh = models.CharField(max_length=30, blank=True, null=True, db_column='蛋白质', verbose_name='蛋白质')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     yeshshsudu = models.CharField(max_length=30, blank=True, null=True, db_column='叶失水速度', verbose_name='叶失水速度')
@@ -4573,7 +4574,7 @@ class youli(models.Model):
 
 
 class youcai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -4631,7 +4632,7 @@ class youcai(models.Model):
 
 
 class yangcong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     lijixizh = models.CharField(max_length=30, blank=True, null=True, db_column='鳞茎形状', verbose_name='鳞茎形状')
     yelafe = models.CharField(max_length=30, blank=True, null=True, db_column='叶蜡粉', verbose_name='叶蜡粉')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -4665,7 +4666,7 @@ class yangcong(models.Model):
 
 
 class manjianghong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     dofazhxish = models.CharField(max_length=30, blank=True, null=True, db_column='冬繁殖系数', verbose_name='冬繁殖系数')
     fubish = models.CharField(max_length=30, blank=True, null=True, db_column='浮膘数', verbose_name='浮膘数')
@@ -4735,7 +4736,7 @@ class manjianghong(models.Model):
 
 
 class yancao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     qikubi = models.CharField(max_length=30, blank=True, null=True, db_column='青枯病', verbose_name='青枯病')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     shmukezh = models.CharField(max_length=30, blank=True, null=True, db_column='施木克值', verbose_name='施木克值')
@@ -4802,7 +4803,7 @@ class yancao(models.Model):
 
 
 class yanmai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     xisx = models.CharField(max_length=30, blank=True, null=True, db_column='小穗形', verbose_name='小穗形')
@@ -4882,7 +4883,7 @@ class yanmai(models.Model):
 
 
 class niubang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     rozhgexi = models.CharField(max_length=30, blank=True, null=True, db_column='肉质根形', verbose_name='肉质根形')
@@ -4937,7 +4938,7 @@ class niubang(models.Model):
 
 
 class mucao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     chsuhuyule = models.CharField(max_length=30, blank=True, null=True, db_column='抽穗或孕蕾', verbose_name='抽穗或孕蕾')
@@ -4971,7 +4972,7 @@ class mucao(models.Model):
 
 
 class ZuoYuMi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     tijixibabi = models.CharField(max_length=30, blank=True, null=True, db_column='田间小斑病', verbose_name='田间小斑病')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     xijiyepish = models.CharField(max_length=30, blank=True, null=True, db_column='雄茎叶片数', verbose_name='雄茎叶片数')
@@ -5130,7 +5131,7 @@ class ZuoYuMi(models.Model):
 
 
 class qiujingganlan(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5184,7 +5185,7 @@ class qiujingganlan(models.Model):
 
 
 class hugua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5225,7 +5226,7 @@ class hugua(models.Model):
 
 
 class ganzhe(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     qixi = models.CharField(max_length=30, blank=True, null=True, db_column='亲系', verbose_name='亲系')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     kaha = models.CharField(max_length=30, blank=True, null=True, db_column='抗旱', verbose_name='抗旱')
@@ -5254,7 +5255,7 @@ class ganzhe(models.Model):
 
 
 class ganshu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5377,7 +5378,7 @@ class ganshu(models.Model):
 
 
 class tiangua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     rozh = models.CharField(max_length=30, blank=True, null=True, db_column='肉质', verbose_name='肉质')
     zapejiji = models.CharField(max_length=30, blank=True, null=True, db_column='栽培季节', verbose_name='栽培季节')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5418,7 +5419,7 @@ class tiangua(models.Model):
 
 
 class tiancai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     lazhhobo = models.CharField(max_length=30, blank=True, null=True, db_column='蜡质厚薄', verbose_name='蜡质厚薄')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     ziyemiji = models.CharField(max_length=30, blank=True, null=True, db_column='子叶面积', verbose_name='子叶面积')
@@ -5505,7 +5506,7 @@ class tiancai(models.Model):
 
 
 class fanqie(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     rozh = models.CharField(max_length=30, blank=True, null=True, db_column='肉质', verbose_name='肉质')
     zapejiji = models.CharField(max_length=30, blank=True, null=True, db_column='栽培季节', verbose_name='栽培季节')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5544,7 +5545,7 @@ class fanqie(models.Model):
 
 
 class baicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yexi = models.CharField(max_length=30, blank=True, null=True, db_column='叶形', verbose_name='叶形')
     yese = models.CharField(max_length=30, blank=True, null=True, db_column='叶色', verbose_name='叶色')
@@ -5601,7 +5602,7 @@ class baicai(models.Model):
 
 
 class shidiaobai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zapejiji = models.CharField(max_length=30, blank=True, null=True, db_column='栽培季节', verbose_name='栽培季节')
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5628,7 +5629,7 @@ class shidiaobai(models.Model):
 
 
 class sungua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5669,7 +5670,7 @@ class sungua(models.Model):
 
 
 class zilixian(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     zhhuxuchdu = models.CharField(max_length=30, blank=True, null=True, db_column='主花序长度', verbose_name='主花序长度')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -5703,7 +5704,7 @@ class zilixian(models.Model):
 
 
 class zisu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     jise = models.CharField(max_length=30, blank=True, null=True, db_column='茎色', verbose_name='茎色')
     zapejiji = models.CharField(max_length=30, blank=True, null=True, db_column='栽培季节', verbose_name='栽培季节')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -5731,7 +5732,7 @@ class zisu(models.Model):
 
 
 class honghua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     zhzihayolv = models.CharField(max_length=30, blank=True, null=True, db_column='种子含油率', verbose_name='种子含油率')
@@ -5768,7 +5769,7 @@ class honghua(models.Model):
 
 
 class hongma(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     zhjimazh = models.CharField(max_length=30, blank=True, null=True, db_column='株精麻重', verbose_name='株精麻重')
@@ -5826,7 +5827,7 @@ class hongma(models.Model):
 
 
 class jieqiuganlan(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pizh = models.CharField(max_length=30, blank=True, null=True, db_column='品质', verbose_name='品质')
@@ -5880,7 +5881,7 @@ class jieqiuganlan(models.Model):
 
 
 class lvfei(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kachxi = models.CharField(max_length=30, blank=True, null=True, db_column='抗虫性', verbose_name='抗虫性')
     lijixi = models.CharField(max_length=30, blank=True, null=True, db_column='裂荚性', verbose_name='裂荚性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -5961,7 +5962,7 @@ class lvfei(models.Model):
 
 
 class lvdou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -6060,7 +6061,7 @@ class lvdou(models.Model):
 
 
 class luole(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     shyuqi = models.CharField(max_length=30, blank=True, null=True, db_column='生育期', verbose_name='生育期')
@@ -6091,7 +6092,7 @@ class luole(models.Model):
 
 
 class hujiao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hufayohali = models.CharField(max_length=30, blank=True, null=True, db_column='挥发油含量', verbose_name='挥发油含量')
     daweguzhsh = models.CharField(max_length=30, blank=True, null=True, db_column='单位果枝数', verbose_name='单位果枝数')
     husuchdu = models.CharField(max_length=30, blank=True, null=True, db_column='花穗长度', verbose_name='花穗长度')
@@ -6139,7 +6140,7 @@ class hujiao(models.Model):
 
 
 class huluobo(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     rozhgexi = models.CharField(max_length=30, blank=True, null=True, db_column='肉质根形', verbose_name='肉质根形')
@@ -6194,7 +6195,7 @@ class huluobo(models.Model):
 
 
 class yaoguo(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kahaxipiji = models.CharField(max_length=30, blank=True, null=True, db_column='抗寒性评价', verbose_name='抗寒性评价')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     guqi = models.CharField(max_length=30, blank=True, null=True, db_column='果期', verbose_name='果期')
@@ -6249,7 +6250,7 @@ class yaoguo(models.Model):
 
 
 class jiegua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -6291,7 +6292,7 @@ class jiegua(models.Model):
 
 
 class mangguo(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     layeyase = models.CharField(max_length=30, blank=True, null=True, db_column='老叶颜色', verbose_name='老叶颜色')
     yizhbiha = models.CharField(max_length=30, blank=True, null=True, db_column='引种编号', verbose_name='引种编号')
     neyeyase = models.CharField(max_length=30, blank=True, null=True, db_column='嫩叶颜色', verbose_name='嫩叶颜色')
@@ -6397,7 +6398,7 @@ class mangguo(models.Model):
 
 
 class wujing(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nacaxi = models.CharField(max_length=30, blank=True, null=True, db_column='耐藏性', verbose_name='耐藏性')
     gexi = models.CharField(max_length=30, blank=True, null=True, db_column='根形', verbose_name='根形')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -6435,7 +6436,7 @@ class wujing(models.Model):
 
 
 class wujingganlan(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     rozhgexi = models.CharField(max_length=30, blank=True, null=True, db_column='肉质根形', verbose_name='肉质根形')
@@ -6493,7 +6494,7 @@ class wujingganlan(models.Model):
 
 
 class zhima(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     jigaromali = models.CharField(max_length=30, blank=True, null=True, db_column='茎秆茸毛量', verbose_name='茎秆茸毛量')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -6538,7 +6539,7 @@ class zhima(models.Model):
 
 
 class gailan(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pizh = models.CharField(max_length=30, blank=True, null=True, db_column='品质', verbose_name='品质')
@@ -6596,7 +6597,7 @@ class gailan(models.Model):
 
 
 class yansui(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     shyuqi = models.CharField(max_length=30, blank=True, null=True, db_column='生育期', verbose_name='生育期')
@@ -6632,7 +6633,7 @@ class yansui(models.Model):
 
 
 class huayecai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     huqiheji = models.CharField(max_length=30, blank=True, null=True, db_column='花球横径', verbose_name='花球横径')
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -6685,7 +6686,7 @@ class huayecai(models.Model):
 
 
 class huasheng(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     hayoli = models.CharField(max_length=30, blank=True, null=True, db_column='含油量', verbose_name='含油量')
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -6752,7 +6753,7 @@ class huasheng(models.Model):
 
 
 class qincai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yese = models.CharField(max_length=30, blank=True, null=True, db_column='叶色', verbose_name='叶色')
@@ -6785,7 +6786,7 @@ class qincai(models.Model):
 
 
 class xiancai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     shzhzhta = models.CharField(max_length=30, blank=True, null=True, db_column='生长状态', verbose_name='生长状态')
@@ -6818,7 +6819,7 @@ class xiancai(models.Model):
 
 
 class zhuma(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nahaxi = models.CharField(max_length=30, blank=True, null=True, db_column='耐旱性', verbose_name='耐旱性')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -6880,7 +6881,7 @@ class zhuma(models.Model):
 
 
 class suzi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     zhzihayolv = models.CharField(max_length=30, blank=True, null=True, db_column='种子含油率', verbose_name='种子含油率')
     gusush = models.CharField(max_length=30, blank=True, null=True, db_column='果穗数', verbose_name='果穗数')
@@ -6915,7 +6916,7 @@ class suzi(models.Model):
 
 
 class kugua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -6956,7 +6957,7 @@ class kugua(models.Model):
 
 
 class pingguo(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='内质评价', verbose_name='内质评价')
     keroxita = models.CharField(db_column='可溶性糖％', max_length=30, blank=True, null=True, verbose_name='可溶性糖％')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -6995,7 +6996,7 @@ class pingguo(models.Model):
 
 
 class qiezi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     qishguse = models.CharField(max_length=30, blank=True, null=True, db_column='青熟果色', verbose_name='青熟果色')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     sh = models.CharField(max_length=30, blank=True, null=True, db_column='省', verbose_name='省')
@@ -7028,7 +7029,7 @@ class qiezi(models.Model):
 
 
 class jingyongwoju(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yemi = models.CharField(max_length=30, blank=True, null=True, db_column='叶面', verbose_name='叶面')
@@ -7063,7 +7064,7 @@ class jingyongwoju(models.Model):
 
 
 class jinggaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kabixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病性', verbose_name='抗病性')
     jilawe = models.CharField(max_length=30, blank=True, null=True, db_column='芥辣味', verbose_name='芥辣味')
     dizhqi = models.CharField(max_length=30, blank=True, null=True, db_column='定植期', verbose_name='定植期')
@@ -7126,7 +7127,7 @@ class jinggaicai(models.Model):
 
 
 class huixiang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     shyuqi = models.CharField(max_length=30, blank=True, null=True, db_column='生育期', verbose_name='生育期')
@@ -7157,7 +7158,7 @@ class huixiang(models.Model):
 
 
 class cha(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yesh = models.CharField(max_length=30, blank=True, null=True, db_column='叶身', verbose_name='叶身')
     hubash = models.CharField(max_length=30, blank=True, null=True, db_column='花瓣数', verbose_name='花瓣数')
     yeji = models.CharField(max_length=30, blank=True, null=True, db_column='叶尖', verbose_name='叶尖')
@@ -7265,7 +7266,7 @@ class cha(models.Model):
 
 
 class tonghao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yezh = models.CharField(max_length=30, blank=True, null=True, db_column='叶长', verbose_name='叶长')
@@ -7299,7 +7300,7 @@ class tonghao(models.Model):
 
 
 class caomei(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='内质评价', verbose_name='内质评价')
     xiwe = models.CharField(max_length=30, blank=True, null=True, db_column='香味', verbose_name='香味')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -7338,7 +7339,7 @@ class caomei(models.Model):
 
 
 class lizhi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='内质评价', verbose_name='内质评价')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     keshlv = models.CharField(db_column='可食率％', max_length=30, blank=True, null=True, verbose_name='可食率％')
@@ -7374,7 +7375,7 @@ class lizhi(models.Model):
 
 
 class qiaomai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yiliansu = models.CharField(max_length=30, blank=True, null=True, db_column='异亮氨酸', verbose_name='异亮氨酸')
     dawebiha = models.CharField(max_length=30, blank=True, null=True, db_column='单位编号', verbose_name='单位编号')
     yapilexi = models.CharField(max_length=30, blank=True, null=True, db_column='样品类型', verbose_name='样品类型')
@@ -7444,7 +7445,7 @@ class qiaomai(models.Model):
 
 
 class laidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     lajirish = models.CharField(max_length=30, blank=True, null=True, db_column='老荚日数', verbose_name='老荚日数')
     dajizh = models.CharField(max_length=30, blank=True, null=True, db_column='单荚重', verbose_name='单荚重')
@@ -7487,7 +7488,7 @@ class laidou(models.Model):
 
 
 class caigua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -7527,7 +7528,7 @@ class caigua(models.Model):
 
 
 class caitai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kabixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病性', verbose_name='抗病性')
     zhziqilizh = models.CharField(max_length=30, blank=True, null=True, db_column='种子千粒重', verbose_name='种子千粒重')
     dizhqi = models.CharField(max_length=30, blank=True, null=True, db_column='定植期', verbose_name='定植期')
@@ -7590,7 +7591,7 @@ class caitai(models.Model):
 
 
 class caidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     kuwebikazh = models.CharField(max_length=30, blank=True, null=True, db_column='枯萎病抗指', verbose_name='枯萎病抗指')
     lajirish = models.CharField(max_length=30, blank=True, null=True, db_column='老荚日数', verbose_name='老荚日数')
@@ -7638,7 +7639,7 @@ class caidou(models.Model):
 
 
 class bocai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     yezh = models.CharField(max_length=30, blank=True, null=True, db_column='叶长', verbose_name='叶长')
@@ -7668,7 +7669,7 @@ class bocai(models.Model):
 
 
 class luobo(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kabixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病性', verbose_name='抗病性')
     dawebiha = models.CharField(max_length=30, blank=True, null=True, db_column='单位编号', verbose_name='单位编号')
     yemicima = models.CharField(max_length=30, blank=True, null=True, db_column='叶面刺毛', verbose_name='叶面刺毛')
@@ -7729,7 +7730,7 @@ class luobo(models.Model):
 
 
 class luokui(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -7758,7 +7759,7 @@ class luokui(models.Model):
 
 
 class putao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='内质评价', verbose_name='内质评价')
     keroxita = models.CharField(db_column='可溶性糖％', max_length=30, blank=True, null=True, verbose_name='可溶性糖％')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -7795,7 +7796,7 @@ class putao(models.Model):
 
 
 class bima(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     chdihulayu = models.CharField(max_length=30, blank=True, null=True, db_column='产地或来源', verbose_name='产地或来源')
@@ -7834,7 +7835,7 @@ class bima(models.Model):
 
 
 class wengcai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -7865,7 +7866,7 @@ class wengcai(models.Model):
 
 
 class yiyi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     chshqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟期', verbose_name='成熟期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -7901,7 +7902,7 @@ class yiyi(models.Model):
 
 
 class taigaicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kabixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病性', verbose_name='抗病性')
     jilawe = models.CharField(max_length=30, blank=True, null=True, db_column='芥辣味', verbose_name='芥辣味')
     dizhqi = models.CharField(max_length=30, blank=True, null=True, db_column='定植期', verbose_name='定植期')
@@ -7959,7 +7960,7 @@ class taigaicai(models.Model):
 
 
 class taicai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yemi = models.CharField(max_length=30, blank=True, null=True, db_column='叶面', verbose_name='叶面')
@@ -7993,7 +7994,7 @@ class taicai(models.Model):
 
 
 class CaoLI(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kubiha = models.CharField(max_length=30, blank=True, null=True, db_column='库编号', verbose_name='库编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     yapilexi = models.CharField(max_length=30, blank=True, null=True, db_column='样品类型', verbose_name='样品类型')
@@ -8028,7 +8029,7 @@ class CaoLI(models.Model):
 
 
 class candou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     yahabipiji = models.CharField(max_length=30, blank=True, null=True, db_column='蚜害病评价', verbose_name='蚜害病评价')
     yiliansu = models.CharField(max_length=30, blank=True, null=True, db_column='异亮氨酸', verbose_name='异亮氨酸')
@@ -8130,7 +8131,7 @@ class candou(models.Model):
 
 
 class shegua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -8170,7 +8171,7 @@ class shegua(models.Model):
 
 
 class xigua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     lagubawe = models.CharField(max_length=30, blank=True, null=True, db_column='老瓜斑纹', verbose_name='老瓜斑纹')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -8210,7 +8211,7 @@ class xigua(models.Model):
 
 
 class xihulu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     lagubawe = models.CharField(max_length=30, blank=True, null=True, db_column='老瓜斑纹', verbose_name='老瓜斑纹')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -8251,7 +8252,7 @@ class xihulu(models.Model):
 
 
 class guzi(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bafabikaxi = models.CharField(max_length=30, blank=True, null=True, db_column='白发病抗性', verbose_name='白发病抗性')
     guxiyazhdu = models.CharField(max_length=30, blank=True, null=True, db_column='谷锈严重度', verbose_name='谷锈严重度')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -8395,7 +8396,7 @@ class guzi(models.Model):
 
 
 class doushu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
@@ -8422,7 +8423,7 @@ class doushu(models.Model):
 
 
 class jiangdou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yahabipiji = models.CharField(max_length=30, blank=True, null=True, db_column='蚜害病评价', verbose_name='蚜害病评价')
     yiliansu = models.CharField(max_length=30, blank=True, null=True, db_column='异亮氨酸', verbose_name='异亮氨酸')
     miansu = models.CharField(max_length=30, blank=True, null=True, db_column='酩氨酸', verbose_name='酩氨酸')
@@ -8500,7 +8501,7 @@ class jiangdou(models.Model):
 
 
 class wandou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zhlidife = models.CharField(max_length=30, blank=True, null=True, db_column='直链淀粉', verbose_name='直链淀粉')
     toyibiha = models.CharField(max_length=10, db_column='统一编号', verbose_name='统一编号')
     miansu = models.CharField(max_length=30, blank=True, null=True, db_column='酩氨酸', verbose_name='酩氨酸')
@@ -8631,7 +8632,7 @@ class wandou(models.Model):
 
 
 class yuegua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     lagubawe = models.CharField(max_length=30, blank=True, null=True, db_column='老瓜斑纹', verbose_name='老瓜斑纹')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -8671,7 +8672,7 @@ class yuegua(models.Model):
 
 
 class lajiao(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     tajubizh = models.CharField(max_length=30, blank=True, null=True, db_column='炭疽病指', verbose_name='炭疽病指')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -8716,7 +8717,7 @@ class lajiao(models.Model):
 
 
 class suanjiang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -8750,7 +8751,7 @@ class suanjiang(models.Model):
 
 
 class jinhuacai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     yeyu = models.CharField(max_length=30, blank=True, null=True, db_column='叶缘', verbose_name='叶缘')
@@ -8779,7 +8780,7 @@ class jinhuacai(models.Model):
 
 
 class zhangjiangdou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     lajirish = models.CharField(max_length=30, blank=True, null=True, db_column='老荚日数', verbose_name='老荚日数')
     dajizh = models.CharField(max_length=30, blank=True, null=True, db_column='单荚重', verbose_name='单荚重')
@@ -8821,7 +8822,7 @@ class zhangjiangdou(models.Model):
 
 
 class qingma(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     sh = models.CharField(max_length=30, blank=True, null=True, db_column='省', verbose_name='省')
     shmi = models.CharField(max_length=30, blank=True, null=True, db_column='属名', verbose_name='属名')
     pizhlayu = models.CharField(max_length=30, blank=True, null=True, db_column='品种来源', verbose_name='品种来源')
@@ -8850,7 +8851,7 @@ class qingma(models.Model):
 
 
 class jiucai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     yelafe = models.CharField(max_length=30, blank=True, null=True, db_column='叶蜡粉', verbose_name='叶蜡粉')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -8886,7 +8887,7 @@ class jiucai(models.Model):
 
 
 class jiucong(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     yelafe = models.CharField(max_length=30, blank=True, null=True, db_column='叶蜡粉', verbose_name='叶蜡粉')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -8924,7 +8925,7 @@ class jiucong(models.Model):
 
 
 class fandou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -8988,7 +8989,7 @@ class fandou(models.Model):
 
 
 class JiaoXiang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     nezhpiji = models.CharField(max_length=30, blank=True, null=True, db_column='内质评价', verbose_name='内质评价')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     gushsh = models.CharField(max_length=30, blank=True, null=True, db_column='果梳数', verbose_name='果梳数')
@@ -9027,7 +9028,7 @@ class JiaoXiang(models.Model):
 
 
 class malingshu(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     tirajish = models.CharField(max_length=30, blank=True, null=True, db_column='天然结实', verbose_name='天然结实')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -9067,7 +9068,7 @@ class malingshu(models.Model):
 
 
 class gaoliang(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     sx = models.CharField(max_length=30, blank=True, null=True, db_column='穗形', verbose_name='穗形')
     zhlidife = models.CharField(max_length=30, blank=True, null=True, db_column='直链淀粉', verbose_name='直链淀粉')
     yuchdi = models.CharField(max_length=30, blank=True, null=True, db_column='原产地', verbose_name='原产地')
@@ -9206,7 +9207,7 @@ class gaoliang(models.Model):
 
 
 class yingzuidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     daansu = models.CharField(max_length=30, blank=True, null=True, db_column='蛋氨酸', verbose_name='蛋氨酸')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
@@ -9322,7 +9323,7 @@ class yingzuidou(models.Model):
 
 
 class huanggua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     shxi = models.CharField(max_length=30, blank=True, null=True, db_column='熟性', verbose_name='熟性')
     bacubiha = models.CharField(max_length=30, blank=True, null=True, db_column='保存编号', verbose_name='保存编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -9371,7 +9372,7 @@ class huanggua(models.Model):
 
 
 class huanghuacai(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     bacudawe = models.CharField(max_length=30, blank=True, null=True, db_column='保存单位', verbose_name='保存单位')
     bezh = models.CharField(max_length=30, blank=True, null=True, db_column='备注', verbose_name='备注')
     kabichxi = models.CharField(max_length=30, blank=True, null=True, db_column='抗病虫性', verbose_name='抗病虫性')
@@ -9398,7 +9399,7 @@ class huanghuacai(models.Model):
 
 
 class huangma(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     lali = models.CharField(max_length=30, blank=True, null=True, db_column='拉力', verbose_name='拉力')
     zhjise = models.CharField(max_length=30, blank=True, null=True, db_column='中茎色', verbose_name='中茎色')
     heditajubi = models.CharField(max_length=30, blank=True, null=True, db_column='黑点炭疽病', verbose_name='黑点炭疽病')
@@ -9453,7 +9454,7 @@ class huangma(models.Model):
 
 
 class shuji(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     sx = models.CharField(max_length=30, blank=True, null=True, db_column='穗型', verbose_name='穗型')
     kubiha = models.CharField(max_length=30, blank=True, null=True, db_column='库编号', verbose_name='库编号')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -9498,7 +9499,7 @@ class shuji(models.Model):
 
 
 class lidou(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     dajilish = models.CharField(max_length=30, blank=True, null=True, db_column='单荚粒数', verbose_name='单荚粒数')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
     xumi = models.CharField(max_length=60, blank=True, null=True, db_column='学名', verbose_name='学名')
@@ -9537,7 +9538,7 @@ class lidou(models.Model):
 
 
 class heizinangua(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     kanixi = models.CharField(max_length=30, blank=True, null=True, db_column='抗逆性', verbose_name='抗逆性')
     lagubawe = models.CharField(max_length=30, blank=True, null=True, db_column='老瓜斑纹', verbose_name='老瓜斑纹')
     pzname = models.CharField(max_length=30, blank=True, null=True, db_column='品种名称', verbose_name='品种名称')
@@ -9577,7 +9578,7 @@ class heizinangua(models.Model):
 
 
 class longyan(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zhhuta = models.CharField(max_length=30, blank=True, null=True, db_column='转化糖', verbose_name='转化糖')
     chshriqi = models.CharField(max_length=30, blank=True, null=True, db_column='成熟日期', verbose_name='成熟日期')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
@@ -9613,7 +9614,7 @@ class longyan(models.Model):
 
 
 class longshelanma(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
     zhmigadu = models.CharField(max_length=30, blank=True, null=True, db_column='种苗高度', verbose_name='种苗高度')
     kemi = models.CharField(max_length=30, blank=True, null=True, db_column='科名', verbose_name='科名')
     nijuwe = models.CharField(max_length=30, blank=True, null=True, db_column='年均温', verbose_name='年均温')
@@ -10136,9 +10137,24 @@ class AgriTechContent(models.Model):
         verbose_name_plural = verbose_name
 
 
-class GjnydbDes(models.Model):
+class FieldContent(models.Model):
+    title = models.CharField(max_length=30, db_column='数据集名称', verbose_name='数据集名称', blank=True, null=True)
+    index = models.IntegerField(db_column='顺序', verbose_name='顺序', blank=True, null=True)
+    content = models.CharField(max_length=30, db_column='目录', verbose_name='目录', blank=True, null=True)
+    fieldtype = models.CharField(max_length=20, db_column='字段类型', verbose_name='字段类型', blank=True, null=True)
+    fieldlength = models.CharField(max_length=10, db_column='字段长度', verbose_name='字段长度', blank=True, null=True)
+    display = models.IntegerField(default=0, db_column='是否显示', verbose_name='是否显示', blank=True, null=True)
+    english = models.CharField(max_length=20, db_column='字段', verbose_name='字段', blank=True, null=True)
 
-    title = models.CharField(primary_key=True, max_length=60, db_column='数据集名称', verbose_name='数据集名称')
+    class Meta:
+        db_table = '字段数据目录'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name
+
+
+class GjnydbDes(models.Model):
+    id = models.IntegerField(auto_created=True, primary_key=True, default=0)
+    title = models.CharField(max_length=60, db_column='数据集名称', verbose_name='数据集名称', blank=True, null=True)
     category = models.CharField(max_length=10, db_column='类别', verbose_name='类别', blank=True, null=True)
     index = models.IntegerField(db_column='显示顺序', verbose_name='显示顺序', default=0, blank=True, null=True)
     click_num = models.IntegerField(default=0, verbose_name="点击数", db_column='点击数', blank=True, null=True)
@@ -10152,3 +10168,5 @@ class GjnydbDes(models.Model):
         db_table = '国家农业数据集概述'
         verbose_name = db_table
         verbose_name_plural = verbose_name
+
+

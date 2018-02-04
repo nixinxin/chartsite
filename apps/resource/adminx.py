@@ -136,35 +136,35 @@ xadmin.site.register(ZgyclschcDb, ZgyclschcDbAdmin)
 
 
 # 中国外来入侵微生物数据库
-class ZgwlrqwswDbAdmin(object):
+class WlyhwswDbAdmin(object):
     list_display = ["zhname", 'source', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'ke', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'xuename']
     list_filter = ['mu', ]
     ordering = ['id']
 
 
-xadmin.site.register(ZgwlrqwswDb, ZgwlrqwswDbAdmin)
+xadmin.site.register(WlyhwswDb, WlyhwswDbAdmin)
 
 
 # 中国外来入侵昆虫数据库
-class ZgwlrqkcDbAdmin(object):
+class WlyhkcDbAdmin(object):
     list_display = ["zhname", 'source', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'ke', 'mu', 'ke', 'major_hazard', 'hazard_feature', 'xuename']
     list_filter = ['mu', ]
     ordering = ['id']
 
 
-xadmin.site.register(ZgwlrqkcDb, ZgwlrqkcDbAdmin)
+xadmin.site.register(WlyhkcDb, WlyhkcDbAdmin)
 
 
 # 中国外来入侵植物数据库
-class ZgwlrqzwDbAdmin(object):
+class WlyhzwDbAdmin(object):
     list_display = ["zhname", 'source', 'men', 'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'source', 'men', 'ke', 'mu', 'ke', 'hazard_feature', 'xuename']
     ordering = ['id']
 
 
-xadmin.site.register(ZgwlrqzwDb, ZgwlrqzwDbAdmin)
+xadmin.site.register(WlyhzwDb, WlyhzwDbAdmin)
 
 
 # 中国旱地杂草数据库

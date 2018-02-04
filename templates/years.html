@@ -46,7 +46,7 @@
 
         <div class="s_year clearfix">
                     {% for year in yearlist %}
-                        <a href="?type=years&selectid={{ year.year }}" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
+                        <a href="?type=years&selectid={{ year.year }}" target="_blank" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
                     {%  endfor %}
         </div>
 

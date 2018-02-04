@@ -1846,7 +1846,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='GjnydbDes',
             fields=[
-                ('title', models.CharField(db_column='数据集名称', max_length=60, primary_key=True, serialize=False, verbose_name='数据集名称')),
+                ('id', models.IntegerField(auto_created=True, default=0, primary_key=True, serialize=False)),
+                ('title', models.CharField(blank=True, db_column='数据集名称', max_length=60, null=True, verbose_name='数据集名称')),
                 ('category', models.CharField(blank=True, db_column='类别', max_length=10, null=True, verbose_name='类别')),
                 ('index', models.IntegerField(blank=True, db_column='显示顺序', default=0, null=True, verbose_name='显示顺序')),
                 ('click_num', models.IntegerField(blank=True, db_column='点击数', default=0, null=True, verbose_name='点击数')),
@@ -9239,7 +9240,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='ZgwlrqkcDb',
+            name='WlyhkcDb',
             fields=[
                 ('id', models.IntegerField(primary_key=True, serialize=False)),
                 ('rqsjddd', models.TextField(blank=True, db_column='入侵时间及地点', null=True, verbose_name='入侵时间及地点')),
@@ -9271,7 +9272,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='ZgwlrqwswDb',
+            name='WlyhwswDb',
             fields=[
                 ('id', models.IntegerField(primary_key=True, serialize=False)),
                 ('control_way', models.TextField(blank=True, db_column='防治方法', null=True, verbose_name='防治方法')),
@@ -9303,7 +9304,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='ZgwlrqzwDb',
+            name='WlyhzwDb',
             fields=[
                 ('id', models.IntegerField(db_column='编号', primary_key=True, serialize=False, verbose_name='编号')),
                 ('ruqintl', models.TextField(blank=True, db_column='入侵时间及地点', null=True, verbose_name='入侵时间及地点')),
