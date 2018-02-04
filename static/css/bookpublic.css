@@ -515,10 +515,10 @@ button {
 #book .nav .header,
 #book .nav,
 #book .nav .footer {
-  min-width: 1200px;
+  min-width: 1150px;
 }
 .w {
-  width: 1200px;
+  width: 1150px;
   margin: 0 auto;
   position:relative;
 }

@@ -22,7 +22,7 @@
                 <!------目录 start---->
                 <ul>
                     {% for i in content %}
-                        <li><a href="?type=years&year={{ yearsinfo.year }}&shunxu={{ forloop.counter }}">{{ i.content }}</a></li>
+                        <li><a href="?type=years&year={{ yearsinfo.year }}&shunxu={{ forloop.counter }}" title="{{ i.content }}">{{ i.content }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -46,7 +46,7 @@
 
         <div class="s_year clearfix">
                     {% for year in yearlist %}
-                        <a href="?type=years&selectid={{ year.year }}" target="_blank" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
+                        <a href="?type=years&select={{ year.year }}" class="{% ifequal year.year yearsinfo.year %}current{% endifequal %}">{{ year.year }}年</a>
                     {%  endfor %}
         </div>
 
@@ -89,7 +89,7 @@
             </tr>
             {% for item in items.object_list %}
             <tr style="font-size: 12px">
-                <td>{% if item.title not in item.category %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}&nbsp;&nbsp;<a class="model_a" href="/media/{{ item.pdf }}" data-filename="{{ item.identify }}.pdf" style="cursor: pointer">{{ item.title }}</a></td>
+                <td>{% if item.title not in item.category %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}&nbsp;&nbsp;<a class="model_a" title="点击可查看pdf文档" href="/media/{{ item.pdf }}" data-filename="{{ item.identify }}.pdf" style="cursor: pointer">{{ item.title }}</a></td>
                 <td class="s_tab_page">{{ item.page }}</td>
                 <td>
                     {% if item.caj %}
