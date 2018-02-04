@@ -119,4 +119,6 @@ input {outline:none; display:inline-block;}
 /*-----footer style-----*/
 .Footer{ width:100%; padding-top:10px; padding-bottom:10px; background:#373737;}
 .Footer p{ display:inline-block; width:100%; line-height:28px; color:#fff; text-align:center;}
-.Footer p a{ padding-left:10px; padding-right:10px;color:#fff;} 
+.Footer p a{ padding-left:10px; padding-right:10px;color:#fff;}
+
+

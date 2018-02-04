@@ -948,7 +948,7 @@ class ResourceView(View):
             items = Paginator(items, 20, request=request)
 
             items = items.page(page)
-            return render_to_response('techdb.html', {
+            return render_to_response('tech.html', {
                 "display_fields": display_fields,
                 "items": items,
                 "items_num": items_num,
