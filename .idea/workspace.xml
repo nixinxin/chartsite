@@ -413,13 +413,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511163997774</updated>
     </task>
-    <task id="LOCAL-00028" summary="登录逻辑">
-      <created>1514202417811</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1514202417811</updated>
-    </task>
     <task id="LOCAL-00029" summary="登录逻辑">
       <created>1514255717372</created>
       <option name="number" value="00029" />
@@ -756,7 +749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517736995936</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="有害生物数据一二级页面数据映射">
+      <created>1517737029502</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1517737029502</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView">
