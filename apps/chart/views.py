@@ -1,18 +1,17 @@
 # from django.shortcuts import render
 from django.shortcuts import render_to_response
 from django.views import View
+
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import mixins
 from rest_framework import filters
 from rest_framework import viewsets
-
-from django_filters.rest_framework import DjangoFilterBackend
-from .models import Chart, ChartCategory, Banner, HotSearch
-
-from .serializers import ChartSerializer, CategorySerializer, BannerSerializer, HotWordsSerializer
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
-from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
+from pure_pagination import Paginator, PageNotAnInteger
+from django_filters.rest_framework import DjangoFilterBackend
 
+from .models import Chart, ChartCategory, Banner, HotSearch
+from .serializers import ChartSerializer, CategorySerializer, BannerSerializer, HotWordsSerializer
 from chartsite.settings import VISUAL_CONTENT_NUM
 
 # Create your views here.
@@ -83,9 +82,44 @@ class VisualView(View):
         chart = Chart.objects.all()
         chart_page = Paginator(chart, content_num, request=request)
         result = chart_page.page(page)
-
         return render_to_response("visual.html",
                                   context={
-                                      'chart': result
+                                      'chart': result,
                                   }
                                   )
+
+
+import math
+
+from django.http import HttpResponse
+from django.template import loader
+from pyecharts import Line3D
+
+
+def index(request):
+    template = loader.get_template('echarts.html')
+    l3d = line3d()
+    context = dict(
+        myechart=l3d.render_embed(),
+        host="127.0.0.1",
+        script_list=l3d.get_js_dependencies()
+    )
+    return HttpResponse(template.render(context, request))
+
+
+def line3d():
+    _data = []
+    for t in range(0, 25000):
+        _t = t / 1000
+        x = (1 + 0.25 * math.cos(75 * _t)) * math.cos(_t)
+        y = (1 + 0.25 * math.cos(75 * _t)) * math.sin(_t)
+        z = _t + 2.0 * math.sin(75 * _t)
+        _data.append([x, y, z])
+    range_color = [
+        '#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf',
+        '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+    line3d = Line3D("3D line plot demo", width=1200, height=600)
+    line3d.add("", _data, is_visualmap=True,
+               visual_range_color=range_color, visual_range=[0, 30],
+               is_grid3D_rotate=True, grid3D_rotate_speed=180)
+    return line3d

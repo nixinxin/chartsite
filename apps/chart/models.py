@@ -43,6 +43,7 @@ class Chart(models.Model):
     chart_sn = models.CharField(max_length=50, default="", verbose_name="图表编号", db_column="图表编号")
     name = models.CharField(max_length=100, verbose_name="图表名", db_column="图表名")
     link = models.CharField(max_length=100, verbose_name="链接", db_column="链接", default='img/2017092711174396.jpg')
+    jsfile = models.FileField(upload_to='chart/js', verbose_name="js文件", db_column="js文件", null=True, blank=True)
     click_nums = models.IntegerField(default=0, verbose_name="点击数", db_column="点击数")
     fav_nums = models.IntegerField(default=0, verbose_name="收藏数", db_column="收藏数")
     brief = models.TextField(max_length=500, verbose_name="简述", db_column="简述")
@@ -63,7 +64,7 @@ class Chart(models.Model):
         return str(self.click_nums)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class ChartImage(models.Model):

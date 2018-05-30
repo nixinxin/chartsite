@@ -1,8 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-from django.db.models import Q
-
-__author__ = "xin nix"
 from rest_framework import serializers
 from .models import Chart, ChartCategory, ChartImage, Banner, HotSearch
 
