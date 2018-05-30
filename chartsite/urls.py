@@ -16,16 +16,20 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
 from django.views.static import serve
+from django_downloadview import ObjectDownloadView
 from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 from rest_framework_jwt.views import obtain_jwt_token
 import xadmin
 from chart.views import BannerViewset, VisualView
+from chartsite.settings import MEDIA_ROOT, STATIC_ROOT
 from operation.views import UserFavViewset, FeedBackViewset
 from users.views import *
-from apps.resource.views import *
+from resource.views import *
 
+
+# rest API接口配置， 本系统只使用了与用户相关的接口，数据资源接口暂未使用
 router = DefaultRouter()
 
 # 配置手机验证码url
@@ -54,9 +58,6 @@ router.register(r'personal', PersonalViewset, base_name='personal')
 
 # 验证图片验证码
 router.register(r'verify', ImageCodeVerifyViewset, base_name='verify')
-
-
-
 
 # 数据资源列表
 router.register(r'resourceList', ResourceListViewSet, base_name='resourceList')
@@ -190,7 +191,6 @@ router.register(r'YouYuMi', YouYuMiViewSet, base_name='YouYuMi')
 # 优异资源综合评价数据库列表
 router.register(r'ZwyczytxpjjdDbList', ZwyczytxpjjdDbListViewSet, base_name='ZwyczytxpjjdDbList')
 
-
 # 国际农业科研项目数据库
 router.register(r'GjnykyhzxmDb', GjnykyhzxmDbViewSet, base_name='GjnykyhzxmDb')
 
@@ -230,14 +230,17 @@ router.register(r'XqfzffDb', XqfzffDbViewSet, base_name='XqfzffDb')
 # 统计年鉴下载接口
 router.register(r'bookdown', YearsDownViewSet, base_name='bookdown')
 
+# 上述为rest API接口配置， 本系统只使用了与用户相关的接口，数据资源接口并未使用
+
+# 数据集下载接口配置
+CsvTextView = ObjectDownloadView.as_view(model=CsvHtmls, file_field='file')
 
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
 
-    # url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),
+    url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),
 
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
-
 
     # 富文本相关url
     url(r'^ueditor/', include('DjangoUeditor.urls')),
@@ -245,14 +248,12 @@ urlpatterns = [
     #  数据列表页
     url(r'^', include(router.urls)),
 
-
     # 登陆url
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 
-    # 首页
-    url(r'^index/', TemplateView.as_view(template_name="index.html"), name="index"),
 
-    # 不要加$符号
+
+    # 不要加$符号，drf文档生成
     url(r'docs/', include_docs_urls(title='chartsite')),
 
     # token机制.drf 自带认证模式
@@ -264,32 +265,30 @@ urlpatterns = [
     # 第三方登陆
     url('', include('social_django.urls', namespace='social')),
 
-    url('^logout/$', LogoutView.as_view(), name="logout"),
-
-
     # 用户登录注册页面
-    url('^user/register/$', RegisterView.as_view(), name="register"),
-    url('^user/login/$', LoginView.as_view(), name="login"),
-    url('^user/forget/$', ForgetView.as_view(), name="forget"),
-    url(r'^personal/$', PersonalViewset.as_view(), name='personal'),
-    url(r'^account/$', AccountView.as_view(), name='account'),
-    url(r'^share/$', ShareView.as_view(), name='share'),
-    url(r'^service/$', ServiceView.as_view(), name='service'),
-    url(r'^invite/$', InviteView.as_view(), name='invite'),
+    url('^user/', include('users.urls', namespace='user')),
+    # 首页
+    url(r'^index/', TemplateView.as_view(template_name="index.html"), name="index"),
     url(r'^resource/$', ResourceView.as_view(), name='resource'),
     url(r'^visual/$', VisualView.as_view(), name='visual'),
+    url(r'^price/$', PriceView.as_view(), name='price'),
+    url(r'^share/$', ShareView.as_view(), name='share'),
+    url(r'^service/$', ServiceView.as_view(), name='service'),
     url(r'^chart/$', ChartView.as_view(), name='chart'),
     url(r'^csvhtml/$', CsvHtmlView.as_view(), name='csvhtml'),
 
+    # 数据集下载接口
+    url(r'^text/(?P<slug>.*)/$', CsvTextView, name='text'),
+    url(r'^heritage/$', HeritageView.as_view(), name='heritage'),
+
+    # 图片验证码
     url(r'^captcha/', include('captcha.urls')),
-    url(r'^favicon.ico$', FaviconView.as_view(), name='ico'),
-    url(r'^test/$', TemplateViews.as_view(), name='test'),
+
+    # 暂未使用
     url(r'^books/$', BookViews.as_view(), name='books'),
-
-
 ]
-
 
 # 全局404页面配置
 handler404 = 'users.views.page_not_found'
 handler500 = 'users.views.page_error'
+

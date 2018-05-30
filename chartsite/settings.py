@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))
 SECRET_KEY = '3=j8cp5+a=ni!^3vpx1%n9v!#31&4hm1kyj^f&-$cnhfm+5)^a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 APPEND_SLASH = True
 
@@ -170,11 +170,11 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = "/media/"
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static"),
+# )
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
@@ -249,16 +249,15 @@ REST_FRAMEWORK_EXTENSIONS = {
 }
 
 # 缓存
-CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://localhost:6379",
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
-        }
-    }
-}
-
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://localhost:6379",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     }
+# }
 
 
 # 应许跨域
@@ -274,10 +273,11 @@ EMAIL_HOST_PASSWORD = "1993930ni"
 EMAIL_USE_TLS = False
 EMAIL_FROM = "agristatics@sina.com"
 
-HOST = 'http://agridata.iask.in'
+HOST = 'http://127.0.0.1:8000'
 
 # 验证码
 CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
+
 
 # html渲染分页
 PAGINATION_SETTINGS = {
