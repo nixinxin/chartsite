@@ -43,7 +43,7 @@
                 <li><a href="{% url  'index' %}">网站首页</a></li>
                 <li><a href="{% url  'resource' %}">数据资源<i class="gif-hot"></i></a> </li>
                 <li><a href="{% url  'visual' %}">可视分析</a></li>
-                <li><a href="{% url  'chart' %}">价格监测</a></li>
+                <li><a href="https://public.tableau.com/profile/.1698#!/vizhome/_19720/sheet3">价格监测</a></li>
                 <li><a href="{% url  'index' %}">新闻动态</a></li>
                 <li><a href="{% url  'service' %}">服务支持</a></li>
                 <li>
@@ -53,7 +53,7 @@
             </li>
             </ul>
             <ul class="nav navbar-nav navbar-right" id="user">
-                <li id="userInfo" class="dropdown"><a href="/personal" class="dropdown-toggle"></a></li>
+                <li id="userInfo" class="dropdown"><a href="{% url 'user:personal' %}" class="dropdown-toggle"></a></li>
             </ul>
         </nav>
       </div>
@@ -70,10 +70,10 @@
     <div class="website col-xs-12 col-sm-7 col-md-4 col-lg-4 col-md-offset-1">
       <h5><img class="img-responsive" src="{% static 'img/chartsite.png' %}" alt=""></h5>
       <p style="text-indent: 2em;">
-        农业统计数据可视化平台是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+        农业统计数据是一个数据共享平台,在这里能获取到网站收集的农业统计数据资源。
       </p>
       <ul class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1512287116041">
-        <li><a data-cmd="qzone" class="weixin" title="微信" href="#"></a></li>
+{#        <li><a data-cmd="qzone" class="weixin" title="微信" href="/#"></a></li>#}
         <li><a data-cmd="qzone" class="kongjian" title="QQ空间" href="/#"></a></li>
         <li><a data-cmd="tsina" class="xinlang" title="新浪微博" href="/#"></a></li>
         <li><a data-cmd="tqq" class="tengxun" title="腾讯微博" href="/#"></a></li>
@@ -83,7 +83,6 @@
       <h5>相关链接</h5>
       <ul>
 
-        <li><a href="http://data.cnki.net/" target="_blank">中国经济社会大数据研究平台</a></li>
         <li><a href="http://www.agridata.cn/" target="_blank">农业科学数据共享中心</a></li>
         <li><a href="http://stb.agridata.cn/" target="_blank">农业科技基础数据分中心</a></li>
         <li><a href="http://www.cdad-is.org.cn/" target="_blank">家养动物种质资源平台</a></li>
