@@ -20,7 +20,7 @@
                     <div class="col-md-5 col-xs-9"><!--jACKY 2016-3-29-->
                         <div class="right-user">
                             <div class="clearfix">
-                                <h2 style="float: left; margin-top:0;">1025464043@qq.com</h2>
+                                <h2 style="float: left; margin-top:0;">{{ request.user }}</h2>
 
                             </div>
                             <div style="padding-top:10px;" class="clearfix">
@@ -163,92 +163,15 @@
                                 <tr><th>图表排行</th><th>标题</th><th>浏览量</th></tr>
                             </thead>
                             <tbody>
-
-                            <tr class="">
+                            {% for view in listView %}
+                                <tr class="{% if view.id  == 1 %}info{% endif %}">
                                 <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">1</span>
+                                    <span style="background-color:#108a93;" class="badge">{{ view.id }}</span>
                                 </td>
-                                <td><a title="ciga" href="/personal/5451742d77f325772e1ba7fa">ciga</a></td>
-                                <td class="text-center">2834</td>
+                                <td><a title="{{ view.name }}" href="{% url 'chart'%}?id={{ view.id }}">{{ view.name }}</a></td>
+                                <td class="text-center">{{ view.click_nums }}</td>
                             </tr>
-
-                            <tr class="info">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">2</span>
-                                </td>
-                                <td><a title="1249837384@qq.com" href="/personal/54f548d846ae5b786b519f32">1249837384@qq.com</a></td>
-                                <td class="text-center">2639</td>
-                            </tr>
-
-                            <tr class="">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">3</span>
-                                </td>
-                                <td><a title="jimi" href="/personal/53d701389ca1b83c09b1eb3c">jimi</a></td>
-                                <td class="text-center">2233</td>
-                            </tr>
-
-                            <tr class="info">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">4</span>
-                                </td>
-                                <td><a title="916035003@qq.com" href="/personal/574ef12d3e9cacf011406e47">916035003@qq.com</a></td>
-                                <td class="text-center">2214</td>
-                            </tr>
-
-                            <tr class="">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">5</span>
-                                </td>
-                                <td><a title="学霸" href="/personal/56249701f241d7a94ee9f35f">学霸</a></td>
-                                <td class="text-center">1712</td>
-                            </tr>
-
-                            <tr class="info">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">6</span>
-                                </td>
-                                <td><a title="NoBug" href="/personal/55f7b6a3f241d7a94ee9e787">NoBug</a></td>
-                                <td class="text-center">1596</td>
-                            </tr>
-
-                            <tr class="">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">7</span>
-                                </td>
-                                <td><a title="duke" href="/personal/572c618b8fed0b2e30124090">duke</a></td>
-                                <td class="text-center">1561</td>
-                            </tr>
-
-                            <tr class="info">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">8</span>
-                                </td>
-                                <td><a title="学无止境0913" href="/personal/570c6d1b93d828b463607b86">学无止境0913</a></td>
-                                <td class="text-center">1469</td>
-                            </tr>
-
-                            <tr class="">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">9</span>
-                                </td>
-                                <td><a title="茶林" href="/personal/563064cbf241d7a94ee9f73c">茶林</a></td>
-                                <td class="text-center">1448</td>
-                            </tr>
-
-                            <tr class="info">
-                                <td class="text-center">
-                                    <span style="background-color:#108a93;" class="badge">10</span>
-                                </td>
-                                <td><a title="240050497@qq.com" href="/personal/565533c1813d93054d0e2770">240050497@qq.com</a></td>
-                                <td class="text-center">1393</td>
-                            </tr>
-
-                            <tr class="">
-                                <td colspan="3" class="text-center">
-                                    <a href="/ranking">更多 Top 100 &gt;&gt;</a>
-                                </td>
-                            </tr>
+                            {% endfor %}
                             </tbody>
                         </table>
                     </div>

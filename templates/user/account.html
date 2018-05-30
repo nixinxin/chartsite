@@ -14,11 +14,11 @@
                 <div class="tabbable" id="tabs">
                     <h2>账号设置</h2>
                     <ul class="nav nav-tabs">
-                        <li class="">
-                            <a href="/account#tabPanel-1" data-toggle="tab" aria-expanded="false">个人信息</a>
-                        </li>
                         <li class="active">
-                            <a href="/account#tabPanel-2" data-toggle="tab" aria-expanded="true">修改密码</a>
+                            <a href="/user/account#tabPanel-1" data-toggle="tab" aria-expanded="true">个人信息</a>
+                        </li>
+                        <li class="">
+                            <a href="/user/account#tabPanel-2" data-toggle="tab" aria-expanded="false">修改密码</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -63,16 +63,8 @@
                                             <input type="hidden" name="work" id="jobHid" value="">
                                             <select class="form-control" name="work" hidefocus="true" id="job">
                                                 <option value="" selected="selected">请选择职位</option>
-                                                <option value="Web前端工程师">Web前端工程师</option>
-                                                <option value="PHP开发工程师">PHP开发工程师</option>
-                                                <option value="JAVA开发工程师">JAVA开发工程师</option>
-                                                <option value="移动开发工程师">移动开发工程师</option>
-                                                <option value=".Net开发工程师">.Net开发工程师</option>
-                                                <option value="软件测试工程师">软件测试工程师</option>
-                                                <option value="Linux系统工程师">Linux系统工程师</option>
-                                                <option value="交互设计师">交互设计师</option>
-                                                <option value="产品经理">产品经理</option>
-                                                <option value="UI设计师">UI设计师</option>
+                                                <option value="教师">交互设计师</option>
+                                                <option value="研究员">产品经理</option>
                                                 <option value="学生">学生</option>
                                                 <option value="其它">其它</option>
                                             </select>
@@ -153,8 +145,10 @@
 
 {% block foot %}
     <script src="{% static 'js/jquery.validate.js' %}"></script>
-    <script src="{% static 'js/messages_zh.js' %}"></script>
+        <script src="{% static 'js/messages_zh.js' %}"></script>
+
     <script src="{% static 'js/account.js' %}"></script>
+
     <script src="{% static 'js/mi.min.js' %}"></script>
 {% endblock %}
 
