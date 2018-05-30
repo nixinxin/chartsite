@@ -10,7 +10,7 @@
 {% block content %}
         <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
         <div id="main" style="width: 90%;height:750px;margin-top: 70px; margin-right: auto;margin-left: auto;margin-bottom: 10px;"></div>
-        <script src="/static/chart/chart1.js"></script>
+        <script src="{% get_media_prefix %}{{ jsfile }}"></script>
 {% endblock %}
 
 {% block foot %}

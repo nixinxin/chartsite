@@ -1,20 +1,15 @@
 {% extends 'base/base.html' %}
 {% block cssjs %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/resource.min.css' %}">
 
     <link rel="stylesheet" href="{% static 'css/home-2.css' %}">
     <link rel="stylesheet" href="{% static 'css/bookpublic.css' %}">
     <link rel="stylesheet" href="{% static 'css/bookindex.css' %}">
     <link rel="stylesheet" href="{% static 'css/nivo-slider.css' %}">
-
-
-
     <link rel="stylesheet" href="{% static 'css/share_style0_16.css' %}">
+    <link rel="stylesheet" href="{% static 'css/resource.min.css' %}">
 
 
-
-    <script src="{% static 'js/share.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/book/handlebars.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/book/public.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/share.js' %}" type="text/javascript"></script>
@@ -57,13 +52,13 @@
                             </dl>
                         </li>
                         <li class="item item2">
-                            <a href="?type=genetic">作物遗传资源数据</a><s>&gt;</s>
+                            <a href="{% url 'csvhtml' %}?category=3">作物遗传资源数据</a><s>&gt;</s>
                             <b class="icon-cur"></b>
                             <dl class="subnav clearfix">
                                 {% for item in genetic %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=genetic&select={{ item.id }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="{% url 'share' %}?category=3">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
 
@@ -88,12 +83,12 @@
                             </dl>
                         </li>
                         <li class="item item4">
-                            <a href="?type=crop">作物品种品质数据</a><s>&gt;</s><b class="icon-cur"></b>
-                            <dl class="subnav clearfix">
+                            <a href="{% url 'share' %}?category=5">作物品种品质数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <dl class="subnav clearfix" style="margin-top: -4px;">
                                 {% for item in crop %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=crop&select={{ item.index }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="{% url 'share' %}?category=5">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
                                 </dt>
@@ -103,12 +98,12 @@
                             </dl>
                         </li>
                         <li class="item item5">
-                            <a href="?type=product">农产品资源数据</a><s>&gt;</s><b class="icon-cur"></b>
+                            <a href="{% url 'share' %}?category=6">农产品资源数据</a><s>&gt;</s><b class="icon-cur"></b>
                             <dl class="subnav clearfix">
                                  {% for item in product %}
                                     <dt>
                                         <span class="icon-pic fl"></span>
-                                        <a class="itemTxt fl" target="_blank" href="?type=product&select={{ item.index }}">{{ item.title }}</a>
+                                        <a class="itemTxt fl" target="_blank" href="{% url 'share' %}?category=6">{{ item.title }}</a>
                                     </dt>
                                 {% endfor %}
                                 <dd class="more">
@@ -120,20 +115,17 @@
                     <div class="bannerbox fl ">
                         <!-- bannerbox start -->
                         <div id="J_nivoSlider" class="nivoSlider">
-                            <a class="nivo-imageLink" href="/Yearbook/index" target="_blank"><img src="/static/img/book/banner-01.jpg" alt=""></a>
-                            <a class="nivo-imageLink" href="/YearData/Analysis" target="_blank"><img src="/static/img/book/banner-02.jpg" alt=""></a>
-                                <a class="nivo-imageLink" href="http://tongji.cnki.net/datamap/index.html?a=RegionVersion&amp;z=D04" target="_blank"><img src="/static/img/book/banner-03.jpg" alt=""></a>
-                            <a class="nivo-imageLink" href="/datapublish/month" target="_blank"><img src="/static/img/book/banner-04.jpg" alt=""></a>
-                            <a class="nivo-imageLink" href="/Decision/Methods/ExponentialSmoothingPredict?type=year&amp;id=" target="_blank"><img src="/static/img/book/banner-05.jpg" alt=""></a>
+                            <a class="nivo-imageLink" href="{% url 'resource'  %}?type=years" target="_blank"><img src="/static/img/book/banner-01.jpg" alt=""></a>
+                            <a class="nivo-imageLink" href="{% url 'chart'  %}?id=1" target="_blank"><img src="/static/img/book/banner-04.jpg" alt=""></a>
                         </div>
                     </div><!-- bannerbox end -->
                     <ul class="linklist fl">
                         <li class="item0 mr9"><b></b><a href="?type=years" >统计年鉴</a></li>
                         <li class="item1"><b></b><a href="?type=agritech&id=A030201" >科技文献</a></li>
-                        <li class="item2 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=D" >文化遗产</a></li>
-                        <li class="item3"><b></b><a href="/Yearbook/Navi?type=type&amp;code=C" >特色产品</a></li>
-                        <li class="item4 mr9"><b></b><a href="/Yearbook/Navi?type=type&amp;code=B" >统计指标</a></li>
-                        <li class="item5"><b></b><a href="/Yearbook/Navi?type=type&amp;code=F" >价格行情</a></li>
+                        <li class="item2 mr9"><b></b><a href="http://www.moa.gov.cn/ztzl/zywhycsl/" >文化遗产</a></li>
+                        <li class="item3"><b></b><a href="{% url 'share' %}?category=6" >特色产品</a></li>
+                        <li class="item4 mr9"><b></b><a href="https://public.tableau.com/profile/.1698#!/vizhome/twb_0/sheet1" >统计指标</a></li>
+                        <li class="item5"><b></b><a href="http://nc.mofcom.gov.cn/channel/jghq2017/price_list.shtml" >价格行情</a></li>
                     </ul>
                 </div>
         </div>
@@ -157,8 +149,8 @@
                                     <a href="?type=years"><img alt="农业统计年鉴数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">农业统计年鉴数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                             <li class="pi-list-item">
@@ -166,46 +158,46 @@
                                      <a href="?type=pest"><img alt="农业有害生物数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">农业有害生物数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                             <li class="pi-list-item">
                                 <div class="pi-list-box">
-                                 <a href="?type=agritech"><img alt="作物遗传资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
+                                 <a href="{% url 'share' %}?category=4"><img alt="农业科技资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">农业科技资源数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                         </ul>
                         <ul class="pi-list">
                             <li class="pi-list-item">
                                 <div class="pi-list-box">
-                                    <a href=""><img alt="农业科技资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
+                                    <a href="{% url 'share' %}?category=3"><img alt="作物遗传资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-1.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">作物遗传资源数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                             <li class="pi-list-item">
                                 <div class="pi-list-box">
-                                     <a href=""><img alt="作物品种品质数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img"></a>
+                                     <a href="{% url 'share' %}?category=5"><img alt="作物品种品质数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-2.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">作物品种品质数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                             <li class="pi-list-item">
                                 <div class="pi-list-box">
-                                 <a href=""><img alt="农产品资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
+                                 <a href="{% url 'share' %}?category=6"><img alt="农产品资源数据" src="http://cdn.wemorefun.com/content/statics/images/i-pic-3.gif" class="pi-list-img"></a>
                                     <h4 class="pi-list-title">农产品资源数据</h4>
                                     <p class="pi-list-int">反映我国国情国力的基本统计指标，全面、深入展示中国经济最新发展态势。</p>
-                                    <p class="desnum-l">数据集：<span>187</span></p>
-                                    <p class="desnum-r">浏览量：<span>187</span></p>
+{#                                    <p class="desnum-l">数据集：<span>187</span></p>#}
+{#                                    <p class="desnum-r">浏览量：<span>187</span></p>#}
                                 </div>
                             </li>
                         </ul>

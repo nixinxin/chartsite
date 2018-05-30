@@ -1,0 +1,115 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/tpsx.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style_87_2.css' %}">
+    <script src="{% static 'js/webdig.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/nyb_base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nyb_index.css' %}">
+
+
+    <script type="text/javascript">
+<!--
+function setTabMenu(i){
+selectTabMenu(i);
+}
+function selectTabMenu(i){
+switch(i){
+ case 1:
+       document.getElementById("TabMenuCon1").style.display="block";
+       document.getElementById("TabMenuCon2").style.display="none";
+       document.getElementById("TabMenuCon3").style.display="none";
+   document.getElementById("TabMenuCon4").style.display="none";
+       document.getElementById("qh1").src="http://www.moa.gov.cn/images/yc_20170913011.png";
+       document.getElementById("qh2").src="http://www.moa.gov.cn/images/yc_2017091302.png";
+       document.getElementById("qh3").src="http://www.moa.gov.cn/images/yc_2017091303.png";
+   document.getElementById("qh4").src="http://www.moa.gov.cn/images/yc_2017091304.png";
+       break;
+case 2:
+       document.getElementById("TabMenuCon1").style.display="none";
+       document.getElementById("TabMenuCon2").style.display="block";
+       document.getElementById("TabMenuCon3").style.display="none";
+       document.getElementById("TabMenuCon4").style.display="none";
+       document.getElementById("qh1").src="http://www.moa.gov.cn/images/yc_2017091301.png";
+       document.getElementById("qh2").src="http://www.moa.gov.cn/images/yc_20170913022.png";
+       document.getElementById("qh3").src="http://www.moa.gov.cn/images/yc_2017091303.png";
+       document.getElementById("qh4").src="http://www.moa.gov.cn/images/yc_2017091304.png";
+       break;
+case 3:
+       document.getElementById("TabMenuCon1").style.display="none";
+       document.getElementById("TabMenuCon2").style.display="none";
+       document.getElementById("TabMenuCon3").style.display="block";
+       document.getElementById("TabMenuCon4").style.display="none";
+       document.getElementById("qh1").src="http://www.moa.gov.cn/images/yc_2017091301.png";
+       document.getElementById("qh2").src="http://www.moa.gov.cn/images/yc_2017091302.png";
+       document.getElementById("qh3").src="http://www.moa.gov.cn/images/yc_20170913033.png";
+       document.getElementById("qh4").src="http://www.moa.gov.cn/images/yc_2017091304.png";
+       break;
+case 4:
+       document.getElementById("TabMenuCon1").style.display="none";
+       document.getElementById("TabMenuCon2").style.display="none";
+       document.getElementById("TabMenuCon3").style.display="none";
+       document.getElementById("TabMenuCon4").style.display="block";
+   document.getElementById("qh1").src="http://www.moa.gov.cn/images/yc_2017091301.png";
+       document.getElementById("qh2").src="http://www.moa.gov.cn/images/yc_2017091302.png";
+       document.getElementById("qh3").src="http://www.moa.gov.cn/images/yc_2017091303.png";
+       document.getElementById("qh4").src="http://www.moa.gov.cn/images/yc_20170913044.png";
+       break;
+}
+}
+-->
+</script>
+{% endblock %}
+{% block content %}
+    <div class="wu">
+  <div style="height:1000px; " class="wunei">
+
+      <table cellspacing="0" cellpadding="0" width="100%" style="padding-top: 22px;">
+          <tbody>
+              <tr style="background-color:#eaead2;">
+                 <td onmouseover="setTabMenu(1)" width="220px" style="LINE-HEIGHT: 60px; padding-left:10px; height:60px;"><a href="?pici=1" style=" text-decoration:none; COLOR: #b20000;"><img id="qh1" src="http://www.moa.gov.cn/images/yc_2017091301.png" alt="第一批中国重要农业文化遗产"></a></td>
+                 <td onmouseover="setTabMenu(2)" width="232px" style="LINE-HEIGHT: 60px;  height:60px;"><a href="?pici=2" style=" text-decoration:none;COLOR: #b20000;"><img id="qh2" src="http://www.moa.gov.cn/images/yc_2017091302.png" alt="第二批中国重要农业文化遗产"></a></td>
+                 <td onmouseover="setTabMenu(3)" width="232px" style="LINE-HEIGHT: 60px;  height:60px;"><a href="?pici=3" style=" text-decoration:none;COLOR: #b20000;"><img id="qh3" src="http://www.moa.gov.cn/images/yc_20170913033.png" alt="第三批中国重要农业文化遗产"></a></td>
+                 <td onmouseover="setTabMenu(4)" width="232px" style="LINE-HEIGHT: 60px;padding-right:2px;height:60px;"><a href="?pici=4" style=" text-decoration:none;COLOR: #b20000;"><img id="qh4" src="http://www.moa.gov.cn/images/yc_2017091304.png" alt="第四批中国重要农业文化遗产"></a></td>
+                <td width="232px">&nbsp;</td>
+	      </tr>
+	   </tbody>
+       </table>
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10"></td>
+      </tr>
+    </tbody></table>
+
+   <div id="TabMenuCon1" style="display: none;">
+        {% for item in items %}
+            {% if forloop in cycles  %}
+            <ul style=" width:952px; padding-left:18px;">
+            {% endif %}
+                <li style=" margin-right:44px;"><a href="{{ item.link }}" target="_blank"><img src="http://www.moa.gov.cn/images/yc_2017091304.png" width="176" height="118"></a><br>
+                <span> <a href="{{ item.link }}" target="_blank">
+                {{ item.title }}
+                </a></span> </li>
+            {% if forloop in cycles  %}
+            </ul>
+            {% endif %}
+        {% endfor %}
+
+
+	</div>
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10"></td>
+      </tr>
+    </tbody></table>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+
+{% endblock %}
+

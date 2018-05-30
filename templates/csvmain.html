@@ -1,0 +1,89 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'layui/layui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bookpublic.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bookstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'css/newStyle.css' %}">
+    <link rel="stylesheet" href="{% static 'css/single.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="main w Ynavigation custom" style="margin-top: 80px">
+
+    <div id="div_single_r" class="single_r fl" style="float: none">
+        <!-----单本年鉴 右边 start --------->
+        <div id="ResultPage" class="s_page" style="font-size: 14px;">
+        <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-10" style="margin: 0 auto 0 20px">
+        <span class="layui-laypage-count" >共{{ counts }}条</span>
+        {% for page in items.pages %}
+        {% if page %}
+        {% ifequal page items.number %}
+        <span class="layui-laypage-curr" ><em class="layui-laypage-em"></em><em>{{ page }}</em></span>
+        {% else %}
+        <a href="?{{ page.querystring }}" class="page" data-page="{{ page }}" >{{ page }}</a>
+        {% endifequal %}
+        {% else %}
+        <span class="layui-laypage-spr" >…</span>
+        {% endif %}
+        {% endfor %}
+        <script>
+        $("#demo7 .layui-laypage-btn").on("click", function () {
+        location.href += "&page=" + $("#inputpage").val()
+        })
+        </script>
+        </div>
+        </div>
+        <div id="ResultList_jy" class="s_table">
+        <!----- 简约版 start------>
+        <table>
+        <tbody>
+        <tr class="s_tab">
+        <td class="s_tab_title" style="width:75%;">标题</td>
+        <td style="width:10%;">文件编号</td>
+        <td style="width:15%;">下载文件</td>
+        </tr>
+        {% for item in items.object_list %}
+        <tr style="font-size: 12px">
+        <td>&nbsp;&nbsp;<a class="model_a" title="点击可查看表格数据" href="{% url 'csvhtml' %}?title={{ item.slug }}"  style="cursor: pointer">{{ item.slug }}</a></td>
+        <td class="s_tab_page">{{ item.id }}</td>
+        <td>
+        <a target="_blank" href="{% url 'text' item.slug %}" ><img src="{% static 'img/down.png'%}" style="margin-left: 30px"></a>
+        </td>
+
+        </tr>
+        {%  endfor %}
+        </tbody></table>
+
+        </div><!----- 简约版 end------>
+        <script type="text/javascript">
+        //左侧目录与简介切换
+        function Switch(code) {
+        if (code === 'ml') {
+        $("#tit_jj").removeClass("current");
+        $("#tit_ml").addClass("current");
+
+        $("#div_jj").addClass("hide");
+        $("#div_ml").removeClass("hide");
+
+        } else {
+        $("#tit_ml").removeClass("current");
+        $("#tit_jj").addClass("current");
+
+        $("#div_ml").addClass("hide");
+        $("#div_jj").removeClass("hide");
+        }
+        }
+        </script>
+
+</div>
+</div>
+
+
+{% endblock %}
+
+{% block foot %}
+
+
+{% endblock %}
+
