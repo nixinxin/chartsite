@@ -1,18 +1,14 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
+import re
+from datetime import datetime, timedelta
+
 from captcha.models import CaptchaStore
 from django.db.models import Q
-
-__author__ = "xin nix"
-
-from apps.users.models import PhoneCode, EmailCode, ImageCode
-
-import re
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
-from datetime import datetime, timedelta
-from chartsite.settings import REGEX_MOBILE, REGEX_EMAIL
 from rest_framework.validators import UniqueValidator
+
+from users.models import PhoneCode, EmailCode, ImageCode
+from chartsite.settings import REGEX_MOBILE, REGEX_EMAIL
 
 User = get_user_model()
 
@@ -43,13 +39,13 @@ class PhoneSerialier(serializers.Serializer):
 
 class EmailSerialier(serializers.Serializer):
     username = serializers.EmailField(label='邮箱',
-                                   required=True,
-                                   allow_blank=False,
-                                   error_messages={
-                                       'required': '邮箱不能为空！',
-                                       "blank": '邮箱不能为空！',
-                                       "invalid": "请输入合法的邮箱",
-                                   })
+                                      required=True,
+                                      allow_blank=False,
+                                      error_messages={
+                                          'required': '邮箱不能为空！',
+                                          "blank": '邮箱不能为空！',
+                                          "invalid": "请输入合法的邮箱",
+                                      })
     send_type = serializers.ChoiceField(label="验证类型",
                                         allow_blank=False,
                                         choices=(("register", "注册账号"),
@@ -73,6 +69,11 @@ class EmailSerialier(serializers.Serializer):
         if self.initial_data['send_type'] == 'register':
             if User.objects.filter(Q(email=email) | Q(username=email)).count():
                 raise serializers.ValidationError("用户已经存在")
+
+        # 邮箱是否注册
+        if self.initial_data['send_type'] == 'forget':
+            if not User.objects.filter(Q(email=email) | Q(username=email)).count():
+                raise serializers.ValidationError("用户不存在")
 
         # 验证发送频率
         one_mintes_ago = datetime.now() - timedelta(hours=0, minutes=0, seconds=10)
@@ -112,7 +113,7 @@ class EmailVerifySerialier(serializers.Serializer):
                                        "max_length": "验证码格式错误",
                                        "min_length": "验证码格式错误",
                                    },
-                                   label="验证码",)
+                                   label="验证码", )
 
     def validate_username(self, email):
         """
@@ -167,12 +168,12 @@ class EmailVerifySerialier(serializers.Serializer):
 
 class UserExitSerialier(serializers.Serializer):
     username = serializers.EmailField(label='邮箱',
-                                   allow_blank=False,
-                                   error_messages={
-                                       'required': '邮箱不能为空！',
-                                       "blank": '邮箱不能为空！',
-                                       "invalid": "请输入合法的邮箱",
-                                   })
+                                      allow_blank=False,
+                                      error_messages={
+                                          'required': '邮箱不能为空！',
+                                          "blank": '邮箱不能为空！',
+                                          "invalid": "请输入合法的邮箱",
+                                      })
     send_type = serializers.ChoiceField(label="验证类型",
                                         allow_blank=False,
                                         choices=(("register", "注册账号"),
@@ -263,16 +264,17 @@ class UserDetailSerializer(serializers.ModelSerializer):
         fields = ("first_name", 'gender', 'birthday', 'mobile',
                   'email', 'image', 'desc', "work", 'city', 'unit', 'unit_nature')
 
+
 class UserRegSerializer(serializers.ModelSerializer):
     username = serializers.CharField(required=True,
-                                  write_only=True,
-                                  allow_blank=False,
-                                  validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
-                                  error_messages={
-                                      'required': '邮箱不能为空！',
-                                      "blank": '邮箱不能为空！',
-                                      "invalid": "请输入合法的邮箱"},
-                                  label="邮箱")
+                                     write_only=True,
+                                     allow_blank=False,
+                                     validators=[UniqueValidator(queryset=User.objects.all(), message='用户已存在')],
+                                     error_messages={
+                                         'required': '邮箱不能为空！',
+                                         "blank": '邮箱不能为空！',
+                                         "invalid": "请输入合法的邮箱"},
+                                     label="邮箱")
 
     # write_only：True只写不序列化返回
     password = serializers.CharField(style={"input_type": 'password'}, label="密码", write_only=True)  # 设置密文style
@@ -303,7 +305,7 @@ class UserRegSerializer(serializers.ModelSerializer):
             five_mintes_ago = datetime.now() - timedelta(hours=0, minutes=10, seconds=0)
             if five_mintes_ago > last_record.add_time:
                 raise serializers.ValidationError("验证码过期")
-            if last_record.code != verify:
+            if last_record.code != verify.lower():
                 raise serializers.ValidationError("验证码错误")
         else:
             raise serializers.ValidationError("验证码错误")
@@ -311,6 +313,7 @@ class UserRegSerializer(serializers.ModelSerializer):
     # 作用于所有字段之上
     def validate(self, attrs):
         attrs['email'] = attrs['username']
+        attrs['first_name'] = attrs['username'][:4]
         del attrs['verify']
         return attrs
 

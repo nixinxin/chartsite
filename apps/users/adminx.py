@@ -10,11 +10,13 @@ class BaseSetting(object):
     enable_themes = True
     use_bootswatch = True
 
-
 class GlobalSettings(object):
     site_title = "农业统计数据可视化平台"
     site_footer = "chartsite"
-    # menu_style = "accordion"
+    menu_style = "accordion"
+
+xadmin.site.register(views.BaseAdminView, BaseSetting)
+xadmin.site.register(views.CommAdminView, GlobalSettings)
 
 
 class PhoneCodeAdmin(object):
@@ -32,5 +34,3 @@ class ImageCodeAdmin(object):
 xadmin.site.register(PhoneCode, PhoneCodeAdmin)
 xadmin.site.register(EmailCode, EmailCodeAdmin)
 xadmin.site.register(ImageCode, ImageCodeAdmin)
-xadmin.site.register(views.BaseAdminView, BaseSetting)
-xadmin.site.register(views.CommAdminView, GlobalSettings)

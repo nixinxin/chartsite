@@ -1,5 +1,6 @@
 import os
-from datetime import datetime, timedelta
+from datetime import timedelta
+
 from captcha.models import CaptchaStore
 from django.contrib.auth import get_user_model, authenticate, login, logout
 from random import choice, Random
@@ -7,35 +8,32 @@ from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.hashers import make_password
 from django.db.models import Q, QuerySet
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.urls import reverse
 from django.views import View
-from rest_framework import viewsets, status
-from rest_framework.response import Response
-from rest_framework.settings import api_settings
+from pure_pagination import Paginator
+from rest_framework import viewsets
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
-
-from chartsite.settings import YUN_KEY
-from apps.users.models import PhoneCode, EmailCode, ImageCode, UserProfile
-from operation.models import UserMessage
-from users.forms import RegisterForm, LoginForm, CaptchaForm
-from users.serializers import PhoneSerialier, UserRegSerializer, UserDetailSerializer, EmailSerialier, \
-    ImageCodeSerialier, ImageCodeVerifySerialier, EmailVerifySerialier, UserExitSerialier
-
 from rest_framework_jwt.serializers import jwt_encode_handler, jwt_payload_handler
 from rest_framework import mixins
 from rest_framework import permissions
 from rest_framework import authentication
-
-from utils.code import SmsEmailCode, ImgEmailCode
-from utils.code import SmsPhoneCode
+from rest_framework import status
+from rest_framework.response import Response
 from rest_framework.mixins import CreateModelMixin
 
-
-from rest_framework import status
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
 from utils.code import send_email
+from utils.code import ImgEmailCode
+from utils.code import SmsPhoneCode
+from users.forms import RegisterForm, LoginForm
+from users.serializers import PhoneSerialier, UserRegSerializer, UserDetailSerializer, EmailSerialier, \
+    ImageCodeSerialier, ImageCodeVerifySerialier, EmailVerifySerialier, UserExitSerialier
+from resource.models import CsvHtmls
+from chart.models import Chart
+from .models import *
+from chartsite.settings import YUN_KEY
+from operation.models import UserMessage
+
 User = get_user_model()
 
 
@@ -384,7 +382,14 @@ class LogoutView(View):
 
 class PersonalViewset(View):
     def get(self, request):
-        return render(request, "user/personal.html")
+        user = request.user
+        if user:
+            listView = Chart.objects.all().order_by("-click_nums")[:10]
+            return render_to_response("user/personal.html", context={
+                'listView': listView
+            })
+        else:
+            return render(request, "user/login.html")
 
 
 class ForgetView(View):
@@ -404,8 +409,29 @@ class ServiceView(View):
 
 class ShareView(View):
 
+    typeset = {
+        1: '农业统计年鉴数据集',
+        2: '农业有害生物数据集',
+        3: '作物遗传资源数据集',
+        4: '农业科技资源数据集',
+        5: '作物品种品质数据集',
+        6: '农产品资源数据集',
+    }
+
     def get(self, request):
-        return render(request, "share.html")
+        category = request.GET.get("category", '')
+        page = request.GET.get('page', 0)
+        items = CsvHtmls.objects.all()
+        if category:
+            items = CsvHtmls.objects.filter(category=category)
+            nameset = self.typeset[int(category)]
+        counts = items.count()
+        items = Paginator(items, 15, request=request)
+        items = items.page(page)
+        return render_to_response('share.html', context={
+                                    "items": items,
+                                    "counts": counts,
+                                  })
 
 
 class FaviconView(View):
@@ -435,15 +461,20 @@ class InviteView(View):
                 return HttpResponse(False, status=status.HTTP_404_NOT_FOUND)
 
 
+class PriceView(View):
+    def get(self, request):
+        return render(request, "price.html")
+
+
 class ChartView(View):
     def get(self, request):
-        return render(request, "chart.html")
-
-
-class TemplateViews(View):
-    def get(self, request):
-        return render(request, "test.html")
-
+        category = request.GET.get('category', 1)
+        category = int(category)
+        item = Chart.objects.filter(id=category)
+        jsfile = item[0].jsfile
+        return render_to_response("chart.html", context={
+            'jsfile': jsfile,
+        })
 
 
 def page_not_found(request):
@@ -452,6 +483,7 @@ def page_not_found(request):
     response = render_to_response('404.html', {})
     response.status_code = 404
     return response
+
 
 def page_error(request):
     # 全局500处理函数
