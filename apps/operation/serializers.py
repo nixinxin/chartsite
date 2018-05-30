@@ -1,7 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-__author__ = "xin nix"
-
 from rest_framework.validators import UniqueTogetherValidator
 from operation.models import UserFav, FeedBack
 from rest_framework import serializers
