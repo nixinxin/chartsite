@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-"""
-@version: 1.0
-@author: liyao
-@license: Apache Licence
-@contact: yli@posbao.net
-@site: http://www.piowind.com/
-@software: PyCharm
-@file: adminx.py
-@time: 2017/7/4 17:04
-"""
 import xadmin
 from .models import *
 
@@ -172,8 +159,6 @@ class ZghdzcDbAdmin(object):
     list_display = ["zhname",  'mu', 'ke', 'shu']
     search_fields = ["id", "zhname", 'ke', 'mu', 'ke', 'xuename']
     ordering = ['id']
-
-
 xadmin.site.register(ZghdzcDb, ZghdzcDbAdmin)
 
 
@@ -333,7 +318,6 @@ class ZgzynywhycTpInline(object):
     model = ZgzynywhycTp
     extra = 0
 
-
 # 中国重要农业文化遗产
 class ZgzynywhYcAdmin(object):
     list_display = ['title', "pici", 'source', 'datetime']
@@ -342,9 +326,6 @@ class ZgzynywhYcAdmin(object):
     ordering = ['title']
     style_fields = {"content": "ueditor"}
     inlines = [ZgzynywhycTpInline]
-
-
-
 
 xadmin.site.register(ZgzynywhYc, ZgzynywhYcAdmin)
 
@@ -484,7 +465,7 @@ xadmin.site.register(YearBooks, YearBooksAdmin)
 
 
 class YearBooksContentAdmin(object):
-    list_display = ['title', "category", 'identify', 'page', 'year']
+    list_display = ['content', "index", 'year', 'year__page']
     list_fileds = ['year']
     list_editable = list_display
 
@@ -499,3 +480,12 @@ class YearBooksDesAdmin(object):
 
 
 xadmin.site.register(YearBooksDes, YearBooksDesAdmin)
+
+
+class CsvHtmlsAdmin(object):
+    list_display = ['slug', 'file']
+    list_fileds = ['slug', 'file']
+    list_editable = list_display
+
+
+xadmin.site.register(CsvHtmls, CsvHtmlsAdmin)

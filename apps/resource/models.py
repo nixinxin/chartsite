@@ -9728,7 +9728,7 @@ class NygjDb(models.Model):
     农业古籍数据库
     """
     id = models.IntegerField(auto_created=True, primary_key=True, default=0)
-    reportid = models.CharField(max_length=64, primary_key=True, db_column='记录号', verbose_name='记录号')
+    reportid = models.CharField(max_length=64, db_column='记录号', verbose_name='记录号')
     category = models.CharField(max_length=64, db_column='分类', verbose_name='分类')
     title = models.CharField(max_length=128, db_column='标题书名', verbose_name='标题书名')
     author = models.CharField(max_length=64, db_column='作者', verbose_name='作者')
@@ -10170,3 +10170,12 @@ class GjnydbDes(models.Model):
         verbose_name_plural = verbose_name
 
 
+class CsvHtmls(models.Model):
+    slug = models.CharField(max_length=60, db_column='标题', verbose_name='标题', blank=True, null=True)
+    file = models.FileField(upload_to="text/", max_length=60, db_column='下载', verbose_name='下载', blank=True, null=True)
+    category = models.CharField(max_length=60, db_column='类别', verbose_name='类别', blank=True, null=True)
+
+    class Meta:
+        db_table = '下载文件'
+        verbose_name = db_table
+        verbose_name_plural = verbose_name

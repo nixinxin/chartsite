@@ -1,41 +1,39 @@
-import importlib
-import json
-
 import os
-from django.core import serializers as json_serializers
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, render_to_response
 from django.views import View
-from rest_framework.pagination import PageNumberPagination
-# from rest_framework.views import APIView
+
 from rest_framework.response import Response
 from rest_framework import mixins, status
-from rest_framework import generics
 from rest_framework import filters
 from rest_framework import viewsets
-from rest_framework.throttling import UserRateThrottle, AnonRateThrottle
+from rest_framework_extensions.cache.mixins import CacheResponseMixin
+from rest_framework.pagination import PageNumberPagination
 
+from pure_pagination import Paginator
 from django_filters.rest_framework import DjangoFilterBackend
 
 from chartsite.settings import BASE_DIR, MEDIA_URL
-from .models import *
-from rest_framework.authentication import TokenAuthentication
-from resource.filters import *
 from .serializers import *
-from rest_framework_extensions.cache.mixins import CacheResponseMixin
-
-from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
-
-
-# Create your views here.
+from .models import *
 
 
 class CsvHtmlView(View):
+
     def get(self, request):
-        return render(request, "csvhtml.html")
-
-
-
+        title = request.GET.get("title", '')
+        if title:
+            return render_to_response('csvhtml.html', context={"title": title})
+        items = CsvHtmls.objects.filter(category=3)
+        page = request.GET.get('page', 0)
+        counts = items.count()
+        items = Paginator(items, 20, request=request)
+        items = items.page(page)
+        return render_to_response("csvmain.html",
+                                  context={
+                                      "items": items,
+                                      "counts": counts,
+                                  })
 
 
 class CustomPagination(PageNumberPagination):
@@ -895,33 +893,55 @@ class BookViews(View):
 
 
 class ResourceView(View):
+    techdata = {
+        "中文农业科技文摘数据库": ZwkjwxDb,
+        "农业古籍数据库": NygjDb,
+        "农业标准和操作规范数据库": NybzhczgfDb,
+        "农业科技人才数据库": NykjrcDb,
+        "农业科技政策法规数据库": NykjzcfgDb,
+        "农业科技机构数据库": NykjjgDb,
+        "农业获奖科技成果数据库": NyhjkjcgDb,
+        "农作物名优特新品种数据库": MytxDb,
+        "国内农业科研项目数据库": GnnykyhzxmDb,
+        "国际农业科研项目数据库": GjnykyhzxmDb,
+        "外文农业科技文摘数据库": WwkjwxDb,
+        "有机农业数据库": YjnyDb,
+        "畜禽常见疾病及防治方法数据库": XqfzffDb,
+    }
+
+    pestset = {
+        "中国农业害鼠数据库": ZgnthsDb,
+        "中国旱地杂草数据库": ZghdzcDb,
+        "中国柑桔害虫数据库": ZggjhcDb,
+        "中国棉花害虫数据库": ZgmhhcDb,
+        "中国水田杂草数据库": ZgstzcDb,
+        "中国水稻害虫数据库": ZgsdhcDb,
+        "外来有害昆虫数据库": WlyhkcDb,
+        "外来有害植物数据库": WlyhzwDb,
+        "外来有害微生物数据库": WlyhwswDb,
+        "中国农业天敌昆虫数据库": ZgnytdkcDb,
+        "中国农业天敌蜘蛛数据库": ZgnttdzzDb,
+        "中国旱粮作物害虫数据库": ZghlzwhcDb,
+        "中国苹果桃梨害虫数据库": ZgpgtlhcDb,
+        "中国叶菜类蔬菜害虫数据库": ZgyclschcDb,
+        "中国果菜类蔬菜害虫数据库": ZggslschcDb,
+        "中国粮食作物病毒病害数据库": ZglszwbdbhDb,
+        "中国粮食作物真菌病害数据库": ZglszwzjbhDb,
+        "中国粮食作物细菌病害数据库": ZglszwxjbhDb,
+        "中国经济作物病毒病害数据库": ZgjjzwbdbhDb,
+        "中国经济作物真菌病害数据库": ZgjjzwzjbhDb,
+        "中国经济作物细菌病害数据库": ZgjjzwxjbhDb,
+    }
 
     def get(self, request):
+
         response_type = request.GET.get("type", '')
         if response_type == 'agritech':
-            dbbict = {
-                "中文农业科技文摘数据库": ZwkjwxDb,
-                "农业古籍数据库": NygjDb,
-                "农业标准和操作规范数据库": NybzhczgfDb,
-                "农业科技人才数据库": NykjrcDb,
-                "农业科技政策法规数据库": NykjzcfgDb,
-                "农业科技机构数据库": NykjjgDb,
-                "农业获奖科技成果数据库": NyhjkjcgDb,
-                "农作物名优特新品种数据库": MytxDb,
-                "国内农业科研项目数据库": GnnykyhzxmDb,
-                "国际农业科研项目数据库": GjnykyhzxmDb,
-                "外文农业科技文摘数据库": WwkjwxDb,
-                "有机农业数据库": YjnyDb,
-                "畜禽常见疾病及防治方法数据库": XqfzffDb,
-            }
-
             select = request.GET.get('select', 45)
             select = int(select)
             databases = GjnydbDes.objects.filter(category="农业科技资源数据").order_by('index')
             database = GjnydbDes.objects.get(id=select).title
-
             page = request.GET.get('page', 1)
-
             index = request.GET.get('index', "")
             display_fields = AgriTechContent.objects.filter(title=database, display=1).order_by("index")
             if index:
@@ -929,7 +949,7 @@ class ResourceView(View):
                 detailkey = ["id"]
                 for key in detail_fields:
                     detailkey.append(key.content)
-                items = dbbict[database].objects.filter(id=index).values_list()
+                items = self.techdata[database].objects.filter(id=index).values_list()
                 detail = []
                 for num in range(0, len(detailkey)):
                     detail.append({"key": detailkey[num], 'value': items[0][num]})
@@ -943,7 +963,7 @@ class ResourceView(View):
             contents = ['id', ]
             for i in content_fields:
                 contents.append(i[0])
-            items = dbbict[database].objects.all().values_list(*contents)
+            items = self.techdata[database].objects.all().values_list(*contents)
             items_num = items.count()
             items = Paginator(items, 20, request=request)
 
@@ -956,29 +976,7 @@ class ResourceView(View):
                 "databases": databases,
             })
         elif response_type == 'pest':
-            dbbict = {
-                "中国农业害鼠数据库": ZgnthsDb,
-                "中国旱地杂草数据库": ZghdzcDb,
-                "中国柑桔害虫数据库": ZggjhcDb,
-                "中国棉花害虫数据库": ZgmhhcDb,
-                "中国水田杂草数据库": ZgstzcDb,
-                "中国水稻害虫数据库": ZgsdhcDb,
-                "外来有害昆虫数据库": WlyhkcDb,
-                "外来有害植物数据库": WlyhzwDb,
-                "外来有害微生物数据库": WlyhwswDb,
-                "中国农业天敌昆虫数据库": ZgnytdkcDb,
-                "中国农业天敌蜘蛛数据库": ZgnttdzzDb,
-                "中国旱粮作物害虫数据库": ZghlzwhcDb,
-                "中国苹果桃梨害虫数据库": ZgpgtlhcDb,
-                "中国叶菜类蔬菜害虫数据库": ZgyclschcDb,
-                "中国果菜类蔬菜害虫数据库": ZggslschcDb,
-                "中国粮食作物病毒病害数据库": ZglszwbdbhDb,
-                "中国粮食作物真菌病害数据库": ZglszwzjbhDb,
-                "中国粮食作物细菌病害数据库": ZglszwxjbhDb,
-                "中国经济作物病毒病害数据库": ZgjjzwbdbhDb,
-                "中国经济作物真菌病害数据库": ZgjjzwzjbhDb,
-                "中国经济作物细菌病害数据库": ZgjjzwxjbhDb,
-            }
+
             select = request.GET.get('select', 3)
             select = int(select)
             databases = GjnydbDes.objects.filter(category="农业有害生物数据").order_by('index')
@@ -993,7 +991,7 @@ class ResourceView(View):
                 detailkey = ["id"]
                 for key in detail_fields:
                     detailkey.append(key.content)
-                items = dbbict[database].objects.filter(id=index).values_list()
+                items = self.pestset[database].objects.filter(id=index).values_list()
                 detail = []
                 for num in range(0, len(detailkey)):
                     detail.append({"key": detailkey[num], 'value': items[0][num]})
@@ -1007,7 +1005,7 @@ class ResourceView(View):
             contents = ['id', ]
             for i in content_fields:
                 contents.append(i[0])
-            items = dbbict[database].objects.all().values_list(*contents)
+            items = self.pestset[database].objects.all().values_list(*contents)
             items_num = items.count()
             items = Paginator(items, 20, request=request)
             items = items.page(page)
@@ -1045,10 +1043,23 @@ class ResourceView(View):
                                           "yearlist": yearlist,
                                           "counts": counts,
                                       })
+        elif response_type == 'genetic ':
+            select = request.GET.get('select', 25)
+            if int(select) == 25:
+                items = CsvHtmls.objects.all()
+                page = request.GET.get('page', 0)
+                counts = items.count()
+                items = Paginator(items, 20, request=request)
+                items = items.page(page)
+                return render_to_response("csvmain.html",
+                                          context={
+                                              "items": items,
+                                              "counts": counts,
+                                          })
         else:
             yearlist = YearBooksDes.objects.all().order_by('-year')
             agritech = GjnydbDes.objects.filter(category='农业科技资源数据').order_by('index')
-            crop = GjnydbDes.objects.filter(category='作物遗传资源数据').order_by('index')
+            crop = GjnydbDes.objects.filter(category='作物品种品质数据').order_by('index')
             pest = GjnydbDes.objects.filter(category='农业有害生物数据').order_by('index')
             product = GjnydbDes.objects.filter(category='农产品资源数据').order_by('index')
             genetic = GjnydbDes.objects.filter(category='作物遗传资源数据').order_by('index')
@@ -1061,3 +1072,14 @@ class ResourceView(View):
                                           "product": product,
                                           "genetic": genetic,
                                       })
+
+
+class HeritageView(View):
+    pici = {1: "第一批", 2: "第二批", 3: "第三批", 4: "第四批"}
+
+    def get(self, request):
+        category = request.GET.get("pici", 1)
+        pici = self.pici[category]
+        items = ZgzynywhYc.objects.filter(pici=pici)
+        cycles = [1, 5, 9, 13, 17]
+        return render_to_response('heritage.html', context={"items": items, 'cycles': cycles})

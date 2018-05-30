@@ -1,9 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-from chartsite.settings import MEDIA_ROOT
-
-__author__ = "xin nix"
-
 from rest_framework import serializers
 from .models import *
 
