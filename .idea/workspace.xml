@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -178,9 +178,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="436" />
-    <option name="width" value="1491" />
-    <option name="height" value="1047" />
+    <option name="x" value="212" />
+    <option name="y" value="20" />
+    <option name="width" value="933" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -227,6 +228,12 @@
               <item name="chartsite-github" type="b2602c69:ProjectViewProjectNode" />
               <item name="chartsite-github" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chartsite-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chartsite-github" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="yearbooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -763,7 +770,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="436" y="0" width="1491" height="1047" extended-state="0" />
+    <frame x="212" y="20" width="933" height="1018" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.12641084" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16445182" side_tool="true" weight="0.3295711" />
@@ -771,8 +778,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295711" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6499652" weight="0.18961625" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4904051" visible="true" weight="0.5780543" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16701607" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4904051" visible="true" weight="0.59766084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4604811" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3291592" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32925764" />
@@ -935,8 +942,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0026_agritechdes_selectid.py" />
-    <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0027_auto_20180202_1759.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0023_auto_20180202_1516.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0024_auto_20180202_1602.py" />
     <entry file="file://$PROJECT_DIR$/apps/resource/migrations/0025_auto_20180202_1721.py" />
@@ -1181,10 +1186,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/media/agridata/images/culture/云南双江勐库古茶园与茶文化系统.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/agridata/images/culture/云南双江勐库古茶园与茶文化系统(1).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
