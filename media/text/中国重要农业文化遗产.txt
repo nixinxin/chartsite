@@ -1,0 +1,909 @@
+"id"	"标题"	"批次"	"内容"	"链接"	"来源"	"点击次数"	"日期"
+"1"	"河北宣化传统葡萄园"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""justify"">　　坐落于首都北京西北150公里处的宣化古城，历来就有“葡萄城”的美誉。每年中秋前后，满城葡萄飘香，串串晶莹剔透的牛奶葡萄吸引着八方来客。</p>
+<p>　　据《宣化葡萄史话》记载，宣化葡萄最早引进栽培时间为唐代，距今已有1300多年的栽培历史。如今，在宣化古城的观后村里，有一株近600岁的古葡萄藤，依然枝繁叶茂、硕果累累，见证着宣化葡萄发展的历程。宣化传统葡萄园至今仍沿用传统的漏斗架栽培方式。漏斗架是一种古老的传统架式，因其架式像漏斗而得名，架身向上倾斜30°～35°，呈放射状。“内方外圆”优美独特的漏斗架，适于观赏和乘凉休闲。这种架形的优势是：光能集中、肥源集中、水源集中，具有抗风、抗寒等特点。宣化独特地理和自然条件孕育了宣化牛奶葡萄独特品质。宣化牛奶葡萄属鲜食葡萄品种，皮肉黄绿色，质脆而多汁，酸糖比适中，素有“刀切牛奶不流汁”的美誉。近年来先后获得“中国农产品区域公用品牌价值百强奖”、“最具影响力中国农产品区域公用品牌”和“消费者最喜爱的100个中国农产品区域公用品牌”等荣誉。</p>
+<p>　　目前，随着城市化的迅速发展，传统葡萄园的数量急剧下降，葡萄园的消失意味着传统特色景观、生物多样性和文化多样性的丧失。宣化区人民政府按照农业部中国重要农业文化遗产保护工作要求，先后出台了《关于加快葡萄产业发展的补助办法》、《宣化传统葡萄园保护管理办法》等文件，制定了宣化传统葡萄园保护与发展专项规划。通过生物多样性的恢复、传统葡萄栽培技艺的文化传承以及与休闲农业的结合，从根本上解决农民的增收、农业的可持续发展和文化遗产保护问题。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502866497246.jpg"" alt="""" src=""./W020130531502866497246.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502866805335.jpg"" alt="""" src=""./W020130531502866805335.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480243.htm"	"农业部乡镇企业局"	"2331"	"2013-05-22 13:07"
+"2"	"内蒙古敖汉旱作农业系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""justify"">　　在燕山山脉东段北麓，科尔沁沙地南缘，有一片神奇的土地，这里山川秀美，沃野无边，它因有八千年的历史文化遗存，而被考古学界称为华夏第一村；因有优美的生态环境，而被联合国环境规划署评为全球环境五百佳。更令人瞩目的是这里是世界旱作农业的发源地。</p>
+<p>　　敖汉旗历史文化悠久，早在一万多年前，这里就有人类生息繁衍，全旗境内有古文化遗存3000多处，尤其是以当地地名命名的小河西、兴隆洼、赵宝沟、小河沿四种史前文化，以其丰富的遗存，填补了中国北方考古编年的空白。兴隆洼文化遗址出土的黍粟，距今已有7700年到8000年的历史，比中欧地区发现的谷物早2700多年。在兴隆洼文化遗址出土的文物中，有大量的石器、骨器等，其中石杵、石斧、石铲、石刀等，则大多为原始农耕生产用具。有专家推断，这里是世界农耕文明的源头。</p>
+<p>　　目前，敖汉旗原始地理环境和自然风貌没有大的改变，仍保留原始农业种植形态，是旱作农业系统的典型代表。但随着经济社会的发展，也面临着被抛弃的危险。赤峰市敖汉旗政府按照农业部中国重要农业文化遗产保护工作的要求，编制了专门的保护与传承规划以及管理办法，使这一重要农业生产系统发挥出更大的作用，为当地带来更好的社会效益和经济效益。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502870084268.jpg"" alt="""" src=""./W020130531502870084268.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502870391807.jpg"" alt="""" src=""./W020130531502870391807.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480244.htm"	"农业部乡镇企业局"	"1137"	"2013-05-23 09:03"
+"3"	"辽宁鞍山南果梨栽培系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""justify"">　　南果梨是鞍山地区特有的水果产品，又称“鞍果”，原产于鞍山市千山区大孤山镇对桩石村。据《中国果树志第三卷》记载，现南果梨树母株仍生长于此。1986年经中国果树研究院权威专家鉴定，该树被认定为南果梨祖树，自发现至今已有150多年历史，是仅存的一株自然杂交实生苗南果梨树。依靠自身独特的地理、气候条件和栽培经验，鞍山南果梨皮薄肉厚、果肉细腻多汁、香味浓郁，是中国“四大名梨”之一，被誉为“梨中皇后”，曾荣获全国农产品加工贸易博览会金奖，被农业部列为全国名特优品种、国家种苗基地项目，鞍山南果梨产业开发和推广被科技部列入星火计划。</p>
+<p>　　南果梨从起源衍生、人工种植，到现在形成产业链条，每一次的发展和飞跃都与文化内涵息息相关。其深厚的文化内涵被鞍山地区百姓所认同和传承，通过祈福文化、旅游文化、亲情文化以及文学作品等多种形式，南果梨文化已经逐渐渗透到人们的日常生活中。</p>
+<p>　　随着生产的发展，南国梨栽培系统面临无公害生产水平较低、果品质量下降、商品价值低等问题，保护与发展工作势在必行。千山区政府按照农业部中国重要农业文化遗产保护工作要求，制定了《鞍山南果梨栽培系统保护与发展规划》和《千山区人民政府办公室关于对辽宁鞍山南果梨栽培系统保护工作的意见》，使鞍山南果梨栽培系统这一具有丰富生物多样性和文化多样性，生产与生态功能突出，人与自然和谐发展的重要农业文化遗产焕发出新的生机。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502872265301.jpg"" alt="""" src=""./W020130531502872265301.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502872895623.jpg"" alt="""" src=""./W020130531502872895623.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480245.htm"	"农业部乡镇企业局"	"885"	"2013-05-24 10:39"
+"4"	"辽宁宽甸柱参传统栽培体系"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""justify"">　　柱参，亦称石柱人参、石柱子参，系辽宁省宽甸满族自治县振江镇石柱子村为核心的周边固定区域所独产。石柱子村位于辽宁东部山区鸭绿江畔，与朝鲜隔江相望，这里山连绵、水纵横、森林茂密、特产丰富、风景优美，被誉为鸭绿江边的香格里拉和神仙居住的地方。</p>
+<p>　　柱参源于野山参，栽培历史久远。据《宽甸县地方志》记载，明万历年间（1610年前后），山东七翁到此采挖野山参，大参拿走，幼参及参籽就地栽种，并栽榆树、立一条石柱为记，一石奠基业，一榆扬旗帜，柱参就此而得名。柱参芦高体灵、皮老纹身、须长须清、珍珠疙瘩多、形态优美。400多年来，经历代参农培育，已形成圆膀圆芦、草芦、线芦、竹节芦四个特有品系，成为人参家族的一个独特种类。因其酷似野山参，被誉为“园参之冠”、“国之瑰宝”。近年来，林下种植成为首选的方式，让柱参生长回归自然，不仅参林双赢，而且资源得到永续利用。目前，石柱子村林下柱参面积1.7万亩，是当地“一村一品”重要产业。目前，柱参传统栽培技艺已列为辽宁省重要非物质文化遗产，宽甸县亦被中国中药材协会授予全国石柱人参第一县称号，振江镇被农业部授予全国柱参产业“一村一品”示范镇称号。至今，每年的农历三月十六这天，参农都要立庙祭拜最早养柱参的祖师爷，为其过生日。</p>
+<p>　　随着生产的发展，传统的柱参栽培技艺有失传和被抛弃的危险，传统的生产方式面临严峻挑战，挖掘、保护和传承传统栽培方式势在必行。目前，宽甸县政府按照农业部有关要求，结合省政府提出的建设辽宁休闲农业与乡村旅游第一县的目标，制定出台了柱参发展规划、重要农业文化遗产柱参传统栽培系统保护办法，在重大科研项目、资金、保护措施等方面全力支持。<strong>　　　　　 </strong></p>
+<strong>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502875545916.jpg"" alt="""" src=""./W020130531502875545916.jpg""/></p>
+</strong></div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480246.htm"	"农业部乡镇企业局"	"866"	"2013-05-27 09:16"
+"5"	"江苏兴化垛田传统农业系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　兴化自古地势低洼，湖荡纵横，历来饱受洪涝侵害。当地先民在沼泽高地之处垒土成垛，渐而形成一块块垛田，发展出一种独特的土地利用方式。</p>
+<p>　　垛田因湖荡沼泽而生，每块面积不大，形态各异，大小不等，四周环水，各不相连，形同海上小岛，人称“千岛之乡”。兴化共有6万多亩这样的耕地，分布在垛田、缸顾、李中、西郊、周奋、沙沟、林湖一带。至今，垛田还保存着传统的农耕方式，用天然生态的肥料种植蔬菜。垛田独特的岛状耕地，是荒滩草地堆积而成，土质疏松养分丰富，加上光照足、通风好、易浇灌、易耕作，使得生产的蔬菜无论是品质还是产量，都是普通大田种植不可攀比的。垛田地貌先后入围江苏省第三次文物普查十大新发现和全国第三次文物普查重大新发现，2011年被公布为江苏省第七批文物保护单位。</p>
+<p>　　近年来，聪明的兴化人民利用垛田这种独特的地貌，从事大规模油菜生产，发展休闲观光农业。万岛耸立，千河纵横，可谓天下奇观。连续举办五届的中国兴化千岛菜花旅游节已经成为享誉全国的新兴旅游亮点。目前，兴化市委市政府按照农业部中国重要农业文化遗产保护的要求专门制定了保护规划和保护办法，正在加大挖掘、保护、传承的力度，让垛田农业系统，为兴化推进农业现代化，促进农业增效和农民增收发挥更大的作用。</p>
+<p>　　</p>
+<p align=""center""><b><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502877264251.jpg"" alt="""" src=""./W020130531502877264251.jpg""/></b></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502877263629.jpg"" alt="""" src=""./W020130531502877263629.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502877265653.jpg"" alt="""" src=""./W020130531502877265653.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480247.htm"	"农业部乡镇企业局"	"1533"	"2013-05-28 09:22"
+"6"	"浙江青田稻鱼共生系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　浙江青田县稻田养鱼历史悠久，至今已有1200多年的历史。清光绪《青田县志》曾记载：“田鱼，有红、黑、驳数色，土人在稻田及圩池中养之”。金秋八月，家家“尝新饭”：一碗新饭，一盘田鱼，祭祀天地，庆贺丰收，祝愿年年有余（鱼）。</p>
+<p>　　稻田养鱼产业是青田县农业主导产业，面积8万亩，标准化稻田养鱼基地3.5万亩，是青田县东部地区农民主要收入来源。种养模式生态高效，鱼为水稻除草、除虫、耘田松土，水稻为鱼提供小气候、饲料，减少化肥、农药、饲料的投入，鱼和水稻形成和谐共生系统。青田田鱼品种优良，肉质细嫩，鳞软可食，是观赏、鲜食、加工的优良彩鲤品种。悠久的田鱼养殖史还孕育了灿烂的田鱼文化，青田田鱼与青田民间艺术结合，派生出了一种独特的民间舞蹈<b>——</b>青田鱼灯舞。青田鱼灯舞曾参加首都建国50周年庆典、第五届中国国际民间艺术节、第七届中国艺术节和中西建交30周年庆典、北京奥运会、上海世博会、第八届全国残运会、中意建交40周年庆典等国内外文化交流活动。</p>
+<p>　　青田县委、县府按照农业部中国重要农业文化遗产保护工作要求，高度重视稻鱼共生产业发展和文化挖掘工作，成立了县“稻鱼共生系统”项目保护和开发领导小组，由县政府主要领导亲自抓，分管领导具体抓，成立了稻鱼共生农业文化遗产研究推广中心，制定了稻鱼共生产业发展规划，出台了产业发展扶持政策，加快发展传统稻鱼共生产业。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130531502879282467.jpg"" alt="""" src=""./W020130531502879282467.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201305/t20130531_3480248.htm"	"农业部乡镇企业局"	"2879"	"2013-05-30 10:49"
+"7"	"浙江绍兴会稽山古香榧群"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　绍兴会稽山古香榧群位于绍兴市域中南部的会稽山脉，面积约400平方公里，有结实香榧大树10.5万株，其中树龄百年以上的古香榧有7.2万余株，千年以上的有数千株。2000多年前，绍兴先民从野生榧树中人工选择和嫁接培育成了香榧这一优良品种。因经过人工嫁接培育，现存古香榧树基部多有显著的“牛腿”状嫁接疤痕。位于绍兴县占岙村的千年榧树王，树龄长达1430余年，树高18米，犹如遮天巨伞。古香榧树历经千年仍硕果累累，堪称古代良种选育和嫁接技术的“活标本”。</p>
+<p>　　绍兴先民利用陡坡山地，构筑梯田(鱼鳞坑)，种植香榧树，香榧林下间作茶叶、杂粮、蔬菜等作物，“香榧树—梯田—林下作物”的复合经营体系，构成了独特的水土保持和高效产出的陡坡山地利用系统。香榧四季常绿、形态优美，一棵棵古香榧树，与古村落、小溪、山岚等构成了一幅幅令人赏心悦目的画图。自古至今，赞美香榧的散文、诗歌、美术作品层出不穷，祭祀、节庆等活动丰富多彩。</p>
+<p>　　历经千百年的风雨，古香榧树自然衰老，加之病虫害、自然灾害的侵害，城市化进程的加快，农业劳动力资源不足等原因，会稽山古香榧群的传承与保护面临着严重的威胁。对古香榧群的保护，绍兴摸索出了一套“以保护满足利用，以利用促进保护”的传承之道。按照农业部中国重要农业文化遗产保护工作的要求，绍兴市人民政府制定了“绍兴会稽山古香榧群保护管理办法”，依法保护、管理绍兴会稽山古香榧群生态系统，促进本地区经济社会可持续发展。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613367375039665.jpg"" alt="""" src=""./W020130613367375039665.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490404.htm"	"农业部乡镇企业局"	"1049"	"2013-06-13 09:31"
+"8"	"福建福州茉莉花种植与茶文化系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　茉莉花源于中亚细亚，茶源于中国，它们的结合是两千年东西方文化交流的见证。福州茉莉花茶源于汉、成于宋、盛于清，是两千年来劳动人民利用花香和茶保健作用的产物。福州茉莉花种植与茶文化系统在长达两千年的协同进化过程中逐渐完善，是古人利用环境、适应环境发展农业的典范，是农业的活化石。</p>
+<p>　　福州地处北纬25.5度的闽江入海口盆地，是茉莉花露地栽培的最北缘。福州茉莉花种植与茶文化系统是古人充分利用自然资源，在江边沙洲种植茉莉花，在海拔600-1000米的高山上发展茶叶生产，逐渐形成适应当地生态条件的茉莉花基地（湿地）—茶园（山地）的循环有机生态农业系统，既保持了生态系统的生物多样性，又提高了单位面积的生产效益。茉莉花茶是中国独一无二的茶叶品种，由于历史上福州人严格保密工艺，窨制工艺在数百年间均未传到其他国家，目前世界上只有中国能窨制茉莉花茶。</p>
+<p>　　由于城市建设和其它产业发展，福州茉莉花茶传统生产模式变得濒危，花茶窨制工艺面临着严峻考验。近年来，福州市委市政府十分重视福州茉莉花茶这一千年产业的发展，按照农业部中国重要农业文化遗产保护工作的要求，统筹城市发展与保护生态的关系，不断提升产业整体水平。目前福州辖区的茉莉花种植面积达1.5万亩，辐射周边面积1.8万亩；茶叶面积13.5万亩，茉莉花茶产量1.5万吨，产值达20亿元。福州茉莉花茶这一重要的传统农业产品，正以全新的姿态，欢迎世界各地的朋友来共同品鉴。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613367858792609.jpg"" alt="""" src=""./W020130613367858792609.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490442.htm"	"农业部乡镇企业局"	"1711"	"2013-06-13 09:33"
+"9"	"福建尤溪联合梯田"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　联合梯田位于尤溪县联合乡，涉及八个行政村，面积达10700多亩，被誉为中国五大魅力梯田之一、发现海西之美十佳景点和福建省摄影创作基地。自宋朝以来，联合村民使用木犁、锄头等工具开垦梯田、种植水稻，在险峻的金鸡山中创造了神奇壮丽的梯田，成为村民几百年来的主要生存方式。</p>
+<p>　　联合梯田通过山顶竹林截留、储存天然降水，再以溪流流入村庄和梯田，形成特有的“竹林-村庄-梯田-水流”山地农业体系。春天，农民给田里灌水浸烂田泥；春耕时，小孩们下田摸田螺、捉泥鳅；到插秧时，农民种上田埂豆、放些鱼苗，鲤鱼能减少田中杂草生长和虫害的发生，田埂豆发达的根系能保护田埂；收获时，再放干田里的水，收鱼、收水稻、收黄豆。收获后，鸭子、山羊等被赶入田中，觅食遗撒的谷粒和新长出的杂草。动物粪便、作物桔梗和豆类的固氮功能，则使土壤肥力不断提升。梯田垂直落差600多米，连延数十里，田在山中，群山环抱，土墙灰瓦的村落散落其间，一派与世无争的安然祥和。</p>
+<p>　　随着生产的发展，梯田正面临被破坏、被抛弃的危险，传统的农耕方式面临严峻挑战。目前，尤溪县政府按照农业部中国重要农业文化遗产保护工作要求，制定了梯田保护与发展专项规划和管理办法，通过生物多样性的恢复、传统农耕文化的传承，以及与休闲农业的结合，从根本上解决农民增收、农业可持续发展和文化遗产保护问题。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613368411654088.jpg"" alt="""" src=""./W020130613368411654088.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490452.htm"	"农业部乡镇企业局"	"874"	"2013-06-13 09:34"
+"10"	"江西万年稻作文化系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　始建于1512年的江西万年县，历史厚重、秀美神奇、人文鼎盛，她享有“世界稻作文化发源地”、“中国贡米之乡”、“中国优质淡水珍珠之乡”的美誉。早在14000年前，这里便是天地形胜、稻花飘香。仙人洞、吊桶环古文化遗址，经中美联合农业考古发掘，认定为当今所知世界最早的栽培稻遗址。据考证，万年吊桶环遗址为早期人类的猎物分配和货币交换场所。珍藏于国家博物馆距今两万年的直口圜底夹砂陶罐被誉为世界“第一陶”。</p>
+<p>　　生活在仙人洞、吊桶环的古万年人，创造了灿烂的远古文明，给人类留下了宝贵的文化遗产，为万年深深地打下了农耕文明的烙印。万年贡米原产地裴梅荷桥村，山高垅深，日照时短，泉流清澈，水土含有多种矿物质，形成培植贡米得天独厚的自然环境。万年贡米体长粒大、形状如梭、其白如玉、光洁透亮，早在明朝时期，就钦定为“代代耕作，岁岁纳贡”之珍品。</p>
+<p>　　近年来，万年投资300多万，兴建了仙人洞、吊桶环遗址博物馆。按照农业部中国重要农业文化遗产保护工作要求，不断完善相关政策法规，印发了贡谷保护意见，并通过多种形式宣传推介万年稻作文化系统。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613369223636857.jpg"" alt="""" src=""./W020130613369223636857.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490459.htm"	"农业部乡镇企业局"	"1210"	"2013-06-13 09:35"
+"11"	"湖南新化紫鹊界梯田"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　紫鹊界梯田位于新化县水车镇，涉及13个行政村，属雪峰山余脉的奉家山地段，总面积26万余亩，核心区域面积2万余亩，享有“梯田王国”之美誉，被批准为“国家级风景名胜区”、“国家自然与文化双遗产”、“国家水利景区”和“国家4A级旅游景区”。</p>
+<p>　　紫鹊界梯田始于秦汉，盛于宋明，至今已有2000余年历史，是苗、瑶、侗、汉等多民族历代先民共同创造的劳动成果，是南方稻作文化与苗瑶山地渔猎文化交融揉合的历史遗存。紫鹊界梯田依靠森林植被、土壤和田埂综合形成自然的储水保水系统，凭借神奇独特的基岩裂隙孔隙水源，构成纯天然自流灌溉工程。潺潺流水，四季不绝、久旱不竭、洪涝无忧，山有多高，水有多高，田就有多高，堪称伟大的水田工程。历史上有“天下大乱，此地无忧；天下大旱，此地有收”之说。</p>
+<p>　　紫鹊界梯田内原有的稻作文化系统，正面临着被破坏的危险，挖掘、保护、传承工作势在必行。目前，梯田保护工作正在稳步推进，新化县政府根据农业部中国重要农业文化遗产发掘工作的要求，制定了梯田保护和发展规划以及管理办法，通过生物多样性的恢复、传统农耕文化的传承以及与休闲农业的结合，从根本上解决当地农民增收问题、农业可持续发展和文化遗产保护问题。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613369654048544.jpg"" alt="""" src=""./W020130613369654048544.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490465.htm"	"农业部乡镇企业局"	"1139"	"2013-06-13 09:36"
+"12"	"云南红河哈尼稻作梯田系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　红河哈尼梯田分布于云南红河南岸的元阳、红河、金平、绿春4县的崇山峻岭中，面积约18万公顷，具有极高的经济、科学、生态和文学艺术价值。</p>
+<p>　　据史书以及口传家谱考证，红河哈尼梯田已有1300多年的耕种历史，养育着哈尼族等10个民族约126万人口。森林在上、村寨居中、梯田在下，而水系贯穿其中，是它的主要特征。依山造田，最高垂直跨度1500米、最大坡度75，最大田块2828平方米，最小田块仅1平方米；以哈尼族“寨神林”崇拜为核心的传统森林保护理念，使这里的自然生态系统保存良好，为梯田提供着丰富水源。哈尼族创造发明了“木刻分水”和水沟冲肥，利用发达的沟渠网络将水源进行合理分配，同时为梯田提供充足肥料。哈尼人还构建了多套微循环再利用系统，稻草喂牛，牛粪晒干做燃料，燃料用完做肥料，肥料养育稻谷；哈尼人珍惜土地资源，房前屋后的空地用来种菜，路边的墙缝也会成为菜地。此外，屋旁沟箐凡是有水的地方就会用来养鱼，鱼在池塘下面，池塘上面养浮萍，浮萍喂猪，猪粪喂鱼；鱼长大后又被放回梯田……这种充分利用并遵循自然的劳作传统，不仅创造了哈尼民族丰富灿烂的梯田文化，也集中展现了中华民族天人合一的思想文化内涵。</p>
+<p>　　为更好地保护哈尼梯田农业文化系统，红河州人民政府按照农业部中国重要农业文化遗产保护工作要求，制定了梯田保护管理条例和梯田保护管理总体规划。今天，红河哈尼梯田，这个养育120多万人口的农业文化系统，越来越受到人们的关注。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613370045605410.jpg"" alt="""" src=""./W020130613370045605410.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490475.htm"	"农业部乡镇企业局"	"1055"	"2013-06-13 09:37"
+"13"	"云南普洱古茶园与茶文化系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　普洱市位于云南省西南部，素有一市连三国，一江通五邻之说，是祖国西南边疆的瑰丽宝地。全市茶园面积325万亩。在万历年间，普洱府已设官职专门管理茶叶交易。清代以来，普洱茶成为皇家贡品，国内外交易路线也已基本畅通，普洱府成为普洱茶生产和贸易的集散地，是茶马古道的起点，也成为了茶文化的中心地带，并形成了“普洱昆明官马大道”、“普洱大理西藏茶马大道”等6条保存完好的茶马古道，被称为“世界上地势最高的文明文化传播古道”。这里的人、茶叶、茶文化沿着茶马古道向国内外扩散，将普洱茶带出大山，走向世界。</p>
+<p>　　普洱市是世界茶树的原产地之一，也是野生茶树群落和古茶园保存面积最大、古茶树和野生茶树保存数量最多的地区。拥有完整的古木兰化石和茶树的垂直演化系统。以普洱市为中心的澜沧江中下游少数民族的悠久种茶、制茶历史孕育了风格独异的民族茶道、茶艺、茶俗等内涵丰富的茶文化和饮茶习俗。不同民族对茶的加工和饮用方式更是各具特色。布朗族的“青竹茶”和“酸茶”、拉祜族的“烤茶”等已作为传统的饮茶习俗，代代相传。</p>
+<p>　　为了有效保护“普洱古茶园与茶文化系统”，按照农业部中国重要农业文化遗产保护工作要求，普洱市人民政府制定了一系列条例和措施，加强普洱茶原产地保护，树立普洱茶品牌，不断提高质量、优化品质，提供更好的生态、绿色、安全的产品。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613371032925106.jpg"" alt="""" src=""./W020130613371032925106.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490478.htm"	"农业部乡镇企业局"	"965"	"2013-06-13 09:38"
+"14"	"云南漾濞核桃-作物复合系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　云南漾濞核桃—作物复合系统遗产地<b>—</b>光明万亩核桃生态园，属漾濞彝族自治县苍山西镇，涵盖整个光明村，地处苍山腹地，总面积15.73平方公里。漾濞核桃历史源远流长，可追溯到3500多年前。目前，漾濞核桃种植面积达92万亩，年产量2.7万吨，产值突破5亿元，农民人均核桃纯收入近3000元。光明核桃是漾濞核桃的典型代表，早在公元前16世纪就有核桃生产，现在全村树龄在200年以上的核桃约有6000多株。光明核桃以果大、壳薄、仁白、味香、出仁出油率高、营养丰富而誉满中外。</p>
+<p>　　核桃与各种农作物间套作形成的独特农耕模式彰显魅力，是云南漾濞核桃—作物复合系统的集中体现。核桃与各种农作物间套作复合栽培，在耕种农作物的同时，又起到了为核桃施肥、中耕松土、除草、浇灌的作用，核桃生长快、结果早、结果多，而且还多收了粮食。这种模式实现了农业生产良性循环、可持续发展。</p>
+<p>　　漾濞县委、县政府高度重视漾濞核桃-作物复合系统保护，按照农业部中国重要农业文化遗产保护工作要求，制定了保护与发展规划和管理办法，通过多种方式使这一重要农业文化遗产散发出浓郁的农耕文化魅力。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613372188105885.jpg"" alt="""" src=""./W020130613372188105885.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490481.htm"	"农业部乡镇企业局"	"467"	"2013-06-13 09:39"
+"15"	"贵州从江侗乡稻鱼鸭复合系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　从江县位于黔东南层峦叠嶂的大山里，清澈的都柳江从北向南宛延而过。每年春天，谷雨季节的前后，侗乡人劳作的身影就出现在层层的梯田里了，秧苗插进了稻田，鱼苗也就跟着放了进去，等到鱼苗长到两三指，再把鸭苗放入稻田。稻田为鱼和鸭的生长提供了生存环境和丰富的饵料，鱼和鸭在觅食的过程中，不仅为稻田清除了虫害和杂草，大大减少了农药和除草剂的使用，而且鱼和鸭的来回游动搅动了土壤，无形中帮助稻田松了土，鱼和鸭的粪便又是水稻上好的有机肥，保养和育肥了地力。这种方式在从江已经延续了上千年，作为一种独特的农业文化遗产，它的意义，不仅仅是作为人们回望历史的窗口，也不仅仅是一块田地有了稻、鱼、鸭三种收获，更重要的是它对现代农业的宝贵启示。</p>
+<p>　　侗乡人都说，鱼无水则死，水无鱼不沃。从江稻鱼鸭系统保证田间随时都有足够的水，如此鱼才不死，稻才不枯，鸭才不渴。侗乡人所养育的鸭种也不是一般的鸭种，而是经过世代选育驯化的小香鸭，鸭子对稻、鱼、鸭的共生有很多好处，小香鸭的个头很小，可以灵活地在水稻间穿行而不会撞坏水稻，而且不用投入精饲料，水稻中的害虫、小虾、小鱼、各种杂草都是上好饵料。侗乡人利用智慧，使稻、鱼、鸭三者和谐共处，互惠互利。</p>
+<p>　　近年来，从江县按照农业部中国重要农业文化遗产保护工作要求，不断加大稻鱼鸭系统保护工作力度，制定了保护规划和管理办法，努力探索对这一重要农业文化遗产的动态保护途径。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613372843464822.jpg"" alt="""" src=""./W020130613372843464822.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490485.htm"	"农业部乡镇企业局"	"1296"	"2013-06-13 09:39"
+"16"	"陕西佳县古枣园"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　佳县古枣园位于“中国红枣名乡”佳县朱家坬镇泥河沟村，是世界上保存最完好、面积最大的千年枣树群，总面积36亩，现存活各龄古枣树1100余株。泥河沟村也被誉为“天下红枣第一村”。</p>
+<p>　　佳县有着3000多年的枣树栽培历史。古枣园内生长的两株干周三米多的古枣树，经专家测算，树龄在1300多年以上，至今根深叶茂，硕果累累，被誉为“枣树王”、“活化石”。佳县有着底蕴深厚的红枣文化历史。千百年来，耐旱的枣树被视为人们的“保命树”、“铁杆庄稼”。每年正月，人们都要敬拜“枣神”，祈求红枣丰收。逢年过节，人们都要制做枣糕、枣馍、枣焖饭等传统食品，以示庆贺；长辈们给孩子吃红枣、戴枣串，希望他们早日长大成人，日子甜甜蜜蜜；久远而又浓郁的红枣文化气息渗透在佳县人的日常生活之中。枣树具有增加空气湿度，保持水土和养分等生态功能。在黄河沿岸的坡地上，其生物多样性保护、水土保持、水源涵养和防风固沙等方面的生态功能显得尤为重要。</p>
+<p>　　随着时间的流逝，佳县古枣园正遭受着岁月的侵袭和人为的破坏，传统的红枣文化、民俗也面临着失传的危险。目前，佳县人民政府按照农业部中国重要农业文化遗产保护工作要求，制定了佳县古枣园系统保护与发展规划以及管理措施，通过动态保护、适应性管理和可持续利用，保护古枣园，传承枣文化。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613373226448673.jpg"" alt="""" src=""./W020130613373226448673.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490508.htm"	"农业部乡镇企业局"	"714"	"2013-06-13 09:40"
+"17"	"甘肃皋兰什川古梨园"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　什川古梨园位于甘肃省兰州市近郊，黄河之滨，这里现存百年以上的古梨树九千多株，面积达四千亩。2013年正式录入“世界吉尼斯纪录大全”，被誉为“世界第一古梨园”。</p>
+<p>　　什川古梨树栽培历史悠久,自明嘉靖年间，当地果农仿建水车汲黄河水灌溉田园，开始栽植梨树。这里群山环绕，黄河穿境而过，气候温和，土壤肥沃，梨树长势旺盛。现存古梨树大多在三百年以上，至今仍然硕果累累。当地人将种植梨树称为种“高田”，果农不仅要为梨树松土、施肥，早春“刮树皮”、花期“堆砂”防虫，更需要“天把式”利用云梯穿梭于半空的梨树间，给果树修枝整形、疏花疏果、竖杆吊枝、采摘果实，形成了独特的栽培方式与农耕文化。古梨园盛产软儿梨和冬果梨，梨果具有生津、润肺、止咳等功效，药用价值极高。百年梨园翠盖参天，生机盎然，置身梨园如入“天然氧吧”，令人心旷神怡。</p>
+<p>　　当地政府依托古梨树资源，已连续举办了十一届“兰州·什川之春”旅游节，把旅游观光、文体娱乐等融为一体，形成以梨园美景观赏、黄河风光游览、农家休闲娱乐等为主的新型休闲农业旅游区。</p>
+<p>　　近年来，随着生产发展，人口增多，梨园面临被蚕食、挤占的危险，气势浩大、梨韵幽深的古梨园景观面临严峻的挑战。皋兰县人民政府按照农业部中国重要农业文化遗产保护工作要求，成立专门的机构，制定古梨园保护发展规划和管理办法，通过摸底建档、信息采集、养护复壮，科学合理利用古梨树资源，传承弘扬古梨园农耕文化，使独特珍贵的世界第一古梨园焕发青春、再创辉煌。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613373700836001.jpg"" alt="""" src=""./W020130613373700836001.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490513.htm"	"农业部乡镇企业局"	"2639"	"2013-06-13 09:41"
+"18"	"甘肃迭部扎尕那农林牧复合系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　扎尕那农林牧复合系统位于甘肃省甘南藏族自治州迭部县益哇乡。在该系统中，农、林、牧之间的循环复合使其生产能力和生态功能得以充分发挥，游牧、农耕、狩猎和樵采等多种生产活动的合理搭配使劳动力资源得到充分利用，汉地农耕文化与藏传游牧文化的相互交融形成了特殊的农业文化。</p>
+<p>　　扎尕那农林牧复合系统位于高寒草原、温带草原和暖温带落叶林三大植被气候类型的交汇处，地处甘肃、青海和四川三省交界处，独特的地理区位为农林牧复合经营提供了自然资源和经济社会基础。早在3000年以前，这里就已经出现了畜牧文明的萌芽，蜀汉时期，名将姜维把先进的汉族农耕文明引进到此，吐谷浑时期，汉地农耕文化和藏区游牧文化相互融合，明清“杨土司”时期，农林牧复合系统逐渐发展起来。</p>
+<p>　　这里地处高寒贫瘠的生态脆弱地区，又是生物多样性保护优先区域，还是长江与黄河分水岭的上游地带，是重要的水源涵养区，对维护生态平衡和保障生态安全具有重要作用。可以说，独特的生态区位促进了游牧文化、农耕文化与藏传佛教文化的融合与发展，造就了独特的扎尕那农林牧复合系统，既表现了自然界的多样性又为农业生产方式的多样性奠定了基础，并赋予农业更为广阔和丰富的内涵。目前，当地政府按照农业部中国重要农业文化遗产保护工作的要求，制定了保护规划和管理办法，不断采取有效措施促进扎尕那农林牧复合系统的保护传承。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613374856329949.jpg"" alt="""" src=""./W020130613374856329949.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490516.htm"	"农业部乡镇企业局"	"509"	"2013-06-13 09:42"
+"19"	"新疆吐鲁番坎儿井农业系统"	"第一批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　坎儿井，是吐鲁番绿洲特有的文化景观，至少已有2000多年历史，是古代吐鲁番劳动人民改造自然和利用自然的杰出成就。</p>
+<p>　　坎儿井总长度约五千公里，几乎赶上了黄河、长江的长度。它是世界上最大的地下水利灌溉系统，被誉为地下万里长城，被称为中国古代三大工程之一。它是利用地面坡度，引用地下水的一种独具特色的地下水利工程，主要由竖井、暗渠、明渠、涝坝四部份组成。坎儿井所具有的自流灌溉功能，不仅克服了缺乏动力提水设备的问题，而且也节省了动力提水设备的投资。它优良的水质可供农田灌溉和人畜饮用。吐鲁番气温高，蒸发量大，而坎儿井的输水渠道深埋于地下，减少了水分的蒸发。</p>
+<p>　　吐鲁番坎儿井最多时有1237条，年流量5.6亿立方米，灌溉面积约35万亩。近几年，由于肆意使用坎儿井资源，缺乏管理，使坎儿井流域系统受到严重破坏，坎儿井的数量迅速减少。2003年坎儿井普查，吐鲁番有水的坎儿井已减少到405条，灌溉面积减少到13万亩左右。坎儿井作为吐鲁番盆地的农业文化遗产具有重要的文化内涵，已成为2000多年人类文明史上的里程碑，亦是世世代代居住在吐鲁番盆地的各族劳动人民改造和利用自然的巧妙创造。目前，当地政府按照农业部中国重要农业文化遗产保护工作要求，制定了保护规划和管理办法，采取有效措施，保护坎儿井，善待坎儿井，使这一伟大农业文化遗产得以继承，继续为火洲人民带来甘甜泉水。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020130613375412930742.jpg"" alt="""" src=""./W020130613375412930742.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dypzgzywhyc/201306/t20130613_3490519.htm"	"农业部乡镇企业局"	"1215"	"2013-06-13 09:42"
+"20"	"天津滨海崔庄古冬枣园"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　滨海崔庄古冬枣园位于天津市滨海新区大港太平镇崔庄村，毗邻荣乌高速公路，面积约3000亩，其中古冬枣核心区面积238亩，新枣试验区1300亩。600年以上枣树168棵，400年以上枣树3200棵，是我国成片规模最大及保留最完整的古冬枣林。</p>
+<p>　　古冬枣树是国内唯一的植物类全国重点文物保护单位，是活态的文物。明史记载，早在600多年前，人们就开始在古老的娘娘河北岸种植冬枣树。相传明孝宗皇帝曾和皇后张娘娘在这片冬枣林中采摘、品尝过冬枣，始建“皇家枣园”，这就是现被誉为冬枣之乡的崔庄古冬枣园。新中国成立后,冬枣除鲜食外并无它用，农民对冬枣园管理颇为粗放。1958年因大炼钢铁，大量古冬枣树被伐薪烧炭、熔炉炼钢。值得庆幸的是，在崔庄有识之士庇护下，少量成片古冬枣树得以保留，终将古冬枣树这一珍贵资源留存至今。</p>
+<p>　　近年来，大港地区不断发掘冬枣文化，推出了崔庄“冬枣文化节”“枣花姑娘评选”等活动，吸引了大量游客。随着大港地区冬枣种植规模的扩大，崔庄冬枣通过了“国家地理标志产品”“无公害农产品”认证，崔庄也获得了全国一村一品示范村、天津市旅游特色专业村、天津市十大美丽乡村、全国休闲农业与乡村旅游示范点、全国清洁能源村、天津市首批文明生态村等荣誉称号。</p>
+<p>　　为加强对崔庄古冬枣园的保护管理，滨海新区按照农业部中国重要农业文化遗产保护工作的要求，编制了滨海崔庄古冬枣园保护管理办法，遵照城乡一体化监督机制，由太平镇政府及崔庄村委会按照发展规划，对古冬枣园进行统一管理和保护，确保滨海崔庄古冬枣园这一宝贵财富得以传承和发展。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624556662231395.jpg"" src=""./W020140624556662231395.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948727.htm"	"农业部农产品加工局"	"753"	"2014-06-24 15:26"
+"21"	"河北宽城传统板栗栽培系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　河北宽城板栗栽培可追溯至东汉时期，至今已有3000多年。据传，康熙四十五年，康熙途经宽河城，正值板栗成熟，食后赞曰：“天下美味也”。时至今日，全县板栗种植面积达80万亩，栗树2600万株。其中，百年以上的板栗古树达10万余株，现存最老的板栗古树树龄逾700年，被誉为“中国板栗之王”。</p>
+<p>　　宽城传统板栗栽培系统是一种可持续的生态农业生产模式。人们依地形修建撩壕、梯田，栽植板栗，并在林下间作农作物，饲养家禽，用剪下的枝条栽培栗蘑。传统板栗园利用物理和生物方法防治病、虫、草害，形成梯田—板栗—作物—家禽复合生产体系。板栗树与周围其他植被共同构成独特的山地景观，并发挥着水土保持和水源涵养的重要作用。利用传统方法栽培，在光照充足、昼夜温差大、土壤富含铁的自然环境中生长，宽城板栗形成了色泽光亮，口感糯、软、甜、香的独特品质，素有“中国板栗在河北，河北板栗在宽城”的美誉。</p>
+<p>　　板栗栽培自古以来就是宽城农业的主导产业。板栗被誉为“铁杆庄稼”“木本粮食”，是当地居民主要的食物来源之一。目前，板栗带来的经济收益占当地农业收入的80%以上。当地人将板栗看作是吉祥的象征，在拜师、庆寿、婚嫁等重要时刻，都以栗子相赠，以示祝福。有关板栗的历史传说、民俗礼仪、文学作品不胜枚举，展现出丰富多彩的板栗文化。</p>
+<p>　　近年来，宽城采矿业的发展及农业劳动力的流失使传统板栗栽培系统的保护和传承面临巨大挑战。宽城县政府按照中国重要农业文化遗产保护工作的要求，制定了传统板栗栽培系统保护与发展专项规划和管理办法。通过板栗古树的保护、经营模式的创新和休闲农业的发展，从根本上解决农民增收、农业可持续发展和遗产保护问题。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624555899083375.jpg"" src=""./W020140624555899083375.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948725.htm"	"农业部农产品加工局"	"745"	"2014-06-24 15:24"
+"22"	"河北涉县旱作梯田系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　河北涉县旱作梯田系统位于河北省西南部，晋冀豫三省交界处，地处太行山东麓。涉县境内均为山地，全县旱作梯田总面积达21万亩。其中，最具代表性、最具规模的梯田位于井店镇王金庄，梯田面积1.2万亩，分为5万余块，土层厚的不足0.5米，薄的仅0.2米，石堰长度近万华里，高低落差近500米。在艰苦的自然条件下，涉县山民挑战自然、战胜自然，一代代在此繁衍生息。1990年，涉县旱作梯田被联合国世界粮食计划署专家称为“世界一大奇迹”“中国第二长城”。</p>
+<p>　　涉县旱作梯田建造历史悠久。据考证，从元代初期就有人开始修建梯田。随着人口的不断增加，修建进度也在不断加快，尤其到清代康熙、乾隆年间，因较长时间社会安定，人口增长速度较快，修田造地数量较大。</p>
+<p>　　涉县梯田展现了人工与自然的巧妙结合，在山巅登高望远，用石头垒起的梯田，犹如一条条巨龙蜿蜒起伏在座座山谷，并随着季节的变化呈现出各种姿态。梯田里农林作物丰富多样，谷子、玉米、花椒、柿子、黑枣等漫山遍野，各类瓜果点缀在万亩梯田里，呈现春华秋实的壮丽景象，迸发出人与自然的和谐之美，展现出震撼人心的大地艺术。目前，以王金庄为核心的河北涉县旱作梯田系统在促进地方农业增产增效、农民就业增收、农村稳定繁荣，以及在发展休闲农业、维持生态安全和科学研究等方面仍然具有重要价值。</p>
+<p>　　近年来，随着城市化进程的加快、现代农业的发展和人们对传统农业意识的淡漠，这种传承至今的珍贵、独特的农业系统正面临发展困境。目前，涉县人民政府按照农业部中国重要农业文化遗产保护工作要求，已出台了《河北涉县旱作梯田系统保护管理办法》，制定了河北涉县旱作梯田系统保护与发展专项规划。通过生物多样性的恢复、传统旱作梯田系统的文化传承以及与休闲农业的结合，从根本上解决农民的增收、农业的可持续发展和文化遗产保护问题，让这一具有重要价值的农业文化遗产绽放新的光芒。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624554610214370.jpg"" src=""./W020140624554610214370.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948723.htm"	"农业部农产品加工局"	"957"	"2014-06-24 15:23"
+"23"	"内蒙古阿鲁科尔沁草原游牧系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　内蒙古阿鲁科尔沁草原游牧系统位于大兴安岭西南余脉，是科尔沁草原和锡林郭勒草原的交接带，是一片历史悠久的天然牧场。核心区位于阿鲁科尔沁旗巴彦温都尔苏木，面积4 141平方公里，自古以来就是游牧民族狩猎和游牧活动的栖息地。蒙古族牧民熟知当地山川河流、草场分布和季节变化，根据雨水丰歉和草场长势决定一年四季的游牧线路，以及春、夏、秋、冬四季牧场的放牧时间。牧民—牲畜—草原（河流）之间形成了天然的依存关系。这种“三角关系”延续至今，不断孕育和发展着蒙古族人民所独有的生产方式、生活习俗、文化特质和宗教信仰，时刻体现着深藏在蒙古族人民血脉之中的崇尚天意、敬畏自然、天人合一的生活理念。</p>
+<p>　　阿鲁科尔沁草原游牧系统长期演化的历史过程和现实存在，向人们阐释了一个取物有时的道理。在农耕化浪潮和现代农牧业技术出现之前，对于生活在科尔沁草原上的历代游牧民来说，“逐水草而居”是唯一可行的生产生活方式。它充分利用大自然恩赐的资源和环境来延续游牧人的生存技能，人和牲畜不断地迁徙和流动，既能够保证牧群不断获得充足的饲草，又能够避免长期滞留带来的草地资源退化。</p>
+<p>　　当前，由于矿产资源开发、草场过载和天然草场大量占用，阿鲁科尔沁草原面临着生态系统恶化、生物多样性减少的威胁。同时，现代生产技术的应用和生活方式的改变，也给当地牧民传统的生产生活方式带来了巨大冲击。</p>
+<p>　　阿鲁科尔沁旗按照农业部中国重要农业文化遗产保护工作的要求，制定了内蒙古阿鲁科尔沁草原游牧系统的保护和发展规划，严格保护游牧系统栖息地和珍贵的草原文化遗产，深入挖掘传统游牧业的精髓，与现代畜牧业生产技术相结合，促进当地游牧民生活水平全面提高，使得内蒙古阿鲁科尔沁草原游牧系统不断散发出独特的魅力。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624553767964442.jpg"" src=""./W020140624553767964442.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948719.htm"	"农业部农产品加工局"	"765"	"2014-06-24 15:22"
+"24"	"浙江杭州西湖龙井茶文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　西湖龙井茶文化系统位于浙江省杭州市。西湖畔三面环山的自然屏障的独特小气候是保障龙井茶品质的重要因素，自古就是爱茶之人留连向往之处。杭州龙井茶文化系统是以龙井茶品种选育、种植栽培、植保管理、采制工艺和茶文化为核心的农业生产系统，以及该系统在生产过程中孕育的生物多样性，发挥的生态系统功能，呈现的人文和自然景观特征。</p>
+<p>　　西湖龙井茶历史悠久，距今已有一千多年的历史，最早可追溯到唐代。我国著名的茶圣陆羽，在其所撰写的世界上第一部茶叶专著《茶经》中，就有对杭州天竺、灵隐二寺产茶的记载。西湖龙井茶之名始于宋，闻于元，扬于明，盛于清。杭州西湖龙井茶素以色翠、形美、香郁、味醇冠绝天下，其独特的“淡而远”“香而清”的绝世神采和非凡品质，在众多的茗茶中独具一格，冠列中国十大名茶之首。新中国成立后，党和国家领导人对西湖龙井推崇备至。毛泽东刘庄采茶、刘少奇钟爱龙井茶、周恩来情系梅家坞等，使得龙井茶美名冠盖天下。</p>
+<p>　　龙井茶的采制技术相当考究。龙井茶采摘有三大特点：一是早，二是嫩，三是勤。由于产地生态条件和炒制技术的差别，西湖龙井向有“狮”“龙”“云”“虎”“梅”五个品类之别。</p>
+<p>　　悠久的历史和深厚的文化底蕴，让西湖龙井茶融入到杭州的角角落落。梅家坞、龙坞茶村、茅家埠等茶文化休闲旅游，吸引了无数慕名而来的游客。思绪轻轻随着茶中的涟漪，向悠远的中华文明荡漾开来，细细的品味，或许能从一盏茶里，渐渐地品出牵扯古韵遗梦的情怀来。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624553104963006.jpg"" src=""./W020140624553104963006.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948712.htm"	"农业部农产品加工局"	"900"	"2014-06-24 15:20"
+"25"	"浙江湖州桑基鱼塘系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　湖州桑基鱼塘系统位于浙江省湖州市南浔区西部。现存有6万亩桑地和15万亩鱼塘，是中国传统桑基鱼塘系统最集中、最大、保留最完整的区域。湖州桑基鱼塘系统形成起源于春秋战国时期。千百年来，区域内劳动人民发明和发展了“塘基上种桑、桑叶喂蚕、蚕沙养鱼、鱼粪肥塘、塘泥壅桑”的桑基鱼塘生态模式，最终形成了种桑和养鱼相辅相成、桑地和池塘相连相倚的江南水乡典型的桑基鱼塘生态农业景观，并形成了丰富多彩的蚕桑文化。桑基鱼塘系统是我国乃至世界史上人们认识、利用、改造自然的一个伟大创举，是世界传统循环生态农业的典范，是一项重要、宝贵的农业文化遗产。</p>
+<p>　　桑基鱼塘系统是一种具有独特创造性的洼地利用方式和生态循环经济模式。其最独特的生态价值实现了对生态环境的“零”污染。整个生态系统中，鱼塘肥厚的淤泥挖运到四周塘基上作为桑树肥料，由于塘基有一定的坡度，桑地土壤中多余的营养元素随着雨水冲刷又源源流入鱼塘，养蚕过程中的蚕蛹和蚕沙作为鱼饲料和肥料，生态系统中的多余营养物质和废弃物周而复始地在系统内进行循环利用，没有给系统外的生态环境造成污染，对保护太湖及周边的生态环境及经济的可持续发展，发挥了重要的作用。桑基鱼塘系统是人与自然和谐相处，儒家“天人合一”的“仁爱”生态伦理道德观的典范，也是体现我国道家生态哲学思想的样板。</p>
+<p>　　近年来，由于水产效益高于养蚕效益，导致重养鱼、轻养蚕，鱼塘面积增大，桑基面积缩小。基塘比例的失调，已经影响到桑基鱼塘生态农业系统的可持续发展。为保护这一重要农业文化遗产，湖州市委、市政府按照农业部中国重要农业文化遗产保护工作的要求，出台了《湖州市桑基鱼塘保护办法》，全面实施桑基鱼塘系统的保护与发展，促进传统桑基鱼塘生态系统的转型升级，使桑基鱼塘这一太湖边璀璨的明珠重放光彩。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624552380492130.jpg"" src=""./W020140624552380492130.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948709.htm"	"农业部农产品加工局"	"1836"	"2014-06-24 15:19"
+"26"	"浙江庆元香菇文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　庆元香菇种植始于800多年前，据传由香菇始祖吴三公（1130—1208）在庆元龙岩村发明剁花法生产香菇而成。自此，庆元菇民依托良好的生态环境和丰富的森林资源，从事香菇生产延续至今，形成了总面积1 898平方公里的包括森林可持续经营、林下产业发展、香菇栽培和加工利用技术、香菇文化和地方民俗在内的农业文化遗产系统。</p>
+<p>　　浙江庆元香菇文化系统经历了三个发展阶段，代表了香菇生产技术的不断革新：800多年前吴三公发明剁花法，1967年庆元利用香菇菌种栽培段木香菇成功，1979年成立庆元县食用菌科研中心开展代料香菇栽培技术研究和推广。吴三公发明剁花法的伟大成就，在于它使深山老林中的“朽木”得到充分合理的利用，开创了森林菌类产品利用之先河。吴三公的发明，也使庆元成为世界香菇之源，为中国摘取了一项世界农业的桂冠。</p>
+<p>　　800多年来，香菇产业一直是庆元人民赖以生存的传统产业，菇民足迹遍布全国11个省200多个市县，庆元香菇以“历史最早、产量最高、市场最大、质量最好”闻名于世。与此同时，庆元菇民世代在深山老林中劳作，创造形成了包括菇山语言“山寮白”、地方剧“二都戏”、香菇武功等绚丽多姿的香菇文化。</p>
+<p>　　由于传统农业生产生活条件恶劣，加上现代农业技术的不断冲击，庆元传统香菇栽培技术与文化面临严重威胁。随着国内外对农业文化遗产价值及保护重要性认识的不断提高，庆元高度重视香菇相关的农业文化遗产的挖掘与保护，全面开展香菇相关传统技艺调查工作，并通过加强菇木林资源培育、种质资源保护利用、优新品种选育、高效栽培技术研究与推广、标准化生产基地建设等一系列举措，促进庆元香菇这一传统优势产业获得可持续发展。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624551668354290.jpg"" src=""./W020140624551668354290.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948707.htm"	"农业部农产品加工局"	"1257"	"2014-06-24 15:18"
+"27"	"福建安溪铁观音茶文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　福建安溪铁观音茶文化系统位于福建省东南部晋江西溪上游的安溪县西坪镇，居山而近海。核心区位于安溪县西坪镇，包括松岩、尧山、尧阳、上尧、南阳5个村。该区春末夏初，雨热同步；秋冬两季，光湿互补，十分适宜茶树生长。</p>
+<p>　　安溪铁观音起源于唐末，兴于明清，盛于当代，近300年的发展铸就了“安溪铁观音茶文化”的标签。福建安溪铁观音茶文化系统，是以传统铁观音品种选育、种植栽培、植保管理、采制工艺和茶文化为核心的农业生产系统，以及该系统在生产过程中孕育的生物多样性，发挥的生态系统功能，呈现的人文和自然景观特征。</p>
+<p>　　福建安溪铁观音茶文化系统，是铁观音的发源地。铁观音既是茶叶名称，又是茶树品种名称。清雍正年间在福建省安溪县西坪镇发现并开始推广。其由来有两种传说：魏说——观音托梦和王说——乾隆赐名。</p>
+<p>　　福建安溪铁观音茶文化系统，孕育了多项茶树无性繁殖的技术，并创制了乌龙茶的制作技术。明末清初，安溪茶农发明了独特的制茶工序——包揉，形成了独特的“半发酵”茶类——乌龙茶，同时根据季节、气候、鲜叶等不同情况灵活运用“看青做青”和“看天做青”技术。福建安溪铁观音茶文化系统推广了带状茶—林模式。树种以豆科的乔木和小乔木为主，起到根系固氮、夏天遮荫、冬天落叶覆盖地表的功能。套种一年生绿肥，梯壁种草护草，以覆盖地表，保持水土，提供生物栖息场所，蕴含了深刻的生态学哲理。</p>
+<p>　　可以说，安溪劳动人民的勤劳和智慧造就了独特的铁观音茶文化系统和丰富多彩的文化传承，是当之无愧的农业文化遗产。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624550857625729.jpg"" src=""./W020140624550857625729.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948705.htm"	"农业部农产品加工局"	"655"	"2014-06-24 15:17"
+"28"	"江西崇义客家梯田系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　崇义客家梯田位于江西省崇义县，坐落在海拔2061.3米的赣南第一高峰齐云山山脉之中，总面积达3万亩。梯田最高海拔1260米，最低280米，垂直落差近千米，最高达62梯层，且大多数为只能种一二行禾的“带子丘”和“青蛙一跳三块田”的碎田块。与广西龙胜梯田、云南元阳梯田并列为中国三大梯田，是“中国三大梯田奇观之‘秀丽天梯’”，被上海大世界基尼斯认证为“最大的客家梯田”。</p>
+<p>　　崇义客家梯田始建于元朝，完工于清初，距今已有800多年的历史。关于梯田的记载，最早见于明代理学家、明都御史王守仁撰写的《立崇义县治疏》，从广东迁入的客家先民来到这荒山野岭，为了维持生计，便依山建房，开山凿田。在长期耕作过程中，客家人逐渐形成不同于其他农区的文化习俗，处处渗透出梯田文化的精神，成为客家农耕文明的一道奇观。其中最具代表性的是“舞春牛”。在客家人的心目中，千百年来和他们一道辛勤耕耘这片土地的牛就是神。“舞春牛”先后被列入江西省市级、省级非物质文化遗产保护项目。其他诸如“田埂文化”“猎酒文化”“饮食文化”“农耕谚语”等，也都体现了客家人热情好客、勤劳朴实以及重义轻利的纯朴品性与丰富的文化多样性。</p>
+<p>　　随着经济社会的发展，年轻一代的客家人对传统农业生产技术掌握甚少，传统农耕技术面临失传的境遇；传统种植模式很难与现代化农业展开竞争，当地村民改变作物种植品种，由种植传统农作物变为种植经济作物，这一现象将威胁梯田的种植面积及生物景观。这些因素都将导致梯田被破坏、被抛弃。</p>
+<p>　　为了加大客家梯田的保护力度，崇义县人民政府通过制定保护规划，恢复生物多样性，传承传统农耕文化，以及发展乡村旅游产业，让这一具有重要价值的农业文化遗产重新绽放光芒。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624550116158352.jpg"" src=""./W020140624550116158352.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948703.htm"	"农业部农产品加工局"	"793"	"2014-06-24 15:15"
+"29"	"山东夏津黄河故道古桑树群"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　中国树龄最高、规模最大的古桑树群位于山东夏津县东北部黄河故道中。夏津黄河故道古桑树群占地6 000多亩，百年以上古树2万多株，涉及12个村庄，被命名为“中国椹果之乡”，是远近闻名的“中国北方落叶果树博物馆”，是国际生态安全旅游示范基地。</p>
+<p>　　山东夏津古桑树种植时期跨元明清三朝。特别是清康熙十三年（公元1674年）至20世纪20年代，百姓掀起植桑高潮，鼎盛时期种植面积达8万亩。相传此间树木繁盛，枝杈相连，“援木可攀行二十余里”。千百年的选育，桑树在夏津已由“叶用”变为“果用”。附近居民多食桑椹而长寿，因此桑园又叫“颐寿园”。古桑树群群落结构复杂、生态稳定。群落以桑树为主，间有其他落叶乔木、灌木和草本。数百年的古桑，枝繁叶茂，根系发达，冠幅10米的古桑树，年产桑果400千克，鲜叶225千克，在风沙区，发挥着保持水土的巨大作用。夏津县的劳动人民还探索出了一套桑树“种植经”。他们用土炕坯围树，畜肥穴施，犁伐晒土等方法施肥和管理土壤；用油渣刷或塑料薄膜缠树干的方法防治害虫，天然无公害；采用“抻包晃枝法”采收，当地流传着“打枣晃椹”的说法。历史上山东夏津古桑树群遭受过三次大的破坏，面积从8万亩锐减到6 000多亩。现在，劳动力缺乏、农药化肥污染等原因使古桑树再次面临着生存威胁。目前，夏津县政府按照农业部中国重要农业文化遗产保护工作的要求，制定了古桑树群保护与发展规划；注册了夏津椹果地理标志证明商标；同时被中国中药材种植专业委员会评定为“道地优质药材种植基地”，延伸桑产品加工产业链，在加工生产东方紫酒、桑叶茶的基础上对桑树的药用功能进行研究与开发。</p>
+<p>　　见证了沧海桑田的壮举，承载着厚重的黄河文化和桑文化，山东夏津黄河故道古桑树群给当地带来了良好的生态环境和生存保障，并将通过文化和产业的联动发展，焕发新的生机。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624549115880050.jpg"" src=""./W020140624549115880050.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948700.htm"	"农业部农产品加工局"	"1769"	"2014-06-24 15:14"
+"30"	"湖北赤壁羊楼洞砖茶文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　湖北赤壁羊楼洞砖茶文化系统位于幕阜山脉北麓余峰、湘鄂交界的低山丘陵地带，是茶马古道的三大源头之一。羊楼洞砖茶历史悠久，源于唐，盛于明清，是全世界公认的青（米）砖茶鼻祖之地。在明清两朝，赤壁羊楼洞凭茶一跃为国际名镇，俗称“小汉口”。清朝乾隆年间“三玉川”和“巨盛川”两茶庄特别压制的代表羊楼洞三口泉水的“川”字品牌砖茶被评为国内驰名商标。2013年以来，赤壁先后被授予“中国青砖茶之乡”“中国米砖茶之乡”的称号。</p>
+<p>　　羊楼洞砖茶在国际贸易史上展示过骄人的辉煌，在国内西域各民族的交往中，为促进民族团结起了非常重要的作用。19世纪到20世纪初，羊楼洞更是成为中俄茶叶国际商道的起点，砖茶从羊楼洞由独轮车运抵新店装船，经汉口逆汉水至唐河，再转运内蒙古，进入俄罗斯的恰克图、西伯利亚至莫斯科和圣彼得堡，在一千多年历史的茶马古道上，形成了独特的“羊楼洞砖茶文化”。湖南农业大学刘仲华教授长期研究认为，砖茶具有200多种有益人体健康成分，拥有降血脂、减肥、降血糖、降尿酸、降血压、软化血管、防治心血管疾病抵御，以及修复酒精性肝损伤、调理肠胃、抗辐射等八大养生保健功能。</p>
+<p>　　羊楼洞曾经的辉煌留在了人们的记忆深处，由于多种因素影响，砖茶独特的制作工艺和砖茶文化就像濒危的物种一样亟须得到保护和继承。1996年，市政府将因羊楼洞砖茶而闻名的羊楼洞明清石板街列为文物保护单位；2002年，湖北省政府又再次将羊楼洞明清石板街列为重点文化保护单位。砖茶是祖先留给赤壁人的财富。目前，赤壁市以中国重要农业文化遗产申报为契机，依托深厚历史文化和丰富的产业资源优势，市委市政府明确把茶产业作为现代农业的支柱产业，提出“擦亮百年品牌，延续百年茶香，打造百亿产业”的发展战略，努力推进茶产业发展之际，也留住传承千年的历史文化。传承羊楼洞砖茶文化，发展砖茶产业，让更多的人重视羊楼洞砖茶文化和学习羊楼洞砖茶制作工艺，将有助于保护和发展羊楼洞砖茶文化系统，更快更好地推动赤壁市以文化为依托的茶产业的发展。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624548238840695.jpg"" src=""./W020140624548238840695.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948693.htm"	"农业部农产品加工局"	"699"	"2014-06-24 15:12"
+"31"	"湖南新晃侗藏红米种植系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　湖南新晃侗藏红米种植系统是新晃侗乡数千年来农耕文明的历史传承。红米稻种更是珍贵的、难得的物种资源。千百年来，侗藏红米凭着独特的人文地理环境和栽培习俗，在杂交水稻发祥地湖南怀化的新晃侗乡得以保存下来。侗藏红米不仅是侗家人的食粮，更是侗家人崇尚自然的精神支柱，被侗家人视为神米，与巫傩文化、祭祀文化、生育文化、歌舞文化、节庆文化等侗民俗文化有着密切的联系。</p>
+<p>　　新晃侗藏红米种植系统体现了生态农业和循环农业的理念。山上封山育林，山下引水灌溉，林稻相间，相辅相成。水旱轮作的循环系统，既丰富了农作物的种植结构，又改善了土壤的营养成分。种植系统与养鱼养鸭系统的有机结合，无形中建立了一套良性循环的农业生态体系。</p>
+<p>　　新晃侗藏红米种植系统有8000年的历史传承。在现代农业技术影响越来越大的今天，保留丰富的稻种资源不仅对丰富我国稻类遗传资源、稻作生产、品种改良、稻作科学研究及生态安全有着积极的作用，也是解决人类未来粮食安全的物质保证。</p>
+<p>　　侗藏红米除含有丰富的硒、铁、锌、钙、镁等微量元素以及植物性蛋白质、植物性脂肪外，还富含B1、B2、B6等多种维生素和18种人体必需的氨基酸，综合营养价值远胜过泰国香米。</p>
+<p>　　当前，由于认识不足、政策缺失、农村劳动力锐减，加之受城镇化与工业化的冲击及优质杂交水稻的全面推广，化肥、农药等现代农业技术的大量使用等因素影响，侗藏红米种植系统的传承与发展面临了很大挑战。近年来，政府通过建立核心保护区等措施，对侗藏红米种植系统进行重点保护，力争让保护区农民在充分受益的同时，侗藏红米种植与红米文化也得到进一步的传承、保护和开发利用。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020140624547204410350.jpg"" alt="""" src=""./W020140624547204410350.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948687.htm"	"农业部农产品加工局"	"1062"	"2014-06-24 15:10"
+"32"	"广东潮安凤凰单丛茶文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　广东潮安凤凰单丛茶文化系统位于潮州市北部山区的凤凰镇，面积230平方公里。凤凰镇是中国名茶之乡、中国乌龙茶之乡，广东名镇，广东茶叶专业镇、旅游特色镇。现有茶园面积6万多亩，年产茶叶300多万千克。凤凰茶品质好，在国内外各项茶叶评比中屡获殊荣。</p>
+<p>　　凤凰单丛茶始于南宋末年，历经600多百年数十代人的传承，资源物种仍基本保持历史原貌。单丛茶树文化遗产资源主要存在境内海拔600～1200米的中高山。多年来，各级政府十分重视对凤凰古茶树的保护工作，1980年组织进行了一次系统的调查，仅200年以上的古茶树便有3700多株。凤凰古茶树被专家誉为“中国之国宝，是世界罕见的优稀茶树资源”。</p>
+<p>　　茶叶种植是当地人民的主要经济来源，是潮州茶文化的重要组成部分。凤凰单丛古茶树是不可再生的遗传资源。古茶树易因病虫侵害、管理失当等原因死亡。仅1996—1998年，就有80株古茶树死亡，单丛古茶树遗传资源的数量不断下降。</p>
+<p>　　为保护和利用好这一农业文化遗产资源，潮安县政府将加大对古茶树的宣传保护力度，制定古茶树的保护措施，做好古茶树登记造册确认，加强凤凰单从茶文化系统母本园建设，保护种质资源，引导茶农科学管理古茶树，推进无公害茶叶标准化生产，并结合凤凰山美丽自然风光，广东省现代农业示范区、凤凰天池、畲族聚居地、凤凰茶文化中心等，规划开发中国重要农业文化遗产保护区，发展山区特色农业，保护茶区农业生态。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624546019587714.jpg"" src=""./W020140624546019587714.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948679.htm"	"农业部农产品加工局"	"484"	"2014-06-24 15:08"
+"33"	"广西龙胜龙脊梯田系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　广西龙胜龙脊梯田系统地处广西桂北龙胜山区，分为平安壮寨梯田、龙脊梯田和金坑红瑶梯田三个部分。悠久的历史，良好的生态，丰富的种质资源，蔚为壮观的梯田景观和独特的壮、瑶民俗风情使龙脊梯田的自然生态与民族文化得到了高度的融合，声名享誉中外。</p>
+<p>　　龙脊梯田始建于宋代，完工于清初，距今已有800多年的历史。居住在这里的少数民族先民用“刀耕火种”开山造地，把坡地整为梯地，待田块逐渐定型后，再灌水犁田种植水稻，形成从山脚盘绕到山顶“小山如螺，大山成塔”的壮丽梯田景观。龙脊梯田地处亚热带，四季分明。梯田所在山脉山高谷深，落差巨大，海拔最高为1 850米，最低只有300米。山顶是大面积的原始森林和次生林，森林下方是规模宏大的梯田，壮寨和瑶寨散布在山腰。独特的地理和生态条件使得龙脊梯田周边远有高山云雾，近有河谷急流，风景极其秀美，有“世界梯田之冠”的美誉。当地壮、瑶居民根据海拔差异因地制宜的种植水稻、辣椒、红薯、芋头等普通作物和茶叶、罗汉果、凤鸡、翠鸭等地理标志性农副产品，保存和培育了丰富的作物种质资源。</p>
+<p>　　八百多年来，龙脊梯田已融入了当地居民的生活与文化的各个方面。这里保存着以梯田农耕为代表的稻作文化、以“白衣”为代表的服饰文化、以干栏民居为代表的建筑文化、以铜鼓舞和弯歌为代表的歌舞文化和以“龙脊四宝”为代表的饮食文化，构成了龙脊梯田独具特色的文化吸引力。</p>
+<p>　　近年来，当地人民利用梯田积极从事特色农副产品生产、加工和休闲农业产业。目前，龙胜县委、县政府按照农业部中国重要农业文化遗产保护的要求，专门制定了保护规划和管理办法，加大挖掘、保护、传承的力度，让龙脊梯田系统，为桂北少数民族山区在保持优良生态的基础上促进农民增收，推进农业现代化，发挥更大的作用。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624543713281154.jpg"" src=""./W020140624543713281154.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948666.htm"	"农业部农产品加工局"	"650"	"2014-06-24 15:04"
+"34"	"四川江油辛夷花传统栽培体系"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　四川江油辛夷花传统农业系统位于江油市大康镇旱丰村吴家后山，海拔1200～2179米，核心区面积25平方公里。系统内植被和生态环境良好，动植物资源和旅游资源极为丰富，素有“江油神龙架”之称。自古以来，栽种辛夷树、采摘辛夷花，林下种植天麻、百合、乌药，林间养蜂、放养山鸡、牛羊等传统耕作方式一直延续至今。其中乌药、土豆是坝区江油道地附子和土豆的重要种源地。</p>
+<p>　　吴家后山独特的地理位置和自然条件，造就了辛夷花独特的品质。通过山顶原始森林植被涵养截留，储存天然水分，是江油市区居民生活和江彰平原农业生产的水源地之一。辛夷花、树皮入罐为药、上桌为膳，有养生治病之功效。康熙年间，吴三桂家族来吴家后山避乱隐居，开始栽植辛夷花树，并在家族中形成了祭祀、节庆参拜辛夷树王和栽种辛夷来祈福的习惯，代代相传。</p>
+<p>　　吴家后山现存古辛夷树6万余株，有颜色各异的花海60余处，树龄最长的近400年，垂直分布在吴家后山腹地，其栽培历史久远、花色品种齐全、规模之大，已成为全国最大的辛夷花基地。如今，山腰绵延数十里的辛夷花和林下产品已成为山下人们喜爱的生态食品，也是人们休闲、避暑、赏花、观景、养生的最佳选择地。2013年被评为四川“九大最美赏花目的地”和“二十大摄影基地”之一。</p>
+<p>　　随着景观价值的提高，观光人数增加，辛夷花海景观、采摘方式、幼树栽播、林下种养等传统的农耕方式面临严峻挑战，保护性开发势在必行。江油市委、市政府按照农业部中国重要农业文化遗产保护工作要求，先后发布了《关于加强吴家后山林木资源保护的通告》《江油市重要农业文化遗产保护与管理办法》，编制了《吴家后山辛夷花保护与发展规划》，完善了保护措施、明确了职责，实行严格的考核制度，同时将该地纳入休闲农业与乡村旅游示范县项目建设内容。通过对辛夷花的保护性开发利用，这一具有重要价值的川西北重要农业文化遗产将绽放新的光芒。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624542739215148.jpg"" src=""./W020140624542739215148.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948656.htm"	"农业部农产品加工局"	"593"	"2014-06-24 15:01"
+"35"	"云南广南八宝稻作生态系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　广南八宝稻作生态系统位于云南省东南部，文山壮族苗族自治州东北部，地处滇、桂、黔三省交界，地域面积2800平方公里，适宜八宝稻种植总面积15万亩。</p>
+<p>　　八宝稻作生态系统最早可追溯到公元前1200年前。历为明清贡米的八宝米因产于广南县八宝镇而得名。有“塞上小桂林”之称的八宝，素为上善之地，坐拥稀缺珍贵资源，仰自然恩赐。八宝稻作不仅天赋凛然，更能够精确地把控种植生产体系，精选土地，人畜耕种，顺时而为，培植有道。八宝米色泽晶莹透亮，成饭后，饭粒软和，富于黏性，柔软而不烂，饭冷而不散，清香可口。八宝镇无可比拟的日照条件，恰到好处的雨露滋润，滋养了自然天成的八宝稻米。1981年，广南八宝米被国家列为名贵稻种之一。</p>
+<p>　　追本溯源，探寻八宝米的来历，可以确认数千年来是壮族人民驯化并培育了八宝稻米。在漫长的历史长河中，八宝壮民们创造了绚丽多姿的优秀文化，形成了一系列富有特色的农耕文化、民俗、艺术、宗教信仰与社会制度。这些都是不可复制的活态文化。她就像一块活化石，记录了整个壮族社会、经济、文化的历史发展概貌。</p>
+<p>　　如今，八宝稻作生态系统正面临着气候变化与社会变迁的双重威胁，且稻作系统本身存在效益较低、企业带动力度不足、科技支撑薄弱等问题，亟须得到系统的保护与发展。为使这一珍贵的农业文化遗产持续焕发生机，广南县按照农业部中国重要农业文化遗产保护的要求，对八宝稻作生态系统的保护工作投入专项经费，在资金上、政策上给以保障，并通过宣传、教育以及休闲农业的开展等，系统保护，打造品牌，从根本上解决农民增收、农业可持续发展和文化遗产保护问题。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624540847713690.jpg"" src=""./W020140624540847713690.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948647.htm"	"农业部农产品加工局"	"746"	"2014-06-24 14:58"
+"36"	"云南剑川稻麦复种系统"	"第二批"	"<style id=""_Custom_V6_Style_"" type=""text/css"">#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style><p>　　云南剑川稻麦复种系统位于云南省大理白族自治州剑川县，涵盖全县7万亩水稻面积，核心区为金华镇、甸南镇和沙溪镇，核心区面积3万亩。剑川素有“文献名邦”“木雕之乡”“白族文化的聚宝盆”和“云南文明的发源地”之美誉。每年5—6月份栽种水稻，10—11月份水稻收获后，翻耕播种大麦或者小麦，来年5—6月收获，麦茬翻耕后再栽水稻。水旱轮作，提高复种指数，减轻病虫草害，改善土壤结构，促进养分循环。</p><p>　　自3000多年前新石器时代晚期开始，剑川稻麦复种水旱轮作的耕作方式一直延用至今。绵亘不断的横断山脉阻隔不了稻麦复种农业文化的传播发展，一年两熟的稻麦复种仍然是当今剑川县主要耕作制度，是传统农业生产发展的历史见证和缩影，是农业文化、生物多样性、人与自然和谐发展的典型代表，具有文化、生态、经济等多重价值。春耕夏耘、秋收冬藏，亘古不衰的稻麦复种系统蕴含的生态价值理念、自然农法思想以及古老农具、农耕技术，处处或隐或显地展现了白族先民的身影和智慧。厚重的稻麦复种系统农业文化对当今国民修身养性、构建和谐社会、协调人地关系、走生态文明之路、实现可持续发展依然具有重要的积极意义。</p><p>　　受到气候变化、自然灾害、城市化、工业化、科技发展、外来文化等因素的影响，云南剑川稻麦复种系统生物多样性减少，农业生态环境退化，传统农业生产工具面临消失，农村劳动力特别是年轻劳动力有向城市流动趋势。传统农耕的方式正在面临被破坏、抛弃的危险，挖掘、保护和传承工作势在必行。按照农业部中国重要农业文化遗产保护要求，剑川县政府制定了稻麦复种系统农业文化保护与发展规划和措施，做好稻麦复种系统及相关的生物多样性、传统农耕方式、农业文化和景观等的保护、开发和利用，并与现代农业、生态农业、休闲农业结合，提高农业收益，促进地方经济和社会的发展。</p><p style=""text-align:center;""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624527002680141.jpg"" src=""./W020140624527002680141.jpg""/> </p>"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948583.htm"	"农业部农产品加工局"	"452"	"2014-06-24 14:34"
+"37"	"甘肃岷县当归种植系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　甘肃岷县当归种植系统地处黄河上游生态脆弱区，是我国西北生态屏障。系统位于甘肃定西市西南部，正处于陇中黄土高原、甘南草原和陇南山地接壤区，位居定西、甘南、陇南、天水四区（州、市）几何中心，享有陇原“旱码头”美称，是“茶马古道”重镇和甘肃南部重要的商品集散地。</p>
+<p>　　特殊的区位造就了独特的自然人文景观、农耕文化、民俗文化。岷县人的习俗、节庆、商贸、饮食、建筑、服饰、耕作习惯等无不与当归息息相关。千百年来，当归在岷县这块土地上传承发展，成为岷县农民的主要经济来源和富民强县的支柱产业。独特的栽培条件和传统栽培技术以及加工炮制技术造就了“岷归”品牌，“岷归”已成为我国中医药文化遗产的重要组成部分。独特的当归农耕文化形成了独特复合的农业文化传承。这种独特复合的农业文化传承是当地传统文化的宝贵财富，构成了传统文化的基础，同时也是当地居民适应独特的地理区位和生态环境的必然选择，是促进当地经济社会发展的基础。</p>
+<p>　　甘肃岷县当归种植系统正在面临现代生产和生活方式转变的冲击和威胁，传统的栽培、加工炮制技术濒临失传，重金属残留和土壤污染日益严重，对千百年来积淀的岷归传统农耕文化提出了严峻挑战，挖掘、保护、传承工作迫在眉睫。目前，岷县人民政府按照农业部中国重要农业文化遗产保护工作要求，制定了岷归种植系统保护与发展规划和管理办法，通过生物多样性的恢复，传统农耕文化的传承，与休闲农业的结合，从根本上解决农民增收、农业可持续发展和文化遗产保护、传承问题，让“岷归”这朵祖国中医药花园的奇葩散发出迷人的芳香，让这一具有重要价值的农业文化遗产更加熠熠生辉。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624524565968352.jpg"" src=""./W020140624524565968352.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948575.htm"	"农业部农产品加工局"	"844"	"2014-06-24 14:28"
+"38"	"宁夏灵武长枣种植系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　灵武素有“塞上江南、水果之乡”之美誉，灵武长枣从唐朝开始就被列为皇室贡品，被誉为“果中珍品”，距今已有1300年的栽培历史。2003年以来，灵武长枣这一古老的优良品种得到大规模发展，种植面积达到14.2万亩。目前，“灵武长枣”品牌逐步向绿色食品、有机食品行列发展，灵武长枣成为地理标志产品、中国名牌农产品，取得了宁夏著名商标、中国驰名商标的认证，灵武也获得“中国灵武长枣之乡”、“全国枣产业十强县”等荣誉称号。</p>
+<p>　　灵武长枣是经过长期自然筛选出来的具有地方特色的鲜食珍品，抗逆性强，果实营养丰富，药用价值高，发展潜力大。果实长椭圆形，平均单果重18.1克，最大单果重达40克，汁液多，酸甜适口，营养丰富，品质极佳。截至2013年，灵武长枣种植系统挂果面积5万亩，最高长枣年产量达920万千克，实现产值过亿元。灵武长枣产品市场广阔，形成了较好的品牌效应。</p>
+<p>　　随着长枣产业的发展，灵武长枣品种选优技术创新遭遇瓶颈，龙头企业规模小,枣深加工发展缓慢，发展后劲不足等问题凸显。为了传承和保护好这一农业文化遗产，灵武市先后制定了《灵武市农业文化遗产保护规划》《灵武市灵武长枣保护管理办法》《灵武市枣博园管理实施方案》《灵武市枣博园管理办法》，出台了《关于进一步加快发展灵武长枣产业的意见》，建成了“世界枣树博览园”，成立了灵武市世界枣树博览园管理中心。灵武市还通过扩大种植规模，优化品种结构，实施无公害标准化生产，培育、壮大长枣储运和深加工龙头企业，开拓市场，挂牌保护灵武长枣百年老树；举办灵武长枣文化节；加快灵武长枣良种选育；加大基地标准化技术推广力度；建立完善的营销体系等方面来推动灵武长枣产业发展。</p>
+<p>　　目前，市委、市政府把挖掘、整理、保护、发展作为灵武长枣产业发展的主线，全力保护这一令人瞩目的农业文化遗产品牌，推动灵武经济、社会的跨越发展。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020140624520787637403.jpg"" src=""./W020140624520787637403.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948563.htm"	"农业部农产品加工局"	"749"	"2014-06-24 14:24"
+"39"	"新疆哈密市哈密瓜栽培与贡瓜文化系统"	"第二批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p>　　新疆哈密市哈密瓜栽培与贡瓜文化系统位于新疆维吾尔自治区哈密市，地处新疆最东端，是新疆的东大门，自古就是丝绸之路上的重镇，有着悠久的历史和灿烂的文化。哈密是哈密瓜的故乡，以盛产哈密瓜闻名于世，瓜以地名，地以瓜闻。哈密瓜是在哈密特定的气候条件和自然环境中孕育出来的名优产品，已有2 000多年的栽培历史。哈密瓜栽培品种繁多，仅地方品种就有124个，其中栽培较广的有40多种。主要种植区域集中在哈密市花园乡、南湖乡、回城乡等地。这里曾是哈密回王贡瓜种植地，第13代贡瓜传人尼亚孜·哈斯木老人依然在这里运用传统方式种植着传统的哈密瓜。</p>
+<p>　　加格达瓜是哈密回王的进贡之瓜，只产在哈密。康熙三十七年（1698年），清廷理藩院郎中布尔塞来哈密编设旗队，哈密一世回王额贝都拉多次以清脆香甜、风味独特的哈密甜瓜招待他。次年冬，哈密回王额贝都拉奉旨入京觐见，又精心挑选了100个哈密甜瓜送到京城，康熙皇帝品尝完后，赞不绝口，以地赐名“哈密瓜”。康熙皇帝赐名后，哈密回王年年都将“哈密瓜”作为贡品贡至朝廷，“贡瓜年年渡卢沟”成为定例。为保证贡瓜风味品质，哈密回王划出了专门的贡瓜种植基地，指派专人种植，在品种选择、施肥浇水、栽种管理、收获贮运等方面都作了精心安排，努力保证贡瓜的独特品质。</p>
+<p>　　为了保护和传承哈密瓜栽培与贡瓜文化系统，哈密市制定出台了相关的保护规划、管理办法和地方标准，修葺了哈密王府，打造了全国唯一的哈密瓜主题公园——哈密瓜园，并自1993年至今连续举办了十届“中国·哈密‘甜蜜之旅’”哈密瓜节。</p>
+<p>　　哈密瓜是上天赐给哈密这块绿洲的瑰宝，在新“丝绸之路经济带”上，哈密瓜栽培与贡瓜文化系统作为弥足珍贵的农业文化遗产仍在为世界增添一抹绿色，为生活增添一缕瓜香。</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020140624359055280920.jpg"" alt="""" src=""./W020140624359055280920.jpg""/></p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/depzgzywhyc/201406/t20140624_3948056.htm"	"农业部农产品加工局"	"573"	"2014-06-24 09:54"
+"40"	"北京平谷四座楼麻核桃生产系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""justify"">　　</p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928619305495321.jpg"" src=""./W020150928619305495321.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928619305496149.jpg"" src=""./W020150928619305496149.jpg""/></p>
+<p>　　平谷位于北京市东北部，地处燕山山脉南麓和华北平原北端交汇处，三面环山，中间为平川谷地。平谷历史悠久，早在1万多年前就有人类繁衍生息，境内现有古文化遗址40多处，7000多年前的“上宅文化”就发源于此。</p>
+<p>　　四座楼山出土的核桃被认为是我国起源最早的，现存的十几株300-500年的麻核桃树被认定是我国树龄最老的麻核桃古树。平谷的先民采用播种、嫁接等技术将野生麻核桃进行繁殖，经过千百年的传承、演化与发展，拥有了四座楼、老闷尖、三道筋等一系列优秀的文玩核桃品种，果形独特、品质优良。</p>
+<p>　　千百年来，平谷地区形成了灿烂的文玩核桃文化，如收藏、雕刻、民风民俗等，每年定期举办文玩核桃擂台赛，吸引海内外的广大核友聚会交流。麻核桃生产系统在催生休闲旅游发展的同时，也较好地保护了当地的生态环境。</p>
+<p align=""justify"">　　当前，平谷四座楼麻核桃生产系统正在面临现代生产方式的冲击和威胁，对千百年来积淀的麻核桃文化提出了严峻挑战，保护工作迫在眉睫。平谷区政府按照中国重要农业文化遗产保护工作要求，制定了《平谷文玩核桃生产系统保护与发展规划》和《北京市平谷区文玩核桃生产系统管理办法》，让北京平谷四座楼麻核桃生产系统这一具有丰富生物多样性和文化多样性的重要农业文化遗产发挥出更好的生态、社会和经济效益。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847139.htm"	"农业部农产品加工局"	"2834"	"2015-09-28 17:09"
+"41"	"北京京西稻作文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928620502485556.jpg"" src=""./W020150928620502485556.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928620502489887.jpg"" src=""./W020150928620502489887.jpg""/></p>
+<p>　　北京京西稻作文化系统主要分布在海淀区清三山五园周边区域（即海淀京西稻栽培区）和房山区长沟镇、大石窝镇及十渡镇境内（即房山贡米栽培区）。</p>
+<p>　　京西地区水稻种植可上溯至先秦时期，到东汉已有明确记载。辽、金时期，已是“粳稻之利，几如江南”。明朝迁都北京后，周边稻作生产开始供应宫廷。到清朝时，京西水稻得到多位皇帝的推广，形成了以“御稻”和“紫金箍”等品种为代表的京西稻稻作文化（海淀）和以石窝“御塘稻”等品种为代表的贡米稻作文化（房山）。</p>
+<p>　　海淀区京西稻清朝时种植在由皇帝亲自开辟的“官田”之中，以玉泉山山泉水灌溉，由国家机构管理，寄寓着数位清帝“以农为本”的治国理念，是农业生产的国家示范田。后发展为由国家管理和交于农民耕种两种形式；且保留了包括“御稻”和“紫金箍”在内的水稻品种核实1650个，是京西稻稻作品种种质资源库。稻田与明清皇家园林遗产相得益彰，是明清园林景观的景观标识之一。</p>
+<p>　　房山区石窝御塘稻种植于北京市三块“山前暖区”之一，依赖泉水灌溉，是生长期最长的水稻之一。米质优良，耐蒸煮，“七蒸七晒，色泽如初”，明清时即为御贡米。系统合理利用湿地水域，形成稻田与淡水泉、河流、湖泊、草本沼泽、库塘相协共建的湿地景观；因地制宜，在平原地区充分利用泉涌实现平原稻田的自流灌溉；区内“御米皇庄”的贡米文化和平民稻作文化相得益彰。</p>
+<p align=""justify"">　　北京京西稻作文化系统系住了北京人的记忆和乡愁，其遗产保护与文化传承将成为北京市农业生态文明建设的典范，也将在京津冀协同发展进程中农业生态化与农业文化遗产保护起到模范作用。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847179.htm"	"农业部农产品加工局"	"1648"	"2015-09-28 17:12"
+"42"	"辽宁桓仁京租稻栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622394776754.jpg"" src=""./W020150928622394776754.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622394779570.jpg"" src=""./W020150928622394779570.jpg""/></p>
+<p>　　京租稻，起源于自然资源丰富、生态环境优越的桓仁满族自治县，因在清朝同治年间专供皇宫膳用而被御赐得名，距今已有140年的栽培历史，是东北水稻种植最早的品种之一。</p>
+<p>　　高句丽民族在长期的生产、生活中编制了乞求稻谷丰收的民族舞蹈——乞粒舞，总结并传承了京租稻独特的农耕文化。京租稻以其植株高、芒子长、芒色黄、米质好为显著特点，特殊的品种特性为培育优质水稻品种提供了良好的试材；独特的生态栽培过程散发着浓厚的传统农耕魅力；金黄色的稻浪为发展休闲农业增添了靓丽的风景；晶莹飘香的京租米饭让人赞不绝口，并于2010年、2014年在国家工商总局分别注册了“京租”牌和“官地”牌大米商标，2014年成功申报了国家地理标识保护产品。</p>
+<p>　　所需肥料完全采用优质农家肥配以适量的豆粕而成；灌溉用水是上游河水自流而成；病虫害防治采用灯光诱杀和性诱捕杀；收获采用人工刀割、码垛后熟。京租稻生产过程散发着浓厚的传统文化魅力。</p>
+<p>　　随着现代农业的发展，传统农耕方式正面临严重的挑战，挖掘、保护和传承工作势在必行。桓仁县政府制定了京租稻保护发展规划和管理办法，并将每年8月22日确定为京租文化节，通过对品种提纯选优的恢复、栽培技术规程的完善、传统农耕文化的传承以及与休闲农业的结合，积极促进农业文化遗产传承与保护，让桓仁京租文化绽放新的光芒。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847259.htm"	"农业部农产品加工局"	"1405"	"2015-09-28 17:14"
+"43"	"吉林延边苹果梨栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928623450898624.jpg"" src=""./W020150928623450898624.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928623450893778.jpg"" src=""./W020150928623450893778.jpg""/></p>
+<p>　　延边苹果梨是我国高纬度寒冷地区主栽的优良品种，原产于延边朝鲜族自治州龙井市老头沟镇小箕村，已有100多年历史。延边地区独特的地理、气候条件孕育了延边苹果梨独有的风味，素有“北方梨之秀”美誉。1995年龙井市被命名为“中国苹果梨之乡”，2002年认定为原产地域保护产品，曾荣获农业部部优产品、吉林省名牌产品。延边苹果梨的主产区龙井市西郊有连绵20余千米的树龄达60多年的连片苹果梨园，被称为龙井万亩果园。</p>
+<p>　　延边苹果梨文化特色与延边朝鲜族民俗文化内涵息息相关，有关苹果梨的历史传说、民俗文化、旅游文化、文学作品不胜枚举。近年来不断挖掘苹果梨文化，成功举办中国龙井“延边之春”苹果梨花节，已成为对外宣传延边的一张名片。</p>
+<p>　　延边苹果梨传统栽培系统面临着劳动力不足、后续力不足等问题，龙井万亩果园的保护与发展工作势在必行。龙井市政府按照农业部中国重要农业文化遗产保护工作要求，制定了《龙井市苹果梨栽培系统保护与发展规划》和《龙井市苹果梨农业文化遗产保护与发展管理办法》，使延边苹果梨产业得以传承和发展。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847304.htm"	"农业部农产品加工局"	"1083"	"2015-09-28 17:17"
+"44"	"黑龙江托远赫哲族鱼文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928626168570810.jpg"" src=""./W020150928626168570810.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928626168570545.jpg"" src=""./W020150928626168570545.jpg"" height=""366"" width=""550""/></p>
+<p>　　抚远地处黑龙江和乌苏里江的三角地带，是赫哲族的主要集居地。独特的地理位置造就了水富鱼丰的资源优势，抚远也因为盛产鲟鳇鱼、大马哈鱼，成为中国的“鲟鳇鱼之乡”“大马哈鱼之乡”。</p>
+<p>　　赫哲族是一支渔猎民族，他们原始的生活特点、饮食习惯、手工制作等特色形成了别具一格的渔文化。赫哲族人以打鱼为生，传统的捕鱼方式有小网挂鱼，操罗子捞鱼，“蹶搭钩”钓鱼，冬季“铃铛网”捕鱼。赫哲人喜爱吃鱼，特色渔品佳肴有“塔拉哈”、“杀生鱼”、“鱼条子”、“氽鱼丸子”以及鲟鳇鱼全鱼宴等，味道鲜美、口感独特。赫哲人文化传统手工技艺精湛，独具特色的鱼皮制作工艺十分精美，一件鱼皮制品从剥皮、晾晒、清理、裁剪、粘贴、缝制需要十几道工序才能完成，鱼皮衣、鱼皮画、鱼皮饰品、鱼皮挂件远销世界各地。</p>
+<p>　　鲟鳇鱼类是白垩纪时期保存下来的古生物群之一，1998年被认定为濒危动物。2005年赫哲人在抚远县大力加湖建立起鲟鳇鱼网箱养殖基地和史氏鲟原种场，已成功研制出鲟鳇鱼活体取卵、四季人工孵化、四季人工繁育、幼鱼驯养等技术，同时积极研制开发鱼产品，鱼子酱、鱼松、鱼柳、鱼筋、鱼骨等12个系列品种，多次在黑龙江省佳木斯市科技产品展示会上获得金奖，抚远县也获得鲟鳇鱼、大马哈鱼、国家地理标志保护产品荣誉称号。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847433.htm"	"农业部农产品加工局"	"1191"	"2015-09-28 17:19"
+"45"	"黑龙江宁安响水稻作文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px"" oldsrc=""W020150928617090459893.jpg"" alt="""" src=""./W020150928617090459893.jpg""/></p>
+<p align=""center""><img style=""border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px"" oldsrc=""W020150928617090454564.jpg"" alt="""" src=""./W020150928617090454564.jpg""/></p>
+<p>　　响水稻作文化系统重点区域位于宁安市渤海镇、东京城镇和三陵乡，包括18个行政村，总面积5334公顷（8万亩），是世界上唯一在火山熔岩台地上生产稻米的区域。这里生产的稻米被称为响水大米，又被称为响水贡米。从唐朝以来历代都是皇室用米，并成为当今的国宴用米，连续荣获农业博览会金奖。区域内现有米类注册商标159个，“响水大米”获得“国家地理标志”保护产品认证，“响水”牌大米和“邢瑞雪”大米荣获黑龙江省级名牌产品。</p>
+<p>　　响水稻米除具有唯一性、区位性外，同时还具有生态性、历史性、人文性等特征，营养价值极高。响水稻米被称为千年贡米，根据《新唐书•渤海传》记载，1300年前的唐朝附属国——渤海国，就已经在这里利用石板田种植水稻。当时渤海国进贡给唐王朝的贡品之中，就有“太白之鹿、率滨之马、卢城之稻、北海之鳍”的描述，其中“卢城之稻”指的就是响水大米。目前，区域内还遗存几处1000多年前的水稻灌溉水利遗址。响水稻米生长的土壤是经过万年风化和侵蚀后积聚10到30厘米的腐植土，这种土土质松软、肥沃，含有丰富的有机质和矿物质。灌溉水源来自镜泊湖和小北湖，水质清澈，没有污染。火山石的吸热、散热快，昼夜温差大，米粒中积累的干物质较多。米中矿物质、微量元素、氨基酸及维生素的含量高于普通大米，富含人体所需的十八种氨基酸，含量达6.9%；在人体所不能合成的八种氨基酸中，卢城之稻响水米就含有七种。</p>
+<p>　　宁安市委市政府已完成了稻作文化系统保护和挖掘整体规划，形成了较详尽、可行的生物多样性保护和传统知识发掘体系。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847054.htm"	"农业部农产品加工局"	"879"	"2015-09-28 17:01"
+"46"	"江苏泰兴银杏栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622204601226.jpg"" src=""./W020150928622204601226.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622204605514.jpg"" src=""./W020150928622204605514.jpg""/></p>
+<p>　　泰兴银杏种植遍布在全市境内，面积22万多亩，其中银杏围庄林面积20.2万亩，并拥有20多个百亩以上古银杏群落。全市定植银杏树300万株，常年白果产量1万吨，约占全国总产量的1/3。</p>
+<p>　　泰兴银杏种植有着悠久的历史。据《泰兴县志》记载，泰兴银杏栽培历史已有1400多年，通过一代又一代人的驯化、选育、研发，逐步形成了银杏嫁接、人工辅助授粉、科学施肥、病虫害防治等一整套完善的银杏种植技术体系。先后制定了泰兴白果江苏省地方标准、无公害农产品“泰兴白果”生产技术规程、雄银杏生产技术规程、“泰兴白果”绿色食品、有机食品标准等系列生产技术规程， 2002年被国家标准化管理委员会授予“全国银杏标准化示范区”称号。</p>
+<p>　　“泰兴白果”因果大、出仁率高，浆水足，糯性强，耐贮藏，品质为全国之冠。先后获得多项国家级荣誉称号。“泰兴白果”证明商标经国家工商总局商标局核准注册，被国家质检总局批准为原产地域保护产品；中国绿色食品发展中心认定为AA级绿色食品、有机食品。</p>
+<p>　　泰兴把成片银杏林保护列入全市整体建设规划，先后两次颁发林权证依法保护，对一级古银杏树编号挂牌，加装构架，复壮维护。全市现有50年以上树龄的9.4万余株，100年以上的6180多株，500年以上的34株，千年以上古银杏12株。以国家级古银杏公园为重点，发展了集休憩、观光、度假、科普服务为一体的银杏生态休闲观光旅游项目。</p>
+<p>　　泰兴市坚持把银杏栽培系统保护与发展作为全市经济社会发展重点工作，制定出台了一系列政策措施，加快推进银杏种植系统保护与发展、文化传承和产业开发融合发展。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847254.htm"	"农业部农产品加工局"	"959"	"2015-09-28 17:09"
+"47"	"浙江仙居杨梅栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625291852432.jpg"" src=""./W020150928625291852432.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625291858308.jpg"" src=""./W020150928625291858308.jpg""/></p>
+<p>　　浙江仙居是国家级生态县，山水秀美，杨梅生产环境得天独厚，有“闽广荔枝，西凉葡萄，未若吴越杨梅”之美誉。</p>
+<p>　　仙居杨梅种植源于唐宋，兴于明清，盛于当代。明朝古杨梅历经千百年，今日依然生机勃勃。作为农村经济最重要的主导产业，仙居相继实施了“万亩杨梅上高山”、“杨梅梯度栽培”、“百里杨梅长廊”“杨梅品牌工程”等重点工程，种植面积13.8万亩，投产面积11万亩，年产量达7.5万吨，成为全国杨梅种植第一大县，拥有国内最大的杨梅专业加工企业，建有两条国内首创的万吨杨梅深加工生产线，年加工转化杨梅能力近4万吨，开发了杨梅干红、杨梅原汁、杨梅浸泡酒、杨梅发酵酒、杨梅浓缩汁、杨梅醋饮、杨梅蜜饯等30多个系列产品。</p>
+<p>　　以梅为媒，每年举办杨梅节，推动了农业与二三产的联动发展，总产值超过10亿元，构建了地方独特的杨梅农耕文化和杨梅经济现象。作为中国杨梅之乡，仙居杨梅先后荣获国家地理标志产品，原产地保护标记注册证书及中国驰名商标，成功创建全国绿色食品原料（杨梅）标准化生产基地，仙居杨梅观光带被评为中国美丽田园。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847375.htm"	"农业部农产品加工局"	"1103"	"2015-09-28 17:20"
+"48"	"浙江云和梯田农业系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928628801232193.jpg"" src=""./W020150928628801232193.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928628801239474.jpg"" src=""./W020150928628801239474.jpg""/></p>
+<p>　　云和梯田农业系统位于浙江省云和县崇头镇，最早开发于唐初，兴于元明，距今已有1000多年历史。该梯田系统横跨高山、丘陵、谷地三个地质景观带，最多处有700多层，不仅具有江南独特的山区农耕文化，而且拥有浓郁的畲族风情，素有“千层梯田，千米落差，千年历史”的美称，被摄影界誉为“中国最美梯田”。</p>
+<p>　　春花夏禾秋金穗，隆冬白雪兆丰年。</p>
+<p>　　梯田春是一轴淡淡的水墨画。春孕万物，梯田在春的微风中苏醒，山花点点，一簇簇一行行低矮茁壮的水稻秧齐刷刷地摇曳，绿茸茸油汪汪，在秧苗底部的空隙里闪过盈盈波光。</p>
+<p>　　梯田夏是一帧精美绝伦的绣品。稻禾由嫩绿而碧绿再墨绿，浓浓的绿，重重的绿，绿得绵密，绿得厚重，犹如一针针一线线的刺绣扎透了梯田的每一层泥土，直到把整座山谷织成绿色的绒毯。</p>
+<p>　　梯田秋是一副色彩浓郁的油画。饱满的稻穗洒下遍地碎金，一层络黄一层褐黄一层橙黄，金色涟漪从山脚一波波升上山顶，又从山顶一波波往下流淌。</p>
+<p>　　梯田冬是一副轮廓分明的黑白木刻。梯田在纯净的白雪映衬下，所有蜿蜒起伏的曲线骤然凸显，那阡陌纵横、婀娜多姿的线条，如此洒脱流畅、随心所欲，似行云流水，亦如空谷传扬的无声旋律浅唱低吟。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847551.htm"	"农业部农产品加工局"	"1345"	"2015-09-28 17:26"
+"49"	"安徽寿县芍陂（安丰塘）及灌区农业系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928631937309150.jpg"" src=""./W020150928631937309150.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928631937307294.jpg"" src=""./W020150928631937307294.jpg""/></p>
+<p>　　芍陂——中国留存至今最古老的蓄水工程，比都江堰和郑国渠早300多年，为春秋时期楚庄王令尹孙叔敖所建。《水经注》记载，“淝水流经白芍亭，积水成湖，故名芍陂”。在芍陂的北岸，坐落着为纪念孙叔敖而修建的孙公祠，至少已经存在1400余年了。后因隋朝在此地设置安丰县，又称为安丰塘。其选址科学，布局合理，工程浩大，故有“芍陂归来不看塘”之誉。</p>
+<p>　　在2600余年历代王朝的兴衰中，芍陂也在发生沧海桑田的演变。至6世纪时芍陂已经具有完善的塘堤、斗门节制工程体系。20世纪50年代兴建佛子岭水库，经淠东干渠注入芍陂。今天的芍陂，塘周边长26公里，蓄水面积34平方公里，库容8400万立方米，灌溉面积67万余亩。因其“纳川吐流，灌田万顷”，被誉为“天下第一塘”。</p>
+<p>　　“西风十里藕花香，红蓼滩边鸥鹭凉”；“鲂鱼鲅鲅归城市，粳稻纷纷载酒船”。芍陂灌区以种植小麦和水稻为主，盛产大豆、酥梨、席草、香草等上千种生物资源。这一方水土的生物多样性，不仅造就了让无数文人墨客吟咏赞叹的野趣美景，也自然形成植物的王国、动物的天堂。</p>
+<p>　　作为“国家重点文物保护单位”、“省级水利风景区”的芍陂，其农业功用和历史文化渊源流长。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847682.htm"	"农业部农产品加工局"	"1016"	"2015-09-28 17:30"
+"50"	"安徽休宁山泉流水养鱼系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928634402733576.jpg"" src=""./W020150928634402733576.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928634402735878.jpg"" src=""./W020150928634402735878.jpg""/></p>
+<p>　　山泉流水养鱼是休宁山区传统的养鱼方法，主要分布在休宁西南部和南部，涉及15个乡镇。南宋《新安志》和明清时期的《徽州府志》、《休宁县志》都有详细记载。它是古徽州居民适应人多地少的自然条件，创造和发展起来的农业生产方式和土地综合利用方式，是山区代代延续的生产传统，也是一道别具生机的人文风景。</p>
+<p>　　千百年来，山区居民依托优越的生态环境，在村落附近，或家前屋后，或庭院天井中，挖坑筑池，引入清澈甘洌的山泉溪水放养家鱼。鱼池都设有进水口和出水口，池内长期保持优异的水质，鱼群常年生长于山泉流水环境中，摄食当地无污染的天然饵料，是地道的有机绿色食品。山泉流水养鱼系统通过水陆相互作用，把多种生物聚集在同一单位的土地上，多层次利用物质和能量，构成了“森林-溪塘-池鱼-村落-田园”为要素的农业生态系统，营造出多样的生态基底和多元的生态空间，蕴含丰富的人文与自然景观资源，并衍生出与系统相关的乡村宗教礼仪、风俗习惯、民间文艺及饮食文化。形成了人与自然和谐共处，村落与池塘共生，水鱼与林山共育，人文与自然共荣的生态系统。</p>
+<p align=""justify"">　　休宁县人民政府按照农业部中国重要农业文化遗产保护工作要求，制定了山泉流水养鱼系统专项规划和管理办法，通过生物多样性的保护，传统农业文化传承及乡村旅游和生态农业发展，从根本上解决农业增效、农民增收和文化遗产保护问题。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847760.htm"	"农业部农产品加工局"	"2599"	"2015-09-28 17:35"
+"51"	"山东枣庄古枣林"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928637029311689.jpg"" src=""./W020150928637029311689.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928637029314290.jpg"" src=""./W020150928637029314290.jpg""/></p>
+<p>　　山东枣庄因枣得名。枣庄古枣林位于山亭区店子镇8万亩长红枣园内，核心保护区面积1800亩，其中，树龄100 年以上的古枣树7200 余棵，500 年以上1186 棵，1000 年以上的372 棵，1200 年以上的“枣树王”“枣皇后”“唐枣树”等38 棵，尚能正常开花结果，是山东现存规模最大、保存最完整的古枣林。</p>
+<p>　　枣庄古枣林栽培历史悠久，起源于北魏，盛行于唐宋。明万历十三年（公元1585年）《滕县志》记载：“枣梨东山随地种植，山地之民千树枣，土人购之转售江南。”文字中“东山”即现在山亭区店子镇。由于该镇独具特有红砂石土壤，造就了长红枣的独特品质：果实肉厚、核小、质细、无楂，鲜果酥脆酸甜，干果油润甘绵，富含人体必需的17 种氨基酸和24 种微量元素，既可食用更能入药，被誉为“天然维生素丸”。</p>
+<p>　　近年来，由于大枣价格相对走低，许多枣树被砍伐种其他果树，致使部分古枣树遭到破坏。为此，区政府专门成立保护委员会，编制保护规划，设立古枣树保护基金，邀请有关专家对保护区内的千年古枣树“体检”，实行一树一策一责任人，加大古枣林农业文化遗产宣传力度，争取广大枣农对古枣树保护的认可和支持。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847847.htm"	"农业部农产品加工局"	"3885"	"2015-09-28 17:37"
+"52"	"山东乐陵枣林复合系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928611363683912.jpg"" src=""./W020150928611363683912.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928611363682133.jpg"" src=""./W020150928611363682133.jpg""/></p>
+<p>　　山东乐陵枣林复合系统涉及七个乡镇，乐陵枣树栽培始于商周，迄今已有3000多年的历史，曾是皇家御用品，因其果、叶、皮、根均可入药，被乾隆皇帝誉为“枣王”。被誉为“全国最大千年原始人工结果林”、“山东省旅游摄影创作基地”。千百年来，枣树已是祖辈们在战天斗地、防风固沙中留下的宝贵物质遗产和精神财富。</p>
+<p>　　在培植方面，乐陵人民探索出了一套“育枣经”。他们独创的枣树环剥技术，有效提高了枣树的坐果率，保证了乐陵小枣的品质和产量。利用枣树发芽晚，落叶早，枝疏叶小，根系分散，水肥需求高峰与农作物相互交错，枣树和农作物的生长具有互补性，发明了枣粮间作复合生态系统，有效改良了土壤，提高了枣粮产量；同时聪慧的乐陵人发明了枣树、杏树、花椒树等混种同时在树下散养家禽的庭院经济生态系统模式，既提高了经济收益，也有效防治了树木的病虫灾害，形成人类与动植物的良性生态系统。</p>
+<p>　　乐陵市政府按照农业部中国重要农业文化遗产保护工作的要求，制定了古枣林保护发展规划与管理办法，从根本上解决农民增收、农业可持续发展和遗产的保护问题。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4846841.htm"	"农业部农产品加工局"	"491"	"2015-09-28 16:57"
+"53"	"河南灵宝川塬古枣林"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928612741630212.jpg"" src=""./W020150928612741630212.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928612741636127.jpg"" src=""./W020150928612741636127.jpg""/></p>
+<p>　　川塬古枣林位于河南省灵宝市，由明清古枣林和古枣树群落组成。其中明清古枣林地处兵家必争之地的函谷关和中华民族摇篮的黄帝铸鼎塬及其周边的5个乡镇，枣树品种为著名的“灵宝大枣”。古枣树群落则零散分布于全市居民的房前屋后，枣树品种则以历经数千年传承的地方品种“小灵枣”为主。</p>
+<p>　　有着5000年种植历史，并有1800余年利用记载的灵宝川塬古枣林，是中华民族的宝贵财富。早在数千年前，大枣已成为当地的支柱产业，同时也是重要的救灾食物；而作为重要的园艺作物，其在2000多年前已形成的蔬花技术、株行距技术等仍是目前国际园艺生产最重要的技术；其地方品种特有的根孽苗、防风固沙、抗旱耐涝等特征，则为当地品种种性的保持和目前生态保护与治理提供了重要技术。</p>
+<p align=""justify"">　　地处中华民族发源地、中华道教文化发源地和古代主战场，又赋予灵宝川塬古枣林以独特的文化、军事和医药价值。著名的《道德经》便产生于该遗产地中心的函谷关，铸鼎塬承载着中华民族起源的符号；作为战时屯兵主要场所的古枣林和战时优良薪柴，赋予了明清古枣林特定的军事价值；历代积累下来的枣医药和养生文化则成为中华医药的重要部分，而灵宝枣的特有医药功效又赋予该项遗产以独特的价值。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4846886.htm"	"农业部农产品加工局"	"748"	"2015-09-28 17:00"
+"54"	"湖北恩施玉露茶文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928621997598165.jpg"" src=""./W020150928621997598165.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928621997594777.jpg"" src=""./W020150928621997594777.jpg""/></p>
+<p>　　恩施市地处湖北省西南部的武陵山区，属亚热带季风性山地湿润气候，雨量充沛、温暖湿润。冬无严寒、夏无酷暑。境内层峦叠嶂、森林茂密，蕴藏着极其丰富林特资源、旅游资源和矿产资源。巴楚文化在这里水乳交融，有土家族、苗族、侗族等28个少数民族。</p>
+<p>　　恩施是茶叶的原产地之一，西周有“武王伐纣、巴人献茶”之说，陆羽《茶经》有“巴山峡川有两人合抱者，伐而掇之”的记载。现有茶园面积32.5万亩，年产以恩施玉露为主的名优茶0.7万吨以上，占干茶总产的42%左右，是“全国重点产茶县”、“中国名茶之乡”。</p>
+<p>　　恩施玉露创制于清康熙年间，因获当地土司和当朝皇帝 “胜似玉露琼浆”的盛赞而得名，在《中国茶经》中位列清代名茶。恩施玉露的加工，延续了唐朝陆羽《茶经》中的“蒸之、焙之……”工艺，创新了特殊的搓制手法，是我国唯一保存下来的蒸青针形绿茶。1965年入选“中国十大名茶”，2007年获国家地理标志产品保护，近年获得“中国驰名商标”，其制作工艺入选国家级非物质文化遗产保护名录。</p>
+<p>　　恩施美丽的茶园与自然景观融为一体，成为休闲观光的理想去处。而赋予了硒元素的恩施玉露则被世人推崇为健康奇珍。“恩施玉露”是恩施市人民政府重点打造的“三张名片”之一，制定并颁布了恩施玉露地标产品的生产和加工技术规程，编制了恩施玉露保护与发展规划，建设了恩施玉露国家级非遗传承基地。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847241.htm"	"农业部农产品加工局"	"593"	"2015-09-28 17:15"
+"55"	"广西隆安壮族“那文化”稻作文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928623525772735.jpg"" src=""./W020150928623525772735.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928623525774004.jpg"" src=""./W020150928623525774004.jpg""/></p>
+<p>　　隆安壮族“那”文化稻作文化系统位于北回归线以南的广西右江下游谷地。壮族人口占94%。区域内河道纵横，湿地密布，水、土、热资源丰富，发展稻作农业的自然条件优越。壮族人民把水稻田叫作“那”，隆安壮族稻作文化历史悠久，以大石铲祭祀遗址、“雒田”遗址景观、稻神祭习俗遗存最具特色，被学术界誉为“那”文化之都。</p>
+<p>　　隆安以稻神山为中心的罗兴江、渌水江、右江三角洲区域，旧石器时代和新石器时代的稻作生产、生活和文化的遗址众多，形成了独特的稻作历史文化遗址景观，学术界认定为我国栽培稻的重要起源地之一。远古时，壮族先民古骆越人在这一区域因地制宜创造了“依潮水上下”而耕作的“雒田”生产方式，开辟了我国最早的有相当耕作规模和完备灌溉系统的水稻田，创造了石器时代稻作生产的专门工具大石铲，形成了许多流传至今的具有独特风情的稻神祭祀习俗和生产生活民俗，成为壮族标志性的稻作农业历史文化景观。2014年，隆安的布泉河稻田景观被评为中国美丽田园。</p>
+<p>　　隆安县政府努力打造壮族“那”文化品牌，编制了保护与发展规划，落实各项保护措施，壮族“那”文化品牌成为隆安县文化的最亮点。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847309.htm"	"农业部农产品加工局"	"1703"	"2015-09-28 17:17"
+"56"	"四川苍溪雪梨栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928624724478895.jpg"" src=""./W020150928624724478895.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928624724473256.jpg"" src=""./W020150928624724473256.jpg""/></p>
+<p>　　苍溪县地处四川盆地北缘，位于大巴山南麓，全县森林覆盖率46.5%，气候适宜、交通便利,独特的地理环境和气候孕育出了苍溪雪梨。苍溪雪梨又名施家梨、苍溪梨，民国《苍溪县志》引《元和郡县志》：“梨类有施家梨、水梨、香梨各种”，说明唐代元和时（806－820）已有此梨栽培。苍溪雪梨具有“外形美观，果肉洁白，味甜如蜜，清香无渣，入口即化”的特点，果实多呈倒卵形，特大，平均单果重472克，大者可达1900克被誉为“砂梨之王”。1964年，毛主席品尝苍溪籍老红军罗青长赠送的雪梨后，曾指示：“你们家乡还能产这么好的梨，要大力发展，让全国人民都能吃上它”。苍溪县利用苍溪雪梨这一独特优势资源，在每年梨花盛开的时候，已成功举办了十二届梨花节；大力发展以“赏梨花、品雪梨、住农家”为主的生态乡村旅游，建有中国•苍溪梨文化博览园，博览园现有百年老树202棵，虽历经沧桑，仍枝繁叶茂，果实累累，单株产高达350公斤，实属罕见。</p>
+<p>　　苍溪雪梨于1989年被农业部评为优质农产品，1998年被授予“中国雪梨之乡”，先后获得“梨王”牌注册商标、证明商标、中国驰名商标、地理标志产品、全国绿色食品苍溪雪梨原料生产标准化基地县。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847348.htm"	"农业部农产品加工局"	"770"	"2015-09-28 17:20"
+"57"	"四川美姑苦荞栽培系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625757511439.jpg"" src=""./W020150928625757511439.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625757516849.jpg"" src=""./W020150928625757516849.jpg""/></p>
+<p>　　美姑苦荞栽培系统位于四川西南部的凉山州美姑县。在美姑县海拔2800-3400米的范围之间，是苦荞的发源地，苦荞长势最好。在有文字记载的人类历史中，凉山彝族是最早种植、开发苦荞的民族，至少在公元前14世纪中叶甚至更久远，凉山彝族人民就已经驯化、栽培、种植和食用苦荞，举凡彝人出生、满月、成人礼仪、婚丧嫁娶、祭祖大典都离不开苦荞食品，是彝族人民祖祖辈辈传承的重要农业文化遗产，是美姑县农民收入的重要来源。</p>
+<p>　　美姑苦荞栽培系统具有重要的生态价值，使种植区自然生态形成良性循环。美姑苦荞与玉米、大豆、燕麦等其他作物有良好的间作套种模式，有生物多样性方面的利用价值，其点播、犁沟条播等集约化栽培方式，有利于保持水土;在大规模连片种植中，有利于调解农田气候，控制病虫草鼠危害，秸秆与荞壳通过牲畜过腹还田，实现养分循环，维护资源永续利用和农业生态平衡；系统涵养水源，减少烟尘、二氧化硫等有害气体排放，减轻大气污染和水污染，改良土壤，提高土壤有机质含量，种养互助，遏制环境恶化。</p>
+<p>　　美姑县高度重视苦荞栽培系统的挖掘与保护，全面开展苦荞品种资源利用、高产栽培与标准化技术推广，制定苦荞栽培与食用习俗文化保护计划等一系列举措，促进美姑苦荞这一传统优势产业获得可持续发展。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847398.htm"	"农业部农产品加工局"	"590"	"2015-09-28 17:21"
+"58"	"贵州花溪古茶树与茶文化系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928626768399363.jpg"" src=""./W020150928626768399363.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928626768395786.jpg"" src=""./W020150928626768395786.jpg""/></p>
+<p>　　花溪古茶树与茶文化系统位于贵州省贵阳市花溪区久安乡，东经106°33.5′-106°38′，北纬26°29′-26°34′。</p>
+<p>　　以古茶树为原材料，推出了久安千年绿、久安千年红两款佳茗，久安千年红，外形条索紧细卷曲，匀整，显金毫。色泽乌润，古韵深远，香味浓郁高长；久安千年绿，外形条索紧细卷曲，匀整，色泽翠绿、显毫。香味高扬，古韵深远。</p>
+<p>　　久安乡古茶树的平均树龄大概在600年左右，几乎略等于贵州“文明开化”的历史年限。在宋代，茶马交易的制度已经建立并已运用成熟。一直沿用到了明王朝，朱元璋继续推行“以茶制戎”的政策。</p>
+<p align=""justify"">　　久安村早期的传统农业经济主要以粗放型为主，农业产业结构较单一，生产规模较小，森林生态系统是一个由多层次小型生态系统组成的复杂的生态系统。森林所具有的独特而优越的生活环境，久安乡地形多为山地，坡土多，坝子少，自然风光秀美，主要有牛鼻孔、仙人搭桥、二龙抢宝、燕子岩、鸡冠石、芦笙岩、半岩探险、大坪水库还有美丽的阿哈湖，迷人的森林和美妙的楠竹基地等。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847459.htm"	"农业部农产品加工局"	"648"	"2015-09-28 17:23"
+"59"	"云南双江勐库古茶园与茶文化系统"	"第三批"	"<style id=""_Custom_V6_Style_"" type=""text/css"">#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style><p style=""text-align:center;""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622180739117.jpg"" src=""./W020150928622180739117.jpg""/> </p><p style=""text-align:center;""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928622180732467.jpg"" src=""./W020150928622180732467.jpg""/> </p><p>　　云南双江勐库古茶园与茶文化系统位于双江拉祜族佤族布朗族傣族自治县，涉及6个乡（镇）和2个农场，总面积16万亩。系统内1.27万亩野生古茶树群落，是目前国内外已发现海拔最高、密度最大、分布最广、原生植被保存最为完整的野生古茶树群落，是茶树种质资源和生物多样性的基因库，是中国首个以古茶山命名的国家级森林公园。</p><p>　　据史料记载，明成化二十年（公元1485年），双江开始在勐库冰岛一带人工驯化种植茶树，经过500余年的种植驯化，铸就了当今勐库大叶种茶内含物质丰富、茶汤明亮、醇香悠长的优良品质。曾两次被全国茶树良种审定委员会评为国家级茶树良种，被中国茶叶界权威赞为“云南大叶茶正宗”、“云南大叶茶的英豪”。</p><p>　　双江是全国唯一由拉祜族、佤族、布朗族、傣族共同自治的多民族自治县，各民族生产生活与茶叶息息相关，创造了灿烂的茶文化。拉祜族的七十二路打歌，是非物质文化遗产，更是拉祜人民的茶心；佤族的鸡枞陀螺，是飞旋的使者，更是佤族人民的茶性；布朗族的蜂桶鼓，是生命的方舟，更是布朗人民的茶灵；傣族的象脚鼓，是节日的祈福，更是傣族人民的茶魂。</p><p>　　近年来，双江自治县人民政府出台了《古茶树保护管理条例》，制定了《勐库古茶园与茶文化系统保护与发展规划》，成功申报勐库大叶种茶农产品地理标识认证，对保护、传承和利用好这一珍贵的农业文化遗产，推动经济社会跨越发展奠定了坚实的基础。</p>"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847253.htm"	"农业部农产品加工局"	"643"	"2015-09-28 17:07"
+"60"	"甘肃永登苦水玫瑰农作系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625573903292.jpg"" src=""./W020150928625573903292.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928625573909011.jpg"" src=""./W020150928625573909011.jpg""/></p>
+<p>　　永登县位于甘肃中部，是闻名遐迩的“中国玫瑰之乡”， 玫瑰栽植历史久远，距今已有200多年。所栽植的苦水玫瑰是我国四大玫瑰品系之一，为半重瓣小花玫瑰，属亚洲香型，是世界上稀有的高原富硒玫瑰品种，具有生长茂盛，花色鲜艳、香气浓郁、肉厚味纯、产量及出油率高、抗逆性强等特点。苦水玫瑰花朵中含有100多种有效成分，其中玫瑰精油含量0.0004%、总黄酮（以芦丁计）含量0.48g/100g、硒含量3.88mg/g、香茅醇含量50%以上，含有的营养成分和药物成分对人体心脑血管、消化系统、新陈代谢以及免疫功能系统具有明显的药理作用，并具有抗氧化、抗衰老、抗肿瘤等功能。经过200年的提纯扶壮和不断选育，苦水玫瑰已发展成为既可食用、药用，又可用于轻工业加工的特色玫瑰，品种和品质优势逐渐显现，市场竞争力显著增强。目前，已注册了苦水玫瑰证明商标，制订了《苦水玫瑰生产技术标准》、《玫瑰精油国家标准和国际标准》、《玫瑰干花蕾地方标准》，完成了苦水玫瑰农产品地理标志登记。</p>
+<p>　　在文化产业发展方面，与苦水玫瑰相生相伴发展起来的民间文化历史悠久、丰富多彩，主要有以猪驮山、渗金佛祖、母子宫为主的佛教文化，以苦水高高跷（国家级非物质文化遗产）、太平鼓、木偶戏、下二调（市级非物质文化遗产）为主的民俗文化和以玫海观光、梨园风情、丹霞地貌为主的旅游文化等，形成了一条极具特色的文化产业发展道路。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847391.htm"	"农业部农产品家工局"	"575"	"2015-09-28 17:17"
+"61"	"宁夏中宁枸杞种植系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928627737781151.jpg"" src=""./W020150928627737781151.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928627737789253.jpg"" src=""./W020150928627737789253.jpg""/></p>
+<p>　　中宁枸杞种植系统始于唐、兴于宋、扬于明、盛于今，抒写了一千多年长盛不衰的壮丽史诗和辉煌篇章，探索出了一整套技术完备的栽培管理系统和生物共生系统。唐代孙思邈的《千金翼方》、郭橐驼的《种树书》均系统记载了中宁枸杞的栽培方法；明弘治年间，朱元璋第十六子朱旃将中宁枸杞推为贡果，进献朝廷；《中华人民共和国药典》六易其版，始终确定中宁枸杞为唯一可入药的枸杞品种。中宁枸杞传承人遍布城乡村落，分六大派别，共有传承代表27名。正是他们无怨无悔的传承守护，才留下了中宁枸杞的根和魂。改革开放以来，在中宁枸杞种植面积迅速扩增而耕地供给严重不足的情势下，成千上万的中宁人将中宁枸杞苗木、技术和栽培管理方法引种至甘肃、青海、新疆、内蒙等幅远辽阔的土地上培植，派生出了甘肃产地中宁枸杞、青海产地中宁枸杞、新疆产地中宁枸杞、内蒙产地中宁枸杞和宁夏境内各县区产地中宁枸杞。中宁枸杞如同星火燎原，产生了巨大的裂变效应。据估算，目前世界枸杞市场70%以上的干果都与中宁枸杞同族同宗。经历一千多年的栽培，上百个品种的演变选育，中宁人民不仅开创了传统枸杞种植与现代枸杞种植高度融合的栽培模式，而且创造性的继承了枸杞粑粑茶、枸杞糕、枸杞宴等传统养生保健制作方法，成功研制生产了上百种现代养生保健产品，开辟了枸杞养生与国内外对接的先河，更是建成了全世界最大的枸杞交易中心，成为中国乃至世界枸杞价格的晴雨表。</p>
+<p>　　每年五月初五，中宁枸杞传统种植核心区的茨农都要举行盛大的祭拜枸杞仪式，祈望风调雨顺，枸杞丰收。茨农们一直传承着枸杞婚礼民俗仪式，祈望日子红红火火、爱情甜甜蜜蜜、福寿吉祥、白头偕老。每逢节日，中宁人总要品着枸杞耙耙茶、吃着枸杞宴，思绪顺着茶中涟漪轻轻散开、细细品出独属于中宁枸杞的一份古韵情怀。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847502.htm"	"农业部农产品加工局"	"646"	"2015-09-28 17:24"
+"62"	"新疆奇台旱作农业系统"	"第三批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928629643797352.jpg"" src=""./W020150928629643797352.jpg""/></p>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" oldsrc=""W020150928629643793749.jpg"" src=""./W020150928629643793749.jpg""/></p>
+<p>　　奇台县位于新疆维吾尔自治区东北部，地处天山北麓、准噶尔盆地东南缘，总面积1.93万平方公里，总人口30万人。作为古丝绸之路新北道上的重要坐标，这里历史悠久，地域辽阔，土地肥沃，汉朝郑吉曾分兵300在此屯田。之后，历代军屯、民屯、官屯、商屯和农垦得以延续发展，在山梁沟壑间创造了万亩旱田，至今仍保留着稳定的产量。成为新疆农耕文化的重要发祥地。</p>
+<p>　　奇台旱作农业系统是天山北麓“靠天收”的农业生产典型，主要以旱作种植为主，并涉及林业、畜牧和副业等农业类型。历代先民依靠独特的光热资源和水土资源，利用当地复杂地形和垂直地带气候，在不同海拔高度播种适宜的作物，探索出作物种植-留茬地放牧种植模式，“二牛抬扛”畜力耕作方式、“水打滚”和“浪苗子”撒播生产方式、轮留休耕土壤保持肥力方式、堆草火烧和深耕条播防治虫草灾害方式等传统农业生产方式。旱作农业不浇水、不施肥，实行轮作、休耕制度，确保农业生产可持续，有效保护了当地生态系统的完整性。</p>
+<p>　　旱地景观随季节更替而变化，彰显着农耕文化的原生态魅力。春季种子撒播在连绵的群山之上的旱地里，出苗后绿色绵延起伏，夏季麦子成熟金色满山，秋季遍野残茬中牛羊成群，冬季冰封山峦白雪皑皑，一年四季有着不同的令人震撼的美景，被誉为天山麦海、空中麦田、中国最美的麦田和摄影家的天堂。</p>
+<p>　　随着全球气候变化和周边城市工业污染加剧，旱作农业系统面临严峻的挑战。目前，奇台县人民政府按照农业部中国重要农业文化遗产保护要求，制定了旱作农业系统保护规划和管理办法，通过围栏禁牧、加强生态保护，举办“开犁节”传承农耕文化，大力发展休闲观光农业，保障农民增收和重要农业文化遗产价值永续传承。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dsp/201509/t20150928_4847595.htm"	"农业部农产品加工局"	"685"	"2015-09-28 17:26"
+"63"	"河北迁西板栗复合栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918630396092511.jpg"" oldsrc=""W020170918630396092511.jpg""/></p>
+<p align=""center"">河北迁西板栗复合栽培系统</p>
+<p>　　迁西板栗复合栽培系统位于河北省迁西县滦河北部山区，优越的气候条件与立地条件造就了迁西板栗卓越的品质，形成端正均匀，肉质细腻，甘甜芳香，营养丰富的板栗佳果。迁西板栗曾被宋代诗人晁公溯描述为“风陨栗房开紫玉”，被赞誉为东方“珍珠”和“紫玉”。</p>
+<p>　　历史上，板栗就是迁西人的主要食物来源之一，并可入药，被称为“铁杆庄稼”和“木本粮食”，至今已有2000多年的历史。至明洪武年间，形成完善的板栗复合栽培系统。到清末时，产品已经天津口岸出口。现在，常胜峪村还生长着600年生古栗树，全县境内百年古树随处可见。</p>
+<p>　　迁西板栗复合栽培系统在空间结构上创造出丰富的生态位，广泛开展间作、林下种养殖等农业生产方式，充分利用光热水土等自然资源。相比板栗单作模式，复合栽培系统通过提升土壤有机质、微量元素含量和保护系统内丰富的生物多样性，有效改善了局地生态环境。结合传承至今的丰富的知识和技术体系，农业系统提供了丰富的生态系统服务，是一种典型的可持续农业发展方式。独特的迁西板栗文化体现在日常饮食、祭祀、礼仪等方面，象征吉祥，喻示吉利、立子、立志和胜利。</p>
+<p>　　然而，矿业发展、劳动力流失和日趋激烈的板栗市场竞争，也威胁着迁西板栗复合栽培系统的保护和发展。迁西县政府正将紧抓生态文明建设的有利契机，逐步推进美丽乡村建设和休闲农业发展，使迁西板栗复合栽培系统这一具有重要价值的农业文化遗产焕发新的光彩。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819015.htm"	"农业部"	"75"	"2017-09-18 17:29"
+"64"	"河北兴隆传统山楂栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918629387086614.jpg"" oldsrc=""W020170918629387086614.jpg""/></p>
+<p align=""center"">河北兴隆传统山楂栽培系统</p>
+<p>　　河北兴隆传统山楂栽培系统位于燕山山脉东部，覆盖兴隆县全境，总面积3123平方公里,种植山楂21.2万亩。重点区域位于六道河镇、兴隆镇、北营房镇和雾灵山乡等4个乡镇。</p>
+<p>　　兴隆县是“九山半水半分田”的石质山区，其气候与土壤条件不适合种植粮食作物，却适宜山楂生长。兴隆人智慧地克服了山区不利机械化作业等劣势条件，构筑石坝墙梯田进行山楂栽培，距今已有500余年。兴隆野生山楂遍布全县，境内由根蘖萌生的百年以上山楂大树有1000余棵，枝繁叶茂，株产山楂上千斤。兴隆县在山楂栽培面积和产量上均居全国首位，曾被国家林业部命名为“中国山楂之乡”。</p>
+<p>　　兴隆独特传统山楂品种——铁山楂，曾是农民增收致富的摇钱树。其营养价值高，药用功能突出。山楂树耐旱、耐瘠薄，对山区保持水土、涵养水源、调节气候等均有重大意义。兴隆山楂栽培系统形成了一套特有的技术和知识体系，根蘖归圃育苗，“因树修剪，随枝造型”的修剪方式，传统追肥，石坝墙修筑，山楂窖藏，山楂加工等技术和知识对其他地方山楂的选育、栽培起到示范作用。与山楂有关的文化丰富多样，涉及饮食、礼仪、信仰等各个方面。</p>
+<p>　　然而，农业劳动兼业化老龄化问题突出，生产率低，劳动强度大等现实问题，制约了山楂产业持续发展。山楂老树因比较效益低，价格受市场波动大，影响了农户对山楂栽培的积极性，品种资源也遭受流失的风险。兴隆传统山楂栽培系统正亟待进行保护。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819014.htm"	"农业部"	"49"	"2017-09-18 17:28"
+"65"	"山西稷山板枣生产系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918628685081450.jpg"" alt="""" src=""./W020170918628685081450.jpg""/></p>
+<p align=""center"">山西稷山板枣生产系统</p>
+<p>　　稷山县历史悠久，是中华民族的发祥地之一，4000多年前中国农业始祖五谷之神后稷曾在此教民稼穑，数千年的农耕文明先河在这里开启。据考证，稷山板枣起源于春秋时期，发展于唐朝，兴盛于明清，至今已有3000多年的历史，是中国十大名枣之首，唐代以来为历代皇廷贡品。</p>
+<p>　　稷山板枣生产系统覆盖稷山县全境，主要分布在稷峰镇和化峪镇。千年以上古板枣树17500株，五百年古板枣树50000株，古枣树数量为全国之最。稷山板枣皮薄、核小、汁甜、肉厚，营养丰富，素有“枣中王”、“果中宝”、“鲜维生素丸”之称，多次揽获国家、省市食博会、农业博览会金奖，先后获得山西十大名枣和中国十大名枣之首等美誉。1984年板枣树确定为稷山的县树，稷山也被命名为中国名特优经济林“红枣之乡”。</p>
+<p>　　稷山人民干旱的土地上种植板枣树，林下间作小麦、蔬菜等作物，“板枣树-林下作物”的复合经营模式，构成了独特的水源涵养、水土保持、防风固沙的旱地利用系统。流传至今的板枣树划拨技术，传统的采摘、筛选、风干的农具、设施和技艺仍在使用和流传。与板枣相关的文化、精神根植在稷山人民中间，形成适应干旱地区的传统农业文化。</p>
+<p>　　然而，受到自然与社会的双重胁迫，山西稷山板枣生产系统的传承与保护面临着严重的威胁。稷山县人民政府高度重视系统的这一问题，按照中国重要农业文化遗产保护工作的要求，积极推进国家板枣森林公园建设，促进板枣一二三产融合发展。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819012.htm"	"农业部"	"56"	"2017-09-18 17:26"
+"66"	"内蒙古伊金霍洛旗农牧生产系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918628016622357.jpg"" oldsrc=""W020170918628016622357.jpg""/></p>
+<p align=""center"">内蒙古伊金霍洛旗农牧生产系统</p>
+<p>　　内蒙古伊金霍洛旗农牧生产系统地处鄂尔多斯高原东南部的伊金霍洛旗，总面积5600平方公里，核心保护区位于伊金霍洛镇。</p>
+<p>　　伊金霍洛，汉意为“圣主的院落”，因祭祀成吉思汗而闻名，并按照蒙古族习俗，在大伊金霍洛周围自然形成禁地。禁地内不准开垦，不准砍伐树木，不准破坏草场，不准盖土房，保护自然，使成吉思汗宫帐周围保持原始草原环境和传统牧业生产。伊金霍洛旗农牧生产系统因提供成吉思汗祭祀所需牲祭、奶祭、酒祭、素食等供品而形成并传承至今，并因此人工选择了优良的农牧业优良品种用于供奉和生产。蒙古族群众将他们遵循自然规律，敬畏自然、崇尚自然，爱护动植物、爱惜工具，与自然和谐相处的生态观、自然观与他们最杰出的领袖一同祭祀，代代相传。</p>
+<p>　　目前，伊金霍洛旗草原生态环境面临着开垦、工矿的严重干扰。电力设施、高速公路对伊金霍洛旗农牧生产系统及生态景观造成强烈的视觉冲击。成吉思汗祭祀供品受到了当今社会、经济、文化氛围的影响，与之密切相关的农牧生产系统也遭受到严重的冲击。伊金霍洛旗人民政府按照农业部中国重要农业文化遗产保护工作的要求，制定了内蒙古伊金霍洛旗农牧生产系统保护和发展规划，促进当地居民生活水平全面提高，使得内蒙古伊金霍洛旗农牧生产系统继续散发出独特的魅力。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819011.htm"	"农业部"	"49"	"2017-09-18 17:25"
+"67"	"吉林柳河山葡萄栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918627280921030.jpg"" oldsrc=""W020170918627280921030.jpg""/></p>
+<p align=""center"">吉林柳河山葡萄栽培系统</p>
+<p>　　吉林柳河山葡萄栽培系统位于吉林省东南部， “七山半水二分田，半分道路和庄园”的柳河县，土地总面积3348.3平方公里，果园面积1667公顷。目前，柳河山葡萄种植面积达到3万余亩，带动农户2300余户，形成了柳河山葡萄种植产业带。</p>
+<p>　　山葡萄满语称为“阿木鲁”，是我国特有的珍稀葡萄品种。1993年，考古工作者在柳河罗通山古城遗址发现了已经炭化的山葡萄颗粒，是迄今为止的柳河山葡萄的最早例证。有据可查的历史可以追溯到清末民初。今天，以柳河镇、驼腰岭镇、三源浦镇等乡镇为主的山葡萄种植园区，形成了新的农业景观带。柳河山葡萄种植过程中，全面实行合理密植、配方施肥、节水灌溉、保花保果、无公害生产等综合配套栽培技术。柳河山葡萄具有抗寒、高酸、低糖和营养丰富等优良性状，其果实为圆形或椭圆形、果穗完整，色泽纯正，香气浓郁，是极佳的葡萄品种和酿酒原料。柳河山葡萄从种植到加工做酒，具有浓郁的农耕民俗文化气息，逐渐形成了以喜庆团圆、绿色健康、休闲旅游为主的山葡萄民俗活动。</p>
+<p>　　面对自然与社会变迁，柳河山葡萄产业将始终坚持民族、特色、差异化发展方向，稳步发展种植基地，扎实推进企业建设，传承提升栽植技术，挖掘推广传统文化，必将保护和发展好这一宝贵的农业文化遗产。</p>
+<div style=""color: red""> </div>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819010.htm"	"农业部"	"48"	"2017-09-18 17:24"
+"68"	"吉林九台五官屯贡米栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918626580173992.jpg"" oldsrc=""W020170918626580173992.jpg""/></p>
+<p align=""center"">吉林九台五官屯贡米栽培系统</p>
+<p>　　吉林九台五官屯贡米栽培系统，源自长春市九台区其塔木镇满族原著居民罗关瓜尔佳氏族传承的种植栽培系统。它座落在松花江畔，一座拥有六百余年历史的文化古镇中。明永乐六年（1408）设置奇塔穆河卫，主要职责是征集粮食。清康熙四十五年（1706）设立五官屯，作为皇粮贡米产地。现主产地在其塔木镇、莽卡乡和胡家乡。</p>
+<p>　　五官屯地处松花江最平坦之岸，土黑而沃野千里，属温带大陆性季风气候，正在“黄金水稻带”之上。五官屯的粳稻是自古传承下来的特有的稻米品系，由古时洼地旱作发展到现在的水田生产，其米“重如沙、亮如玉、汤如乳、溢浓香，誉为稻米中的极品”。古稻种子现仍大面积种植，自古沿用的东北传统的酸菜水育苗，防治苗期病害亦在当代进行实践。由贡米栽培而衍生出的渔猎、鹰猎、萨满、稻作、饮食文化，亦传承良好。</p>
+<p>　　历经百年的沧桑，在经济、文化蓬勃发展的时代，五官屯贡米栽培系统已在九台全域推广开来，为贡米栽培系统的保护与发展带来新的机遇。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819009.htm"	"农业部"	"43"	"2017-09-18 17:23"
+"69"	"江苏高邮湖泊湿地农业系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918626046494491.jpg"" oldsrc=""W020170918626046494491.jpg""/></p>
+<p align=""center"">江苏高邮湖泊湿地农业系统</p>
+<p>　　江苏高邮湖泊湿地农业系统位于江苏省扬州市高邮市境内，是以中国第六大淡水湖高邮湖湿地为生活和生产区域，以鸭、鱼、蟹、稻为核心的农、林、牧、渔等复合型生态农业系统。系统总面积有6万多公顷，由水域、滩涂和陆地构成；其中核心区位于高邮市最北端的界首镇，面积约445公顷。</p>
+<p>　　早在7000-5000年前，高邮湖泊湿地农业肇始于璀璨的龙虬庄文明，先民们在湖沼地带采集渔猎、饭稻羹鱼。北宋时，湖区特色农产品双黄鸭蛋和高邮湖大闸蟹开始在全国声名远播。明万历年间区域内数量众多的小湖彻底联并成一个大湖，高邮湖泊湿地农业的核心生产区基本形成。</p>
+<p>　　高邮湖泊湿地农业系统的核心技术是鱼鸭蟹稻结合的立体式农作，即在湖区陆地和水陆交错空间内实行稻鸭共作，在水体空间中实行鸭、鱼、蟹混养。区域内生物多样性十分丰富，并在广阔复杂的作业区上孕育了多样而优质的农产品，其中“中国三大名鸭”之一的高邮麻鸭是国家级畜禽遗传资源保护品种，高邮湖大闸蟹和高邮双黄鸭蛋为“国家地理标志产品”。</p>
+<p>　　高邮人对“母亲湖”的热爱和崇拜长达几千年，湖上众多被创造和传颂的传说故事，影响了高邮人的文化与性格。高邮鸭现已是当地最具代表性的文化标识，它全面深入到了高邮人的日常生活当中。而渔民又自有一套历史悠久又独具特色的文化习俗。江苏高邮湖泊湿地农业区历经几千年的自然变迁和人工雕琢，形成了完整而立体的农业景观，让人置身其中，流连忘返。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819007.htm"	"农业部"	"63"	"2017-09-18 17:22"
+"70"	"江苏无锡阳山水蜜桃栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918625318435263.jpg"" oldsrc=""W020170918625318435263.jpg""/></p>
+<p align=""center"">江苏无锡阳山水蜜桃栽培系统</p>
+<p align=""left"">　　江苏无锡阳山水蜜桃栽培系统位于无锡市惠山区阳山、钱桥、洛社等乡镇，水蜜桃栽培面积3.2万亩。</p>
+<p align=""left"">　　无锡水蜜桃种植历史悠久，最早可追溯到宋代。明万历《无锡县志·土产》已有“沿山隙地，多辟桃园”的记载。阳山水蜜桃有20多个品种，传统代表品种有雨花露、银花露、白凤、阳山蜜露、白花等，鲜桃充分成熟时，香气浓郁，桃肉柔软多汁，皮易剥离，糖度高，酸度低，风味鲜美。</p>
+<p>　　阳山境内的安阳山，山峰突兀，断岩峭壁，曾被明太祖赞为“八面威风”。三月间，6000亩桃花漫山遍野，竞相怒放，争奇斗艳，绚丽多姿，把古老的阳山点缀成一个真正的“桃花源”。阳山已连续20年举办“中国·无锡阳山（国际）桃花节”，桃花文化已深入当地民俗文化。每年桃花盛开之际，阳山百姓会邀请亲朋好友一起吃蟠桃宴，赏桃花庵。</p>
+<p>　　藉由农业文化遗产保护的东风，阳山水蜜桃栽培系统将更好的发挥其生产、生态功能，保护好、利用好这一珍贵的农业文化遗产将成为当代阳山人的一大重要使命。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819006.htm"	"农业部"	"69"	"2017-09-18 17:20"
+"71"	"浙江德清淡水珍珠传统养殖与利用系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918624106945254.jpg"" oldsrc=""W020170918624106945254.jpg""/></p>
+<p align=""center"">浙江德清淡水珍珠传统养殖与利用系统</p>
+<p>　　浙江德清淡水珍珠传统养殖与利用系统地处浙江省湖州市德清县。它起源于南宋时期（公元1200-1300年）叶金扬发明的附壳珍珠养殖技术。这种将自然界珍珠的偶然形成转化成有意识的自觉培育过程，是古人的一大创举。</p>
+<p>　　德清的地形地貌特征，水网分布，以及水域周边的森林环境、人居环境、陆地条件等为育珠蚌提供了很好的生长环境。蚌与其他物种形成复杂的生态关系，使蚌与水质变化关系等均达到平衡，整个生态系统能量转换和物质交流相对稳定。德清人还合理利用水土资源，形成了种桑、种稻（麦）、畜牧和养鱼相辅相成，桑地、稻田和池塘相连相倚的“粮桑鱼畜”系统和生态农业景观。此外，在长期的劳动和生活中，形成了丰富多彩、种类繁多的农耕文化，流传着众多的传说、民歌、谚语，保存了众多的农业工艺以及乡风民俗。</p>
+<p>　　德清水域面积广阔，水质优良，适合淡水蚌生长繁殖，自古便是珍珠养殖的重要地区，能用于育珠的蚌类有10余种和其他种类多样的水生生物多样性。以附壳珍珠养殖技术为代表的生产技术，在宋朝时德清的钟管和十字港一带推广，不仅解决了人们的生计问题，降低了采珠危险性，而且促进了珍珠贸易及加工业的发展。当代，德清已形成了从河蚌养殖到加工成珍珠终端产品的完整的产业链条。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819003.htm"	"农业部"	"60"	"2017-09-18 17:19"
+"72"	"安徽铜陵白姜生产系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918623541752846.jpg"" oldsrc=""W020170918623541752846.jpg""/></p>
+<p align=""center"">安徽铜陵白姜生产系统</p>
+<p>　　安徽铜陵白姜生产系统所产白皮生姜，因鲜姜呈乳白色至淡黄色而得名。铜陵生产白姜在《史记》中就有记载，到了北宋时期，铜陵白姜的面积、产量已经颇具规模，更凭借其品质上乘，口感极佳的优势，成为当时著名的白姜产区，同时纳入朝廷贡品之列，素有“中华白姜”的美誉。</p>
+<p>　　姜具有药食同源的特殊功效，不仅作为调味蔬菜，还可以作为点心和菜肴食用，是大众认可的健康饮品。铜陵白姜也已被列入国家卫生部确定的药食同源的首批名单。姜园及生姜与农作物的轮作、套种制度、田间有机农家肥，生物体循环而产生的绿肥以及防护林带的多样树种都丰富了白姜种植体系植被的种类，形成系统内部稳定的动物、植物、微生物生态链。</p>
+<p>　　铜陵姜农在长期的生产实践中根据白姜生长特性，不断总结形成一整套独特完整的铜陵白姜栽培技艺，包括姜阁保种催芽法、低沟高陇种植技术、茅草遮荫棚技术等，不仅提高了白姜的产量，也为白姜的生态化、规模化生产提供了重要途径。铜陵白姜近千年还流传下来众多的加工工艺，其代表性加工工艺为盐渍生姜、酱渍生姜、糖醋生姜以及糖渍姜。与姜有关的饮食、祭祀、文学艺术等文化特质深植铜陵文化之中，为铜陵白姜生产系统的继续传承与发展提供了强大的内生动力。</p>
+<div style=""color: red"">
+<p>　　</p>
+</div>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5819001.htm"	"农业部"	"55"	"2017-09-18 17:17"
+"73"	"安徽黄山太平猴魁茶文化系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918622694981125.jpg"" oldsrc=""W020170918622694981125.jpg""/></p>
+<p align=""center"">安徽黄山太平猴魁茶文化系统</p>
+<p align=""justify"">　　太平猴魁茶文化系统所在的黄山区地处神奇的北纬30°，坐拥世界名山黄山、怀抱太平湖国家湿地公园,高山森林生态与湖泊生态系统交相呼应，生态环境得天独厚，呈现出森林-高山茶园-森林-村落田园-湖泊湿地的立体农业景观体系。</p>
+<p>　　黄山太平猴魁茶文化系统的最初起源可以追溯到1000多年前的唐朝。1900年，太平猴魁茶创制成功，随即一举成名，蜚声中外、绵延百年、延续至今。</p>
+<p>　　百年传承的《猴茶真经》，印证了太平猴魁茶顶级品质。系统内选育出本土优质茶树品种资源柿大茶，积累形成了高山生态茶园林茶共育和绿色栽培管理技术体系。发明出“三大阶段九道手工采制工艺”被茶业界誉为“最高超、最精湛、最独特的制茶技艺”。形成的独有的茶园生物多样性保护与利用、水土资源合理利用的传统知识和相关的乡规民约，完善了的以本土茶树优良品种选育、高山生态茶园精细栽培管理、精湛猴茶采制工艺为核心的传统农业技术体系，至今对生态农业和循环农业发展以及科学研究具有重要价值。</p>
+<p>　　太平猴魁茶文化系统不仅是一种农业生产方式，更是以人为本、与时俱进、因地制宜、效法自然、天人合一等哲学思想和生态智慧。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818999.htm"	"农业部"	"44"	"2017-09-18 16:56"
+"74"	"福建福鼎白茶文化系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918610138057355.jpg"" oldsrc=""W020170918610138057355.jpg""/></p>
+<p align=""center"">福建福鼎白茶文化系统</p>
+<p>　　福建福鼎白茶文化系统位于福建省东北部的福鼎市，境内山海相邻，丘陵起伏。福鼎白茶的栽培与饮用的历史悠久。唐代陆羽《茶经》即有记载：“永嘉县东三百里有白茶山”。据史料记载，明清时代，福鼎白茶“产银针、白牡丹、白毛猴和莲心等，远销重洋”。</p>
+<p>　　福鼎白茶文化系统在栽培的自然的空间上呈现立体群落结构，使白茶生态系统在物质循环与能量流动中达到了一种动态平衡，保持了相对的稳定，实现肥力的自我维持，并为丰富的生物多样性提供生存空间。在栽培上，白茶与番薯、芦柑、桂花树、木槿树等作物套种，提高了白茶的香气，也为茶树提供了遮阴，同时减少病虫害，使白茶的生长自然健康。福鼎白茶传承了传统而古老的制茶方式，是我国古代最早的茶叶制作方式，至今已经有几千年的历史。白茶加工不炒不揉,既不破坏酶的活性,又不促进氧化作用,保持品种特性。</p>
+<p>　　饮用茶作为福鼎民众的生活方式，自然融入了福鼎民众的日常生活中，形成了以茶为中心的茶民俗文化。尤其是在当地畲族的生活、劳动，会客、婚嫁、祭祀活动中，都能看到一钵煮好的茶，配合着朗朗上口的《敬茶歌》，凸显了浓郁的民族特色。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818946.htm"	"农业部"	"61"	"2017-09-18 16:55"
+"75"	"江西南丰蜜橘栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918609512336395.jpg"" oldsrc=""W020170918609512336395.jpg""/></p>
+<p align=""center"">江西南丰蜜橘栽培系统</p>
+<p>　　江西南丰蜜橘栽培系统地处旴江中上游，覆盖南丰县全境，栽培面积70万亩。境内气候温和湿润，适宜柑橘生长，其柑橘栽培历史可追溯到2300年前的战国时期，甚至更早。</p>
+<p>　　到唐代，南丰已形成复杂的柑橘品种群，有红橘、火橘、广橘、乳橘等。其中，乳橘经不断繁育改良，形成新的生态品种群，人们以其味甜如蜜称之蜜橘，被冠以产地名后称为“南丰蜜橘”，距今已有1300年以上的历史。南丰蜜橘因具有色泽金黄、皮薄核少、肉嫩无渣、香气馥郁、营养丰富等特点，成为历代朝廷贡品，故又称为“贡橘”。</p>
+<p>　　南丰蜜橘是南丰橘园的主要种植品种，广橘、朱红橘、火橘、本地甜橙、金柑等其他传统品种亦有栽培。通过多品种多品系混种、林下间作套种、橘基鱼塘、猪沼果鱼、橘园养蜂等种养模式，南丰橘园形成了以柑橘类林果作物为主的农业生态系统，获得经济与生态的双收益。以廓背园为代表的老橘区，还开发出橘基鱼塘系统，创造了“橘因塘而丰，鱼因园而肥”的循环农业景观。随着种植范围的逐步扩大，南丰橘园从河岸沙地到丘陵山地均有分布，呈现出森林-山地橘园-农田-平地橘园-村落-洲地橘园-河流的立体景观特征。</p>
+<p>　　在漫长的发展与演化过程中，南丰橘农形成了一套以南丰蜜橘为主的柑橘栽培技术体系。柑橘生产也渗透到橘农生活的方方面面。历经千年，南丰蜜橘不仅为橘农提供了生计保障，更成为他们所崇尚的精神寄托。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818943.htm"	"农业部"	"45"	"2017-09-18 16:54"
+"76"	"江西广昌传统莲作文化系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918608904719845.jpg"" oldsrc=""W020170918608904719845.jpg""/></p>
+<p align=""center"">江西广昌传统莲作文化系统</p>
+<p>　　广昌传统莲作文化系统所处的广昌县，是江西省第二大河流抚河的发源地，因盛产白莲而被称为“中国白莲之乡”。目前每年种植白莲10万亩左右，从南部的驿前镇直到北部的甘竹镇，百里连片。</p>
+<p>　　据考证，广昌白莲种植最早的文字记载是公元8世纪，至今已有1300多年。这是广昌白莲栽培规模宏大，气势壮观；在山间谷地，梯田，冲积平原，盆地中均有种植；莲田或为单独的大片莲田，或与老树竹林、山水村庄相依，或与丹霞怪石、河流湿地结合。</p>
+<p>　　经过长久的历史传承与创新，广昌莲农将白莲从池塘湖泊移到水田，拓展了白莲发展的空间；创造独特的白莲加工工艺，使广昌白莲形成了“香甘烂绵”的独特品质；丰富的轮作套养模式，实现了白莲可持续生产，生产了丰富多样的农产品。广昌莲文化传统深厚，与之相关的民俗活动琳琅满目。系统产出的主要产品有广昌通芯白莲、荷叶茶、藕粉、莲子汁、莲芯茶、莲子面条、藕粉面条、莲子奶粉、莲子饼干、莲子保健品、茶树菇等。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818940.htm"	"农业部"	"49"	"2017-09-18 16:54"
+"77"	"山东章丘大葱栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918607878071703.jpg"" oldsrc=""W020170918607878071703.jpg""/></p>
+<p align=""center"">山东章丘大葱栽培系统</p>
+<p>　　山东章丘大葱栽培系统地处山东中部，核心保护区位于章丘区绣惠街道办事处。穿越二千多年的时光隧道，历经章丘人的智慧改造，造就了高、大、脆、白、甜的“世界葱王”。目前，全区大葱种植总面积达到12万亩，实现年产值近20亿多元，成为拉动区域经济发展、带动农民增收致富的支柱产业，章丘大葱的品牌价值达到140.44亿元。</p>
+<p>　　特有的地方品种（大梧桐、气煞风）、多年来演变传承下来的独特的种植工艺、得天独厚的水土资源和良好的生态环境造就了章丘大葱卓越的品质和口感。葱脆香甜的章丘大葱，生吃、凉拌最佳，炒食、调味、配锅亦好，且其性温，常食可开胃消食、杀菌防病。葱白葱汁葱须葱种等有较高医用价值。</p>
+<p>　　遗产区域内，大葱与其他生物和谐共生，相得益彰。形成了独具特色的农业景观。“状元葱”产地——女郎山，风景秀丽，植被茂密，土壤肥沃，灌溉便利，章丘大葱遍布女郎山。山中，葱仙子庇佑着勤劳的章丘葱农。为了充分挖掘和保护章丘大葱文化，近几年在女郎山上建立了山、田、文化为一体的观光型章丘大葱郊野公园和承载章丘大葱悠久历史的大葱文化博物馆。</p>
+<p>　　章丘大葱以其悠久的栽培历史、深厚的文化底蕴、独特的优良品质而享誉国内外，作为传统特色农业也是人类文化遗产的一部分，保护并发扬光大这一优秀的农业文化遗产意义重大。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818938.htm"	"农业部"	"49"	"2017-09-18 16:52"
+"78"	"河南新安传统樱桃种植系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918607145813717.jpg"" oldsrc=""W020170918607145813717.jpg""/></p>
+<p align=""center"">河南新安传统樱桃种植系统</p>
+<p>　　河南新安传统樱桃种植系统遗产地处欧亚大陆桥上。北暖温带大陆性季风气候特征，有利于果树储糖挂果，尤其是樱桃等高糖水果生长。系统所产“樱桃”以色艳、味浓、肉厚，水分多而闻名。新安樱桃栽培的文字记载始于东汉，古树最长树龄已有1400年。现已经认定的千年樱桃古树30株，百年以上樱桃古树有500余株。新安樱桃早在汉、魏、晋、唐等朝代就被选为宫廷贡品。</p>
+<p>　　樱桃树生长的环境要在向阳背风、沟壑纵横的地方。洛阳盆地四周，沟壑纵横，清流曲绕，向阳背风处最宜樱桃生长，历代都为人民重视。优越的生长环境造就了新安樱桃个大肉肥、色红润、味甘美的品质特征。同时，遗产地丰富的农业品种资源是农户生计收益的有益补充。樱桃园还给沟壑区提供了不可替代的生态系统服务。</p>
+<p>　　新安传统樱桃种植系统在我国仅存的古樱桃林中不仅种植规模大、十分罕见，而且其文化内涵在国内也是独一无二，具有极高的文化价值、生态价值、示范价值及科研价值。成为全国重要农业文化遗产，将使这一重要文化遗存得到最大限度地保护，使之成为人类所共享的精神和物质财富。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818937.htm"	"农业部"	"50"	"2017-09-18 16:50"
+"79"	"湖南新田三味辣椒种植系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918606523215803.jpg"" oldsrc=""W020170918606523215803.jpg""/></p>
+<p align=""center"">湖南新田三味辣椒种植系统</p>
+<p>　　辣椒起源于南美的玻利维亚和巴拉圭，明朝末年引入中国，最初辣椒只是被作为观赏作物和药物，随后进入中国菜谱。湖南新田三味辣椒种植系统位于新田县陶岭镇，因土壤类型以钙质页岩风化物土壤为主，呈弱碱性，质地较粘重，钙、硒、钾等元素含量丰富。加之当地的气候也与辣椒的生长周期非常匹配。经过几百年的栽培才使得该品种辣椒具备“香、甜、辣”的三味特性。</p>
+<p>　　三味辣椒已有300余年的种植历史，品种主要是羊角椒和婆瓜椒。近年来，三味辣椒作为当地农户脱贫致富的主导产业来推进，种植面积3280亩。新田三味辣椒品种优良独特，是陶岭人民世代种植的优良地方品种不断进化提纯形成，属于中辣型，营养丰富。三味辣椒种植的传统技术百年传承，保证了辣椒品牌的独特性和权威性。2015年，“陶岭三味辣椒”成功申报为国家地理标志保护产品。2016年，荣获“中国名优硒产品”称号。以陶岭三味辣椒为主要原料加工而成的陶岭三味辣椒系列产品，已成特色国字号品牌产多次获得国家金奖。</p>
+<p>　　随着时代发展，三味辣椒不断创新，新田县政府与人民立志保护好这一独具特色的传统农业系统，让农业文化遗产绽放光彩。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818934.htm"	"农业部"	"51"	"2017-09-18 16:49"
+"80"	"湖南花垣子腊贡米复合种养系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918605024201454.jpg"" alt="""" src=""./W020170918605024201454.jpg""/></p>
+<p align=""center"">湖南花垣子腊贡米复合种养系统</p>
+<p>　　湖南花垣子腊贡米复合种养系统湖南省湘西自治州花垣县,地处云贵高原东缘，武陵山脉中段。</p>
+<p>　　在神秘的“苗疆生界”中，明代初年设崇山卫时，开始大力推广水稻种植，并进贡宫廷，逐渐形成特色鲜明的苗族农耕文化。专家指出子腊老谷种应当是明朝初年，由引进的贵阳粘经驯化后形成的本地稻谷品种，形成时间应该早于清代。</p>
+<p>　　在苗疆，纵横交错的山泉溪流构建出脉络清晰的灌溉系统。连片稻田沿子腊河呈条带状分布。四面崇山环绕、森林茂密，形成独特的峡谷稻田美景和神秘的苗寨风情。“铺树造田”“稻鱼鸭鸟蛙”复合种养、育林蓄水等传统农耕与生态技术，实现了水土资源的集约利用，是兼顾经济效益与社会效益的传统农耕智慧的集中体现。区域内生物多样性和农业生物多样性丰富，苗族文化与农耕文化不断融合，当地逐渐形成精彩纷呈、特色鲜明的苗族农耕民俗文化，并产出许多特色鲜明，种类丰富的优质农产品。</p>
+<p>　　湖南花垣子腊贡米复合种养系统是花垣县子腊村的苗族先民们创造性地开垦利用土地、采取复合种养的集体智慧结晶。花垣人民将继续传承和保护好这一珍贵的农业文化遗产。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818929.htm"	"农业部"	"62"	"2017-09-18 16:46"
+"81"	"广西恭城月柿栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918603778395573.jpg"" alt="""" src=""./W020170918603778395573.jpg""/></p>
+<p align=""center"">广西恭城月柿栽培系统</p>
+<p>　　恭城瑶族自治县是著名的“中国月柿之乡”，柿树栽培历史悠久，自然条件得天独厚，经过数百年的自然进化和劳动人民的精心栽培，形成了恭城月柿这一独特的柿树品种。目前，全县恭城月柿种植面积19.58万亩。</p>
+<p>　　恭城月柿已有400多年的栽培、加工历史，现已开发出柿饼、甜柿、脆柿、果脯、柿馅饼、柿叶茶、柿果酒等系列产品。恭城月柿果形美观、色泽鲜艳，脆柿脆甜可口，冻柿清香甜心，柿饼甘柔如饴，还具有多种保健功能。恭城月柿获得了“农产品地理标志登记保护产品”“全国优质果品”“广西著名商标”等系列荣誉。恭城月柿种植集中，连片的万亩恭城月柿形成了一道道独特靓丽的风景，也实现了有效的生态系统服务。</p>
+<p>　　恭城县委、政府因势利导，依托丰富的人文自然资源，把生态果园风光与民俗文化结合起来，大力发展生态旅游产业，红彤彤的月柿带旺了恭城的旅游服务产业，为这一农业文化遗产的保护与发展提供了有效途径。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818925.htm"	"农业部"	"53"	"2017-09-18 16:45"
+"82"	"海南海口羊山荔枝种植系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918575863235831.jpg"" alt="""" src=""./W020170918575863235831.jpg""/></p>
+<p align=""center"">海南海口羊山荔枝种植系统</p>
+<p>　　东起海口市龙塘镇，西至石山镇，北临海口市区，南至新坡镇，这方圆一百公里，被俗称为羊山地区。海口羊山火山群是我国唯一处于热带地区的第四纪火山地貌地质遗迹，火山密集、类型多样，熔岩隧道奇特，是极为罕见的火山地貌和熔岩地貌。同时，这里植被丰富，有大片的原生态雨林，湿地和自然水泊，形成独特的羊山小气候。</p>
+<p>　　优越的自然环境孕育了近2000年的荔枝种植历史。至上世纪六十年代，羊山地区有野生荔枝母本群6万亩之多，至今仍有4万多亩。上百年的古树随处可见。它们生长于火山岩缺土、缺水等恶劣环境中，却能茁壮成长，年年硕果；在饥荒时，为羊山人提供食物；它们生长在火山岩石缝及低洼处，防风固土，涵养水源，在无数次台风的疯狂肆虐之下，屹立不倒，为羊山人守卫家园。</p>
+<p>　　火山岩土壤中含有丰富的微量元素“钼”，对果实糖分的积累具有重大的作用。同时，火山岩土壤中还富含硒等稀有元素。因此，羊山地区的荔枝不仅果大、核小、味美、色艳，常食还有保健功效。永兴镇古命“雷虎”，自古就有“雷虎荔枝、荔染三台”之贡品美名，是羊山六镇荔枝销售集散地。如今，“永兴荔枝”已经成为中国地理商标产品。</p>
+<p>　　除种植荔枝外，羊山人们充分利用独特的火山石资源，通过林果间作，林农复合等，发展黄皮、莲雾、龙眼、杨桃、火龙果、菠萝蜜等多种热带水果和粮食。油料作物及畜禽等的林下种植与养殖业。形成了极具地方特色的生态农产品。而如同火山岩一般荣辱不惊，顽强不屈的品格，已然成为火山人的文化信仰。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818805.htm"	"农业部"	"49"	"2017-09-18 15:58"
+"83"	"海南琼中山兰稻作文化系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918575340634182.jpg"" alt="""" src=""./W020170918575340634182.jpg""/></p>
+<p align=""center"">海南琼中山兰稻作文化系统</p>
+<p>　　琼中山兰稻作文化系统水稻种植历史悠久，是黎族和苗族人在长期的农耕生产中形成了独特的农业系统。</p>
+<p>　　在海南丰富的稻种资源中，以山兰稻为代表的旱稻品种仍然十分珍贵。它主要分布于海南岛山区和丘陵山地，具有独特的农艺特性和较强的抗旱生理特征。山兰稻穗大粒大，糙米粗蛋白含量高,有的种质还具有较好的蒸煮品质，营养好，口感佳。作为稻作抗旱、优质育种的原始亲本材料,山兰稻种质资源有很高的研究价值与经济价值。</p>
+<p>　　黎族人传统种植山兰稻的方式是“砍山兰”，也就是我们常说的刀耕火种；并与其它粮食作物实行轮作与套种，最大限度地增加地面覆盖、增加生物固氮、减少水土流失，并且可以在全年不同时间收获粮食，保证比较稳定的食品和蛋白质供应。与稻作文化相得益彰的是传统山兰稻作文化，山兰酒、山兰歌、山兰节都极具地方和民族特色。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818802.htm"	"农业部"	"21"	"2017-09-18 15:57"
+"84"	"重庆石柱黄连生产系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918574553927254.jpg"" alt="""" src=""./W020170918574553927254.jpg""/></p>
+<p align=""center"">重庆石柱黄连生产系统</p>
+<p>　　重庆石柱黄连传统生产系统位于中国重庆市的东南部地区（简称渝东南地区）正好跨越了神秘的北纬30°线。这一区域特殊的地理面貌、气候环境和水文情况，孕育了各种各样特有的动植物品种。其中，黄连就是中药材的原料植物的代表。渝东南石柱土家族自治县的黄连原料产量，占全球总产量的60%，位于石柱县黄水镇的黄连市场，完成了全球80%以上的黄连原料交易。</p>
+<p>　　重庆石柱黄连传统生产系统具有悠久的种植与商贸历史，据可考证文献记载，其种植最早可追溯到距今1200多年。黄连是我国传统中药黄连的原植物之一，药材商品名为味连，具有清热燥湿、泻火解毒的功能。黄连始载于《神农本草经》，列为上品。</p>
+<p>　　重庆石柱黄连传统生产系统农业景观多样，包括由生物景观、地文景观、天象景观、水文景观等组成的自然景观，和由历史遗迹、民俗风情、史事传说等组成人文景观。系统传承了完整的黄连种植、加工技术。并依托当地独特生态环境，形成了包含丰富黄连文化元素的民俗文化特征。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818796.htm"	"农业部"	"25"	"2017-09-18 15:55"
+"85"	"四川盐亭嫘祖蚕桑生产系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918573504825855.jpg"" alt="""" src=""./W020170918573504825855.jpg""/></p>
+<p align=""center"">四川盐亭嫘祖蚕桑生产系统</p>
+<p align=""left"">　　四川盐亭嫘祖蚕桑生产系统处于古蜀国东部边境地区，巴蜀交界处，四川盆地中部偏北，属浅丘地貌。</p>
+<p>　　嫘祖蚕桑，已有5000多年历史。在盐亭县金鸡镇、高灯镇等地，出土三星堆古蜀文明独有的石壁和大量恐龙、东方剑齿象、犀牛化石及金蚕、铜蚕、石蚕、巨桑化石，有先蚕嫘祖出生在盐亭县金鸡镇，发明栽桑养蚕、缫丝制衣的系列故事、丰富多彩的地缘文化和名胜古迹。嫘祖是中华人文始祖、黄帝正妃，是华夏民族的伟大母亲，和黄帝一道开创中华男耕女织的农耕文明，被誉为“人文母祖”。</p>
+<p>　　盐亭有“四边桑”、大行桑、密植桑园“三结合”的栽桑布局，乔木桑、高干桑、中干桑、低干桑、无干桑错落有序。粮桑套种桑园、隙地坡台桑园，桑在林中，林在桑中，桑在粮中，粮在桑中，一派山水林田路桑的自然田园风光。　　盐亭有“簸簸蚕、兜兜茧”的分户传统养蚕和小蚕共育、大蚕省力化蚕台育、纸板方格蔟自动上蔟的现代集约养蚕形式，春、夏、秋和晚秋四季养蚕布局。</p>
+<p style=""color: black"">　　入选中国重要农业文化遗产，为四川盐亭嫘祖蚕桑生产系统迎来了前所未有机遇，盐亭将保护和开发好“一带一路”丝绸源头，发扬光大嫘祖精神，保护好这一珍贵的遗产。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818793.htm"	"农业部"	"19"	"2017-09-18 15:54"
+"86"	"四川名山蒙顶山茶文化系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918572637452929.jpg"" alt="""" src=""./W020170918572637452929.jpg""/></p>
+<p align=""center"">四川名山蒙顶山茶文化系统</p>
+<p align=""left"">　　四川省蒙顶山茶文化系统地处四川盆地西缘山地，位于四川省雅安市名山区。蒙顶山是我国历史上有文字记载人工种植茶叶最早的地方。蒙顶山茶亦为茶中珍品，唐玄宗时已被列为贡品，作为天子祭祀天地祖宗的专用品，一直沿袭到清代，历经一千二百多年而不间断。蒙顶山茶珍贵稀有，屡获国际大奖。2017年，“蒙顶山茶”被评为“中国十大茶叶区域公用品牌”。</p>
+<p align=""left"">　　蒙顶山是“茶树良种宝库”，茶树品种资源十分丰富蒙顶山茶种植栽培过程中注重茶树与农作物间作，茶区生物多样性丰富，覆被良好，茶园采取“茶+贵木”“茶+果”等立体种植模式，推广“茶-林-绿肥”复合栽培模式，实施“猪-沼-茶”“草-羊-沼-茶”等模式，实现了养分循环、美化环境、提高品质等目标。</p>
+<p align=""left"">　　历史上蒙顶山茶历经蒙顶石花、蒙顶黄芽、玉叶长春、万春银叶、蒙顶甘露，形成了绵延千年的名茶系列，历久益彰。依托茶形成的川茶文化积淀厚重，历久弥香。同时，以名山为起点的“川藏茶马古道”现已成为重要历史文化古迹。</p>
+<p align=""left"">　　名山区牢牢守住发展和生态两条底线,全面开展科技兴茶、龙头兴茶、市场兴茶、品牌兴茶、文化兴茶“五大举措”，加快推进茶产业转型升级，保护和发展好这一珍贵的农业文化遗产。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818791.htm"	"农业部"	"25"	"2017-09-18 15:53"
+"87"	"云南腾冲槟榔江水牛养殖系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918571820951393.jpg"" alt="""" src=""./W020170918571820951393.jpg""/></p>
+<p align=""center"">云南腾冲槟榔江水牛养殖系统</p>
+<p>　　腾冲槟榔江水牛是我国发现的唯一的河流型水牛。该群体主要分布于腾冲槟榔江河谷一带，有2000多年的饲养历史。经历了长期闭锁繁衍和风土驯化，形成了适应当地气候环境的独特水牛群体，是乳、肉、役兼用的河流型水牛品种，现有群体4260多头。</p>
+<p>　　槟榔江水牛水牛被毛稀短，皮薄油亮，皮肤黝黑，角形螺旋形，四肢发育正常，肢势良好，体质结实，结构匀称，母牛后躯发达，侧视楔形，与本地水牛有着明显的外貌区别。通过加强对槟榔江水牛的选育、扩繁形成性能稳定、外貌一致的优良品种，可解决中国发展奶水牛产业的种源瓶颈，惠及全国800万头沼泽型水牛的改良。</p>
+<p>　　牛作为六畜之首，在农耕文化中具有举足轻重的地位。腾冲少数民族与汉族杂居共处，文化上相互影响，又各袭传统，从而形成了腾冲特色的水牛文化。槟榔江水牛角还用于腾药的加工，其中安宫牛黄丸最为著名，其他部位也多用于药用或可加工成艺术品。</p>
+<p>　　腾冲槟榔江水牛养殖系统带动了当地多功能农业发展，在生态文明建设、农业可持续发展方面具有重要价值。目前，国家对槟榔江水牛保护极为重视，紧抓国家“一带一路及大通道”建设的机遇，通过政策的完善和技术的创新，发展和保护好这一珍贵的农业文化遗产是当下重大的历史使命。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818790.htm"	"农业部"	"21"	"2017-09-18 15:51"
+"88"	"陕西凤县大红袍花椒栽培系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918571120359047.jpg"" alt="""" src=""./W020170918571120359047.jpg""/></p>
+<p align=""center"">陕西凤县大红袍花椒栽培系统</p>
+<p align=""left"">　　陕西凤县大红袍花椒栽培系统地处陕西东南部秦岭腹地，位于亚热带和暖温带分界线上。其特殊的地理位置和复杂多变的地形地貌，保存了丰富的而优质的花椒种质资源。凤县大红袍花椒历史悠久，自三国时期起便有种植。</p>
+<p align=""left"">　　产于凤县山区的大红袍花椒，因油腺发达、麻味浓郁悠久、口味清香、色泽鲜艳等特征，早在明清时期就已闻名全国，享誉海内外，成为历史名椒，被誉为“花椒之王”。凤县椒农在栽植凤椒的农业历史活动中，不断总结先人的智慧经验，总结野生古老花椒栽培模式，创新花椒生产技术。每年盛夏，大红袍花椒成熟采收的季节，凤县的沟沟岔岔，田间地头，红艳的大红袍凤椒将凤岭山地装扮织得分外妖绕，凤椒漫山遍野，醇香四溢。凤县人民在劳动生活中创造历史，在栽培、采摘、加工、储存、交易、食用花椒的丰富历程中诠释着大红袍花椒与凤县人民的不解之缘。</p>
+<p align=""left"">　　凤县大红袍花椒栽培系统中，更将多种果树、粮食和农业经济作物与花椒共同栽培，构成了种植区域生机勃勃的生态循环。椒农们在山间栽植大红袍花椒，以此为生，并衍生和创造出了独特的凤椒文化。</p>
+<p align=""left"">　　如今，勤劳质朴凤县人十分重视凤县大红袍花椒栽培系统这一千年产业的保护发展，注重统筹发展与保护生态的关系，不断提升大红袍花椒产业整体水平。为促进遗产保护、发展地方生态经济而努力，让遗产不断焕发新的活力。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818779.htm"	"农业部"	"27"	"2017-09-18 15:48"
+"89"	"陕西蓝田大杏种植系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918568450416529.jpg"" alt="""" src=""./W020170918568450416529.jpg""/></p>
+<p align=""center"">陕西蓝田大杏种植系统</p>
+<p>　　陕西蓝田大杏种植系统覆盖蓝田县以华胥镇、洩湖镇、三官庙、金山、厚镇、玉山、安村、普化、三里镇、前卫、蓝关镇、孟村、九间房等乡镇。其核心区范围为华胥镇，总面积为80平方公里。</p>
+<p>　　蓝田大杏栽培已有2500多年历史。相传在上古时期，伏羲、女娲因吃了其母华胥氏亲手所植大杏树的百年之果，灵气顿生，从而建立了远古华胥文明。有文字记载的大杏栽植历史亦可追溯到唐代以前.</p>
+<p>　　蓝田大杏因产于华胥，色泽黄亮，故也被称为“华胥大银杏”。目前，蓝田县有丰富的大杏品种种质资源，树种资源有2门5纲65科219种，100年以上的古杏树有530多株。独特的地理位置和优越的气候条件造就了蓝田大杏的绝佳品质，久负盛名，华胥也由此享誉“大杏之乡”。而蓝田大杏凭借其特殊地理位置背景下系统内部的地质、地形、土壤和气候生态结构等生态因素，形成了独特的自然生态系统，维持着杏园自身小环境内的生态系统平衡并辐射影响周边小范围内的生态环境健康循环，也为杏园内部生物多样性和为所在地域内生物多样性的保护提供有利的支撑。而系统还表现出良好的水土保持功能、水利的灌溉循环系统和农耕农事的立体种植的杏粮、杏果、杏疏、杏草、杏牧共生系统。</p>
+<p>　　蓝田大杏千百年来，见证了民族的融合，农耕文明的发展，在融合与发展中实现自身的价值，蓝田大杏与杏文化已经随着时代的变迁深入到蓝田人的心里和生活中。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818758.htm"	"农业部"	"24"	"2017-09-18 15:46"
+"90"	"宁夏盐池滩羊养殖系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" alt="""" src=""./W020170918567785223540.jpg"" oldsrc=""W020170918567785223540.jpg""/></p>
+<p align=""center"">宁夏盐池滩羊养殖系统</p>
+<p>　　宁夏盐池滩羊养殖系统地处陕甘宁蒙四省区交界地带，倚长城、屏朔漠，素有“灵夏肘腋、环庆襟喉”之称，位于毛乌素沙漠南缘，是鄂尔多斯台地向黄土高原过渡地带。系统覆盖总面积8522.2平方公里，可利用草原面积714万亩。历史上，农耕文化与游牧文化在此交融，是滩羊的主产区和核心保种区，盐池也是著名的“中国滩羊之乡”。近年来，滩羊年饲养量稳定在300万只左右，年出栏滩羊育肥羊达180万只。</p>
+<p>　　盐池属典型的大陆性季风气候，土壤以灰钙土、淡灰土为主，低洼地盐碱化比较普遍，水质矿化程度较高而偏碱性。草原虽产草量低，但牧草中干物质含高，尤其牧草蛋白质和硫、钙、磷等矿物质含量丰富。这种独特的天然草场和水土资源，造就了“盐池滩羊”独一无二的地方优良绵羊品种。</p>
+<p>　　滩羊由于体躯是白色，自然放牧时羊群远看像一片一片的碱滩，故称之为“滩羊”，也叫“白羊”。盐池滩羊是由蒙古羊经长期的自然选择和人工选育而形成的一个长脂尾、粗毛型的裘皮品种。在《易》《诗经》中就有记载。盐池人民在长期的滩羊放牧饲养中，熟练掌握了滩羊物候规律，最早总结了根据干旱荒漠化自然生态环境和牧草生长周期变化，并创造了优良羊种选育技术，及对留种羔羊开始最早的鉴定。据已有资料，当今世界上尚没有类似滩羊的绵羊品种，滩羊在国际养羊业中占有绝无仅有的位置。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818747.htm"	"农业部"	"20"	"2017-09-18 15:29"
+"91"	"新疆伊犁察布查尔布哈农业系统"	"第四批"	"<div id=""TRS_AUTOADD""><style id=""_Custom_V6_Style_"" type=""text/css"">
+
+#TRS_AUTOADD P {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD TD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD DIV {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD LI {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}#TRS_AUTOADD {LINE-HEIGHT: 24px; MARGIN-TOP: 6px; FONT-FAMILY: 宋体; MARGIN-BOTTOM: 12px; FONT-SIZE: 10.5pt}</style>
+<p align=""center""><img style=""border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"" oldsrc=""W020170918556925425116.jpg"" alt="""" src=""./W020170918556925425116.jpg""/></p>
+<p align=""center"">新疆伊犁察布查尔布哈农业系统</p>
+<p>　　察布查尔布哈农业系统主要是由察布查尔布哈及其灌溉区域组成。察布查尔布哈新疆伊犁锡伯营锡伯族军民在清嘉庆年间，人工建造的伊犁地区最大的水利工程，全长90公里，迄今已有207年历史。察布查尔布哈是伊犁河流域大河灌区及察布查尔锡伯自治县的主要农田引水渠道，由布哈灌溉农田的粮食产量占全县粮食总产的70%以上。察布查尔布哈建成后，促进了农业生产，形成了当地锡伯族特有的农耕文化，也成为锡伯族传统文化中的母体文化，为锡伯族传统文化的传承和发展奠定了坚实基础。</p>
+<p>　　察布查尔布哈农业系统遗产地区域内拥有丰富的自然景观和人文景观，有耕地、草地、林地、次生林、滩涂地、湿地、野生植物等，这些景观沿察布查尔布哈两岸分布，丰富的生物多样性和保存相对完好的自然生态构成了系统生态景观的主体。随着城镇化和现代化农业快速发展，察布查尔布哈沿岸形成以锡伯族传统文化为主体的多元文化格局，传统农业文化遗产在民间存续，大量具有锡伯族特色的传统村寨遍布其中，除此之外还有国家级重点旅游景区和国家重点文物保护单位，当地借此发展休闲农业和乡村旅游，不仅为游客提供观光、采摘、体验民俗、了解民族文化和享受乡土情趣的场所，也带动了当地农牧民就业增收。</p>
+</div>
+"	"http://www.moa.gov.cn/ztzl/zywhycsl/dspwhyc/201709/t20170918_5818681.htm"	"农业部"	"18"	"2017-09-18 15:25"
