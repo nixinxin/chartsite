@@ -1,0 +1,438 @@
+.feedback_div {
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 65px;
+    right: 0px;
+    z-index: 99999;
+}
+
+.feedback_btn {
+    width: 40px;
+    height: 122px;
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.feedback_btn_1{width: 42px;height: 48px;float: left;display: inline;}
+.feedback_btn_2{width: 42px;height: 48px;float: left;display: inline;background: url("images/feedback_btn.png") no-repeat;margin: 15px 0px 0px 0px;}
+.feedback_btn_3{width: 42px;height: 48px;float: left;display: block;background: url("images/feedback_btn.png") no-repeat;margin: 145px 0px 0px 0px;}
+
+.feedback_btn_1.div_normal{background: url("images/feedback_btn.png") no-repeat 0px -67px;}
+.feedback_btn_1.div_hover{background: url("images/feedback_btn.png") no-repeat -69px -67px;}
+.feedback_btn_1.div_click{background: url("images/feedback_btn.png") no-repeat -136px -67px;}
+
+.feedback_btn_2.div_normal{background: url("images/feedback_btn.png") no-repeat 0px -130px;}
+.feedback_btn_2.div_hover{background: url("images/feedback_btn.png") no-repeat -69px -130px;}
+.feedback_btn_2.div_click{background: url("images/feedback_btn.png") no-repeat -136px -130px;}
+
+.feedback_btn_3.div_normal{background: url("images/feedback_btn.png") no-repeat -1px -178px;}
+.feedback_btn_3.div_hover{background: url("images/feedback_btn.png") no-repeat -70px -178px;}
+.feedback_btn_3.div_click{background: url("images/feedback_btn.png") no-repeat -137px -178px;}
+
+.feedback_content {
+    width: 362px;
+    float: left;
+    display: inline;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 1px #dad8d8; font-family: "微软雅黑";
+
+}
+.feedback_content_1{width: 100%;height: auto;float: left;display: inline;}
+.feedback_content_2{width: 100%;height: 350px;float: left;display: none;}
+
+.feedback_content_1 .content_btn{width: 100%;height: 46px;float: left;display: inline;}
+.feedback_content_1 .content_btn strong{   color: #717580;
+    cursor: default;
+    display: block;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: bold;
+    height: 100%;
+    line-height:46px;
+    text-align: right;
+    vertical-align: bottom;
+    width: 70px;}
+.feedback_content_1 .content_btn span{width:auto;height: 30px;float: left;display: inline;line-height:30px;vertical-align: bottom;cursor:pointer;padding-left: 20px;margin: 8px 0px 0px 20px}
+
+.feedback_content_1 .content_btn span.normal{background: url("img/pay_dialog_button.png") no-repeat 0px -149px;}
+.feedback_content_1 .content_btn span.click{background: url("img/pay_dialog_button.png") no-repeat 0px -115px;}
+
+.feedback_content_1 .content_bug,.feedback_content_1 .content_problem{width: 100%;height:350px;float: left;display: inline;}
+
+.content_bug ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding:0px 0px 8px 0px;
+}
+
+.content_bug ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin: 8px auto 0px 0px;
+}
+
+.content_bug ul .li_left {
+    width: 70px;
+    height: 30px;
+    float: left;
+    display: inline;
+    text-align: right;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    cursor: default;
+    font-weight: bold;
+}
+
+.content_bug ul .li_right {
+    width: 280px;
+    height: auto;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+.content_bug ul .li_right .problem_input {
+    width: 270px;
+    height: 30px;
+    float: left;
+    display: inline;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_bug ul .li_right .problem_input input {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    border: none;
+}
+
+.content_bug ul .li_right .plate {
+    width: 270px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.content_bug ul .li_right .plate textarea {
+    width: 270px;
+    height: 145px;
+    /*background: url(images/plate_bg.png) 5px 5px #ffffff no-repeat;*/
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow: auto;
+    resize: none;
+}
+
+.content_bug ul .li_right .words {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    font-size: 12px;
+    cursor: default;
+    float: right;
+    display: inline;
+    color: #717580;
+}
+
+.content_bug ul .li_right .words span {
+}
+
+.content_bug ul .li_right .browser {
+    width: 126px;
+    height: auto;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+.content_bug ul .li_right .browser select {
+    width: 124px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 12px;
+    /*text-indent: 5px;*/
+}
+
+
+.content_bug ul .li_right .other {
+    width: 124px;
+    height: 30px;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    vertical-align: bottom;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0px 0px 0px 20px;
+    color: #b3b4b7;
+    overflow: hidden;
+}
+
+.content_bug ul .li_right .other input {
+    width: 100%;
+    height: 30px;
+    float: left;
+    display: inline;
+    border: none;
+    color: #b3b4b7;
+    text-indent: 5px;
+}
+.content_bug ul .li_right .local,.content_bug ul .li_right .screenshot,.content_problem ul .li_right .local,.content_problem ul .li_right .screenshot{
+    width: 82px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    dispaly: inline;
+}
+
+.content_bug ul .li_right .local,.content_problem ul .li_right .local{
+
+    background: url(images/feedback_btn.png) -103px -240px;
+
+}
+.content_bug ul .li_right .screenshot,.content_problem ul .li_right .screenshot{
+    background: url(images/feedback_btn.png) -1px -240px;
+}
+.content_bug ul .li_right .local,.content_problem ul .li_right .local {
+    /*margin: 0px 0px 0px 20px;*/
+    position: absolute;
+    top: 0px;left: 95px;z-index: 1;
+}
+.local_text{width: 95px;height: 32px;line-height:32px;float: left;display: inline;margin-left:100px;overflow: hidden;white-space:nowrap;word-spacing: normal;text-overflow: ellipsis;cursor: default;}
+.local_input{ width: 175px;height: 30px;position: absolute;top: 0px;left: 110px;z-index:0;overflow: hidden;white-space:nowrap;word-spacing: normal;text-overflow: ellipsis;cursor: default;}
+
+.content_problem ul{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding:0px 0px 15px 0px;
+}
+.content_problem ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin: 0px auto;
+}
+
+.content_problem ul .li_left {
+    width: 70px;
+    height: 30px;
+    float: left;
+    display: inline;
+    text-align: right;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    cursor: default;
+    font-weight: bold;
+}
+
+.content_problem ul .li_right {
+    width: 280px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+
+.content_problem ul .li_right .problem_input {
+    width: 270px;
+    height: 30px;
+    float: left;
+    display: inline;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_problem ul .li_right .problem_input input {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    border: none;
+}
+
+.content_problem ul .li_right .plate {
+    width: 270px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.content_problem ul .li_right .plate textarea {
+    width: 270px;
+    height: 188px;
+    /*background: url(images/plate_bg.png) 5px 5px #ffffff no-repeat;*/
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow: auto;
+    resize: none;
+}
+
+.content_problem ul .li_right .words {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    font-size: 12px;
+    cursor: default;
+    float: right;
+    display: inline;
+    color: #717580;
+}
+
+.submit_feedback,.submit_close{
+    width: 74px;
+    height: 32px;
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.submit_feedback {
+    background: url(images/feedback_btn.png) no-repeat -230px 0px;
+    margin: 20px 0px 0px 90px;
+}
+.submit_close{
+    background: url(images/feedback_btn.png) no-repeat -121px 0px;
+    margin: 20px 0px 0px 53px;
+}
+.content_problem .submit_feedback{    margin: 18px 0px 0px 90px;
+}
+.content_problem .submit_close{    margin: 18px 0px 0px 53px;
+}
+/*投诉*/
+.content_complaint{width: 100%;height: auto;float: left;display: inline;  -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
+.content_complaint .content_text{width: 100%;height: 40px;float: left;display: inline;overflow: hidden;}
+.content_complaint .content_text p{width: auto;height: 100%;line-height: 18px;margin: 6px 0px 0px 70px;font-size: 12px;}
+.content_complaint .content_text p a{color: #5e7968;}
+.content_complaint ul{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding:0px 0px 15px 0px;
+}
+.content_complaint ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin:8px 0px 0px 0px;
+}
+
+.content_complaint ul .li_left {
+    width: 70px;
+    height: 30px;
+    float: left;
+    display: inline;
+    text-align: right;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    cursor: default;
+    font-weight: bold;
+}
+
+.content_complaint ul .li_right {
+    width: 280px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.content_complaint ul .li_right .problem_input {
+    width: 270px;
+    height: 30px;
+    float: left;
+    display: inline;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_complaint ul .li_right .problem_input input {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    color: #717580;
+    border: none;
+}
+.content_complaint ul .li_right .problem_input span{     line-height: 28px;font-family: "微软雅黑";}
+
+
+.content_complaint ul .li_right .plate {
+    width: 270px;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+.content_complaint ul .li_right .plate textarea {
+    width: 270px;
+    height: 100px;
+    /*background: url(images/plate_bg.png) 5px 5px #ffffff no-repeat;*/
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow: auto;
+    resize: none;
+}
+.content_complaint ul .li_right .words{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    font-size: 12px;
+    cursor: default;
+    float: right;
+    display: inline;
+    color: #717580;
+}
+.content_complaint .submit_feedback{    margin: 16px 0px 0px 90px;
+}
+.content_complaint .submit_close{    margin: 16px 0px 0px 53px;
+}
+

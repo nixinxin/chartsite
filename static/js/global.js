@@ -29,7 +29,7 @@ $(function () {
                 let user = $("#user");
                 user.addClass("profile");
                 user.find("li:first a").empty().append('<img class="img-circle" src='+ data.image +'>'+ name +'<b class="caret"></b><span class="fa fa-envelope pull-right message" style="font-size:1.5em"><span class="navbar-unread count">10</span></span>');
-                user.find("li:first").append('<ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="/logout" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul>');
+                user.find("li:first").append('<ul id="userMenu" class="dropdown-menu" style="display:none"><li><a href="/user/personal">个人中心<span class="fa fa-envelope pull-right"></span></a></li><li class="divider"></li><li><a href="/user/account">账号设置 <span class="glyphicon glyphicon-cog pull-right"></span></a></li><li class="divider"></li><li><a href="/user/invite">邀请朋友 <span class="fa fa-users pull-right"></span></a></li><li class="divider"></li><li><a href="/user/logout" id="logout">安全退出 <span class="glyphicon glyphicon-log-out pull-right"></span></a></li></ul>');
                 user.remove("li:even")
             },
         })

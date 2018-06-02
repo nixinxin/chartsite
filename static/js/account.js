@@ -53,7 +53,7 @@ function upInfo() {
                     BootstrapDialog.alert("修改成功！")
                 },
                 error: function(t) {
-                    BootstrapDialog.alert(400 == t.status ? "昵称已存在！" : "修改失败！")
+                    BootstrapDialog.alert(400 == t.status ? "昵称已存在！" : "修改失败！");
                 }
 			})
 	}

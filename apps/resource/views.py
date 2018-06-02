@@ -937,7 +937,7 @@ class ResourceView(View):
 
         response_type = request.GET.get("type", '')
         if response_type == 'agritech':
-            select = request.GET.get('select', 45)
+            select = request.GET.get('select', 96)
             select = int(select)
             databases = GjnydbDes.objects.filter(category="农业科技资源数据").order_by('index')
             database = GjnydbDes.objects.get(id=select).title
@@ -977,7 +977,7 @@ class ResourceView(View):
             })
         elif response_type == 'pest':
 
-            select = request.GET.get('select', 3)
+            select = request.GET.get('select', 54)
             select = int(select)
             databases = GjnydbDes.objects.filter(category="农业有害生物数据").order_by('index')
             database = GjnydbDes.objects.get(id=select).title

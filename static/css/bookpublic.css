@@ -288,6 +288,11 @@ textarea:focus {
 .fr {
   float: right ;
 }
+#div_single_r {
+  float: right;
+  margin: auto;
+  min-height: 700px;
+}
 .clear {
   display: block;
   clear: both;

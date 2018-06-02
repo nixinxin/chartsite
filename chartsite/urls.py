@@ -22,7 +22,7 @@ from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 from rest_framework_jwt.views import obtain_jwt_token
 import xadmin
-from chart.views import BannerViewset, VisualView
+from chart.views import BannerViewset, VisualView, DistributeView
 from chartsite.settings import MEDIA_ROOT, STATIC_ROOT
 from operation.views import UserFavViewset, FeedBackViewset
 from users.views import *
@@ -276,6 +276,7 @@ urlpatterns = [
     url(r'^service/$', ServiceView.as_view(), name='service'),
     url(r'^chart/$', ChartView.as_view(), name='chart'),
     url(r'^csvhtml/$', CsvHtmlView.as_view(), name='csvhtml'),
+    url(r'^distribute/$', DistributeView.as_view(), name='distribute'),
 
     # 数据集下载接口
     url(r'^text/(?P<slug>.*)/$', CsvTextView, name='text'),

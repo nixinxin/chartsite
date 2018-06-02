@@ -140,7 +140,7 @@ def check_img_code(request):
 
 def sendactemail(host, username, emailaddr):
     data = {'status': False, 'msg': ''}
-    # 第三方SMTP服务
+    # 第三方 SMTP 服务
     my_sender = '1025464043@qq.com'  # 发件人邮箱账号
     my_pass = 'ehtcmrqluckmbgab'  # 发件人邮箱密码
     receivers = [emailaddr, ]  # 收件人邮箱账号，我这边发送给自己

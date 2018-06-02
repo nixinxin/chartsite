@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))
 SECRET_KEY = '3=j8cp5+a=ni!^3vpx1%n9v!#31&4hm1kyj^f&-$cnhfm+5)^a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 APPEND_SLASH = True
 

@@ -1,0 +1,74 @@
+{% extends 'base/base.html' %}
+{% block cssjs %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'layui/layui.css' %}">
+
+
+    <link href="{% static 'css/distribute.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/invite.min.css' %}">
+    <script src="{% static 'js/share.js' %}"></script>
+    <!--jACKY end-->
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+{% endblock %}
+
+{% block content %}
+{#    <div class="page-header bg-gray "></div>#}
+
+    <div class="content" style="width: 1295px">
+    	<div class="contentTop"><h2>作物物种分布图</h2></div>
+        <div class="caseList">
+        	<ul id="caseList">
+                {% for i in items.object_list %}
+                    <li>
+                        <a href="{% get_media_prefix %}{{ i.path }}" target="_blank">
+                            <div class="caseThum"><img width="300" height="180" align="{{ i.title }}" class="lazy" src="{% get_media_prefix %}{{ i.path }}" style="display: block;"></div>
+                            <div class="caseBottom">
+                                <div class="caseName">{{ i.title| cut:".gif" }}</div>
+                                <div class="caseInfo">
+                                    <div class="caseIcon ll">{{ i.id }}</div><div class="caseTime">{{ i.id }}</div></div>
+                            </div>
+                        </a>
+                    </li>
+                {% endfor %}
+          </ul>
+        </div>
+    </div>
+    <div style="text-align: center">
+        <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-10">
+                    <span class="layui-laypage-count">共{{ items_num }}条</span>
+                    {% if items.has_previous %}
+                        <a href="?{{ items.previous_page_number.querystring }}" class="prev layui-laypage-prev ">&lsaquo;&lsaquo; 上一页</a>
+                    {% else %}
+                        <span class="layui-disabled prev layui-laypage-prev">&lsaquo;&lsaquo; 上一页</span>
+                    {% endif %}
+                    {% for page in items.pages %}
+                        {% if page %}
+                            {% ifequal page items.number %}
+                                <span class="layui-laypage-curr"><em class="layui-laypage-em"></em><em>{{ page }}</em></span>
+                            {% else %}
+                                <a href="?{{ page.querystring }}" class="page" data-page="{{ page }}">{{ page }}</a>
+                            {% endifequal %}
+                        {% else %}
+                            <span class="layui-laypage-spr">…</span>
+                        {% endif %}
+                    {% endfor %}
+                    {% if items.has_next %}
+                        <a href="?{{ items.next_page_number.querystring }}" class="next layui-laypage-next" data-page="{{ items.next_page_number }}">下一页 &rsaquo;&rsaquo;</a>
+                    {% else %}
+                        <span class="disabled next">下一页 &rsaquo;&rsaquo;</span>
+                    {% endif %}
+                    <span class="layui-laypage-skip">到第<input id='inputpage' type="text" min="1" value="1" class="layui-input">页<button type="button" class="layui-laypage-btn">确定</button></span>
+                    <script>
+                        $("#demo7 .layui-laypage-btn").on("click", function () {
+                            location.href = "?page=" + $("#inputpage").val()
+                        })
+                    </script>
+                </div>
+    </div>
+
+{% endblock %}
+
+{% block foot %}
+
+{% endblock %}

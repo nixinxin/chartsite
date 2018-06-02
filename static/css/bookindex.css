@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+﻿﻿@charset "utf-8";
 .mr9 {
   margin-right: 9px;
 }
@@ -13,7 +13,7 @@
 .navbox .linklist li {
   float: left;
   width: 120px;
-  height: 86.5px;
+  height: 113px;
   padding-top: 27px;
   margin-bottom: 12px;
 }
@@ -139,7 +139,7 @@
 .sideNav .hover .icon-cur {
   visibility: visible;
   position: absolute;
-  top: 1px;
+  top: 0;
   left: 247px;
   width: 0;
   height: 58px;
@@ -155,7 +155,7 @@
   top: 0;
   left: 250px;
   width: 495px;
-  height: 350px;
+  height: 364px;
   overflow: hidden;
   z-index: 20;
   border: 1px solid #0081e6;
@@ -177,7 +177,7 @@
 .sideNav .subnav .more {
   position: absolute;
   clear: both;
-  bottom: 0px;
+  bottom: 0;
   width: 481px;
   height: 30px;
   padding-top: 4px;
@@ -293,3 +293,6 @@
      color:#999;
 
  }
+* {
+    -webkit-box-sizing: border-box;
+}

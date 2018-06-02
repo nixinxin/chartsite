@@ -20,7 +20,7 @@
         	<ul id="caseList">
                 {% for i in chart.object_list %}
                     <li>
-                        <a href="/chart?id={{ i.id }}" target="_blank">
+                        <a href="{% url 'chart' %}?id={{ i.id }}" target="_blank">
                             <div class="caseThum"><img width="300" height="180" align="{{ i.name }}" class="lazy" src="{% get_static_prefix %}{{ i.surface }}" style="display: block;"></div>
                             <div class="caseBottom">
                                 <div class="caseName">{{ i.name }}</div>

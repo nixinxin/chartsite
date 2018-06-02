@@ -3846,14 +3846,14 @@ $(function() {
                 csrfmiddlewaretoken: $("[name=csrfmiddlewaretoken]").val()
 			};
 		$.ajax({
-			url: "/invite/",
+			url: "/user/invite/",
 			method: "post",
 			data: a,
 			success: function(data, status) {
 				n.text("邀请邮件已经进入发送队列！")
 			},
 			error: function(data, status) {
-			    n.text("邀请邮件提交失败:-(");
+			    n.text("邀请邮件提交失败！");
 			}
 		})
 	})

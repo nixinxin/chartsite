@@ -647,6 +647,9 @@ class ZgtsNcp(models.Model):
     desc = models.TextField(blank=True, null=True, db_column='基本介绍', verbose_name='基本介绍')
     layout = models.TextField(blank=True, null=True, db_column='产业布局', verbose_name='产业布局')
     history = models.TextField(blank=True, null=True, db_column='历史', verbose_name='历史')
+    province = models.CharField(max_length=60, blank=True, null=True, db_column='省份', verbose_name='省份')
+    city = models.CharField(max_length=60, blank=True, null=True, db_column='市级', verbose_name='市级')
+    district = models.CharField(max_length=60, blank=True, null=True, db_column='区县', verbose_name='区县')
 
     class Meta:
         db_table = '中国特色农产品'
@@ -10157,6 +10160,7 @@ class GjnydbDes(models.Model):
     title = models.CharField(max_length=60, db_column='数据集名称', verbose_name='数据集名称', blank=True, null=True)
     category = models.CharField(max_length=10, db_column='类别', verbose_name='类别', blank=True, null=True)
     index = models.IntegerField(db_column='显示顺序', verbose_name='显示顺序', default=0, blank=True, null=True)
+    records = models.IntegerField(db_column='记录数', verbose_name='记录数', default=0, blank=True, null=True)
     click_num = models.IntegerField(default=0, verbose_name="点击数", db_column='点击数', blank=True, null=True)
     fav_num = models.IntegerField(default=0, verbose_name="收藏数", db_column='收藏数', blank=True, null=True)
     resource = models.CharField(max_length=100, db_column='来源', verbose_name='来源', blank=True, null=True)

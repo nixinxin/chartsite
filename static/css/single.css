@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.Ynavigation{ overflow:hidden; margin-bottom:10px;}
+.single_l{ width:250px; border:1px solid #ccc; height:auto; margin:10px 0px;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.single_l img{ margin:10px auto; padding:10px; border:1px solid #ccc;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;margin-left: 18px;}
+
+.single_tab{ width:220px; margin:0 auto;}
+.single_tab span{ line-height:35px; font-size:14px; display:block; float:left; padding:0px 15px; cursor:pointer;}
+.single_tab span.current{ border-bottom:2px solid #F93;}
+.s_list ul{ margin-bottom:10px; padding-top:10px; border-top:1px solid #dfdfdf;}
+.s_list ul li{
+    background:url(/static/img/u35.png) no-repeat left center;/*	background-attachment: fixed; background-position: 2px 2px;*/
+    line-height: 25px;
+    padding-left: 20px;
+    border-bottom:#EBEBEB solid 1px;
+    border-top:#fff solid 1px;
+    background-color: #f5fbf1; background-position-x:5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; //文本不换行，这样超出一行的部分被截取，显示...
+}
+
+.s_about{ padding:10px 0px; border-top:1px solid #dfdfdf;}
+.s_about span{ float:right; font-size:12px; line-height:30px;} 
+
+
+.single_r{ width:878px; margin:10px 0px 10px 20px;}
+.single_r span.s_title{ background:url(/static/img/img_jtou.png) no-repeat left center; font-size:14px; padding-left:15px; display:block; line-height:35px;}
+.s_slecct{ border:1px solid #dfdfdf; background:#F6F6F6; padding-left:10px;}
+.s_slecct img{ float:left; padding:18px 10px; cursor:pointer;}
+.s_slecct select{ margin-top:10px; width:100px; height:25px; line-height:25px\9;}
+.s_slecct input{ line-height:23px; height:23px; border:1px solid #BEBEBE; width:300px;}
+.s_slecct button{-webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; height: 25px;line-height:25px\9; text-align: center; width: 76px;  color: #f1f1f1; background-color: #585858;  text-indent: 0; margin-left:10px;}
+.s_slecct button:hover { color: #fff; background-color: #585858;}
+.s_add{ padding-bottom:10px;}
+.s_add select{ margin-top:0px;}
+.s_add select.s_add_hb{ width:52px;}
+
+.s_year{border:1px solid #dfdfdf; background:#F6F6F6; margin:10px 0px; padding:10px;}
+.s_year a{ border:1px solid #dfdfdf; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; cursor:pointer; display:block; line-height:30px;padding:0px 10px; float:left; margin:5px; background:#E4E4E4; font-size:14px;}
+.s_year a.current,.s_year a:hover{ background:#FD8F19; color:#fff;}
+
+.s_read img{ float:left; cursor:pointer;}
+
+.s_page{line-height: 30px;background-color: #E0E0E0;height: 30px;width: 100%;margin-bottom:3px;margin-top:3px;}
+.s_p_listl{float:left;width:50%;display:block; font-size:14px;}
+
+.s_table{ width:100%;}
+.s_table table{ width:100%;}
+.s_table table td.s_tab_title{ width:80%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.s_table table tr.s_tab{ background:#5CB4FE; color:#fff; text-align:center;}
+.s_table table tr.s_tab td{ font-size:14px; padding-left:0px;}
+.s_table table td{ line-height:35px; border:1px solid #dfdfdf; padding-left:15px;}
+.s_table table td img{ float:left; padding-left:10px; cursor:pointer;}
+.s_table table tr td.s_tab_page{ padding-left:0px; text-align:center;}
+.s_table table tr td span{ padding-left:20px; display:inline; line-height:35px;}
+.s_table table tr td span:hover{cursor:pointer;}
+.s_table table tr.s_tab_bg{ background:#F0F0F0;}
+
+.s_table table td a{ line-height:25px; color:#0081e4;}
+.s_table table td a:hover{ color:#FD8F19;}
+.s_table table td p{ line-height:20px; padding-bottom:5px;overflow:hidden; text-overflow:ellipsis; white-space:normal; max-height:40px; width:700px;}
+
+.s_table_j table td{ line-height:30px;}
+.s_table_j table td p{ color:#aaa;}
+.s_table_j table tr td span{ line-height:30px;}
+
+
+#ResultPage span, #ResultPage  a {
+    background-color: #e2e2e2
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.custom {
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+}

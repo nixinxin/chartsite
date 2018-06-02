@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,form,ul,ol,li,input,select,label,dl,dt,dd{margin:0;padding:0;-webkit-text-size-adjust:none; font-size:14px;}
+input,select,label{vertical-align:middle;}
+ul,ol,li{list-style:none;}
+input,img,select{border:0;outline:none;}
+body{font-family:"微软雅黑";color:#000;font-size:14px;}
+a{/*color:#333;*/color:#000;text-decoration:none;outline:none;}
+a:hover{color:#c40001;}
+
+
+.top{background:#f4f4f4;border-bottom:1px solid #ddd;border-top:1px solid #fff;overflow:hidden;}
+.top_con{width:1000px;margin:0 auto;line-height:32px;}
+.top .top_left{float:left;}
+.top .top_left a{margin:0 0 0 15px;color:#555;}
+.top .calendar{float:left;padding:0 0 0 120px;color:#555;}
+.top .top_right{float:right;}
+.top .top_right{float:right;}
+.top .top_right .tool_mail{background:url(nyb_mail.png) no-repeat right center;padding:0 35px 0 0;color:#555;}
+
+.header{height:159px;background:url(nyb_header.jpg) no-repeat center 0;}
+.header_con{width:1000px;margin:auto;}
+.header .logo{float:left;padding:32px 0 0 15px;}
+.header .search{float:right;border:2px solid #c60019;margin:98px 0 0;overflow:hidden;}
+.header .search .txt{float:left;width:239px;height:36px;line-height:36px;background:#fff;padding:0 8px;color:#a9a9a9;border:none;}
+.header .search .btn{float:left;width:76px;height:36px;background:#c60019;line-height:36px;text-align:center;font-size:16px;color:#fff;cursor:pointer;}
+
+.menu{height:45px;background:url(nyb_menu.gif) repeat-x;overflow:hidden;}
+.menu_con{width:1000px;margin:0 auto;overflow:hidden;}
+.menu ul{margin:1px 0 0;}
+.menu ul li{float:left;line-height:44px;font-size:18px;font-weight:bold;padding:0 33px;}
+.menu ul li:hover{ background:#B00000;}
+.menu ul li a{color:#fff;}
+.menu ul li.cur{background:#fbeded;}
+.menu ul li.cur a{color:#c40001;}
+.menu ul li.last{float:right;}
+
+.main{width:1000px; margin:0 auto;}
+.nav{padding:12px 0;margin:0 0 5px;overflow:hidden;color:#888;}
+.nav span,.nav a{color:#888;}
+.nav a:hover{color:#c40001;}
+
+.footer_bg{height:270px;background:url(nyb_footer_bg.jpg) no-repeat center bottom;margin:25px 0 0;}
+.gov_links{border-bottom:1px solid #b5b5b5;padding:0 0 30px;position:relative;}
+.gov_links_con{width:1000px;margin:0 auto;height:55px;background:#d7ddd7;border:1px solid #c0c5c0;padding:12px 0 0; box-shadow:1px 1px 5px #ccc;}
+.gov_links .pic{float:left;padding:0 60px 0 0;overflow:hidden;}
+.gov_links .pic a{float:left;width:197px;height:41px;margin:0 0 0 30px;}
+.gov_links .pic img{width:197px;height:41px;}
+.gov_links .links{float:left;width:220px;height:30px;background:#fff;margin:6px 15px 0 0;cursor:pointer;}
+.gov_links .links h6{font-weight:normal;font-size:16px;line-height:30px;background:url(nyb_links_ico.png) no-repeat right center;margin:0 15px;}
+.gov_links .links .links_list{display:none;height:168px;background:#fff;border:1px solid #ccc;overflow-y:auto;}
+.gov_links .links.cur .links_list{display:block;}
+.gov_links .links .links_list ul{overflow:hidden;}
+.gov_links .links .links_list ul li{padding:0 15px;}
+.gov_links .links .links_list ul li:hover{background:#1e90ff;}
+.gov_links .links .links_list ul li:hover a{color:#fff;}
+.gov_links .links .links_list ul li a{display:block;line-height:24px;}
+
+.footer{border-top:1px solid #fff;overflow:hidden;}
+.footer_con{width:1000px;margin:0 auto;overflow:hidden;}
+.footer .footer_left{float:left;width:80px;margin:50px 0 0 35px;}
+.footer .footer_mid{float:left;width:700px;text-align:center;}
+.footer .footer_nav{padding:25px 0 18px;overflow:hidden;}
+.footer .footer_mid p{line-height:24px;}
+.footer .footer_mid span{margin:0 8px;}
+.footer .footer_nav a{margin:0 18px;font-size:16px;}
+.footer .footer_right{float:right;width:110px;margin:64px 50px 0 0;}
+
+/*列表小圆点*/
+.li_cir{background: url(nyb_dot.png) no-repeat 2px center; padding-left:15px;}
+/*导航下的位置信息*/
+.position_now{ margin:0 auto; width:1000px; padding:20px 0 10px; color:#888;}
+.position_now a{color:#888;}
+.position_now a:hover{ color:#C40001;}
+/*下载附件*/
+.fujian_download{ width:90%; border-top:#ddd solid 1px; padding:10px 0 40px; margin:10px 5%; display:none;}
+.fujian_download_bt{ float:left; background:url(nyb_fujian_download20171220.png) no-repeat left center; width:15%; text-indent:24px; font-size:16px; color:#808080; margin:5px 0;line-height:20px;}
+.fujian_download_nr{ width:85%; float:right;}
+.fujian_download_nr li{ float:left; width:100%; padding:5px 0; line-height:20px;}
+.fujian_download_nr li a{ font-size:16px;}

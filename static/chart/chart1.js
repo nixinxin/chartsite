@@ -152,11 +152,10 @@ option = {
         tooltip: {},
         legend: {
             x: 'right',
-            data: ['第一产业', '第二产业', '第三产业', 'GDP', '金融', '房地产'],
+            data: ['第一产业', '第二产业', '第三产业', 'GDP', ],
             selected: {
                 'GDP': false,
-                '金融': false,
-                '房地产': false
+
             }
         },
         calculable: true,
