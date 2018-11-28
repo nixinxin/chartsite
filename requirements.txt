@@ -91,7 +91,7 @@ olefile==0.44
 openpyxl==2.4.9
 Pillow==4.3.0
 pycryptodome==3.4.7
-pyecharts==0.4.1
+pyecharts
 pyecharts-jupyter-installer==0.0.3
 PyJWT==1.5.3
 PyMySQL==0.7.11
