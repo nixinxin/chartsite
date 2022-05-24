@@ -33,7 +33,7 @@ openpyxl==2.4.9
 Pillow==4.3.0
 pycryptodome==3.4.7
 # pycurl==7.43.0
-PyJWT==1.5.3
+PyJWT==2.4.0
 PyMySQL==0.7.11
 python3-openid==3.1.0
 pytz==2017.3
@@ -93,7 +93,7 @@ Pillow==4.3.0
 pycryptodome==3.4.7
 pyecharts
 pyecharts-jupyter-installer==0.0.3
-PyJWT==1.5.3
+PyJWT==2.4.0
 PyMySQL==0.7.11
 python3-openid==3.1.0
 pytz==2017.3
@@ -152,7 +152,7 @@ openpyxl==2.4.9
 Pillow==4.3.0
 pycryptodome==3.4.7
 pyecharts-jupyter-installer==0.0.3
-PyJWT==1.5.3
+PyJWT==2.4.0
 PyMySQL==0.7.11
 python3-openid==3.1.0
 pytz==2017.3
